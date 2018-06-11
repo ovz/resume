@@ -7,23 +7,27 @@ Oleg Zhylin
 > _latest_ **ISO C++**. I have a great interest in other leading languages in the
 > industry, including **Rust**, **Python**, **Javascript**, et al.\
 >
-> During my carreer I gained considerable experience as **Software Architect**, and **Technical Team Lead**.\
+> During my carreer I gained considerable experience as **Software Architect**, and **Technical Team Lead**. During some projects I was a **Manager** of teams up to **12 people**.\
 
 ----
 
-Experience
-----------
+_Note_: Hyperlinks lead to `archive.org`
+-------------------------------------
 
-During my
- undergrad years I worked for [IIT](https://web.archive.org/web/20171001233353/https://iit.com.ua//), a **Data Security** and **Cryptography** institute, where I completed several projects. Years __2000-2017__ are
- formative for my software engineering experience in **Machine Learning**
- domain. [Salford Systems:] was a pioneering **Data Science**
+_Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from `archive.org` in addition to original web page._
+
+Experience Overview
+-------------------
+
+During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years __2000-2017__ are formative for my software engineering experience in **Machine Learning** domain. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com) was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up. \
 
- During __2017-2018__ I helped Salford Systems to become a
- [Minitab:] company. I was instrumental in
- **Intellectual Property** transfer and product development.**Your Most Recent Work Experience:**
+ During __2017-2018__ I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
+ **Intellectual Property** transfer and **Product Development**.
+
+Experience Details
+------------------
 
 Short text containing the type of work done, results obtained,
 lessons learned and other remarks. Can also include lists and
