@@ -1,5 +1,4 @@
-Oleg Zhylin
-============
+# Oleg Zhylin
 
 ----
 
@@ -11,13 +10,11 @@ Oleg Zhylin
 
 ----
 
-_Note_: Hyperlinks lead to `archive.org`
--------------------------------------
+## _Note_: Hyperlinks lead to `archive.org`
 
 _Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from `archive.org` in addition to original web page._
 
-Experience Overview
--------------------
+## Experience Overview
 
 During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years __2000-2017__ are formative for my software engineering experience in **Machine Learning** domain. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com) was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
@@ -26,24 +23,29 @@ During my undergrad years I worked for [IIT](https://web.archive.org/web/https:/
  During __2017-2018__ I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
-Experience Details
-------------------
+## Experience Details
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+### **2017-2018. [Minitab Inc.](https://web.archive.org/web/https://www.minitab.com)**
 
-* First item
+Minitab and Salford Systems have a profound similarity. They both made a heavy scientifc technology to work effectively for a Business user. Minitab brings in Classical Statistics and Salford Systems is a leading expert in Machine Learning. Jointly companies are heading to new heights.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+Minitab built a comprehensive development process based on [Visual Studio Team Services](http://web.archive.org/web/https://www.visualstudio.com/team-services). After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, CI/CD etc. Still it was a learning curve for both Salford Systems and Minitab and as a result software development is now on a whole new level.
 
-list **That Other Job You Had**
+I was instrumental during transition period.
 
-Also with a short description.
+* Quickly learned and adopted **Source Code Style** guidelines. Pushed for improvements.
+* Advanced technological expertise in **C++** and other technologies used in the product.
+* Greatly improved quality of the Codebase. This allowed unprecedented scale up of the development team. It was the best experience onboarding new developers I've seen so far.
+* Guided the team to establish a stable baseline version of **Salford Predictive Modeller (SPM)** product. Incorporated all the new developments. This will allow an incremental release of **SPM v8.3**.
+* Helped to introduce **Licensing**, **Telemetry**, and other features necessary for a successful deployment of **SPM v8.3** into production.
+* Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper governance.
+* Worked closely with TechOps team on an effective corporate IT merger.
 
-Technical Experience
---------------------
+### **2000-2017. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com)**
+
+I joined the company during my last year in University. Instantly it was a very good match and great challenge.
+
+## Technical Experience
 
 My Cool Side Project
 :   For items which don't have a clear time ordering, a definition
@@ -80,8 +82,7 @@ Programming Languages
 
 [ref]: https://github.com/githubuser/superlongprojectname
 
-Education
----------
+## Education
 
 2010-2014 (expected)
 :   **PhD, Computer Science**; Awesome University (MyTown)
@@ -95,8 +96,7 @@ Education
 
     *Minor: Awesomeology*
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+## Extra Section, Call it Whatever You Want
 
 * Human Languages:
 
