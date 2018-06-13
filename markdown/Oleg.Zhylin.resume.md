@@ -25,7 +25,7 @@ During my undergrad years I worked for [IIT](https://web.archive.org/web/https:/
 
 ## Experience Details
 
-### **2017-2018. [Minitab Inc.](https://web.archive.org/web/https://www.minitab.com)**
+### 2017-2018. [Minitab Inc.](https://web.archive.org/web/https://www.minitab.com)
 
 Minitab and Salford Systems have a profound similarity. They both made a heavy scientifc technology to work effectively for a Business user. Minitab brings in Classical Statistics and Salford Systems is a leading expert in Machine Learning. Jointly companies are heading to new heights.
 
@@ -44,9 +44,15 @@ I was instrumental during transition period and new developments.
 * Supported **Agile** practices for **Product Management**.
 * Participated in architecting **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
 
-### **2000-2017. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com)**
+### 2000-2017. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com)
 
-I joined the company during my last year in University. Instantly it was a very good match and great challenge. Thanks to my wonderful team my Computer Science skills soared and picked up a good deal of Machine Learning and other skills. 
+I joined the company during my last year in University. Instantly it was a very good match and great challenge. Thanks to my wonderful team my Computer Science skills soared and picked up a good deal of Machine Learning and other skills.
+
+#### 2000-2001. Advanced Decsion Tree visualization
+
+One of my first projects was to imrpove visualization of **Decision Tree** in **CART**, the flagship product. I implemented the following.
+
+* Compact tree layout. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually. 
 
 ## Technical Experience
 
