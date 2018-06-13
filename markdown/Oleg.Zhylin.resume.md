@@ -31,19 +31,22 @@ Minitab and Salford Systems have a profound similarity. They both made a heavy s
 
 Minitab built a comprehensive development process based on [Visual Studio Team Services](http://web.archive.org/web/https://www.visualstudio.com/team-services). After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, CI/CD etc. Still it was a learning curve for both Salford Systems and Minitab and as a result software development is now on a whole new level.
 
-I was instrumental during transition period.
+I was instrumental during transition period and new developments.
 
-* Quickly learned and adopted **Source Code Style** guidelines. Pushed for improvements.
+* Quickly learned and adopted **Source Code Style** guidelines. Pushed for improvements. It was a good opportunity to exercise my C++ knowledge and collaborate with other Tech Leads in the company.
 * Advanced technological expertise in **C++** and other technologies used in the product.
 * Greatly improved quality of the Codebase. This allowed unprecedented scale up of the development team. It was the best experience onboarding new developers I've seen so far.
 * Guided the team to establish a stable baseline version of **Salford Predictive Modeller (SPM)** product. Incorporated all the new developments. This will allow an incremental release of **SPM v8.3**.
+* Improved coverage and quality of **Automated Tests**. Helped **Quality Engineers** to build comprehensive system of tests for production executables. Ensured that we have **Unit Test** projects established for all the codebase and promoted **Test-Driven Development (TDD)**.
 * Helped to introduce **Licensing**, **Telemetry**, and other features necessary for a successful deployment of **SPM v8.3** into production.
 * Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper governance.
 * Worked closely with TechOps team on an effective corporate IT merger.
+* Supported **Agile** practices for **Product Management**.
+* Participated in architecting **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
 
 ### **2000-2017. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com)**
 
-I joined the company during my last year in University. Instantly it was a very good match and great challenge.
+I joined the company during my last year in University. Instantly it was a very good match and great challenge. Thanks to my wonderful team my Computer Science skills soared and picked up a good deal of Machine Learning and other skills. 
 
 ## Technical Experience
 
