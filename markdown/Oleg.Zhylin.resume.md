@@ -43,6 +43,7 @@ I was instrumental during transition period and new developments.
 * Worked closely with TechOps team on an effective corporate IT merger.
 * Supported **Agile** practices for **Product Management**.
 * Participated in architecting **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
+* Learned **[Nalperion]()** license manager and helped introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects. 
 
 ### 2000-2017. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com)
 
@@ -66,6 +67,16 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. This makes the product cross-platform and allows to use all the modern machinery for UI programmer. 
 
 We decied to use **[Qt Widgets](http://web.archive.org/web/http://doc.qt.io/qt-5/qtwidgets-index.html)** for this project. While **[QML](http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html)** is more modern and has a lot of neat stuff for the rewrite a mature technology was a much better fit. Our partner team [Milo Solutions](http://web.archive.org/web/https://www.milosolutions.com/en/) had much more experince with Qt Widgets.
+
+#### 2015-2017. CloudSPM project
+
+CloudSPM projects captures all our vision for cutting edge usage of **Salford Systems** technology. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license to our users.
+
+Team up to 7 people.
+
+#### 2015-2017 [Wibut CodeMeter]() deployment
+
+I was in charge of learning and the technology and introdcing it to the project. CodeMeter is a very effective technology
 
 #### 2000-2001. Advanced Decsion Tree visualization
 
