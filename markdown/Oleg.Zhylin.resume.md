@@ -48,6 +48,19 @@ I was instrumental during transition period and new developments.
 
 I joined the company during my last year in University. Instantly it was a very good match and great challenge. Thanks to my wonderful team my Computer Science skills soared and picked up a good deal of Machine Learning and other skills.
 
+Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman]()**, **[Leo Breiman]()**, **[Richard Olshen](), and **(Charles Stone)[]**, authors of the famous **[CART Monograph]()**. Back in 1990s industry in general didn't go any further than fancy **Regression** for **Precictive Analytics** needs. Pioneering Vision and perseverance of **[Dan Steinberg]()**, company's *Founder*, *Private Owner*, and *President* granted Salford System a decade of prosperity ahead of technology curve. In 2010s it is well known in the industry that **Gradient Boosting** for Decision Trees is one of the top Machine Learning techniques. Top Data Scientists use it consistently to win **[Kaggle]()** and other competitions. The technique was invented by Jerome Friendman in 2004 and we sell it under trademark **TreeNet**. It was enourmous fun and hard work to help our customers meet their **Data Science** and **Artifiical Intelligence** needs way before the became buzzwords.
+
+I was primary **Graphical User Interace (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for _5.0_ release and **Salford Precitive Modeller (SPM)** afterwards. 
+
+#### 2016-2017. _SPM 8.2_ in production
+
+I was main engineer behind preparing and running **SPM 8.2** in production.
+
+* I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET]()** and *supporting scripts* in **Powershell**.
+* Authored and maintained **Product Installers** using **[Microsoft Visual Studio 2017 Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
+* Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[Salford Systems branch in China]()** we have quite a number of paying  
+
+
 #### 2000-2001. Advanced Decsion Tree visualization
 
 One of my first projects was to imrpove visualization of **Decision Tree** in **CART**, the flagship product. I implemented the following.
