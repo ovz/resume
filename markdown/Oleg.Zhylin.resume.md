@@ -2,25 +2,25 @@
 
 ----
 
-> Professional **Software Engineer** since __1998__. I enjoy learning and applying
-> _latest_ **ISO C++**. I have a great interest in other leading languages in the
+> Professional **Software Engineer** since **1998**. I enjoy learning and applying
+> *latest* **ISO C++**. I have a great interest in other leading languages in the
 > industry, including **Rust**, **Python**, **Javascript**, et al.\
 >
 > During my carreer I gained considerable experience as **Software Architect**, and **Technical Team Lead**. During some projects I was a **Manager** of teams up to **12 people**.\
 
 ----
 
-## _Note_: Hyperlinks lead to `archive.org`
+## *Note*: Hyperlinks lead to `archive.org`
 
-_Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from `archive.org` in addition to original web page._
+*Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from `archive.org` in addition to original web page.*
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years __2000-2017__ are formative for my software engineering experience in **Machine Learning** domain. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com) was a pioneering **Data Science**
+During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** are formative for my software engineering experience in **Machine Learning** domain. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com) was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up. \
 
- During __2017-2018__ I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
+ During **2017-2018** I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
 ## Experience Details
@@ -52,7 +52,9 @@ I joined the company during my last year in University. Instantly it was a very 
 
 One of my first projects was to imrpove visualization of **Decision Tree** in **CART**, the flagship product. I implemented the following.
 
-* Compact tree layout. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually. 
+* *Compact tree layout*. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
+
+
 
 ## Technical Experience
 
