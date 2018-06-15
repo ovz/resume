@@ -61,6 +61,11 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 * Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
 * Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc.
 
+#### 2016-2017. SPM Qt project
+
+I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. This makes the product cross-platform and allows to use all the modern machinery for UI programmer. 
+
+We decied to use **[Qt Widgets](http://web.archive.org/web/http://doc.qt.io/qt-5/qtwidgets-index.html)** for this project. While **[QML](http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html)** is more modern and has a lot of neat stuff for the rewrite a mature technology was a much better fit. Our partner team [Milo Solutions](http://web.archive.org/web/https://www.milosolutions.com/en/) had much more experince with Qt Widgets.
 
 #### 2000-2001. Advanced Decsion Tree visualization
 
