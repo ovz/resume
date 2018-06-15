@@ -52,13 +52,14 @@ Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Lear
 
 I was primary **Graphical User Interace (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for _5.0_ release and **Salford Precitive Modeller (SPM)** afterwards. 
 
-#### 2016-2017. _SPM 8.2_ in production
+#### 2016-2017. *[SPM 8.2](http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm)* in production
 
 I was main engineer behind preparing and running **SPM 8.2** in production.
 
 * I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET]()** and *supporting scripts* in **Powershell**.
-* Authored and maintained **Product Installers** using **[Microsoft Visual Studio 2017 Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
-* Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[Salford Systems branch in China]()** we have quite a number of paying  
+* Authored and maintained **Product Installers** using **[Microsoft Visual Studio  Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
+* Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
+* Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc.
 
 
 #### 2000-2001. Advanced Decsion Tree visualization
