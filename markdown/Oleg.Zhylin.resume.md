@@ -57,6 +57,7 @@ I was primary **Graphical User Interace (GUI)** developer and one of the collabo
 
 I was main engineer behind preparing and running **SPM 8.2** in production.
 
+* Helped the team to triage work items. We stroke a good balance in bringing value to the customer and prevent feature creep. 
 * I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET]()** and *supporting scripts* in **Powershell**.
 * Authored and maintained **Product Installers** using **[Microsoft Visual Studio  Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
 * Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
