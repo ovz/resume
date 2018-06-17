@@ -77,7 +77,11 @@ Team up to 7 people.
 
 #### 2015-2017 [Wibut CodeMeter]() deployment
 
-I was in charge of learning and the technology and introdcing it to the project. CodeMeter is a very effective technology
+I was in charge of learning and the technology and introdcing it to the project. CodeMeter is a very effective technology. It can **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
+
+One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges to overcome was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users. 
+
+CodeMeter came very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey]() did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
 
 #### 2000-2001. Advanced Decsion Tree visualization
 
