@@ -102,11 +102,14 @@ The key piece of information flow in CloudSML was a **Predictive Model**.
 * We experimented with **pickle** and other **Python** serialization primitives.
 * Most known industry standard is **PMML**. It is notoriously challenging implement and manange PMML models.
 
-Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http://web.archive.org/web/http://dmg.org/pfa/) for our model management needs. Since existing imlementations were far from comprehensive we created our own PFA **serializer** and **interpreter**. This gave us very robust and effective **Model Management**.
+Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http://web.archive.org/web/http://dmg.org/pfa/) for our model management needs. Since existing imlementations were far from comprehensive we created our own PFA **converters** and **interpreter**. This gave us very robust and effective **Model Management**.
 
 We had to an extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and extensive use of compression helped achieve our goals.
 
 Team up to **7 people**.
+
+#### 2016-2017 In-house Spark cluster project
+
 
 #### 2015-2017 [Wibu CodeMeter]() deployment
 
@@ -115,6 +118,10 @@ I was in charge of learning and the technology and introdcing it to the project.
 One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges to overcome was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users. 
 
 CodeMeter came very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey]() did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
+
+#### 2014-2016. Distributed [Importance Sampled Learning Ensembles](<Jerry's paper link>) project
+
+We experimented with Spark and Dusk.
 
 #### 2000-2001. Advanced Decsion Tree visualization
 
