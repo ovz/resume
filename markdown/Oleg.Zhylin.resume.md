@@ -63,6 +63,8 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 * Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
 * Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc.
 
+During this project a I managed an team up to **12 people**.
+
 #### 2016-2017. SPM Qt project
 
 I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. There was a strong business case for the following challenges.
@@ -80,13 +82,15 @@ Over the course of development we practiced **Pull Request** approach for develo
 
 We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer library]()** became production-ready. Installer work did envolve some **cutting edge** development.
 
+Over the course of this project I managed a team up to **10 people**.
+
 #### 2015-2017. CloudSPM project
 
 CloudSPM projects captures all our vision for cutting edge usage of **Salford Systems** technology. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license to our users.
 
-Team up to 7 people.
+Team up to **7 people**.
 
-#### 2015-2017 [Wibut CodeMeter]() deployment
+#### 2015-2017 [Wibu CodeMeter]() deployment
 
 I was in charge of learning and the technology and introdcing it to the project. CodeMeter is a very effective technology. It can **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
 
