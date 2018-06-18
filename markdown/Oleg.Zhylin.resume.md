@@ -65,11 +65,20 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 
 #### 2016-2017. SPM Qt project
 
-I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. There was a strong business case for the following challenges. 
+I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. There was a strong business case for the following challenges.
 
-* Bring full power of SPM desktop product to non-Windows platforms. In particular larger fraction of current and potent **Mac OSX** users and to other non-Windows platforms. We can also makes the product cross-platform and allows to use all the modern machinery for UI programmer. 
+* Bring full power of SPM desktop product to non-Windows platforms. In particular larger fraction of current and prospct customers are **Mac OSX** users. **Mobile platforms** are also gaining momentum.
+* Speed up development using full palette of modern UI development features **Qt** provides.
 
 We decied to use **[Qt Widgets](http://web.archive.org/web/http://doc.qt.io/qt-5/qtwidgets-index.html)** for this project. While **[QML](http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html)** is more modern and has a lot of neat stuff for the rewrite a mature technology was a much better fit. Our partner team [Milo Solutions](http://web.archive.org/web/https://www.milosolutions.com/en/) had much more experince with Qt Widgets.
+
+A major challenge was to provide **crossplatform** backend to **3rd party** developers. **Legacy** interaction layer between Windows GUI and crossplatform backend was based on **static linking** and **shared state**. This allowed to cut corners for a small development team over the course of previous years. After careful analysis I transformed SPMnonGUI into a **crossplatform DLL**. The DLL was validated by upgrading production SPM to use the DLL and perform **rigorous testing**. [Wibu CodeMeter]() technology was instrumental in protecting the DLL for both **produciton** and **development** use.
+
+**Oursourcing team** was quite knowledgable in Qt. I learned a lot from them. The team needed help with applying **modern C++** and architecting the application around major concerns. We went through several interations producing general applicaiton structure and paid close attention to critical modules. My experience with existing SPM code allowed to develop **thread-safe** interaciton layer between SPM Qt GUI and backend. 
+
+Over the course of development we practiced **Pull Request** approach for development process. I had to send the code back for corrections more often then I wished I would have to. I was pleasantly surprised by **personal growth** and **product quality increase** that resulted.
+
+We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer library]()** became production-ready. Installer work did envolve some **cutting edge** development.
 
 #### 2015-2017. CloudSPM project
 
