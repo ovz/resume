@@ -88,6 +88,24 @@ Over the course of this project I managed a team up to **10 people**.
 
 CloudSPM projects captures all our vision for cutting edge usage of **Salford Systems** technology. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license to our users.
 
+I was one of **Principal Architects** and **Product Manager** for the project.
+
+Corner stone trait of the system is **Elasticity**. This is the essence of value Users get from a **Cloud** solution. Thus we architected system around **Distributed Work Item Queue**, **Big Data** storage, and **Web Frontend**. The solution was **Cloud native** from the get go.
+
+Frontend was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. **Web Application** in front of it is a very effective first client. We were able to repeat success of prominent companies in the industry making numerous deployments daily, exprimenting etc. **React.Js**, **Redux** and **PostgreSQL** are fantastic tools and very good fit for the job. As a result of this approach we could achieve the folloing. End users were able to play with features as soon as implementations are available.
+
+For operational purposes system needed to store a lot of small files. We ended up utlizing [SeaweedFS](https://web.archive.org/web/https://github.com/chrislusf/seaweedfs) for this.
+
+The key piece of information flow in CloudSML was a **Predictive Model**.
+
+* Historically models in SPM are in **proprietry binary format**. For this most part this format is not suitable to wrap in an API and to use **transportation** purposes.
+* We experimented with **pickle** and other **Python** serialization primitives.
+* Most known industry standard is **PMML**. It is notoriously challenging implement and manange PMML models.
+
+Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http://web.archive.org/web/http://dmg.org/pfa/) for our model management needs. Since existing imlementations were far from comprehensive we created our own PFA **serializer** and **interpreter**. This gave us very robust and effective **Model Management**.
+
+We had to an extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and extensive use of compression helped achieve our goals.
+
 Team up to **7 people**.
 
 #### 2015-2017 [Wibu CodeMeter]() deployment
