@@ -65,7 +65,9 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 
 #### 2016-2017. SPM Qt project
 
-I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. This makes the product cross-platform and allows to use all the modern machinery for UI programmer. 
+I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. There was a strong business case for the following challenges. 
+
+* Bring full power of SPM desktop product to non-Windows platforms. In particular larger fraction of current and potent **Mac OSX** users and to other non-Windows platforms. We can also makes the product cross-platform and allows to use all the modern machinery for UI programmer. 
 
 We decied to use **[Qt Widgets](http://web.archive.org/web/http://doc.qt.io/qt-5/qtwidgets-index.html)** for this project. While **[QML](http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html)** is more modern and has a lot of neat stuff for the rewrite a mature technology was a much better fit. Our partner team [Milo Solutions](http://web.archive.org/web/https://www.milosolutions.com/en/) had much more experince with Qt Widgets.
 
