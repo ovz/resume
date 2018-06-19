@@ -110,6 +110,11 @@ Team up to **7 people**.
 
 #### 2016-2017 In-house Spark cluster project
 
+For our **Big Data** and **Cloud** initiatives we decided to setup a computational **Cluster** in our server room. One of the advantages was that Developers didn't need to control cost when using the cluster. Pre-purchased hardware is available 24/7 and the challenge is to keep it running effectively. The team had plenty of Machine Learning research workload and software development workloads to make this happen.
+
+I coordinated **IT Contractor** team to install hardware and integrate it into corporate network. One of the key requirements was to allow outside contractors access to the Cluster while enforcing **Access Control** to existing corporate network. At the same time corporate network users should be able to use the Cluster transparently. We brainstormed and figured out an effective way to implement this. The dedicated VPN solution was provided via dedicated **CISCO** appliance.
+
+It was team
 
 #### 2015-2017 [Wibu CodeMeter]() deployment
 
