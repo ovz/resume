@@ -112,9 +112,9 @@ Team up to **7 people**.
 
 For our **Big Data** and **Cloud** initiatives we decided to setup a computational **Cluster** in our server room. One of the advantages was that Developers didn't need to control cost when using the cluster. Pre-purchased hardware is available 24/7 and the challenge is to keep it running effectively. The team had plenty of Machine Learning research workload and software development workloads to make this happen.
 
-I coordinated **IT Contractor** team to install hardware and integrate it into corporate network. One of the key requirements was to allow outside contractors access to the Cluster while enforcing **Access Control** to existing corporate network. At the same time corporate network users should be able to use the Cluster transparently. We brainstormed and figured out an effective way to implement this. The dedicated VPN solution was provided via dedicated **CISCO** appliance.
+I coordinated **IT Contractor** team to install hardware and integrate it into corporate network. One of the key requirements was to allow outside contractors access to the Cluster while enforcing **Access Control** to existing corporate network. At the same time corporate network users should be able to use the Cluster transparently. We brainstormed and figured out an effective way to implement this. The dedicated VPN solution was provided via dedicated **CISCO** appliance. It was not prudent from **security** standpoint to authenticate users via corporate **Active Directory**. Instead we deployed **[FreeIPA](https://web.archive.org/web/https://www.freeipa.org/page/Main_Page)** in a Docker container.
 
-It was team
+This project was also a good chance to learn **Docker** based infrastructures. We installed **[RancherOS](https://web.archive.org/web/https://rancher.com/rancher-os/)** on barebone machines and deployed **[Rancher](https://web.archive.org/web/https://rancher.com/what-is-rancher/overview/)**. There were no barebone workload. *Everything ran in containers*. This very valuable and exciting experience. 
 
 #### 2015-2017 [Wibu CodeMeter]() deployment
 
