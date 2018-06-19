@@ -84,7 +84,7 @@ We created a comprehensive set of **Installation packages** for all supported pl
 
 Over the course of this project I managed a team up to **10 people**.
 
-#### 2015-2017. CloudSPM project
+#### 2015-2017. **Cloud-ready SPM** project
 
 CloudSPM projects captures all our vision for cutting edge usage of **Salford Systems** technology. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license to our users.
 
@@ -108,7 +108,7 @@ We had to an extensive research for **Data Storage** format. We envisioned a wid
 
 Team up to **7 people**.
 
-#### 2016-2017 In-house Spark cluster project
+#### 2016-2017 In-house Computational Cluster project
 
 For our **Big Data** and **Cloud** initiatives we decided to setup a computational **Cluster** in our server room. One of the advantages was that Developers didn't need to control cost when using the cluster. Pre-purchased hardware is available 24/7 and the challenge is to keep it running effectively. The team had plenty of Machine Learning research workload and software development workloads to make this happen.
 
@@ -130,9 +130,22 @@ One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** pro
 
 CodeMeter came very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey]() did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
 
-#### 2014-2016. Distributed [Importance Sampled Learning Ensembles](<Jerry's paper link>) project
+#### 2014-2016. Distributed Machine Learning. [Importance Sampled Learning Ensembles](<Jerry's paper link>) project
+
+Core compentency of Salford Systems is **Decision trees**. They are notoriously challenging to implement in a distributed fashion. It is a holy grail of **Data Science** to run a powerful algorithm against whole volume of **Big Data** dataset. We learned a lot from brainstorming and experimenting in this area. From business standpoint more and more customers have huge datasets and a lot of computation power. The opportunities were ripe for a market offer.
+
+We decided to start with developing Big Data solution for **[Importance Sampled Learning Ensembles](<Jerry's paper link>)**. The advantage was that we don't need to grow an distributed tree over Big Data dataset. Instead we can use subsamples to produce Rules and then use Big Data operations to weigh them.
+
+We went researched a number of technologies to find a good fit for implementation.
+
+* **Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
+* **Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. We didn't find enough ways to tune the system for acceptable perofrmance. 
+* **[Databricks Cloud]()**. 
+* **[Dusk Python framework]()**. 
 
 We experimented with Spark and Dusk.
+
+Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
 
 #### 2014-2017 [SPM 7.0]()
 
