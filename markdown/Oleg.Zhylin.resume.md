@@ -1,4 +1,4 @@
-# Oleg Zhylin
+# ![Oleg Zhylin](https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e) Oleg Zhylin
 
 ----
 
@@ -12,7 +12,7 @@
 
 ----
 
-## *Note*: Hyperlinks lead to `archive.org`
+## *Side Note*: Hyperlinks lead to `archive.org`
 
 *Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from archive.org in addition to original web page.*
 
