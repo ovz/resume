@@ -3,7 +3,7 @@
 ----
 
 > Professional **Software Engineer** since **1998**. I enjoy learning and applying
-> *latest* **ISO C++**. I have a great interest in other leading languages in the
+> *latest* **ISO C++**. I have a great interest in other leading **Programming Languages** in the
 > industry, including **Rust**, **Python**, **Javascript**, et al.\
 >
 > During my carreer I gained considerable experience as **Software Architect**, and **Technical Team Lead**. During some projects I was a **Manager** of teams up to **12 people**.\
@@ -20,8 +20,12 @@ During my undergrad years I worked for [IIT](https://web.archive.org/web/https:/
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up. \
 
- During **2017-2018** I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
+In **2017-2018** I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
+
+Below I listed my most prominent achievements during my career. Please find more information on these in **Experience Details** chapter below.
+
+* *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. GUI brings value to a user by making intuitive to **Setup** a Machine Learning models and interpret the results. For the letter **Visualization** of Machine Learning results is the key. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
 
 ## Experience Details
 
