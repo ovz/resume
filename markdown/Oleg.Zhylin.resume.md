@@ -169,6 +169,38 @@ I was in charge of transforming the code base so that it compiles for 64 bit pla
 
 The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64 bit build of the application was ready in month. 
 
+#### 2008-2009 Contract project for a major *National Health Survey* for a large *Farmacutical* company
+
+Due to economic downturn Salford Systems had to embark on a number of consluting projects. The company itself was privately owned and was not affected by the **Stock Market** but many of the clients were. A common situation was that Engineering departments got downsized and remaining staff was under "300% load". They didn't have bandwidth to license our software and carry out **Machine Learning** projects.
+
+The business demand for the projects only increased. Especially in the time of turmoil everyone wants to know about the future. **Contract engagements** is a double-edge sword for a **Small Software Development** company.
+
+* We address real life problem and *learn a lot*.
+
+* Everyone is busy on the project so development on the main product slows down significantly.
+
+The largest project was to apply **CART** and other Machine Learning algorithms to results of one of the major **National Health Surveys**. The client was very interested in discovering segments in the population for **Marketing** purposes. Machine Learning part was straightforward and very successful. We found some interesting groups using the following. 
+
+* Preliminary clustering using **K-Means**.
+
+* Rules discovery using **[CART]()**
+
+* High accurancy **Classificaiton** using **[TreeNet]()** (aka **Gradient Boosting**).
+
+The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling](http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling)** took 80% of the effort. I developed an approach based on **[SAS]()** scripts. The selection of the language was due to the following factors.
+
+* Client had **in-house expertise** with SAS.
+
+* The survey data came with a set of SAS scripts that extracted data from text format. We used them as first step.
+
+As a result all the data was nicely warehoused. We recieved commendments from the client and they followed up with follow up projects using the same dataset. The effort did pay off.
+
+# TODO: Describe my role in using [SAS]() in munging the data. Point out data munging is 80% of the project.
+
+#### 2007. First visit to Salford Systems office in San Diego
+
+This was a great chance to establish in-person relationship and greatly improve collaboration. I helped to shape plans for next release of the product. Extracted key aspects of requirements from discussions.
+
 #### 2000-2001. Advanced Decsion Tree visualization
 
 One of my first projects was to imrpove visualization of **Decision Tree** in **CART**, the flagship product. I implemented the following.
