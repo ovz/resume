@@ -139,8 +139,8 @@ We decided to start with developing Big Data solution for **[Importance Sampled 
 We went researched a number of technologies to find a good fit for implementation.
 
 * **Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
-* **Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. We didn't find enough ways to tune the system for acceptable perofrmance. 
-* **[Databricks Cloud]()**. 
+* **Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. We didn't find enough ways to tune the system for acceptable perofrmance.
+* **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.  with Databricks, the company founded by authors of **Spark** framework. They are the best resource on the market to 
 * **[Dusk Python framework]()**. 
 
 We experimented with Spark and Dusk.
@@ -154,6 +154,21 @@ Pushed to institute effective **Version Control**, **Issuer Tracking**, **Contin
 ** [Gitolite]() for *Version control*.
 ** [RedMine]() for *Issue tracking*.
 ** [CruiseControl.NET] for *CI/CD*.
+
+#### Upgraded [SPM]() to 64 bit
+
+Salford Predictive Modeler (SPM) is very memory intensive. Any non-trivial Machine Learning challenge must fit into memory. It was crucial to address limitation of 4Gb address space of legacy 32 bit.
+
+I was in charge of transforming the code base so that it compiles for 64 bit platform. Most important part of the process is to methodically revisit all the places in the code are and make sure 64 bit addresses and sizes are handled correctly. This was achieved using the following practices. 
+
+* Addressed compiler warnings. I reviewed warnings from compilers on all supported platforms (**Windows**, **Linux**, **AIX**, **HP-UX** and other commercial UNIX distributions).
+
+* Use **Regular Expressions** to traverse code base and find all the places where 64 bit value is inadvertently reused to 32 bit. 
+
+* Validate the application at runtime. Stress tests for large Machine Learning problems was both a major goal and a good validation practice. 
+
+The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64 bit build of the application was ready in month. 
+
 #### 2000-2001. Advanced Decsion Tree visualization
 
 One of my first projects was to imrpove visualization of **Decision Tree** in **CART**, the flagship product. I implemented the following.
