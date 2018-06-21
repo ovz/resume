@@ -12,7 +12,7 @@
 
 ## *Note*: Hyperlinks lead to `archive.org`
 
-*Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from `archive.org` in addition to original web page.*
+*Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from archive.org in addition to original web page.*
 
 ## Experience Overview
 
