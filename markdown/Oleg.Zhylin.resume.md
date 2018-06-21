@@ -6,6 +6,8 @@
 > *latest* **ISO C++**. I have a great interest in other leading **Programming Languages** in the
 > industry, including **Rust**, **Python**, **Javascript**, et al.\
 >
+> Applications I developed are in domains of **Data Science**, **Machine Learning**, **Security**.
+>
 > During my carreer I gained considerable experience as **Software Architect**, and **Technical Team Lead**. During some projects I was a **Manager** of teams up to **12 people**.\
 
 ----
