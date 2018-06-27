@@ -175,6 +175,16 @@ Pushed to institute effective **Version Control**, **Issuer Tracking**, **Contin
 
 As part of consulting project Salford Systems recieved data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights.
 
+During this project I greatly improved my skills in the following areas.
+
+* **SQL query optimization**
+* **Stored procedures**
+* **MS SQL Server** administration
+* **ETL**, MS SQL Server **Integration Services**.
+* **C#**
+* **WWF**
+* **WPF**
+
 ##### Predicting future sales during Promotions
 
 This allows to **stock** the stores accordingly. Promotions are actively advertised. If promoted item sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
