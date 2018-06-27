@@ -66,8 +66,8 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 * Helped the team to triage work items. We stroke a good balance in bringing value to the customer and prevent feature creep.
 * I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET]()** and *supporting scripts* in **Powershell**.
 * Authored and maintained **Product Installers** using **[Microsoft Visual Studio  Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
-* Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
 * Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc.
+* Established effective process to maintain **SPM Chinese** internationalized version up to date with master *English* version.
 
 During this project a I managed an team up to **12 people**.
 
@@ -89,6 +89,18 @@ Over the course of development we practiced **Pull Request** approach for develo
 We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer library]()** became production-ready. Installer work did envolve some **cutting edge** development.
 
 Over the course of this project I managed a team up to **10 people**.
+
+#### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*
+
+The key pre-requisite to bring an internationalized version of software in production is a reliable native partner on site. During the years we entered in business partnerhips and produced internationalized versions for markets in **Asia**.
+
+#### 2011. *Unicode* support for SPM 6.8 Japanese
+
+At this year we entered partnership with a high profile company in **Japan**. They agree to provide translators and signed reseller agreement.
+
+The most important challenge was to create a **Unicode** version of SPM. The entire source code has to be revisited and all the non-unicode conformant code has to be corrected. I developed the following methodology. It allowed to create a release-quality SPM English version with full Unicode support.
+
+* Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
 
 #### 2015-2017. **Cloud-ready SPM** project
 
