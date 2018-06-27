@@ -63,7 +63,7 @@ I was primary **Graphical User Interace (GUI)** developer and one of the collabo
 
 I was main engineer behind preparing and running **SPM 8.2** in production.
 
-* Helped the team to triage work items. We stroke a good balance in bringing value to the customer and prevent feature creep. 
+* Helped the team to triage work items. We stroke a good balance in bringing value to the customer and prevent feature creep.
 * I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET]()** and *supporting scripts* in **Powershell**.
 * Authored and maintained **Product Installers** using **[Microsoft Visual Studio  Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
 * Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
@@ -112,7 +112,7 @@ Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http
 
 We had to an extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and extensive use of compression helped achieve our goals.
 
-Team up to **7 people**.
+Managed the team up to **7 people**.
 
 #### 2016-2017 In-house Computational Cluster project
 
@@ -154,6 +154,16 @@ We experimented with Spark and Dusk.
 Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
 
 #### 2014-2017 [SPM 7.0]()
+
+Salford Predictive Modeller (SPM) brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application. 
+
+* Introduced general GUI framework based on [Windows Template Library (**WTL**)](). This framework allowed us to create non-modal Multiple Document Interface (**MDI**) displays using Dialog Resource. The framework interacts seamlessly with legacy **Win32** code. This framework greatly improved productivity of GUI developers I coordinated and my productivity as well. 
+
+* Implemented innovative set of GUI interfaces for [Generalized PathSeeker (GPS)](). This *Machine Learning Algorithm* builds on a lot of **Regularized** regression runs sub-divided into *Elasticities* and *Paths*. There was thus enormous amount information we could potentially display and it was organized in multiple dimensions. The resutling display gave several insightful views into the results.
+
+* Implemented *GUI* and *Middleware* for [ISLE]() and [RuleLearner](). These are **Pipeline Machine Learning models** based on [TreeNet]() and [GPS](). GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining. 
+  * **Model Compression** for **ISLE**.
+  * Discovered **Predictive Rules** for **Rulelearner**.
 
 Pushed to institute effective **Version Control**, **Issuer Tracking**, **Continous Integration/Continous Delivery** and other good development process tools and practices. We eneded up with the following toolset.
 
