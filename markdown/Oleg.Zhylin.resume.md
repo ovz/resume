@@ -161,7 +161,7 @@ Salford Predictive Modeller (SPM) brought a ton of value for end users. It was a
 
 * Implemented innovative set of GUI interfaces for [Generalized PathSeeker (GPS)](). This *Machine Learning Algorithm* builds on a lot of **Regularized** regression runs sub-divided into *Elasticities* and *Paths*. There was thus enormous amount information we could potentially display and it was organized in multiple dimensions. The resutling display gave several insightful views into the results.
 
-* Implemented *GUI* and *Middleware* for [ISLE]() and [RuleLearner](). These are **Pipeline Machine Learning models** based on [TreeNet]() and [GPS](). GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining. 
+* Implemented *GUI* and *Middleware* for [ISLE]() and [RuleLearner](). These are **Pipeline Machine Learning models** based on [TreeNet]() and [GPS](). GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining.
   * **Model Compression** for **ISLE**.
   * Discovered **Predictive Rules** for **Rulelearner**.
 
@@ -171,7 +171,31 @@ Pushed to institute effective **Version Control**, **Issuer Tracking**, **Contin
 ** [RedMine]() for *Issue tracking*.
 ** [CruiseControl.NET] for *CI/CD*.
 
-#### Upgraded [SPM]() to 64 bit
+#### 2013 *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
+
+As part of consulting project Salford Systems recieved data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights.
+
+##### Predicting future sales during Promotions
+
+This allows to stock the stores accordingly. Promotions are actively advertised. If promoted item sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
+
+Customer provided data in a **MS SQL Server** database. I quickly rolled out an MS SQL instance and added a feature to **[Salford Predictive Modeller (SPM)]() to consume data via **ODBC**. **Data Science** team could run some experimental models right away. 
+
+Raw sales data do not give enough signal. To simulate future promotion one must look back to sales history and take *store type*, *climate* etc into account. Sales of some products can interact so we had to account for that too. I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Data Warehouse** ready for **Machine Learning**. I created a **C#** application that automated entire cycle. It accomplished the following.
+
+* Import *Promotion Specification* from customer analysts.
+* Prepare tables for Machine Learning. To achieve maximal performance I used **[CLR Stored Procedure](http://web.archive.org/web/https://msdn.microsoft.com/en-us/library/ms131094.aspx)** in C#.
+* Build **Predictive Models** based on updated data.
+* **Model Management**. There was a requirement to keep entire system in a single database. This should allow **Straightforward Database Migration**. I was able to implement that, including a very effective way to store *Grove files* produced by command line version of SPM.
+* **Simulate** future promotions according to **Specifications** from the customer.
+* **Export** simulation results in **Microsoft Excel** format. Customer requested deliverables in this format.
+
+The essence of the application is to execute workflows. **Windows Workflow Foundation** was a very good fit for this. I embedded **Workflow Designer** into the application. User could easily customize workflows to run ad hoc jobs and experiment. This also increased **Development velocity**.
+
+* *Discovering future Promotions*. Search space for promotions is huge and multidimensional. Even after we apply known constrains coming from **Business goals**, **Product Association constrains** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what doesn't. This indispensible resource brought the business where it is. I created  help to constrain it slightly.  set by a Vendor or Store chain itself. They only determine a small fraction of parameters of future promotion. Store chain could run a promotion for a numbr of reasons. Promotion results depend on Analysts had to rely on would appreciate help
+
+
+#### 2012 Upgraded [SPM]() to 64 bit
 
 Salford Predictive Modeler (SPM) is very memory intensive. Any non-trivial Machine Learning challenge must fit into memory. It was crucial to address limitation of 4Gb address space of legacy 32 bit.
 
