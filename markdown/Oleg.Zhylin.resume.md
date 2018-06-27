@@ -179,14 +179,13 @@ As part of consulting project Salford Systems recieved data about sale transacti
 
 This allows to **stock** the stores accordingly. Promotions are actively advertised. If promoted item sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
 
-Customer provided data in a **MS SQL Server** database. I quickly rolled out an MS SQL instance and added a feature to **[Salford Predictive Modeller (SPM)]() to consume data via **ODBC**. **Data Science** team could run some experimental models right away. We discovered the following.
+Customer provided data in a **MSSQL Server** database. I quickly rolled out an MS SQL instance and added a feature to **[Salford Predictive Modeller (SPM)]() to consume data via **ODBC**. **Data Science** team could run some experimental models right away. We discovered the following.
 
 * **Raw sales** data do not give enough signal. To simulate future promotion one must look back to sales history and take *store type*, *climate* etc into account.
 * Raw sales require **Data Cleanup**. I discovered inconsistencies down to obvious blunders. Predictive model would be mislead by them. I incoroprated steps to **automatically correct the data** or at least flag records that require scrutiny.
 * There are **Interactions between products**. Sales of some products have effect on others. We have to account for that too.
 
-
- I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Data Warehouse** ready for **Machine Learning**. I created a **C#** application that automated entire cycle. It accomplished the following.
+I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Data Warehouse** ready for **Machine Learning**. I created a **C#** **Windows Presentation Foundation (WPF)** **.NET** application that automated entire cycle. It accomplished the following.
 
 * Import *Promotion Specification* from customer analysts.
 * Prepare tables for Machine Learning. To achieve maximal performance I used **[CLR Stored Procedure](http://web.archive.org/web/https://msdn.microsoft.com/en-us/library/ms131094.aspx)** in C#.
@@ -197,8 +196,15 @@ Customer provided data in a **MS SQL Server** database. I quickly rolled out an 
 
 The essence of the application is to execute workflows. **Windows Workflow Foundation** was a very good fit for this. I embedded **Workflow Designer** into the application. User could easily customize workflows to run ad hoc jobs and experiment. This also increased **Development velocity**.
 
-* *Discovering future Promotions*. Search space for promotions is huge and multidimensional. Even after we apply known constrains coming from **Business goals**, **Product Association constrains** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what doesn't. This indispensible resource brought the business where it is. I created  help to constrain it slightly.  set by a Vendor or Store chain itself. They only determine a small fraction of parameters of future promotion. Store chain could run a promotion for a numbr of reasons. Promotion results depend on Analysts had to rely on would appreciate help
+##### Discovering future Promotions*
 
+Search space for promotions is huge and multidimensional. Even after we apply known constrains coming from **Business goals**, **Product Association constrains** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what doesn't. This indispensible resource brought the business where it is. Thus the goal of the application was to bring information in front of an Analyst and help him put a Promotion together.
+
+I created a application with functionality. The core of the backend is **MS SQL Database** with *past sales* and *predictive models*.
+
+* *Compose promotion Specification*. Analyst can enter all the desired promotion parameter or give system hints how to generate parameters based on existing data. *Explore* existing data  help to constrain it slightly.
+* *Run simulations*. Promotion specication always shows how many models will be simulated to generate suggested promotion. It is up to analyst to decides search space is narrow enough simulation can start.
+* *Visualize simulation results*. Analyst can review and *export* in various format.
 
 #### 2012 Upgraded [SPM]() to 64 bit
 
