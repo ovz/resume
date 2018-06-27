@@ -177,11 +177,16 @@ As part of consulting project Salford Systems recieved data about sale transacti
 
 ##### Predicting future sales during Promotions
 
-This allows to stock the stores accordingly. Promotions are actively advertised. If promoted item sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
+This allows to **stock** the stores accordingly. Promotions are actively advertised. If promoted item sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
 
-Customer provided data in a **MS SQL Server** database. I quickly rolled out an MS SQL instance and added a feature to **[Salford Predictive Modeller (SPM)]() to consume data via **ODBC**. **Data Science** team could run some experimental models right away. 
+Customer provided data in a **MS SQL Server** database. I quickly rolled out an MS SQL instance and added a feature to **[Salford Predictive Modeller (SPM)]() to consume data via **ODBC**. **Data Science** team could run some experimental models right away. We discovered the following.
 
-Raw sales data do not give enough signal. To simulate future promotion one must look back to sales history and take *store type*, *climate* etc into account. Sales of some products can interact so we had to account for that too. I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Data Warehouse** ready for **Machine Learning**. I created a **C#** application that automated entire cycle. It accomplished the following.
+* **Raw sales** data do not give enough signal. To simulate future promotion one must look back to sales history and take *store type*, *climate* etc into account.
+* Raw sales require **Data Cleanup**. I discovered inconsistencies down to obvious blunders. Predictive model would be mislead by them. I incoroprated steps to **automatically correct the data** or at least flag records that require scrutiny.
+* There are **Interactions between products**. Sales of some products have effect on others. We have to account for that too.
+
+
+ I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Data Warehouse** ready for **Machine Learning**. I created a **C#** application that automated entire cycle. It accomplished the following.
 
 * Import *Promotion Specification* from customer analysts.
 * Prepare tables for Machine Learning. To achieve maximal performance I used **[CLR Stored Procedure](http://web.archive.org/web/https://msdn.microsoft.com/en-us/library/ms131094.aspx)** in C#.
