@@ -69,7 +69,7 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 * Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc.
 * Established effective process to maintain **SPM Chinese** internationalized version up to date with master *English* version.
 
-During this project a I managed an team up to **12 people**.
+During this project a I managed an team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to hard work of team members I could help them to become instrumental contributors in terms of **Product Features** and **Qaulity**.
 
 #### 2016-2017. SPM GUI using *Qt framework*
 
@@ -164,10 +164,12 @@ We went researched a number of technologies to find a good fit for implementatio
 
 * **Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
 * **Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. We didn't find enough ways to tune the system for acceptable perofrmance.
-* **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.  with Databricks, the company founded by authors of **Spark** framework. They are the best **Operations team** on the market to run a Spark cluster. While the expertise was indeed outstanding, neither 
-* **[Dusk Python framework]()**. I was plea
+* **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.
+* **[Dusk Python framework]()**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took me under a week to create first Dusk based demo. Development team was extremenly happy with the swtich. **Collaboration** effectiveness jumped up.
 
 Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
+
+Managed team up to **3 people**.
 
 #### 2014-2017 [SPM 7.0]()
 
@@ -186,6 +188,8 @@ Pushed to institute effective **Version Control**, **Issuer Tracking**, **Contin
 ** [Gitolite]() for *Version control*.
 ** [RedMine]() for *Issue tracking*.
 ** [CruiseControl.NET] for *CI/CD*.
+
+Managed team up to **15 people**, including **Software** and **QA** engineers. I was in charge of coordinating **outsource** development team in **Ukraine**.
 
 #### 2013 *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
 
