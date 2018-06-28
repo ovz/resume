@@ -283,52 +283,15 @@ As a result all the data was nicely warehoused. We recieved commendments from th
 
 This was a great chance to establish in-person relationship and greatly improve collaboration. I helped to shape plans for next release of the product. Extracted key aspects of requirements from discussions.
 
-#### 2000-2001. Advanced Decsion Tree visualization
+At this period senior develper who was in charge of GUI development in the company was getting ready to retire. 
+
+#### 2000-2001. [CARTAdvanced Decsion Tree visualization
 
 One of my first projects was to imrpove visualization of **Decision Tree** in **CART**, the flagship product. I implemented the following.
 
 * *Compact tree layout*. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
 
-
-
-## Technical Experience
-
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file).
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-## Education
+## **COPY from resume_eng.html** Education
 
 2010-2014 (expected)
 :   **PhD, Computer Science**; Awesome University (MyTown)
