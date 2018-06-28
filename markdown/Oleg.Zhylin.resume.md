@@ -153,6 +153,7 @@ In addition to development workloads we ran the following **Containerized** serv
 
 #### 2014-2017. **Machine Learning Predictive engines API**
 
+Each API project builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code reuse**. I obviously opted for the latter. We created a task running framework using [pyinvoke][pyinvoke]. 
 # TODO: [pyinvoke][pyinvoke]
 # TODO: anaconda
 # TODO: unit testing
