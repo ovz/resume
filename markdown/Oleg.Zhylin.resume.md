@@ -241,10 +241,9 @@ Salford Predictive Modeler (SPM) is very memory intensive. Any non-trivial Machi
 I was in charge of transforming the code base so that it compiles for 64 bit platform. Most important part of the process is to methodically revisit all the places in the code are and make sure 64 bit addresses and sizes are handled correctly. This was achieved using the following practices. 
 
 * Addressed compiler warnings. I reviewed warnings from compilers on all supported platforms (**Windows**, **Linux**, **AIX**, **HP-UX** and other commercial UNIX distributions).
-
-* Use **Regular Expressions** to traverse code base and find all the places where 64 bit value is inadvertently reused to 32 bit. 
-
-* Validate the application at runtime. Stress tests for large Machine Learning problems was both a major goal and a good validation practice. 
+* Use **Regular Expressions** to traverse code base and find all the places where 64 bit value is inadvertently reused to 32 bit.
+* Validate the application at runtime. Stress tests for large Machine Learning problems was both a major goal and a good validation practice.
+* Run [Intel® Parallel Studio XE](http://web.archive.org/web/https://software.intel.com/parallel-studio-xe) for **Static and Dynamic Analysis of the source code**.
 
 The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64 bit build of the application was ready in month. 
 
