@@ -81,7 +81,7 @@ I was **Chief Architect** and **Product Owner** of the team that rewrote entire 
 
 We decied to use **[Qt Widgets](http://web.archive.org/web/http://doc.qt.io/qt-5/qtwidgets-index.html)** for this project. While **[QML](http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html)** is more modern and has a lot of neat stuff for the rewrite a mature technology was a much better fit. Our partner team [Milo Solutions](http://web.archive.org/web/https://www.milosolutions.com/en/) had much more experince with Qt Widgets.
 
-A major challenge was to provide **crossplatform** backend to **3rd party** developers. **Legacy** interaction layer between Windows GUI and crossplatform backend was based on **static linking** and **shared state**. This allowed to cut corners for a small development team over the course of previous years. After careful analysis I transformed SPMnonGUI into a **crossplatform DLL**. The DLL was validated by upgrading production SPM to use the DLL and perform **rigorous testing**. [Wibu CodeMeter]() technology was instrumental in protecting the DLL for both **produciton** and **development** use.
+A major challenge was to provide **crossplatform** backend to **3rd party** developers. **Legacy** interaction layer between Windows GUI and crossplatform backend was based on **static linking** and **shared state**. This allowed to cut corners for a small development team over the course of previous years. After careful analysis I transformed SPMnonGUI into a **crossplatform DLL**. The DLL was validated by upgrading production SPM to use the DLL and perform **rigorous testing**. [Wibu Codemeter][codemeter] technology was instrumental in protecting the DLL for both **produciton** and **development** use.
 
 **Oursourcing team** was quite knowledgable in Qt. I learned a lot from them. The team needed help with applying **modern C++** and architecting the application around major concerns. We went through several interations producing general applicaiton structure and paid close attention to critical modules. My experience with existing SPM code allowed to develop **thread-safe** interaciton layer between SPM Qt GUI and backend. 
 
@@ -89,7 +89,7 @@ Over the course of development we practiced **Pull Request** approach for develo
 
 We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer library]()** became production-ready. Installer work did envolve some **cutting edge** development.
 
-For this project I successfully reused framework based on [pyinvoke][pyinvoke] that was developed as part of **Cloud-ready SPM** project. This helped to have build automations organized and reproducable.
+For this project I successfully reused framework based on [pyinvoke][pyinvoke] that was developed as part of **Cloud-ready SPM** project. A lot of code was already ready for me to reuse. I've built upon it to build, test, and publish the application.
 
 Over the course of this project I managed a team up to **10 people**.
 
@@ -133,7 +133,7 @@ Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http
 
 We had to an extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and extensive use of compression helped achieve our goals.
 
-Infrastructure that powers entire **Software Development lifecycle** was powered by **[pyinvoke][pyinvoke] based framework produced during **Machine Learning Predictive engines API** project.
+Infrastructure that powers entire **Software Development lifecycle** uses [pyinvoke][pyinvoke] based framework created during **Machine Learning Predictive engines API** project.
 
 Managed the team up to **7 people**.
 
@@ -157,11 +157,12 @@ In addition to development workloads we ran the following **Containerized** serv
 Each API project builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code Reuse**. I obviously opted for the latter. We created a task running framework using [pyinvoke][pyinvoke]. Common **Invoke** tasks included the following.
 
 * Build project using **CMake**.
+* Protect deliverables using [Wibu Codemeter][codemeter]
 # TODO: [pyinvoke][pyinvoke]
 # TODO: anaconda
 # TODO: unit testing
 
-#### 2015-2017 [Wibu CodeMeter]() deployment
+#### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
 I was in charge of learning and the technology and introdcing it to the project. CodeMeter is a very effective technology. It can **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
 
@@ -342,3 +343,4 @@ One of my first projects was to imrpove visualization of **Decision Tree** in **
 > address - Mytown, Mycountry
 
 [pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
+[codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems CodeMeter"
