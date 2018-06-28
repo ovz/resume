@@ -71,7 +71,7 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 
 During this project a I managed an team up to **12 people**.
 
-#### 2016-2017. SPM Qt project
+#### 2016-2017. SPM GUI using *Qt framework*
 
 I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. There was a strong business case for the following challenges.
 
@@ -164,10 +164,8 @@ We went researched a number of technologies to find a good fit for implementatio
 
 * **Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
 * **Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. We didn't find enough ways to tune the system for acceptable perofrmance.
-* **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.  with Databricks, the company founded by authors of **Spark** framework. They are the best resource on the market to 
-* **[Dusk Python framework]()**. 
-
-We experimented with Spark and Dusk.
+* **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.  with Databricks, the company founded by authors of **Spark** framework. They are the best **Operations team** on the market to run a Spark cluster. While the expertise was indeed outstanding, neither 
+* **[Dusk Python framework]()**. I was plea
 
 Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
 
@@ -233,6 +231,8 @@ I created a application with functionality. The core of the backend is **MS SQL 
 * *Compose promotion Specification*. Analyst can enter all the desired promotion parameter or give system hints how to generate parameters based on existing data. *Explore* existing data  help to constrain it slightly.
 * *Run simulations*. Promotion specication always shows how many models will be simulated to generate suggested promotion. It is up to analyst to decides search space is narrow enough simulation can start.
 * *Visualize simulation results*. Analyst can review and *export* in various format.
+
+As project progressed main database grew in size up to **1 Tb (Terrabytd)**. This created a major scalability challenge. Same job ran several time faster in a copy of the database reduced in size. The challenge vent straight into **Big Data** category. Based on this other experiences from the project I first formulated **Cloud-ready SPM** project. Traditional SQL experience and active learning helped me to *spearhead* this project going forward.
 
 #### 2012 Upgraded [SPM]() to 64 bit
 
