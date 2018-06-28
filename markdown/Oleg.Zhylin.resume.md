@@ -68,6 +68,7 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 * Authored and maintained **Product Installers** using **[Microsoft Visual Studio  Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
 * Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc.
 * Established effective process to maintain **SPM Chinese** internationalized version up to date with master *English* version.
+* Upgraded SPM command line build scripts to **CMake**. Created a hybrid configuration that allows to use *manual* and *CMake-generated* project files together.
 
 During this project a I managed an team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to hard work of team members I could help them to become instrumental contributors in terms of **Product Features** and **Qaulity**.
 
@@ -153,7 +154,9 @@ In addition to development workloads we ran the following **Containerized** serv
 
 #### 2014-2017. **Machine Learning Predictive engines API**
 
-Each API project builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code reuse**. I obviously opted for the latter. We created a task running framework using [pyinvoke][pyinvoke]. 
+Each API project builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code Reuse**. I obviously opted for the latter. We created a task running framework using [pyinvoke][pyinvoke]. Common **Invoke** tasks included the following.
+
+* Build project using **CMake**.
 # TODO: [pyinvoke][pyinvoke]
 # TODO: anaconda
 # TODO: unit testing
