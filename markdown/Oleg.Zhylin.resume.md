@@ -88,7 +88,7 @@ Over the course of development we practiced **Pull Request** approach for develo
 
 We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer library]()** became production-ready. Installer work did envolve some **cutting edge** development.
 
-For this project I successfully reused framework based on [Pyinvoke](http://web.archive.org/web/http://www.pyinvoke.org) that was developed as part of **Cloud-ready SPM** project.
+For this project I successfully reused framework based on [pyinvoke][pyinvoke] that was developed as part of **Cloud-ready SPM** project. This helped to have build automations organized and reproducable.
 
 Over the course of this project I managed a team up to **10 people**.
 
@@ -132,6 +132,8 @@ Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http
 
 We had to an extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and extensive use of compression helped achieve our goals.
 
+Infrastructure that powers entire **Software Development lifecycle** was powered by **[pyinvoke][pyinvoke] based framework produced during **Machine Learning Predictive engines API** project.
+
 Managed the team up to **7 people**.
 
 #### 2016-2017 In-house Computational Cluster project
@@ -147,6 +149,13 @@ In addition to development workloads we ran the following **Containerized** serv
 * **[FreeIPA](https://web.archive.org/web/https://www.freeipa.org/page/Main_Page)**. It was not prudent from **security** standpoint to authenticate users via corporate **Active Directory**. 
 
 * **[GitLab](). This includes **Version Control**, **Issue Tracker**, **Continuous Integration/Continuous Delivery (CI/CD)**. 
+
+
+#### 2014-2017. **Machine Learning Predictive engines API**
+
+# TODO: [pyinvoke][pyinvoke]
+# TODO: anaconda
+# TODO: unit testing
 
 #### 2015-2017 [Wibu CodeMeter]() deployment
 
@@ -327,3 +336,5 @@ One of my first projects was to imrpove visualization of **Decision Tree** in **
 
 > <email@example.com> • +00 (0)00 000 0000 • XX years old\
 > address - Mytown, Mycountry
+
+[pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
