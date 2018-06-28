@@ -245,7 +245,7 @@ I was in charge of transforming the code base so that it compiles for 64 bit pla
 * Validate the application at runtime. Stress tests for large Machine Learning problems was both a major goal and a good validation practice.
 * Run [Intel® Parallel Studio XE](http://web.archive.org/web/https://software.intel.com/parallel-studio-xe) for **Static and Dynamic Analysis of the source code**.
 
-The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64 bit build of the application was ready in month. 
+The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64 bit build of the application was ready in month.
 
 #### 2008-2009 Contract project for a major *National Health Survey* for a large *Farmacutical* company
 
@@ -271,9 +271,13 @@ The largest challenge was to **Prepare Data** for analysis. As with any Machine 
 
 * The survey data came with a set of SAS scripts that extracted data from text format. We used them as first step.
 
-As a result all the data was nicely warehoused. We recieved commendments from the client and they followed up with follow up projects using the same dataset. The effort did pay off.
+I learned SAS *from scratch* and crated a system based on **SAS macros** with the following features.
 
-# TODO: Describe my role in using [SAS]() in munging the data. Point out data munging is 80% of the project.
+* All the transformations are structured and encapsulated. At the high level transforming all survey sections is a sequence of high level calls.
+* **Convention over configuration** to miniminze number of parameters and keep the code clean.
+* Heavy **Code Reuse** between transformation. Adding new transformation that is similar to several other ones is a breeze.
+
+As a result all the data was nicely warehoused. We recieved commendments from the client and they followed up with follow up projects using the same dataset. The effort did pay off.
 
 #### 2007. First visit to Salford Systems office in San Diego
 
