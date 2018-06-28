@@ -98,7 +98,13 @@ The key pre-requisite to bring an internationalized version of software in produ
 
 At this year we entered partnership with a high profile company in **Japan**. They agree to provide translators and signed reseller agreement.
 
-The most important challenge was to create a **Unicode** version of SPM. The entire source code has to be revisited and all the non-unicode conformant code has to be corrected. I developed the following methodology. It allowed to create a release-quality SPM English version with full Unicode support.
+The most important challenge was to create a **Unicode** version of SPM. The entire source code has to be revisited and all the non-unicode conformant code has to be corrected. I developed a process that allowed to create a release-quality SPM English version with full Unicode support.
+
+1. Configure projects to build Unicode application. Address all the **Compiler Warnings**.
+1. Use guidelines from Microsoft and other sources to crate **Regular Expressions** to locate and fix unicode issues in the code base.
+1. Develop test cases supplying Unicode strings as inputs to the application.
+1. Run **Static Analysis** tools ([CppCheck](http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/)).
+1. Run **Dynamic Analysis** tools ([NuMega DevPartner aka Boundschecker](http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx)).
 
 * Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
 
