@@ -88,6 +88,8 @@ Over the course of development we practiced **Pull Request** approach for develo
 
 We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer library]()** became production-ready. Installer work did envolve some **cutting edge** development.
 
+For this project I successfully reused framework based on [Pyinvoke](http://web.archive.org/web/http://www.pyinvoke.org) that was developed as part of **Cloud-ready SPM** project.
+
 Over the course of this project I managed a team up to **10 people**.
 
 #### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*
