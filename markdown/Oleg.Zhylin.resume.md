@@ -27,7 +27,11 @@ In **2017-2018** I helped Salford Systems to become a [Minitab](https://web.arch
 
 Below I listed my most prominent achievements during my career. Please find more information on these in **Experience Details** chapter below.
 
-* *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. GUI brings value to a user by making intuitive to **Setup** a Machine Learning models and interpret the results. For the letter **Visualization** of Machine Learning results is the key. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
+* *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. This area is critical for **Machine Learning Business**. The business scales up by acquiring more and more successful clients. Clients have diverse background and specializations. The business needs help from **Software Engineer** professionals to build effective GUI. It makes intuitive to **Setup** a Machine Learning models and interpret the results. For the letter **Visualization** of Machine Learning results is the key. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
+
+* *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***.
+* *Designed **APIs**.
+
 
 ## Experience Details
 
@@ -156,12 +160,11 @@ In addition to development workloads we ran the following **Containerized** serv
 
 Each API project builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code Reuse**. I obviously opted for the latter. We created a task running framework using [pyinvoke][pyinvoke]. Common **Invoke** tasks included the following.
 
-* Build project using **CMake**.
+* Configure **Development Environment** using **Docker**.
+* Build project using **CMake**
+* Run **unit tests**
 * Protect deliverables using [Wibu Codemeter][codemeter]
 * Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
-# TODO: [pyinvoke][pyinvoke]
-# TODO: anaconda
-# TODO: unit testing
 
 #### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
@@ -306,7 +309,7 @@ This was a great chance to establish in-person relationship and greatly improve 
 
 At this period senior develper who was in charge of GUI development in the company was getting ready to retire. 
 
-#### 2000-2001. [CARTAdvanced Decsion Tree visualization
+#### 2000-2001. [CART]() Advanced Decsion Tree visualization
 
 One of my first projects was to imrpove visualization of **Decision Tree** in **CART**, the flagship product. I implemented the following.
 
