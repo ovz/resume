@@ -48,7 +48,7 @@ I was instrumental during transition period and new developments.
 * Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper governance.
 * Worked closely with TechOps team on an effective corporate IT merger.
 * Supported **Agile** practices for **Product Management**.
-* Participated in architecting **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
+* Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
 * Learned **[Nalperion]()** license manager and helped introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects. 
 
 ### 2000-2017. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com)
@@ -158,6 +158,7 @@ Each API project builds and deploys indendpently. This requires either a lot of 
 
 * Build project using **CMake**.
 * Protect deliverables using [Wibu Codemeter][codemeter]
+* Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
 # TODO: [pyinvoke][pyinvoke]
 # TODO: anaconda
 # TODO: unit testing
@@ -344,3 +345,4 @@ One of my first projects was to imrpove visualization of **Decision Tree** in **
 
 [pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
 [codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems CodeMeter"
+[anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
