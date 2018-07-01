@@ -34,7 +34,8 @@ Below I listed my most prominent achievements during my career. Please find more
 * *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***.
 * *Designed **APIs***.
 * *Provided **Data Engineering** support* to complex **Machine Learning** projects*.
-* *Managed **Distributed Software Development** teams. Coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
+* *Managed **Distributed Software Development** teams. Coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc*.
+* *Implemented **Agile Software Development** Patterns and Practices*.
 
 ## Experience Details
 
