@@ -1,7 +1,10 @@
 # ![Oleg Zhylin](https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e) Oleg Zhylin
 
-Email: **Oleg.Zhylin@gmail.com**
-Cell: **+1 619 500 6534**
+----
+
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)**
+
+Cell Phone: **+1 619 500 6534**
 
 ----
 
