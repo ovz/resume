@@ -33,7 +33,7 @@ Below I listed my most prominent achievements during my career. Please find more
 * *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. This area is critical for **Machine Learning Business**. The business scales up by acquiring more and more successful clients. Clients have diverse background and specializations. The business needs help from **Software Engineer** professionals to build effective GUI. It makes intuitive to **setup** a Machine Learning models and **interpret** the results. For the letter **Visualization** of Machine Learning results is the key. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
 * *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***.
 * *Designed **APIs***.
-* *Provided **Data Engineering** support* to complex **Machine Learning** projects.
+* *Provided **Data Engineering** support* to complex **Machine Learning** projects*.
 
 ## Experience Details
 
