@@ -6,6 +6,10 @@ Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)**
 
 Cell Phone: **+1 619 500 6534**
 
+Skype: **OlegZhylin**
+
+LinkedIn: **[https://www.linkedin.com/in/olegzhylin/](https://www.linkedin.com/in/olegzhylin/)**
+
 ----
 
 > Professional **Software Engineer** since **1998**. I enjoy learning and applying
