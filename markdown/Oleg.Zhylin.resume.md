@@ -11,7 +11,7 @@ Cell: **+1 619 500 6534**
 >
 > Applications I developed are in domains of **Data Science**, **Machine Learning**, **Security**.
 >
-> During my carreer I gained considerable experience as **Software Architect**, and **Technical Team Lead**. During some projects I was a **Manager** of teams up to **15 people**.\
+> During my carreer I gained considerable experience as **Software Architect**, and **Technical Team Lead**. During some projects I was a **Manager** for teams up to **15 people**.\
 
 ----
 
@@ -34,6 +34,7 @@ Below I listed my most prominent achievements during my career. Please find more
 * *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***.
 * *Designed **APIs***.
 * *Provided **Data Engineering** support* to complex **Machine Learning** projects*.
+* *Managed **Distributed Software Development** teams. Coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
 
 ## Experience Details
 
