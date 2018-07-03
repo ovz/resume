@@ -2,13 +2,9 @@
 
 ----
 
-Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)**
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064**.
 
-Cell Phone: **+1 619 500 6534**
-
-Skype: **OlegZhylin**
-
-LinkedIn: **[https://www.linkedin.com/in/olegzhylin/](https://www.linkedin.com/in/olegzhylin/)**
+Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhylin/](https://www.linkedin.com/in/olegzhylin/)**
 
 ----
 
@@ -318,7 +314,7 @@ As a result all the data was nicely warehoused. We recieved commendments from th
 
 This was a great chance to establish in-person relationship and greatly improve collaboration. I helped to shape plans for next release of the product. Extracted key aspects of requirements from discussions.
 
-At this period senior develper who was in charge of GUI development in the company was getting ready to retire. 
+At this period senior develper who was in charge of GUI development in the company was getting ready to retire. I made a point to absorb all his experience and wisdom and become the best possible **stewart** for Salford Systems **codebase**.
 
 #### 2000-2001. [CART][cart_2001] Advanced Decsion Tree visualization
 
