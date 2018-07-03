@@ -2,14 +2,13 @@
 
 ----
 
-Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064**
-
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064** &#x25C6;
 Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhylin/](https://www.linkedin.com/in/olegzhylin/)**
 
 ----
 
 > Professional **Software Engineer** since **1998**. I enjoy learning and applying
-> *latest* **ISO C++**. I have a great interest in other leading **Programming Languages** in the
+> *latest* **C++**. I have a great interest in other leading **Programming Languages** in the
 > industry, including **Rust**, **Python**, **Javascript**, et al.\
 >
 > Applications I developed are in domains of **Data Science**, **Machine Learning**, **Security**.
@@ -24,14 +23,14 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** are formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
+During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up.
 
 In **2017-2018** I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
-Below I listed my most prominent achievements during my career. Specific chapters in  **Experience Details** section below provide more details.
+Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details** later in this document.
 
 * *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. This area is critical for **Machine Learning Business**. The Business scales up by acquiring more and more successful clients. Clients have diverse background and specializations. Machine Learning Business needs help from **Software Engineer** professionals to build effective GUIs. It makes intuitive to **setup** a Machine Learning models and **interpret** the results. Key to interpretability is **Visualization** of Machine Learning results. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
 * *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system require **System Design**. As an architect I provided **strong vision** and collaborated with *engineering* and *business* teams to work out best decisions.
