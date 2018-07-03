@@ -26,19 +26,19 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** are formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
- Machine Learning way before mainstream caught up. \
+ Machine Learning way before mainstream caught up.
 
 In **2017-2018** I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
-Below I listed my most prominent achievements during my career. Please find more information on these in **Experience Details** chapter below.
+Below I listed my most prominent achievements during my career. Specific chapters in  **Experience Details** section below provide more details.
 
-* *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. This area is critical for **Machine Learning Business**. The business scales up by acquiring more and more successful clients. Clients have diverse background and specializations. The business needs help from **Software Engineer** professionals to build effective GUI. It makes intuitive to **setup** a Machine Learning models and **interpret** the results. For the letter **Visualization** of Machine Learning results is the key. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
-* *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***.
-* *Designed **APIs***.
-* *Provided **Data Engineering** support* to complex **Machine Learning** projects*.
+* *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. This area is critical for **Machine Learning Business**. The Business scales up by acquiring more and more successful clients. Clients have diverse background and specializations. Machine Learning Business needs help from **Software Engineer** professionals to build effective GUIs. It makes intuitive to **setup** a Machine Learning models and **interpret** the results. Key to interpretability is **Visualization** of Machine Learning results. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
+* *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system require **System Design**. As an architect I provided **strong vision** and collaborated with *engineering* and *business* teams to work out best decisions.
+* *Designed **APIs***. From early in my career I saw great potential in being able to use **Prective Engines** wherever there's a need of their power. I helped the company to arrive to a good API architecture for core intellectual assets. I also used API design extensively for interaction between components in software systems.
+* *Provided **Data Engineering** support* to complex **Machine Learning** projects. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. To bring value data inevitably has to be brought into shape. My skill helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * *Managed **Distributed Software Development** teams. Coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc*.
-* *Implemented **Agile Software Development** Patterns and Practices*.
+* *Implemented **Agile Software Development** Patterns and Practices*. I learned and practically applied immence power of **Motivated and self-organized teams**. Every time this was the key to successful projects. Contrary to many beliefs work in a *small company* requires even more self-motivation. It is too easy to lose focus and create *silos* instad of effective collaboration.
 
 ## Experience Details
 
@@ -296,7 +296,7 @@ The largest project was to apply **CART** and other Machine Learning algorithms 
 
 * High accurancy **Classificaiton** using **[TreeNet]()** (aka **Gradient Boosting**).
 
-The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling](http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling)** took 80% of the effort. I developed an approach based on **[SAS]()** scripts. The selection of the language was due to the following factors.
+The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS]()** scripts. The selection of the language was due to the following factors.
 
 * Client had **in-house expertise** with SAS.
 
@@ -359,3 +359,4 @@ At this period senior develper who was in charge of GUI development in the compa
 [anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
 [cart_2001]: http://web.archive.org/web/20010205000600/http://www.salford-systems.com/products-cart.html "CART (Classification and Regression Trees)"
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
+**[data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling) "Data Wrangling"
