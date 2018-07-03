@@ -353,4 +353,4 @@ At this period senior develper who was in charge of GUI development in the compa
 [anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
 [cart_2001]: http://web.archive.org/web/20010205000600/http://www.salford-systems.com/products-cart.html "CART (Classification and Regression Trees)"
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
-**[data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling) "Data Wrangling"
+[data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling) "Data Wrangling"
