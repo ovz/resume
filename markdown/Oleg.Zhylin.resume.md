@@ -320,9 +320,10 @@ This was a great chance to establish in-person relationship and greatly improve 
 
 At this period senior develper who was in charge of GUI development in the company was getting ready to retire. 
 
-#### 2000-2001. [CART]() Advanced Decsion Tree visualization
+#### 2000-2001. [CART][cart_2001] Advanced Decsion Tree visualization
 
-One of my first projects was to imrpove visualization of **Decision Tree** in **CART**, the flagship product. I implemented the following.
+[CART][cart_2001] product is  rpo
+One of my first projects was to imrpove visualization of **Decision Tree** in **CART**. the flagship product. I implemented the following.
 
 * *Compact tree layout*. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
 
@@ -360,3 +361,4 @@ One of my first projects was to imrpove visualization of **Decision Tree** in **
 [pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
 [codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems CodeMeter"
 [anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
+[cart_2001]: http://web.archive.org/web/20010205000600/http://www.salford-systems.com/products-cart.html "CART (Classification and Regression Trees)"
