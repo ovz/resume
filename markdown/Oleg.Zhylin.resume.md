@@ -28,7 +28,7 @@ LinkedIn: **[https://www.linkedin.com/in/olegzhylin/](https://www.linkedin.com/i
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** are formative for my software engineering experience in **Machine Learning** domain. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com) was a pioneering **Data Science**
+During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** are formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up. \
 
@@ -66,7 +66,7 @@ I was instrumental during transition period and new developments.
 * Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
 * Learned **[Nalperion]()** license manager and helped introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects. 
 
-### 2000-2017. [Salford Systems](https://web.archive.org/web/https://www.salford-systems.com)
+### 2000-2017. [Salford Systems][salford]
 
 I joined the company during my last year in University. Instantly it was a very good match and great challenge. Thanks to my wonderful team my Computer Science skills soared and picked up a good deal of Machine Learning and other skills.
 
@@ -322,7 +322,7 @@ At this period senior develper who was in charge of GUI development in the compa
 
 #### 2000-2001. [CART][cart_2001] Advanced Decsion Tree visualization
 
-[CART][cart_2001] product is  rpo
+[CART][cart_2001] is the original flagship product of 
 One of my first projects was to imrpove visualization of **Decision Tree** in **CART**. the flagship product. I implemented the following.
 
 * *Compact tree layout*. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
@@ -362,3 +362,4 @@ One of my first projects was to imrpove visualization of **Decision Tree** in **
 [codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems CodeMeter"
 [anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
 [cart_2001]: http://web.archive.org/web/20010205000600/http://www.salford-systems.com/products-cart.html "CART (Classification and Regression Trees)"
+[salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
