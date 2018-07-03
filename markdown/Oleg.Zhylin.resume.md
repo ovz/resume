@@ -322,10 +322,10 @@ At this period senior develper who was in charge of GUI development in the compa
 
 #### 2000-2001. [CART][cart_2001] Advanced Decsion Tree visualization
 
-[CART][cart_2001] is the original flagship product of 
-One of my first projects was to imrpove visualization of **Decision Tree** in **CART**. the flagship product. I implemented the following.
+[CART][cart_2001] is the original flagship product of [Salford Systems][salford]. It was later re-branded as **Salford Predictive Modeller (SPM)**. At the heart of the project is **Decision Tree** based mechanism to learn **Predictive Model** from the data. I was fortunate that my first assignment was to improve decision tree **Visualization**. This allowed me to immediately bring non-trivial amount of value into the release of next product. I implemented the following.
 
-* *Compact tree layout*. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
+* **Compact tree layout**. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
+* ***Tree Details** display*. This is a printable display showing details about Nodes right in the tree topology. I improved information shown in nodes, added graphics, made it more configurable, and improved performance for scrolling large trees.
 
 ## **COPY from resume_eng.html** Education
 
