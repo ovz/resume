@@ -348,11 +348,6 @@ At this period senior develper who was in charge of GUI development in the compa
 
 * Other sort of impressive-sounding thing you did
 
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
-
 [pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
 [codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems CodeMeter"
 [anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
