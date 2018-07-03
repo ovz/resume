@@ -69,7 +69,7 @@ Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Lear
 
 I was primary **Graphical User Interace (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for _5.0_ release and **Salford Precitive Modeller (SPM)** afterwards. 
 
-#### 2016-2017. *[SPM 8.2](http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm)* in production
+### 2016-2017. *[SPM 8.2](http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm)* in production
 
 I was main engineer behind preparing and running **SPM 8.2** in production.
 
@@ -82,7 +82,7 @@ I was main engineer behind preparing and running **SPM 8.2** in production.
 
 During this project a I managed an team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to hard work of team members I could help them to become instrumental contributors in terms of **Product Features** and **Qaulity**.
 
-#### 2016-2017. SPM GUI using *Qt framework*
+### 2016-2017. SPM GUI using *Qt framework*
 
 I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. There was a strong business case for the following challenges.
 
@@ -103,7 +103,7 @@ For this project I successfully reused framework based on [pyinvoke][pyinvoke] t
 
 Over the course of this project I managed a team up to **10 people**.
 
-#### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*
+### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*
 
 The key pre-requisite to bring an internationalized version of software in production is a reliable native partner on site. During the years we entered in business partnerhips and produced internationalized versions for markets in **Asia**.
 
@@ -121,7 +121,7 @@ The most important challenge was to create a **Unicode** version of SPM. The ent
 
 * Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
 
-#### 2015-2017. **Cloud-ready SPM** project
+### 2015-2017. **Cloud-ready SPM** project
 
 CloudSPM projects captures all our vision for cutting edge usage of **Salford Systems** technology. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license to our users.
 
@@ -147,7 +147,7 @@ Infrastructure that powers entire **Software Development lifecycle** uses [pyinv
 
 Managed the team up to **7 people**.
 
-#### 2016-2017 In-house Computational Cluster project
+### 2016-2017 In-house Computational Cluster project
 
 For our **Big Data** and **Cloud** initiatives we decided to setup a computational **Cluster** in our server room. One of the advantages was that Developers didn't need to control cost when using the cluster. Pre-purchased hardware is available 24/7 and the challenge is to keep it running effectively. The team had plenty of Machine Learning research workload and software development workloads to make this happen.
 
@@ -162,7 +162,7 @@ In addition to development workloads we ran the following **Containerized** serv
 * **[GitLab](). This includes **Version Control**, **Issue Tracker**, **Continuous Integration/Continuous Delivery (CI/CD)**. 
 
 
-#### 2014-2017. **Machine Learning Predictive engines API**
+### 2014-2017. **Machine Learning Predictive engines API**
 
 Each API project builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code Reuse**. I obviously opted for the latter. We created a task running framework using [pyinvoke][pyinvoke]. Common **Invoke** tasks included the following.
 
@@ -172,7 +172,7 @@ Each API project builds and deploys indendpently. This requires either a lot of 
 * Protect deliverables using [Wibu Codemeter][codemeter]
 * Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
 
-#### 2015-2017 [Wibu Codemeter][codemeter] deployment
+### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
 I was in charge of learning and the technology and introdcing it to the project. CodeMeter is a very effective technology. It can **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
 
@@ -180,7 +180,7 @@ One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** pro
 
 CodeMeter came very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey]() did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
 
-#### 2014-2016. Distributed Machine Learning. [Importance Sampled Learning Ensembles](<Jerry's paper link>) project
+### 2014-2016. Distributed Machine Learning. [Importance Sampled Learning Ensembles](<Jerry's paper link>) project
 
 Core compentency of Salford Systems is **Decision trees**. They are notoriously challenging to implement in a distributed fashion. It is a holy grail of **Data Science** to run a powerful algorithm against whole volume of **Big Data** dataset. We learned a lot from brainstorming and experimenting in this area. From business standpoint more and more customers have huge datasets and a lot of computation power. The opportunities were ripe for a market offer.
 
@@ -197,7 +197,7 @@ Ideas, Experiences, and development results from this projects were later used i
 
 Managed team up to **3 people**.
 
-#### 2014-2017 [SPM 7.0]()
+### 2014-2017 [SPM 7.0]()
 
 Salford Predictive Modeller (SPM) brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application. 
 
@@ -217,7 +217,7 @@ Pushed to institute effective **Version Control**, **Issuer Tracking**, **Contin
 
 Managed team up to **15 people**, including **Software** and **QA** engineers. I was in charge of coordinating **outsource** development team in **Ukraine**.
 
-#### 2013 *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
+### 2013 *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
 
 As part of consulting project Salford Systems recieved data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights.
 
@@ -231,7 +231,7 @@ During this project I greatly improved my skills in the following areas.
 * **WWF**
 * **WPF**
 
-##### Predicting future sales during Promotions
+#### Predicting future sales during Promotions
 
 This allows to **stock** the stores accordingly. Promotions are actively advertised. If promoted item sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
 
@@ -252,7 +252,7 @@ I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Da
 
 The essence of the application is to execute workflows. **Windows Workflow Foundation** was a very good fit for this. I embedded **Workflow Designer** into the application. User could easily customize workflows to run ad hoc jobs and experiment. This also increased **Development velocity**.
 
-##### Discovering future Promotions*
+#### Discovering future Promotions*
 
 Search space for promotions is huge and multidimensional. Even after we apply known constrains coming from **Business goals**, **Product Association constrains** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what doesn't. This indispensible resource brought the business where it is. Thus the goal of the application was to bring information in front of an Analyst and help him put a Promotion together.
 
@@ -264,7 +264,7 @@ I created a application with functionality. The core of the backend is **MS SQL 
 
 As project progressed main database grew in size up to **1 Tb (Terrabytd)**. This created a major scalability challenge. Same job ran several time faster in a copy of the database reduced in size. The challenge vent straight into **Big Data** category. Based on this other experiences from the project I first formulated **Cloud-ready SPM** project. Traditional SQL experience and active learning helped me to *spearhead* this project going forward.
 
-#### 2012 Upgraded [SPM]() to 64 bit
+### 2012 Upgraded [SPM]() to 64 bit
 
 Salford Predictive Modeler (SPM) is very memory intensive. Any non-trivial Machine Learning challenge must fit into memory. It was crucial to address limitation of 4Gb address space of legacy 32 bit.
 
@@ -277,7 +277,7 @@ I was in charge of transforming the code base so that it compiles for 64 bit pla
 
 The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64 bit build of the application was ready in month.
 
-#### 2008-2009 Contract project for a major *National Health Survey* for a large *Farmacutical* company
+### 2008-2009 Contract project for a major *National Health Survey* for a large *Farmacutical* company
 
 Due to economic downturn Salford Systems had to embark on a number of consluting projects. The company itself was privately owned and was not affected by the **Stock Market** but many of the clients were. A common situation was that Engineering departments got downsized and remaining staff was under "300% load". They didn't have bandwidth to license our software and carry out **Machine Learning** projects.
 
@@ -309,13 +309,13 @@ I learned SAS *from scratch* and crated a system based on **SAS macros** with th
 
 As a result all the data was nicely warehoused. We recieved commendments from the client and they followed up with follow up projects using the same dataset. The effort did pay off.
 
-#### 2007. First visit to Salford Systems office in San Diego
+### 2007. First visit to Salford Systems office in San Diego
 
 This was a great chance to establish in-person relationship and greatly improve collaboration. I helped to shape plans for next release of the product. Extracted key aspects of requirements from discussions.
 
 At this period senior develper who was in charge of GUI development in the company was getting ready to retire. I made a point to absorb all his experience and wisdom and become the best possible **stewart** for Salford Systems **codebase**.
 
-#### 2000-2001. [CART][cart_2001] Advanced Decsion Tree visualization
+### 2000-2001. [CART][cart_2001] Advanced Decsion Tree visualization
 
 [CART][cart_2001] is the original flagship product of [Salford Systems][salford]. It was later re-branded as **Salford Predictive Modeller (SPM)**. At the heart of the project is **Decision Tree** based mechanism to learn **Predictive Model** from the data. I was fortunate that my first assignment was to improve decision tree **Visualization**. This allowed me to immediately bring non-trivial amount of value into the release of next product. I implemented the following.
 
