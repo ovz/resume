@@ -199,15 +199,15 @@ Managed team up to **3 people**.
 
 ### 2014-2017 [SPM 7.0]()
 
-Salford Predictive Modeller (SPM) brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application. 
+Salford Predictive Modeller (SPM) brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application.
 
-* Introduced general GUI framework based on [Windows Template Library (**WTL**)](). This framework allowed us to create non-modal Multiple Document Interface (**MDI**) displays using Dialog Resource. The framework interacts seamlessly with legacy **Win32** code. This framework greatly improved productivity of GUI developers I coordinated and my productivity as well. 
-
+* Introduced general GUI framework based on [Windows Template Library (**WTL**)](). This framework allowed us to create non-modal Multiple Document Interface (**MDI**) displays using Dialog Resource. The framework interacts seamlessly with legacy **Win32** code. This framework greatly improved productivity of GUI developers I coordinated and my productivity as well.
 * Implemented innovative set of GUI interfaces for [Generalized PathSeeker (GPS)](). This *Machine Learning Algorithm* builds on a lot of **Regularized** regression runs sub-divided into *Elasticities* and *Paths*. There was thus enormous amount information we could potentially display and it was organized in multiple dimensions. The resutling display gave several insightful views into the results.
-
 * Implemented *GUI* and *Middleware* for [ISLE]() and [RuleLearner](). These are **Pipeline Machine Learning models** based on [TreeNet]() and [GPS](). GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining.
   * **Model Compression** for **ISLE**.
   * Discovered **Predictive Rules** for **Rulelearner**.
+* Designed and implemented *Summary Window* framework. This is a display based on **Tab Control**. In particular 
+  * Customized standard Windows tab control to implement features we needed in the GUI shows typical  
 
 Pushed to institute effective **Version Control**, **Issuer Tracking**, **Continous Integration/Continous Delivery** and other good development process tools and practices. We eneded up with the following toolset.
 
