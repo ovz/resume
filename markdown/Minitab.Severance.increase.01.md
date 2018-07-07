@@ -9,35 +9,41 @@ Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell P
 
 ## Overview
 
-Thank you very much for an offer of SEPARATION AND GENERAL RELEASE AGREEMENT. I fully agree that it would be best to settle all claims to the satisfaction of both parties. I would like to humbly and respectfully ask for an increase of lump sum severance payment to **$350,000** (three hundred thousand).
+Thank you very much for offering a SEPARATION AND GENERAL RELEASE AGREEMENT. I fully agree that it would be best to settle all claims to the satisfaction of both parties. I would like to humbly and respectfully ask for an increase of lump sum severance payment up to **$350,000** (three hundred thousand).
 
-My family is eternally grateful for the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this. None of us felt more at home here and now then ever in our lives. My wife and I are so glad that we can keep our children at distance from horrible experiences everyone goes through in Ukraine. An adequate severance compensation will help greatly to continue this.
+My family is eternally grateful for the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this. None of us felt more at home ever in our lives than here and now. My wife and I are so glad that we can keep our children away from horrible experiences everyone goes through in Ukraine. An adequate severance compensation will help greatly to continue this going forward.
 
-I will greatly appreciate your help and support raising my children Yelyzaveta (daughter, 10 years old) and Bogdan (son, 5 years old) as healthy and productive members of american society.
+Severance payment will ensure that my children Yelyzaveta (daughter, 10 years old) and Bogdan (son, 5 years old) will continue having a happy childhood and grow up into healthy and productive members of American society.
+
+My family is also fortunate to have all four grandparents in good health and active. They all live in Ukraine and eventually they will need our help and care. This unconditionally is part of our life plan.
 
 ## Almost 2 decades of experience with Salford Systems
 
-I am affiliated with Salford Systems in various capacities in almost two decades. I contributed my engineering talent all over the software codebase. I actively participated in evolution of software products. A lot of my ideas went into them. I was intrumental in creating *Intellectual Property* that motivated Minitab to acquire Salford Systems.
+I was affiliated with Salford Systems in various capacities for almost two decades. I contributed my engineering talent all over the software codebase. I actively participated in evolution of software products. Many of my ideas created commerical succss that Salford Systems products enjoy.
 
-With the end of the era of Salford Systems era of my life I have a lot of work in front of me. Given my experience working long term and bringing business to incredible hights is what I know best how to do. I'm almost 40 years old and I most likely have only a single chance to build up a career comparable with one I had with Salford Systems. Severance payment I request will greatly support me on this path.
+Over all these years I had a chance to communicate with other professionals during trainings and events. I used every chance to promote the Business. It was easy given our unique value proposition and an interesting challenge given deep non-trivial scienfic nature of our products.
+
+In many ways I was intrumental in creating *Intellectual Property* that motivated Minitab to acquire Salford Systems.
+
+With the end of of Salford Systems era of my life I have a lot of work in front of me. The bulk of my experience is working long term for a Business and bringing it to incredible hights. This what I know best how to do. I'm almost 40 years old and I most likely I have only a single chance to build up a career comparable with one I had with Salford Systems. Severance payment I request will greatly support me on this path.
 
 ## Transition of Salford Systems to a Minitab company
 
-I wholeheartedly welcomed when Salford Systems became a Minitab company. Joining Minitab family is a big step forward. I'm sure the future of Salford Systems is bright. I eagerly and enthiastically collaborated with Minitab teams to transfer all the Intellectual Property. I used my best professional and personal judgement to develop the business, apply best technological solutions and make employees with Minitab and Salford Systems a single and effective team.
+I wholeheartedly welcomed when Salford Systems became a Minitab company. Joining Minitab family is a big step forward. I'm sure the future of Salford Systems is bright. I eagerly and enthiastically collaborated with Minitab teams to make sure every piece of value that Minitab acquired is transitioned successfully. I used my best professional and personal judgement to develop the business, apply best technological solutions and make co-workers with both Minitab and Salford Systems background a single and effective team.
 
 ## Prevented from fulfillment of my professional duties
 
 During past months I was prevented from fullfilment of my professional duties. For reasons that were deliberately kept secret from me development of *Salford Predictive Modeler (SPM)* software product stagnated. Instead of developing on the momentum we got after the acquision and bringing one successful product release after another the team was stuck with non-essential tasks. I brought this up regularly during One on One meetings with my direct supervisor. My offers to contribute and collaborate were often ignored and silently rejected by a number of co-workers.
 
-*Product Management* team was very uncooperative. It spent inadequate amount of time to work out decisions behind closed doors and deliberately neglected to seek input from engineers who are going to be in charge of fulfilling the task. Often there was an immediate verbal pushback on any attempt to approach tasks professionally and exercise best knowledge and judgement.
+*Product Management* team was very uncooperative. They spent inadequate amount of time working out decisions behind closed doors and deliberately neglected to seek input from engineers who are going to be in charge of production. Often there was an immediate verbal pushback on any attempt to approach tasks professionally and exercise best knowledge and judgement.
 
-*I always respected organization's decision making process and contributed my best abilities to provide solutions. I have a track record going back decades of top level of professionalism executing projects that moved Salford Systems forward.*
+*I always respected organization's decision making process and contributed my best abilities to provide solutions. Going back decades I have a track record of top level of professionalism executing projects that moved Salford Systems forward.*
 
-*Engineering Department* members were noticably unwilling to work as a single team. They kept their distance ostensibly differentiating between people with Minitab and Salford background. Engineering practices common in the industry to prototype rapidly and give ideas as Pull Requests and Demo Projects met unjustified pushbacks. I had full understanding that knowledge and expereince of Salford Systems engineers is a key part of what Minitab acquired with the merger. I took team integration integration process very responsibly and used my best professional judgement.
+*Engineering Department* members were noticably unwilling to work as a single team. They kept their distance ostensibly differentiating between people with Minitab and Salford Systems background. Engineering practices common in the industry to prototype rapidly and represent ideas as Pull Requests and Demo Projects met unjustified pushbacks. I   understand fully and entirely that knowledge and expereince of Salford Systems engineers is a key part of what Minitab acquired with the merger. I took team integration process very responsibly and used my best professional judgement.
 
-I consider *Performance Improvement* a key part of professional behavior. Formality is far from enough to have this process ongoing. It has to be an intention and a goal for all participants. We can only improve together via constructive dialog. Despite what is stated in ***"Paid Administrative Leave and Termination of Employment"** letter hand delivered to me on May 29, 2018* the dialog was lacking.
+I consider *Performance Improvement* a corner stone of professional behavior. Formality is far from enough to kep this process going. It has to be an intention and a goal of all participants. We can only improve together via constructive dialog. Despite what is stated in ***"Paid Administrative Leave and Termination of Employment"** letter hand delivered to me on May 29, 2018* the dialog was lacking severely.
 
-I had full understanding that acquision of Salford Systems is a new experience for Minitab as a company. Time is required to digest it. This process is very important and sensitive for disruption. I was looking forward to go past the transition and collaborate effectively to reach our business goals. For the reasons unknown to me Minitab decided to instead terminate my employment.
+It was clear to me that acquision of Salford Systems is a new experience for Minitab. Time and hard work is required to digest it. This process is very important and sensitive for disruption. I was looking forward very much to go past the transition and collaborate effectively to reach our business goals. For the reasons unknown to me Minitab decided to instead terminate my employment.
 
 ## Personal antipathy and bullying attempts
 
