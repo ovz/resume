@@ -40,7 +40,7 @@ I strongly suspect the reason for unprofessional behavior from other co-workers 
 * I was rudely interrupted when I was trying to participate in a professional converstation.
 * Other co-workers recieved preferencial treatment. This was deliberately done during team meetings.
 * I recieved aggressive and irritated comments about my work mode, eating habits etc.
-* Co-workers deliberately pretended not to understand my accent.
+* Co-workers deliberately pretended not to understand my accent. English pronounciation is notoriously challenging for speakers of Russian. I'm always aware of it and make concious effort to get myself understood. Despite my experience of successful communication with Salford Systems co-workers over decades lately I expereinced a good deal of negativity in response to me expressing my thoughts. It looked like co-workers wanted to make a point at the expense of professionalism and efficency.
 * Despite Minitab has no dressing code I recieved disrespectful comments about my attire.
 * When in aggresive mood co-workers responded negatively to a smile on my face. I made all the effort to convince that my body language and facial expression indicate calm, positive, and professional attitude.
 * Maintaining a healthy body is one of the core principles of my lifestyle. It is well known that "default" habits of an office worker lead to call kinds of health complications down the road. I was always concious to make sure that keeping my body in tone doesn't interfere with anyone. Nevertheless I recieved unpleasant and sometimes aggressive comments.
