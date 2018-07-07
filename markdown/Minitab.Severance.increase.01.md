@@ -9,7 +9,7 @@ Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell P
 
 ## Overview
 
-Thank you very much for an offer of SEPARATION AND GENERAL RELEASE AGREEMENT. I fully agree that it would be best to settle all claims to the satisfaction of both parties. I would like to humbly and respectfully ask for an increase of lump sum severance payment to **$300,000** (three hundred thousand).
+Thank you very much for an offer of SEPARATION AND GENERAL RELEASE AGREEMENT. I fully agree that it would be best to settle all claims to the satisfaction of both parties. I would like to humbly and respectfully ask for an increase of lump sum severance payment to **$350,000** (three hundred thousand).
 
 My family is eternally grateful for the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this. None of us felt more at home here and now then ever in our lives. My wife and I are so glad that we can keep our children at distance from horrible experiences everyone goes through in Ukraine. An adequate severance compensation will help greatly to continue this.
 
@@ -27,11 +27,13 @@ I wholeheartedly welcomed when Salford Systems became a Minitab company. Joining
 
 ## Prevented from fulfillment of my professional duties
 
-During past months I was prevented from fullfilment of my professional duties. For reasons that were deliberately kept secret from me development of *Salford Predictive Modeler (SPM)* software product stagnated. Instead of developing on momentum we got after the acquision and bringing one successful product release after another the team was stuck with non-essential tasks. I brought this up regularly during One on One meetings with my direct supervisor.
+During past months I was prevented from fullfilment of my professional duties. For reasons that were deliberately kept secret from me development of *Salford Predictive Modeler (SPM)* software product stagnated. Instead of developing on momentum we got after the acquision and bringing one successful product release after another the team was stuck with non-essential tasks. I brought this up regularly during One on One meetings with my direct supervisor. My offers to contribute and collaborate were often ignored and silently rejected by a number of co-workers.
 
 *Product Management* team was very uncooperative. It spent inadequate amount of time to work out decisions and deliberately neglected to seek input from engineers who are going to be in charge of fulfilling the task. Often there was an immediate verbal pushback when I tried to express professional view on the problem at hand. I always respected organization's decision making process and contributed my best abilities to provide solutions.
 
 *Engineering Department* members were noticably unwilling to work as a single team. They kept their distance ostensibly differentiating between people with Minitab and Salford background. Engineering practices common in the industry to prototype rapidly and give ideas as Pull Requests and Demo Projects met unjustified pushbacks. I had full understanding that knowledge and expereince of Salford Systems engineers is a key part of what Minitab acquired with the merger. I took team integration integration process very responsibly and used my best professional judgement.
+
+During my time with Minitab I never had a chance to discuss my performance and find ways to improve. I didn't want to push understanding that acquision of Salford Systems is new experience for Minitab as a company and it requires time to digest. I was looking forward to go past transition and collaborate effectively to reach our business goals. This would include working on termination reasons stated in 
 
 ## Personal antipathy and bullying attempts
 
