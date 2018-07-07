@@ -43,12 +43,15 @@ I strongly suspect the reason for unprofessional behavior from other co-workers 
 * Co-workers deliberately pretended not to understand my accent.
 * Despite Minitab has no dressing code I recieved disrespectful comments about my attire.
 * When in aggresive mood co-workers responded negatively to a smile on my face. I made all the effort to convince that my body language and facial expression indicate calm, positive, and professional attitude.
+* Maintaining a healthy body is one of the core principles of my lifestyle. It is well known that "default" habits of an office worker lead to call kinds of health complications down the road. I was always concious to make sure that keeping my body in tone doesn't interfere with anyone. Nevertheless I recieved unpleasant and sometimes aggressive comments.
 
-The behaviors I encountered were easily recognizable as bullying attemts.
+The behaviors I encountered were easily recognizable as bullying attemts. Anything "out of norm" about me was used to try to make things painful to me.
 
 I approached this in professional and compassionate manner. I explicitly re-assured team members that I treat all human being with utomost respect. In the work environment professionalism is expected to be a dominating principle.
 
 Due to my cultural origins and background I did not hurry to get HR Department involved. During my life I learned well **not** to get hurt when someone is trying to hurt me. The first thing on my mind when I encounter a problem are action items for me to get it resolved. I made all the efforts to bring things firmly to professional rails. Regretfully this didn't happen.
+
+I did mention lack of progress in Product Development and other goals in One on One meetings with my direct supervisor. I shared my vision and thoughts and articulated how I'm planning to deal with the situations in most professional and compassionate manner.
 
 ## Psychological challenges after termination
 
