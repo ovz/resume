@@ -33,7 +33,7 @@ During past months I was prevented from fullfilment of my professional duties. F
 
 *Engineering Department* members were noticably unwilling to work as a single team. They kept their distance ostensibly differentiating between people with Minitab and Salford background. Engineering practices common in the industry to prototype rapidly and give ideas as Pull Requests and Demo Projects met unjustified pushbacks. I had full understanding that knowledge and expereince of Salford Systems engineers is a key part of what Minitab acquired with the merger. I took team integration integration process very responsibly and used my best professional judgement.
 
-During my time with Minitab I never had a chance to discuss my performance and find ways to improve. I didn't want to push understanding that acquision of Salford Systems is new experience for Minitab as a company and it requires time to digest. I was looking forward to go past transition and collaborate effectively to reach our business goals. This would include working on termination reasons stated in 
+During my time with Minitab I never had a chance to discuss my performance and find ways to improve. I had full understanding that acquision of Salford Systems is a new experience for Minitab as a company. Time is required to digest it. This process is very important and sensitive for disruption. I was looking forward to go past the transition and collaborate effectively to reach our business goals. This would include actually having the ongoing discussion process as stated *"Paid Administrative Leave and Termination of Employment"* letter hand delivered to me on May 29, 2018.  
 
 ## Personal antipathy and bullying attempts
 
@@ -51,7 +51,7 @@ The behaviors I encountered were easily recognizable as bullying attemts. Anythi
 
 I approached this in professional and compassionate manner. I explicitly re-assured team members that I treat all human being with utomost respect. In the work environment professionalism is expected to be a dominating principle.
 
-Due to my cultural origins and background I did not hurry to get HR Department involved. During my life I learned well **not** to get hurt when someone is trying to hurt me. The first thing on my mind when I encounter a problem are action items for me to get it resolved. I made all the efforts to bring things firmly to professional rails. Regretfully this didn't happen.
+In the culture I grew up it is *vital* to persevere through changes. There's no trusted authority to run to. During my life I learned well **not** to get hurt when someone is trying to hurt me. The first thing on my mind when I encounter a problem are action items for me to get it resolved. I made all the efforts to bring things firmly to professional rails. Regretfully this didn't happen. In restrospect I should have
 
 I did mention lack of progress in Product Development and other goals in One on One meetings with my direct supervisor. I shared my vision and thoughts and articulated how I'm planning to deal with the situations in most professional and compassionate manner.
 
