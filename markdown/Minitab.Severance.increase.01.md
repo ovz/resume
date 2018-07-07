@@ -6,10 +6,6 @@
 
 ----
 
-Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064**
-
-----
-
 ## Overview
 
 Thank you very much for offering a SEPARATION AND GENERAL RELEASE AGREEMENT. I fully agree that it would be best to settle all claims to the satisfaction of both parties. I would like to humbly and respectfully ask for an increase of lump sum severance payment up to **$350,000** (three hundred thousand).
@@ -79,3 +75,7 @@ For the reasons stated above, I experience a great psychological burden after te
 **Sincerely,**
 
 Oleg Zhylin
+
+----
+
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064**
