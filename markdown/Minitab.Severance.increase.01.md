@@ -50,9 +50,13 @@ Due to my cultural origins and background I did not hurry to get HR Department i
 
 ## Psychological challenges after termination
 
-For the reasons stated above I experience large psycological burdern after termination. I have to overcome it to build my future professional carreer.
+For the reasons stated above I experience large psycological burdern after termination. I have to overcome it to build my future professional carreer. Described above are complex situations. It is a challenge to get them out of my mind and focus on preparing for my next employment. Some of the challenges do require time to heal and this impairs my ability to embark successfully on new career.
 
-Sincerily,
+*I wish the best of luck to Minitab and your team in building successful and prosperous business. Could you please feel free to reach out if I can help with anything.*
+
+**Thank You!**
+
+**Sincerily,**
 
 Oleg Zhylin
 
