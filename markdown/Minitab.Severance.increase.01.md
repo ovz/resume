@@ -35,12 +35,14 @@ During past months I was prevented from fullfilment of my professional duties. F
 
 ## Personal antipathy and bullying attempts
 
-I strongly suspect the reason for unprofessional behavior from other co-workers was personal. We have a history going back years of derogatory comments and condenscending attitude about my appearance, eating habit, language etc. This behavior did not disappear and became worth during last months.
+I strongly suspect the reason for unprofessional behavior from other co-workers was personal. We have a history going back years of derogatory comments and condenscending attitude to my appearance, eating habit, language etc. This behavior did not disappear and became worth during last months.
 
 * I was rudely interrupted when I was trying to participate in a professional converstation.
 * Other co-workers recieved preferencial treatment. This was deliberately done during team meetings.
-* I recieved aggressive and irritated comments about my work mode, dressing style, eating habits etc.
+* I recieved aggressive and irritated comments about my work mode, eating habits etc.
 * Co-workers deliberately pretended not to understand my accent.
+* Despite Minitab has no dressing code I recieved disrespectful comments about my attire.
+* When in aggresive mood co-workers responded negatively to a smile on my face. I made all the effort to convince that my body language and facial expression indicate calm, positive, and professional attitude.
 
 The behaviors I encountered were easily recognizable as bullying attemts.
 
