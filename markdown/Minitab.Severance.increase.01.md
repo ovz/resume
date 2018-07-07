@@ -14,7 +14,7 @@ Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell P
 
 Thank you very much for offering a SEPARATION AND GENERAL RELEASE AGREEMENT. I fully agree that it would be best to settle all claims to the satisfaction of both parties. I would like to humbly and respectfully ask for an increase of lump sum severance payment up to **$350,000** (three hundred thousand).
 
-My family is eternally grateful for the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this. None of us felt more at home ever in our lives than here and now. My wife and I are so glad that we can keep our children away from horrible experiences everyone goes through in Ukraine. An adequate severance compensation will help greatly to continue this going forward.
+My family is eternally grateful for the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this. None of us felt more at home ever in our lives than here and now. My wife and I are so glad that we can keep our children away from horrible experiences everyone goes through in Ukraine. Adequate severance compensation will help greatly to continue this going forward.
 
 Severance payment will ensure that my children Yelyzaveta (daughter, 10 years old) and Bogdan (son, 5 years old) will continue having a happy childhood and grow up into healthy and productive members of American society.
 
@@ -64,7 +64,7 @@ The behaviors I encountered were easily recognizable as bullying attempts. Anyth
 
 I approached this in a professional and compassionate manner. I explicitly re-assured co-workers that I treat all human being with the utmost respect regardless of their roles and achievements. In a work environment professionalism is expected to be a dominating principle.
 
-In the culture I grew up in it is *vital* to persevere through challenges. There's no trusted authority to fall back upon. In my life, I learned very well **not** to get hurt when someone is trying to hurt me. The first thing on my mind when I encounter a problem are action items for me to get it resolved. I made all the efforts to bring things firmly on professional rails. Regretfully this didn't happen.
+In the culture I grew up in it is *vital* to persevere through challenges. There's no trusted authority to fall back upon. In my life, I learned very well **not** to get hurt when someone is trying to hurt me. The first thing on my mind when I encounter a problem is action items for me to get it resolved. I made all the efforts to bring things firmly on professional rails. Regretfully this didn't happen.
 
 I did mention a lack of progress in Product Development and other goals in One on One meetings with my direct supervisor. I shared my vision and thoughts and articulated how I'm planning to deal with the situations in most professional and compassionate manner. I received no feedback, support, or advise.
 
