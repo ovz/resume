@@ -1,10 +1,13 @@
 # On SEPARATION AND GENERAL RELEASE AGREEMENT
 
 ## From Oleg Zhylin ("*Zhylin*")
+
 ## To Minitab, Inc. ("*Minitab*")
 
 ----
-Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064** 
+
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064**
+
 ----
 
 ## Overview
