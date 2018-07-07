@@ -27,7 +27,7 @@ During my undergrad years I worked for [IIT](https://web.archive.org/web/https:/
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up.
 
-In **2017-2018** I helped Salford Systems to become a [Minitab](https://web.archive.org/web/https://www.minitab.com) company. I was instrumental in
+In **2017-2018** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
 Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details** later in this document.
@@ -41,7 +41,7 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 
 ## Experience Details
 
-### 2017-2018. [Minitab Inc.](https://web.archive.org/web/https://www.minitab.com)
+### 2017-2018. [Minitab Inc.][minitab]
 
 Minitab and Salford Systems have a profound similarity. They both made a heavy scientifc technology to work effectively for a Business user. Minitab brings in Classical Statistics and Salford Systems is a leading expert in Machine Learning. Jointly companies are heading to new heights.
 
@@ -353,4 +353,5 @@ At this period senior develper who was in charge of GUI development in the compa
 [anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
 [cart_2001]: http://web.archive.org/web/20010205000600/http://www.salford-systems.com/products-cart.html "CART (Classification and Regression Trees)"
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
+[minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc." 
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
