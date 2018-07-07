@@ -69,7 +69,7 @@ Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Lear
 
 I was primary **Graphical User Interace (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for _5.0_ release and **Salford Precitive Modeller (SPM)** afterwards. 
 
-### 2016-2017. *[SPM 8.2](http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm)* in production
+### 2016-2017. *[SPM 8.2][spm82]* in production
 
 I was main engineer behind preparing and running **SPM 8.2** in production.
 
@@ -355,3 +355,4 @@ At this period senior develper who was in charge of GUI development in the compa
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc." 
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
+[spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
