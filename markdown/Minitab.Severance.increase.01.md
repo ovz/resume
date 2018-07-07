@@ -47,33 +47,32 @@ It was clear to me that acquision of Salford Systems is a new experience for Min
 
 ## Personal antipathy and bullying attempts
 
-I strongly suspect the reasons for unprofessional behavior by co-workers were personal. We have a history going back years of derogatory comments and condenscending attitude to my appearance, eating habits, English language skills etc. This behavior did not disappear and became worth during last months.
+I strongly suspect the reasons for unprofessional behavior by co-workers were personal. We have a history going back years of derogatory comments and condenscending attitude to my appearance, eating habits, English language skills etc. It is highly unprofessional to utilize the emloyment for self-assertion. Inevitably this happens at the expense of bringing Business Value. This behavior did not disappear and during last months became much worth.
 
 * I was rudely interrupted when I was trying to participate in a professional converstation.
 * Other co-workers recieved preferencial treatment. This was deliberately done during team meetings.
 * I recieved aggressive and irritated comments about my work mode, eating habits etc.
-* Co-workers deliberately pretended not to understand my accent. English pronounciation is notoriously challenging for speakers of Russian. I'm always aware of this and make concious effort to get myself understood. Despite my experience of successful communication with Salford Systems team members over decades lately I expereinced a good deal of negativity in response to me expressing my thoughts. It looked like co-workers wanted to make a point at the expense of professionalism and efficency.
-* Despite Minitab has no dressing code I recieved disrespectful comments about my attire.
+* Co-workers deliberately pretended not to understand my accent. English pronounciation is notoriously challenging for speakers of Russian language. I'm always aware of this and make a concious effort to get myself understood. Despite my experience of successful communication with Salford Systems team members over decades lately I expereinced a good deal of negativity in response to expressing my thoughts. It looked like co-workers wanted to make a point at the expense of professionalism and efficency.
+* Despite Minitab has no dressing code I recieved mocking and disrespectful comments about my attire.
 * When in aggresive mood co-workers responded negatively to a smile on my face. I made all the effort to convince that my body language and facial expression indicate calm, positive, and professional attitude.
 * Maintaining a healthy body is one of the core principles of my lifestyle. It is well known that "default" habits of an office worker lead to call kinds of health complications down the road. I was always concious to make sure that keeping my body in tone doesn't interfere with anyone. Nevertheless I recieved unpleasant and sometimes aggressive comments.
 
-The behaviors I encountered were easily recognizable as bullying attemts. Anything "out of norm" about me was used to try to make things painful to me.
+The behaviors I encountered were easily recognizable as bullying attemts. Anything "out of norm" about me was used to try to make things painful.
 
-I approached this in professional and compassionate manner. I explicitly re-assured team members that I treat all human being with utomost respect. In the work environment professionalism is expected to be a dominating principle.
+I approached this in a professional and compassionate manner. I explicitly re-assured co-workers that I treat all human being with utomost respect regardless of their roles and achievements. In a work environment professionalism is expected to be a dominating principle.
 
-In the culture I grew up it is *vital* to persevere through changes. There's no trusted authority to run to. During my life I learned well **not** to get hurt when someone is trying to hurt me. The first thing on my mind when I encounter a problem are action items for me to get it resolved. I made all the efforts to bring things firmly to professional rails. Regretfully this didn't happen. In restrospect I should have
+In the culture I grew up in it is *vital* to persevere through challenges. There's no trusted authority to fall back upon. During my life I learned very well **not** to get hurt when someone is trying to hurt me. The first thing on my mind when I encounter a problem are action items for me to get it resolved. I made all the efforts to bring things firmly on professional rails. Regretfully this didn't happen.
 
-I did mention lack of progress in Product Development and other goals in One on One meetings with my direct supervisor. I shared my vision and thoughts and articulated how I'm planning to deal with the situations in most professional and compassionate manner.
+I did mention lack of progress in Product Development and other goals in One on One meetings with my direct supervisor. I shared my vision and thoughts and articulated how I'm planning to deal with the situations in most professional and compassionate manner. I received no feedback, support, or advise.
 
 ## Psychological challenges after termination
 
-For the reasons stated above I experience large psycological burdern after termination. I have to overcome it to build my future professional carreer. Described above are complex situations. It is a challenge to get them out of my mind and focus on preparing for my next employment. Some of the challenges do require time to heal and this impairs my ability to embark successfully on new career.
+For the reasons stated above I experience large psycological burdern after termination. I have to overcome it to build my future professional carreer. Described above are complex situations. It is a challenge to let them go and focus on preparing for my next employment. Some of the challenges do require time to heal and this impairs my ability to embark successfully a on new career.
 
-*I wish the best of luck to Minitab and your team in building successful and prosperous business. Could you please feel free to reach out if I can help with anything.*
+*I wish the best of luck to Minitab and it's team in building successful and prosperous business. Please feel free to reach out if I can help with anything.*
 
 **Thank You!**
 
 **Sincerily,**
 
 Oleg Zhylin
-
