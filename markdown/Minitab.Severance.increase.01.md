@@ -46,7 +46,7 @@ It was clear to me that the acquisition of Salford Systems is a new experience f
 
 ## Personal antipathy and bullying attempts
 
-I strongly suspect the reasons for unprofessional behavior by co-workers were personal. We have a history going back years of derogatory comments and condescending attitude to my appearance, eating habits, English language skills etc. It is highly unprofessional to utilize the employment for self-assertion. Inevitably this happens at the expense of bringing Business Value. This behavior did not disappear and during last months became much worth.
+I strongly suspect the reasons for unprofessional behavior by co-workers were personal. We have a history going back years of derogatory comments and condescending attitude to my appearance, eating habits, English language skills etc. It is highly unprofessional to utilize the employment for self-assertion. Inevitably this happens at the expense of bringing Business Value. This behavior did not disappear and during last months became much worse.
 
 * I was rudely interrupted when I was trying to participate in a professional conversation.
 * Other co-workers received preferential treatment. This was deliberately done during team meetings.
