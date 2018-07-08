@@ -14,7 +14,7 @@ My family is eternally grateful for the fortune to move to the United States fro
 
 Severance payment will ensure that my children Yelyzaveta (daughter, 10 years old) and Bogdan (son, 5 years old) will continue having a happy childhood and grow up into healthy and productive members of American society.
 
-My family is also fortunate to have all four grandparents in good health and active. They all live in Ukraine. Eventually they will need our help and care. This unconditionally is part of our life plan.
+My family is also fortunate to have all four grandparents in good health and active. They all live in Ukraine. Eventually, they will need our help and care. This unconditionally is part of our life plan.
 
 ## Almost 2 decades of experience with Salford Systems
 
@@ -40,7 +40,7 @@ During past months I was prevented from the fulfillment of my professional dutie
 
 *Engineering Department* members were noticeably unwilling to work as a single team. They kept their distance ostensibly differentiating between people with Minitab and Salford Systems background. Engineering practices common in the industry to prototype rapidly and represent ideas as Pull Requests and Demo Projects met unjustified pushbacks. I understand fully and entirely that knowledge and experience of Salford Systems engineers are a key part of what Minitab acquired with the merger. I took the team integration process very responsibly and used my best professional judgment.
 
-I consider *Performance Improvement* a cornerstone of professional behavior. Formality is far from enough to keep this process going. It has to be an intention and a goal of all participants. We can only improve together via constructive dialog. Despite what is stated in ***"Paid Administrative Leave and Termination of Employment"** letter hand delivered to me on May 29, 2018* the dialog was lacking severely.
+I consider *Performance Improvement* a cornerstone of professional behavior. Formality is far from enough to keep this process going. It has to be an intention and a goal of all participants. We can only improve together via constructive dialog. Despite what is stated in ***"Paid Administrative Leave and Termination of Employment"** letter hand delivered to me on May 29, 2018,* the dialog was lacking severely.
 
 It was clear to me that the acquisition of Salford Systems is a new experience for Minitab. Time and hard work are required to digest it. This process is very important and sensitive to disruption. I was looking forward very much to go past the transition and collaborate effectively to reach our business goals. For the reasons unknown to me Minitab decided instead to terminate my employment.
 
@@ -68,7 +68,7 @@ I did mention a lack of progress in Product Development and other goals in One o
 
 For the reasons stated above, I experience a great psychological burden after the termination. I have to overcome it to build my future professional career. Described above are complex situations. It is a challenge to let them go and focus on preparing for my next employment. Some of the challenges do require time to heal and this impairs my ability to embark successfully on a new career.
 
-*I wish the best of luck to Minitab and it's team in building successful and prosperous business. Please feel free to reach out if I can help with anything.*
+*I wish the best of luck to Minitab and it's team in building a successful and prosperous business. Please feel free to reach out if I can help with anything.*
 
 **Thank You!**
 
