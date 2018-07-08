@@ -46,14 +46,14 @@ It was clear to me that the acquisition of Salford Systems is a new experience f
 
 ## Personal antipathy and bullying attempts
 
-I strongly suspect the reasons for unprofessional behavior by co-workers were personal. We have a history going back years of derogatory comments and condescending attitude to my appearance, eating habits, English language skills etc. It is highly unprofessional to utilize the employment for self-assertion. Inevitably this happens at the expense of bringing Business Value. This behavior did not disappear and during last months became much worse.
+I strongly suspect the reasons for unprofessional behavior by co-workers were personal. We have a history going back years of derogatory comments and condescending attitude to my appearance, eating habits, English language skills etc. It is highly unprofessional to utilize the employment for self-assertion. Inevitably this happens at the expense of bringing Business Value. This behavior did not disappear and during last months became much worse. Signs of hostile work environment developed.
 
 * I was rudely interrupted when I was trying to participate in a professional conversation.
 * Other co-workers received preferential treatment. This was deliberately done during team meetings.
 * I received aggressive and irritated comments about my work mode, eating habits etc.
 * Co-workers deliberately pretended not to understand my accent. English pronunciation is notoriously challenging for speakers of the Russian language. I'm always aware of this and make a conscious effort to get myself understood. Despite my experience of successful communication with Salford Systems team members over decades, lately I experienced a good deal of negativity in response to expressing my thoughts. It looked like co-workers wanted to make a point at the expense of professionalism and efficiency.
 * Despite Minitab has no dressing code I received mocking and disrespectful comments about my attire.
-* When in aggressive mood co-workers responded negatively to a smile on my face. I made all the effort to convince that my body language and facial expression indicate calm, positive, and professional attitude.
+* When in aggressive mood co-workers responded negatively to a smile on my face. I made all the effort to reassure that my body language and facial expression indicate calm, positive, and professional attitude.
 * Maintaining a healthy body is one of the core principles of my lifestyle. It is well known that "default" habits of an office worker lead to all kinds of health complications down the road. I was always conscious to make sure that keeping my body in tone doesn't interfere with anyone. Nevertheless, I received unpleasant and sometimes aggressive comments.
 
 The behaviors I encountered were easily recognizable as bullying attempts. Anything "out of the norm" about my person was used to attempt inflicting psychological pain to me.
