@@ -6,11 +6,11 @@
 
 ## To Whom It May Concern
 
-Zhylin is a *Software Engineer* of the top quality. He is a veteran member of Salford Systems team going back almost two decades. He contributed engineering talent all over the software codebase. He actively participated in the evolution of software products. Many of his ideas created the commercial success that Salford Systems products continue enjoying.
+Zhylin is a *Software Engineer* of the top quality. He is a veteran member of the Salford Systems team going back almost two decades. He contributed engineering talent all over the software codebase. He actively participated in the evolution of software products. Many of his ideas created the commercial success that Salford Systems products continue enjoying.
 
 During his career with Salford Systems Zhylin worked as *Manager* and Technical *Team Leader*. He coordinated teams up to **15 people**. Parts of the teams were located offshore in Ukraine, China etc.
 
-In many ways, Zhylin was instrumental in creating *Intellectual Property* that motivated [Minitab Inc.][minitab] to acquire [Salford Systems][salford]. His vast and extensive knowledge of [**Salford Predictive Modeler (SPM)**][spm] from *Requirements* and *Software Architecture* to *Deployment* and *Publishing* helped Salford Systems to quickly become integral part of Minitab family.
+In many ways, Zhylin was instrumental in creating *Intellectual Property* that motivated [Minitab Inc.][minitab] to acquire [Salford Systems][salford]. His vast and extensive knowledge of [**Salford Predictive Modeler (SPM)**][spm] from *Requirements* and *Software Architecture* to *Deployment* and *Publishing* helped Salford Systems to quickly become an integral part of Minitab family.
 
 In addition to **SPM** Zhylin has an impressive track record of *Internal Research* and *Direct Consulting* projects. These contributed to his comprehensive knowledge of **Data Science**.
 
@@ -19,7 +19,7 @@ His colleagues going back to Salford Systems inception and new teammates coming 
 >&nbsp;
 >
 
-**We are sure Zhylin will meet and exceed your expectations and will become most valuable addition to your team.**
+**We are sure Zhylin will meet and exceed your expectations and will become the most valuable addition to your team.**
 
 >&nbsp;
 >
