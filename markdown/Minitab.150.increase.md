@@ -25,3 +25,15 @@ Adequate severance agreement will be very helpful during the transition period. 
 I regret that Minitab and I are going separate ways. Looking back, we could identify and handle roadblocks that prevented Minitab from being satisfied with my continued employment. I fulfilled my professional duties at the hightest possible level, including through outlines of outstanding issues in *One on One* conversations I had on regular basis with my direct supervisor. Life being a journey, I hope this matter can be resolved amicably and MiniTab and I can move forward and prosper.
 
 Could you please review and advise for consummation of this chapter in our respective lives.
+
+*I wish the best of luck to Minitab and the team in building a successful and prosperous business. Please feel free to reach out if I can help with anything.*
+
+**Thank You!**
+
+**Sincerely,**
+
+Oleg Zhylin
+
+----
+
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064**
