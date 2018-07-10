@@ -25,4 +25,3 @@ Adequate severance agreement will be very helpful during the transition period. 
 I regret that Minitab and I are going separate ways. Looking back, we could identify and handle roadblocks that prevented Minitab from being satisfied with my continued employment. I fulfilled my professional duties at the hightest possible level, including through outlines of outstanding issues in *One on One* conversations I had on regular basis with my direct supervisor. Life being a journey, I hope this matter can be resolved amicably and MiniTab and I can move forward and prosper.
 
 Could you please review and advise for consummation of this chapter in our respective lives.
-
