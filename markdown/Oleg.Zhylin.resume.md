@@ -357,6 +357,17 @@ A client requested a way to read Decision Tree models saved by CART in propriato
 * **Tree Map**. This is a small window that draws an approximation of the *entire* tree topology. User can click and navigate to a specific part of the tree on main display. I enhanced usability of this display and added features to support other functionality.
 * **Tree Printing**. Original implementation was rigidly dependent on tree visualization code I improved. As Tree Printing routines had to be adapted I introduced improvement there as well.
 
+## 1997-2000 Data Security Research
+
+I was fortunate to receive my undergrad degree at [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. It was founded by prominent military Rocket Scientists. Head of the department **Gorbenko&nbsp;I.D.,&nbsp;PhD** and many of the professors were retired high rank officers with Soviet Union Strategic Missile Troops. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
+
+I conducted independent research and participated in group projects on the following topics.
+
+* *Big numbers cryptography library.*
+* *Innovative prime number generation algorithms.*
+* *Full disk encryption.* Delivered a software system for Windows&nbsp;9x with VxD driver in the heart. System provided password-based encryption of removable media.
+* *Elliptic curve cryptography.* This was relatively new domain in public key cryptography. I jumped on a cutting edge and made it he topic of my master's thesis in year 2000.
+
 ## **COPY from resume_eng.html** Education
 
 2010-2014 (expected)
@@ -394,3 +405,5 @@ A client requested a way to read Decision Tree models saved by CART in propriato
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
 [gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"
+[kafedra_bit]: http://web.archive.org/web/https://nure.ua/en/department/department-of-information-technology-security-its "Department of Information Technology Security (ITS)"
+[nure_eng]: http://web.archive.org/web/http://nure.ua/en "Kharkiv National University Of Radio Electronics (NURE)"
