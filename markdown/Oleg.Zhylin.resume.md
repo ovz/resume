@@ -315,12 +315,35 @@ This was a great chance to establish in-person relationship and greatly improve 
 
 At this period senior develper who was in charge of GUI development in the company was getting ready to retire. I made a point to absorb all his experience and wisdom and become the best possible **stewart** for Salford Systems **codebase**.
 
-### 2000-2001. [CART][cart_2001] Advanced Decsion Tree visualization
+# 2003. [CART 5.0][cart_5_0] Release
 
-[CART][cart_2001] is the original flagship product of [Salford Systems][salford]. It was later re-branded as **Salford Predictive Modeller (SPM)**. At the heart of the project is **Decision Tree** based mechanism to learn **Predictive Model** from the data. I was fortunate that my first assignment was to improve decision tree **Visualization**. This allowed me to immediately bring non-trivial amount of value into the release of next product. I implemented the following.
+CART 5.0 was the first major release that transformed CART from signle decision tree product to a **suit** of Predictive algorithms. [TreeNet][treenet_first] was first introduced to public eye. It became and remains most powerful member of the suit. I participated in designing UI to showcase non-trivial, but very powerful results of TreeNet. This display became the basis for upcoming Predictive Algorithm results GUI.
 
-* **Compact tree layout**. By default CART places Decision Tree nodes in a grid. This allows a straightforward layout algorithm with the drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
-* ***Tree Details** display*. This is a printable display showing details about Nodes right in the tree topology. I improved information shown in nodes, added graphics, made it more configurable, and improved performance for scrolling large trees.
+In addition to new features my help was needed to address bugs in the software. My previous work was focused around *CART Navigator* codebase and I was able to address a good amount of technical debt there. For this release I used the knowledge and re-usable code I developed to improve quality of other parts of the application.
+
+CART 5.0 was *orders of magnitude* larger than [CART 4.0][cart_4_0]. It was sometimes tedious but extremely rewarding to participate in a big and comprehensive release of a major software product. Some architectural principles introduced during this period were reused for a long time in subsequent versions of the product.
+
+# 2001-2002. Upgrade CART UI to C++/MFC.
+
+Salford Systems decided to hire me as a contractor because I demonstrated extensive knowledge of C++. The bulk of CART application was written using *C programming language* calling *Win32 API* directly. The company realized that development without frameworks and advanced language features to support non-trivial architecture is too costly. My first assignments familiarized myself with the codebase quite well. I was able to embark on the project and re-implement CART Navigator, the main tree topology display, using **C++** and **MFC (Microsoft Foundation Classes)**. I used **ActiveX** controls for graphics.
+
+The project was put on hold because the top business need was to release CART 5.0. I made sure to effectively conclude the project to nearest milestone, freeze the code properly, and dedicate effort to top priority matters.
+
+### 2001. [CART][cart_4_0] Navigator API
+
+A client requested a way to read Decision Tree models saved by CART in propriatory `.nv3` format. The main tree topology window is called "CART Navigator". Thus file format acquired this name as well. I immediately figured out a way to **quickly** implement the API. Familiarity with the code I acquired while working on Decision Trees helped immensely. 
+
+### 2000-2001. [CART 4.0][cart_4_0] Advanced Decsion Tree visualization
+
+[CART][cart_4_0] is the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeller (SPM)**. The idea of the product is to use **Decision Tree** as a **Predictive Model** learned from the data. I was fortunate that my first assignment was to improve decision tree **Visualization**. This allowed me to immediately bring non-trivial amount of value into the next release of the product. I implemented the following.
+
+* **Compact tree layout**. Default algorithm draws Decision Tree nodes in a grid pattern. This allows a straightforward layout algorithm with a drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
+* ***Tree Details** display*. This is a printable display showing details about Nodes right in the tree topology. I enhanced it as follows.
+  * Improved information shown in nodes
+  * Added node population charts
+  * Implemented support of new features in *Configuration dialog*. Enhanced general implementation.
+* **Tree Map**. This is a small window that draws an approximation of the *entire* tree topology. User can click and navigate to a specific part of the tree on main display. I enhanced usability of this display and added features to support other functionality.
+* **Tree Printing**. Original implementation was rigidly dependent on tree visualization code I improved. As Tree Printing routines had to be adapted I introduced improvement there as well.
 
 ## **COPY from resume_eng.html** Education
 
@@ -351,8 +374,10 @@ At this period senior develper who was in charge of GUI development in the compa
 [pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
 [codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems CodeMeter"
 [anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
-[cart_2001]: http://web.archive.org/web/20010205000600/http://www.salford-systems.com/products-cart.html "CART (Classification and Regression Trees)"
+[cart_4_0]: http://web.archive.org/web/20010205000600/http://www.salford-systems.com/products-cart.html "CART v4.0 (Classification and Regression Trees)"
+[cart_5_0]: http://web.archive.org/web/20030401151728/http://www.salford-systems.com:80/products-cart.html "CART v5.0"
+[treenet_first]: http://web.archive.org/web/20030413071322/http://www.salford-systems.com:80/index.html "TreeNet in CART 5.0"
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
-[minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc." 
+[minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
