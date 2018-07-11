@@ -10,7 +10,7 @@
 
 Thank you very much for offering the SEPARATION AND GENERAL RELEASE AGREEMENT. I fully agree that it would be best for us to settle all claims to the satisfaction of both parties. I would like to humbly and respectfully ask for an increase of lump sum severance payment up to **$172,800** (one hundred and seventy-two thousands eight hundred).
 
-My family is eternally grateful for having the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this life changing experience. None of us felt more at home in our lives than here and now. My wife and I are so glad that we can keep our children away from horrible experiences everyone goes through in Ukraine.
+My family is eternally grateful for having the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this life-changing experience. None of us felt more at home in our lives than here and now. My wife and I are so glad that we can keep our children away from horrible experiences everyone goes through in Ukraine.
 
 Given my almost 20 years of work for Salford Systems and then Minitab, I am very fearful I will be unemployed for quite some time. Severance payment will ensure that I can continue to provide for my children Yelyzaveta (daughter, 10 years old) and Bogdan (son, 5 years old) so they grow up into healthy and productive members of American society. My family is also fortunate to have all four grandparents in good health and active. They all live in Ukraine. Eventually, they will need our help and care. This unconditionally is part of our life plan. I was sure that I would be able to provide for them while working; now I am not so sure.
 
