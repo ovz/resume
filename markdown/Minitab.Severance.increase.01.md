@@ -46,7 +46,7 @@ The behaviors I encountered were easily recognizable as discriminatory. Anything
 
 I approached my job in a professional and compassionate manner. I explicitly re-assured co-workers that I treat all human beings with the utmost respect regardless of their roles and achievements. In a work environment, professionalism is expected to be a dominating principle.
 
-In the culture I grew up in, it is vital to persevere through challenges. There is no trusted authority to fall back upon.  The first thing on my mind when I encounter a problem is to come up with action items to get it resolved. I made significant efforts to bring things firmly on a professional basis. Regretfully this did not happen.
+In the culture I grew up in, it is *vital* to persevere through challenges. There is no trusted authority to fall back upon.  The first thing on my mind when I encounter a problem is to come up with action items to get it resolved. I made significant efforts to bring things firmly on a professional basis. Regretfully this did not happen.
 
 I did mention a lack of progress in Product Development and other goals in One on One meetings with my direct supervisor. I shared my vision and thoughts and articulated how I planned to deal with the situations in the most professional and compassionate manner. I received no feedback, support, or advise.
 
