@@ -315,6 +315,18 @@ This was a great chance to establish in-person relationship and greatly improve 
 
 At this period senior develper who was in charge of GUI development in the company was getting ready to retire. I made a point to absorb all his experience and wisdom and become the best possible **stewart** for Salford Systems **codebase**.
 
+## 2004-2005. Client-Server predictive analytics application
+
+One of the company's strategic projects and the largest software system I have developed from ground up is a Client-Server solution for running Predictive Analytics algorithms on remote servers. This often makes a business case for end-users because they can make use of **Hight Performance** of the hardware on Remote Server. There was also a strong impetus to keep data on central server for **Security** reason.
+
+I designed the entire system and implemented fully cross-platform TCP/IP daemon. The daemon runs multiple data mining jobs on behalf of end-users, who interact with the system via the same familiar *[SPM][spm82]* GUI. I provided *guidance* and a *framework of components* for two developers in charge of client-side GUI implementation.
+
+The daemon was successfully deployed on **Windows**, **Linux**, and **Sun Solaris** platforms. I authored native **Installers** as **RPM**, **DEB**, **PKG**. 
+
+I was able to organize the code so that a lot of same source files were used to build both client and server.
+
+I learned a ton from this project. This was my major introduction to **Concurrency**, **Parallelism**, **Network Programming**, **Network Protocol Design** etc. I developed a C++ library that implements quite a number of Design Patterns from [Gang of Four (GoF)][gof_book]. This gave me intimate knowlege of the patterns and brought my understanding of idiomatic C++ to the next level.
+
 # 2003. [CART 5.0][cart_5_0] Release
 
 CART 5.0 was the first major release that transformed CART from signle decision tree product to a **suit** of Predictive algorithms. [TreeNet][treenet_first] was first introduced to public eye. It became and remains most powerful member of the suit. I participated in designing UI to showcase non-trivial, but very powerful results of TreeNet. This display became the basis for upcoming Predictive Algorithm results GUI.
@@ -381,3 +393,4 @@ A client requested a way to read Decision Tree models saved by CART in propriato
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
+[gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"
