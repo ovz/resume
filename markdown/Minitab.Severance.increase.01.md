@@ -29,13 +29,13 @@ Please review and advise for the consummation of this chapter in our respective 
 >&nbsp;
 >
 
-My family is eternally grateful for having the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this life-changing experience. None of us felt more at home in our lives than here and now. My wife and I are so glad that we can keep our children away from horrible experiences everyone goes through in Ukraine.
+My family is eternally grateful for having the fortune to move to the United States from Ukraine. Salford Systems was instrumental in this life-changing experience. None of us felt more at home in our lives than here and now. My wife and I are so glad that we can keep our children away from horrible experiences everyone goes through during war in Ukraine.
 
 Given my almost 20 years of work for Salford Systems and then Minitab, I am very fearful I will be unemployed for quite some time. Severance payment will ensure that I can continue to provide for my children Yelyzaveta (daughter, 10 years old) and Bogdan (son, 5 years old) so they grow up into healthy and productive members of American society. My family is also fortunate to have all four grandparents in good health and active. They all live in Ukraine. Eventually, they will need our help and care. This unconditionally is part of our life plan. I was sure that I would be able to provide for them while working; now I am not so sure.
 
 I was affiliated with Salford Systems in various capacities for almost two decades. I contributed my engineering talent all over the software codebase. I actively participated in the evolution of software products. Many of my ideas created the commercial success that Salford Systems products enjoy.
 
-During all these years I had a chance to communicate with other professionals outside the company during trainings, road shows, and other professional networking events. I used every chance to promote the Business. It was easy given our unique value proposition and an interesting challenge. Such is the deep, non-trivial, scientific nature of our products.
+During all these years I had a chance to communicate with other professionals outside the company during trainings, road shows, and other professional networking events. I used every chance to promote the Business. It was easy given our unique value proposition and an interesting challenge to carry over deep, non-trivial, scientific nature of our products.
 
 In many ways, I was instrumental in creating the *Intellectual Property* that motivated Minitab to acquire Salford Systems.
 
