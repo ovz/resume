@@ -368,19 +368,70 @@ I conducted independent research and participated in group projects on the follo
 * *Full disk encryption.* Delivered a software system for Windows&nbsp;9x with VxD driver in the heart. System provided password-based encryption of removable media.
 * *Elliptic curve cryptography.* This was relatively new domain in public key cryptography. I jumped on a cutting edge and made it he topic of my master's thesis in year 2000.
 
-## **COPY from resume_eng.html** Education
+## Education
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+### 1995-2000 Masters Degree. "Data Security in Computer Systems"
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+[Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. **Grade point average is 5.0**, the highest possible.
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+### 1995-1998 University Certificate of Higher Education. "Information Systems"
 
-    *Minor: Awesomeology*
+[Thames Valley University, London][thames_valley] Now known as University of West London.
+
+## Personal development
+
+### Foreign Languages
+
+I happen to love learning languages. Here is my self-estimated proficiency list.
+
+* **Russian**, **Ukrainian**: *Native*. I grew up bi-lingual.
+							<SPAN class="EM">English:</SPAN> Fluent. This is my major language of both Work
+                            and Entertainment.
+						</LI>
+						<LI>
+							<SPAN class="EM">Italian:</SPAN> Advanced.
+						</LI>
+						<LI>
+							<SPAN class="EM">Portuguese (Brazil):</SPAN> Intermediate.
+						</LI>
+						<LI>
+							<SPAN class="EM">German:</SPAN> Lower Intermediate.
+						</LI>
+						<LI>
+							<SPAN class="EM">Russian, Ukrainian:</SPAN>	Native
+						</LI>
+					</UL>
+				</TD>
+			</TR>
+			<TR>
+				<TD class="Ch">Personal interests:
+				</TD>
+				<TD>
+					<UL type="disc">
+						<LI>
+							<SPAN class="EM">Learning foreign languages, Etymology.</SPAN> Since 1995 I'm the primary teacher of English for myself
+							and I enjoy the process in the utmost. In addition, I have familiarized myself with Italian, Portuguese, German,
+							French, Spanish, Slovenian, and Chinese. I am focusing on Portuguess at present. Etymology is my primary tool to acquire profound understanding
+							of both the meaning of the words and the language itself.
+						<LI>
+							<SPAN class="EM">Classical music, Opera.</SPAN> This is professional domain of my wife and my
+							big hobby. My wife is a mezzo-soprano, currently a Conservatory student. If my family
+							relocates anywhere, a good opera company in the vicinity is the must.
+						</LI>
+						<LI>
+							<SPAN class="EM">Children early development and education.</SPAN> I enjoy spending time with my daughter,
+							born at August, 2007 and my son, July 2012. I am playing instrumental role in her physical and intellectual
+							development.
+						</LI>
+						<LI>
+							<SPAN class="EM">Yoga.</SPAN> This is my favorite style of physical training and spiritual
+							practice. Doing Assanas somehow speaks directly to my mind and body.
+						</LI>
+						<LI>
+							<SPAN class="EM">Kayaking.</SPAN> I was on many kayak camping trips on Ukrainian rivers as a child.
+							This is still my favorite kind of tourism. Most vivid experiences are from Whitewater kayaking in
+							Karelia (Russia).
+						</LI>
 
 ## Extra Section, Call it Whatever You Want
 
@@ -407,3 +458,4 @@ I conducted independent research and participated in group projects on the follo
 [gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"
 [kafedra_bit]: http://web.archive.org/web/https://nure.ua/en/department/department-of-information-technology-security-its "Department of Information Technology Security (ITS)"
 [nure_eng]: http://web.archive.org/web/http://nure.ua/en "Kharkiv National University Of Radio Electronics (NURE)"
+[thames_valley]: http://web.archive.org/web/https://www.uwl.ac.uk "University of West London"
