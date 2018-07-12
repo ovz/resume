@@ -380,70 +380,32 @@ I conducted independent research and participated in group projects on the follo
 
 ## Personal development
 
-### Foreign Languages
+### Family Learning
 
-I happen to love learning languages. Here is my self-estimated proficiency list.
+Our household is a constant learning environment. It gives me a lot of inspiration and creative outlets. My kids Liza (born 2007) and Bogdan (born 2012) are amazing at being students and teachers at the same time. The credit for their brilliance goes entirely to my wife. She is brilliant in dealing with everything, including my professional Software Developer career.
 
-* **Russian**, **Ukrainian**: *Native*. I grew up bi-lingual.
-							<SPAN class="EM">English:</SPAN> Fluent. This is my major language of both Work
-                            and Entertainment.
-						</LI>
-						<LI>
-							<SPAN class="EM">Italian:</SPAN> Advanced.
-						</LI>
-						<LI>
-							<SPAN class="EM">Portuguese (Brazil):</SPAN> Intermediate.
-						</LI>
-						<LI>
-							<SPAN class="EM">German:</SPAN> Lower Intermediate.
-						</LI>
-						<LI>
-							<SPAN class="EM">Russian, Ukrainian:</SPAN>	Native
-						</LI>
-					</UL>
-				</TD>
-			</TR>
-			<TR>
-				<TD class="Ch">Personal interests:
-				</TD>
-				<TD>
-					<UL type="disc">
-						<LI>
-							<SPAN class="EM">Learning foreign languages, Etymology.</SPAN> Since 1995 I'm the primary teacher of English for myself
-							and I enjoy the process in the utmost. In addition, I have familiarized myself with Italian, Portuguese, German,
-							French, Spanish, Slovenian, and Chinese. I am focusing on Portuguess at present. Etymology is my primary tool to acquire profound understanding
-							of both the meaning of the words and the language itself.
-						<LI>
-							<SPAN class="EM">Classical music, Opera.</SPAN> This is professional domain of my wife and my
-							big hobby. My wife is a mezzo-soprano, currently a Conservatory student. If my family
-							relocates anywhere, a good opera company in the vicinity is the must.
-						</LI>
-						<LI>
-							<SPAN class="EM">Children early development and education.</SPAN> I enjoy spending time with my daughter,
-							born at August, 2007 and my son, July 2012. I am playing instrumental role in her physical and intellectual
-							development.
-						</LI>
-						<LI>
-							<SPAN class="EM">Yoga.</SPAN> This is my favorite style of physical training and spiritual
-							practice. Doing Assanas somehow speaks directly to my mind and body.
-						</LI>
-						<LI>
-							<SPAN class="EM">Kayaking.</SPAN> I was on many kayak camping trips on Ukrainian rivers as a child.
-							This is still my favorite kind of tourism. Most vivid experiences are from Whitewater kayaking in
-							Karelia (Russia).
-						</LI>
+### Healthy lifestyle
 
-## Extra Section, Call it Whatever You Want
+I am blessed with good health for myself and my close ones. It is well known a health issue can put a big cross on anything in life. I enjoy regimented days. This lets me be successfull professioanlly and enjoy hiking, swimming, pulling weights, and other activities. I am quick to rest and ready to go.
 
-* Human Languages:
+### Herbalism
 
-  * English (native speaker)
-  * ???
-  * This is what a nested list looks like.
+I know a thing or two about edible and medicinal plants. This contrinbutes to healthy lifestyle as well.
 
-* Random tidbit
+### Foreign Languages and Etymology
 
-* Other sort of impressive-sounding thing you did
+I happen to love learning languages. Learning foreign languages, Etymology. Since 1995 I'm the primary teacher of English for myself and I enjoy the process immensely. Etymology is my primary tool to acquire profound understanding
+of both the meaning of the words and the language itself.
+
+Here is my self-estimated proficiency list.
+
+* **Russian**, **Ukrainian**. *Native*. I grew up bi-lingual.
+* **English**. *Fluent*.
+* **Italian**. *Advanced*. Learned it to for the beuaty of it. And to understand lyrics in operas.
+* **German**. *Intermediate*. I can listen to news in German.
+* **Portuguese (Brazil)**. *Intermediate*. Worked with the language a good amount of time during the project for *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain. Contninued study afterwards.
+* **Spanish**. Lower intermediate. Mainly use my intuitions from studies of Portuguese and other previous experiences. Could bump up knowledge quickly for trips to Tijuana. 
+* *Familiar* with **French**, **Slovenian**, **Arabic**, **Mandarin Chinese**.
 
 [pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
 [codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems CodeMeter"
