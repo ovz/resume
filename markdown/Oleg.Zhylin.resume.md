@@ -57,13 +57,14 @@ I was instrumental during transition period and new developments.
 * Helped to introduce **Licensing**, **Telemetry**, and other features necessary for a successful deployment of **SPM v8.3** into production.
 * Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper governance.
 * Worked closely with TechOps team on an effective corporate IT merger.
-* Supported **Agile** practices for **Product Management**.
+* Supported **Agile** practices. Participated in **Product Management**.
 * Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
-* Learned **[Nalperion]()** license manager and helped introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects. 
+* Learned **[Nalperion]()** license manager and helped introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects.
+* Impelemented **Telemetry** for SPM product.
 
 ### 2000-2017. [Salford Systems][salford]
 
-I joined the company during my last year in University. Instantly it was a very good match and great challenge. Thanks to my wonderful team my Computer Science skills soared and picked up a good deal of Machine Learning and other skills.
+I joined the company during my last year in University. Instantly it was a very good match and a great challenge. The environment was just right for my Computer Science skills to soar. I quickly picked up a good deal of Machine Learning and became proficient in other related areas.
 
 Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman]()**, **[Leo Breiman]()**, **[Richard Olshen](), and **(Charles Stone)[]**, authors of the famous **[CART Monograph]()**. Back in 1990s industry in general didn't go any further than fancy **Regression** for **Precictive Analytics** needs. Pioneering Vision and perseverance of **[Dan Steinberg]()**, company's *Founder*, *Private Owner*, and *President* granted Salford System a decade of prosperity ahead of technology curve. In 2010s it is well known in the industry that **Gradient Boosting** for Decision Trees is one of the top Machine Learning techniques. Top Data Scientists use it consistently to win **[Kaggle]()** and other competitions. The technique was invented by Jerome Friendman in 2004 and we sell it under trademark **TreeNet**. It was enourmous fun and hard work to help our customers meet their **Data Science** and **Artifiical Intelligence** needs way before the became buzzwords.
 
@@ -71,16 +72,16 @@ I was primary **Graphical User Interace (GUI)** developer and one of the collabo
 
 ### 2016-2017. *[SPM 8.2][spm82]* in production
 
-I was main engineer behind preparing and running **SPM 8.2** in production.
+I was the main engineer behind preparing and running **SPM 8.2** in production.
 
-* Helped the team to triage work items. We stroke a good balance in bringing value to the customer and prevent feature creep.
+* Helped the team to triage work items. We stroke a good balance in bringing value to the customer and preventing feature creep.
 * I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET]()** and *supporting scripts* in **Powershell**.
 * Authored and maintained **Product Installers** using **[Microsoft Visual Studio  Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
 * Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc.
 * Established effective process to maintain **SPM Chinese** internationalized version up to date with master *English* version.
 * Upgraded SPM command line build scripts to **CMake**. Created a hybrid configuration that allows to use *manual* and *CMake-generated* project files together.
 
-During this project a I managed an team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to hard work of team members I could help them to become instrumental contributors in terms of **Product Features** and **Qaulity**.
+During this project a I managed an team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to hard work of team members I could help them to become instrumental contributors in terms of **Product Features** and **Quality**.
 
 ### 2016-2017. SPM GUI using *Qt framework*
 
@@ -93,9 +94,9 @@ We decied to use **[Qt Widgets](http://web.archive.org/web/http://doc.qt.io/qt-5
 
 A major challenge was to provide **crossplatform** backend to **3rd party** developers. **Legacy** interaction layer between Windows GUI and crossplatform backend was based on **static linking** and **shared state**. This allowed to cut corners for a small development team over the course of previous years. After careful analysis I transformed SPMnonGUI into a **crossplatform DLL**. The DLL was validated by upgrading production SPM to use the DLL and perform **rigorous testing**. [Wibu Codemeter][codemeter] technology was instrumental in protecting the DLL for both **produciton** and **development** use.
 
-**Oursourcing team** was quite knowledgable in Qt. I learned a lot from them. The team needed help with applying **modern C++** and architecting the application around major concerns. We went through several interations producing general applicaiton structure and paid close attention to critical modules. My experience with existing SPM code allowed to develop **thread-safe** interaciton layer between SPM Qt GUI and backend. 
+**Oursourcing team** was quite knowledgable in Qt. I learned a lot from them. The team needed help with applying **modern C++** and architecting the application around major concerns. We went through several interations producing general applicaiton structure and paid close attention to critical modules. My experience with existing SPM code allowed to develop **thread-safe** interaciton layer between SPM Qt GUI and backend.
 
-Over the course of development we practiced **Pull Request** approach for development process. I had to send the code back for corrections more often then I wished I would have to. I was pleasantly surprised by **personal growth** and **product quality increase** that resulted.
+Over the course of development we practiced **Pull Request** approach for development process. I had to send the code back for corrections more often then I wished. THe outcome was very rewarding though. I was pleasantly surprised by **professional growth** of the team members and **product quality improvements**.
 
 We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer library]()** became production-ready. Installer work did envolve some **cutting edge** development.
 
@@ -109,7 +110,7 @@ The key pre-requisite to bring an internationalized version of software in produ
 
 #### 2011. *Unicode* support for SPM 6.8 Japanese
 
-At this year we entered partnership with a high profile company in **Japan**. They agree to provide translators and signed reseller agreement.
+At this year we entered partnership with a high profile company in **Japan**. They agreed to provide translators and signed reseller agreement.
 
 The most important challenge was to create a **Unicode** version of SPM. The entire source code has to be revisited and all the non-unicode conformant code has to be corrected. I developed a process that allowed to create a release-quality SPM English version with full Unicode support.
 
@@ -119,7 +120,13 @@ The most important challenge was to create a **Unicode** version of SPM. The ent
 1. Run **Static Analysis** tools ([CppCheck](http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/)).
 1. Run **Dynamic Analysis** tools ([NuMega DevPartner aka Boundschecker](http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx)).
 
-* Guided **Internationalization (i18n)** team to run **SPM Chinese** in production. Due to hard work of **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html)**, Salford Systems partner in China quite a number of top Data Science enterprizes in China run our software.
+#### 2016. SPM Chinese
+
+At this time we acquired a strong partner in China. **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html) worked hard to translate SPM to Chinese and achieved great results selling it in China.
+
+As we had a Japanese translation for previous version of the product I was able to setup effective translation process. In internationalization it is important to be dilligent and methodical. I set high bar in this process and was fortunate to find very good partners in Chinese translators. They quickly learned the process and the translations were all in place in less than 3 weeks. Maintaining translation during ongoing development of SPM 8.2 was a breaze.
+
+We were even able to hire contractors in Japan and Korea to create versions of SPM in those languages. Chinese partner helped to manage these teams as well.
 
 ### 2015-2017. **Cloud-ready SPM** project
 
