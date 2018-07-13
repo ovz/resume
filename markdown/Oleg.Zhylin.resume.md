@@ -23,7 +23,9 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
+During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute, where I completed several projects. From that time I have an important life skill to see things from a **Security Professional** point of view.
+
+Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up.
 
@@ -32,9 +34,9 @@ In **2017-2018** I helped Salford Systems to become a [Minitab][minitab] company
 
 Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details** later in this document.
 
-* *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. This area is critical for a **Business** to sell **Machine Learning** solutions. The Business scales up by acquiring more and more successful clients. Clients have diverse background and specializations. Machine Learning Business needs help from **Software Engineer** professionals to build effective GUIs. It makes intuitive to **setup** a Machine Learning models and **interpret** the results. Key to interpretability is **Visualization** of Machine Learning results. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
-* *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect I provided **strong vision** and collaborated with *engineering* and *business* teams to work out best decisions.
-* *Designed **APIs***. From early in my career I saw great potential in being able to use **Prective Engines** wherever there's a need of their power. I helped the company to arrive to a good API architecture for core intellectual assets. I also used API design extensively for interaction between components in software systems.
+* *Developed advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. It was at the core of Salford Systems offering to let Business experts whose competency lies outside Predictive Analytics to benefit from data. Effective UI was critical for business growth. I brought a perspective **Software Engineer** to develop  products that makes Users of any skill level in Predictive analytics more successfull.
+* *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect I provided **strong vision** and collaborated with *engineering*, and *business*, and scientific teams to work out best decisions.
+* *Designed **APIs***. From early in my career I saw great potential in being able to use **Prective Engines** wherever there's a need of their power. I helped the company to arrive to a quality API architecture for core intellectual assets. I used API design extensively for interaction between components in software systems.
 * *Upgraded large bases **Legacy code**. Some most effective Machine Learning implementations are in **Fortran** and it is quite common in the domain to encounter entire system written in legacy Fortran or C. I have solid expereince utlizing legacy code and upgrading it to new languages and technologies.
 * *Provided **Data Engineering** support* to complex **Machine Learning** projects. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. Inevitably for data to start bringing value it has to be engineered into shape. My skill helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * *Managed **Distributed Software Development** teams. Coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc*.
