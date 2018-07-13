@@ -34,13 +34,13 @@ In **2017-2018** I helped Salford Systems to become a [Minitab][minitab] company
 
 Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details** later in this document.
 
-* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. GUI I developed brought Business Users to insights into their Data. I also had to keep Predictive Analytics experts happy. This was at the core of Salford Systems offering.
+* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. GUI I developed brought Business Users key insights into their Data. I also had to keep Predictive Analytics experts happy. This was at the core of Salford Systems Business Offering.
 * *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect I provided **strong vision** and collaborated with *engineering*, and *business*, and scientific teams to work out best decisions.
 * ***Application Programming Interface (API) Degign***. From early in my career I saw great potential in being able to use **Prective Engines** wherever there's a need of their power. I helped the company to arrive to a quality API architecture for core intellectual assets. I used API design extensively for interaction between components in software systems.
-* *Preserving value and Improving **Legacy code**. Through acquision and own development Salford Systems ended up with quite an extensive code base in **Fortran**. I was able to work with it effectively and at the right time upgrade it to use modern Languages, Tools, and Approaches.
+* *Handling **Legacy code***. Through acquision and own development Salford Systems ended up with quite an extensive code base in **Fortran**. I was able to work with it effectively and at the right time upgrade it to use modern Languages, Tools, and Approaches.
 * ***Data Engineering***. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. Inevitably get that data to bringing value it has to be engineered into shape. My skills helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
-* *Managing **Distributed Software Development** teams.* I coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
-* *Implemented **Agile Software Development** Patterns and Practices*. I learned and practically applied immence power of **Motivated and self-organized teams**. Every time this was the key to successful projects. Contrary to many beliefs work in a *small company* requires even more self-motivation. It is too easy to lose focus and create *silos* instead of effective collaboration.
+* ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* I coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
+* ***Agile Software Development** Patterns and Practices*. I learned and practically applied immence power of **Motivated and self-organized teams**. My best results were results achieved by empowering others.
 
 ## Experience Details
 
