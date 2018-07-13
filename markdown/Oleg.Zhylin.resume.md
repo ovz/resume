@@ -172,22 +172,23 @@ In addition to development workloads we ran the following **Containerized** serv
 
 ### 2014-2017. **Machine Learning Predictive engines API**
 
-It was important to build API for every Predictive Engine independently. API builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code Reuse**. Obviously Code Reuse is the only viable option. I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
+It was important to build API for every Predictive Engine independently. Client code shall not have to depend on anything other than what it needs. In Predictive Engine implementaiton **Code Reuse** was one of the key practices. This brought me to a conclusion that an effective **Package Management** solution is required.
 
-Anaconda Cloud proven to be a very effective solution for us. Traditionally package management for Python treats Windows and even OSX as afterthought. Anaconda gives equal attention to all the platform. This allowed me to package all the deliverables very effectively. I had a chance to have a indepth conversation with [Travis Oliphant][oliphant] about challenges we ran into when putting Anaconda under stress.
-Entire API surface received 100% test coverage.
+ After a research I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
 
-We created a task running framework using [pyinvoke][pyinvoke]. Common **Invoke** tasks included the following.
+Anaconda proven to be a very good solution. In contrast to other package managers in Python ecosystem it gave equally good attention to all major platforms: Windows, Linux, and OSX. Package scripting mechanisms were powerful enough. This was important because I had to put togeter an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have a indepth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montreal][pycon2014]. We discussed the challenges I ran into and he was very gracefull with his time and advise. My suggestions influenced subsequent releases of Anaconda.
+
+I used test-first approach to develop API surface. This ensured top quality of API modules and provided way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
+
+APIs were used in **Cloud-ready SPM** and other internal projects as well as in pilot projects for customers.
+
+This project showed a need for unified approach to scripting. We created a task running framework using [pyinvoke][pyinvoke]. For Predictive APIs **Invoke** tasks included the following.
 
 * Configure **Development Environment** using **Docker**.
 * Build project using **CMake**
 * Run **unit tests**
 * Protect deliverables using [Wibu Codemeter][codemeter]
 * Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
-
-I used test-first approach to develop API surface. This ensured top quality of API modules and provided way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
-
-APIs were used in **Cloud-ready SPM** and other internal projects as well as in pilot projects for customers.
 
 ### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
