@@ -37,7 +37,7 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 * *Designed **APIs***. From early in my career I saw great potential in being able to use **Prective Engines** wherever there's a need of their power. I helped the company to arrive to a good API architecture for core intellectual assets. I also used API design extensively for interaction between components in software systems.
 * *Provided **Data Engineering** support* to complex **Machine Learning** projects. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. To bring value data inevitably has to be brought into shape. My skill helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * *Managed **Distributed Software Development** teams. Coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc*.
-* *Implemented **Agile Software Development** Patterns and Practices*. I learned and practically applied immence power of **Motivated and self-organized teams**. Every time this was the key to successful projects. Contrary to many beliefs work in a *small company* requires even more self-motivation. It is too easy to lose focus and create *silos* instad of effective collaboration.
+* *Implemented **Agile Software Development** Patterns and Practices*. I learned and practically applied immence power of **Motivated and self-organized teams**. Every time this was the key to successful projects. Contrary to many beliefs work in a *small company* requires even more self-motivation. It is too easy to lose focus and create *silos* instead of effective collaboration.
 
 ## Experience Details
 
@@ -130,7 +130,7 @@ We were even able to hire contractors in Japan and Korea to create versions of S
 
 ### 2015-2017. **Cloud-ready SPM** project
 
-CloudSPM projects captured our vision for cutting edge usage of **Salford Systems** technologies. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers.
+**Cloud-ready SPM** project captured our vision for cutting edge usage of **Salford Systems** technologies. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers.
 
 I was one of **Principal Architects** and **Product Owner** for the project.
 
@@ -172,7 +172,12 @@ In addition to development workloads we ran the following **Containerized** serv
 
 ### 2014-2017. **Machine Learning Predictive engines API**
 
-Each API project builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code Reuse**. I obviously opted for the latter. We created a task running framework using [pyinvoke][pyinvoke]. Common **Invoke** tasks included the following.
+It was important to build API for every Predictive Engine independently. API builds and deploys indendpently. This requires either a lot of **Code Duplicaiton** or a lot of **Code Reuse**. Obviously Code Reuse is the only viable option. I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
+
+Anaconda Cloud proven to be a very effective solution for us. Traditionally package management for Python treats Windows and even OSX as afterthought. Anaconda gives equal attention to all the platform. This allowed me to package all the deliverables very effectively. I had a chance to have a indepth conversation with [Travis Oliphant][oliphant] about challenges we ran into when putting Anaconda under stress.
+Entire API surface received 100% test coverage.
+
+We created a task running framework using [pyinvoke][pyinvoke]. Common **Invoke** tasks included the following.
 
 * Configure **Development Environment** using **Docker**.
 * Build project using **CMake**
@@ -180,15 +185,15 @@ Each API project builds and deploys indendpently. This requires either a lot of 
 * Protect deliverables using [Wibu Codemeter][codemeter]
 * Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
 
-Entire API surface received 100% test coverage.
+I used test-first approach to develop API surface. This ensured top quality of API modules and provided way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
 
-We immeidately started using the APIs and this allowed to polish even further and remove inconsistencies.
+APIs were used in **Cloud-ready SPM** and other internal projects as well as in pilot projects for customers.
 
 ### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
 I was in charge of learning and the technology and introdcing it to the project. CodeMeter is a very effective technology. It can **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
 
-One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges to overcome was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users. 
+One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges to overcome was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users.
 
 CodeMeter came very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey]() did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
 
@@ -433,3 +438,4 @@ Here is my self-estimated proficiency list.
 [kafedra_bit]: http://web.archive.org/web/https://nure.ua/en/department/department-of-information-technology-security-its "Department of Information Technology Security (ITS)"
 [nure_eng]: http://web.archive.org/web/http://nure.ua/en "Kharkiv National University Of Radio Electronics (NURE)"
 [thames_valley]: http://web.archive.org/web/https://www.uwl.ac.uk "University of West London"
+[oliphant]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Travis_Oliphant "Travis Oliphant"
