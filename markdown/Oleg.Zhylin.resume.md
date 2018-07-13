@@ -23,7 +23,7 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT](https://web.archive.org/web/https://iit.com.ua), a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
+During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute, where I completed several projects. Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up.
 
@@ -32,10 +32,10 @@ In **2017-2018** I helped Salford Systems to become a [Minitab][minitab] company
 
 Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details** later in this document.
 
-* *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. This area is critical for **Machine Learning Business**. The Business scales up by acquiring more and more successful clients. Clients have diverse background and specializations. Machine Learning Business needs help from **Software Engineer** professionals to build effective GUIs. It makes intuitive to **setup** a Machine Learning models and **interpret** the results. Key to interpretability is **Visualization** of Machine Learning results. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
-* *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system require **System Design**. As an architect I provided **strong vision** and collaborated with *engineering* and *business* teams to work out best decisions.
+* *Developed non-trivial **Graphical User Interface (GUI)** solutions for Machine Learning*. This area is critical for a **Business** to sell **Machine Learning** solutions. The Business scales up by acquiring more and more successful clients. Clients have diverse background and specializations. Machine Learning Business needs help from **Software Engineer** professionals to build effective GUIs. It makes intuitive to **setup** a Machine Learning models and **interpret** the results. Key to interpretability is **Visualization** of Machine Learning results. One can get very deep insights into data and many of them can easily be overlooked or misinterpreted if not visualized effectively.
+* *Architected **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect I provided **strong vision** and collaborated with *engineering* and *business* teams to work out best decisions.
 * *Designed **APIs***. From early in my career I saw great potential in being able to use **Prective Engines** wherever there's a need of their power. I helped the company to arrive to a good API architecture for core intellectual assets. I also used API design extensively for interaction between components in software systems.
-* *Provided **Data Engineering** support* to complex **Machine Learning** projects. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. To bring value data inevitably has to be brought into shape. My skill helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
+* *Provided **Data Engineering** support* to complex **Machine Learning** projects. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. Inevitably for data to start bringing value it has to be engineered into shape. My skill helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * *Managed **Distributed Software Development** teams. Coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc*.
 * *Implemented **Agile Software Development** Patterns and Practices*. I learned and practically applied immence power of **Motivated and self-organized teams**. Every time this was the key to successful projects. Contrary to many beliefs work in a *small company* requires even more self-motivation. It is too easy to lose focus and create *silos* instead of effective collaboration.
 
@@ -178,7 +178,7 @@ It was important to build API for every Predictive Engine independently. Client 
 
 Anaconda proven to be a very good solution. In contrast to other package managers in Python ecosystem it gave equally good attention to all major platforms: Windows, Linux, and OSX. Package scripting mechanisms were powerful enough. This was important because I had to put togeter an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have a indepth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montreal][pycon2014]. We discussed the challenges I ran into and he was very gracefull with his time and advise. My suggestions influenced subsequent releases of Anaconda.
 
-I used test-first approach to develop API surface. This ensured top quality of API modules and provided way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
+I used test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
 
 APIs were used in **Cloud-ready SPM** and other internal projects as well as in pilot projects for customers.
 
@@ -440,3 +440,4 @@ Here is my self-estimated proficiency list.
 [nure_eng]: http://web.archive.org/web/http://nure.ua/en "Kharkiv National University Of Radio Electronics (NURE)"
 [thames_valley]: http://web.archive.org/web/https://www.uwl.ac.uk "University of West London"
 [oliphant]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Travis_Oliphant "Travis Oliphant"
+[iit]:https://web.archive.org/web/https://iit.com.ua/en "Institute of Information Technology"
