@@ -209,10 +209,10 @@ We decided to start with developing Big Data solution for **[Importance Sampled 
 
 We went researched a number of technologies to find a good fit for implementation.
 
-* **Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
-* **Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. We didn't find enough ways to tune the system for acceptable perofrmance.
+* **Apache Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
+* **Apache Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. My co-architect and other teammates are very strong Python programmers and Linux experts. We brainstormed, experimented and still could not find a solution that we can responsibly put into production. I re-wrote parts of our code in **Scala** in an attempt to speak native language of Spark. This reproduced the issuses and did not lead to a solution.
 * **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.
-* **[Dusk Python framework]()**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took me under a week to create first Dusk based demo. Development team was extremenly happy with the swtich. **Collaboration** effectiveness jumped up.
+* **[Dusk Python framework]()**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took me under a week to create first Dusk based demo. Development team was extremenly happy with the swtich.
 
 Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
 
