@@ -17,10 +17,6 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ----
 
-## *Side Note*: Hyperlinks lead to `archive.org`
-
-*Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from archive.org in addition to original web page.*
-
 ## Experience Overview
 
 During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute, where I completed several projects. From that time I have an important life skill to see things from a **Security Professional** point of view.
@@ -64,6 +60,10 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 * Advocated creating a company-wide repository of reusable code and dependencies based on **NuGet**. Actively collaborated with **Software Development Support (SDS)** team.
 * Developed new features for upcoming SPM release.
 * Ensured the projects that Minitab decided to put on hold are properly frozen and can be resurrected effectively.
+
+## *Side Note*: Hyperlinks lead to `archive.org`
+
+*Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from archive.org in addition to original web page.*
 
 ### 2000-2017. [Salford Systems][salford]
 
