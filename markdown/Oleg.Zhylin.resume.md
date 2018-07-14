@@ -69,41 +69,43 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 
 I joined the company during my last year in University. Instantly it was a very good match and a great challenge. The environment was just right for my Computer Science skills to soar. I quickly picked up a good deal of Machine Learning and became proficient in other related areas.
 
-Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman][jerry]**, **[Leo Breiman][leo]**, **[Richard Olshen][olshen]**, and **[Charles Stone][chuck]**, authors of the famous **[CART Monograph][cart_monograph]**. Back in 1990s industry in general didn't go any further than fancy **Regression** for **Precictive Analytics** needs. Pioneering Vision and perseverance of **[Dan Steinberg]()**, company's *Founder*, *Private Owner*, and *President* granted Salford System a decade of prosperity ahead of technology curve. In 2010s it is well known in the industry that **Gradient Boosting** for Decision Trees is one of the top Machine Learning techniques. Top Data Scientists use it consistently to win **[Kaggle]()** and other competitions. The technique was invented by Jerome Friendman in 2004 and we sell it under trademark **TreeNet**. It was enourmous fun and hard work to help our customers meet their **Data Science** and **Artifiical Intelligence** needs way before the became buzzwords.
+Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman][jerry]**, **[Leo Breiman][leo]**, **[Richard Olshen][olshen]**, and **[Charles Stone][chuck]**, authors of the famous **[CART Monograph][cart_monograph]**. Back in 1990s industry in general didn't go any further than fancy **Regression** for **Precictive Analytics** needs. Pioneering Vision and perseverance of **[Dan Steinberg][dsteinberg]**, company's *Founder*, *Private Owner*, and *President* granted Salford System a decade of prosperity ahead of technology curve. In 2010s it is well known in the industry that **Gradient Boosting** for Decision Trees is one of the top Machine Learning techniques. Top Data Scientists use it consistently to win **[Kaggle][kaggle]** and other competitions. The technique was invented by Jerome Friendman in **2004** and we sold it under trademark **TreeNet** since. For me it was enourmous fun and hard work to help our customers meet their **Data Science** and **Artifiical Intelligence** needs way before the became buzzwords.
 
-I was primary **Graphical User Interace (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for _5.0_ release and **Salford Predictive Modeller (SPM)** afterwards. 
+I was primary **Graphical User Interace (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for *5.0* release and **Salford Predictive Modeller (SPM)** afterwards.
+
+*The sections below describe specific projects that I accomplished while with Salford Systems.
 
 ### 2016-2017. *[SPM 8.2][spm82]* in production
 
 I was the main engineer behind preparing and running **SPM 8.2** in production.
 
 * Helped the team to triage work items. We stroke a good balance in bringing value to the customer and preventing feature creep.
-* I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET]()** and *supporting scripts* in **Powershell**.
-* Authored and maintained **Product Installers** using **[Microsoft Visual Studio  Installer Projects](http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects)** toolset.
-* Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc.
+* I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET][ccnet]** and *supporting scripts* in **Powershell**.
+* Authored and maintained **Product Installers** using **[Microsoft Visual Studio Installer Projects][msvs_installer]** toolset.
+* Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Inrastructure code* etc. I made this project the basis from which I forked codebase for **Machine Learning Predictive engines API** and **SPM GUI using *Qt framework***.
 * Established effective process to maintain **SPM Chinese** internationalized version up to date with master *English* version.
 * Upgraded SPM command line build scripts to **CMake**. Created a hybrid configuration that allows to use *manual* and *CMake-generated* project files together.
 
-During this project a I managed an team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to hard work of team members I could help them to become instrumental contributors in terms of **Product Features** and **Quality**.
+During this project a I managed an team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to hard work of the team members I could help them to become instrumental contributors in terms of **Product Features** and **Quality**.
 
 ### 2016-2017. SPM GUI using *Qt framework*
 
-I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework]()**. There was a strong business case for the following challenges.
+I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework][qt]**. There was a strong business case for the following challenges.
 
-* Bring full power of SPM desktop product to non-Windows platforms. In particular larger fraction of current and prospct customers are **Mac OSX** users. **Mobile platforms** are also gaining momentum.
+* Bring full power of SPM desktop product to non-Windows platforms. In particular larger fraction of current and prospct customers are **Mac OSX** users. **Mobile platforms** were also gaining momentum.
 * Speed up development using full palette of modern UI development features **Qt** provides.
 
-We decied to use **[Qt Widgets](http://web.archive.org/web/http://doc.qt.io/qt-5/qtwidgets-index.html)** for this project. While **[QML](http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html)** is more modern and has a lot of neat stuff for the rewrite a mature technology was a much better fit. Our partner team [Milo Solutions](http://web.archive.org/web/https://www.milosolutions.com/en/) had much more experince with Qt Widgets.
+We decied to use **[Qt Widgets][qwidgets]** for this project. I made sure we used best talent and judgement to evaluate **[QML][qml]**, a new and heavily promoted framework. We could move on when there was a satisfactory confirmation that Qt Widgets is a *mature* technology and fits best for a rewrite. Our partner team [Milo Solutions][milo] had much more experince with Qt Widgets.
 
-A major challenge was to provide **crossplatform** backend to **3rd party** developers. **Legacy** interaction layer between Windows GUI and crossplatform backend was based on **static linking** and **shared state**. This allowed to cut corners for a small development team over the course of previous years. After careful analysis I transformed SPMnonGUI into a **crossplatform DLL**. The DLL was validated by upgrading production SPM to use the DLL and perform **rigorous testing**. [Wibu Codemeter][codemeter] technology was instrumental in protecting the DLL for both **produciton** and **development** use.
+I faced a major challenge was to provide **crossplatform** backend for **3rd party** developers. **Legacy** interaction layer between Windows GUI and crossplatform backend was based on **static linking** and **shared state**. Salford Systems internal team members were able to cut corners and cross boundaries between GUI and non-GUI at will. After careful analysis I transformed SPMnonGUI into a **crossplatform DLL**. The DLL was validated by upgrading production SPM to use the DLL and perform **rigorous testing**. [Wibu Codemeter][codemeter] technology was instrumental in protecting the DLL for both **produciton** and **development** use.
 
-**Oursourcing team** was quite knowledgable in Qt. I learned a lot from them. The team needed help with applying **modern C++** and architecting the application around major concerns. We went through several interations producing general applicaiton structure and paid close attention to critical modules. My experience with existing SPM code allowed to develop **thread-safe** interaciton layer between SPM Qt GUI and backend.
+**Oursourcing team** was quite knowledgable in Qt. I learned a lot from them. The team needed help with applying **modern C++** and architecting the application around major concerns. My understanding what are benefits and drawbacks of codebase in production helped immensly. We went through several interations producing general applicaiton structure and paid close attention to critical modules. My experience with **Client-Server predictive analytics application** allowed developing **thread-safe** interaciton layer between SPM Qt GUI and backend.
 
-Over the course of development we practiced **Pull Request** approach for development process. I had to send the code back for corrections more often then I wished. THe outcome was very rewarding though. I was pleasantly surprised by **professional growth** of the team members and **product quality improvements**.
+Over the course of development we practiced **Pull Request** approach for development process. I had to send the code back for corrections more often then I wished. The outcome was very rewarding though. I was pleasantly surprised by **professional growth** of the team members and **product quality improvements**.
 
-We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer library]()** became production-ready. Installer work did envolve some **cutting edge** development.
+We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **Mac OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer Framework][qt_installer]** became production-ready. Time has shown that my decision to allow some **cutting edge** development against early prototype paid off. Qt Installer Framework is mature now.
 
-For this project I successfully reused framework based on [pyinvoke][pyinvoke] that was developed as part of **Cloud-ready SPM** project. A lot of code was already ready for me to reuse. I've built upon it to build, test, and publish the application.
+For this project I successfully reused framework based on [pyinvoke][pyinvoke] that was developed as part of **Cloud-ready SPM** project. A lot of needed packages were implemented already. It was straightforward to produce packages specific to this project.
 
 Over the course of this project I managed a team up to **10 people**.
 
@@ -113,9 +115,9 @@ The key pre-requisite to bring an internationalized version of software in produ
 
 #### 2011. *Unicode* support for SPM 6.8 Japanese
 
-At this year we entered partnership with a high profile company in **Japan**. They agreed to provide translators and signed reseller agreement.
+At this time we entered partnership with a high profile company in **Japan**. They agreed to provide translators and signed reseller agreement.
 
-The most important challenge was to create a **Unicode** version of SPM. The entire source code has to be revisited and all the non-unicode conformant code has to be corrected. I developed a process that allowed to create a release-quality SPM English version with full Unicode support.
+The most important challenge was to create a **Unicode** version of SPM. The entire source code had to be revisited and all everything unsafe for Unicode had to be addressed. I developed a process that allowed to create a release-quality SPM English version with full Unicode support.
 
 1. Configure projects to build Unicode application. Address all the **Compiler Warnings**.
 1. Use guidelines from Microsoft and other sources to crate **Regular Expressions** to locate and fix unicode issues in the code base.
@@ -179,7 +181,7 @@ It was important to build API for every Predictive Engine independently. Client 
 
  After a research I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
 
-Anaconda proven to be a very good solution. In contrast to other package managers in Python ecosystem it gave equally good attention to all major platforms: Windows, Linux, and OSX. Package scripting mechanisms were powerful enough. This was important because I had to put togeter an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have a indepth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montreal][pycon2014]. We discussed the challenges I ran into and he was very gracefull with his time and advise. My suggestions influenced subsequent releases of Anaconda.
+Anaconda proven to be a very good solution. In contrast to other package managers in Python ecosystem it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put togeter an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have a indepth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montreal][pycon2014]. We discussed the challenges I ran into and he was very gracefull with his time and advise. My suggestions influenced subsequent releases of Anaconda.
 
 I used test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
 
@@ -450,3 +452,12 @@ Here is my self-estimated proficiency list.
 [olshen]:http://statweb.stanford.edu/~olshen/ "Richard Olshen"
 [chuck]:https://vcresearch.berkeley.edu/faculty/charles-stone "Charles Stone"
 [cart_monograph]:http://web.archive.org/web/20180714003537/https://books.google.com/books?id=gLs6DwAAQBAJ&lpg=PA1&dq=%22Classification%20and%20Regression%20Trees%22&pg=PA1#v=onepage&q=%22Classification%20and%20Regression%20Trees%22&f=false "Breiman, L. (1984). Classification and Regression Trees. New York: Routledge."
+[dsteinberg]:http://web.archive.org/web/https://www.salford-systems.com/company "Dan Steinberg, the Founder of Salford Systems."
+[kaggle]:http://web.archive.org/web/https://www.kaggle.com "Kaggle"
+[ccnet]:http://web.archive.org/web/https://github.com/ccnet/CruiseControl.NET "CruiseControl .NET"
+[msvs_installer]: http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects "Microsoft Visual Studio Installer Projects"
+[qt]:http://web.archive.org/web/https://www.qt.io "Qt framework"
+[qwidgets]:http://web.archive.org/web/http://doc.qt.io/qt-5/qtwidgets-index.html "Qt Widgets"
+[qml]:http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html "QML"
+[milo]:http://web.archive.org/web/https://www.milosolutions.com/en/ "Milo Solutions"
+[qt_installer]:http://web.archive.org/web/https://wiki.qt.io/Qt-Installer-Framework "Qt Installer Framework"
