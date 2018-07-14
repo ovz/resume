@@ -90,15 +90,15 @@ During this project a I managed an team up to **12 people**. **Outsourcing** tea
 
 ### 2015-2017. **Cloud-ready SPM** project
 
-**Cloud-ready SPM** project captured our vision for cutting edge usage of **Salford Systems** technologies. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers.
+**Cloud-ready SPM** project captured our vision for cutting edge usage of **Salford Systems** technologies. We wanted our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers.
 
-I was one of **Principal Architects** and **Product Owner** for the project.
+I was one of the **Principal Architects** and the **Product Owner** for the project.
 
-Corner stone trait of the system is **Elasticity**. This is the essence of the value Users get from a **Cloud** solution. Thus we architected system around **Distributed Work Item Queue**, **Big Data** storage, and **Web Frontend**. The solution was **Cloud native** from the get go.
+Corner stone trait of the system was **Elasticity**. This was the essence of the value Users get from a **Cloud** solution. Thus we architected system around **Distributed Work Item Queue**, **Big Data** storage, and **Web Frontend**. The solution was **Cloud native** from the get go.
 
-*Frontend* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. **Web Application** in front of it is a very effective first client. We were able to repeat success of prominent companies in the industry making numerous deployments daily, exprimenting etc. **React.Js**, **Redux** and **PostgreSQL** are fantastic tools and very good fit for the job. As a result of this rapid development approach end users were able to play with features as soon as implementations are available.
+*Frontend* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. **Web Application** in front of it is a very effective first client. I pushed to reproduce the success of prominent companies in the industry making numerous deployments daily, A-B testing, exprimentation etc. With limited resources I found it very important to read industry trends correctly. It was the right decision to select **React.Js**, **Redux** and **PostgreSQL**. As a result of this rapid development approach end users were able to play with features as soon as implementations are available.
 
-For operational purposes system needed to store a lot of small files. We ended up utlizing [SeaweedFS](https://web.archive.org/web/https://github.com/chrislusf/seaweedfs) for this.
+For operational purposes system needed to store a lot of small files. It was very tempting to stick to single **Big Data** storage solution. This didn't smell right and the solution was to use [SeaweedFS][seaweedfs]. This is a specialized distributed file system, and it was the correct solution.
 
 We selected **Python** to the backend solution. Primarily the reason was we had very talented Python programmers on the team. This also gave me opportunity to dive into Python and participate in development. I read much more code than I wrote but I learned a ton and was able to contribute.
 
@@ -464,3 +464,4 @@ Here is my self-estimated proficiency list.
 [cppcheck]:(http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/ "CppCheck"
 [boundschecker]:http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx "NuMega Boundschecker"
 [qydatatech]:http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html   "QYDatatech"
+[seaweedfs]:https://web.archive.org/web/https://github.com/chrislusf/seaweedfs "SeaweedFS"
