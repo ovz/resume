@@ -88,6 +88,34 @@ I was the main engineer behind preparing and running **SPM 8.2** in production.
 
 During this project a I managed an team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to hard work of the team members I could help them to become instrumental contributors in terms of **Product Features** and **Quality**.
 
+### 2015-2017. **Cloud-ready SPM** project
+
+**Cloud-ready SPM** project captured our vision for cutting edge usage of **Salford Systems** technologies. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers.
+
+I was one of **Principal Architects** and **Product Owner** for the project.
+
+Corner stone trait of the system is **Elasticity**. This is the essence of the value Users get from a **Cloud** solution. Thus we architected system around **Distributed Work Item Queue**, **Big Data** storage, and **Web Frontend**. The solution was **Cloud native** from the get go.
+
+*Frontend* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. **Web Application** in front of it is a very effective first client. We were able to repeat success of prominent companies in the industry making numerous deployments daily, exprimenting etc. **React.Js**, **Redux** and **PostgreSQL** are fantastic tools and very good fit for the job. As a result of this rapid development approach end users were able to play with features as soon as implementations are available.
+
+For operational purposes system needed to store a lot of small files. We ended up utlizing [SeaweedFS](https://web.archive.org/web/https://github.com/chrislusf/seaweedfs) for this.
+
+We selected **Python** to the backend solution. Primarily the reason was we had very talented Python programmers on the team. This also gave me opportunity to dive into Python and participate in development. I read much more code than I wrote but I learned a ton and was able to contribute.
+
+The key piece of information flow in CloudSML was a **Predictive Model**. As an expert in the existing format I participated in the research and later guided implmentaiton.
+
+* Historically models in SPM are in **proprietry binary format**. For this most part this format is not suitable to wrap in an API and to use **transportation** purposes.
+* We experimented with **pickle** and other **Python** serialization primitives.
+* Most known industry standard is **PMML**. It is notoriously challenging implement and manange PMML models.
+
+Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http://web.archive.org/web/http://dmg.org/pfa/) for our model management needs. Since existing imlementations were far from comprehensive we created our own PFA **converters** and **interpreter**. This gave us very robust and effective **Model Management**.
+
+We had to an extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and extensive use of compression helped achieve our goals.
+
+Infrastructure that powers entire **Software Development lifecycle** uses [pyinvoke][pyinvoke] based framework created during **Machine Learning Predictive engines API** project.
+
+Managed the team up to **7 people**.
+
 ### 2016-2017. SPM GUI using *Qt framework*
 
 I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework][qt]**. There was a strong business case for the following challenges.
@@ -122,44 +150,16 @@ The most important challenge was to create a **Unicode** version of SPM. The ent
 1. Configure projects to build Unicode application. Address all the **Compiler Warnings**.
 1. Use guidelines from Microsoft and other sources to crate **Regular Expressions** to locate and fix unicode issues in the code base.
 1. Develop test cases supplying Unicode strings as inputs to the application.
-1. Run **Static Analysis** tools ([CppCheck](http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/)).
-1. Run **Dynamic Analysis** tools ([NuMega DevPartner aka Boundschecker](http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx)).
+1. Run **Static Analysis** tools ([CppCheck][cppcheck]).
+1. Run **Dynamic Analysis** tools ([NuMega DevPartner aka Boundschecker][boundschecker]).
 
 #### 2016. SPM Chinese
 
-At this time we acquired a strong partner in China. **[QYDatatech](http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html) worked hard to translate SPM to Chinese and achieved great results selling it in China.
+At this time we acquired a strong partner in China. **[QYDatatech][qydatatech]** worked hard to translate SPM to Chinese and achieved great results selling it in China.
 
 As we had a Japanese translation for previous version of the product I was able to setup effective translation process. In internationalization it is important to be dilligent and methodical. I set high bar in this process and was fortunate to find very good partners in Chinese translators. They quickly learned the process and the translations were all in place in less than 3 weeks. Maintaining translation during ongoing development of SPM 8.2 was a breaze.
 
 We were even able to hire contractors in Japan and Korea to create versions of SPM in those languages. Chinese partner helped to manage these teams as well.
-
-### 2015-2017. **Cloud-ready SPM** project
-
-**Cloud-ready SPM** project captured our vision for cutting edge usage of **Salford Systems** technologies. We want our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers.
-
-I was one of **Principal Architects** and **Product Owner** for the project.
-
-Corner stone trait of the system is **Elasticity**. This is the essence of the value Users get from a **Cloud** solution. Thus we architected system around **Distributed Work Item Queue**, **Big Data** storage, and **Web Frontend**. The solution was **Cloud native** from the get go.
-
-*Frontend* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. **Web Application** in front of it is a very effective first client. We were able to repeat success of prominent companies in the industry making numerous deployments daily, exprimenting etc. **React.Js**, **Redux** and **PostgreSQL** are fantastic tools and very good fit for the job. As a result of this rapid development approach end users were able to play with features as soon as implementations are available.
-
-For operational purposes system needed to store a lot of small files. We ended up utlizing [SeaweedFS](https://web.archive.org/web/https://github.com/chrislusf/seaweedfs) for this.
-
-We selected **Python** to the backend solution. Primarily the reason was we had very talented Python programmers on the team. This also gave me opportunity to dive into Python and participate in development. I read much more code than I wrote but I learned a ton and was able to contribute.
-
-The key piece of information flow in CloudSML was a **Predictive Model**. As an expert in the existing format I participated in the research and later guided implmentaiton.
-
-* Historically models in SPM are in **proprietry binary format**. For this most part this format is not suitable to wrap in an API and to use **transportation** purposes.
-* We experimented with **pickle** and other **Python** serialization primitives.
-* Most known industry standard is **PMML**. It is notoriously challenging implement and manange PMML models.
-
-Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http://web.archive.org/web/http://dmg.org/pfa/) for our model management needs. Since existing imlementations were far from comprehensive we created our own PFA **converters** and **interpreter**. This gave us very robust and effective **Model Management**.
-
-We had to an extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and extensive use of compression helped achieve our goals.
-
-Infrastructure that powers entire **Software Development lifecycle** uses [pyinvoke][pyinvoke] based framework created during **Machine Learning Predictive engines API** project.
-
-Managed the team up to **7 people**.
 
 ### 2016-2017 In-house Computational Cluster project
 
@@ -461,3 +461,6 @@ Here is my self-estimated proficiency list.
 [qml]:http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html "QML"
 [milo]:http://web.archive.org/web/https://www.milosolutions.com/en/ "Milo Solutions"
 [qt_installer]:http://web.archive.org/web/https://wiki.qt.io/Qt-Installer-Framework "Qt Installer Framework"
+[cppcheck]:(http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/ "CppCheck"
+[boundschecker]:http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx "NuMega Boundschecker"
+[qydatatech]:http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html   "QYDatatech"
