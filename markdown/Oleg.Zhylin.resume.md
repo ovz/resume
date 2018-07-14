@@ -38,6 +38,10 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* I coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
 * ***Agile Software Development** Patterns and Practices*. I learned and practically applied immence power of **Motivated and self-organized teams**. My best results were results achieved by empowering others.
 
+## *Side Note*: Hyperlinks lead to `archive.org`
+
+*Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from archive.org in addition to original web page.*
+
 ## Experience Details
 
 ### 2017-2018. [Minitab Inc.][minitab]
@@ -60,10 +64,6 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 * Advocated creating a company-wide repository of reusable code and dependencies based on **NuGet**. Actively collaborated with **Software Development Support (SDS)** team.
 * Developed new features for upcoming SPM release.
 * Ensured the projects that Minitab decided to put on hold are properly frozen and can be resurrected effectively.
-
-## *Side Note*: Hyperlinks lead to `archive.org`
-
-*Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from archive.org in addition to original web page.*
 
 ### 2000-2017. [Salford Systems][salford]
 
