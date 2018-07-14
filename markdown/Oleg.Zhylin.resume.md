@@ -116,6 +116,23 @@ Infrastructure that powers entire **Software Development lifecycle** uses [pyinv
 
 Managed the team up to **7 people**.
 
+### 2014-2016. Distributed Machine Learning. [Importance Sampled Learning Ensembles](<Jerry's paper link>) project
+
+Core compentency of Salford Systems is **Decision trees**. They are notoriously challenging to implement in a distributed fashion. It is a holy grail of **Data Science** to run a powerful algorithm against whole volume of **Big Data** dataset. We learned a lot from brainstorming and experimenting in this area. From business standpoint more and more customers have huge datasets and a lot of computation power. The opportunities were ripe for a market offer.
+
+We decided to start with developing Big Data solution for **[Importance Sampled Learning Ensembles](<Jerry's paper link>)**. The advantage was that we don't need to grow an distributed tree over Big Data dataset. Instead we can use subsamples to produce Rules and then use Big Data operations to weigh them.
+
+We went researched a number of technologies to find a good fit for implementation.
+
+* **Apache Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
+* **Apache Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. My co-architect and other teammates are very strong Python programmers and Linux experts. We brainstormed, experimented and still could not find a solution that we can responsibly put into production. I re-wrote parts of our code in **Scala** in an attempt to speak native language of Spark. This reproduced the issuses and did not lead to a solution.
+* **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.
+* **[Dusk Python framework]()**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took me under a week to create first Dusk based demo. Development team was extremenly happy with the swtich. **[Matthew Rocklin][mrocklin], primary author of Dusk, was a true source of insights when I had a chance for an extensive conversation with him during [PyCon 2016 in Portland, OR][pycon2016].
+
+Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
+
+Managed team up to **3 people**.
+
 ### 2016-2017. SPM GUI using *Qt framework*
 
 I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework][qt]**. There was a strong business case for the following challenges.
@@ -202,23 +219,6 @@ I was in charge of learning and the technology and introdcing it to the project.
 One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges to overcome was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users.
 
 CodeMeter came very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey]() did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
-
-### 2014-2016. Distributed Machine Learning. [Importance Sampled Learning Ensembles](<Jerry's paper link>) project
-
-Core compentency of Salford Systems is **Decision trees**. They are notoriously challenging to implement in a distributed fashion. It is a holy grail of **Data Science** to run a powerful algorithm against whole volume of **Big Data** dataset. We learned a lot from brainstorming and experimenting in this area. From business standpoint more and more customers have huge datasets and a lot of computation power. The opportunities were ripe for a market offer.
-
-We decided to start with developing Big Data solution for **[Importance Sampled Learning Ensembles](<Jerry's paper link>)**. The advantage was that we don't need to grow an distributed tree over Big Data dataset. Instead we can use subsamples to produce Rules and then use Big Data operations to weigh them.
-
-We went researched a number of technologies to find a good fit for implementation.
-
-* **Apache Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
-* **Apache Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. My co-architect and other teammates are very strong Python programmers and Linux experts. We brainstormed, experimented and still could not find a solution that we can responsibly put into production. I re-wrote parts of our code in **Scala** in an attempt to speak native language of Spark. This reproduced the issuses and did not lead to a solution.
-* **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.
-* **[Dusk Python framework]()**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took me under a week to create first Dusk based demo. Development team was extremenly happy with the swtich. **[Matthew Rocklin][mrocklin], primary author of Dusk, was a true source of insights when I had a chance for an extensive conversation with him during [PyCon 2016 in Portland, OR][pycon2016].
-
-Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
-
-Managed team up to **3 people**.
 
 ### 2014-2017 [SPM 7.0]()
 
