@@ -100,17 +100,17 @@ Corner stone trait of the system was **Elasticity**. This was the essence of the
 
 For operational purposes system needed to store a lot of small files. It was very tempting to stick to single **Big Data** storage solution. This didn't smell right and the solution was to use [SeaweedFS][seaweedfs]. This is a specialized distributed file system, and it was the correct solution.
 
-We selected **Python** to the backend solution. Primarily the reason was we had very talented Python programmers on the team. This also gave me opportunity to dive into Python and participate in development. I read much more code than I wrote but I learned a ton and was able to contribute.
+**Backend** was written in **Python**. At the heart of the backend was a **Distributed Queue** based on **Redis** and **Tasks** framework to excute tasks from this queue. My co-architect and other team members were all very strong Python programmers. It was one of the great opportunities to **Delegate** and **Learn**. With help from experienced teammates I was able to effectively balance my attention between ***[SPM 8.2][spm82]* in production** and this project. I was SPM 8.2 expert and that project was main revenue generator for Salford Systems. This way I contributed to fund the project.
 
 The key piece of information flow in CloudSML was a **Predictive Model**. As an expert in the existing format I participated in the research and later guided implmentaiton.
 
-* Historically models in SPM are in **proprietry binary format**. For this most part this format is not suitable to wrap in an API and to use **transportation** purposes.
+* Historically models in SPM are in **proprietry binary format**. For the most part this format is not suitable for creating API surface around it and effective **serialization** between machines.
 * We experimented with **pickle** and other **Python** serialization primitives.
 * Most known industry standard is **PMML**. It is notoriously challenging implement and manange PMML models.
 
-Given these roadbloks we opted to use [Portable Format for Analytics (PFA)](http://web.archive.org/web/http://dmg.org/pfa/) for our model management needs. Since existing imlementations were far from comprehensive we created our own PFA **converters** and **interpreter**. This gave us very robust and effective **Model Management**.
+Given these roadbloks we opted to use [Portable Format for Analytics (PFA)][pfa]) for our model management needs. Since existing imlementations were far from comprehensive we created our own PFA **converters** and **interpreter**. This gave us very robust and effective **Model Management**.
 
-We had to an extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and extensive use of compression helped achieve our goals.
+We conducted extensive research for **Data Storage** format. We envisioned a wide set of use cases that involves **Data Management**. So we couldn't afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and **transparent compression** helped achieve our goals.
 
 Infrastructure that powers entire **Software Development lifecycle** uses [pyinvoke][pyinvoke] based framework created during **Machine Learning Predictive engines API** project.
 
@@ -181,7 +181,7 @@ It was important to build API for every Predictive Engine independently. Client 
 
  After a research I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
 
-Anaconda proven to be a very good solution. In contrast to other package managers in Python ecosystem it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put togeter an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have a indepth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montreal][pycon2014]. We discussed the challenges I ran into and he was very gracefull with his time and advise. My suggestions influenced subsequent releases of Anaconda.
+Anaconda proven to be a very good solution. In contrast to other package managers in Python ecosystem it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put togeter an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have a indepth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montréal][pycon2014]. We discussed the challenges I ran into and he was very gracefull with his time and advise. My suggestions influenced subsequent releases of Anaconda.
 
 I used test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
 
@@ -214,7 +214,7 @@ We went researched a number of technologies to find a good fit for implementatio
 * **Apache Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
 * **Apache Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. My co-architect and other teammates are very strong Python programmers and Linux experts. We brainstormed, experimented and still could not find a solution that we can responsibly put into production. I re-wrote parts of our code in **Scala** in an attempt to speak native language of Spark. This reproduced the issuses and did not lead to a solution.
 * **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.
-* **[Dusk Python framework]()**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took me under a week to create first Dusk based demo. Development team was extremenly happy with the swtich.
+* **[Dusk Python framework]()**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took me under a week to create first Dusk based demo. Development team was extremenly happy with the swtich. **[Matthew Rocklin][mrocklin], primary author of Dusk, was a true source of insights when I had a chance for an extensive conversation with him during [PyCon 2016 in Portland, OR][pycon2016].
 
 Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
 
@@ -465,3 +465,7 @@ Here is my self-estimated proficiency list.
 [boundschecker]:http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx "NuMega Boundschecker"
 [qydatatech]:http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html   "QYDatatech"
 [seaweedfs]:https://web.archive.org/web/https://github.com/chrislusf/seaweedfs "SeaweedFS"
+[mrocklin]:http://matthewrocklin.com "Matthew Rocklin"
+[pycon2014]:https://web.archive.org/web/https://us.pycon.org/2014/ "PyCon 2014 in Montréal"
+[pycon2016]:https://web.archive.org/web/https://us.pycon.org/2016/ "PyCon 2016 in Portland, OR"
+[pfa]:http://web.archive.org/web/http://dmg.org/pfa/ "Portable Format for Analytics (PFA)"
