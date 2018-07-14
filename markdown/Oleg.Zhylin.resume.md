@@ -73,7 +73,7 @@ Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Lear
 
 I was primary **Graphical User Interace (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for *5.0* release and **Salford Predictive Modeller (SPM)** afterwards.
 
-*The sections below describe specific projects that I accomplished while with Salford Systems.
+*The sections below describe specific projects that I accomplished while with Salford Systems.*
 
 ### 2016-2017. *[SPM 8.2][spm82]* in production
 
