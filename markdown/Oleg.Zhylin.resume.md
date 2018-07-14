@@ -62,12 +62,14 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 * Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
 * Learned **[Nalpeiron][nalpeiron]** license manager and helped introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects.
 * Advocated creating a company-wide repository of reusable code and dependencies based on **NuGet**. Actively collaborated with **Software Development Support (SDS)** team.
+* Developed new features for upcoming SPM release.
+* Ensured the projects that Minitab decided to put on hold are properly frozen and can be resurrected effectively.
 
 ### 2000-2017. [Salford Systems][salford]
 
 I joined the company during my last year in University. Instantly it was a very good match and a great challenge. The environment was just right for my Computer Science skills to soar. I quickly picked up a good deal of Machine Learning and became proficient in other related areas.
 
-Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman]()**, **[Leo Breiman]()**, **[Richard Olshen](), and **(Charles Stone)[]**, authors of the famous **[CART Monograph]()**. Back in 1990s industry in general didn't go any further than fancy **Regression** for **Precictive Analytics** needs. Pioneering Vision and perseverance of **[Dan Steinberg]()**, company's *Founder*, *Private Owner*, and *President* granted Salford System a decade of prosperity ahead of technology curve. In 2010s it is well known in the industry that **Gradient Boosting** for Decision Trees is one of the top Machine Learning techniques. Top Data Scientists use it consistently to win **[Kaggle]()** and other competitions. The technique was invented by Jerome Friendman in 2004 and we sell it under trademark **TreeNet**. It was enourmous fun and hard work to help our customers meet their **Data Science** and **Artifiical Intelligence** needs way before the became buzzwords.
+Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman][jerry]**, **[Leo Breiman][leo]**, **[Richard Olshen][olshen]**, and **[Charles Stone][chuck]**, authors of the famous **[CART Monograph][cart_monograph]**. Back in 1990s industry in general didn't go any further than fancy **Regression** for **Precictive Analytics** needs. Pioneering Vision and perseverance of **[Dan Steinberg]()**, company's *Founder*, *Private Owner*, and *President* granted Salford System a decade of prosperity ahead of technology curve. In 2010s it is well known in the industry that **Gradient Boosting** for Decision Trees is one of the top Machine Learning techniques. Top Data Scientists use it consistently to win **[Kaggle]()** and other competitions. The technique was invented by Jerome Friendman in 2004 and we sell it under trademark **TreeNet**. It was enourmous fun and hard work to help our customers meet their **Data Science** and **Artifiical Intelligence** needs way before the became buzzwords.
 
 I was primary **Graphical User Interace (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for _5.0_ release and **Salford Predictive Modeller (SPM)** afterwards. 
 
@@ -443,3 +445,8 @@ Here is my self-estimated proficiency list.
 [oliphant]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Travis_Oliphant "Travis Oliphant"
 [iit]:https://web.archive.org/web/https://iit.com.ua/en "Institute of Information Technology"
 [nalpeiron]:https://web.archive.org/web/https://www.nalpeiron.com "Nalpeiron License Manager"
+[jerry]:https://web.archive.org/web/https://statweb.stanford.edu/~jhf/ "Jerome H. Friedman"
+[leo]:https://statistics.berkeley.edu/memory/leo-breiman "Leo Breiman"
+[olshen]:http://statweb.stanford.edu/~olshen/ "Richard Olshen"
+[chuck]:https://vcresearch.berkeley.edu/faculty/charles-stone "Charles Stone"
+[cart_monograph]:http://web.archive.org/web/20180714003537/https://books.google.com/books?id=gLs6DwAAQBAJ&lpg=PA1&dq=%22Classification%20and%20Regression%20Trees%22&pg=PA1#v=onepage&q=%22Classification%20and%20Regression%20Trees%22&f=false "Breiman, L. (1984). Classification and Regression Trees. New York: Routledge."
