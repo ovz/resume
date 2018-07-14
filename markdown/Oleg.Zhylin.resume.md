@@ -154,6 +154,26 @@ For this project I successfully reused framework based on [pyinvoke][pyinvoke] t
 
 Over the course of this project I managed a team up to **10 people**.
 
+### 2014-2017. **Machine Learning Predictive engines API**
+
+It was important to build API for every Predictive Engine independently. Client code shall not have to depend on anything other than what it needs. In Predictive Engine implementaiton **Code Reuse** was one of the key practices. This brought me to a conclusion that an effective **Package Management** solution is required.
+
+ After a research I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
+
+Anaconda proven to be a very good solution. In contrast to other package managers in Python ecosystem it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put togeter an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have a indepth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montréal][pycon2014]. We discussed the challenges I ran into and he was very gracefull with his time and advise. My suggestions influenced subsequent releases of Anaconda.
+
+I used test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
+
+APIs were used in **Cloud-ready SPM** and other internal projects as well as in pilot projects for customers.
+
+This project showed a need for unified approach to scripting. We created a task running framework using [pyinvoke][pyinvoke]. For Predictive APIs **Invoke** tasks included the following.
+
+* Configure **Development Environment** using **Docker**.
+* Build project using **CMake**
+* Run **unit tests**
+* Protect deliverables using [Wibu Codemeter][codemeter]
+* Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
+
 ### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*
 
 The key pre-requisite to bring an internationalized version of software in production is a reliable native partner on site. During the years we entered in business partnerhips and produced internationalized versions for markets in **Asia**.
@@ -191,26 +211,6 @@ In addition to development workloads we ran the following **Containerized** serv
 * **[FreeIPA](https://web.archive.org/web/https://www.freeipa.org/page/Main_Page)**. It was not prudent from **security** standpoint to authenticate users via corporate **Active Directory**. 
 
 * **[GitLab](). This includes **Version Control**, **Issue Tracker**, **Continuous Integration/Continuous Delivery (CI/CD)**.
-
-### 2014-2017. **Machine Learning Predictive engines API**
-
-It was important to build API for every Predictive Engine independently. Client code shall not have to depend on anything other than what it needs. In Predictive Engine implementaiton **Code Reuse** was one of the key practices. This brought me to a conclusion that an effective **Package Management** solution is required.
-
- After a research I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
-
-Anaconda proven to be a very good solution. In contrast to other package managers in Python ecosystem it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put togeter an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have a indepth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montréal][pycon2014]. We discussed the challenges I ran into and he was very gracefull with his time and advise. My suggestions influenced subsequent releases of Anaconda.
-
-I used test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
-
-APIs were used in **Cloud-ready SPM** and other internal projects as well as in pilot projects for customers.
-
-This project showed a need for unified approach to scripting. We created a task running framework using [pyinvoke][pyinvoke]. For Predictive APIs **Invoke** tasks included the following.
-
-* Configure **Development Environment** using **Docker**.
-* Build project using **CMake**
-* Run **unit tests**
-* Protect deliverables using [Wibu Codemeter][codemeter]
-* Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
 
 ### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
