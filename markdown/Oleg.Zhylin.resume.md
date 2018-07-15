@@ -241,11 +241,11 @@ CodeMeter came up very handy to run **SPM Chinese** in production. The legacy Li
 
 ### 2014-2015 [SPM 7.0][spm70]
 
-Salford Predictive Modeller (SPM) brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application.
+**[Salford Predictive Modeller 7.0 (SPM)][spm70]** brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application.
 
-* Introduced general GUI framework based on [Windows Template Library (**WTL**)](). This framework allowed us to create non-modal Multiple Document Interface (**MDI**) displays using Dialog Resource. The framework interacts seamlessly with legacy **Win32** code. This framework greatly improved productivity of GUI developers I coordinated and my productivity as well.
-* Implemented innovative set of GUI interfaces for [Generalized PathSeeker (GPS)](). This *Machine Learning Algorithm* builds on a lot of **Regularized** regression runs sub-divided into *Elasticities* and *Paths*. There was thus enormous amount information we could potentially display and it was organized in multiple dimensions. The resutling display gave several insightful views into the results.
-* Implemented *GUI* and *Middleware* for [ISLE][() and [RuleLearner](). These are **Pipeline Machine Learning models** based on [TreeNet]() and [GPS](). GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining.
+* Introduced general GUI framework based on [Windows Template Library (**WTL**)][wtl]. This framework allowed us to create non-modal Multiple Document Interface (**MDI**) displays using Dialog Resources. The framework interacted seamlessly with legacy **Win32** code. It greatly improved productivity of the entire GUI development team. I also could focus more on development and less on coordination.
+* Implemented innovative set of GUI interfaces for [Generalized PathSeeker (GPS)][gps_salford]. This *Machine Learning Algorithm* builds on a lot of **Regularized** regression runs sub-divided into *Elasticities* and *Paths*. There was thus enormous amount information we could potentially display and it was organized in multiple dimensions. I crafted the display that gave several insightful views into the results.
+* Implemented *GUI* and *Middleware* for [ISLE and RuleLearner][salford_pipelines]. These are **Pipeline Machine Learning models** based on [TreeNet][treenet] and [Generalized PathSeeker (GPS)][gps_salford]. GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining.
   * **Model Compression** for **ISLE**.
   * Discovered **Predictive Rules** for **Rulelearner**.
 * Designed and implemented *Summary Window* framework. This is a display based on **Tab Control**. In particular 
@@ -333,9 +333,9 @@ The largest project was to apply **CART** and other Machine Learning algorithms 
 
 * Preliminary clustering using **K-Means**.
 
-* Rules discovery using **[CART]()**
+* Rules discovery using **[CART][cart]**
 
-* High accurancy **Classificaiton** using **[TreeNet]()** (aka **Gradient Boosting**).
+* High accurancy **Classificaiton** using **[TreeNet aka **Gradient Boosting**][treenet]**.
 
 The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS]()** scripts. The selection of the language was due to the following factors.
 
@@ -502,3 +502,8 @@ Here is my self-estimated proficiency list.
 [arxan]:https://web.archive.org/web/https://www.arxan.com "Arxan"
 [safenet]:http://sentinelrms.safenet-inc.com "Sentinel RMS - SafeNet"
 [spm70]:http://web.archive.org/web/20151108104149/http://www.salford-systems.com:80/products/spm "SPM 7.0"
+[wtl]:http://web.archive.org/web/https://en.wikipedia.org/wiki/Windows_Template_Library "Windows Template Library (WTL)"
+[gps_salford]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/gps "Generalized PathSeeker (GPS)"
+[salford_pipelines]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/model-compression "Model Compression via ISLE and RuleLearner"
+[treenet]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/treenet "TreeNet"
+[cart]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/classification-modeling-in-cart "CART"
