@@ -75,7 +75,7 @@ I was primary **Graphical User Interace (GUI)** developer and one of the collabo
 
 *The sections below describe specific projects that I accomplished while with Salford Systems.*
 
-### 2016-2017. *[SPM 8.2][spm82]* in production
+### 2016-2017. [SPM 8.2][spm82]
 
 I was the main engineer behind preparing and running **SPM 8.2** in production.
 
@@ -239,7 +239,7 @@ One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** pro
 
 CodeMeter came up very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey][crypkey] did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
 
-### 2014-2017 [SPM 7.0]()
+### 2014-2015 [SPM 7.0][spm70]
 
 Salford Predictive Modeller (SPM) brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application.
 
@@ -501,3 +501,4 @@ Here is my self-estimated proficiency list.
 [rlm]:https://web.archive.org/web/http://www.reprisesoftware.com "Reprise License Manager"
 [arxan]:https://web.archive.org/web/https://www.arxan.com "Arxan"
 [safenet]:http://sentinelrms.safenet-inc.com "Sentinel RMS - SafeNet"
+[spm70]:http://web.archive.org/web/20151108104149/http://www.salford-systems.com:80/products/spm "SPM 7.0"
