@@ -334,7 +334,7 @@ The largest project was to apply **CART** and other Machine Learning algorithms 
 * Rules discovery using **[CART][cart]**
 * High accurancy **Classificaiton** using **[TreeNet aka **Gradient Boosting**][treenet]**.
 
-The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS]()** scripts. The selection of the language was due to the following factors.
+The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS][sas]** scripts. The selection of the language was due to the following factors.
 
 * Client had **in-house expertise** with SAS.
 
@@ -511,3 +511,4 @@ Here is my self-estimated proficiency list.
 [clr_stored_procedures]:http://web.archive.org/web/https://msdn.microsoft.com/en-us/library/ms131094.aspx "CLR Stored Procedure"
 [intel_xe]:http://web.archive.org/web/https://software.intel.com/parallel-studio-xe "Intel Parallel Studio XE"
 [vsts]: http://web.archive.org/web/https://www.visualstudio.com/team-services "Visual Studio Team Services"
+[sas]:https://www.sas.com/en_us/home.html "SAS"
