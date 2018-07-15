@@ -1,9 +1,9 @@
-# ![Oleg Zhylin](https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e) Oleg Zhylin
+# ![Oleg Zhylin][oleg_kayaking_gravatar] Oleg Zhylin
 
 ----
 
 Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064** &#x25C6;
-Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhylin/](https://www.linkedin.com/in/olegzhylin/)**
+Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][oleg_linkedin]**
 
 ----
 
@@ -40,7 +40,7 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 
 ## *Side Note*: Hyperlinks lead to `archive.org`
 
-*Hyperlinks in this document lead to documents that best describe my experience. To make sure links are always valid I use [archive.org](https://web.archive.org). You might see content from archive.org in addition to original web page.*
+*Hyperlinks in this document lead to online resources that best describe my experience. To make sure links are always valid I use [The Internet Archive Wayback Machine (archive.org)][archive_org]. You might see content from archive.org in addition to original web page.*
 
 ## Experience Details
 
@@ -337,7 +337,6 @@ The largest project was to apply **CART** and other Machine Learning algorithms 
 The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS][sas]** scripts. The selection of the language was due to the following factors.
 
 * Client had **in-house expertise** with SAS.
-
 * The survey data came with a set of SAS scripts that extracted data from text format. We used them as first step.
 
 I learned SAS *from scratch* and crated a system based on **SAS macros** with the following features.
@@ -360,13 +359,13 @@ One of the company's strategic projects and the largest software system I have d
 
 I designed the entire system and implemented fully cross-platform TCP/IP daemon. The daemon runs multiple data mining jobs on behalf of end-users, who interact with the system via the same familiar *[SPM][spm82]* GUI. I provided *guidance* and a *framework of components* for two developers in charge of client-side GUI implementation.
 
-The daemon was successfully deployed on **Windows**, **Linux**, and **Sun Solaris** platforms. I authored native **Installers** as **RPM**, **DEB**, **PKG**. 
+The daemon was successfully deployed on **Windows**, **Linux**, and **Sun Solaris** platforms. I authored native **Installers** as `.RPM`, `.DEB`, `.PKG` packages.
 
 I was able to organize the code so that a lot of same source files were used to build both client and server.
 
 I learned a ton from this project. This was my major introduction to **Concurrency**, **Parallelism**, **Network Programming**, **Network Protocol Design** etc. I developed a C++ library that implements quite a number of Design Patterns from [Gang of Four (GoF)][gof_book]. This gave me intimate knowlege of the patterns and brought my understanding of idiomatic C++ to the next level.
 
-# 2003. [CART 5.0][cart_5_0] Release
+### 2003. [CART 5.0][cart_5_0] Release
 
 CART 5.0 was the first major release that transformed CART from signle decision tree product to a **suit** of Predictive algorithms. [TreeNet][treenet_first] was first introduced to public eye. It became and remains most powerful member of the suit. I participated in designing UI to showcase non-trivial, but very powerful results of TreeNet. This display became the basis for upcoming Predictive Algorithm results GUI.
 
@@ -374,7 +373,7 @@ In addition to new features my help was needed to address bugs in the software. 
 
 CART 5.0 was *orders of magnitude* larger than [CART 4.0][cart_4_0]. It was sometimes tedious but extremely rewarding to participate in a big and comprehensive release of a major software product. Some architectural principles introduced during this period were reused for a long time in subsequent versions of the product.
 
-# 2001-2002. Upgrade CART UI to C++/MFC.
+### 2001-2002. Upgrade CART UI to C++/MFC
 
 Salford Systems decided to hire me as a contractor because I demonstrated extensive knowledge of C++. The bulk of CART application was written using *C programming language* calling *Win32 API* directly. The company realized that development without frameworks and advanced language features to support non-trivial architecture is too costly. My first assignments familiarized myself with the codebase quite well. I was able to embark on the project and re-implement CART Navigator, the main tree topology display, using **C++** and **MFC (Microsoft Foundation Classes)**. I used **ActiveX** controls for graphics.
 
@@ -382,7 +381,7 @@ The project was put on hold because the top business need was to release CART 5.
 
 ### 2001. [CART][cart_4_0] Navigator API
 
-A client requested a way to read Decision Tree models saved by CART in propriatory `.nv3` format. The main tree topology window is called "CART Navigator". Thus file format acquired this name as well. I immediately figured out a way to **quickly** implement the API. Familiarity with the code I acquired while working on Decision Trees helped immensely. 
+A client requested a way to read Decision Tree models saved by CART in propriatory `.nv3` format. The main tree topology window is called "CART Navigator". Thus file format acquired this name as well. I immediately figured out a way to **quickly** implement the API. Familiarity with the code I acquired while working on Decision Trees helped immensely.
 
 ### 2000-2001. [CART 4.0][cart_4_0] Advanced Decsion Tree visualization
 
@@ -445,7 +444,7 @@ Here is my self-estimated proficiency list.
 * **Italian**. *Advanced*. Learned it to for the beuaty of it. And to understand lyrics in operas.
 * **German**. *Intermediate*. I can listen to news in German.
 * **Portuguese (Brazil)**. *Intermediate*. Worked with the language a good amount of time during the project for *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain. Contninued study afterwards.
-* **Spanish**. Lower intermediate. Mainly use my intuitions from studies of Portuguese and other previous experiences. Could bump up knowledge quickly for trips to Tijuana. 
+* **Spanish**. Lower intermediate. Mainly use my intuitions from studies of Portuguese and other previous experiences. Could bump up knowledge quickly for trips to Tijuana.
 * *Familiar* with **French**, **Slovenian**, **Arabic**, **Mandarin Chinese**.
 
 [pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
@@ -479,7 +478,7 @@ Here is my self-estimated proficiency list.
 [qml]:http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html "QML"
 [milo]:http://web.archive.org/web/https://www.milosolutions.com/en/ "Milo Solutions"
 [qt_installer]:http://web.archive.org/web/https://wiki.qt.io/Qt-Installer-Framework "Qt Installer Framework"
-[cppcheck]:(http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/ "CppCheck"
+[cppcheck]:http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/ "CppCheck"
 [boundschecker]:http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx "NuMega Boundschecker"
 [qydatatech]:http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html   "QYDatatech"
 [seaweedfs]:https://web.archive.org/web/https://github.com/chrislusf/seaweedfs "SeaweedFS"
@@ -489,7 +488,7 @@ Here is my self-estimated proficiency list.
 [pfa]:http://web.archive.org/web/http://dmg.org/pfa/ "Portable Format for Analytics (PFA)"
 [isle]: https://web.archive.org/web/20180611210658/http://statweb.stanford.edu/~jhf/ftp/isle.pdf "Importance Sampled Learning Ensembles"
 [databricks]:https://databricks.com "Databricks Cloud"
-[strata_conf_2014]:(https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014 "Strata conference"
+[strata_conf_2014]:https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014 "Strata conference"
 [dask]:https://dask.pydata.org/ "Dask Python framework"
 [tcc]:https://web.archive.org/web/https://bellard.org/tcc/ "Tiny C Compiler"
 [rancher_os]:https://web.archive.org/web/https://rancher.com/rancher-os/ "RancherOS"
@@ -510,5 +509,9 @@ Here is my self-estimated proficiency list.
 [redmine]:http://web.archive.org/web/http://www.redmine.org "RedMine"
 [clr_stored_procedures]:http://web.archive.org/web/https://msdn.microsoft.com/en-us/library/ms131094.aspx "CLR Stored Procedure"
 [intel_xe]:http://web.archive.org/web/https://software.intel.com/parallel-studio-xe "Intel Parallel Studio XE"
-[vsts]: http://web.archive.org/web/https://www.visualstudio.com/team-services "Visual Studio Team Services"
-[sas]:https://www.sas.com/en_us/home.html "SAS"
+[vsts]:http://web.archive.org/web/https://www.visualstudio.com/team-services "Visual Studio Team Services"
+[sas]:http://web.archive.org/web/https://www.sas.com "SAS"
+
+[oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
+[oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
+[archive.org]:https://web.archive.org "The Internet Archive Wayback Machine"
