@@ -48,7 +48,7 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 
 At the end of almost two decades long journey with Salford Systems I helped it to become an [Minitab Inc.][minitab] company. Minitab and Salford Systems have a profound similarity. They both made a heavy scientifc technology to work effectively for a Business user. Minitab democratized Classical Statistics and Salford Systems is a leading expert in Machine Learning. It was a pleasure to invest all my work experience into making the two companies a single enterprise. I observed that as a result everyone felt part of a greater whole.
 
-Minitab built a comprehensive development process based on [Visual Studio Team Services](http://web.archive.org/web/https://www.visualstudio.com/team-services). After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, CI/CD etc. Still it was a learning curve for both Salford Systems and Minitab. I got a lot done during that year.
+Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, CI/CD etc. Still it was a learning curve for both Salford Systems and Minitab. I got a lot done during that year.
 
 * Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper governance.
 * Worked closely with TechOps team on an effective corporate IT merger.
@@ -275,20 +275,20 @@ During this project I greatly improved my skills in the following areas.
 
 #### Predicting future sales during Promotions
 
-This allows to **stock** the stores accordingly. Promotions are actively advertised. If promoted item sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
+This allows to **stock** the stores accordingly. Promotions are actively advertised. If a promoted product sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
 
-Customer provided data in a **MSSQL Server** database. I quickly rolled out an MS SQL instance and added a feature to **[Salford Predictive Modeller (SPM)][spm82]** to consume data via **ODBC**. **Data Science** team could run some experimental models right away. We discovered the following.
+Customer provided the data in a **MSSQL Server** database. I quickly rolled out an MS SQL Server instance and added a feature to **[Salford Predictive Modeller (SPM)][spm82]** to consume data via **ODBC**. **Data Science** team could run some experimental models right away. We discovered the following.
 
 * **Raw sales** data do not give enough signal. To simulate future promotion one must look back to sales history and take *store type*, *climate* etc into account.
 * Raw sales require **Data Cleanup**. I discovered inconsistencies down to obvious blunders. Predictive model would be mislead by them. I incoroprated steps to **automatically correct the data** or at least flag records that require scrutiny.
-* There are **Interactions between products**. Sales of some products have effect on others. We have to account for that too.
+* There are **Interactions between products**. Sales of some products have effect on others up to **Canibalization**. We have to account for that too.
 
 I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Data Warehouse** ready for **Machine Learning**. I created a **C#** **Windows Presentation Foundation (WPF)** **.NET** application that automated entire cycle. It accomplished the following.
 
-* Import *Promotion Specification* from customer analysts.
-* Prepare tables for Machine Learning. To achieve maximal performance I used **[CLR Stored Procedure](http://web.archive.org/web/https://msdn.microsoft.com/en-us/library/ms131094.aspx)** in C#.
+* Import *Promotion Specification* from Retail Chain's anlytical department.
+* Prepare tables for Machine Learning. To achieve maximal performance I used **[CLR Stored Procedure][clr_stored_procedures]** in C#.
 * Build **Predictive Models** based on updated data.
-* **Model Management**. There was a requirement to keep entire system in a single database. This should allow **Straightforward Database Migration**. I was able to implement that, including a very effective way to store *Grove files* produced by command line version of SPM.
+* **Model Management**. There was a requirement to keep entire system in a single database. We need as **Straightforward Database Migration** as possible. I was able to implement this, including a very effective way to store *Grove files* produced by command line version of SPM.
 * **Simulate** future promotions according to **Specifications** from the customer.
 * **Export** simulation results in **Microsoft Excel** format. Customer requested deliverables in this format.
 
@@ -296,26 +296,25 @@ The essence of the application is to execute workflows. **Windows Workflow Found
 
 #### Discovering future Promotions*
 
-Search space for promotions is huge and multidimensional. Even after we apply known constrains coming from **Business goals**, **Product Association constrains** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what doesn't. This indispensible resource brought the business where it is. Thus the goal of the application was to bring information in front of an Analyst and help him put a Promotion together.
+Search space for promotions is huge and dimensions are numerous. Even after we apply known constrains coming from **Business goals**, **Product Association constrains** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what doesn't. This indispensible resource brought the business where it is. Thus the goal of the application was to bring information in front of Analysts and help them put a Promotion together.
 
-I created a application with functionality. The core of the backend is **MS SQL Database** with *past sales* and *predictive models*.
+I created a application with the functionality listed below. The core of the backend is **MS SQL Database** with *past sales* and *predictive models*.
 
-* *Compose promotion Specification*. Analyst can enter all the desired promotion parameter or give system hints how to generate parameters based on existing data. *Explore* existing data  help to constrain it slightly.
-* *Run simulations*. Promotion specication always shows how many models will be simulated to generate suggested promotion. It is up to analyst to decides search space is narrow enough simulation can start.
-* *Visualize simulation results*. Analyst can review and *export* in various format.
+* *Compose promotion Specification*. Analyst can enter all the desired promotion parameters or give system hints how to generate parameters based on existing data. * *Run simulations*. Promotion specication always shows how many models will be simulated to generate suggested promotion. It is up to analyst to decide that search space is narrow enough and it makes sense to run the simulation.
+* *Visualize simulation results*. Analyst can review and *export* results in various formats.
 
-As project progressed main database grew in size up to **1 Tb (Terrabytd)**. This created a major scalability challenge. Same job ran several time faster in a copy of the database reduced in size. The challenge vent straight into **Big Data** category. Based on this other experiences from the project I first formulated **Cloud-ready SPM** project. Traditional SQL experience and active learning helped me to *spearhead* this project going forward.
+As project progressedm main database grew in size up to **1 Tb (Terrabyte)**. This created a major scalability challenge. Same job ran several time faster using a copy of the database that is reduced in size. The challenge went straight into **Big Data** category. Based on this and other experiences from the project I first formulated **Cloud-ready SPM** project. Experience with traditional SQL and active learning helped me to *spearhead* this project going forward.
 
-### 2012 Upgraded [SPM]() to 64 bit
+### 2012 Upgraded **[Salford Predictive Modeller (SPM)][spm82]** to 64 bit
 
-Salford Predictive Modeler (SPM) is very memory intensive. Any non-trivial Machine Learning challenge must fit into memory. It was crucial to address limitation of 4Gb address space of legacy 32 bit.
+Salford Predictive Modeler (SPM) is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address limitation of 4Gb address space of legacy 32 bit OSes.
 
-I was in charge of transforming the code base so that it compiles for 64 bit platform. Most important part of the process is to methodically revisit all the places in the code are and make sure 64 bit addresses and sizes are handled correctly. This was achieved using the following practices. 
+I was in charge of transforming the code base so that it compiles for 64 bit platform. Most important part of the process is to methodically revisit all the places in the code and make sure 64 bit addresses and sizes are handled correctly. This was achieved using the following practices.
 
 * Addressed compiler warnings. I reviewed warnings from compilers on all supported platforms (**Windows**, **Linux**, **AIX**, **HP-UX** and other commercial UNIX distributions).
-* Use **Regular Expressions** to traverse code base and find all the places where 64 bit value is inadvertently reused to 32 bit.
-* Validate the application at runtime. Stress tests for large Machine Learning problems was both a major goal and a good validation practice.
-* Run [Intel® Parallel Studio XE](http://web.archive.org/web/https://software.intel.com/parallel-studio-xe) for **Static and Dynamic Analysis of the source code**.
+* Use **Regular Expressions** to traverse code base and find all the places where 64 bit value is inadvertently reduced to 32 bit.
+* Validate the application at runtime. Stress tests for large Machine Learning problems were both a major goal and a good validation practice.
+* Run [Intel Parallel Studio XE][intel_xe] for **Static and Dynamic Analysis of the source code**.
 
 The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64 bit build of the application was ready in month.
 
@@ -509,3 +508,6 @@ Here is my self-estimated proficiency list.
 [cart]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/classification-modeling-in-cart "CART"
 [gitolite]:http://web.archive.org/web/http://gitolite.com/gitolite/index.html "Gitolite"
 [redmine]:http://web.archive.org/web/http://www.redmine.org "RedMine"
+[clr_stored_procedures]:http://web.archive.org/web/https://msdn.microsoft.com/en-us/library/ms131094.aspx "CLR Stored Procedure"
+[intel_xe]:http://web.archive.org/web/https://software.intel.com/parallel-studio-xe "Intel Parallel Studio XE"
+[vsts]: http://web.archive.org/web/https://www.visualstudio.com/team-services "Visual Studio Team Services"
