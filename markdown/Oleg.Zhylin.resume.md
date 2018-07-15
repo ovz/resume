@@ -19,7 +19,7 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute. I researched novel topics, completed software projects, participated in Scientific Community. From that time I have an important life skill to see things from a **Security Professional** point of view.
+During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute. I researched novel topics, completed software projects, participated in Scientific Community. From that time I have an important life skill to see things from a **Security Professional** standpoint.
 
 Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
