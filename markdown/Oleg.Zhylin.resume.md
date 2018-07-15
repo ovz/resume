@@ -116,18 +116,18 @@ Infrastructure that powers entire **Software Development lifecycle** uses [pyinv
 
 Managed the team up to **7 people**.
 
-### 2014-2016. Distributed Machine Learning. [Importance Sampled Learning Ensembles](<Jerry's paper link>) project
+### 2014-2016. Distributed Machine Learning for [Importance Sampled Learning Ensembles (ISLE)][isle]
 
-Core compentency of Salford Systems is **Decision trees**. They are notoriously challenging to implement in a distributed fashion. It is a holy grail of **Data Science** to run a powerful algorithm against whole volume of **Big Data** dataset. We learned a lot from brainstorming and experimenting in this area. From business standpoint more and more customers have huge datasets and a lot of computation power. The opportunities were ripe for a market offer.
+More and more customers discovered their datasets become **Big Data** challenges. The core compentency of Salford Systems are *Decision Trees*. Brute force **Distributed Decision Tree** is notoriously difficult to implement. The team brainstormed **Minimal Viable Product** that will address the challenge and boost our scientific research to extract all the predictive power from *terrabytes* of data.
 
-We decided to start with developing Big Data solution for **[Importance Sampled Learning Ensembles](<Jerry's paper link>)**. The advantage was that we don't need to grow an distributed tree over Big Data dataset. Instead we can use subsamples to produce Rules and then use Big Data operations to weigh them.
+We decided to start with developing Big Data solution for **[Importance Sampled Learning Ensembles (ISLE)][isle]**. The advantage was that we don't need to grow a singletree over entire Big Data dataset. Instead we can use subsamples to produce Rules and then use Big Data operations to weigh them.
 
-We went researched a number of technologies to find a good fit for implementation.
+The challenge I addressed was to technologies that are a good fit for implementation.
 
-* **Apache Hadoop**. We already had experience and knowledge from the industry that developing in *"Barebone Map/Reduce"* is not feasible.
-* **Apache Spark**. It is a solid step up from **Hadoop**. We spent quite a lot of time building up our solutions. We successfully demonstrated Notebooks in **[Jupiter]()** showing our solution. The major drawback was underlying **Java** virtual machine appeared very resource hungry. My co-architect and other teammates are very strong Python programmers and Linux experts. We brainstormed, experimented and still could not find a solution that we can responsibly put into production. I re-wrote parts of our code in **Scala** in an attempt to speak native language of Spark. This reproduced the issuses and did not lead to a solution.
-* **[Databricks Cloud]()**. I had a chance to connect with people from DataBricks at **[Strata conference](https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014)** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook**. Demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.
-* **[Dusk Python framework]()**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took me under a week to create first Dusk based demo. Development team was extremenly happy with the swtich. **[Matthew Rocklin][mrocklin], primary author of Dusk, was a true source of insights when I had a chance for an extensive conversation with him during [PyCon 2016 in Portland, OR][pycon2016].
+* **Apache Hadoop**. *"Barebone Map/Reduce"* is not counterproductive for any larger scale project. I deployed traingng data in Hadoop File System (**HDFS**) and the resarch continued toward higher level tools.
+* **Apache Spark**. It is a solid step up from Hadoop. We used **PySpark**, a Python interface. Soon I was able to demonstrate our solution in a **[Jupiter][jupiter]** notebook. The major drawback was underlying **Java** virtual machine very slow and hungry for resources. My co-architect and other teammates are very strong Python programmers and Linux experts. We brainstormed, experimented and still could not find a solution that we can responsibly put into production. I re-wrote parts of our code in **Scala** to see if speaking native language of Spark would give major improvement. I was only able to reproduce the issues we were having already.
+* **[Databricks Cloud][databricks]**. I had a chance to connect with people from DataBricks at **[Strata conference][strata_conf_2014]** in NYC in *October 2014*. We found good touching points and entered a partnership. As a result of POC we put together a **Databricks notebook** demonstrating our technology. Unfortunately at that time DataBricks cloud was not mature enough to meet all of our use cases.
+* **[Dask Python framework][dask]**. I was pleasantly surprised with the framework. All essential parts clicked together and addressed our major concerns. It took under a week to create first Dask based demo. Development team was extremenly happy with the swtich. **[Matthew Rocklin][mrocklin]**, primary author of Dask, was a true source of insights when I had a chance for an extensive conversation with him during [PyCon 2016 in Portland, OR][pycon2016].
 
 Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
 
@@ -173,6 +173,21 @@ This project showed a need for unified approach to scripting. We created a task 
 * Run **unit tests**
 * Protect deliverables using [Wibu Codemeter][codemeter]
 * Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
+
+### Big Data Scoring utility for *Apache Hive*
+
+A large Department Store chain client asked for help to apply hundreds of individual TreeNet models to millions of observations in Hadoop. They used **Apache Hive** to manage data. I was familiar with Hive before but far from active user. A quick research brought up a nice solution. Hive supports `SELECT TRANSFORM` statement that allows to specify a custom shell script to consume data produced by Hive query. In our case we needed to apply a TreeNet model in a propriatory binary `.grv` format.
+
+The easiest way to work with `.grv` files is to invoke SPMnonGUI, a command-line version of **[Salford Predictive Modeller (SPM)][spm82]**. This is a heavy process and it was not feasible to utilize it inside `SELECT TRANSFORM`. Other common approach to scoring is `TRANSLATE` command in SPM. It produces predictive model implementation in **Java**, **C**, **SAS** etc. Many clients successfully deploy their models this way. Since we talking hundreds of models I needed to make it most straightforward for the client. The solution was as follows.
+
+* Save TreeNet model as **C** output from `TRANSLATE` command.
+* Deploy saved `.c` model to Hive **as is**. *No post-processing required.*
+* Deploy `.zip` archive with supporting scripts.
+* Craft `SELECT TRANSFORM` by analogy with several examples in documntation we provided.
+
+The power of the solution comes from using [Tiny C Compiler][tcc]. It is indeed ultra small and fast compiler implementation. It was a perfect match to distribute it in an archive to every Hadoop node and compile model implementation **on the fly** on every invokation from `SELECT TRANSFORM`.
+
+The client liked our solution very much. It was straightforward for them to put it in production where it was used for at least one year.
 
 ### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*
 
@@ -226,7 +241,7 @@ Salford Predictive Modeller (SPM) brought a ton of value for end users. It was a
 
 * Introduced general GUI framework based on [Windows Template Library (**WTL**)](). This framework allowed us to create non-modal Multiple Document Interface (**MDI**) displays using Dialog Resource. The framework interacts seamlessly with legacy **Win32** code. This framework greatly improved productivity of GUI developers I coordinated and my productivity as well.
 * Implemented innovative set of GUI interfaces for [Generalized PathSeeker (GPS)](). This *Machine Learning Algorithm* builds on a lot of **Regularized** regression runs sub-divided into *Elasticities* and *Paths*. There was thus enormous amount information we could potentially display and it was organized in multiple dimensions. The resutling display gave several insightful views into the results.
-* Implemented *GUI* and *Middleware* for [ISLE]() and [RuleLearner](). These are **Pipeline Machine Learning models** based on [TreeNet]() and [GPS](). GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining.
+* Implemented *GUI* and *Middleware* for [ISLE][() and [RuleLearner](). These are **Pipeline Machine Learning models** based on [TreeNet]() and [GPS](). GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining.
   * **Model Compression** for **ISLE**.
   * Discovered **Predictive Rules** for **Rulelearner**.
 * Designed and implemented *Summary Window* framework. This is a display based on **Tab Control**. In particular 
@@ -469,3 +484,8 @@ Here is my self-estimated proficiency list.
 [pycon2014]:https://web.archive.org/web/https://us.pycon.org/2014/ "PyCon 2014 in Montréal"
 [pycon2016]:https://web.archive.org/web/https://us.pycon.org/2016/ "PyCon 2016 in Portland, OR"
 [pfa]:http://web.archive.org/web/http://dmg.org/pfa/ "Portable Format for Analytics (PFA)"
+[isle]: https://web.archive.org/web/20180611210658/http://statweb.stanford.edu/~jhf/ftp/isle.pdf "Importance Sampled Learning Ensembles"
+[databricks]:https://databricks.com "Databricks Cloud"
+[strata_conf_2014]:(https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014 "Strata conference"
+[dask]:https://dask.pydata.org/ "Dask Python framework"
+[tcc]:https://web.archive.org/web/https://bellard.org/tcc/ "Tiny C Compiler"
