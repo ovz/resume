@@ -229,11 +229,15 @@ In addition to development workloads we ran the following **Containerized servic
 
 ### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
-I was in charge of learning the technology and introdcing it to the project. CodeMeter is a very effective technology. It can **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
+Historically I was in charge for **License Managers** developed in-house and **[CrypKey][crypkey]** license manager used in production **[Salford Predictive Modeller (SPM)][spm82]**. We faced a challenge that we needed *crossplatform*, *Enterprise-ready* license manager. We wanted a single solution to protect all the products, including DLLs for **Machine Learning Predictive engines API**.
 
-One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges to overcome was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users.
+I conducted a thorogh research. I went through trials of **[Flexera Software FlexLM][flexlm]**, **[Reprise License Manager][rlm], **[Arxan][arxan]**, **[Sentinel RMS - SafeNet][safenet]. [Wibu Codemeter][codemeter] ended up being an optimal choice. It **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
 
-CodeMeter came very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey]() did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
+I quickly learned the technology, introdced it into projects, established close working relationships with Wibu tech support. Some of our use cases were quite unusual. While all the materials were available in English my familiarity with German language facilitated faster and better understanding.
+
+One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users.
+
+CodeMeter came up very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey][crypkey] did not work well when deployed for Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
 
 ### 2014-2017 [SPM 7.0]()
 
@@ -273,7 +277,7 @@ During this project I greatly improved my skills in the following areas.
 
 This allows to **stock** the stores accordingly. Promotions are actively advertised. If promoted item sells out too soon the customer is far from a happy one. On other hand we want all the promoted items gone. Data from past sales can help to simulate a promotion.
 
-Customer provided data in a **MSSQL Server** database. I quickly rolled out an MS SQL instance and added a feature to **[Salford Predictive Modeller (SPM)]() to consume data via **ODBC**. **Data Science** team could run some experimental models right away. We discovered the following.
+Customer provided data in a **MSSQL Server** database. I quickly rolled out an MS SQL instance and added a feature to **[Salford Predictive Modeller (SPM)][spm82]** to consume data via **ODBC**. **Data Science** team could run some experimental models right away. We discovered the following.
 
 * **Raw sales** data do not give enough signal. To simulate future promotion one must look back to sales history and take *store type*, *climate* etc into account.
 * Raw sales require **Data Cleanup**. I discovered inconsistencies down to obvious blunders. Predictive model would be mislead by them. I incoroprated steps to **automatically correct the data** or at least flag records that require scrutiny.
@@ -492,4 +496,8 @@ Here is my self-estimated proficiency list.
 [rancher_os]:https://web.archive.org/web/https://rancher.com/rancher-os/ "RancherOS"
 [rancher]:https://web.archive.org/web/https://rancher.com/what-is-rancher/overview/ "Rancher"
 [freeipa]:https://web.archive.org/web/https://www.freeipa.org/page/Main_Page "FreeIPA"
-[gitlab]: https://web.archive.org/web/https://gitlab.com "GitLab"
+[gitlab]:https://web.archive.org/web/https://gitlab.com "GitLab"
+[flexlm]:https://web.archive.org/web/https://www.flexera.com/products/software-license-optimization/flexnet-manager-engineering-applications.html "Flexera Software FlexLM"
+[rlm]:https://web.archive.org/web/http://www.reprisesoftware.com "Reprise License Manager"
+[arxan]:https://web.archive.org/web/https://www.arxan.com "Arxan"
+[safenet]:http://sentinelrms.safenet-inc.com "Sentinel RMS - SafeNet"
