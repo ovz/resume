@@ -245,17 +245,17 @@ CodeMeter came up very handy to run **SPM Chinese** in production. The legacy Li
 
 * Introduced general GUI framework based on [Windows Template Library (**WTL**)][wtl]. This framework allowed us to create non-modal Multiple Document Interface (**MDI**) displays using Dialog Resources. The framework interacted seamlessly with legacy **Win32** code. It greatly improved productivity of the entire GUI development team. I also could focus more on development and less on coordination.
 * Implemented innovative set of GUI interfaces for [Generalized PathSeeker (GPS)][gps_salford]. This *Machine Learning Algorithm* builds on a lot of **Regularized** regression runs sub-divided into *Elasticities* and *Paths*. There was thus enormous amount information we could potentially display and it was organized in multiple dimensions. I crafted the display that gave several insightful views into the results.
-* Implemented *GUI* and *Middleware* for [ISLE and RuleLearner][salford_pipelines]. These are **Pipeline Machine Learning models** based on [TreeNet][treenet] and [Generalized PathSeeker (GPS)][gps_salford]. GUI solution for GPS models accommodated pipelines as well. I invented new display that show key results of pipelining.
+* Implemented *GUI* and *Middleware* for [ISLE and RuleLearner][salford_pipelines]. These are **Pipeline Machine Learning models** based on [TreeNet][treenet] and [Generalized PathSeeker (GPS)][gps_salford]. GUI solution for GPS models accommodated pipelines as well. I invented new display that showed key results of pipelining.
   * **Model Compression** for **ISLE**.
-  * Discovered **Predictive Rules** for **Rulelearner**.
-* Designed and implemented *Summary Window* framework. This is a display based on **Tab Control**. In particular 
-  * Customized standard Windows tab control to implement features we needed in the GUI shows typical  
+  * Discovering **Predictive Rules** for **Rulelearner**.
+* Designed and implemented *Summary Window* framework. This is a generic **Tab Control** based display. The power of it is in its simplicity and adaptability. Each *Tab* visualized specific structures from Model Results. In many cases visualization was agnostic to actual model type. Creation code of each tab recognized whether the data are present. Thus when new Predictive Engine is introduced we can show *Results* display right away. Only relevant and correct information will be displayed.
+* For **Summary Window framework** and other displays developed customized version of standard Windows tab control. We had a number of requirements that standard control couldn't accommodate.  
 
-Pushed to institute effective **Version Control**, **Issuer Tracking**, **Continous Integration/Continous Delivery** and other good development process tools and practices. We eneded up with the following toolset.
+Pushed to institute effective **Version Control**, **Issue Tracking**, **Continous Integration/Continous Delivery** and other good development process tools and practices. We eneded up with the following toolset.
 
-** [Gitolite]() for *Version control*.
-** [RedMine]() for *Issue tracking*.
-** [CruiseControl.NET] for *CI/CD*.
+** [Gitolite][gitolite] for *Version control*.
+** [RedMine][redmine] for *Issue tracking*.
+** **[CruiseControl.NET][ccnet]** for *CI/CD*.
 
 Managed team up to **15 people**, including **Software** and **QA** engineers. I was in charge of coordinating **outsource** development team in **Ukraine**.
 
@@ -507,3 +507,5 @@ Here is my self-estimated proficiency list.
 [salford_pipelines]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/model-compression "Model Compression via ISLE and RuleLearner"
 [treenet]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/treenet "TreeNet"
 [cart]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/classification-modeling-in-cart "CART"
+[gitolite]:http://web.archive.org/web/http://gitolite.com/gitolite/index.html "Gitolite"
+[redmine]:http://web.archive.org/web/http://www.redmine.org "RedMine"
