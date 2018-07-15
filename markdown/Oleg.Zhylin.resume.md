@@ -7,8 +7,8 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ----
 
-> Professional **Software Engineer** since **1998**. I enjoy learning and applying
-> *latest* **C++**. I have a great interest in other leading **Programming Languages** in the
+> Professional **Software Engineer** since **1996**. I enjoy learning and applying
+> *all the breadth and depth* of **C++**. I have a great interest in other leading **Programming Languages** in the
 > industry, including **Rust**, **Python**, **Javascript**, et al.
 >
 > Applications I developed are in domains of **Data Science**, **Machine Learning**, **Security**.
@@ -19,7 +19,7 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute, where I completed several projects. From that time I have an important life skill to see things from a **Security Professional** point of view.
+During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute. I researched novel topics, completed software projects, participated in Scientific Community. From that time I have an important life skill to see things from a **Security Professional** point of view.
 
 Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
@@ -328,12 +328,10 @@ The business demand for the projects only increased. Especially in the time of t
 
 * Everyone is busy on the project so development on the main product slows down significantly.
 
-The largest project was to apply **CART** and other Machine Learning algorithms to results of one of the major **National Health Surveys**. The client was very interested in discovering segments in the population for **Marketing** purposes. Machine Learning part was straightforward and very successful. We found some interesting groups using the following. 
+The largest project was to apply **CART** and other Machine Learning algorithms to results of one of the major **National Health Surveys**. The client was very interested in discovering segments in the population for **Marketing** purposes. Machine Learning part was straightforward and very successful. We found some interesting groups using the following.
 
 * Preliminary clustering using **K-Means**.
-
 * Rules discovery using **[CART][cart]**
-
 * High accurancy **Classificaiton** using **[TreeNet aka **Gradient Boosting**][treenet]**.
 
 The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS]()** scripts. The selection of the language was due to the following factors.
@@ -398,11 +396,13 @@ A client requested a way to read Decision Tree models saved by CART in propriato
 * **Tree Map**. This is a small window that draws an approximation of the *entire* tree topology. User can click and navigate to a specific part of the tree on main display. I enhanced usability of this display and added features to support other functionality.
 * **Tree Printing**. Original implementation was rigidly dependent on tree visualization code I improved. As Tree Printing routines had to be adapted I introduced improvement there as well.
 
-## 1997-2000 Data Security Research
+## 1996-2000 Data Security Research
 
 I was fortunate to receive my undergrad degree at [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. It was founded by prominent military Rocket Scientists. Head of the department **Gorbenko&nbsp;I.D.,&nbsp;PhD** and many of the professors were retired high rank officers with Soviet Union Strategic Missile Troops. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
 
-I conducted independent research and participated in group projects on the following topics.
+In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Research and Development entity through which my mentors from [Department of Information Technology Security (ITS)][kafedra_bit] worked on commercial projects. The biggest project was sub-contracting *Crytoghapy implementation* for a **Client-Bank** system. It was **Online Banking** done by professional Accountants via dial-up modems. I demonstrated my ability to research scientific papers, build applications, publish my results in local scientific entities. As a result I was the *first undergrad* IIT employed.
+
+During my time with IIT I worked on the following.
 
 * *Big numbers cryptography library.*
 * *Innovative prime number generation algorithms.*
