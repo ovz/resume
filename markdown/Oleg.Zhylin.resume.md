@@ -89,29 +89,29 @@ I was the main engineer behind preparing and running **SPM 8.2** in production.
 
 During this project, I managed a team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to the hard work of the team members I could help them to become instrumental contributors in terms of **Product Features** and **Quality**.
 
-### 2015-2017. **Cloud-ready SPM** project
+### 2015-2017. **Cloud-ready SPM**
 
-**Cloud-ready SPM** project captured our vision for cutting-edge usage of **Salford Systems** technologies. We wanted our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers.
+**Cloud-ready SPM** project captured our vision for cutting-edge usage of **Salford Systems** technologies. We wanted our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers. At the same time we saw huge market for Machine Learning solutions *out of the box*. We could and it made all the sense to use our own low level APIs to build **Cloud** offerings.
 
 I was one of the **Principal Architects** and the **Product Owner** for the project.
 
-Cornerstone trait of the system was **Elasticity**. This was the essence of the value Users get from a **Cloud** solution. Thus we architected system around **Distributed Work Item Queue**, **Big Data** storage, and **Web Frontend**. The solution was **Cloud native** from the get-go.
+Cornerstone trait of the system was **Elasticity**. This is the essence of the value Users get from a **Cloud** solution. Thus we architected system around **Distributed Work Item Queue**, **Big Data** storage, and **Web Frontend**. The solution was **Cloud native** from the get-go.
 
-*Frontend* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. **Web Application** in front of it is a very effective first client. I pushed to reproduce the success of prominent companies in the industry making numerous deployments daily, A-B testing, experimentation etc. With limited resources, I found it very important to read industry trends correctly. It was the right decision to select **React.Js**, **Redux** and **PostgreSQL**. As a result of this rapid development approach end users were able to play with features as soon as implementations are available.
+*Frontend* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. **Web Application** in front of it was a very effective first client. I pushed to reproduce the success of prominent companies in the industry making numerous deployments daily, A-B testing, experimentation etc. With limited resources, I found it was very important to read industry trends correctly. It was the right decision to select **React.Js**, **Redux** and **PostgreSQL**. As a result of this rapid development approach Users were able to play with features as soon as implementations are available.
 
-For operational purposes system needed to store a lot of small files. It was very tempting to stick to single **Big Data** storage solution. This did not smell right and the solution was to use [SeaweedFS][seaweedfs]. This is a specialized distributed file system, and it was the correct solution.
+For operational purposes system needed to store a lot of small files. It was very tempting to stick to single **Big Data** storage solution. This did not smell right and the solution was to use [SeaweedFS][seaweedfs]. This is a specialized distributed file system, and it was shining in comparison to an attempt to squeeze a ton of small files into *Hadoop*.
 
-**Backend** was written in **Python**. At the heart of the backend was a **Distributed Queue** based on **Redis** and **Tasks** framework to execute tasks from this queue. My co-architect and other team members were all very strong Python programmers. It was one of the great opportunities to **Delegate** and **Learn**. With help from experienced teammates, I was able to effectively balance my attention between ***[SPM 8.2][spm82]* in production** and this project. I was SPM 8.2 expert and that project was the main revenue generator for Salford Systems. This way I contributed to fund the project.
+**Backend** was written in **Python**. At the heart of the backend was a **Distributed Queue** based on **Redis** and **Tasks** framework to execute queue elements. My co-architect and other team members were all very strong Python programmers. It was one of the great opportunities to **Delegate** and **Learn**. With help from experienced teammates, I was able to effectively balance my attention between ***[SPM 8.2][spm82]* in production** and this project. I was SPM 8.2 expert and that project was the main revenue generator for Salford Systems. This way I contributed to **fund** *Cloud-ready SPM*.
 
-The key piece of information flow in CloudSML was a **Predictive Model**. As an expert in the existing format, I participated in the research and later guided implementation.
+The key piece of information flow in the system was a **Predictive Model**. As an expert in the existing Model Storage format, I participated in the research and later guided implementation.
 
-* Historically models in SPM are in **proprietary binary format**. For the most part, this format is not suitable for creating API surface around it and effective **serialization** between machines.
+* Historically models in SPM are stored in `.grv` files. This is **proprietary binary format**. For the most part, this format is not suitable for creating API surface around it and effective **serialization** between machines.
 * We experimented with **pickle** and other **Python** serialization primitives.
 * Most known industry standard is **PMML**. It is notoriously challenging to implement and manage PMML models.
 
 Given these roadblocks we opted to use [Portable Format for Analytics (PFA)][pfa]) for our model management needs. Since existing implementations were far from comprehensive we created our own PFA **converters** and **interpreter**. This gave us very robust and effective **Model Management**.
 
-We conducted extensive research for **Data Storage** format. We envisioned a wide set of use cases that involve**Data Management**. So we could not afford to store and manage data as is in whatever format is provided. Converting all the data into **tab-separated values (TSV)** format and **transparent compression** helped achieve our goals.
+We conducted extensive research for **Data Storage** format. We envisioned a wide set of use cases that involve **Data Management**. So we could not afford to store and manage data *as is* in whatever format it was provided. Converting all the data into **tab-separated values (TSV)** format and **transparent compression** helped achieve our goals.
 
 Infrastructure that powers entire **Software Development lifecycle** uses [pyinvoke][pyinvoke] based framework created during **Machine Learning Predictive engines API** project.
 
