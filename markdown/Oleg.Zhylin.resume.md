@@ -262,9 +262,7 @@ Managed team up to **15 people**, including **Software** and **QA** engineers. I
 
 ### 2013 *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
 
-As part of consulting project Salford Systems received data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights.
-
-During this project I greatly improved my skills in the following areas.
+As part of consulting project Salford Systems received data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights. The research resulted in longer term collaboration duing which I greatly improved my skills in the following areas.
 
 * **SQL query optimization**
 * **Stored procedures**
@@ -289,11 +287,11 @@ I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Da
 * Import *Promotion Specification* from Analytical Department of the Retail Chain.
 * Prepare tables for Machine Learning. To achieve maximal performance I used **[CLR Stored Procedure][clr_stored_procedures]** in C#.
 * Build **Predictive Models** based on updated data.
-* **Model Management**. There was a requirement to keep entire system in a single database. We need as **Straightforward Database Migration** as possible. I was able to implement this, including a very effective way to store *Grove files* produced by command line version of SPM.
+* **Model Management**. There was a requirement to keep entire system in a single database. We needed as **Straightforward Database Migration** as possible. I was able to implement this, including a very effective way to store *Grove files* `.grv` produced by command line version of SPM.
 * **Simulate** future promotions according to **Specifications** from the customer.
-* **Export** simulation results in **Microsoft Excel** format. Customer requested deliverables in this format.
+* **Export** simulation results into **Microsoft Excel** format. This format was requested by the Customer.
 
-The essence of the application is to execute workflows. **Windows Workflow Foundation** was a very good fit for this. I embedded **Workflow Designer** into the application. User could easily customize workflows to run ad-hoc jobs and experiment. This also increased **Development velocity**.
+The essence of the application was to execute workflows. **Windows Workflow Foundation** was a very good fit for this. I embedded **Workflow Designer** into the application. User could easily customize workflows to run ad-hoc jobs and experiment. This also increased **Development velocity**.
 
 #### Discovering future Promotions*
 
@@ -301,35 +299,35 @@ Search space for promotions is huge and dimensions are numerous. Even after we a
 
 I created an application with the functionality listed below. The core of the backend is **MS SQL Database** with *past sales* and *predictive models*.
 
-* *Compose promotion Specification*. Analyst can enter all the desired promotion parameters or give system hints how to generate parameters based on existing data. * *Run simulations*. Promotion specification always shows how many models will be simulated to generate suggested promotion. It is up to analyst to decide that search space is narrow enough and it makes sense to run the simulation.
+* *Compose promotion Specification*. Analyst can enter all the desired promotion parameters or give system hints how to generate parameters based on existing data.
+* *Run simulations*. Promotion specification always shows how many models will be simulated to generate suggested promotion. It is up to analyst to decide that search space is narrow enough and it makes sense to run a simulation.
 * *Visualize simulation results*. Analyst can review and *export* results in various formats.
 
-As project progressed main database grew in size up to **1 Tb (Terabyte)**. This created a major scalability challenge. Same job ran several time faster using a copy of the database that is reduced in size. The challenge went straight into **Big Data** category. Based on this and other experiences from the project I first formulated **Cloud-ready SPM** project. Experience with traditional SQL and active learning helped me to *spearhead* this project going forward.
+As project progressed main database grew in size up to **1 Tb (Terabyte)**. This created a major scalability challenge. Same job ran several times faster using a copy of the database that is reduced in size. The challenge went straight into **Big Data** category. Based on this and other experiences from the project I first formulated **Cloud-ready SPM** project. Experience with traditional SQL and active learning helped me to *spearhead* that project going forward.
 
 ### 2012 Upgraded **[Salford Predictive Modeller (SPM)][spm82]** to 64 bit
 
-Salford Predictive Modeler (SPM) is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address limitation of 4Gb address space of legacy 32 bit OSes.
+**[Salford Predictive Modeller (SPM)][spm82]** is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address limitation of 4Gb address space of legacy 32 bit OSes.
 
 I was in charge of transforming the code base so that it compiles for 64-bit platform. Most important part of the process is to methodically revisit all the places in the code and make sure 64-bit addresses and sizes are handled correctly. This was achieved using the following practices.
 
-* Addressed compiler warnings. I reviewed warnings from compilers on all supported platforms (**Windows**, **Linux**, **AIX**, **HP-UX** and other commercial UNIX distributions).
-* Use **Regular Expressions** to traverse code base and find all the places where 64-bit value is inadvertently reduced to 32 bit.
-* Validate the application at runtime. Stress tests for large Machine Learning problems were both a major goal and a good validation practice.
+* Addressed compiler warnings. I reviewed warnings generated by compilers on all supported platforms (**Windows**, **Linux**, **AIX**, **HP-UX**, and other commercial UNIX distributions).
+* Used **Regular Expressions** to traverse code base and find all the places where 64-bit value was inadvertently reduced to 32 bit.
+* Validated the application at runtime. Stress tests for large Machine Learning problems were both a major goal and a good validation practice.
 * Run [Intel Parallel Studio XE][intel_xe] for **Static and Dynamic Analysis of the source code**.
 
-The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64-bit build of the application was ready in month.
+The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64-bit build of the application was ready in a month.
 
 ### 2008-2009 Contract project for a major *National Health Survey* for a large *Pharmaceutical* company
 
-Due to economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** but many of the clients were. A common situation was that Engineering departments got downsized and remaining staff was under "300% load". They did not have bandwidth to license our software and carry out **Machine Learning** projects.
+Due to economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were. A common situation was that Engineering departments got downsized and remaining staff was under "300% load". They did not have bandwidth to license our software and carry out **Machine Learning** projects.
 
-The business demand for the projects only increased. Especially in the time of turmoil everyone wants to know about the future. **Contract engagements** is a double-edged sword for a **Small Software Development** company.
+The business demand for the projects only increased. Especially dufing the times of turmoil everyone wants to know about the future. **Contract engagements** are a double-edged sword for a **Small Software Development** company.
 
 * We address real-life problem and *learn a lot*.
+* Everyone is busy with the project so development on the main product slows down significantly.
 
-* Everyone is busy on the project so development on the main product slows down significantly.
-
-The largest project was to apply **CART** and other Machine Learning algorithms to results of one of the major **National Health Surveys**. The client was very interested in discovering segments in the population for **Marketing** purposes. Machine Learning part was straightforward and very successful. We found some interesting groups using the following.
+The largest project was to apply **CART** and other Machine Learning algorithms to results of one of the major **National Health Surveys**. The client was very interested in discovering segments in the population for **Marketing** purposes. Machine Learning part was straightforward and very successful. We found some interesting population groups using the following techniques.
 
 * Preliminary clustering using **K-Means**.
 * Rules discovery using **[CART][cart]**
@@ -342,7 +340,7 @@ The largest challenge was to **Prepare Data** for analysis. As with any Machine 
 
 I learned SAS *from scratch* and created a system based on **SAS macros** with the following features.
 
-* All the transformations are structured and encapsulated. At the high-level transforming all survey sections is a sequence of high-level calls.
+* All the transformations are structured and encapsulated. At the high-level transforming all survey sections is a sequence of macro calls.
 * **Convention over configuration** to minimize number of parameters and keep the code clean.
 * Heavy **Code Reuse** between transformation. Adding new transformation that is similar to several other ones is a breeze.
 
