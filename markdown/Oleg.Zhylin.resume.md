@@ -19,7 +19,7 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute. I researched novel topics, completed software projects, participated in Scientific Community. From that time I have an important life skill to see things from a standpoint of a **Security Professional** .
+During my undergrad years, I worked for [IIT][iit], a **Data Security** and **Cryptography** institute. I researched novel topics, completed software projects, participated in Scientific Community. From that time I have an important life skill to see things from a standpoint of a **Security Professional** .
 
 Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
@@ -31,9 +31,9 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details**.
 
 * *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. User Interfaces I developed brought Business Users key insights into their Data. I also had to keep Predictive Analytics experts happy. Catering to the whole range of users from **Domain Experts** very distant from statistics to the best **Data Scientists** in the world was at the core of Salford Systems *Business Offering*.
-* *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
+* *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
 * ***Application Programming Interface (API) Degign***. From early in my career I saw great potential in being able to use **Predictive Engines** wherever there is a need for their power. I helped the company to get to a quality API architecture for core intellectual assets. I used API design extensively for interaction between components in software systems.
-* *Handling **Legacy code***. Through acquisition and own development Salford Systems ended up with quite an extensive code base in **Fortran**. I was able to work with it effectively and at the right time upgrade it to use modern Languages, Tools, and Approaches.
+* *Handling **Legacy code***. Through acquisition and own development, Salford Systems ended up with quite an extensive code base in **Fortran**. I was able to work with it effectively and at the right time upgrade it to use modern Languages, Tools, and Approaches.
 * ***Data Engineering***. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. Inevitably to get the data to bringing value it has to be engineered into shape. My skills helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* I coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
 * ***Agile Software Development** Patterns and Practices*. I learned and practically applied the immense power of **Motivated and self-organized teams**. My best results were results achieved by empowering others.
@@ -46,9 +46,9 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 
 ### 2017-2018. [Minitab Inc.][minitab]
 
-At the end of the almost two-decades-long journey with Salford Systems I helped it to become a [Minitab][minitab] company. Minitab and Salford Systems have a profound similarity. They both made a heavy scientific technology to work effectively for a Business user. Minitab democratized *Classical Statistics* and Salford Systems is a leading expert in *Machine Learning*. It was a pleasure to invest all my work experience into making the two companies a single enterprise. I observed that as a result everyone felt part of a greater whole.
+At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. Minitab and Salford Systems have a profound similarity. They both made a heavy scientific technology to work effectively for a Business user. Minitab democratized *Classical Statistics* and Salford Systems is a leading expert in *Machine Learning*. It was a pleasure to invest all my work experience into making the two companies a single enterprise. I observed that, as a result, everyone felt part of a greater whole.
 
-Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. Still it was a learning curve for both Salford Systems and Minitab. I got a lot done during that year.
+Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. Still, it was a learning curve for both Salford Systems and Minitab. I got a lot done during that year.
 
 * Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper **Governance**.
 * Worked closely with TechOps team on an effective corporate IT merger.
@@ -62,7 +62,7 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 * Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running **Machine Learning Predictive engines API** in **Amazon Web Services (AWS)** cloud.
 * Learned **[Nalpeiron][nalpeiron]** license manager and helped in introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects.
 * Advocated creating a company-wide repository of reusable code and dependencies based on **NuGet**. Actively collaborated with **Software Development Support (SDS)** team.
-* Maintiained legacy CI/CD that SDS team did not have resources to migrate.
+* Maintained legacy CI/CD that SDS team did not have resources to migrate.
 * Developed new features for upcoming SPM release.
 * Ensured the projects that Minitab decided to put on hold are properly frozen and can be resurrected effectively.
 
@@ -70,7 +70,7 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 
 I joined the company during my last year at University. Instantly it was a very good match and a great challenge. The environment was just right for my Computer Science skills to soar. I quickly picked up a good deal of Machine Learning and became proficient in other related areas.
 
-Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman][jerry]**, **[Leo Breiman][leo]**, **[Richard Olshen][olshen]**, and **[Charles Stone][chuck]**, authors of the famous **[CART Monograph][cart_monograph]**. Back in 1990s industry in general did not go any further than fancy **Regression** for **Predictive Analytics** needs. Pioneering Vision and perseverance of **[Dan Steinberg][dsteinberg]**, *Founder*, *Private Owner*, and *President* of the company, granted Salford System a decade of prosperity ahead of the technology curve. In the 2010s it was well known in the industry that **Gradient Boosting** for Decision Trees is one of the top Machine Learning techniques. Top Data Scientists use it to continously win **[Kaggle][kaggle]** and other competitions. The technique was invented by Jerome Friedman in **2004** and we sold it under trademark **TreeNet** since. For me, it was enormous fun and hard work to help our customers meet their **Data Science** and **Artificial Intelligence** needs way before these terms became buzzwords.
+Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman][jerry]**, **[Leo Breiman][leo]**, **[Richard Olshen][olshen]**, and **[Charles Stone][chuck]**, authors of the famous **[CART Monograph][cart_monograph]**. Back in 1990s industry in general did not go any further than fancy **Regression** for **Predictive Analytics** needs. Pioneering Vision and perseverance of **[Dan Steinberg][dsteinberg]**, *Founder*, *Private Owner*, and *President* of the company, granted Salford System a decade of prosperity ahead of the technology curve. In the 2010s it was well known in the industry that **Gradient Boosting** for Decision Trees is one of the top Machine Learning techniques. Top Data Scientists use it to continuously win **[Kaggle][kaggle]** and other competitions. The technique was invented by Jerome Friedman in **2004** and we sold it under trademark **TreeNet** since. For me, it was enormous fun and hard work to help our customers meet their **Data Science** and **Artificial Intelligence** needs way before these terms became buzzwords.
 
 I was primary **Graphical User Interface (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product. The product umbrella name for was **CART** for version *5.0* and earlier releases and **Salford Predictive Modeller (SPM)** afterward.
 
@@ -91,7 +91,7 @@ During this project, I managed a team up to **12 people**. **Outsourcing** team 
 
 ### 2015-2017. **Cloud-ready SPM**
 
-**Cloud-ready SPM** project captured our vision for cutting-edge usage of **Salford Systems** technologies. We wanted our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers. At the same time we saw huge market for Machine Learning solutions *out of the box*. We could and it made all the sense to use our own low level APIs to build **Cloud** offerings.
+**Cloud-ready SPM** project captured our vision for cutting-edge usage of **Salford Systems** technologies. We wanted our *Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers. At the same time we saw a huge market for Machine Learning solutions *out of the box*. We could and it made all the sense to use our own low-level APIs to build **Cloud** offerings.
 
 I was one of the **Principal Architects** and the **Product Owner** for the project.
 
@@ -161,7 +161,7 @@ It was important to build an API for every Predictive Engine independently. Clie
 
  After a research, I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
 
-Anaconda proved to be a very good solution. In contrast to other package managers in the Python ecosystem, it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put together an advanced packaging solutions. Anaconda team provided very good support. I even had a had a chance to have an in-depth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montréal][pycon2014]. We discussed the challenges I ran into and he was very graceful with his time and advise. My suggestions influenced subsequent releases of Anaconda.
+Anaconda proved to be a very good solution. In contrast to other package managers in the Python ecosystem, it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put together an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have an in-depth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montréal][pycon2014]. We discussed the challenges I ran into and he was very graceful with his time and advise. My suggestions influenced subsequent releases of Anaconda.
 
 I used the test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated [CI/CD][cicd] process.
 
@@ -218,11 +218,11 @@ We were even able to hire contractors in Japan and Korea to create versions of S
 
 For our **Big Data** and **Cloud** initiatives we decided to setup a computational **Cluster** in our server room. One of the advantages was that Developers did not need to control cost when using the cluster. Pre-purchased hardware was available 24/7 and the challenge was to keep it running effectively. The team had plenty of Machine Learning research and software development workloads to make this happen.
 
-I coordinated **IT Contractor** team to install hardware and integrate it into the corporate network. One of the key requirements was to allow outside contractors access to the Cluster while enforcing **Access Control** to existing corporate network. At the same time corporate network users should be able to use the Cluster transparently. We brainstormed and figured out an effective way to implement this. We ended up creating an isolated VPN access point via dedicated **CISCO** appliance.
+I coordinated **IT Contractor** team to install hardware and integrate it into the corporate network. One of the key requirements was to allow outside contractors access to the Cluster while enforcing **Access Control** to existing corporate network. At the same time, corporate network users should be able to use the Cluster transparently. We brainstormed and figured out an effective way to implement this. We ended up creating an isolated VPN access point via dedicated **CISCO** appliance.
 
-This project was also a good chance to learn **Docker** based infrastructures. We installed **[RancherOS][rancher_os]** on barebone machines and deployed **[Rancher][rancher]** container management system. As a matter of principle we ran *no workloads on barebone hardware*. Everything ran in **containers**. This was very valuable and exciting experience.
+This project was also a good chance to learn **Docker** based infrastructures. We installed **[RancherOS][rancher_os]** on barebone machines and deployed **[Rancher][rancher]** container management system. As a matter of principle, we ran *no workloads on barebone hardware*. Everything ran in **containers**. This was very valuable and exciting experience.
 
-In addition to development workloads we ran the following **Containerized services**.
+In addition to development workloads, we ran the following **Containerized services**.
 
 * **[FreeIPA][freeipa]**. It was not prudent from *security* standpoint to authenticate users via corporate **Active Directory**. FreeIPA is the most prominent *Open Source* **Identity management system**.
 
@@ -249,7 +249,7 @@ CodeMeter came up very handy to run **SPM Chinese** in production. The legacy Li
 * Implemented *GUI* and *Middleware* for [ISLE and RuleLearner][salford_pipelines]. These are **Pipeline Machine Learning models** based on [TreeNet][treenet] and [Generalized PathSeeker (GPS)][gps_salford]. GUI solution for GPS models accommodated pipelines as well. I invented new displays that showed key results of pipelining.
   * **Model Compression** for **ISLE**.
   * Discovering **Predictive Rules** for **Rulelearner**.
-* Designed and implemented *Summary Window* framework. This is a generic **Tab Control** based display. The power of it is in its simplicity and adaptability. Each *Tab* visualized specific structures from Model Results. In many cases visualization was agnostic to actual model type. Creation code of each tab recognized whether the data are present. Thus when new Predictive Engine is introduced we can show *Results* display right away. Only relevant and correct information will be displayed.
+* Designed and implemented *Summary Window* framework. This is a generic **Tab Control** based display. The power of it is in its simplicity and adaptability. Each *Tab* visualized specific structures from Model Results. In many cases, visualization was agnostic to actual model type. Creation code of each tab recognized whether the data are present. Thus when new Predictive Engine is introduced we can show *Results* display right away. Only relevant and correct information will be displayed.
 * For **Summary Window framework** and other displays developed a customized version of standard Windows tab control. We had a number of requirements that standard control could not accommodate.  
 
 Pushed to institute effective **Version Control**, **Issue Tracking**, **[CI/CD][cicd]** and other good development process tools and practices. We ended up with the following toolset.
@@ -262,7 +262,7 @@ Managed team up to **15 people**, including **Software** and **QA** engineers. I
 
 ### 2013 *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
 
-As part of consulting project Salford Systems received data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights. The research resulted in longer term collaboration duing which I greatly improved my skills in the following areas.
+As part of a consulting project, Salford Systems received data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights. The research resulted in longer-term collaboration during which I greatly improved my skills in the following areas.
 
 * **SQL query optimization**
 * **Stored procedures**
@@ -287,32 +287,32 @@ I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Da
 * Import *Promotion Specification* from Analytical Department of the Retail Chain.
 * Prepare tables for Machine Learning. To achieve maximal performance I used **[CLR Stored Procedure][clr_stored_procedures]** in C#.
 * Build **Predictive Models** based on updated data.
-* **Model Management**. There was a requirement to keep entire system in a single database. We needed as **Straightforward Database Migration** as possible. I was able to implement this, including a very effective way to store *Grove files* `.grv` produced by command line version of SPM.
+* **Model Management**. There was a requirement to keep the entire system in a single database. We needed as **Straightforward Database Migration** as possible. I was able to implement this, including a very effective way to store *Grove files* `.grv` produced by command line version of SPM.
 * **Simulate** future promotions according to **Specifications** from the customer.
 * **Export** simulation results into **Microsoft Excel** format. This format was requested by the Customer.
 
-The essence of the application was to execute workflows. **Windows Workflow Foundation** was a very good fit for this. I embedded **Workflow Designer** into the application. User could easily customize workflows to run ad-hoc jobs and experiment. This also increased **Development velocity**.
+The essence of the application was to execute workflows. **Windows Workflow Foundation** was a very good fit for this. I embedded **Workflow Designer** into the application. A user could easily customize workflows to run ad-hoc jobs and experiment. This also increased **Development velocity**.
 
 #### Discovering future Promotions*
 
-Search space for promotions is huge and dimensions are numerous. Even after we apply known constraints coming from **Business goals**, **Product Association constraints** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what does not. This indispensable resource brought the business where it is. Thus the goal of the application was to bring information in front of Analysts and help them put a Promotion together.
+Search space for promotions is huge and the dimensions are numerous. Even after we apply known constraints coming from **Business goals**, **Product Association constraints** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what does not. This indispensable resource brought the business where it is. Thus the goal of the application was to bring information in front of Analysts and help them put a Promotion together.
 
 I created an application with the functionality listed below. The core of the backend is **MS SQL Database** with *past sales* and *predictive models*.
 
-* *Compose promotion Specification*. Analyst can enter all the desired promotion parameters or give system hints how to generate parameters based on existing data.
-* *Run simulations*. Promotion specification always shows how many models will be simulated to generate suggested promotion. It is up to analyst to decide that search space is narrow enough and it makes sense to run a simulation.
-* *Visualize simulation results*. Analyst can review and *export* results in various formats.
+* *Compose promotion Specification*. An analyst can enter all the desired promotion parameters or give system hints how to generate parameters based on existing data.
+* *Run simulations*. Promotion specification always shows how many models will be simulated to generate suggested promotion. It is up to the analyst to decide that search space is narrow enough and it makes sense to run a simulation.
+* *Visualize simulation results*. An analyst can review and *export* results in various formats.
 
-As project progressed main database grew in size up to **1 Tb (Terabyte)**. This created a major scalability challenge. Same job ran several times faster using a copy of the database that is reduced in size. The challenge went straight into **Big Data** category. Based on this and other experiences from the project I first formulated **Cloud-ready SPM** project. Experience with traditional SQL and active learning helped me to *spearhead* that project going forward.
+As the project progressed the main database grew in size up to **1 Tb (Terabyte)**. This created a major scalability challenge. The same job ran several times faster using a copy of the database that is reduced in size. The challenge went straight into **Big Data** category. Based on this and other experiences from the project I first formulated **Cloud-ready SPM** project. Experience with traditional SQL and active learning helped me to *spearhead* that project going forward.
 
 ### 2012 Upgraded **[Salford Predictive Modeller (SPM)][spm82]** to 64 bit
 
-**[Salford Predictive Modeller (SPM)][spm82]** is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address limitation of 4Gb address space of legacy 32 bit OSes.
+**[Salford Predictive Modeller (SPM)][spm82]** is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address the limitation of 4Gb address space of legacy 32 bit OSes.
 
-I was in charge of transforming the code base so that it compiles for 64-bit platform. Most important part of the process is to methodically revisit all the places in the code and make sure 64-bit addresses and sizes are handled correctly. This was achieved using the following practices.
+I was in charge of transforming the code base so that it compiles for the 64-bit platform. Most important part of the process is to methodically revisit all the places in the code and make sure 64-bit addresses and sizes are handled correctly. This was achieved using the following practices.
 
 * Addressed compiler warnings. I reviewed warnings generated by compilers on all supported platforms (**Windows**, **Linux**, **AIX**, **HP-UX**, and other commercial UNIX distributions).
-* Used **Regular Expressions** to traverse code base and find all the places where 64-bit value was inadvertently reduced to 32 bit.
+* Used **Regular Expressions** to traverse code base and find all the places where a 64-bit value was inadvertently reduced to 32 bit.
 * Validated the application at runtime. Stress tests for large Machine Learning problems were both a major goal and a good validation practice.
 * Run [Intel Parallel Studio XE][intel_xe] for **Static and Dynamic Analysis of the source code**.
 
@@ -320,11 +320,11 @@ The process was very tedious and meticulous. Approaching it methodically was a g
 
 ### 2008-2009 Contract project for a major *National Health Survey* for a large *Pharmaceutical* company
 
-Due to economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were. A common situation was that Engineering departments got downsized and remaining staff was under "300% load". They did not have bandwidth to license our software and carry out **Machine Learning** projects.
+Due to the economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were. A common situation was that Engineering departments got downsized and the remaining staff was under "300% load". They did not have the bandwidth to license our software and carry out **Machine Learning** projects.
 
-The business demand for the projects only increased. Especially dufing the times of turmoil everyone wants to know about the future. **Contract engagements** are a double-edged sword for a **Small Software Development** company.
+The business demand for the projects only increased. Especially during the times of turmoil everyone wants to know about the future. **Contract engagements** are a double-edged sword for a **Small Software Development** company.
 
-* We address real-life problem and *learn a lot*.
+* We address a real-life problem and *learn a lot*.
 * Everyone is busy with the project so development on the main product slows down significantly.
 
 The largest project was to apply **CART** and other Machine Learning algorithms to results of one of the major **National Health Surveys**. The client was very interested in discovering segments in the population for **Marketing** purposes. Machine Learning part was straightforward and very successful. We found some interesting population groups using the following techniques.
@@ -336,27 +336,27 @@ The largest project was to apply **CART** and other Machine Learning algorithms 
 The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS][sas]** scripts. The selection of the language was due to the following factors.
 
 * Client had **in-house expertise** with SAS.
-* The survey data came with a set of SAS scripts that extracted data from text format. We used them as first step.
+* The survey data came with a set of SAS scripts that extracted data from text format. We used them as the first step.
 
 I learned SAS *from scratch* and created a system based on **SAS macros** with the following features.
 
 * All the transformations are structured and encapsulated. At the high-level transforming all survey sections is a sequence of macro calls.
-* **Convention over configuration** to minimize number of parameters and keep the code clean.
+* **Convention over configuration** to minimize the number of parameters and keep the code clean.
 * Heavy **Code Reuse** between transformation. Adding new transformation that is similar to several other ones is a breeze.
 
-As a result all the data was nicely warehoused. We received commendments from the client and they followed up with follow up projects using the same dataset. The effort did pay off.
+As a result, all the data was nicely warehoused. We received commendments from the client and they followed up with follow up projects using the same dataset. The effort did pay off.
 
 ### 2007. First visit to Salford Systems office in San Diego
 
-This was a great chance to establish in-person relationship and greatly improve collaboration. I helped to shape plans for next release of the product. Extracted key aspects of requirements from discussions.
+This was a great chance to establish an in-person relationship and greatly improve collaboration. I helped to shape plans for the next release of the product. Extracted key aspects of requirements from discussions.
 
 At this period senior developer who was in charge of GUI development in the company was getting ready to retire. I made a point to absorb all his experience and wisdom and become the best possible **stewart** for Salford Systems **codebase**.
 
 ## 2004-2005. Client-Server predictive analytics application
 
-One of the strategic projects of the company and the largest software system I have developed *singlehandedly* from the ground up was a **Client-Server** solution for running Predictive Analytics algorithms on remote servers. This often makes a business case because Analysts can make use of **Hight Performance** of the hardware on Remote Server. There was also a strong impetus to keep data on central server for **Security** reason.
+One of the strategic projects of the company and the largest software system I have developed *singlehandedly* from the ground up was a **Client-Server** solution for running Predictive Analytics algorithms on remote servers. This often makes a business case because Analysts can make use of **Hight Performance** of the hardware on Remote Server. There was also a strong impetus to keep data on the central server for **Security** reason.
 
-I designed the entire system and implemented fully cross-platform TCP/IP daemon. The daemon ran multiple data mining jobs on behalf of end-users, who interact with the system via the same familiar *[SPM][spm82]* GUI. I provided *guidance* and a *framework of components* for two developers in charge of client-side GUI implementation.
+I designed the entire system and implemented a fully cross-platform TCP/IP daemon. The daemon ran multiple data mining jobs on behalf of end-users, who interact with the system via the same familiar *[SPM][spm82]* GUI. I provided *guidance* and a *framework of components* for two developers in charge of client-side GUI implementation.
 
 The daemon was successfully deployed on **Windows**, **Linux**, and **Sun Solaris** platforms. I authored native **Installers** as `.RPM`, `.DEB`, `.PKG` packages.
 
@@ -366,9 +366,9 @@ I learned a ton from this project. This was my major introduction to **Concurren
 
 ### 2003. [CART 5.0][cart_5_0] Release
 
-CART 5.0 was the first major release that transformed CART from *single* decision tree product to a **suit** of Predictive algorithms. [TreeNet][treenet_first] was first introduced to public eye. It became and remains most powerful member of the suit. I participated in designing UI to showcase non-trivial, but very powerful results of TreeNet. This display became the basis for upcoming Predictive Algorithm results GUI.
+CART 5.0 was the first major release that transformed CART from *single* decision tree product to a **suit** of Predictive algorithms. [TreeNet][treenet_first] was first introduced to public eye. It became and remains the most powerful member of the suit. I participated in designing UI to showcase non-trivial, but very powerful results of TreeNet. This display became the basis for upcoming Predictive Algorithm results GUI.
 
-In addition to new features my help was needed to address bugs in the software. My previous work was focused around *CART Navigator* codebase and I was able to address a good amount of **technical debt** there. For this release I used the knowledge and re-usable code I developed to improve quality of other parts of the application.
+In addition to new features, my help was needed to address bugs in the software. My previous work was focused around *CART Navigator* codebase and I was able to address a good amount of **technical debt** there. For this release I used the knowledge and re-usable code I developed to improve the quality of other parts of the application.
 
 CART 5.0 was *orders of magnitude* larger than [CART 4.0][cart_4_0]. It was sometimes tedious but extremely rewarding to participate in a big and comprehensive release of a major software product. Some architectural principles introduced during this period were reused for a long time in subsequent versions of the product.
 
@@ -376,7 +376,7 @@ CART 5.0 was *orders of magnitude* larger than [CART 4.0][cart_4_0]. It was some
 
 Salford Systems originally decided to hire me as a contractor because I demonstrated extensive knowledge of C++. The bulk of CART application was written using *C programming language* calling *Win32 API* directly. The company realized that development without frameworks and advanced language features to support non-trivial architecture is too costly. My first assignments familiarized myself with the codebase quite well. I was able to embark on the project and re-implement CART Navigator, the main tree topology display, using **C++** and **MFC (Microsoft Foundation Classes)**. I used **ActiveX** controls for graphics.
 
-The project was put on hold because the top business need was to release CART 5.0. I made sure to effectively conclude the project to nearest milestone, freeze the code properly, and dedicate effort to top priority matters.
+The project was put on hold because the top business need was to release CART 5.0. I made sure to effectively conclude the project to the nearest milestone, freeze the code properly, and dedicate effort to top priority matters.
 
 ### 2001. [CART][cart_4_0] Navigator API
 
@@ -384,28 +384,28 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 
 ### 2000-2001. [CART 4.0][cart_4_0] Advanced Decsion Tree visualization
 
-[CART][cart_4_0] is the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeller (SPM)**. The idea of the product is to learn a **Decision Tree** from data and use it as a **Predictive Model**. I was fortunate that my first assignment was to improve decision tree **Visualization**. This allowed me to immediately bring non-trivial amount of value into the next release of the product. I implemented the following.
+[CART][cart_4_0] is the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeller (SPM)**. The idea of the product is to learn a **Decision Tree** from data and use it as a **Predictive Model**. I was fortunate that my first assignment was to improve decision tree **Visualization**. This allowed me to immediately bring a non-trivial amount of value into the next release of the product. I implemented the following.
 
 * **Compact tree layout**. Default algorithm draws Decision Tree nodes in a grid pattern. This allowed a straightforward layout algorithm with a drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detected when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
 * ***Tree Details** display*. This is a printable display showing details about Nodes right in the tree topology. I enhanced it as follows.
   * Improved information shown in nodes
   * Added node population charts
   * Implemented support of new features in *Configuration dialog*. Enhanced general implementation.
-* **Tree Map**. This was a small window that drawed an approximation of the *entire* tree topology. User could click and navigate to a specific part of the tree on main display. I enhanced usability of this display and added features to support other functionality.
-* **Tree Printing**. Original implementation was rigidly dependent on tree visualization code I improved. As Tree Printing routines had to be adapted. I introduced improvement there as well.
+* **Tree Map**. This was a small window that drew an approximation of the *entire* tree topology. A user could click and navigate to a specific part of the tree on the main display. I enhanced the usability of this display and added features to support other functionality.
+* **Tree Printing**. The original implementation was rigidly dependent on tree visualization code I improved. As Tree Printing routines had to be adapted. I introduced improvement there as well.
 
 ## 1996-2000 Data Security Research
 
 I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. Head of the department **prof.&nbsp;Gorbenko&nbsp;I.D.,&nbsp;PhD** and many of the professors were retired high-rank officers with Soviet Union Strategic Missile Troops. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
 
-In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Research and Development entity through which my mentors from [Department of Information Technology Security (ITS)][kafedra_bit] worked on commercial projects. The biggest project was sub-contracting *Cryptography implementation* for a **Client-Bank** system. It was **Online Banking** done by professional Accountants via dial-up modems. I demonstrated my ability to research scientific papers, build applications, publish my results in local scientific entities. As a result I was the *first undergrad* IIT employed.
+In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Research and Development entity through which my mentors from [Department of Information Technology Security (ITS)][kafedra_bit] worked on commercial projects. The biggest project was sub-contracting *Cryptography implementation* for a **Client-Bank** system. It was **Online Banking** done by professional Accountants via dial-up modems. I demonstrated my ability to research scientific papers, build applications, publish my results in local scientific entities. As a result, I was the *first undergrad* IIT employed.
 
 During my time with IIT I worked on the following.
 
 * *Big numbers cryptography library.*
 * *Innovative prime number generation algorithms.*
-* *Full disk encryption.* Delivered a software system for Windows&nbsp;9x with VxD driver in the heart. System provided password-based encryption of removable media.
-* *Elliptic curve cryptography.* This was relatively new domain in public key cryptography. I jumped on a cutting edge and made it the topic of my Master's Thesis in year 2000.
+* *Full disk encryption.* Delivered a software system for Windows&nbsp;9x with VxD driver in the heart. The system provided password-based encryption of removable media.
+* *Elliptic curve cryptography.* This was a relatively new domain in public key cryptography. I jumped on a cutting edge and made it the topic of my Master's Thesis in the year 2000.
 
 ## Education
 
@@ -421,7 +421,7 @@ During my time with IIT I worked on the following.
 
 ### Family Learning
 
-Our household is a constant learning environment. It gives me a lot of inspiration and creative outlets. My kids Liza (born 2007) and Bogdan (born 2012) are amazing at being students and teachers at the same time. The credit for their brilliance goes entirely to my wife. She is very talented dealing with everything, including my professional Software Developer career.
+Our household is a constant learning environment. It gives me a lot of inspiration and creative outlets. My kids Liza (born 2007) and Bogdan (born 2012) are amazing at being students and teachers at the same time. The credit for their brilliance goes entirely to my wife. She is very talented at dealing with everything, including my professional Software Developer career.
 
 ### Healthy lifestyle
 
@@ -429,19 +429,19 @@ I am blessed with good health for myself and my close ones. It is well known a h
 
 ### Herbalism
 
-I know a thing or two about edible and medicinal plants. This contributes to healthy lifestyle as well.
+I know a thing or two about edible and medicinal plants. This contributes to the healthy lifestyle as well.
 
 ### Foreign Languages and Etymology
 
-I happen to love learning languages. Since 1995 I am the primary teacher of English for myself and I enjoy the process immensely. Etymology is my primary tool to acquire profound understanding of both the meaning of the words and the language itself.
+I happen to love learning languages. Since 1995 I am the primary teacher of English for myself and I enjoy the process immensely. Etymology is my primary tool to acquire a profound understanding of both the meaning of the words and the language itself.
 
 Here is my self-estimated proficiency list.
 
 * **Russian**, **Ukrainian**. *Native*. I grew up bi-lingual.
 * **English**. *Fluent*.
 * **Italian**. *Advanced*. Learned it to for the beauty of it. And to understand lyrics in operas.
-* **German**. *Intermediate*. I can listen to news in German.
-* **Portuguese (Brazil)**. *Intermediate*. Worked with the language a good amount of time during the project for *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain. Continued to study afterwards.
+* **German**. *Intermediate*. I can listen to the news in German.
+* **Portuguese (Brazil)**. *Intermediate*. Worked with the language a good amount of time during the project for *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain. Continued to study afterward.
 * **Spanish**. Lower intermediate. Mainly use my intuitions from studies of Portuguese and other previous experiences. Could bump up knowledge quickly for trips to Tijuana.
 * *Familiar* with **French**, **Slovenian**, **Arabic**, **Mandarin Chinese**.
 
