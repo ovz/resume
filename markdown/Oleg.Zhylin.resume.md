@@ -162,7 +162,7 @@ It was important to build API for every Predictive Engine independently. Client 
 
 Anaconda proved to be a very good solution. In contrast to other package managers in the Python ecosystem, it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put together an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have an in-depth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montréal][pycon2014]. We discussed the challenges I ran into and he was very graceful with his time and advise. My suggestions influenced subsequent releases of Anaconda.
 
-I used the test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated Continous Integration/Continous Deployment (CI/CD) process.
+I used the test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated [CI/CD][cicd] process.
 
 APIs were used in **Cloud-ready SPM** and other internal projects as well as in pilot projects for customers.
 
@@ -225,7 +225,7 @@ In addition to development workloads we ran the following **Containerized servic
 
 * **[FreeIPA][freeipa]**. It was not prudent from *security* standpoint to authenticate users via corporate **Active Directory**. FreeIPA is the most prominent *Open Source* **Identity management system**.
 
-* **[GitLab][gitlab]. This includes **Version Control**, **Issue Tracker**, **Continuous Integration/Continuous Delivery (CI/CD)**.
+* **[GitLab][gitlab]. This includes **Version Control**, **Issue Tracker**, **[CI/CD][cicd]**.
 
 ### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
@@ -255,7 +255,7 @@ Pushed to institute effective **Version Control**, **Issue Tracking**, **Contino
 
 ** [Gitolite][gitolite] for *Version control*.
 ** [RedMine][redmine] for *Issue tracking*.
-** **[CruiseControl.NET][ccnet]** for *CI/CD*.
+** **[CruiseControl.NET][ccnet]** for *[CI/CD][cicd]*.
 
 Managed team up to **15 people**, including **Software** and **QA** engineers. I was in charge of coordinating **outsource** development team in **Ukraine**.
 
@@ -515,4 +515,4 @@ Here is my self-estimated proficiency list.
 [oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
 [oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
 [archive.org]:https://web.archive.org "The Internet Archive Wayback Machine"
-[cicd]:https://en.wikipedia.org/wiki/Continuous_integration "CI/CD"
+[cicd]:https://en.wikipedia.org/wiki/Continuous_integration "Continuous integration/Continuous deployment"
