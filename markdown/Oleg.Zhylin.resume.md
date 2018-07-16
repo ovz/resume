@@ -216,17 +216,17 @@ We were even able to hire contractors in Japan and Korea to create versions of S
 
 ### 2016-2017 In-house Computational Cluster project
 
-For our **Big Data** and **Cloud** initiatives we decided to setup a computational **Cluster** in our server room. One of the advantages was that Developers did not need to control cost when using the cluster. Pre-purchased hardware is available 24/7 and the challenge is to keep it running effectively. The team had plenty of Machine Learning research workload and software development workloads to make this happen.
+For our **Big Data** and **Cloud** initiatives we decided to setup a computational **Cluster** in our server room. One of the advantages was that Developers did not need to control cost when using the cluster. Pre-purchased hardware was available 24/7 and the challenge was to keep it running effectively. The team had plenty of Machine Learning research and software development workloads to make this happen.
 
 I coordinated **IT Contractor** team to install hardware and integrate it into the corporate network. One of the key requirements was to allow outside contractors access to the Cluster while enforcing **Access Control** to existing corporate network. At the same time corporate network users should be able to use the Cluster transparently. We brainstormed and figured out an effective way to implement this. We ended up creating an isolated VPN access point via dedicated **CISCO** appliance.
 
-This project was also a good chance to learn **Docker** based infrastructures. We installed **[RancherOS][rancher_os]** on barebone machines and deployed **[Rancher][rancher]**. As a matter of principle we ran *no workloads on barebone hardware*. Everything ran in **containers**. This was very valuable and exciting experience.
+This project was also a good chance to learn **Docker** based infrastructures. We installed **[RancherOS][rancher_os]** on barebone machines and deployed **[Rancher][rancher]** container management system. As a matter of principle we ran *no workloads on barebone hardware*. Everything ran in **containers**. This was very valuable and exciting experience.
 
 In addition to development workloads we ran the following **Containerized services**.
 
 * **[FreeIPA][freeipa]**. It was not prudent from *security* standpoint to authenticate users via corporate **Active Directory**. FreeIPA is the most prominent *Open Source* **Identity management system**.
 
-* **[GitLab][gitlab]. This includes **Version Control**, **Issue Tracker**, **[CI/CD][cicd]**.
+* **[GitLab][gitlab]. This included **Version Control**, **Issue Tracker**, **[CI/CD][cicd]**.
 
 ### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
