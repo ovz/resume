@@ -177,7 +177,7 @@ This project showed a need for a unified approach to scripting. We created a tas
 
 ### Big Data Scoring utility for *Apache Hive*
 
-A large Department Store chain client asked for help to apply hundreds of individual TreeNet models to millions of observations in Hadoop. They used **Apache Hive** to manage data. I was familiar with Hive before but far from an active user. A quick research brought up a nice solution. Hive supports `SELECT TRANSFORM` statement that allows specifying a custom shell script to consume data produced by Hive query. In our case, we needed to apply a TreeNet model in a proprietary binary `.grv` format.
+A large Department Store chain client asked for help to apply hundreds of individual TreeNet models to billions of observations in Hadoop. They used **Apache Hive** to manage data. I was familiar with Hive before but far from an active user. A quick research brought up a nice solution. Hive supports `SELECT TRANSFORM` statement that allows specifying a custom shell script to consume data produced by Hive query. In our case, we needed to apply a TreeNet model in a proprietary binary `.grv` format.
 
 The easiest way to work with `.grv` files was to invoke SPMnonGUI, a command-line version of **[Salford Predictive Modeller (SPM)][spm82]**. This is a heavy process and it was not feasible to utilize it inside `SELECT TRANSFORM`. Another common approach to scoring is `TRANSLATE` command in SPM. It produces predictive model implementation in **Java**, **C**, **SAS** etc. Many clients successfully deploy their models this way. Since we talking hundreds of models I needed to make it most straightforward for the client. The solution was as follows.
 
