@@ -36,7 +36,7 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 * *Handling **Legacy code***. Through acquisition and own development, Salford Systems ended up with quite an extensive code base in **Fortran**. I was able to work with it effectively and at the right time upgrade it to use modern Languages, Tools, and Approaches.
 * ***Data Engineering***. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. Inevitably to get the data to bringing value it has to be engineered into shape. My skills helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* I coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
-* ***Agile Software Development** Patterns and Practices*. I learned and practically applied the immense power of **Motivated and self-organized teams**. My best results were results achieved by empowering others.
+* ***Agile Software Development** Patterns and Practices*. I learned and practically applied the immense power of **Motivated and self-organized teams**. My best results were results achieved by empowering others and leading from behind.
 
 ## *Side Note*: Hyperlinks lead to the Internet Archive Wayback Machine (archive.org)
 
