@@ -19,7 +19,7 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ## Experience Overview
 
-During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute. I researched novel topics, completed software projects, participated in Scientific Community. From that time I have an important life skill to see things from a **Security Professional** standpoint.
+During my undergrad years I worked for [IIT][iit], a **Data Security** and **Cryptography** institute. I researched novel topics, completed software projects, participated in Scientific Community. From that time I have an important life skill to see things from a standpoint of a **Security Professional** .
 
 Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
@@ -28,17 +28,17 @@ Years **2000-2017** were formative for my software engineering experience in **M
 In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
-Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details** later in this document.
+Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details**.
 
 * *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. User Interfaces I developed brought Business Users key insights into their Data. I also had to keep Predictive Analytics experts happy. Catering to the whole range of users from **Domain Experts** very distant from statistics to the best **Data Scientists** in the world was at the core of Salford Systems *Business Offering*.
 * *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
 * ***Application Programming Interface (API) Degign***. From early in my career I saw great potential in being able to use **Predictive Engines** wherever there is a need for their power. I helped the company to get to a quality API architecture for core intellectual assets. I used API design extensively for interaction between components in software systems.
 * *Handling **Legacy code***. Through acquisition and own development Salford Systems ended up with quite an extensive code base in **Fortran**. I was able to work with it effectively and at the right time upgrade it to use modern Languages, Tools, and Approaches.
-* ***Data Engineering***. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. Inevitably get that data to bringing value it has to be engineered into shape. My skills helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
+* ***Data Engineering***. At [Salford Systems][salford] we have an impressive track record completing concrete **Data Analysis** projects. Inevitably to get the data to bringing value it has to be engineered into shape. My skills helped to develop required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* I coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
 * ***Agile Software Development** Patterns and Practices*. I learned and practically applied the immense power of **Motivated and self-organized teams**. My best results were results achieved by empowering others.
 
-## *Side Note*: Hyperlinks lead to `archive.org`
+## *Side Note*: Hyperlinks lead to the Internet Archive Wayback Machine (archive.org)
 
 *Hyperlinks in this document lead to online resources that best describe my experience. To make sure links are always valid I use [The Internet Archive Wayback Machine (archive.org)][archive_org]. You might see content from archive.org in addition to the original web page.*
 
@@ -46,9 +46,9 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 
 ### 2017-2018. [Minitab Inc.][minitab]
 
-At the end of the almost two-decades-long journey with Salford Systems I helped it to become a [Minitab Inc.][minitab] company. Minitab and Salford Systems have a profound similarity. They both made a heavy scientific technology to work effectively for a Business user. Minitab democratized Classical Statistics and Salford Systems is a leading expert in Machine Learning. It was a pleasure to invest all my work experience into making the two companies a single enterprise. I observed that as a result everyone felt part of a greater whole.
+At the end of the almost two-decades-long journey with Salford Systems I helped it to become a [Minitab][minitab] company. Minitab and Salford Systems have a profound similarity. They both made a heavy scientific technology to work effectively for a Business user. Minitab democratized *Classical Statistics* and Salford Systems is a leading expert in *Machine Learning*. It was a pleasure to invest all my work experience into making the two companies a single enterprise. I observed that as a result everyone felt part of a greater whole.
 
-Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, CI/CD etc. Still it was a learning curve for both Salford Systems and Minitab. I got a lot done during that year.
+Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. Still it was a learning curve for both Salford Systems and Minitab. I got a lot done during that year.
 
 * Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper governance.
 * Worked closely with TechOps team on an effective corporate IT merger.
@@ -515,3 +515,4 @@ Here is my self-estimated proficiency list.
 [oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
 [oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
 [archive.org]:https://web.archive.org "The Internet Archive Wayback Machine"
+[cicd]:https://en.wikipedia.org/wiki/Continuous_integration "CI/CD"
