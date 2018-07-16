@@ -157,11 +157,11 @@ Over the course of this project I managed a team up to **10 people**.
 
 ### 2014-2017. **Machine Learning Predictive engines API**
 
-It was important to build API for every Predictive Engine independently. Client code shall not have to depend on anything other than what it needs. In Predictive Engine implementation **Code Reuse** was one of the key practices. This brought me to a conclusion that an effective **Package Management** solution is required.
+It was important to build an API for every Predictive Engine independently. Client code shall not have to depend on anything other than what it needs. In Predictive Engine implementation **Code Reuse** was one of the key practices. This brought me to a conclusion that an effective **Package Management** solution was required.
 
  After a research, I selected Conda package manager from [Anaconda Cloud][anaconda_cloud] to package all the modules we developed as well as their dependencies.
 
-Anaconda proved to be a very good solution. In contrast to other package managers in the Python ecosystem, it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put together an advanced packaging solution. Anaconda team provided very good support. I even had a had a chance to have an in-depth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montréal][pycon2014]. We discussed the challenges I ran into and he was very graceful with his time and advise. My suggestions influenced subsequent releases of Anaconda.
+Anaconda proved to be a very good solution. In contrast to other package managers in the Python ecosystem, it gave equally good attention to all major platforms: Windows, Linux, and Mac OSX. Package scripting mechanisms were powerful enough. This was important because I had to put together an advanced packaging solutions. Anaconda team provided very good support. I even had a had a chance to have an in-depth conversation with [Travis Oliphant][oliphant] during [PyCon 2014 in Montréal][pycon2014]. We discussed the challenges I ran into and he was very graceful with his time and advise. My suggestions influenced subsequent releases of Anaconda.
 
 I used the test-first approach to develop API surface. This ensured top quality of API modules and provided a way to maintain the quality by running tests during automated [CI/CD][cicd] process.
 
