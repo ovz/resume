@@ -50,18 +50,19 @@ At the end of the almost two-decades-long journey with Salford Systems I helped 
 
 Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. Still it was a learning curve for both Salford Systems and Minitab. I got a lot done during that year.
 
-* Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper governance.
+* Made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper **Governance**.
 * Worked closely with TechOps team on an effective corporate IT merger.
 * Quickly learned and adopted **Source Code Style** guidelines. Pushed for improvements. It was a good opportunity to exercise my C++ knowledge and collaborate with other Tech Leads in the company.
-* SHared advanced technological expertise in **C++** and other technologies used in the product.
+* Shared advanced expertise in **C++** and other technologies used in the product.
 * Greatly improved quality of the Codebase. This allowed unprecedented scale-up of the development team. It was the best process of onboarding new developers I have experienced so far.
 * Guided the team to establish a stable baseline version of **Salford Predictive Modeller (SPM)** product. Incorporated all the new developments. This created a solid foundation for the planned incremental release of **SPM v8.3**.
 * Improved coverage and quality of **Automated Tests**. Helped **Quality Engineers (QA/QE)** to build a comprehensive system of tests for production executables. Ensured that we have **Unit Test** projects established for all the codebase and promoted **Test-Driven Development (TDD)**.
-* Helped to introduce **Licensing**, **Telemetry**, and other features necessary for a successful deployment of **SPM v8.3** into production.
+* Helped to introduce **Licensing**, **Telemetry**, and other features necessary for a successful release of **SPM v8.3** into production.
 * Supported **Agile** practices. Participated in **Product Management**.
-* Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running APIs in **Amazon Web Services (AWS)** cloud.
+* Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running **Machine Learning Predictive engines API** in **Amazon Web Services (AWS)** cloud.
 * Learned **[Nalpeiron][nalpeiron]** license manager and helped in introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects.
 * Advocated creating a company-wide repository of reusable code and dependencies based on **NuGet**. Actively collaborated with **Software Development Support (SDS)** team.
+* Maintiained legacy CI/CD that SDS team did not have resources to migrate.
 * Developed new features for upcoming SPM release.
 * Ensured the projects that Minitab decided to put on hold are properly frozen and can be resurrected effectively.
 
