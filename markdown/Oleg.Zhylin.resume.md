@@ -354,15 +354,15 @@ At this period senior developer who was in charge of GUI development in the comp
 
 ## 2004-2005. Client-Server predictive analytics application
 
-One of the strategic projects of the company and the largest software system I have developed *singlehandedly* from ground up is a **Client-Server** solution for running Predictive Analytics algorithms on remote servers. This often makes a business case because they can make use of **Hight Performance** of the hardware on Remote Server. There was also a strong impetus to keep data on central server for **Security** reason.
+One of the strategic projects of the company and the largest software system I have developed *singlehandedly* from the ground up was a **Client-Server** solution for running Predictive Analytics algorithms on remote servers. This often makes a business case because Analysts can make use of **Hight Performance** of the hardware on Remote Server. There was also a strong impetus to keep data on central server for **Security** reason.
 
-I designed the entire system and implemented fully cross-platform TCP/IP daemon. The daemon runs multiple data mining jobs on behalf of end-users, who interact with the system via the same familiar *[SPM][spm82]* GUI. I provided *guidance* and a *framework of components* for two developers in charge of client-side GUI implementation.
+I designed the entire system and implemented fully cross-platform TCP/IP daemon. The daemon ran multiple data mining jobs on behalf of end-users, who interact with the system via the same familiar *[SPM][spm82]* GUI. I provided *guidance* and a *framework of components* for two developers in charge of client-side GUI implementation.
 
 The daemon was successfully deployed on **Windows**, **Linux**, and **Sun Solaris** platforms. I authored native **Installers** as `.RPM`, `.DEB`, `.PKG` packages.
 
-I was able to organize the code so that a lot of same source files were used to build both client and server.
+I was able to organize the code so that a lot of the same source files were used to build both client and server.
 
-I learned a ton from this project. This was my major introduction to **Concurrency**, **Parallelism**, **Network Programming**, **Network Protocol Design** etc. I developed a C++ library that implements quite a number of Design Patterns from [Gang of Four (GoF)][gof_book]. This gave me intimate knowledge of the patterns and brought my understanding of idiomatic C++ to the next level.
+I learned a ton from this project. This was my major introduction to **Concurrency**, **Parallelism**, **Network Programming**, **Network Protocol Design** etc. I developed a C++ library that implemented quite a number of Design Patterns from [Gang of Four (GoF)][gof_book]. This gave me intimate knowledge of the patterns and brought my understanding of idiomatic C++ to the next level.
 
 ### 2003. [CART 5.0][cart_5_0] Release
 
