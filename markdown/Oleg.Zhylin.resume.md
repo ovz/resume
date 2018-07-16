@@ -366,33 +366,33 @@ I learned a ton from this project. This was my major introduction to **Concurren
 
 ### 2003. [CART 5.0][cart_5_0] Release
 
-CART 5.0 was the first major release that transformed CART from single decision tree product to a **suit** of Predictive algorithms. [TreeNet][treenet_first] was first introduced to public eye. It became and remains most powerful member of the suit. I participated in designing UI to showcase non-trivial, but very powerful results of TreeNet. This display became the basis for upcoming Predictive Algorithm results GUI.
+CART 5.0 was the first major release that transformed CART from *single* decision tree product to a **suit** of Predictive algorithms. [TreeNet][treenet_first] was first introduced to public eye. It became and remains most powerful member of the suit. I participated in designing UI to showcase non-trivial, but very powerful results of TreeNet. This display became the basis for upcoming Predictive Algorithm results GUI.
 
-In addition to new features my help was needed to address bugs in the software. My previous work was focused around *CART Navigator* codebase and I was able to address a good amount of technical debt there. For this release I used the knowledge and re-usable code I developed to improve quality of other parts of the application.
+In addition to new features my help was needed to address bugs in the software. My previous work was focused around *CART Navigator* codebase and I was able to address a good amount of **technical debt** there. For this release I used the knowledge and re-usable code I developed to improve quality of other parts of the application.
 
 CART 5.0 was *orders of magnitude* larger than [CART 4.0][cart_4_0]. It was sometimes tedious but extremely rewarding to participate in a big and comprehensive release of a major software product. Some architectural principles introduced during this period were reused for a long time in subsequent versions of the product.
 
 ### 2001-2002. Upgrade CART UI to C++/MFC
 
-Salford Systems decided to hire me as a contractor because I demonstrated extensive knowledge of C++. The bulk of CART application was written using *C programming language* calling *Win32 API* directly. The company realized that development without frameworks and advanced language features to support non-trivial architecture is too costly. My first assignments familiarized myself with the codebase quite well. I was able to embark on the project and re-implement CART Navigator, the main tree topology display, using **C++** and **MFC (Microsoft Foundation Classes)**. I used **ActiveX** controls for graphics.
+Salford Systems originally decided to hire me as a contractor because I demonstrated extensive knowledge of C++. The bulk of CART application was written using *C programming language* calling *Win32 API* directly. The company realized that development without frameworks and advanced language features to support non-trivial architecture is too costly. My first assignments familiarized myself with the codebase quite well. I was able to embark on the project and re-implement CART Navigator, the main tree topology display, using **C++** and **MFC (Microsoft Foundation Classes)**. I used **ActiveX** controls for graphics.
 
 The project was put on hold because the top business need was to release CART 5.0. I made sure to effectively conclude the project to nearest milestone, freeze the code properly, and dedicate effort to top priority matters.
 
 ### 2001. [CART][cart_4_0] Navigator API
 
-A client requested a way to read Decision Tree models saved by CART in proprietary `.nv3` format. The main tree topology window is called "CART Navigator". Thus file format acquired this name as well. I immediately figured out a way to **quickly** implement the API. Familiarity with the code I acquired while working on Decision Trees helped immensely.
+A client requested a way to read Decision Tree models saved by CART in proprietary `.nv3` format. The main tree topology window is called "CART Navigator". Thus file format got this name as well. I immediately figured out a way to **quickly** implement the API. Familiarity with the code I acquired while working on Decision Trees helped immensely.
 
 ### 2000-2001. [CART 4.0][cart_4_0] Advanced Decsion Tree visualization
 
-[CART][cart_4_0] is the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeller (SPM)**. The idea of the product is to use **Decision Tree** as a **Predictive Model** learned from the data. I was fortunate that my first assignment was to improve decision tree **Visualization**. This allowed me to immediately bring non-trivial amount of value into the next release of the product. I implemented the following.
+[CART][cart_4_0] is the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeller (SPM)**. The idea of the product is to learn a **Decision Tree** from data and use it as a **Predictive Model**. I was fortunate that my first assignment was to improve decision tree **Visualization**. This allowed me to immediately bring non-trivial amount of value into the next release of the product. I implemented the following.
 
-* **Compact tree layout**. Default algorithm draws Decision Tree nodes in a grid pattern. This allows a straightforward layout algorithm with a drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detects when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
+* **Compact tree layout**. Default algorithm draws Decision Tree nodes in a grid pattern. This allowed a straightforward layout algorithm with a drawback that screen real estate is used suboptimally. I studied **Tree Layout** algorithms and implemented *Compact Layout*. It detected when branches of the tree can be moved and re-arranged to use minimal screen space and appeal visually.
 * ***Tree Details** display*. This is a printable display showing details about Nodes right in the tree topology. I enhanced it as follows.
   * Improved information shown in nodes
   * Added node population charts
   * Implemented support of new features in *Configuration dialog*. Enhanced general implementation.
-* **Tree Map**. This is a small window that draws an approximation of the *entire* tree topology. User can click and navigate to a specific part of the tree on main display. I enhanced usability of this display and added features to support other functionality.
-* **Tree Printing**. Original implementation was rigidly dependent on tree visualization code I improved. As Tree Printing routines had to be adapted I introduced improvement there as well.
+* **Tree Map**. This was a small window that drawed an approximation of the *entire* tree topology. User could click and navigate to a specific part of the tree on main display. I enhanced usability of this display and added features to support other functionality.
+* **Tree Printing**. Original implementation was rigidly dependent on tree visualization code I improved. As Tree Printing routines had to be adapted. I introduced improvement there as well.
 
 ## 1996-2000 Data Security Research
 
