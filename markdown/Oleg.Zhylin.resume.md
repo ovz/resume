@@ -81,7 +81,7 @@ I was primary **Graphical User Interface (GUI)** developer and one of the collab
 I was the main engineer behind preparing and running **SPM 8.2** in production.
 
 * Helped the team to triage work items. We stroke a good balance in bringing value to the customer and preventing feature creep.
-* I was in charge of all **Continous Integration**. Authored and Maintained build configurations in **[CruiseControl.NET][ccnet]** and *supporting scripts* in **Powershell**.
+* I was in charge of all **[CI/CD][cicd]**. Authored and Maintained build configurations in **[CruiseControl.NET][ccnet]** and *supporting scripts* in **Powershell**.
 * Authored and maintained **Product Installers** using **[Microsoft Visual Studio Installer Projects][msvs_installer]** toolset.
 * Worked on *cutting edge* features in a **feature branch**. In this branch we upgraded from *Visual Studio 2013* to *Visual Studio 2015*, refactored and improved our *Machine Learning engines* and *Infrastructure code* etc. I made this project the basis from which I forked codebase for **Machine Learning Predictive engines API** and **SPM GUI using *Qt framework***.
 * Established effective process to maintain **SPM Chinese** internationalized version up to date with master *English* version.
@@ -230,15 +230,15 @@ In addition to development workloads we ran the following **Containerized servic
 
 ### 2015-2017 [Wibu Codemeter][codemeter] deployment
 
-Historically I was in charge for **License Managers** developed in-house and **[CrypKey][crypkey]** license manager used in production **[Salford Predictive Modeller (SPM)][spm82]**. We faced a challenge that we needed *cross-platform*, *Enterprise-ready* license manager. We wanted a single solution to protect all the products, including DLLs for **Machine Learning Predictive engines API**.
+Historically I was in charge for **License Managers** developed in-house and **[CrypKey][crypkey]** license manager used in production for **[Salford Predictive Modeller (SPM)][spm82]**. We faced a challenge that we needed *cross-platform*, *Enterprise-ready* license manager. We wanted a single solution to protect all the products, including DLLs for **Machine Learning Predictive engines API**.
 
 I conducted a thorough research. I went through trials of **[Flexera Software FlexLM][flexlm]**, **[Reprise License Manager][rlm], **[Arxan][arxan]**, **[Sentinel RMS - SafeNet][safenet]. [Wibu Codemeter][codemeter] ended up being an optimal choice. It **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
 
 I quickly learned the technology, introduced it into projects, established close working relationships with Wibu tech support. Some of our use cases were quite unusual. While all the materials were available in English my familiarity with the German language facilitated faster and better understanding.
 
-One of the big use cases was shipping **SPM nonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users.
+One of the big use cases was shipping **SPMnonGUI** as a DLL for **SPM Qt** project. We needed a *completely outside team* to build UI that interacts with our *core intellectual property*. I was able to put together an effective solution. One of the major challenges was to tune CodeMeter protection while allowing developers to debug the code that works with CodeMeter protected DLLs. I ended up shipping *Debug* DLLs for developers and packaging *Release* DLLs with full protection for end-users.
 
-CodeMeter came up very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey][crypkey] did not work well when deployed for the Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
+CodeMeter came up very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey][crypkey] did not work well when deployed on the Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
 
 ### 2014-2015 [SPM 7.0][spm70]
 
@@ -246,13 +246,13 @@ CodeMeter came up very handy to run **SPM Chinese** in production. The legacy Li
 
 * Introduced general GUI framework based on [Windows Template Library (**WTL**)][wtl]. This framework allowed us to create non-modal Multiple Document Interface (**MDI**) displays using Dialog Resources. The framework interacted seamlessly with legacy **Win32** code. It greatly improved the productivity of the entire GUI development team. I also could focus more on the development and less on coordination.
 * Implemented innovative set of GUI interfaces for [Generalized PathSeeker (GPS)][gps_salford]. This *Machine Learning Algorithm* builds on a lot of **Regularized** regression runs sub-divided into *Elasticities* and *Paths*. There was thus an enormous amount of information we could potentially display and it was organized in multiple dimensions. I crafted the display that gave several insightful views into the results.
-* Implemented *GUI* and *Middleware* for [ISLE and RuleLearner][salford_pipelines]. These are **Pipeline Machine Learning models** based on [TreeNet][treenet] and [Generalized PathSeeker (GPS)][gps_salford]. GUI solution for GPS models accommodated pipelines as well. I invented a new display that showed key results of pipelining.
+* Implemented *GUI* and *Middleware* for [ISLE and RuleLearner][salford_pipelines]. These are **Pipeline Machine Learning models** based on [TreeNet][treenet] and [Generalized PathSeeker (GPS)][gps_salford]. GUI solution for GPS models accommodated pipelines as well. I invented new displays that showed key results of pipelining.
   * **Model Compression** for **ISLE**.
   * Discovering **Predictive Rules** for **Rulelearner**.
 * Designed and implemented *Summary Window* framework. This is a generic **Tab Control** based display. The power of it is in its simplicity and adaptability. Each *Tab* visualized specific structures from Model Results. In many cases visualization was agnostic to actual model type. Creation code of each tab recognized whether the data are present. Thus when new Predictive Engine is introduced we can show *Results* display right away. Only relevant and correct information will be displayed.
 * For **Summary Window framework** and other displays developed a customized version of standard Windows tab control. We had a number of requirements that standard control could not accommodate.  
 
-Pushed to institute effective **Version Control**, **Issue Tracking**, **Continous Integration/Continous Delivery** and other good development process tools and practices. We ended up with the following toolset.
+Pushed to institute effective **Version Control**, **Issue Tracking**, **[CI/CD][cicd]** and other good development process tools and practices. We ended up with the following toolset.
 
 ** [Gitolite][gitolite] for *Version control*.
 ** [RedMine][redmine] for *Issue tracking*.
