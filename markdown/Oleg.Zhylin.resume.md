@@ -226,7 +226,7 @@ In addition to development workloads, we ran the following **Containerized servi
 
 * **[FreeIPA][freeipa]**. It was not prudent from *security* standpoint to authenticate users via corporate **Active Directory**. FreeIPA is the most prominent *Open Source* **Identity management system**.
 
-* **[GitLab][gitlab]. This included **Version Control**, **Issue Tracker**, **[CI/CD][cicd]**.
+* **[GitLab][gitlab]**. This included **Version Control**, **Issue Tracker**, **[CI/CD][cicd]**.
 
 ### 2015-2017. [Wibu Codemeter][codemeter] deployment
 
@@ -352,7 +352,7 @@ This was a great chance to establish an in-person relationship and greatly impro
 
 At this period senior developer who was in charge of GUI development in the company was getting ready to retire. I made a point to absorb all his experience and wisdom and become the best possible **stewart** for Salford Systems **codebase**.
 
-## 2004-2005. Client-Server predictive analytics application
+### 2004-2005. Client-Server predictive analytics application
 
 One of the strategic projects of the company and the largest software system I have developed *singlehandedly* from the ground up was a **Client-Server** solution for running Predictive Analytics algorithms on remote servers. This often makes a business case because Analysts can make use of **Hight Performance** of the hardware on Remote Server. There was also a strong impetus to keep data on the central server for **Security** reason.
 
@@ -479,7 +479,7 @@ Here is my self-estimated proficiency list.
 [cppcheck]:http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/ "CppCheck"
 [boundschecker]:http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx "NuMega Boundschecker"
 [qydatatech]:http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html   "QYDatatech"
-[seaweedfs]:https://web.archive.org/web/https://github.com/chrislusf/seaweedfs "SeaweedFS"
+[seaweedfs]:https://github.com/chrislusf/seaweedfs "SeaweedFS"
 [mrocklin]:http://matthewrocklin.com "Matthew Rocklin"
 [pycon2014]:https://web.archive.org/web/https://us.pycon.org/2014/ "PyCon 2014 in Montréal"
 [pycon2016]:https://web.archive.org/web/https://us.pycon.org/2016/ "PyCon 2016 in Portland, OR"
@@ -496,7 +496,7 @@ Here is my self-estimated proficiency list.
 [flexlm]:https://web.archive.org/web/https://www.flexera.com/products/software-license-optimization/flexnet-manager-engineering-applications.html "Flexera Software FlexLM"
 [rlm]:https://web.archive.org/web/http://www.reprisesoftware.com "Reprise License Manager"
 [arxan]:https://web.archive.org/web/https://www.arxan.com "Arxan"
-[safenet]:http://sentinelrms.safenet-inc.com "Sentinel RMS - SafeNet"
+[safenet]:https://web.archive.org/web/http://sentinelrms.safenet-inc.com "Sentinel RMS - SafeNet"
 [spm70]:http://web.archive.org/web/20151108104149/http://www.salford-systems.com:80/products/spm "SPM 7.0"
 [wtl]:http://web.archive.org/web/https://en.wikipedia.org/wiki/Windows_Template_Library "Windows Template Library (WTL)"
 [gps_salford]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/gps "Generalized PathSeeker (GPS)"
