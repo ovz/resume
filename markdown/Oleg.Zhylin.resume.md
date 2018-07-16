@@ -396,7 +396,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 
 ## 1996-2000 Data Security Research
 
-I was fortunate to receive my undergrad degree at [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. It was founded by prominent military Rocket Scientists. Head of the department **Gorbenko&nbsp;I.D.,&nbsp;PhD** and many of the professors were retired high-rank officers with Soviet Union Strategic Missile Troops. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
+I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. Head of the department **prof.&nbsp;Gorbenko&nbsp;I.D.,&nbsp;PhD** and many of the professors were retired high-rank officers with Soviet Union Strategic Missile Troops. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
 
 In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Research and Development entity through which my mentors from [Department of Information Technology Security (ITS)][kafedra_bit] worked on commercial projects. The biggest project was sub-contracting *Cryptography implementation* for a **Client-Bank** system. It was **Online Banking** done by professional Accountants via dial-up modems. I demonstrated my ability to research scientific papers, build applications, publish my results in local scientific entities. As a result I was the *first undergrad* IIT employed.
 
@@ -421,11 +421,11 @@ During my time with IIT I worked on the following.
 
 ### Family Learning
 
-Our household is a constant learning environment. It gives me a lot of inspiration and creative outlets. My kids Liza (born 2007) and Bogdan (born 2012) are amazing at being students and teachers at the same time. The credit for their brilliance goes entirely to my wife. She is brilliant in dealing with everything, including my professional Software Developer career.
+Our household is a constant learning environment. It gives me a lot of inspiration and creative outlets. My kids Liza (born 2007) and Bogdan (born 2012) are amazing at being students and teachers at the same time. The credit for their brilliance goes entirely to my wife. She is very talented dealing with everything, including my professional Software Developer career.
 
 ### Healthy lifestyle
 
-I am blessed with good health for myself and my close ones. It is well known a health issue can put a big cross on anything in life. I enjoy regimented days. This lets me be successful professionally and enjoy hiking, swimming, pulling weights, and other activities. I am quick to rest and ready to go.
+I am blessed with good health for myself and my close ones. It is well known a health issue can put a big cross on anything in life. I enjoy regimented days. This lets me be successful professionally and enjoy hiking, swimming, pulling weights, and other activities. Discipline leads to freedom. I am quick to rest and ready to go.
 
 ### Herbalism
 
@@ -433,8 +433,7 @@ I know a thing or two about edible and medicinal plants. This contributes to hea
 
 ### Foreign Languages and Etymology
 
-I happen to love learning languages. Learning foreign languages, Etymology. Since 1995 I am the primary teacher of English for myself and I enjoy the process immensely. Etymology is my primary tool to acquire profound understanding
-of both the meaning of the words and the language itself.
+I happen to love learning languages. Since 1995 I am the primary teacher of English for myself and I enjoy the process immensely. Etymology is my primary tool to acquire profound understanding of both the meaning of the words and the language itself.
 
 Here is my self-estimated proficiency list.
 
@@ -442,7 +441,7 @@ Here is my self-estimated proficiency list.
 * **English**. *Fluent*.
 * **Italian**. *Advanced*. Learned it to for the beauty of it. And to understand lyrics in operas.
 * **German**. *Intermediate*. I can listen to news in German.
-* **Portuguese (Brazil)**. *Intermediate*. Worked with the language a good amount of time during the project for *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain. Continued study afterwards.
+* **Portuguese (Brazil)**. *Intermediate*. Worked with the language a good amount of time during the project for *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain. Continued to study afterwards.
 * **Spanish**. Lower intermediate. Mainly use my intuitions from studies of Portuguese and other previous experiences. Could bump up knowledge quickly for trips to Tijuana.
 * *Familiar* with **French**, **Slovenian**, **Arabic**, **Mandarin Chinese**.
 
