@@ -198,7 +198,7 @@ The key pre-requisite for bringing an internationalized version of the software 
 
 At this time we entered a partnership with a high profile company in **Japan**. They agreed to provide translators and signed reseller agreement.
 
-The most important challenge was to create a **Unicode** version of SPM. The entire source code had to be revisited and all everything unsafe for Unicode had to be addressed. I developed a process that allowed to create a release-quality SPM English version with full Unicode support.
+The most important challenge was to create a **Unicode** version of SPM. The entire source code had to be revisited and everything unsafe for Unicode had to be addressed. I developed a process that allowed to create a release-quality SPM English version with full Unicode support.
 
 1. Configure projects to build a Unicode application. Address all the **Compiler Warnings**.
 1. Use guidelines from Microsoft and other sources to crate **Regular Expressions** to locate and fix Unicode issues in the code base.
