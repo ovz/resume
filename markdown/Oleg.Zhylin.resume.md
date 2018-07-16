@@ -138,7 +138,7 @@ Managed team up to **3 people**.
 
 I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework][qt]**. There was a strong business case for the following challenges.
 
-* Bring full power of SPM desktop product to non-Windows platforms. In particular, a larger fraction of current and prospect customers are **Mac OSX** users. **Mobile platforms** were also gaining momentum.
+* Bring full power of SPM desktop product to non-Windows platforms. In particular, a larger fraction of current and prospect customers were **Mac OSX** users. **Mobile platforms** were also gaining momentum.
 * Speed up development using the full palette of modern UI development features **Qt** provides.
 
 We decided to use **[Qt Widgets][qwidgets]** for this project. I made sure we used the best talent and judgment to evaluate **[QML][qml]**, a new and heavily promoted framework. We could move on when there was a satisfactory confirmation that Qt Widgets is a *mature* technology and fits best for a rewrite. Our partner team [Milo Solutions][milo] had much more experience with Qt Widgets.
@@ -149,7 +149,7 @@ The major challenge I faced was to provide a **cross-platform** backend for **3r
 
 Over the course of development, we practiced **Pull Request** approach to the development process. I had to send the code back for corrections more often then I wished. The outcome was very rewarding though. I was pleasantly surprised by **professional growth** of the team members and **product quality improvements**.
 
-We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **Mac OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer Framework][qt_installer]** became production-ready. Time has shown that my decision to allow some **cutting edge** development against early prototype paid off. Qt Installer Framework is mature now.
+We created a comprehensive set of **Installation packages** for all supported platforms: **Windows**, **Linux**, and **Mac OSX**. We had to go through intermediate ad hoc solutions before **[Qt Installer Framework][qt_installer]** became production-ready. Time has shown that my decision to allow some **cutting edge** development against early prototype paid off. Qt Installer Framework is at present mature widely adopted in the industry.
 
 For this project, I successfully reused framework based on [pyinvoke][pyinvoke] that was developed as part of **Cloud-ready SPM** project. A lot of needed packages were implemented already. It was straightforward to produce packages specific to this project.
 
