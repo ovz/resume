@@ -175,7 +175,7 @@ This project showed a need for a unified approach to scripting. We created a tas
 * Protect deliverables using [Wibu Codemeter][codemeter]
 * Publish resulting packages in [Anaconda Cloud][anaconda_cloud]
 
-### Big Data Scoring utility for *Apache Hive*
+### 2015. Big Data Scoring utility for *Apache Hive*
 
 A large Department Store chain client asked for help to apply hundreds of individual TreeNet models to billions of observations in Hadoop. They used **Apache Hive** to manage data. I was familiar with Hive before but far from an active user. A quick research brought up a nice solution. Hive supports `SELECT TRANSFORM` statement that allows specifying a custom shell script to consume data produced by Hive query. In our case, we needed to apply a TreeNet model in a proprietary binary `.grv` format.
 
@@ -214,7 +214,7 @@ As we had a Japanese translation for the previous version of the product I was a
 
 We were even able to hire contractors in Japan and Korea to create versions of SPM in those languages. Chinese partner helped to manage these teams as well.
 
-### 2016-2017 In-house Computational Cluster project
+### 2016-2017. In-house Computational Cluster project
 
 For our **Big Data** and **Cloud** initiatives we decided to setup a computational **Cluster** in our server room. One of the advantages was that Developers did not need to control cost when using the cluster. Pre-purchased hardware was available 24/7 and the challenge was to keep it running effectively. The team had plenty of Machine Learning research and software development workloads to make this happen.
 
@@ -228,7 +228,7 @@ In addition to development workloads, we ran the following **Containerized servi
 
 * **[GitLab][gitlab]. This included **Version Control**, **Issue Tracker**, **[CI/CD][cicd]**.
 
-### 2015-2017 [Wibu Codemeter][codemeter] deployment
+### 2015-2017. [Wibu Codemeter][codemeter] deployment
 
 Historically I was in charge for **License Managers** developed in-house and **[CrypKey][crypkey]** license manager used in production for **[Salford Predictive Modeller (SPM)][spm82]**. We faced a challenge that we needed *cross-platform*, *Enterprise-ready* license manager. We wanted a single solution to protect all the products, including DLLs for **Machine Learning Predictive engines API**.
 
@@ -240,7 +240,7 @@ One of the big use cases was shipping **SPMnonGUI** as a DLL for **SPM Qt** proj
 
 CodeMeter came up very handy to run **SPM Chinese** in production. The legacy License Management technology [CrypKey][crypkey] did not work well when deployed on the Chinese version of Windows. *CodeMeter* was a life-saving technology to overcome this.
 
-### 2014-2015 [SPM 7.0][spm70]
+### 2014-2015. [SPM 7.0][spm70]
 
 **[Salford Predictive Modeller 7.0 (SPM)][spm70]** brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application.
 
@@ -254,13 +254,13 @@ CodeMeter came up very handy to run **SPM Chinese** in production. The legacy Li
 
 Pushed to institute effective **Version Control**, **Issue Tracking**, **[CI/CD][cicd]** and other good development process tools and practices. We ended up with the following toolset.
 
-** [Gitolite][gitolite] for *Version control*.
-** [RedMine][redmine] for *Issue tracking*.
-** **[CruiseControl.NET][ccnet]** for *[CI/CD][cicd]*.
+* [Gitolite][gitolite] for *Version control*.
+* [RedMine][redmine] for *Issue tracking*.
+* [CruiseControl.NET][ccnet] for *[CI/CD][cicd]*.
 
 Managed team up to **15 people**, including **Software** and **QA** engineers. I was in charge of coordinating **outsource** development team in **Ukraine**.
 
-### 2013 *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
+### 2013. *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
 
 As part of a consulting project, Salford Systems received data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights. The research resulted in longer-term collaboration during which I greatly improved my skills in the following areas.
 
@@ -293,7 +293,7 @@ I implemented entire **Extract Transform Load (ETL)** pipeline to prepare a **Da
 
 The essence of the application was to execute workflows. **Windows Workflow Foundation** was a very good fit for this. I embedded **Workflow Designer** into the application. A user could easily customize workflows to run ad-hoc jobs and experiment. This also increased **Development velocity**.
 
-#### Discovering future Promotions*
+#### Discovering future Promotions
 
 Search space for promotions is huge and the dimensions are numerous. Even after we apply known constraints coming from **Business goals**, **Product Association constraints** etc a *brute force* simulation of all possible promotions is infeasible. Retail business professionals developed an amazing "gut feeling" of what works and what does not. This indispensable resource brought the business where it is. Thus the goal of the application was to bring information in front of Analysts and help them put a Promotion together.
 
@@ -305,7 +305,7 @@ I created an application with the functionality listed below. The core of the ba
 
 As the project progressed the main database grew in size up to **1 Tb (Terabyte)**. This created a major scalability challenge. The same job ran several times faster using a copy of the database that is reduced in size. The challenge went straight into **Big Data** category. Based on this and other experiences from the project I first formulated **Cloud-ready SPM** project. Experience with traditional SQL and active learning helped me to *spearhead* that project going forward.
 
-### 2012 Upgraded **[Salford Predictive Modeller (SPM)][spm82]** to 64 bit
+### 2012. Upgraded **[Salford Predictive Modeller (SPM)][spm82]** to 64 bit
 
 **[Salford Predictive Modeller (SPM)][spm82]** is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address the limitation of 4Gb address space of legacy 32 bit OSes.
 
@@ -318,7 +318,7 @@ I was in charge of transforming the code base so that it compiles for the 64-bit
 
 The process was very tedious and meticulous. Approaching it methodically was a guarantee of success. 64-bit build of the application was ready in a month.
 
-### 2008-2009 Contract project for a major *National Health Survey* for a large *Pharmaceutical* company
+### 2008-2009. Contract project for a major *National Health Survey* for a large *Pharmaceutical* company
 
 Due to the economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were. A common situation was that Engineering departments got downsized and the remaining staff was under "300% load". They did not have the bandwidth to license our software and carry out **Machine Learning** projects.
 
@@ -509,8 +509,9 @@ Here is my self-estimated proficiency list.
 [intel_xe]:http://web.archive.org/web/https://software.intel.com/parallel-studio-xe "Intel Parallel Studio XE"
 [vsts]:http://web.archive.org/web/https://www.visualstudio.com/team-services "Visual Studio Team Services"
 [sas]:http://web.archive.org/web/https://www.sas.com "SAS"
+[cicd]:http://web.archive.org/web/https://en.wikipedia.org/wiki/Continuous_integration "Continuous integration/Continuous deployment"
+[crypkey]:http://web.archive.org/web/https://www.crypkey.com "CrypKey"
 
 [oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
 [oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
-[archive.org]:https://web.archive.org "The Internet Archive Wayback Machine"
-[cicd]:https://en.wikipedia.org/wiki/Continuous_integration "Continuous integration/Continuous deployment"
+[archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
