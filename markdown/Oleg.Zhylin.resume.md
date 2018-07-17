@@ -417,6 +417,10 @@ During my time with IIT I worked on the following.
 
 [Thames Valley University, London][thames_valley] Now known as University of West London.
 
+### 1993-1995. Software Developer, Researcher
+
+[Lyceum "Professional"][lyceum_prof]. This was a pioneering school well ahead of its time. It gave us comprehensive University curriculum in an engaging and innovative way. This was an amazing professional and educational boost.
+
 ## Personal development
 
 ### Family Learning
@@ -444,6 +448,10 @@ Here is my self-estimated proficiency list.
 * **Portuguese (Brazil)**. *Intermediate*. Worked with the language a good amount of time during the project for *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain. Continued to study afterward.
 * **Spanish**. Lower intermediate. Mainly use my intuitions from studies of Portuguese and other previous experiences. Could bump up knowledge quickly for trips to Tijuana.
 * *Familiar* with **French**, **Slovenian**, **Arabic**, **Mandarin Chinese**.
+
+[oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
+[oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
+[archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
 
 [pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
 [codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems Codemeter"
@@ -511,7 +519,4 @@ Here is my self-estimated proficiency list.
 [sas]:http://web.archive.org/web/https://www.sas.com "SAS"
 [cicd]:http://web.archive.org/web/https://en.wikipedia.org/wiki/Continuous_integration "Continuous integration/Continuous deployment"
 [crypkey]:http://web.archive.org/web/https://www.crypkey.com "CrypKey"
-
-[oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
-[oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
-[archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
+[lyceum_prof]:http://web.archive.org/web/http://lyceum-prof.at.ua "Lyceum "Professional"
