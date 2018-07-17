@@ -19,7 +19,7 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ## Experience Overview
 
-During my undergrad years, I was employed with an institute ran by my mentors. This gave me solid background in **Data Security** and **Cryptography**. From that time I have an important life skill to see things from a standpoint of a **Security Professional**..
+During my undergrad years, I was employed with an institute ran by my mentors. This gave me solid background in **Data Security** and **Cryptography**. From that time I have an important life skill to see things from a standpoint of a **Security Professional**.
 
 Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
@@ -31,10 +31,10 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 ## Most prominent achievements
 
 * *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users from **Domain Experts** very distant from statistics to the best **Data Scientists** in the world was at the core of Salford Systems *Business Offering*.
-* *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
-* ***Application Programming Interface (API) Design***. I helped [Salford Systems][salford] to get to quality API architecture for core intellectual assets.
+* *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
+* ***Application Programming Interface (API) Design***. I helped [Salford Systems][salford] to get to quality API architecture for the core intellectual assets.
 * *Handling **Legacy code***. I successfully interfaced and updated legacy code base in **Fortran**. In this and other code bases I kept **Technical Debt** at necessary minimum.
-* ***Data Engineering***. When executing Consulting projects, helping with Tech Support, etc. I developed required **Extract Transform Load (ETL)** functionality and get over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
+* ***Data Engineering***. When executing Consulting projects, helping with Tech Support, etc. I developed required **Extract Transform Load (ETL)** functionality and got over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* I coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
 * ***Agile Software Development** Patterns and Practices*. I learned and practically applied the immense power of **Motivated and self-organized teams**. My best results were results achieved by empowering others and leading from behind.
 
@@ -122,9 +122,9 @@ The key pre-requisite for bringing an internationalized version of the software 
 
 ### 2015-2017. [Wibu Codemeter][codemeter] deployment
 
-Historically I was in charge for **License Managers** developed in-house and **[CrypKey][crypkey]** license manager used in production for **[Salford Predictive Modeler (SPM)][spm82]**. We faced a challenge that we needed *cross-platform*, *Enterprise-ready* license manager. We wanted a single solution to protect all the products, including DLLs for **Machine Learning Predictive engines API**.
+Historically I was in charge of **License Managers** developed in-house and **[CrypKey][crypkey]** license manager used in production for **[Salford Predictive Modeler (SPM)][spm82]**. We faced a challenge that we needed *cross-platform*, *Enterprise-ready* license manager. We wanted a single solution to protect all the products, including DLLs for **Machine Learning Predictive engines API**.
 
-I conducted a thorough research. I went through trials of **[Flexera Software FlexLM][flexlm]**, **[Reprise License Manager][rlm], **[Arxan][arxan]**, **[Sentinel RMS - SafeNet][safenet]. [Wibu Codemeter][codemeter] ended up being an optimal choice. It **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
+I conducted a thorough research. I went through trials of **[Flexera Software FlexLM][flexlm]**, **[Reprise License Manager][rlm], **[Arxan][arxan]**, **[Sentinel RMS - SafeNet][safenet]. [Wibu Codemeter][codemeter] ended up being the optimal choice. It **hardens software** against illegal usage and **License Management** is tightly integrated. This allowed me to quickly put together production solutions.
 
 ### 2014-2015. [SPM 7.0][spm70]
 
@@ -152,13 +152,13 @@ I was in charge of transforming the code base so that it compiles for the 64-bit
 
 ### 2008-2009. Contract project for a major *National Health Survey* for a large *Pharmaceutical* company
 
-Due to the economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were. A common situation was that Engineering departments got downsized and the remaining staff was under "300% load". They did not have the bandwidth to license our software and carry out **Machine Learning** projects.
+Due to the economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were.
 
 The largest project was to apply **CART** and other Machine Learning algorithms to results of one of the major **National Health Surveys**. The client was very interested in discovering segments in the population for **Marketing** purposes. Machine Learning part was straightforward and very successful.
 
 The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS][sas]** scripts. I learned SAS *from scratch* and created a system based on **SAS macros**.
 
-As a result, all the data was nicely warehoused. We received commendments from the client and they followed up with follow up projects using the same dataset. The effort did pay off.
+As a result, all the data was nicely warehoused. We received commendments from the client and they followed up with more projects using the same dataset. The effort did pay off.
 
 ### 2004-2005. Client-Server predictive analytics application
 
@@ -180,11 +180,11 @@ Salford Systems originally decided to hire me as a contractor because I demonstr
 
 ### 2001. [CART][cart_4_0] Navigator API
 
-A client requested a way to read Decision Tree models saved by CART in proprietary `.nv3` format. The main tree topology window is called "CART Navigator". Thus file format got this name as well. I immediately figured out a way to **quickly** implement the API. Familiarity with the code I acquired while working on Decision Trees helped immensely.
+A client requested a way to read Decision Tree models saved by CART in proprietary `.nv3` format. I immediately figured out a way to **quickly** implement the API. Familiarity with the code I acquired while working on Decision Trees helped immensely.
 
 ### 2000-2001. [CART 4.0][cart_4_0] Advanced Decision Tree visualization
 
-[CART][cart_4_0] is the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeler (SPM)**. As my first assignment I immediately bring a non-trivial amount of value into the next release of the product. I implemented the following.
+[CART][cart_4_0] was the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeler (SPM)**. As my first assignment I immediately bring a non-trivial amount of value into the next release of the product. I implemented the following.
 
 * **Compact tree layout**.
 * ***Tree Details** display*.
