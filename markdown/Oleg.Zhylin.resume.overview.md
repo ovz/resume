@@ -76,7 +76,7 @@ We decided to start with developing Big Data solution for **[Importance Sampled 
 The primary challenge I addressed was to find technologies that are a good fit for implementation.
 
 * **Apache Hadoop**.
-* **Apache Spark**. It is a solid step up from Hadoop. We used **PySpark**, a Python interface.
+* **Apache Spark**. It is a solid step up from Hadoop. We used **PySpark**, a Python interface. Re-implemented key pieces of functionality in **Scala** for experiments and performance tuning.
 * **[Databricks Cloud][databricks]**. I had a chance to connect with people from Databricks at **[Strata conference][strata_conf_2014]** in NYC in *October 2014*. We found good touching points and entered a partnership.
 * **[Dask Python framework][dask]**. The framework pleasantly surprised me. All essential parts clicked together and addressed our major concerns.
 
