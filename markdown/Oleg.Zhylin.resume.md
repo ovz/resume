@@ -394,7 +394,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 * **Tree Map**. This was a small window that drew an approximation of the *entire* tree topology. A user could click and navigate to a specific part of the tree on the main display. I enhanced the usability of this display and added features to support other functionality.
 * **Tree Printing**. The original implementation was rigidly dependent on tree visualization code I improved. As Tree Printing routines had to be adapted. I introduced improvement there as well.
 
-## 1996-2000 Data Security Research
+### 1996-2000. [Institute of Information Technology (IIT)][iit]. Software Developer. Data Security Researcher
 
 I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. Head of the department **prof.&nbsp;Gorbenko&nbsp;I.D.,&nbsp;PhD** and many of the professors were retired high-rank officers with Soviet Union Strategic Missile Troops. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
 

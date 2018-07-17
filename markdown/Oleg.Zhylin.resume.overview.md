@@ -191,7 +191,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 * **Tree Map**.
 * **Tree Printing**.
 
-## 1996-2000 Data Security Research
+### 1996-2000. [Institute of Information Technology (IIT)][iit]. Software Developer. Data Security Researcher
 
 I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
 
