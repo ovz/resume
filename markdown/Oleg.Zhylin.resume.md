@@ -44,7 +44,7 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 
 ## Experience Details
 
-### 2017-2018. [Minitab Inc.][minitab]. Sr Advisory Software Engineer
+### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
 At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. Minitab and Salford Systems have a profound similarity. They both made a heavy scientific technology to work effectively for a Business user. Minitab democratized *Classical Statistics* and Salford Systems is a leading expert in *Machine Learning*. It was a pleasure to invest all my work experience into making the two companies a single enterprise. I observed that, as a result, everyone felt part of a greater whole.
 

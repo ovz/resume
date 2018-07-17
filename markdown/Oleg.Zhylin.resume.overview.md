@@ -42,7 +42,7 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 *Details on any of the projects are available upon request.*
 
-### 2017-2018. [Minitab Inc.][minitab]. Sr Advisory Software Engineer
+### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
 At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper **Governance**. This allowed to quickly move on to Product Development and improving company-wide **Agile Development Process**.
 
