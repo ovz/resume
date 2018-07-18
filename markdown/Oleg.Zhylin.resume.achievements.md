@@ -59,6 +59,26 @@ I was primary **Graphical User Interface (GUI)** developer and one of the collab
 
 *The sections below describe specific projects that I accomplished while with Minitab and Salford Systems.*
 
+### 2017-2018 Acquision of Salford Systems by Minitab
+
+Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. I leveraged decades of expereince with Salford Systems and **completed migration under a year**.
+
+* Transfered all Salford Systems **Intellectual Property** to Minitab and under proper **Governance**. I kept **detailed records* over past years. This boosted the migration.
+* Provided **Comprehensive Review** of all the Software Development Projects in progress at Salford Systems. Implemented decions by **Top Management** at Minitab to put some of the projects on hold are properly frozen. *All the projects can resurrected effectively*.
+* Gained trust and made myself a valuable resources for TechOps team. We completed a very well planned and orchestrated corporate IT merger.
+* Brought codebase is accord to **Source Code Style** guidelines. Exercised my knowledge of C++ get other Tech Leads in the company on board for **significant improvement**. 
+* Greatly improved quality of the Codebase.
+* Per mandate from the Top Management quickly implemented process to **scale-up development team**. Reduced on-boarding speed from **2-3 months** to **less than a week**.
+* Established a **stable baseline** version of **Salford Predictive Modeler (SPM)** product. Thoroughly identified and **addressed instabilities**. This created a solid foundation for the planned incremental release of **SPM v8.3**.
+* Improved coverage and quality of **Automated Tests**. Helped **Quality Engineers (QA/QE)** to build a comprehensive system of tests for production executables.Promoted **Test-Driven Development (TDD)**.
+* Helped to introduce **Licensing**, **Telemetry**, and other features necessary for a successful release of **SPM v8.3** into production.
+* Supported **Agile** practices. Participated in **Product Management**.
+* Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running **Machine Learning Predictive engines API** in **Amazon Web Services (AWS)** cloud.
+* Learned **[Nalpeiron][nalpeiron]** license manager and helped in introducing it into the product. Spearheaded making **License Management package** reusable in all Minitab projects.
+* Advocated creating a company-wide repository of reusable code and dependencies based on **NuGet**. Actively collaborated with **Software Development Support (SDS)** team.
+* Maintained legacy [CI/CD][cicd] that SDS team did not have resources to migrate.
+* Developed new features for upcoming SPM release.
+
 ### 2016-2017. [SPM 8.2][spm82]
 
 I was the main engineer behind preparing and running **SPM 8.2** in production. Each major release of **[Salford Predictive Modeler (SPM)][spm82]** was a stable revenue generator for the company for several years.
