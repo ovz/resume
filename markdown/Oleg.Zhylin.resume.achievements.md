@@ -37,6 +37,10 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* Coordinating **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc. is a non-trivial fit. I managed teams up to **15 people**.
 * ***Agile Software Development** Patterns and Practices*. I *mastered* the immense power of **Motivated and Self-organized teams**. I achieved my best results by **empowering others** and **leading from behind**.
 
+## *Side Note*: Hyperlinks lead to the Internet Archive Wayback Machine (archive.org)
+
+*Hyperlinks in this document lead to online resources that best describe my experience. To make sure links are always valid I use [The Internet Archive Wayback Machine (archive.org)][archive_org]. You might see content from archive.org in addition to the original web page.*
+
 ## Projects Overview
 
 *Details on any of the projects are available upon request.*
