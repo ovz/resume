@@ -519,4 +519,4 @@ Here is my self-estimated proficiency list.
 [sas]:http://web.archive.org/web/https://www.sas.com "SAS"
 [cicd]:http://web.archive.org/web/https://en.wikipedia.org/wiki/Continuous_integration "Continuous integration/Continuous deployment"
 [crypkey]:http://web.archive.org/web/https://www.crypkey.com "CrypKey"
-[lyceum_prof]:http://web.archive.org/web/http://lyceum-prof.at.ua "Lyceum "Professional"
+[lyceum_prof]:http://web.archive.org/web/http://lyceum-prof.at.ua "Lyceum `Professional`"

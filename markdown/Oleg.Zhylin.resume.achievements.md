@@ -7,13 +7,12 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ----
 
-> Professional **Software Engineer** since **1996**. I enjoy learning and applying
-> *all the breadth and depth* of **C++**. I have a great interest in other leading **Programming Languages** in the
-> industry, including **Rust**, **Python**, **JavaScript**, et al.
+> Professional **Software Engineer** since **1996**. I am always up to date with my **C++** skills. I used to to **resolve major challenges** and I am excited to find out which challange I can help you with. This solid background gives me powerfull entry points to other leading *Programming Languages* and *Technologies* in the
+> industry, including **Rust**, **Python**, **JavaScript**, et al. *I have unique understanding of their strengths and weaknesses*.
 >
-> Applications I developed are in domains of **Data Science**, **Machine Learning**, **Security**.
+> My experience lies mainly in **Highly Scientific Domains**. This includes **Data Science**, **Machine Learning**, **Security** etc.
 >
-> During my career I gained considerable experience as **Software Architect**, and **Technical Team Lead**. At times I was a **Manager** for teams up to **15 people**.
+> On many projects I could **bring non-trivial value** as **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, kept *Technical Debt* at bay. I was successful in **empowering self-organizing teams**. I lead teams up to **15 people**.
 
 ----
 
