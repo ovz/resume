@@ -43,7 +43,7 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
-At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I made sure the entire **Intellectual Property** of Salford Systems is available to Minitab and under proper **Governance**. This allowed to quickly move on to Product Development and improving company-wide **Agile Development Process**.
+At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I was instrumental in making entire **Intellectual Property** of Salford Systems is available to Minitab and under proper **Governance**. This allowed to quickly move on to Product Development and improving company-wide **Agile Development Process**.
 
 ### 2000-2017. [Salford Systems][salford]. Sr Software Engineer. Architect
 
@@ -53,7 +53,7 @@ For me, it was enormous fun and hard work to help our customers meet their **Dat
 
 I was primary **Graphical User Interface (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product, **[Salford Predictive Modeler (SPM)][spm82]**.
 
-*The sections below describe specific projects that I accomplished while with Salford Systems.*
+*The sections below describe specific projects that I accomplished while with Minitab and Salford Systems.*
 
 ### 2016-2017. [SPM 8.2][spm82]
 
