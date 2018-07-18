@@ -29,13 +29,13 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ## Most prominent achievements
 
-* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users from **Domain Experts** very distant from statistics to the best **Data Scientists** in the world was at the core of Salford Systems *Business Offering*.
+* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. UIs I developed brought **solid success** to several consequent releases of Safofrd Systems products.
 * *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
 * ***Application Programming Interface (API) Design***. I helped [Salford Systems][salford] to get to quality API architecture for the core intellectual assets.
-* *Handling **Legacy code***. I successfully interfaced and updated legacy code base in **Fortran**. In this and other code bases I kept **Technical Debt** at necessary minimum.
+* ***Legacy code***. I successfully interfaced and updated legacy code base in **Fortran**. In this and other code bases I combated **Technical Debt** to a pragamtic **minimum**.
 * ***Data Engineering***. When executing Consulting projects, helping with Tech Support, etc. I developed required **Extract Transform Load (ETL)** functionality and got over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
-* ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* I coordinated **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc.
-* ***Agile Software Development** Patterns and Practices*. I learned and practically applied the immense power of **Motivated and self-organized teams**. My best results were results achieved by empowering others and leading from behind.
+* ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* Coordinating **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc. is a non-trivial fit. I managed teams up to **15 people**.
+* ***Agile Software Development** Patterns and Practices*. I *mastered* the immense power of **Motivated and Self-organized teams**. I achieved my best results by **empowering others** and **leading from behind**.
 
 ## Projects Overview
 
