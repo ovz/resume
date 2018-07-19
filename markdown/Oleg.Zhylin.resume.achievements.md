@@ -46,6 +46,12 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ## Employment History
 
+### 2018-Present. Contract Software Development
+
+The highlights of my **2 decades** track record are **C++**, **Big Data**, **Machine Learning/AI**, **Cloud**. I am sure I can help You with a project that will **boost your business**.
+
+*Looking forward talking to you!*
+
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
 At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I was instrumental in making entire **Intellectual Property** of Salford Systems available to Minitab and under proper **Governance**. This allowed quickly moving on to Product Development and improving company-wide **Agile Development Process**.
