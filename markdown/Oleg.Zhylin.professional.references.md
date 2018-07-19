@@ -29,7 +29,6 @@
 
 ----
 
-
 [oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
 [oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
 [archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
