@@ -50,6 +50,8 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 The highlights of my **2 decades** track record are **C++**, **Big Data**, **Machine Learning/AI**, **Cloud**. I am sure I can help You with a project that will **boost your business**.
 
+I will gladly consider **Permanent** and **Long Term** positions.
+
 *Looking forward talking to you!*
 
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
