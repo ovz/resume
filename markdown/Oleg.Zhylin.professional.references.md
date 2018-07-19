@@ -19,6 +19,16 @@
 
 ----
 
+## Bernie Bernstein
+
+*Relationship:* Collegue at **[Salford Systems][salford]**
+
+*Cell Phone:* **+1 925-858-4608**
+
+*Email:* **[bernieb@comcast.net](mailto:bernieb@comcast.net)**
+
+----
+
 ## Victor Ronin
 
 *Relationship:* Collegue at **[QArea][qarea]**
