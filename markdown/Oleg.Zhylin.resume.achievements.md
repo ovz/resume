@@ -31,12 +31,12 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ## Most prominent achievements
 
-* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. UIs I developed brought **solid success** to several consequent releases of Safofrd Systems products.
+* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. UIs I developed brought **solid success** to several consequent releases of Salford Systems products.
 * *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
 * ***Application Programming Interface (API) Design***. I helped [Salford Systems][salford] to get to quality API architecture for the core intellectual assets.
 * ***Data Engineering***. When executing Consulting projects, helping with Tech Support, etc. I developed required **Extract Transform Load (ETL)** functionality and got over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * ***Big Data***. I participated in **heavy research** in the domain of **Machine Learning** from **peta-scale datasets**.
-* ***Legacy code***. I successfully interfaced and updated legacy code base in **Fortran**. In this and other code bases I combated **Technical Debt** to a pragamtic **minimum**.
+* ***Legacy code***. I successfully interfaced and updated legacy Codebase in **Fortran**. In this and other Codebases I combated **Technical Debt** to a pragmatic **minimum**.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* Coordinating **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc. is a non-trivial fit. I managed teams up to **15 people**.
 * ***Agile Software Development** Patterns and Practices*. I *mastered* the immense power of **Motivated and Self-organized teams**. I achieved my best results by **empowering others** and **leading from behind**.
 
@@ -48,7 +48,7 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
-At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I was instrumental in making entire **Intellectual Property** of Salford Systems is available to Minitab and under proper **Governance**. This allowed to quickly move on to Product Development and improving company-wide **Agile Development Process**.
+At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I was instrumental in making entire **Intellectual Property** of Salford Systems available to Minitab and under proper **Governance**. This allowed quickly moving on to Product Development and improving company-wide **Agile Development Process**.
 
 ### 2000-2017. [Salford Systems][salford]. Sr Software Engineer. Architect
 
@@ -62,18 +62,18 @@ I was primary **Graphical User Interface (GUI)** developer and one of the collab
 
 *Details on any of the projects are available upon request.*
 
-### 2017-2018 Acquision of Salford Systems by Minitab
+### 2017-2018 Acquisition of Salford Systems by Minitab
 
-Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. I leveraged decades of expereince with Salford Systems and **completed migration under a year**.
+Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. I leveraged decades of experience with Salford Systems and **completed migration under a year**.
 
-* Transfered all Salford Systems **Intellectual Property** to Minitab and under proper **Governance**. I kept **detailed records** over past years. This boosted the migration.
-* Provided **Comprehensive Review** of all the Software Development Projects in progress at Salford Systems. Implemented decions by **Top Management** at Minitab to put some of the projects on hold are properly frozen. *All the projects can resurrected effectively*.
+* Transferred all Salford Systems **Intellectual Property** to Minitab and under proper **Governance**. I kept **detailed records** over past years. This boosted the migration.
+* Provided **Comprehensive Review** of all the Software Development Projects in progress at Salford Systems. Implemented **decisions by Top Management** at Minitab to put some of the projects on hold are properly frozen. *All the projects can resurrected effectively*.
 * Gained trust and made myself a valuable resources for TechOps team. We completed a very well planned and orchestrated corporate IT merger.
-* Brought codebase is accord to **Source Code Style** guidelines. Exercised my knowledge of C++ get other Tech Leads in the company on board for **significant improvement**.
+* Brought Codebase in accord with **Source Code Style** guidelines. Exercised my knowledge of C++ to get other Tech Leads in the company on board for **significant improvements**.
 * Greatly improved quality of the Codebase.
 * Per mandate from the Top Management quickly implemented process to **scale-up development team**. Reduced on-boarding speed from **2-3 months** to **less than a week**.
 * Established a **stable baseline** version of **Salford Predictive Modeler (SPM)** product. Thoroughly identified and **addressed instabilities**. This created a solid foundation for the planned incremental release of **SPM v8.3**.
-* Improved coverage and quality of **Automated Tests**. Helped **Quality Engineers (QA/QE)** to build a comprehensive system of tests for production executables.Promoted **Test-Driven Development (TDD)**.
+* Improved coverage and quality of **Automated Tests**. Helped **Quality Engineers (QA/QE)** to build a comprehensive system of tests for production executables. Promoted **Test-Driven Development (TDD)**.
 * Helped to introduce **Licensing**, **Telemetry**, and other features necessary for a successful release of **SPM v8.3** into production.
 * Supported **Agile** practices. Participated in **Product Management**.
 * Participated in architecting next version of **Machine Learning APIs** and **Cloud offerings** based on running **Machine Learning Predictive engines API** in **Amazon Web Services (AWS)** cloud.
@@ -86,10 +86,10 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 
 I was the main engineer behind preparing and running **SPM 8.2** in production. Each major release of **[Salford Predictive Modeler (SPM)][spm82]** was a stable **revenue generator** for the company for several years.
 
-* Built **fully automated [CI/CD][cicd]** pipeline. It **saved the day** multiple times to address requests for *urgent hotfixes*, *custom builds* etc. Configurations were in **[CruiseControl.NET][ccnet]** and *supporting scripts* were in **Powershell**.
+* Built **fully automated [CI/CD][cicd]** pipeline. It **saved the day** multiple times when addressing requests for *urgent hotfixes*, *custom builds* etc. Configurations were in **[CruiseControl.NET][ccnet]** and *supporting scripts* were in **Powershell**.
 * Authored and maintained **Product Installers** using **[Microsoft Visual Studio Installer Projects][msvs_installer]** toolset.
 * Implemented **required features** for this release **in time** and **top quality**.
-* Worked on *cutting edge* features in a **feature branch**. From this branch I forked codebase for **Machine Learning Predictive engines API** and **SPM GUI using *Qt framework***.
+* Worked on *cutting edge* features in a **feature branch**. From this branch I forked Codebase for **Machine Learning Predictive engines API** and **SPM GUI using *Qt framework***.
 
 During this project, I managed a team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to the hard work of the team members I could help them to become instrumental contributors in terms of **Product Features** and **Quality**.
 
@@ -99,9 +99,9 @@ During this project, I managed a team up to **12 people**. **Outsourcing** team 
 
 I was one of the **Principal Architects** and the **Product Owner** for the project.
 
-* *Middle layer* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. This was a backbone for enabled multiple front-ends.
-* *Primary Front end* was a **Web Application** written in **React.Js**, **Redux** and **PostgreSQL**. I pushed for *winning technologies*. This facilitated **rapid proptotyping** and **instant delivery** of our results to early adopters.
-* *Backend* was in **Python**. At the heart of the backend was a **Distributed Queue** based on **Redis** and **Tasks** framework to execute queue elements. 
+* *Middle layer* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. This was a backbone for enabling multiple front-ends.
+* *Primary Front end* was a **Web Application** written in **React.Js**, **Redux** and **PostgreSQL**. I pushed for *winning technologies*. This facilitated **rapid prototyping** and **instant delivery** of our results to early adopters.
+* *Backend* was in **Python**. At the heart of the backend was a **Distributed Queue** based on **Redis** and **Tasks** framework to execute queue elements.
 * *Big Data Storage* supported all major technologies, including **Hadoop**, **Amazon S3** etc.
 
 My co-architect and other team members were *world top* Python programmers. It was one of the great opportunities to **Delegate** and **Learn**. With help from experienced teammates, I was able to effectively balance my attention between [SPM 8.2][spm82] in production and this project. Via SPM 8.2 work I effectively **funded** *Cloud-ready SPM*.
@@ -111,16 +111,16 @@ Managed the team up to **7 people**.
 ### 2014-2016. Distributed Machine Learning for [Importance Sampled Learning Ensembles (ISLE)][isle]
 
 More and more customers discovered their datasets become **Big Data** challenges.
-We decided to start with developing Big Data solution for **[Importance Sampled Learning Ensembles (ISLE)][isle]**. The advantage was that we do not need to grow a single tree over the entire Big Data dataset.
+We decided to start with developing Big Data solution for **[Importance Sampled Learning Ensembles (ISLE)][isle]**. The advantage was that we did not need to grow a single tree over the entire Big Data dataset.
 
-The primary challenge I addressed was to find technologies that are a good fit for implementation.
+The primary challenge I addressed was to find technologies that are a good fit for an implementation.
 
 * **Apache Hadoop**.
-* **Apache Spark**. It is a solid step up from Hadoop. We used **PySpark**, a Python interface. Re-implemented key pieces of functionality in **Scala** for experiments and performance tuning.
+* **Apache Spark**. It is a solid step up from Hadoop. We used **PySpark**, a Python interface. I re-implemented key pieces of functionality in **Scala** for experiments and performance tuning.
 * **[Databricks Cloud][databricks]**. I had a chance to connect with people from Databricks at **[Strata conference][strata_conf_2014]** in NYC in *October 2014*. We found good touching points and entered a partnership.
 * **[Dask Python framework][dask]**. The framework pleasantly surprised me. All essential parts clicked together and addressed our major concerns.
 
-Ideas, Experiences, and development results from this projects were later used in **Cloud-ready SPM** project.
+Ideas, Experiences, and Development Results from this projects were later used in **Cloud-ready SPM** project.
 
 Managed team up to **3 people**.
 
@@ -189,7 +189,7 @@ As part of a consulting project, Salford Systems received data about sale transa
 
 **[Salford Predictive Modeler (SPM)][spm82]** is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address the limitation of 4Gb address space of legacy 32 bit Operating Systems.
 
-I was in charge of transforming the code base so that it compiles for the 64-bit platform. Most important part of the process is to methodically revisit all the places in the code and make sure 64-bit addresses and sizes are handled correctly.
+I was in charge of transforming the Codebase so that it compiles for the 64-bit platform. Most important part of the process is to methodically revisit all the places in the code and make sure 64-bit addresses and sizes are handled correctly.
 
 ### 2008-2009. Contract project for a major *National Health Survey* for a large *Pharmaceutical* company
 
@@ -213,7 +213,7 @@ I learned a ton from this project. This was my major introduction to **Concurren
 
 CART 5.0 was the first major release that transformed CART from *single* decision tree product to a **suit** of Predictive algorithms.
 
-In addition to new features, my help was needed to address bugs in the software. My previous work was focused around *CART Navigator* codebase and I was able to address a good amount of **technical debt** there.
+In addition to new features, my help was needed to address bugs in the software. My previous work was focused around *CART Navigator* Codebase and I was able to address a good amount of **technical debt** there.
 
 ### 2001-2002. Upgrade CART UI to C++/MFC
 
