@@ -7,10 +7,12 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ----
 
-> Professional **Software Engineer** since **1996**. I am always up to date with my **C++** skills. I used to to **resolve major challenges** and I am excited to find out which challange I can help you with. This solid background gives me powerfull entry points to other leading *Programming Languages* and *Technologies* in the
+> Professional **Software Engineer** since **1996**. I am always up to date with my **C++** skills. With them I resolved numerous and non-trivial challanges in the past. I am sure I will **help bring Your C++ project to resounding success**. I am **looking forward** to this very much!
+>
+> This solid background gives me powerfull entry points to other leading *Programming Languages* and *Technologies* in the
 > industry, including **Rust**, **Python**, **JavaScript**, et al. *I have unique understanding of their strengths and weaknesses*.
 >
-> My experience lies mainly in **Highly Scientific Domains**. This includes **Data Science**, **Machine Learning**, **Security** etc.
+> My experience lies mainly in **Highly Scientific Domains**. This includes **Data Science**, **Machine Learning**, **Security** etc. I am looking for challenges of **AI** and **Big Data** in the **Cloud**.
 >
 > On many projects I could **bring non-trivial value** as **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, kept *Technical Debt* at bay. I was successful in **empowering self-organizing teams**. I lead teams up to **15 people**.
 
@@ -82,6 +84,9 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 ### 2016-2017. [SPM 8.2][spm82]
 
 I was the main engineer behind preparing and running **SPM 8.2** in production. Each major release of **[Salford Predictive Modeler (SPM)][spm82]** was a stable revenue generator for the company for several years.
+
+* I built **fully automated [CI/CD][cicd]** pipeline. It **saved the day** multiple times to address requests for *urgent hotfixes*, *custom builds* etc.
+
 
 ### 2015-2017. **Cloud-ready SPM**
 
