@@ -7,9 +7,9 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 
 ----
 
-> Professional **Software Engineer** since **1996**. I am always up to date with my **C++** skills. With them I resolved numerous and non-trivial challanges in the past. I am sure I will **help bring Your C++ project to resounding success**. I am **looking forward** to this very much!
+> Professional **Software Engineer** since **1996**. I am always up to date with my **C++** skills. With them I resolved numerous and non-trivial challenges in the past. I am sure I will **help bring Your C++ project to resounding success**. I am **looking forward** to this very much!
 >
-> This solid background gives me powerfull entry points to other leading *Programming Languages* and *Technologies* in the
+> This solid background gives me powerful entry points to other leading *Programming Languages* and *Technologies* in the
 > industry, including **Rust**, **Python**, **JavaScript**, et al. *I have unique understanding of their strengths and weaknesses*.
 >
 > My experience lies mainly in **Highly Scientific Domains**. This includes **Data Science**, **Machine Learning**, **Security** etc. I am looking for challenges of **AI** and **Big Data** in the **Cloud**.
