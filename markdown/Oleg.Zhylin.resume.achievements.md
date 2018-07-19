@@ -2,8 +2,8 @@
 
 ----
 
-Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** &#x25C6; Cell Phone: **+1 619 500 6534** &#x25C6; Home Address: **12172 Wilsey Way, Poway, CA 92064** &#x25C6;
-Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][oleg_linkedin]**
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534** | Home Address: **12172 Wilsey Way, Poway, CA 92064** |
+Skype: **OlegZhylin** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][oleg_linkedin]**
 
 ----
 
