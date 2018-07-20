@@ -2,16 +2,24 @@
 
 ----
 
-> *Could you please kindly consider reaching out by e-mail to agree date and time of a call on **Cell Phone**. This will help to ensure the person is comfortable to respond*
+> *Could you please kindly consider reaching out by e-mail to agree the date and time of a call on a **Cell Phone**. This will help to ensure the person is comfortable to respond*
 >
 >
 > Please feel free to contact me with any questions. Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534**.
 
 ----
 
+## Dan Steinberg, PhD
+
+*Relationship:* *Founder*, *Private Owner*, and *President* of **[Salford Systems][salford]**. Since **2017** Salford Systems is a [Minitab][minitab] company.
+
+*Cell Phone:* **+1 (619) 847-32-06**
+
+*Email:* **[dans_salford@yahoo.com](mailto:dans_salford@yahoo.com)**
+
 ## Mykhaylo Golovnya
 
-*Relationship:* Collegue at **[Salford Systems][salford]**
+*Relationship:* Collegue at **[Salford Systems][salford]**.
 
 *Cell Phone:* **+1 619-847-32-08 **
 
@@ -45,3 +53,4 @@
 
 [qarea]: http://Web.archive.org/web/https://qarea.com "QArea"
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
+[minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
