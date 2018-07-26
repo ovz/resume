@@ -66,6 +66,12 @@ For me, it was enormous fun and hard work to help our customers meet their **Dat
 
 I was primary **Graphical User Interface (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product, **[Salford Predictive Modeler (SPM)][spm82]**.
 
+### 1996-2000. [Institute of Information Technology (IIT)][iit]. Software Developer. Data Security Researcher
+
+I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
+
+In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Research and Development entity through which my mentors from [Department of Information Technology Security (ITS)][kafedra_bit] worked on commercial projects. The biggest project was sub-contracting *Cryptography implementation* for a **Client-Bank** system.
+
 ## Projects Overview
 
 *Details on any of the projects are available upon request.*
@@ -239,12 +245,6 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 * ***Tree Details** display*.
 * **Tree Map**.
 * **Tree Printing**.
-
-### 1996-2000. [Institute of Information Technology (IIT)][iit]. Software Developer. Data Security Researcher
-
-I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
-
-In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Research and Development entity through which my mentors from [Department of Information Technology Security (ITS)][kafedra_bit] worked on commercial projects. The biggest project was sub-contracting *Cryptography implementation* for a **Client-Bank** system.
 
 ## Education
 
