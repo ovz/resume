@@ -9,6 +9,14 @@
 
 ----
 
+## David Nelson
+
+*Relationship:* Vice President Of Engineering at **[Minitab Inc.][minitab]**
+
+*Work Phone:* **+1 814-753-3245**
+
+*Email:* **[dnelson@minitab.com](mailto:dnelson@minitab.com)**
+
 ## Dan Steinberg, PhD
 
 *Relationship:* *Founder*, *Private Owner*, and *President* of **[Salford Systems][salford]**. Since **2017** Salford Systems is a [Minitab][minitab] company.
@@ -36,6 +44,14 @@
 *Email:* **[bernieb@comcast.net](mailto:bernieb@comcast.net)**
 
 ----
+
+## Katrina Bautista
+
+*Relationship:* HR Executive at **[Minitab Inc.][minitab]**
+
+*Work Phone:* **+1 814-753-3615**
+
+*Email:* **[kbautista@minitab.com](mailto:kbautista@minitab.com)**
 
 ## Victor Ronin
 
