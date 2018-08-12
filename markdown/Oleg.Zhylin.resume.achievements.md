@@ -7,16 +7,16 @@ Skype: **OlegZhylin** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][ol
 
 ----
 
-> Professional **Software Engineer** since **1996**. I am always up to date with my **C++** skills. With them I solved numerous and non-trivial challenges in the past. I am sure I will **help to bring Your C++ project to a resounding success**. I am **looking forward** to this very much!
+> Professional **Software Engineer** since **1996**. I am always up to date with my **C++** skills. This helped to build a track record of solutions to numerous and non-trivial challenges. I am sure I will **help to bring Your C++ project to a resounding success**. I am **looking forward** to this very much!
 >
-> This solid background gives me powerful entry points to other leading *Programming Languages* and *Technologies* in the
+> Experience gives me powerful entry points to other leading *Programming Languages* and *Technologies* in the
 > industry, including **Rust**, **Python**, **JavaScript**, et al. *I have a unique understanding of their strengths and weaknesses*.
 >
-> My experience lies mainly in **Highly Scientific Domains**. This includes **Data Science**, **Machine Learning**, **Security** etc. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
+> I worked mainly in **Highly Scientific Domains**. This includes **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
 >
-> On many projects I could **bring non-trivial value** as **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, and kept *Technical Debt* at bay. I lead teams up to **15 people**.
+> In many projects I **bring non-trivial value** as **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, and kept *Technical Debt* at bay. I lead teams up to **15 people**.
 
-----
+---- 
 
 ## Experience Overview
 

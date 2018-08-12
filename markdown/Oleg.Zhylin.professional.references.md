@@ -2,7 +2,7 @@
 
 ----
 
-> *Could you please kindly consider reaching out by e-mail to agree the date and time of a call on a **Cell Phone**. This will help to ensure the person is comfortable to respond*
+> *Could you please kindly consider reaching out by **e-mail** to **agree the date and time** of a Cell Phone call. This will help to ensure the person is comfortable to respond*
 >
 >
 > Please feel free to contact me with any questions. Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534**.
