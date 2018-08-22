@@ -1,8 +1,8 @@
-# Professional References for ![Oleg Zhylin][oleg_kayaking_gravatar] Oleg Zhylin
+# ![Oleg Zhylin][oleg_kayaking_gravatar] Professional References for Oleg Zhylin
 
 ----
 
-> *Could you please kindly consider reaching out by **e-mail** to **agree the date and time** of a Cell Phone call. This will help to ensure the person is comfortable to respond*
+> *Could you please kindly consider reaching out by **Email** to **agree the date and time** of a Cell Phone call. This will help to ensure the person is comfortable to respond*
 >
 >
 > Please feel free to contact me with any questions. Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534**.
@@ -11,37 +11,45 @@
 
 ## David Nelson
 
-*Relationship:* Vice President Of Engineering at **[Minitab Inc.][minitab]**
+*Relationship:* **Direct Supervisor**. Vice President Of Engineering at **[Minitab Inc.][minitab]**
 
 *Work Phone:* **+1 814-753-3245**
 
 *Email:* **[dnelson@minitab.com](mailto:dnelson@minitab.com)**
 
+*Worked together*: March **2017** - June **2018**
+
 ## Dan Steinberg, PhD
 
-*Relationship:* *Founder*, *Private Owner*, and *President* of **[Salford Systems][salford]**. Since **2017** Salford Systems is a [Minitab][minitab] company.
+*Relationship:* **Direct Supervisor**. *Founder*, *Private Owner*, and *President* of **[Salford Systems][salford]**. Since **2017** Salford Systems is a [Minitab][minitab] company.
 
 *Cell Phone:* **+1 (619) 847-32-06**
 
 *Email:* **[dans_salford@yahoo.com](mailto:dans_salford@yahoo.com)**
 
+*Worked together*: June **2000** - February **2017**
+
 ## Mykhaylo Golovnya
 
-*Relationship:* Collegue at **[Salford Systems][salford]**.
+*Relationship:* Colleague at **[Salford Systems][salford]**.
 
 *Cell Phone:* **+1 619-847-32-08 **
 
 *Email:* **[golomi@gmail.com](mailto:golomi@gmail.com)**
 
+*Worked together*: June **2000** - June **2018**
+
 ----
 
 ## Bernie Bernstein
 
-*Relationship:* Collegue at **[Salford Systems][salford]**
+*Relationship:* Colleague at **[Salford Systems][salford]**
 
 *Cell Phone:* **+1 925-858-4608**
 
 *Email:* **[bernieb@comcast.net](mailto:bernieb@comcast.net)**
+
+*Worked together*: June **2000** - January **2009**
 
 ----
 
@@ -53,13 +61,17 @@
 
 *Email:* **[kbautista@minitab.com](mailto:kbautista@minitab.com)**
 
+*Worked together*: March **2017** - June **2018**
+
 ## Victor Ronin
 
-*Relationship:* Collegue at **[QArea][qarea]**
+*Relationship:* Colleague at **[QArea][qarea]**
 
 *Cell Phone:* **+1 703-863-5131**
 
 *Email:* **[victor.ronin@gmail.com](mailto:victor.ronin@gmail.com)**
+
+*Worked together*: June **2000** - October **2006**
 
 ----
 
