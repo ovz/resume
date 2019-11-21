@@ -11,7 +11,7 @@ Skype: **OlegZhylin** &#x25C6; LinkedIn: **[https://www.linkedin.com/in/olegzhyl
 > *all the breadth and depth* of **C++**. I have a great interest in other leading **Programming Languages** in the
 > industry, including **Rust**, **Python**, **JavaScript**, et al.
 >
-> Applications I developed are in domains of **Data Science**, **Machine Learning**, **Security**.
+> Applications I developed are in domains of **Data Science**, **Machine Learning**, **Embedded Mobile Devices**, **Security**.
 >
 > During my career I gained considerable experience as **Software Architect**, and **Technical Team Lead**. At times I was a **Manager** for teams up to **15 people**.
 
@@ -30,6 +30,7 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 Below I listed my most prominent achievements. I elaborate on these in specific sections of **Experience Details**.
 
+* **Embedded Mobile development** for Healthcare and Emergency devices. This brought many interesting challenges. I built non-trivial systems under creative constraints of a Mobile platform.
 * *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. User Interfaces I developed brought Business Users key insights into their Data. I also had to keep Predictive Analytics experts happy. Catering to the whole range of users from **Domain Experts** very distant from statistics to the best **Data Scientists** in the world was at the core of Salford Systems *Business Offering*.
 * *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. Any non-trivial system requires **System Design**. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
 * ***Application Programming Interface (API) Design***. From early in my career I saw great potential in being able to use **Predictive Engines** wherever there is a need for their power. I helped the company to get to quality API architecture for core intellectual assets. I used API design extensively for interaction between components in software systems.
@@ -43,6 +44,12 @@ Below I listed my most prominent achievements. I elaborate on these in specific 
 *Hyperlinks in this document lead to online resources that best describe my experience. To make sure links are always valid I use [The Internet Archive Wayback Machine (archive.org)][archive_org]. You might see content from archive.org in addition to the original web page.*
 
 ## Experience Details
+
+### 2018-Present. [GreatCall][greatcall] Sr Software Engineer
+
+I joined a brilliant team in charge of Embedded development for Lively Mobile Emergency Response device. It is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. The technologies we use make notorious constraints of Embedded Development perfectly creative. I used latest C++ technologies, build robust architecture exercising concurrency and parallelism in effective and creative way. 
+
+To keep our customers safe and happy we use robust Testing processes and protocols. These include comprehensive unit test suite, automated desktop end-to-end testing framework, production validation mechanisms etc.
 
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
@@ -461,6 +468,7 @@ Here is my self-estimated proficiency list.
 [treenet_first]: http://web.archive.org/web/20030413071322/http://www.salford-systems.com:80/index.html "TreeNet in CART 5.0"
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
+[greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
 [gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"
