@@ -7,20 +7,19 @@ Skype: **OlegZhylin** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][ol
 
 ----
 
-> Professional **Software Engineer** since **1996**. I am always up to date with my **C++** skills. This helped to build a track record of solutions to numerous and non-trivial challenges. I am sure I will **help to bring Your C++ project to a resounding success**. I am **looking forward** to this very much!
+> Professional **Software Engineer** since **1996**. My **C++** skills are always up to date. This helped to build a track record of solutions to numerous and non-trivial challenges. I am sure I will **help to bring Your C++ project to a resounding success**. I am **looking forward** to this very much!
 >
-> Experience gives me powerful entry points to other leading *Programming Languages* and *Technologies* in the
-> industry, including **Rust**, **Python**, **JavaScript**, et al. *I have a unique understanding of their strengths and weaknesses*.
+> Experience gives me powerful entry points to other leading *Programming Languages* and *Technologies*, including **Rust**, **Python**, **JavaScript**, et al. I have an expert's understanding of their strengths and weaknesses.
 >
-> I worked mainly in **Highly Scientific Domains**. This includes **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
+> I worked mainly in **Highly Scientific Domains**. This includes **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
 >
-> In many projects I **bring non-trivial value** as **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, and kept *Technical Debt* at bay. I lead teams up to **15 people**.
+> I **bring non-trivial value** as **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, and kept *Technical Debt* at bay. I lead teams up to **15 people**.
 
 ---- 
 
 ## Experience Overview
 
-During my undergrad years, I was employed with an institute ran by my mentors. This gave me solid background in **Data Security** and **Cryptography**. From that time I have an important life skill to see things from a standpoint of a **Security Professional**.
+During my undergrad years, I was employed with an Institute ran by my mentors. This gave me solid background in **Data Security** and **Cryptography**. From that time I have an important life skill to see things from a standpoint of a **Security Professional**.
 
 Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
@@ -31,10 +30,10 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ## Most prominent achievements
 
-* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. UIs I developed brought **solid success** to several consequent releases of Salford Systems products.
-* *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
+* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products.
+* *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems**. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
 * ***Application Programming Interface (API) Design***. I helped [Salford Systems][salford] to get to quality API architecture for the core intellectual assets.
-* ***Data Engineering***. When executing Consulting projects, helping with Tech Support, etc. I developed required **Extract Transform Load (ETL)** functionality and got over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
+* ***Data Engineering***. When executing Consulting projects, helping with Tech Support, etc. I developed all required **Extract Transform Load (ETL)** functionality and got over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
 * ***Big Data***. I participated in **heavy research** in the domain of **Machine Learning** from **peta-scale datasets**.
 * ***Legacy code***. I successfully interfaced and updated legacy Codebase in **Fortran**. In this and other Codebases I combated **Technical Debt** to a pragmatic **minimum**.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* Coordinating **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc. is a non-trivial fit. I managed teams up to **15 people**.
@@ -46,13 +45,13 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ## Employment History
 
-### 2018-Present. Contract Software Development
+### 2018-Present. [GreatCall][greatcall] Sr Software Engineer
 
-The highlights of my **2 decades** track record are **C++**, **Big Data**, **Machine Learning/AI**, **Cloud**. I am sure I can help You with a project that will **boost your business**.
+I joined a brilliant team in charge of Embedded development for Lively Mobile Emergency Response device. It is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. The technologies we use make notorious constraints of Embedded Development perfectly creative. I used latest C++ technologies, built robust architecture exercising concurrency and parallelism in effective and creative way. 
 
-I will gladly consider **Permanent** and **Long Term** positions.
+In 2019 we prepared Lively Mobile product for a relaunch. Product Quality was a critical Business Concern. My Data Engineering chops came very handy when analyzing and troubleshooting Mobile Devices and Server side infrastructure.
 
-*Looking forward talking to you!*
+To keep our customers safe and happy we use robust Testing processes and protocols. These include comprehensive unit test suite, automated desktop end-to-end testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device.
 
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
@@ -272,6 +271,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 [treenet_first]: http://web.archive.org/web/20030413071322/http://www.salford-systems.com:80/index.html "TreeNet in CART 5.0"
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
+[greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
 [gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"

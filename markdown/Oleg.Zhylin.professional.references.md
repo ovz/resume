@@ -82,3 +82,4 @@
 [qarea]: http://Web.archive.org/web/https://qarea.com "QArea"
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
+[greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
