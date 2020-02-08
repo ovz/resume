@@ -7,11 +7,7 @@ Skype: **OlegZhylin** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][ol
 
 ----
 
-> Professional **Software Engineer** since **1996**. My **C++** skills are always up to date. This helped to build a track record of solutions to numerous and non-trivial challenges. I am sure I will **help to bring Your C++ project to a resounding success**. I am **looking forward** to this very much!
->
-> Experience gives me powerful entry points to other leading *Programming Languages* and *Technologies*, including **Rust**, **Python**, **JavaScript**, et al. I have an expert's understanding of their strengths and weaknesses.
->
-> I worked mainly in **Highly Scientific Domains**. This includes **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
+> Professional **Software Engineer** since **1996**. The majority of projects are **C++** and **Python** in **Highly Scientific Domains**. This includes **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. Working knowledge of **SQL**, **JavaScript**, and **C#**. Looking forward to build a project in **Rust**. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
 >
 > I **bring non-trivial value** as **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, and kept *Technical Debt* at bay. I lead teams up to **15 people**.
 
@@ -19,7 +15,7 @@ Skype: **OlegZhylin** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][ol
 
 ## Experience Overview
 
-During my undergrad years, I was employed with an Institute ran by my mentors. This gave me solid background in **Data Security** and **Cryptography**. From that time I have an important life skill to see things from a standpoint of a **Security Professional**.
+I was employed as **Data Security** and **Cryptography** Software Engineer as an undergrad. This an Institute ran by my mentors in the University. From that time I have an important life skill to see things from a standpoint of a **Security Professional**.
 
 Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
@@ -28,17 +24,18 @@ Years **2000-2017** were formative for my software engineering experience in **M
 In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
- Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. I built custom mobile devices with cellular connectivity for Seniors. [GreatCall][greatcall] is a Mobile Virtual Network Operator. I had the entire pipeline from manufacturing of a custom device to facilitating innovative ways of Care available. The software I built gives a gift of independence, confidence, and livelihood to people who would otherwise have no choice but stay dependent 24/7 from scarse and highly priced resource of  medical professional caregivers.
+ Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. I built *custom* **Embedded** mobile devices with cellular connectivity for Seniors. [GreatCall][greatcall] is a Mobile Virtual Network Operator (MVNO). I worked through the entire pipeline from manufacturing of the hardware to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood to people who would otherwise have no choice but depend 24/7 from scarse and highly priced resource of Medical professional caregivers.
 
 ## Most prominent achievements
 
-* *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products.
+* *Custom **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of sense of urgency to save a human life. I used *modern C++* and scalable architecture to deliver *Business Success*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, and outstanding *Battery Life*.         Effectively exercised *Concurrency* and *Network Technologies*. 
+* **Data Engineering**. Surprisingly and not **Data Preparation** came up on my plate at every job and all the projects. This was a well known road-block between raw data and valuable insights. **[Data Wrangling][data_wrangling]** easily gobbles 80% of time and budget. I prepared data for numerous Consulting projects, Troubleshooting, Forensics, Data Analytical Tech Support cases, etc. The results were ready for analysis within days or even hours. I developed effective **Extract Transform Load (ETL)** functionality. This allowed to quickly learn from data and iterate as many times as needed for desired results. 
+* *Advanced **Graphical User Interface (GUI)** for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products.
 * *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems**. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
-* ***Application Programming Interface (API) Design***. I helped [Salford Systems][salford] to get to quality API architecture for the core intellectual assets.
-* ***Data Engineering***. When executing Consulting projects, helping with Tech Support, etc. I developed all required **Extract Transform Load (ETL)** functionality and got over 80% **[Data Wrangling][data_wrangling]** quickly and effectively.
+* ***Application Programming Interface (API)** Design***. I helped [Salford Systems][salford] to get to quality API architecture for the core intellectual assets.
 * ***Big Data***. I participated in **heavy research** in the domain of **Machine Learning** from **peta-scale datasets**.
-* ***Legacy code***. I successfully interfaced and updated legacy Codebase in **Fortran**. In this and other Codebases I combated **Technical Debt** to a pragmatic **minimum**.
-* ***Management** and **Technical Leadership** of **Distributed Software Development** teams.* Coordinating **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc. is a non-trivial fit. I managed teams up to **15 people**.
+* **Legacy code**. I successfully interfaced and updated legacy Codebase in **Fortran**. In this and other Codebases I combated **Technical Debt** to a pragmatic **minimum**.
+* ***Management** and **Technical Leadership** of **Distributed Software Development** teams*. Coordinating **U.S.** based developers and **Outsourcing** contractors in **Ukraine**, **China** etc. is a non-trivial fit. I managed teams up to **15 people**.
 * ***Agile Software Development** Patterns and Practices*. I *mastered* the immense power of **Motivated and Self-organized teams**. I achieved my best results by **empowering others** and **leading from behind**.
 
 ## *Side Note*: Hyperlinks lead to the Internet Archive Wayback Machine (archive.org)
@@ -49,17 +46,17 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ### 2018-Present. [GreatCall][greatcall] Sr Software Engineer
 
-    I joined a brilliant team in charge of Embedded development for Lively Mobile Emergency Response device. It is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. The challenges this product addresses are numerous. So are the opportunties to learn the customer and make supermely meaningful changes in their life.
-    
-    The technologies we use make notorious constraints of Embedded Development perfectly creative. I used latest C++ technologies, built robust architecture that makes advanced use of concurrency and parallelism. 
+I joined a brilliant team in charge of Embedded development for [Lively Mobile Emergency Response device][r4]. It is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the The challenges this product addresses are numerous. I So are the opportunties to learn the customer and make supermely meaningful changes in their life.
 
-    In 2019 we prepared Lively Mobile product for a relaunch. Product Quality was a critical Business Concern. My Data Engineering chops came very handy when analyzing and troubleshooting Mobile Devices and Server side infrastructure. I found new learning opportunties and introduced the team to modern Data Science and Engineering toolsets. My results is a game changer in maintenance of the current generation of product. This will boost the business and facilitate the team to focus on new strategic developments.  
+The technologies we use make notorious constraints of Embedded Development perfectly creative. I used latest C++ technologies, built robust architecture that makes advanced use of concurrency and parallelism. 
 
-    To keep our customers safe and happy we use robust Testing processes and protocols. These include comprehensive unit test suite, automated desktop end-to-end testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device. This improved quality of testing by orders of magnitude. I took initiative to introduce QA team members to the framework, foster their professional growth and help them to be more effective at the job. With the new automation in place I was able to substantially reduce the cost of testing.
+In 2019 we prepared Lively Mobile product for a relaunch. Product Quality was a critical Business Concern. My Data Engineering chops came very handy when analyzing and troubleshooting Mobile Devices and Server side infrastructure. I found new learning opportunties and introduced the team to modern Data Science and Engineering toolsets. My results is a game changer in maintenance of the current generation of product. This will boost the business and facilitate the team to focus on new strategic developments.  
 
-    As we work on the new generation of the product I gladly took upon myself a good deal of Software Architecture work. I prepared Desgins for sub-systems that effectively Send Telemetry and monitor system processes. I am looking forward to participate in design and development of other subsystems for the next generation of the product.
+To keep our customers safe and happy we use robust Testing processes and protocols. These include comprehensive unit test suite, automated desktop end-to-end testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device. This improved quality of testing by orders of magnitude. I took initiative to introduce QA team members to the framework, foster their professional growth and help them to be more effective at the job. With the new automation in place I was able to substantially reduce the cost of testing.
 
-    As a result of great work by the entire organization development team has opportunities to grow. This was the opportunity for me to learn from experienced Hiring Managers and actively contribute to put together Technical Interview challanges and brainstorm ways we can grow and improve the team.
+As we work on the new generation of the product I gladly took upon myself a good deal of Software Architecture work. I prepared Desgins for sub-systems that effectively Send Telemetry and monitor system processes. I am looking forward to participate in design and development of other subsystems for the next generation of the product.
+
+As a result of great work by the entire organization development team has opportunities to grow. This was the opportunity for me to learn from experienced Hiring Managers and actively contribute to put together Technical Interview challanges and brainstorm ways we can grow and improve the team.
 
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
@@ -280,6 +277,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
 [greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
+[r4]: https://web.archive.org/web/https://www.greatcall.com/devices/lively-mobile-medical-alert-system "Lively Mobile"
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
 [gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"
@@ -339,3 +337,4 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 [cicd]:http://web.archive.org/web/https://en.wikipedia.org/wiki/Continuous_integration "Continuous integration/Continuous deployment"
 [crypkey]:http://web.archive.org/web/https://www.crypkey.com "CrypKey"
 [lyceum_prof]:http://web.archive.org/web/http://lyceum-prof.at.ua "Lyceum `Professional`"
+
