@@ -28,6 +28,8 @@ Years **2000-2017** were formative for my software engineering experience in **M
 In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
+ Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. I built custom mobile devices with cellular connectivity for Seniors. [GreatCall][greatcall] is a Mobile Virtual Network Operator. I had the entire pipeline from manufacturing of a custom device to facilitating innovative ways of Care available. The software I built gives a gift of independence, confidence, and livelihood to people who would otherwise have no choice but stay dependent 24/7 from scarse and highly priced resource of  medical professional caregivers.
+
 ## Most prominent achievements
 
 * *Advanced **Graphical User Interface (GUI)** solutions for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products.
@@ -47,11 +49,17 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ### 2018-Present. [GreatCall][greatcall] Sr Software Engineer
 
-I joined a brilliant team in charge of Embedded development for Lively Mobile Emergency Response device. It is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. The technologies we use make notorious constraints of Embedded Development perfectly creative. I used latest C++ technologies, built robust architecture exercising concurrency and parallelism in effective and creative way. 
+    I joined a brilliant team in charge of Embedded development for Lively Mobile Emergency Response device. It is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. The challenges this product addresses are numerous. So are the opportunties to learn the customer and make supermely meaningful changes in their life.
+    
+    The technologies we use make notorious constraints of Embedded Development perfectly creative. I used latest C++ technologies, built robust architecture that makes advanced use of concurrency and parallelism. 
 
-In 2019 we prepared Lively Mobile product for a relaunch. Product Quality was a critical Business Concern. My Data Engineering chops came very handy when analyzing and troubleshooting Mobile Devices and Server side infrastructure.
+    In 2019 we prepared Lively Mobile product for a relaunch. Product Quality was a critical Business Concern. My Data Engineering chops came very handy when analyzing and troubleshooting Mobile Devices and Server side infrastructure. I found new learning opportunties and introduced the team to modern Data Science and Engineering toolsets. My results is a game changer in maintenance of the current generation of product. This will boost the business and facilitate the team to focus on new strategic developments.  
 
-To keep our customers safe and happy we use robust Testing processes and protocols. These include comprehensive unit test suite, automated desktop end-to-end testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device.
+    To keep our customers safe and happy we use robust Testing processes and protocols. These include comprehensive unit test suite, automated desktop end-to-end testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device. This improved quality of testing by orders of magnitude. I took initiative to introduce QA team members to the framework, foster their professional growth and help them to be more effective at the job. With the new automation in place I was able to substantially reduce the cost of testing.
+
+    As we work on the new generation of the product I gladly took upon myself a good deal of Software Architecture work. I prepared Desgins for sub-systems that effectively Send Telemetry and monitor system processes. I am looking forward to participate in design and development of other subsystems for the next generation of the product.
+
+    As a result of great work by the entire organization development team has opportunities to grow. This was the opportunity for me to learn from experienced Hiring Managers and actively contribute to put together Technical Interview challanges and brainstorm ways we can grow and improve the team.
 
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
