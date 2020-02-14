@@ -58,7 +58,7 @@ My initiatives in **Data Engineering** and **QA** facilitated successful utiliza
 
 As we work on the new generation of the product, I gladly took upon myself a good deal of Software Architecture activities. I prepared Designs for sub-systems that send Telemetry and monitor system processes. The
 
-I actively participated in growing of the team. I learned from experienced Hiring Managers and actively contributed to put together Technical Interview challanges and otherwise improve **Hiring** process. This is of a paramount importance for every organization.
+I actively participated in growing of the team. I learned from experienced Hiring Managers and actively contributed to put together **Technical Interview** challanges and otherwise improve **Hiring** process. **Recruiting** is of a paramount importance for every organization.
 
 ### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
 
@@ -254,7 +254,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 
 ## Education
 
-### 1995-2000 Masters Degree. "Data Security in Computer Systems"
+### 1995-2000 Master's Degree. "Data Security in Computer Systems"
 
 [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. **Grade point average is 5.0**, the highest possible.
 
