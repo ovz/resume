@@ -2,14 +2,14 @@
 
 ----
 
-Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534** | Home Address: **12172 Wilsey Way, Poway, CA 92064** |
-Skype: **OlegZhylin** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][oleg_linkedin]**
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534** | Home Address: **10961 Creekbridge Place San Diego, CA 92128-5106** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][oleg_linkedin]** |
+Zoom: **Oleg.Zhylin@gmail.com**
 
 ----
 
-> Professional **Software Engineer** since **1996**. The majority of projects are **C++** and **Python** in **Highly Scientific Domains**. This includes **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. Working knowledge of **SQL**, **JavaScript**, and **C#**. Looking forward to building a project in **Rust**. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
+> Professional **Software Engineer** since **1996**. The majority of projects are **C++** and **Python** in **Highly Scientific Domains**. This includes **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. Advanced knowledge of **SQL**. Working knowledge of **JavaScript**, and **C#**. Looking forward to building a project in **Rust**. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
 >
-> I **bring non-trivial value** as **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, and kept *Technical Debt* at bay. I lead teams up to **15 people**.
+> I **bring non-trivial value** as a **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, and kept *Technical Debt* at bay. I led teams up to **15 people**.
 
 ---- 
 
@@ -17,23 +17,24 @@ Skype: **OlegZhylin** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][ol
 
 I was employed as a **Data Security** and **Cryptography** Software Engineer as an undergrad. My mentors from the University ran the Company. From that time I have an important life skill to see things from the standpoint of a **Security Professional**.
 
-Years **2000-2017** were formative for my software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
+Years **2000-2017** were a formative software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up.
 
 In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in
  **Intellectual Property** transfer and **Product Development**.
 
- Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] is a Mobile Virtual Network Operator (MVNO). It controls end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked through the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood to people who would otherwise have no choice but depend 24/7 from scarce and highly priced resource of Medical professional caregivers.
+Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (part of [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO). It controls end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked through the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood to people who would otherwise have no choice but depend 24/7 from scarce and highly priced resource of Medical professional caregivers.
 
 ## Most prominent achievements
 
-* *Custom **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of sense of urgency to save a human life. I used *modern C++* and scalable architecture to deliver *Business Success*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, and outstanding *Battery Life*.         Effectively exercised *Concurrency* and *Network Technologies*. 
-* **Data Engineering**. Surprisingly and not **Data Preparation** came up on my plate at every job and in all the projects. This is a well-known roadblock between raw data and valuable insights. **[Data Wrangling][data_wrangling]** easily gobbles 80% of time and budget. I prepared data for numerous Consulting projects, Troubleshooting, Forensics, Data Analytical Tech Support cases, etc. The results were ready for analysis within days or even hours. I developed effective **Extract Transform Load (ETL)** functionality. This allowed to quickly learn from data and iterate as many times as needed for desired results. 
+* *Custom **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of sense of urgency to save a human life. I used *modern C++* and scalable architecture to deliver *Business Success*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, and outstanding *Battery Life*. I effectively exercised *Concurrency* and *Network Technologies*.
+* **Positioning Technologies** (GNSS (GPS, GLONAS, Galileo), ECID, WiFi). Accurate Location fixes are critical for an Emergence Response device. I addressed an urgent Business need to improve positioning in the Emergency Response mobile device. I became **Subject Matter Expert on Positioning** for the Company, diagnosed and fixed implementation issues, designed and executed a *major upgrade* of the Positioning infrastructure. 
+* **Data Engineering**. Surprisingly and not **Data Preparation** came up on my plate at every job and in all the projects. This is a well-known roadblock between raw data and valuable insights. **[Data Wrangling][data_wrangling]** easily gobbles up 80% of time and budget. I prepared data for numerous Consulting projects, Troubleshooting, Forensics, Data Analytical Tech Support cases, etc. The results were ready for analysis within days or even hours. I developed effective **Extract Transform Load (ETL)** functionality. This allowed to quickly learn from data and iterate as many times as needed for desired results. 
 * *Advanced **Graphical User Interface (GUI)** for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products. This ensured steady revenue stream and opened possibility for innovation in **Machine Learning**.
 * *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems**. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
 * ***Application Programming Interface (API)** Design***. I helped [Salford Systems][salford] to get to quality API architecture for the core intellectual assets.
-* ***Big Data***. I participated in **heavy research** in the domain of **Machine Learning** from **peta-scale datasets**.
+* ***Big Data***. I participated in **groundbreaking research** in the domain of **Machine Learning** from **peta-scale datasets**.
 * **Legacy code**. I successfully interfaced and updated legacy Codebase in **Fortran**. In this and other Codebases I combated **Technical Debt** to a pragmatic **minimum**.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams*. Coordinating **U.S.** based developers and **Outsourcing** contractors from **Ukraine**, **China** etc. is far from trivial. I managed teams up to **15 people**.
 * ***Agile Software Development** Patterns and Practices*. I *mastered* the immense power of **Motivated and Self-organized teams**. I achieved my best results by **empowering others** and **leading from behind**.
@@ -44,35 +45,35 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 ## Employment History
 
-### 2018-Present. [GreatCall][greatcall] Sr Software Engineer
+### 2018-Present. Best Buy Health][bbh] ([GreatCall][greatcall]). Sr Software Engineer.
 
-I joined a brilliant team in charge of Embedded development for [Lively Mobile Emergency Response device][r4]. It is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
+I joined a brilliant team in charge of Embedded development for [Lively Mobile Emergency Response device][r4]. This is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
 
 Technology selections for [Lively Mobile][r4] made notorious constraints of **Embedded Development** perfectly creative. I used latest C++ technologies, and built robust architecture that makes advanced use of concurrency. 
 
-In 2019 we prepared [Lively Mobile][r4] product for a relaunch. Product Quality was a critical Business Concern. My **Data Engineering** chops came very handy when analyzing and troubleshooting Mobile Devices and Server-side infrastructure. I found new learning opportunities and introduced the team to cutting edge **Data Science** and **Data Engineering**. My results are game changers in maintenance of the current generation of the product. This helped to boost the business. The team could focus on new strategic developments during months of Adoption phase.  
+In 2019 we prepared [Lively Mobile][r4] product for a relaunch. Product Quality was a critical Business Concern. My **Data Engineering** chops came very handy when analyzing and troubleshooting Mobile Devices and Server-side infrastructure. I found new learning opportunities and introduced the team to cutting edge **Data Science** and **Data Engineering**. My results are game changers in maintenance of the current generation of the product. This helped to boost the business. The team could focus on new strategic developments during the months of Adoption phase.  
 
 To keep our customers safe and happy we use comprehensive **QA** processes and protocols. These include unit test suites, automated **End-to-end** testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device. This reduced time and improved quality of testing by orders of magnitude. I took initiative to introduce QA team members to the framework, foster their professional growth, and help them to be more effective on the job. With the new automation in place I was able to substantially reduce the cost of testing.
 
-My initiatives in **Data Engineering** and **QA** facilitated successful utilization of contractor work force. Business was willing to pay for additional resources for **Testing**. To put the budget to good use I was able to bring new people up to speed quickly and keep their day to day work enjoyable and effective.
+My initiatives in **Data Engineering** and **QA** facilitated successful utilization of contractor work force. Business was willing to pay for additional resources for **Testing**. To put the budget to a good use I was able to bring new people up to speed quickly and keep their day to day work enjoyable and effective.
 
-As we work on the new generation of the product, I gladly took upon myself a good deal of Software Architecture activities. I prepared Designs for sub-systems that send Telemetry and monitor system processes. The
+As we work on the new generation of the product, I gladly took upon myself a good deal of Software Architecture activities. I prepared Designs for sub-systems that send Telemetry and monitor system processes.
 
-I actively participated in growing of the team. I learned from experienced Hiring Managers and actively contributed to put together **Technical Interview** challanges and otherwise improve **Hiring** process. **Recruiting** is of a paramount importance for every organization.
+I actively participated in the growing of the team. I learned from experienced Hiring Managers and actively contributed to put together **Technical Interview** challanges and otherwise improve **Hiring** process. **Recruiting** is of a paramount importance for every organization.
 
-### 2017-2018. [Minitab Inc.][minitab] Sr Advisory Software Engineer
+### 2017-2018. [Minitab Inc.][minitab]. Sr Advisory Software Engineer.
 
-At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I was instrumental in making entire **Intellectual Property** of Salford Systems available to Minitab and under proper **Governance**. This allowed quickly moving on to Product Development and improving company-wide **Agile Development Process**.
+At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I was instrumental in making the entire **Intellectual Property** of Salford Systems available to Minitab and get it under proper **Governance**. This allowed quickly moving on to Product Development and improving company-wide **Agile Development Process**.
 
-### 2000-2017. [Salford Systems][salford]. Sr Software Engineer. Architect
+### 2000-2017. [Salford Systems][salford]. Sr Software Engineer, Architect.
 
-Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman][jerry]**, **[Leo Breiman][leo]**, **[Richard Olshen][olshen]**, and **[Charles Stone][chuck]**, authors of the famous **[CART Monograph][cart_monograph]**.
+Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman][jerry]**, **[Leo Breiman][leo]**, **[Richard Olshen][olshen]**, and **[Charles Stone][chuck]**, the authors of the famous **[CART Monograph][cart_monograph]**.
 
 For me, it was enormous fun and hard work to help our customers meet their **Data Science** and **Artificial Intelligence** needs way before these terms became buzzwords.
 
 I was primary **Graphical User Interface (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product, **[Salford Predictive Modeler (SPM)][spm82]**.
 
-### 1996-2000. [Institute of Information Technology (IIT)][iit]. Software Developer. Data Security Researcher
+### 1996-2000. [Institute of Information Technology (IIT)][iit]. Software Developer. Data Security Researcher.
 
 I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
 
@@ -102,7 +103,7 @@ Minitab built a comprehensive development process based on [Visual Studio Team S
 * Maintained legacy [CI/CD][cicd] that SDS team did not have resources to migrate.
 * **Developed new features** for upcoming SPM release.
 
-### 2016-2017. [SPM 8.2][spm82]
+### 2016-2017. [SPM 8.2][spm82].
 
 I was the main engineer behind preparing and running **SPM 8.2** in production. Each major release of **[Salford Predictive Modeler (SPM)][spm82]** was a stable **revenue generator** for the company for several years.
 
@@ -128,7 +129,7 @@ My co-architect and other team members were *world top* Python programmers. It w
 
 Managed the team up to **7 people**.
 
-### 2014-2016. Distributed Machine Learning for [Importance Sampled Learning Ensembles (ISLE)][isle]
+### 2014-2016. Distributed Machine Learning for [Importance Sampled Learning Ensembles (ISLE)][isle].
 
 More and more customers discovered their datasets become **Big Data** challenges.
 We decided to start with developing Big Data solution for **[Importance Sampled Learning Ensembles (ISLE)][isle]**. The advantage was that we did not need to grow a single tree over the entire Big Data dataset.
@@ -144,7 +145,7 @@ Ideas, Experiences, and Development Results from this projects were later used i
 
 Managed team up to **3 people**.
 
-### 2016-2017. SPM GUI using *Qt framework*
+### 2016-2017. SPM GUI using *Qt framework*.
 
 I was **Chief Architect** and **Product Owner** of the team that rewrote entire SPM GUI using **[Qt framework][qt]**.
 
@@ -168,7 +169,7 @@ APIs were used in **Cloud-ready SPM** and other internal projects as well as in 
 
 This project showed a need for a unified approach to scripting. We created a task running framework using [pyinvoke][pyinvoke].
 
-### 2015. Big Data Scoring utility for *Apache Hive*
+### 2015. Big Data Scoring utility for *Apache Hive*.
 
 A large Department Store chain client asked for help to apply hundreds of individual TreeNet models to billions of observations in Hadoop. They used **Apache Hive** to manage data. I was familiar with Hive before but far from an active user. A quick research brought up a nice solution. Hive supports `SELECT TRANSFORM` statement that allows specifying a custom shell script to consume data produced by Hive query.
 
@@ -176,11 +177,11 @@ The power of the solution comes from using [Tiny C Compiler][tcc]. It was a perf
 
 The client liked our solution very much. It was straightforward for them to put it in production where it was used for at least one year.
 
-### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*
+### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*.
 
 The key pre-requisite for bringing an internationalized version of the software to the market is a reliable native partner on site. During the years we entered into business partnerships and produced internationalized versions for markets in **Asia**.
 
-### 2015-2017. [Wibu Codemeter][codemeter] deployment
+### 2015-2017. [Wibu Codemeter][codemeter] deployment.
 
 Historically I was in charge of **License Managers** developed in-house and **[CrypKey][crypkey]** license manager used in production for **[Salford Predictive Modeler (SPM)][spm82]**. We faced a challenge that we needed *cross-platform*, *Enterprise-ready* license manager. We wanted a single solution to protect all the products, including DLLs for **Machine Learning Predictive engines API**.
 
@@ -192,7 +193,7 @@ I conducted a thorough research. I went through trials of **[Flexera Software Fl
 
 Managed team up to **15 people**, including **Software** and **QA** engineers. I was in charge of coordinating **outsource** development team in **Ukraine**.
 
-### 2013. *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain
+### 2013. *Promotion Optimization* for a major Brazilian brick and mortar Retail Store chain.
 
 As part of a consulting project, Salford Systems received data about sale transactions from a major brick and mortar retail store chain in Brazil. The client was looking for the several key insights. The research resulted in longer-term collaboration during which I greatly improved my skills in the following areas.
 
@@ -205,13 +206,13 @@ As part of a consulting project, Salford Systems received data about sale transa
 * **WWF**
 * **WPF**
 
-### 2012. Upgraded **[Salford Predictive Modeler (SPM)][spm82]** to 64 bit
+### 2012. Upgraded **[Salford Predictive Modeler (SPM)][spm82]** to 64 bit.
 
 **[Salford Predictive Modeler (SPM)][spm82]** is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address the limitation of 4Gb address space of legacy 32 bit Operating Systems.
 
 I was in charge of transforming the Codebase so that it compiles for the 64-bit platform. Most important part of the process is to methodically revisit all the places in the code and make sure 64-bit addresses and sizes are handled correctly.
 
-### 2008-2009. Contract project for a major *National Health Survey* for a large *Pharmaceutical* company
+### 2008-2009. Contract project for a major *National Health Survey* for a large *Pharmaceutical* company.
 
 Due to the economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were.
 
@@ -221,7 +222,7 @@ The largest challenge was to **Prepare Data** for analysis. As with any Machine 
 
 As a result, all the data was nicely warehoused. We received commendments from the client and they followed up with more projects using the same dataset. The effort did pay off.
 
-### 2004-2005. Client-Server predictive analytics application
+### 2004-2005. Client-Server predictive analytics application.
 
 One of the strategic projects of the company and the largest software system I have developed *singlehandedly* from the ground up was a **Client-Server** solution for running Predictive Analytics algorithms on remote servers.
 
@@ -229,7 +230,7 @@ I designed the entire system and implemented a fully cross-platform TCP/IP daemo
 
 I learned a ton from this project. This was my major introduction to **Concurrency**, **Parallelism**, **Network Programming**, **Network Protocol Design** etc. I developed a C++ library that implemented quite a number of Design Patterns from [Gang of Four (GoF)][gof_book]. This gave me intimate knowledge of the patterns and brought my understanding of idiomatic C++ to the next level.
 
-### 2003. [CART 5.0][cart_5_0] Release
+### 2003. [CART 5.0][cart_5_0] Release.
 
 CART 5.0 was the first major release that transformed CART from *single* decision tree product to a **suit** of Predictive algorithms.
 
@@ -243,7 +244,7 @@ Salford Systems originally decided to hire me as a contractor because I demonstr
 
 A client requested a way to read Decision Tree models saved by CART in proprietary `.nv3` format. I immediately figured out a way to **quickly** implement the API. Familiarity with the code I acquired while working on Decision Trees helped immensely.
 
-### 2000-2001. [CART 4.0][cart_4_0] Advanced Decision Tree visualization
+### 2000-2001. [CART 4.0][cart_4_0] Advanced Decision Tree visualization.
 
 [CART][cart_4_0] was the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeler (SPM)**. As my first assignment I immediately bring a non-trivial amount of value into the next release of the product. I implemented the following.
 
@@ -258,11 +259,11 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 
 [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. **Grade point average is 5.0**, the highest possible.
 
-### 1995-1998 University Certificate of Higher Education. "Information Systems"
+### 1995-1998 University Certificate of Higher Education. "Information Systems".
 
 [Thames Valley University, London][thames_valley] Now known as University of West London.
 
-### 1993-1995. Software Developer, Researcher
+### 1993-1995. Software Developer, Researcher.
 
 [Lyceum "Professional"][lyceum_prof]. This was a pioneering school well ahead of its time. It gave us comprehensive University curriculum in an engaging and innovative way. This was an amazing professional and educational boost.
 
@@ -279,6 +280,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
 [greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
+[bbh]: https://web.archive.org/web/https://healthcare.bestbuy.com/ "Best Buy Health"
 [r4]: https://web.archive.org/web/https://www.greatcall.com/devices/lively-mobile-medical-alert-system "Lively Mobile"
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
