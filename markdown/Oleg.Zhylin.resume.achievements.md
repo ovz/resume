@@ -7,29 +7,28 @@ Zoom: **Oleg.Zhylin@gmail.com**
 
 ----
 
-> Professional **Software Engineer** since **1996**. The majority of projects are **C++** and **Python** in **Highly Scientific Domains**. This includes **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. Advanced knowledge of **SQL**. Working knowledge of **JavaScript**, and **C#**. Looking forward to building a project in **Rust**. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
+> Professional **Software Engineer** since **1996**. Most of the projects were in **C++** and **Python**. The domains included **Embedded Mobile Devices**, **Cellular Technologies**, **Positioning/Location (GPS)**, **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. Advanced knowledge of **SQL**. Working knowledge of **JavaScript**, and **C#**. Looking forward to building a project in **Rust**. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
 >
-> I **bring non-trivial value** as a **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity*, and kept *Technical Debt* at bay. I led teams up to **15 people**.
+> I **bring non-trivial value** as a **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity* and kept *technical debt* at bay. I led teams up to **15 people**.
 
 ---- 
 
 ## Experience Overview
 
-I was employed as a **Data Security** and **Cryptography** Software Engineer as an undergrad. My mentors from the University ran the Company. From that time I have an important life skill to see things from the standpoint of a **Security Professional**.
+I was employed as a **Data Security** and **Cryptography** Software Engineer as an undergrad. My mentors from the University ran the Company. From that time, I have an important life skill to see things from the standpoint of a **Security Professional**.
 
-Years **2000-2017** were a formative software engineering experience in **Machine Learning** domain. [Salford Systems][salford] was a pioneering **Data Science**
+Years **2000-2017** were a formative software engineering experience in **Data Science** domain. [Salford Systems][salford] was a pioneering **Machine Learning**
  company that pushed the envelope of **Decision Trees** in
  Machine Learning way before mainstream caught up.
 
-In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in
- **Intellectual Property** transfer and **Product Development**.
+In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in **Intellectual Property** transfer and further **Product Development**.
 
-Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (part of [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO). It controls end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked through the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood to people who would otherwise have no choice but depend 24/7 from scarce and highly priced resource of Medical professional caregivers.
+Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (part of [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO). It controls end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked through the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*.
 
 ## Most prominent achievements
 
-* *Custom **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of sense of urgency to save a human life. I used *modern C++* and scalable architecture to deliver *Business Success*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, and outstanding *Battery Life*. I effectively exercised *Concurrency* and *Network Technologies*.
-* **Positioning Technologies** (GNSS (GPS, GLONAS, Galileo), ECID, WiFi). Accurate Location fixes are critical for an Emergence Response device. I addressed an urgent Business need to improve positioning in the Emergency Response mobile device. I became **Subject Matter Expert on Positioning** for the Company, diagnosed and fixed implementation issues, designed and executed a *major upgrade* of the Positioning infrastructure. 
+* *Custom **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of a sense of urgency to save a human life. I used *modern C++* and scalable architectures to deliver *Business Success*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, outstanding *Battery Life*, etc. I effectively exercised *Concurrency* and *Network Technologies*.
+* **Positioning Technologies** (GNSS (GPS, GLONAS, Galileo), ECID, Wi-Fi). Accurate **Location** fixes are critical for an Emergence Response device. I addressed an urgent business need to improve positioning in the Emergency Response mobile device. I became **Subject Matter Expert on Positioning** for the Company, diagnosed and fixed implementation issues, designed and executed a *major upgrade* of the Positioning infrastructure. 
 * **Data Engineering**. Surprisingly and not **Data Preparation** came up on my plate at every job and in all the projects. This is a well-known roadblock between raw data and valuable insights. **[Data Wrangling][data_wrangling]** easily gobbles up 80% of time and budget. I prepared data for numerous Consulting projects, Troubleshooting, Forensics, Data Analytical Tech Support cases, etc. The results were ready for analysis within days or even hours. I developed effective **Extract Transform Load (ETL)** functionality. This allowed to quickly learn from data and iterate as many times as needed for desired results. 
 * *Advanced **Graphical User Interface (GUI)** for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products. This ensured steady revenue stream and opened possibility for innovation in **Machine Learning**.
 * *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems**. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
@@ -53,13 +52,13 @@ Technology selections for [Lively Mobile][r4] made notorious constraints of **Em
 
 In 2019 we prepared [Lively Mobile][r4] product for a relaunch. Product Quality was a critical Business Concern. My **Data Engineering** chops came very handy when analyzing and troubleshooting Mobile Devices and Server-side infrastructure. I found new learning opportunities and introduced the team to cutting edge **Data Science** and **Data Engineering**. My results are game changers in maintenance of the current generation of the product. This helped to boost the business. The team could focus on new strategic developments during the months of Adoption phase.  
 
-To keep our customers safe and happy we use comprehensive **QA** processes and protocols. These include unit test suites, automated **End-to-end** testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device. This reduced time and improved quality of testing by orders of magnitude. I took initiative to introduce QA team members to the framework, foster their professional growth, and help them to be more effective on the job. With the new automation in place I was able to substantially reduce the cost of testing.
+To keep our customers safe and happy we use comprehensive **QA** processes and protocols. These include unit test suites, automated **End-to-end** testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device. This reduced time and improved quality of testing by orders of magnitude. I took initiative to introduce QA team members to the framework, foster their professional growth, and help them to be more effective on the job. With the new automation in place, I was able to substantially reduce the cost of testing.
 
-My initiatives in **Data Engineering** and **QA** facilitated successful utilization of contractor work force. Business was willing to pay for additional resources for **Testing**. To put the budget to a good use I was able to bring new people up to speed quickly and keep their day to day work enjoyable and effective.
+My initiatives in **Data Engineering** and **QA** facilitated successful utilization of contractor work force. Business was willing to pay for additional resources for **Testing**. To put the budget to a good use I was able to bring new people up to speed quickly and keep their day-to-day work enjoyable and effective.
 
 As we work on the new generation of the product, I gladly took upon myself a good deal of Software Architecture activities. I prepared Designs for sub-systems that send Telemetry and monitor system processes.
 
-I actively participated in the growing of the team. I learned from experienced Hiring Managers and actively contributed to put together **Technical Interview** challanges and otherwise improve **Hiring** process. **Recruiting** is of a paramount importance for every organization.
+I actively participated in the growing of the team. I learned from experienced Hiring Managers and actively contributed to put together **Technical Interview** challenges and otherwise improve **Hiring** process. **Recruiting** is of a paramount importance for every organization.
 
 ### 2017-2018. [Minitab Inc.][minitab]. Sr Advisory Software Engineer.
 
@@ -75,7 +74,7 @@ I was primary **Graphical User Interface (GUI)** developer and one of the collab
 
 ### 1996-2000. [Institute of Information Technology (IIT)][iit]. Software Developer. Data Security Researcher.
 
-I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
+I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
 
 In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Research and Development entity through which my mentors from [Department of Information Technology Security (ITS)][kafedra_bit] worked on commercial projects. The biggest project was sub-contracting *Cryptography implementation* for a **Client-Bank** system.
 
@@ -85,11 +84,11 @@ In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Rese
 
 ### 2017-2018 Acquisition of Salford Systems by Minitab
 
-Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. I leveraged decades of experience with Salford Systems and **completed migration under a year**.
+Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined, we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. I leveraged decades of experience with Salford Systems and **completed migration under a year**.
 
 * Transferred all Salford Systems **Intellectual Property** to Minitab and under proper **Governance**. I kept **detailed records** over past years. This boosted the migration.
-* Provided **Comprehensive Review** of all the Software Development Projects in progress at Salford Systems. Implemented **decisions by Top Management** at Minitab to put some of the projects on hold are properly frozen. *All the projects can resurrected effectively*.
-* Gained trust and made myself a valuable resources for TechOps team. We completed a very well planned and orchestrated corporate IT merger.
+* Provided **Comprehensive Review** of all the Software Development Projects in progress at Salford Systems. Implemented **decisions by Top Management** at Minitab to put some of the projects on hold are properly frozen. *All the projects can be resurrected effectively*.
+* Gained trust and made myself a valuable resource for TechOps team. We completed a very well planned and orchestrated corporate IT merger.
 * Brought Codebase in accord with **Source Code Style** guidelines. Exercised my knowledge of C++ to get other Tech Leads in the company on board for **significant improvements**.
 * Greatly improved quality of the Codebase.
 * Per mandate from the Top Management quickly implemented process to **scale-up development team**. Reduced on-boarding speed from **2-3 months** to **less than a week**.
@@ -112,15 +111,15 @@ I was the main engineer behind preparing and running **SPM 8.2** in production. 
 * Implemented **required features** for this release **in time** and **top quality**.
 * Worked on *cutting edge* features in a **feature branch**. From this branch I forked Codebase for **Machine Learning Predictive engines API** and **SPM GUI using *Qt framework***.
 
-During this project, I managed a team up to **12 people**. **Outsourcing** team in **Ukraine** matured. Thanks to the hard work of the team members I could help them to become instrumental contributors in terms of **Product Features** and **Quality**.
+During this project, I managed a team up to **12 people**. **Outsourcing** team in **Ukraine** matured. The majority of the team members were hard working and honest, and I was able to help them to become instrumental contributors to **Product Features** and **Quality**.
 
 ### 2015-2017. **Cloud-ready SPM**
 
-**Cloud-ready SPM** project captured our vision for **cutting-edge** usage of Salford Systems technologies. We wanted our **Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers. At the same time we saw a huge market for Machine Learning solutions *out of the box*. We could and it made all the sense to use our own low-level APIs to build **Cloud** offerings.
+**Cloud-ready SPM** project captured our vision for **cutting-edge** usage of Salford Systems technologies. We wanted our **Machine Learning engines** as **lean APIs** that we can run anywhere and license them to customers. At the same time, we saw a huge market for Machine Learning solutions *out of the box*. We could and it made all the sense to use our own low-level APIs to build **Cloud** offerings.
 
 I was one of the **Principal Architects** and the **Product Owner** for the project.
 
-* *Middle layer* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. This was a backbone for enabling multiple front-ends.
+* *Middle layer* was powered by **Web API** based on **OpenAPI Specification (aka Swagger)**. This was a backbone for enabling multiple front ends.
 * *Primary Front end* was a **Web Application** written in **React.Js**, **Redux** and **PostgreSQL**. I pushed for *winning technologies*. This facilitated **rapid prototyping** and **instant delivery** of our results to early adopters.
 * *Backend* was in **Python**. At the heart of the backend was a **Distributed Queue** based on **Redis** and **Tasks** framework to execute queue elements.
 * *Big Data Storage* supported all major technologies, including **Hadoop**, **Amazon S3** etc.
@@ -141,7 +140,7 @@ The primary challenge I addressed was to find technologies that are a good fit f
 * **[Databricks Cloud][databricks]**. I had a chance to connect with people from Databricks at **[Strata conference][strata_conf_2014]** in NYC in *October 2014*. We found good touching points and entered a partnership.
 * **[Dask Python framework][dask]**. The framework pleasantly surprised me. All essential parts clicked together and addressed our major concerns.
 
-Ideas, Experiences, and Development Results from this projects were later used in **Cloud-ready SPM** project.
+Ideas, Experiences, and Development Results from this project  were later used in **Cloud-ready SPM** project.
 
 Managed team up to **3 people**.
 
@@ -155,7 +154,7 @@ We decided to use **[Qt Widgets][qwidgets]** for this project. The major challen
 
 For this project, I successfully reused framework based on [pyinvoke][pyinvoke] that was developed as part of **Cloud-ready SPM** project.
 
-Over the course of this project I managed a team up to **10 people**.
+Over the course of this project, I managed a team up to **10 people**.
 
 ### 2014-2017. **Machine Learning Predictive engines API**
 
@@ -179,7 +178,7 @@ The client liked our solution very much. It was straightforward for them to put 
 
 ### 2011-2017. SPM *Unicode* and *Internationalization (i18n)*.
 
-The key pre-requisite for bringing an internationalized version of the software to the market is a reliable native partner on site. During the years we entered into business partnerships and produced internationalized versions for markets in **Asia**.
+The key pre-requisite for bringing an internationalized version of the software to the market is a reliable native partner on site. During the years we entered business partnerships and produced internationalized versions for markets in **Asia**.
 
 ### 2015-2017. [Wibu Codemeter][codemeter] deployment.
 
@@ -189,7 +188,7 @@ I conducted a thorough research. I went through trials of **[Flexera Software Fl
 
 ### 2014-2015. [SPM 7.0][spm70]
 
-**[Salford Predictive Modeler 7.0 (SPM)][spm70]** brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed a number of new features and greatly improved **Architecture** and **Infrastructure** of the application.
+**[Salford Predictive Modeler 7.0 (SPM)][spm70]** brought a ton of value for end users. It was also re-envisioned in a major way from the inside. I developed many of the new features and greatly improved **Architecture** and **Infrastructure** of the application.
 
 Managed team up to **15 people**, including **Software** and **QA** engineers. I was in charge of coordinating **outsource** development team in **Ukraine**.
 
@@ -206,21 +205,21 @@ As part of a consulting project, Salford Systems received data about sale transa
 * **WWF**
 * **WPF**
 
-### 2012. Upgraded **[Salford Predictive Modeler (SPM)][spm82]** to 64 bit.
+### 2012. Upgraded **[Salford Predictive Modeler (SPM)][spm82]** to 64 bits.
 
-**[Salford Predictive Modeler (SPM)][spm82]** is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address the limitation of 4Gb address space of legacy 32 bit Operating Systems.
+**[Salford Predictive Modeler (SPM)][spm82]** is very memory intensive. Any non-trivial Machine Learning challenge has far from modest memory requirements. It was crucial to address the limitation of 4Gb address space of legacy 32-bit Operating Systems.
 
 I was in charge of transforming the Codebase so that it compiles for the 64-bit platform. Most important part of the process is to methodically revisit all the places in the code and make sure 64-bit addresses and sizes are handled correctly.
 
 ### 2008-2009. Contract project for a major *National Health Survey* for a large *Pharmaceutical* company.
 
-Due to the economic downturn Salford Systems had to embark on a number of consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were.
+Due to the economic downturn Salford Systems had to embark on many consulting projects. The company itself was privately owned and was not affected by the **Stock Market** directly but many of the clients were.
 
 The largest project was to apply **CART** and other Machine Learning algorithms to results of one of the major **National Health Surveys**. The client was very interested in discovering segments in the population for **Marketing** purposes. Machine Learning part was straightforward and very successful.
 
 The largest challenge was to **Prepare Data** for analysis. As with any Machine Learning project **[Data Wrangling][data_wrangling]** took 80% of the effort. I developed an approach based on **[SAS][sas]** scripts. I learned SAS *from scratch* and created a system based on **SAS macros**.
 
-As a result, all the data was nicely warehoused. We received commendments from the client and they followed up with more projects using the same dataset. The effort did pay off.
+As a result, all the data was nicely warehoused. The client commended us, and they followed up with more projects using the same dataset. The effort did pay off.
 
 ### 2004-2005. Client-Server predictive analytics application.
 
@@ -228,13 +227,11 @@ One of the strategic projects of the company and the largest software system I h
 
 I designed the entire system and implemented a fully cross-platform TCP/IP daemon. The daemon ran multiple data mining jobs on behalf of end-users, who interact with the system via the same familiar *[SPM][spm82]* GUI. I provided *guidance* and a *framework of components* for two developers in charge of client-side GUI implementation.
 
-I learned a ton from this project. This was my major introduction to **Concurrency**, **Parallelism**, **Network Programming**, **Network Protocol Design** etc. I developed a C++ library that implemented quite a number of Design Patterns from [Gang of Four (GoF)][gof_book]. This gave me intimate knowledge of the patterns and brought my understanding of idiomatic C++ to the next level.
+I learned a ton from this project. This was my major introduction to **Concurrency**, **Parallelism**, **Network Programming**, **Network Protocol Design** etc. I developed a C++ library that implemented a large percentage of Design Patterns from [Gang of Four (GoF)][gof_book]. This gave me intimate knowledge of the patterns and brought my understanding of idiomatic C++ to the next level.
 
 ### 2003. [CART 5.0][cart_5_0] Release.
 
-CART 5.0 was the first major release that transformed CART from *single* decision tree product to a **suit** of Predictive algorithms.
-
-In addition to new features, my help was needed to address bugs in the software. My previous work was focused around *CART Navigator* Codebase and I was able to address a good amount of **technical debt** there.
+CART 5.0 was the first major release that transformed CART from *single* decision tree product to a **suit** of Predictive algorithms. This opened new challenges and opportunities. I used results of my previous work on *CART Navigator* Codebase. I fixed bugs that were lingering in the codebase for months and years, brought in reusable elements and subsystems, reduced a good amount of **technical debt**, etc. 
 
 ### 2001-2002. Upgrade CART UI to C++/MFC
 
@@ -246,7 +243,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 
 ### 2000-2001. [CART 4.0][cart_4_0] Advanced Decision Tree visualization.
 
-[CART][cart_4_0] was the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added and the product was later re-branded as **Salford Predictive Modeler (SPM)**. As my first assignment I immediately bring a non-trivial amount of value into the next release of the product. I implemented the following.
+[CART][cart_4_0] was the original flagship product of [Salford Systems][salford]. It started as a product around *single* decision tree only. Later other Machine Learning algorithms were added, and the product was later re-branded as **Salford Predictive Modeler (SPM)**. As my first assignment I immediately bring a non-trivial amount of value into the next release of the product. I implemented the following.
 
 * **Compact tree layout**.
 * ***Tree Details** display*.
@@ -257,7 +254,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 
 ### 1995-2000 Master's Degree. "Data Security in Computer Systems"
 
-[Kharkiv National University Of Radio Electronics (NURE)][nure_eng]. **Grade point average is 5.0**, the highest possible.
+[Kharkiv National University of Radio Electronics (NURE)][nure_eng]. **Grade point average is 5.0**, the highest possible.
 
 ### 1995-1998 University Certificate of Higher Education. "Information Systems".
 
@@ -286,7 +283,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
 [gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"
 [kafedra_bit]: http://web.archive.org/web/https://nure.ua/en/department/department-of-information-technology-security-its "Department of Information Technology Security (ITS)"
-[nure_eng]: http://web.archive.org/web/http://nure.ua/en "Kharkiv National University Of Radio Electronics (NURE)"
+[nure_eng]: http://web.archive.org/web/http://nure.ua/en "Kharkiv National University of Radio Electronics (NURE)"
 [thames_valley]: http://web.archive.org/web/https://www.uwl.ac.uk "University of West London"
 [oliphant]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Travis_Oliphant "Travis Oliphant"
 [iit]:https://web.archive.org/web/https://iit.com.ua/en "Institute of Information Technology"
