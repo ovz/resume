@@ -2,12 +2,11 @@
 
 ----
 
-Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534** | Home Address: **10961 Creekbridge Place San Diego, CA 92128-5106** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][oleg_linkedin]** |
-Zoom: **Oleg.Zhylin@gmail.com**
+Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534** | Home Address: **21756 Harroun Ter, Ashburn, VA 20147** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][oleg_linkedin]** 
 
 ----
 
-> Professional **Software Engineer** since **1996**. Most of the projects were in **C++** and **Python**. The domains included **Embedded Mobile Devices**, **Cellular Technologies**, **Positioning/Location (GPS)**, **Data Engineering**, **Machine Learning**, **Data Science**, **Security** etc. Advanced knowledge of **SQL**. Working knowledge of **JavaScript**, and **C#**. Looking forward to building a project in **Rust**. I am looking for challenges in **AI** and **Big Data** in the **Cloud**.
+> Professional **Software Engineer** since **1996**. Most of the projects are in **C++** and **Python**. The domains include **Embedded Mobile Devices**, **Cellular Technologies**, **Health**, **Telecommunications**, **Data Engineering**, **Machine Learning/AI**, **Data Science**, **Security** etc. Advanced knowledge of **SQL**. Working knowledge of **JavaScript**, and **C#**. Intermediate **Rust**. Successfully used **Neural Networks** in application to *Fall Detection*. I am looking for a **Sr. Principal Engineer** or **Sr. Staff Engineer** position.
 >
 > I **bring non-trivial value** as a **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity* and kept *technical debt* at bay. I led teams up to **15 people**.
 
@@ -17,22 +16,22 @@ Zoom: **Oleg.Zhylin@gmail.com**
 
 I was employed as a **Data Security** and **Cryptography** Software Engineer as an undergrad. My mentors from the University ran the Company. From that time, I have an important life skill to see things from the standpoint of a **Security Professional**.
 
-Years **2000-2017** were a formative software engineering experience in **Data Science** domain. [Salford Systems][salford] was a pioneering **Machine Learning**
+Years **2000-2017** were a formative software engineering experience in **Data Science** domain. [Salford Systems][salford] was a pioneering **Machine Learning/AI**
  company that pushed the envelope of **Decision Trees** in
- Machine Learning way before mainstream caught up.
+ Machine Learning/AI way before mainstream caught up.
 
 In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in **Intellectual Property** transfer and further **Product Development**.
 
-Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (part of [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO). It controls end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked through the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*.
+Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (part of [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO). It controls end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked through the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*. I achieved OKR (Objectives and Key Results) and overdelivered on **Operational Excellence** using **Datadog** platform.
 
 ## Most prominent achievements
 
-* *Custom **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of a sense of urgency to save a human life. I used *modern C++* and scalable architectures to deliver *Business Success*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, outstanding *Battery Life*, etc. I effectively exercised *Concurrency* and *Network Technologies*.
-* **Positioning Technologies** (GNSS (GPS, GLONAS, Galileo), ECID, Wi-Fi). Accurate **Location** fixes are critical for an Emergence Response device. I addressed an urgent business need to improve positioning in the Emergency Response mobile device. I became **Subject Matter Expert on Positioning** for the Company, diagnosed and fixed implementation issues, designed and executed a *major upgrade* of the Positioning infrastructure. 
+* *Custom **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of a sense of urgency to save a human life. I used *modern C++* and scalable architectures to deliver multiple *successful Product Launches*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, outstanding *Battery Life*, *Operational Excellence* etc. I effectively exercised *Concurrency* and *Network Technologies*.
+* **Positioning Technologies** (GNSS (GPS, GLONAS, Galileo), ECID, Wi-Fi, Bluetooth/BLE Beacons). Accurate **Location** fixes are critical for an Emergence Response device. I addressed an urgent business need to improve positioning in the Emergency Response mobile device. I became **Subject Matter Expert on Positioning** for the Company, diagnosed and fixed implementation issues, designed and executed a *major upgrade* of the Positioning infrastructure. 
 * **Data Engineering**. Surprisingly and not **Data Preparation** came up on my plate at every job and in all the projects. This is a well-known roadblock between raw data and valuable insights. **[Data Wrangling][data_wrangling]** easily gobbles up 80% of time and budget. I prepared data for numerous Consulting projects, Troubleshooting, Forensics, Data Analytical Tech Support cases, etc. The results were ready for analysis within days or even hours. I developed effective **Extract Transform Load (ETL)** functionality. This allowed to quickly learn from data and iterate as many times as needed for desired results. 
 * *Advanced **Graphical User Interface (GUI)** for Machine Learning*. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products. This ensured steady revenue stream and opened possibility for innovation in **Machine Learning**.
-* *Software Architecture for **Desktop Applications**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems**. As an architect, I provided **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to work out best decisions.
-* ***Application Programming Interface (API)** Design***. I helped [Salford Systems][salford] to get to quality API architecture for the core intellectual assets.
+* *Software Architecture for **Desktop Applications**, **Embedded devices**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. As an architect, I provided a **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to produce the best decisions.
+* ***Application Programming Interface (API)** Design***. I helped [Salford Systems][salford] to get to a quality API architecture for the core intellectual assets.
 * ***Big Data***. I participated in **groundbreaking research** in the domain of **Machine Learning** from **peta-scale datasets**.
 * **Legacy code**. I successfully interfaced and updated legacy Codebase in **Fortran**. In this and other Codebases I combated **Technical Debt** to a pragmatic **minimum**.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams*. Coordinating **U.S.** based developers and **Outsourcing** contractors from **Ukraine**, **China** etc. is far from trivial. I managed teams up to **15 people**.
@@ -52,13 +51,15 @@ Technology selections for [Lively Mobile][r4] made notorious constraints of **Em
 
 In 2019 we prepared [Lively Mobile][r4] product for a relaunch. Product Quality was a critical Business Concern. My **Data Engineering** chops came very handy when analyzing and troubleshooting Mobile Devices and Server-side infrastructure. I found new learning opportunities and introduced the team to cutting edge **Data Science** and **Data Engineering**. My results are game changers in maintenance of the current generation of the product. This helped to boost the business. The team could focus on new strategic developments during the months of Adoption phase.  
 
+In 2024 we launched [Lively Mobile 2][r5] product. I was effective to bring [Lively Mobile][r4] codebase up to date with User Interface, Industrial Design, Electrical Design, etc. The product is much more tolerant supporting replacement hardware components. Positioning functionality received an upgrade using Qualcomm Skyhook technology for Qualcomm Linux Enablement (LE). I designed and conducted rigorous testing procedures and collaborated with Qualcomm to resolve advanced use cases. I drastically reduced Cost of Operation for the product by implementing Operational Excellence practices like Observability, Monitoring, Incident Creation, Runbooks, Post-mortems etc. 
+
 To keep our customers safe and happy we use comprehensive **QA** processes and protocols. These include unit test suites, automated **End-to-end** testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device. This reduced time and improved quality of testing by orders of magnitude. I took initiative to introduce QA team members to the framework, foster their professional growth, and help them to be more effective on the job. With the new automation in place, I was able to substantially reduce the cost of testing.
 
 My initiatives in **Data Engineering** and **QA** facilitated successful utilization of contractor work force. Business was willing to pay for additional resources for **Testing**. To put the budget to a good use I was able to bring new people up to speed quickly and keep their day-to-day work enjoyable and effective.
 
 As we work on the new generation of the product, I gladly took upon myself a good deal of Software Architecture activities. I prepared Designs for sub-systems that send Telemetry and monitor system processes.
 
-I actively participated in the growing of the team. I learned from experienced Hiring Managers and actively contributed to put together **Technical Interview** challenges and otherwise improve **Hiring** process. **Recruiting** is of a paramount importance for every organization.
+I actively participated in the growing of the team. I learned from experienced Hiring Managers and actively contributed to put together **Technical Interview** challenges and otherwise improve **Hiring** process. With understanding that **Recruiting** is of a paramount importance for every organization I contribute to it on regular basis.
 
 ### 2017-2018. [Minitab Inc.][minitab]. Sr Advisory Software Engineer.
 
@@ -80,18 +81,18 @@ In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Rese
 
 ## Projects Overview
 
-*Details on any of the projects are available upon request.*
+*Please feel free to ask me for stories from any of the projects below.*
 
 ### 2017-2018 Acquisition of Salford Systems by Minitab
 
-Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies joined, we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. I leveraged decades of experience with Salford Systems and **completed migration under a year**.
+Minitab built a comprehensive development process based on [Visual Studio Team Services][vsts]. After the companies merged, we had clear goals where we want to bring our Codebase, Issue Tracking, [CI/CD][cicd] etc. I leveraged decades of experience with Salford Systems and **completed the migration less than a year**.
 
-* Transferred all Salford Systems **Intellectual Property** to Minitab and under proper **Governance**. I kept **detailed records** over past years. This boosted the migration.
+* Transferred all Salford Systems **Intellectual Property** to Minitab and under proper **Governance**. I kept **detailed records** over past years. This boosted the pace of migration.
 * Provided **Comprehensive Review** of all the Software Development Projects in progress at Salford Systems. Implemented **decisions by Top Management** at Minitab to put some of the projects on hold are properly frozen. *All the projects can be resurrected effectively*.
 * Gained trust and made myself a valuable resource for TechOps team. We completed a very well planned and orchestrated corporate IT merger.
 * Brought Codebase in accord with **Source Code Style** guidelines. Exercised my knowledge of C++ to get other Tech Leads in the company on board for **significant improvements**.
 * Greatly improved quality of the Codebase.
-* Per mandate from the Top Management quickly implemented process to **scale-up development team**. Reduced on-boarding speed from **2-3 months** to **less than a week**.
+* Per a mandate from the Top Management quickly implemented process to **scale-up development team**. Reduced on-boarding speed from **2-3 months** to **less than a week**.
 * Established a **stable baseline** version of **Salford Predictive Modeler (SPM)** product. Thoroughly identified and **addressed instabilities**. This created a solid foundation for the planned incremental release of **SPM v8.3**.
 * Improved coverage and quality of **Automated Tests**. Helped **Quality Engineers (QA/QE)** to build a comprehensive system of tests for production executables. Promoted **Test-Driven Development (TDD)**.
 * Helped to introduce **Licensing**, **Telemetry**, and other features necessary for a successful release of **SPM v8.3** into production.
