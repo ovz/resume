@@ -28,6 +28,7 @@ Since **2018*** I had a fantastic opportunity to radically improve the entire li
 
 * *Original **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of a sense of urgency to save a human life. I used *modern C++* and scalable architectures to deliver multiple *successful Product Launches*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, outstanding *Battery Life*, *Operational Excellence* etc. I effectively exercised *Concurrency* and *Network Technologies*.
 * **Positioning Technologies** (GNSS (GPS, GLONAS, Galileo), ECID, Wi-Fi, Bluetooth/BLE Beacons). Accurate **Location** fixes are critical for an Emergence Response device. I addressed an urgent business need to improve positioning in the Emergency Response mobile device. I became **Subject Matter Expert on Positioning** for the Company, diagnosed and fixed implementation issues, designed and executed a *major upgrade* of the Positioning infrastructure. 
+* **Fully Automated Fall Detection**. It was imperative for [Lively Mobile+][r4] PERS product to automatically call for help when Customer falls. I added all the necessary infrastructure to filter information coming from MCU, and coordinate device subsystems to place a phone call. Falls are tracked even if the device reboots.
 * **Data Engineering**. Surprisingly and not **Data Preparation** came up on my plate at every job and in all the projects. This is a well-known roadblock between raw data and valuable insights. **[Data Wrangling][data_wrangling]** easily gobbles up 80% of time and budget. I prepared data for numerous Consulting projects, Troubleshooting, Forensics, Data Analytical Tech Support cases, etc. The results were ready for analysis within days or even hours. I developed effective **Extract Transform Load (ETL)** functionality. This allowed to quickly learn from data and iterate as many times as needed for desired results. 
 * *Advanced **Graphical User Interface (GUI)** for **Machine Learning/AI***. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products. This ensured steady revenue stream and opened possibility for innovation in **Machine Learning**.
 * *Software Architecture for **Desktop Applications**, **Embedded devices**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. As an architect, I provided a **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to produce the best decisions.
@@ -45,13 +46,13 @@ Since **2018*** I had a fantastic opportunity to radically improve the entire li
 
 ### 2018-Present. Best Buy Health][bbh] ([GreatCall][greatcall]). Sr Software Engineer.
 
-I joined a brilliant team in charge of Embedded development for [Lively Mobile Emergency Response device][r4]. This is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
+I joined a brilliant team in charge of Embedded development for Lively Mobile+ Emergency Response device][r4]. This is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
 
-Technology selections for [Lively Mobile][r4] made notorious constraints of **Embedded Development** perfectly creative. I used latest C++ technologies, and built robust architecture that makes advanced use of concurrency. 
+Technology selections for [Lively Mobile+][r4] made notorious constraints of **Embedded Development** perfectly creative. I used latest C++ technologies, and built robust architecture that makes advanced use of concurrency. 
 
-In 2019 we prepared [Lively Mobile][r4] product for a relaunch. Product Quality was a critical Business Concern. My **Data Engineering** chops came very handy when analyzing and troubleshooting Mobile Devices and Server-side infrastructure. I found new learning opportunities and introduced the team to cutting edge **Data Science** and **Data Engineering**. My results are game changers in maintenance of the product. This helped to boost the business. The team could focus on new strategic developments during the months of Adoption phase.  
+In 2019 we prepared [Lively Mobile+][r4] product for a relaunch. Product Quality was a critical Business Concern. My **Data Engineering** chops came very handy when analyzing and troubleshooting Mobile Devices and Server-side infrastructure. I found new learning opportunities and introduced the team to cutting edge **Data Science** and **Data Engineering**. My results are game changers in maintenance of the product. This helped to boost the business. The team could focus on new strategic developments during the months of Adoption phase.  
 
-In 2024 we launched [Lively Mobile 2][r5] product. I was effective to bring [Lively Mobile][r4] codebase up to date with User Interface, Industrial Design, Electrical Design, etc. The product is much more tolerant in supporting replacement of hardware components. Positioning functionality received an upgrade via Qualcomm Skyhook technology for Qualcomm Linux Enablement (LE). I designed and conducted rigorous testing procedures and collaborated with Qualcomm to resolve advanced use cases. I drastically reduced Cost of Operation for the product by implementing Operational Excellence practices like Observability, Monitoring, Incident Creation, Runbooks, Post-mortems etc. 
+In 2024 we launched [Lively Mobile 2][r5] product. I was effective to bring [Lively Mobile+][r4] codebase up to date with User Interface, Industrial Design, Electrical Design, etc. The product is much more tolerant in supporting replacement of hardware components. Positioning functionality received an upgrade via Qualcomm Skyhook technology for Qualcomm Linux Enablement (LE). I designed and conducted rigorous testing procedures and collaborated with Qualcomm to resolve advanced use cases. I drastically reduced Cost of Operation for the product by implementing Operational Excellence practices like Observability, Monitoring, Incident Creation, Runbooks, Post-mortems etc. 
 
 To keep our customers safe and happy we use comprehensive **QA** processes and protocols. These include unit test suites, automated **End-to-end** testing framework, production validation mechanisms etc. I took charge to step up the architecture and create implementations for automated tests that run on a device. This reduced time and improved quality of testing by orders of magnitude. I took initiative to introduce QA team members to the framework, foster their professional growth, and help them to be more effective on the job. With the new automation in place, I was able to substantially reduce the cost of testing.
 
@@ -265,7 +266,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 
 [Lyceum "Professional"][lyceum_prof]. This was a pioneering school well ahead of its time. It gave us comprehensive University curriculum in an engaging and innovative way. This was an amazing professional and educational boost.
 
-[oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
+[oleg_kayaking_gravatar]:https://gravatar.com/olegzhylin690979021 "Oleg Zhylin"
 [oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
 [archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
 
@@ -279,7 +280,8 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
 [greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
 [bbh]: https://web.archive.org/web/https://healthcare.bestbuy.com/ "Best Buy Health"
-[r4]: https://web.archive.org/web/https://www.greatcall.com/devices/lively-mobile-medical-alert-system "Lively Mobile"
+[r4]: https://web.archive.org/web/20230511154535/https://www.lively.com/medical-alerts "Lively Mobile+"
+[r5]: https://web.archive.org/web/20240407110931/https://www.lively.com/medical-alerts/lively-mobile2 "Lively Mobile+"
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
 [gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"

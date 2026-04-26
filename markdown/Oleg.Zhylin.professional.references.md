@@ -9,6 +9,26 @@
 
 ----
 
+## Rick Kunin
+
+*Relationship:* **Direct Supervisor**. Sr. Engineering Manager at **[Best Buy Health Inc.][bestbuyhealth]**
+
+*Cell Phone:* **+1 774-279-6505**
+
+*Email:* **[rkunin@alum.mit.edu](rkunin@alum.mit.edu)**
+
+*Worked together*: October **2019** - April **2022**
+
+## Jasen Cotton
+
+*Relationship:* **Team member**. Sr. Software Engineer at **[Best Buy Health Inc.][bestbuyhealth]**
+
+*Cell Phone:* **+1 619-403-0496**
+
+*Email:* **[jasencotton@gmail.com](jasencotton@gmail.com)**
+
+*Worked together*: December **2018** - November **2021**
+
 ## David Nelson
 
 *Relationship:* **Direct Supervisor**. Vice President Of Engineering at **[Minitab Inc.][minitab]**
@@ -83,3 +103,4 @@
 [salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
 [minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
 [greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
+[bestbuyhealth]: https://web.archive.org/web/https://www.bestbuyhealth.com "Best Buy Health"
