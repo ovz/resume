@@ -456,7 +456,7 @@ Here is my self-estimated proficiency list.
 * **Spanish**. Lower intermediate. Mainly use my intuitions from studies of Portuguese and other previous experiences. Could bump up knowledge quickly for trips to Tijuana.
 * *Familiar* with **French**, **Slovenian**, **Arabic**, **Mandarin Chinese**.
 
-[oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
+[oleg_kayaking_gravatar]:assets/oleg-zhylin-gravatar.png "Oleg Zhylin"
 [oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
 [archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
 

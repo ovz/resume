@@ -211,7 +211,7 @@ In 1996 I joined [Institute of Information Technology (IIT)][iit]. It was a Rese
 
 [Lyceum "Professional"][lyceum_prof]. This was a pioneering school well ahead of its time. It gave us comprehensive University curriculum in an engaging and innovative way. This was an amazing professional and educational boost.
 
-[oleg_kayaking_gravatar]:https://s.gravatar.com/avatar/e4554436f4aeef256bc01d0001503a3e "Oleg Zhylin"
+[oleg_kayaking_gravatar]:assets/oleg-zhylin-gravatar.png "Oleg Zhylin"
 [oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
 [archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
 

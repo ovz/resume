@@ -22,7 +22,7 @@ Years **2000-2017** were a formative software engineering experience in **Data S
 
 In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in **Intellectual Property** transfer and further **Product Development**.
 
-Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (part of [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO). The business is end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked throughout the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*. I met an OKR (Objectives and Key Result) and overdelivered on **Operational Excellence** using **Datadog** platform. My enormous gratitude goes to colleagues in the entire Best Buy for multiple occasions of **cross-team collaboration** and multiple occasions of me influencing the organization.
+Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (presently [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO, presently on Verizon). The business is end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked throughout the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*. I met an OKR (Objectives and Key Result) and overdelivered on **Operational Excellence** using **Datadog** platform. My enormous gratitude goes to colleagues in the entire Best Buy for multiple occasions of **cross-team collaboration** and multiple occasions of me influencing the organization.
 
 ## Most prominent achievements
 
@@ -266,7 +266,7 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 
 [Lyceum "Professional"][lyceum_prof]. This was a pioneering school well ahead of its time. It gave us comprehensive University curriculum in an engaging and innovative way. This was an amazing professional and educational boost.
 
-[oleg_kayaking_gravatar]:https://gravatar.com/olegzhylin690979021 "Oleg Zhylin"
+[oleg_kayaking_gravatar]:assets/oleg-zhylin-gravatar.png "Oleg Zhylin"
 [oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
 [archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
 
