@@ -24,7 +24,7 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (presently [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO, presently on Verizon). The business is end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked throughout the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*. I met an OKR (Objectives and Key Result) and overdelivered on **Operational Excellence** using **Datadog** platform. My enormous gratitude goes to colleagues in the entire Best Buy for multiple occasions of **cross-team collaboration** and multiple occasions of me influencing the organization.
 
-Actively leveraging AI since 2023. By **eliminating toil** and **innovative approaches** I successfully fulfilled Principal Engineer work for the entire Lively Devices and Apps product line (https://shop.lively.com/collections/shop-all-products). 
+I have been leveraging AI since 2023. I am passionate about **shifting quality to the left** and **eliminating toil**. My dream job is a perfect combination of **Innovation**, **Value**, and **Impact**. I successfully fulfilled Principal Engineer work for the entire Lively Devices and Apps product line (https://shop.lively.com/collections/shop-all-products). 
 
 ## Most prominent achievements
 
