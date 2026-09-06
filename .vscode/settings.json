@@ -8,5 +8,24 @@
       ]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "MSYS2 ClangARM64"
+  "terminal.integrated.defaultProfile.windows": "MSYS2 ClangARM64",
+      "chat.agent.enabled": true,
+    "chat.useAgentsMdFile": true,
+    "chat.useNestedAgentsMdFiles": true,
+    "chat.plugins.enabled": true,
+    "github.copilot.chat.virtualTools.threshold": 100,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "chat.mcp.access": "all",
+    "github.copilot.chat.editor.temporalContext.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true,
+        "c": true,
+        "cpp": true
+    },
+    "chat.agent.maxRequests": 1000,
+    "chat.agent.sandbox.enabled": "on"
 }

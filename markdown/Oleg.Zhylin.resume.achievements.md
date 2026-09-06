@@ -24,7 +24,9 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 Since **2018*** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (presently [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO, presently on Verizon). The business is end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked throughout the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*. I met an OKR (Objectives and Key Result) and overdelivered on **Operational Excellence** using **Datadog** platform. My enormous gratitude goes to colleagues in the entire Best Buy for multiple occasions of **cross-team collaboration** and multiple occasions of me influencing the organization.
 
-I have been leveraging AI since 2023. I am passionate about **shifting quality to the left** and **eliminating toil**. My dream job is a perfect combination of **Innovation**, **Value**, and **Impact**. I successfully fulfilled Principal Engineer work for the entire Lively Devices and Apps product line (https://shop.lively.com/collections/shop-all-products). 
+I am proud of my solid track record of impactful projects. With AI since 2023 I was able to deliver desired outcomes 3 times the expected rate. 
+
+I am passionate about **shifting quality to the left** and **eliminating toil**. My dream job is a perfect combination of **Innovation**, **Value**, and **Impact**. I successfully fulfilled Principal Engineer work for the entire [Lively Devices and Apps product line][lively_products]. 
 
 ## Most prominent achievements
 
@@ -46,9 +48,9 @@ I have been leveraging AI since 2023. I am passionate about **shifting quality t
 
 ## Employment History
 
-### 2018-Present. Best Buy Health][bbh] ([GreatCall][greatcall]). Sr Software Engineer.
+### 2018-Present. Best Buy Health[bbh] ([GreatCall][greatcall]). Sr Software Engineer.
 
-I joined a brilliant team in charge of Embedded development for Lively Mobile+ Emergency Response device][r4]. This is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
+I joined a brilliant team in charge of Embedded development for Lively Mobile+ Emergency Response device[r4]. This is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
 
 Technology selections for [Lively Mobile+][r4] made notorious constraints of **Embedded Development** perfectly creative. I used latest C++ technologies, and built robust architecture that makes advanced use of concurrency. 
 
@@ -283,7 +285,8 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 [greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
 [bbh]: https://web.archive.org/web/https://healthcare.bestbuy.com/ "Best Buy Health"
 [r4]: https://web.archive.org/web/20230511154535/https://www.lively.com/medical-alerts "Lively Mobile+"
-[r5]: https://web.archive.org/web/20240407110931/https://www.lively.com/medical-alerts/lively-mobile2 "Lively Mobile+"
+[r5]: https://web.archive.org/web/20240407110931/https://www.lively.com/medical-alerts/lively-mobile2 "Lively Mobile 2"
+[lively_products]: https://web.archive.org/web/20260830233733/https://shop.lively.com/collections/shop-all-products "Lively Devices and Apps product lines"
 [data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
 [spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
 [gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"
