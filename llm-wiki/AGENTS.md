@@ -1,49 +1,66 @@
 # Resume Wiki Schema
 
-This directory is a maintained knowledge layer for the resume repository. It is
-not the resume build input and must not change the generated files under
-`pandoc_resume/output/`.
+This directory is the maintained knowledge layer for the resume repository: how the owner's career is documented, what the primary resume must look like, and how new accomplishments flow from casual capture to the published document. It is not the resume build input and must not change the generated files under `pandoc_resume/output/`.
+
+Start at [`index.md`](index.md). It lists every page with a one-line purpose and a *load when* hint; read it first and then the smallest set of pages that answers the question.
 
 ## Layers
 
-- `raw/` contains captured reference material. Treat existing files as
-  immutable. New web clippings, notes, or transcripts belong here.
-- `../markdown/` is the primary source corpus for resume claims. The files are
-  maintained source documents and must not be rewritten as part of wiki work.
-- `../archive/` contains historical source material and correspondence.
-- `wiki/` contains synthesized pages written by the LLM.
-- `index.md` catalogs wiki pages and their source coverage.
-- `log.md` is append-only operational history.
+- `../markdown/` — **outward-facing documents** and the pandoc build input. Today: the primary resume `Oleg.Zhylin.resume.achievements.md` (public, mirrored to LinkedIn) and `Oleg.Zhylin.professional.references.md` (private). Files here are edited only through the workflows in `wiki/resume/`.
+- `raw/` — **source material, immutable once written.**
+  - `raw/archive/` — superseded documents moved out of `../markdown/` (see `wiki/workflows/archive-source.md`). Readable and citable; never edited.
+  - `raw/brag/` — the **Resume Brag File** drop zone: one dated file per accomplishment, written casually when it happens (see `wiki/workflows/brag-file.md`).
+  - `raw/llm-wiki.md` — the abstract pattern this directory instantiates. Repo-specific rules here override it.
+- `wiki/` — **synthesis written by the LLM**, organized as:
+  - `wiki/resume/` — the always-on shard for editing the primary resume (structure and cut points, link conventions, update workflow).
+  - `wiki/workflows/` — how-tos that change the repo's state (brag capture/ingest, archiving, sensitivity tiers).
+  - `wiki/sources/` — one summary page per source document: role, vintage, what it uniquely contributes, harvest status, tier. Plus the brag ledger.
+  - `wiki/concepts/`, `wiki/entities/`, `wiki/overview.md` — the career synthesis proper.
+  - `wiki/sources.md` — the source map: every source's tier and disposition on one page.
+- `../archive/` — historical personal material predating the wiki; classified in `wiki/sources/`, not synthesized.
+- `index.md` — navigation. There is **no committed operations log**; see *Operations log* below.
+
+## Size and shape
+
+- Every Markdown file in this directory stays **under roughly 200–500 lines; 500 is the ceiling**. Split by topic before exceeding it. Router pages (this file, `index.md`) stay well under 200. Short is fine — pages are sized by knowledge, not padded.
+- A prose paragraph is one logical line; do not hard-wrap. Real newlines are for headings, list items, table rows, and paragraph breaks.
+- Every synthesized page declares its Diataxis mode right after the title: `> **Doc type:** reference | how-to | explanation | tutorial`. One mode per file.
+- Lowercase kebab-case filenames. Links are relative to the page making them.
+- Front-load: the first screen of any page must let a reader decide whether to keep reading.
 
 ## Page conventions
 
-- Use lowercase, descriptive filenames with hyphens.
-- Use Markdown links relative to the page making the link.
-- Every substantive claim must link to one or more source files.
-- Distinguish explicit source claims from synthesis or inference.
-- When sources disagree, preserve the disagreement and identify the source
-  rather than silently choosing a version.
-- Keep raw sources unchanged. Update generated pages, `index.md`, and append a
-  dated entry to `log.md` when incorporating a source.
+- Every substantive claim links to one or more source files (`../markdown/...`, `raw/archive/...`, `raw/brag/...`). Prefer reference-style link definitions at the bottom of the page for sources cited repeatedly.
+- Distinguish explicit source claims from synthesis or inference, and say which.
+- When sources disagree, preserve the disagreement and name the sources; the primary resume wins for public claims.
+- Keep raw sources unchanged. Corrections to a raw brag entry are new dated entries.
+- Cross-reference instead of duplicating; a fact lives on one page and is linked from others.
+
+## Sensitivity
+
+Three tiers govern where information may live: **T0 public** (the primary resume only), **T1 private repo** (everything else committed, including brag entries and the references document), **T2 never committed** (employer-internal material and large files, which live in a session-wiki scratch scope). Definitions, promotion rules, and heuristics: `wiki/workflows/sensitivity-tiers.md`. Two hard rules apply everywhere: no committed file references a path under `__untracked_stuff/`, and third-party contact details are never copied out of the references document.
+
+## Large and sensitive files
+
+PDFs, exports, screenshots, and employer-internal notes are never committed (`.gitignore` covers `*.pdf`, `*.htm*`, `__untracked_stuff`). They wait in the maintainer's session-wiki scratch scope — `__untracked_stuff/<scope>/session-wiki/raw/` — and reach this wiki only as distilled, tier-checked text. The `session-wiki-pattern` skill (`.github/skills/session-wiki-pattern/SKILL.md`) owns that scope's structure.
 
 ## Workflows
 
-### Ingest
+| Need | Page |
+|---|---|
+| Refine, improve, or update the primary resume | `wiki/resume/update-workflow.md` (load `wiki/resume/primary-resume.md` and `link-conventions.md` first) |
+| Capture an accomplishment right now | `wiki/workflows/brag-file.md` § *Drop* |
+| Fold captured accomplishments into the wiki | `wiki/workflows/brag-file.md` § *Ingest* |
+| Retire a superseded `../markdown/` document | `wiki/workflows/archive-source.md` |
+| Decide whether something may be written down here | `wiki/workflows/sensitivity-tiers.md` |
+| Ingest any other new source | Read it fully; write or update its `wiki/sources/` page; update `wiki/sources.md`, the affected synthesis pages, and `index.md`; log the ingest (below). |
+| Answer a question | `index.md` → smallest set of pages → answer with source links and stated uncertainty. File durable answers under `wiki/analysis/` (create on first use) and index them. |
+| Lint | Broken relative links; pages over 500 lines; claims without sources; `__untracked_stuff` references; orphan pages; `raw/brag/` entries missing from the ledger; `wiki/sources/` pages whose harvest map is stale. Record findings in the operations log. |
 
-1. Read the source completely and identify its date, provenance, and claims.
-2. Add or update the relevant page in `wiki/` with source links.
-3. Update `wiki/overview.md` when the overall career synthesis changes.
-4. Update `index.md` and append an `ingest` entry to `log.md`.
+## Operations log
 
-### Query
+The wiki's append-only operations history (ingests, archives, lint passes, decisions) is **not version-controlled**. It lives in the maintainer's session-wiki scope under `__untracked_stuff/<scope>/session-wiki/log/`, following the chunk and header conventions of the `session-wiki-pattern` skill. Committed pages carry the resulting knowledge, never the record of the session that produced it. When resuming maintenance work, read that scope's `tasks/assignment_tracker.md` first.
 
-1. Read `index.md` first, then the smallest set of relevant wiki pages.
-2. Answer with links to the supporting source files and mark uncertainty.
-3. File durable comparisons or analyses under `wiki/analysis/` and update the
-   index and log.
+## Agents do not commit
 
-### Lint
-
-Check for broken links, unsupported claims, stale summaries, contradictions,
-orphan pages, and source material that has not been integrated. Record notable
-findings in `log.md`; do not alter raw sources during linting.
+Human review is mandatory before any commit. Prepare diffs and evidence; the owner commits and mirrors the resume to LinkedIn.

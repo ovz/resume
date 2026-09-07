@@ -1,0 +1,1 @@
+GitHub Copilot specific instructions only. Prefer more conventional SKILL.md files in skills directory. 
