@@ -35,3 +35,7 @@ Data-product discovery, data catalog strategy, metadata and glossary design, dat
 ## Evidence
 
 Two-page personal planning note dated October 29, 2025. It references public Alation documentation for Intelligent Search and Allie AI, plus internal Alation training and marketplace resources; internal URLs and the source export are not reproduced here.
+
+## Record history
+
+- 2026-09-06: created
