@@ -15,7 +15,7 @@
 
 *Cell Phone:* **+1 774-279-6505**
 
-*Email:* **[rkunin@alum.mit.edu](rkunin@alum.mit.edu)**
+*Email:* **[rkunin@alum.mit.edu](mailto:rkunin@alum.mit.edu)**
 
 *Worked together*: October **2019** - April **2022**
 
@@ -53,7 +53,7 @@
 
 *Relationship:* Colleague at **[Salford Systems][salford]**.
 
-*Cell Phone:* **+1 619-847-32-08 **
+*Cell Phone:* **+1 619-847-32-08**
 
 *Email:* **[golomi@gmail.com](mailto:golomi@gmail.com)**
 

@@ -60,7 +60,7 @@
 |---|---|---|
 | Rust | summary now says "Intermediate Rust" | baseline row is stale; owner to supply years |
 | Embedded C++ / cellular / positioning | six more years of Lively Mobile+ and Lively Mobile 2 work | re-age Embedded C++ and Cellular; add **GNSS/positioning (GPS, GLONASS, Galileo, ECID, Wi-Fi, BLE)** and **Qualcomm Linux Enablement / Skyhook** |
-| Observability / Datadog | OKR-level operational excellence | add **Datadog**, **incident management, runbooks, post-mortems** |
+| Observability / Datadog | OKR-level operational excellence; monitor/dashboard design, ARIMA/SARIMA-based anomaly tuning, vendor Premier Support collaboration ([brag entries, 2023-12 to 2024-05](../../raw/brag/)) | add **Datadog**, **incident management, runbooks, post-mortems**, **applied time-series anomaly detection** |
 | Neural networks | "successfully used neural networks" for senior health & safety | add under ML/AI; detail wanted (brag candidate) |
 | AI-assisted engineering | "leveraging AI since 2023" | add row; owner to name tools/practices at the public tier |
 | On-device test automation | architecture and implementation | strengthen TDD/testing rows |

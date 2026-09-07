@@ -21,3 +21,7 @@ Security and vulnerability-management process design, applying a national framew
 ## Evidence
 
 An internal wiki article draft (dated September 30, 2023) citing the NIST Guide to Enterprise Patch Management Planning, and draft outreach emails to two device-software vendors from the same date; internal artifacts not reproduced here.
+
+## Record history
+
+- 2026-09-06: created

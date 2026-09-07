@@ -21,3 +21,7 @@ Risk management framework thinking, quantitative-risk advocacy, cross-functional
 ## Evidence
 
 Personal planning note (OneNote-style TODO list), dated Thursday, August 3, 2023; internal wiki pages, board diagrams, and document names it references are not reproduced here.
+
+## Record history
+
+- 2026-09-07: created

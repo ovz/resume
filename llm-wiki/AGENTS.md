@@ -7,9 +7,9 @@ Start at [`index.md`](index.md). It lists every page with a one-line purpose and
 ## Layers
 
 - `../markdown/` — **outward-facing documents** and the pandoc build input. Today: the primary resume `Oleg.Zhylin.resume.achievements.md` (public, mirrored to LinkedIn) and `Oleg.Zhylin.professional.references.md` (private). Files here are edited only through the workflows in `wiki/resume/`.
-- `raw/` — **source material, immutable once written.**
+- `raw/` — **source material, immutable once written** (brag entries excepted, below).
   - `raw/archive/` — superseded documents moved out of `../markdown/` (see `wiki/workflows/archive-source.md`). Readable and citable; never edited.
-  - `raw/brag/` — the **Resume Brag File** drop zone: one dated file per accomplishment, written casually when it happens (see `wiki/workflows/brag-file.md`).
+  - `raw/brag/` — the **Resume Brag File** drop zone: one file per accomplishment, dated by the accomplishment, written casually when it happens and augmented as evidence accrues; every change day is logged in the entry's trailing `## Record history` (see `wiki/workflows/brag-file.md`).
   - `raw/llm-wiki.md` — the abstract pattern this directory instantiates. Repo-specific rules here override it.
 - `wiki/` — **synthesis written by the LLM**, organized as:
   - `wiki/resume/` — the always-on shard for editing the primary resume (structure and cut points, link conventions, update workflow).
@@ -33,7 +33,7 @@ Start at [`index.md`](index.md). It lists every page with a one-line purpose and
 - Every substantive claim links to one or more source files (`../markdown/...`, `raw/archive/...`, `raw/brag/...`). Prefer reference-style link definitions at the bottom of the page for sources cited repeatedly.
 - Distinguish explicit source claims from synthesis or inference, and say which.
 - When sources disagree, preserve the disagreement and name the sources; the primary resume wins for public claims.
-- Keep raw sources unchanged. Corrections to a raw brag entry are new dated entries.
+- Keep raw sources unchanged, except brag entries, which are edited in place with a `## Record history` line per change day; a related later event gets its own entry, cross-linked by filename.
 - Cross-reference instead of duplicating; a fact lives on one page and is linked from others.
 
 ## Sensitivity
