@@ -44,6 +44,11 @@ Technical ownership beyond the initial alert; device-level troubleshooting with 
 
 The available evidence confirms identification and escalation of the problematic devices, supporting telemetry, and influence on follow-up investigation. It does not confirm the final recovery or replacement status of every device, a final root cause for every observed failure, that every suspected condition was ultimately classified as a product defect, a measured reduction in incidents or alert volume, or the number of users affected by the devices.
 
+## Related
+
+- [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — firmware-side closure of MCU and firmware-update-related conditions of the kind these investigations surfaced (2026).
+
 ## Record history
 
 - 2026-09-07: created from an owner-supplied write-up covering evidence from March 21, April 15, and May 1, 2025
+- 2026-09-08: added *Related* forward link to the 2026-09-01 beacon-tracking entry

@@ -36,6 +36,11 @@ Data-product discovery, data catalog strategy, metadata and glossary design, dat
 
 Two-page personal planning note dated October 29, 2025. It references public Alation documentation for Intelligent Search and Allie AI, plus internal Alation training and marketplace resources; internal URLs and the source export are not reproduced here.
 
+## Related
+
+- [2026-05-26-ai-adoption-agentic-engineering-choreographer](2026-05-26-ai-adoption-agentic-engineering-choreographer.md) — the engineering-workflow side of the same AI-adoption thread: multi-agent orchestration, an LLM-wiki knowledge base, and token-optimization guidelines (2026).
+
 ## Record history
 
 - 2026-09-06: created
+- 2026-09-08: added *Related* forward link to the 2026-05-26 AI-adoption entry

@@ -22,6 +22,12 @@ JSON/telemetry schema design, root-cause diagnosis of a third-party platform lim
 
 Internal ticket drafts and vendor support correspondence (January 2024).
 
+## Related
+
+- [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — *practice maintained:* hardened chronic error categorization for beacon/FOTA interactions continues the error-summary contract established here (2026).
+- [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — the CCF structured-logging framework applies the consumer-shaped-telemetry lesson learned here (2026).
+
 ## Record history
 
 - 2026-09-07: created
+- 2026-09-08: added *Related* forward links to the 2026-09-01 beacon-tracking and 2026-04-26 CCF entries

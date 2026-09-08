@@ -22,6 +22,11 @@ Embedded-systems constraint analysis, cross-team architecture collaboration, ven
 
 Cross-team chat log and internal design-page draft (December 2023–February 2024); vendor support correspondence confirming no supported embedded-agent path.
 
+## Related
+
+- [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — *practice maintained:* the structured-logging framework in CCF carries the telemetry-contract principle set here down into the device SDKs (2026).
+
 ## Record history
 
 - 2026-09-07: created
+- 2026-09-08: added *Related* forward link to the 2026-04-26 CCF entry

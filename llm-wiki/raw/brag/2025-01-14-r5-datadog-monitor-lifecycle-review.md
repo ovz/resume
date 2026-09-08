@@ -43,6 +43,12 @@ Initiated rationalization of the R5 Datadog monitoring portfolio after identifyi
 
 Initiated rationalization of the R5 Datadog monitoring portfolio by identifying superseded coverage, coordinating retirement of an obsolete monitor, and establishing review categories for monitor removal and refinement.
 
+## Related
+
+- [2024-03-07-r5-datadog-monitoring-launch](2024-03-07-r5-datadog-monitoring-launch.md) — the monitoring foundation this review rationalizes.
+- [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — the deliberate MCU reboot/fatal handling there is what the MCU-oriented monitoring generation favoured here observes (2026).
+
 ## Record history
 
 - 2026-09-08: created from the owner's January 14, 2025 evidence summary
+- 2026-09-08: added *Related* links to the 2024-03-07 launch and 2026-09-01 beacon-tracking entries
