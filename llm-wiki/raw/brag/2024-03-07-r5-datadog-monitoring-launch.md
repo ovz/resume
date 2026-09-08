@@ -22,6 +22,9 @@ Observability/monitoring architecture (Datadog), incident-detection design, cros
 
 Internal Confluence narrative and a recorded team walkthrough of the device Datadog Monitor deliverables (March 2024); Datadog Premier Support correspondence.
 
+Related later lifecycle review: [2025-01-14-r5-datadog-monitor-lifecycle-review](2025-01-14-r5-datadog-monitor-lifecycle-review.md).
+
 ## Record history
 
 - 2026-09-07: created
+- 2026-09-08: added link to the later R5 Datadog monitor lifecycle review
