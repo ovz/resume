@@ -38,10 +38,11 @@ Jira story describing the beacon-tracking FOTA migration; a merged pull request 
 - [2024-01-20-errorsummary-json-schema-datadog-limitation](2024-01-20-errorsummary-json-schema-datadog-limitation.md) — *maintained practice:* the chronic error categorization hardened here is the firmware-side continuation of the error-summary telemetry contract established in 2024.
 - [2025-01-14-r5-datadog-monitor-lifecycle-review](2025-01-14-r5-datadog-monitor-lifecycle-review.md) — *refined/stopped practice:* MCU-oriented monitoring superseded an older monitor; the deliberate MCU reboot/fatal handling in this entry is what that monitoring generation observes.
 - [2025-05-01-r5-device-specific-failure-investigations](2025-05-01-r5-device-specific-failure-investigations.md) — the operations side of the same loop: device-level investigations there surfaced MCU and firmware-update-related conditions; this entry closes several of them in firmware.
+- [2025-11-15-r5-location-engine-design](2025-11-15-r5-location-engine-design.md) — the modular location engine whose beacon provider this entry hardens; the persistence and lifecycle work here builds on that engine's provider interfaces.
 - [2024-05-15-skyhook-positioning-root-cause-diagnostics](2024-05-15-skyhook-positioning-root-cause-diagnostics.md) — earlier positioning-reliability work on the same device family (Wi-Fi/GNSS side; this entry is the BLE-beacon side).
 - [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — same device programme and period; the lifecycle-management and structured-logging patterns there are the framework-level counterpart of the lifecycle/error-handling patterns applied here (thematic link, not a claimed dependency).
 
 ## Record history
 
 - 2026-09-07: created
-- 2026-09-08: renamed from `2026-09-07-…` to `2026-09-01-…` so the filename carries the accomplishment's impact date rather than the capture date; merged a second owner write-up of the same accomplishment (corner-case/MCU reboot-fatal fixes, structured impact bullets, second PR in evidence); widened domains; added *Related* cross-links
+- 2026-09-08: renamed from `2026-09-07-…` to `2026-09-01-…` so the filename carries the accomplishment's impact date rather than the capture date; merged a second owner write-up of the same accomplishment (corner-case/MCU reboot-fatal fixes, structured impact bullets, second PR in evidence); widened domains; added *Related* cross-links; later the same day added *Related* link to the 2025-11-15 location-engine entry

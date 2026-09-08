@@ -22,6 +22,11 @@ Log-driven root-cause analysis, third-party SDK/library troubleshooting, positio
 
 Internal chat threads and observability-platform log queries (January and May 2024) documenting the diagnosis.
 
+## Related
+
+- [2025-11-15-r5-location-engine-design](2025-11-15-r5-location-engine-design.md) — the later modular location engine that consolidates the fragmented positioning logic this investigation exposed.
+
 ## Record history
 
 - 2026-09-07: created
+- 2026-09-08: added *Related* link to the 2025-11-15 location-engine entry
