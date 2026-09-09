@@ -48,9 +48,9 @@ I am passionate about **shifting quality to the left** and **eliminating toil**.
 
 ## Employment History
 
-### 2018-Present. Best Buy Health[bbh] ([GreatCall][greatcall]). Sr Software Engineer.
+### 2018-Present. [Best Buy Health][bbh] ([GreatCall][greatcall]). Sr Software Engineer.
 
-I joined a brilliant team in charge of Embedded development for Lively Mobile+ Emergency Response device[r4]. This is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
+I joined a brilliant team in charge of Embedded development for [Lively Mobile+ Emergency Response device][r4]. This is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
 
 Technology selections for [Lively Mobile+][r4] made notorious constraints of **Embedded Development** perfectly creative. I used latest C++ technologies, and built robust architecture that makes advanced use of concurrency. 
 
