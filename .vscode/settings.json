@@ -1,4 +1,5 @@
 {
+  // Windows-only terminal profile; ignored on Linux and macOS.
   "terminal.integrated.profiles.windows": {
     "MSYS2 ClangARM64": {
       "path": "cmd.exe",
@@ -9,23 +10,38 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "MSYS2 ClangARM64",
-      "chat.agent.enabled": true,
-    "chat.useAgentsMdFile": true,
-    "chat.useNestedAgentsMdFiles": true,
-    "chat.plugins.enabled": true,
-    "github.copilot.chat.virtualTools.threshold": 100,
-    "editor.inlineSuggest.enabled": true,
-    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-    "chat.mcp.access": "all",
-    "github.copilot.chat.editor.temporalContext.enabled": true,
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": true,
-        "markdown": true,
-        "scminput": true,
-        "c": true,
-        "cpp": true
-    },
-    "chat.agent.maxRequests": 1000,
-    "chat.agent.sandbox.enabled": "on"
+
+  // VS Code– and GitHub Copilot Chat–specific settings, explained in full
+  // (including which are experimental and which only affect VS Code, never
+  // Claude Code or Copilot on another surface) in .github/AGENTS.md
+  // § "VS Code specifics". Checked in so a fresh clone opened in VS Code gets
+  // this repo's full instruction layout rather than silently loading part of it.
+  "chat.agent.enabled": true,
+  "chat.useAgentsMdFile": true,
+  "chat.useNestedAgentsMdFiles": true,
+  // Whether VS Code's OWN Copilot Chat also reads CLAUDE.md — not a switch for
+  // the standalone Claude Code CLI/extension, which reads CLAUDE.md regardless.
+  "chat.useClaudeMdFile": true,
+  "chat.instructionsFilesLocations": { ".github/instructions": true },
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  // Enables running a skill in a forked sub-context; not required for basic
+  // skill discovery itself.
+  "github.copilot.chat.skillTool.enabled": true,
+
+  "chat.plugins.enabled": true,
+  "chat.mcp.access": "all",
+  "chat.agent.maxRequests": 1000,
+  "chat.agent.sandbox.enabled": "on",
+  "github.copilot.chat.virtualTools.threshold": 100,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true,
+    "c": true,
+    "cpp": true
+  }
 }

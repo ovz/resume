@@ -9,7 +9,7 @@ Canonical, reusable PDF-to-Markdown extractor for **any** doc/wiki ingestion nee
 
 ## Script
 
-[`extract_pdf.py`](extract_pdf.py) is a uv PEP 723 single-file script using `pypdf` for text and PyMuPDF for resource discovery and rendering, following [`python-uv-scripting`](../python-uv-scripting/SKILL.md) conventions.
+[`extract_pdf.py`](extract_pdf.py) is a uv PEP 723 single-file script using `pypdf` for text and PyMuPDF for resource discovery and rendering. Dependencies are declared inline in the script's PEP 723 header rather than in any project manifest, so it runs anywhere `uv` is available with no environment setup.
 
 ```sh
 uvx --with pymupdf --with pypdf python .github/skills/pdf-extraction/extract_pdf.py <src.pdf> <dst.md>
@@ -32,7 +32,7 @@ Asset naming is deterministic. A rerun removes only extractor-owned `page-*.png`
 - Resource discovery is deliberately conservative. Decorative vector paths can trigger a page render; a false-positive review image is preferable to silently losing a vector-only diagram.
 - Full-page renders preserve relationships among text, connectors, and graphics that isolated embedded-image extraction can lose.
 - Exit codes: `2` bad argc, `1` missing file or unreadable/corrupt PDF (`PdfReadError`), `0` success.
-- Output is not reformatted/reflowed — table-of-contents entries, Smart-Link cards, and body text may interleave out of reading order (a known caveat already documented on ingested source pages, e.g. [`doc/llm-wiki/wiki/sources/cradle-tracking-current-state-2026-08-06.md`](../../../doc/llm-wiki/wiki/sources/cradle-tracking-current-state-2026-08-06.md)). Treat the output as a grep-friendly raw capture, not a clean read.
+- Output is not reformatted/reflowed — table-of-contents entries, link cards, and body text may interleave out of reading order. Note the caveat on the resulting `llm-wiki/wiki/sources/` page when it matters for that source. Treat the output as a grep-friendly raw capture, not a clean read.
 
 ## Review and transcription workflow
 
@@ -50,10 +50,7 @@ The extractor discovers and preserves review evidence. It does not claim to unde
 
 ## Consumers
 
-- **LLM-Wiki ingest** — [`doc/llm-wiki/schema/workflows.md`](../../../doc/llm-wiki/schema/workflows.md) § Ingest step 1 invokes this script for any PDF source landing under `raw/`.
+- **LLM-wiki ingest** — [`llm-wiki/AGENTS.md`](../../../llm-wiki/AGENTS.md) § *Workflows* routes any new source through this script when the source is a PDF, before it is summarized under `llm-wiki/wiki/sources/`.
 - Any future doc/wiki ingestion pipeline in this repo (session-wikis, other doc systems) reuses this same script. If you're about to write a new `pypdf`/`pdfplumber` one-off, stop and use this instead.
 
-## Relationship
-
-- [`python-uv-scripting`](../python-uv-scripting/SKILL.md) — the uv/PEP 723 conventions this script follows.
-- [`doc/llm-wiki/schema/workflows.md`](../../../doc/llm-wiki/schema/workflows.md) — the primary current consumer.
+Because `*.pdf` is gitignored repo-wide, the source PDF itself stays in the session-wiki scratch scope; only the extracted Markdown is a candidate for the committed wiki, and only after the sensitivity check in [`llm-wiki/wiki/workflows/sensitivity-tiers.md`](../../../llm-wiki/wiki/workflows/sensitivity-tiers.md).

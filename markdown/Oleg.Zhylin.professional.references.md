@@ -9,6 +9,16 @@
 
 ----
 
+## Robert Gonsiewski Jr.
+
+*Relationship:* **Direct Supervisor**. Senior Principal Engineer at **[Best Buy Health Inc.][bestbuyhealth]**
+
+*Cell Phone:* **+1 617-852-4103**
+
+*Email:* **[rogonsie@gmail.com](mailto:rogonsie@gmail.com)**
+
+*Worked together*: February **2019** - March **2026**
+
 ## Rick Kunin
 
 *Relationship:* **Direct Supervisor**. Sr. Engineering Manager at **[Best Buy Health Inc.][bestbuyhealth]**
@@ -25,7 +35,7 @@
 
 *Cell Phone:* **+1 619-403-0496**
 
-*Email:* **[jasencotton@gmail.com](jasencotton@gmail.com)**
+*Email:* **[jasencotton@gmail.com](mailto:jasencotton@gmail.com)**
 
 *Worked together*: December **2018** - November **2021**
 

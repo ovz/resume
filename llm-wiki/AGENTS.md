@@ -63,4 +63,4 @@ The wiki's append-only operations history (ingests, archives, lint passes, decis
 
 ## Agents do not commit
 
-Human review is mandatory before any commit. Prepare diffs and evidence; the owner commits and mirrors the resume to LinkedIn.
+Human review is mandatory before any commit. Prepare diffs and evidence; the owner commits and mirrors the resume to LinkedIn. The proposed commit message is written into the session-wiki scratch scope, never into a tracked file. Full rule and hand-off shape: the repository root [`AGENTS.md`](../AGENTS.md).

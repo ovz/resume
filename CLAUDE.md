@@ -1,9 +1,5 @@
 # CLAUDE.md
 
-The instructions for this repository live in [`AGENTS.md`](AGENTS.md). Read it first; it routes to the per-directory `AGENTS.md` files that carry the actual rules.
+@AGENTS.md
 
-This file is intentionally a pointer, not a copy — see [`.github/AGENTS.md`](.github/AGENTS.md) § *Single source of truth*.
-
-One rule is repeated here because it is a guardrail rather than guidance, and it must be visible at every entry point:
-
-> **Agents do not commit.** Never run `git commit`, `git push`, or any other history-writing command. Leave changes in the working tree, write the proposed commit message into the session-wiki scratch scope, and hand off to the owner for review.
+Claude Code does not read `AGENTS.md` on its own — only `CLAUDE.md` — so this file exists purely to pull that content in via the `@AGENTS.md` import above; every subdirectory with a load-bearing `AGENTS.md` has a matching `CLAUDE.md` doing the same. It is intentionally an import, not a copy — see [`.github/AGENTS.md`](.github/AGENTS.md) § *Single source of truth*. The imported text already carries the "agents do not commit" guardrail, so it is not restated here.

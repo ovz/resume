@@ -120,6 +120,8 @@ __untracked_stuff/<scope>/            # the "session sub-directory" — general 
     findings/                         # synthesis: distilled findings and evidence docs
                                        # (repo-local name, e.g. `changes/` — map it, don't rename)
     bugs/                             # bug reports / repro notes
+    commits/                          # proposed commit messages awaiting human review
+                                       # (see "Proposed commits" below)
     log/                              # ALWAYS present — session-wiki's OWN operations log
                                        # (see "Session log" below for the naming rules)
       index.md                        # log-of-logs: one line per chunk, for long-gap resumption
@@ -487,6 +489,16 @@ No prior evidence needs to be retrofitted into `raw/` — an honest gap note in 
 ## Restart protocol
 
 A fresh session reads `tasks/assignment_tracker.md` FIRST (the resume token), then loads only the `session-wiki/` pages it needs for the next step, consulting `session-wiki/log/index.md` (and scope-root `logs/index.md`, if present) if it needs deeper history than the tracker carries. A choreographer, if present, rebuilds lean coordination state — not the full history. Because all state is on disk, `/compact` or a new chat is safe at any point.
+
+## Proposed commits: `session-wiki/commits/`
+
+Agents do not commit. The work stops in the working tree and a human reviews it, so the **commit message is a session artifact, not a repository artifact** — it is written to `session-wiki/commits/`, never into a tracked file, a `COMMIT_EDITMSG`, or a staged commit template.
+
+One file per proposed commit. Each names the exact paths it covers, so a reviewer can stage precisely that set and reject the rest without re-deriving the grouping. When one session produces several logically separate commits, write several files rather than one message describing everything; the grouping decision is part of what the reviewer is being asked to approve.
+
+A commit message is subject to *The one-way reference rule* at the top of this skill, and more strictly than most files, because once accepted it becomes permanent version-controlled history read by strangers with no access to this scope. So a proposed message carries no scratch paths, no scope slug, no tracker item ID, no ticket ID, and no "as of this session" deixis. It states what changed and why in terms that stand alone in a fresh clone. Evidence supporting the change stays in `findings/`; the message cites none of it.
+
+The reviewer, not the agent, decides whether to use the message verbatim, edit it, or split the commit.
 
 ## Promotion, and LLM-wiki independence
 
