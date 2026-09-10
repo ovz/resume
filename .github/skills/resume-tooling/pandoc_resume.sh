@@ -21,6 +21,7 @@ markdown_dir="${repo_root}/markdown"
 styles_dir="${pandoc_dir}/styles"
 lua_filter="${pandoc_dir}/pdc-links-target-blank.lua"
 out_dir="${pandoc_dir}/output"
+linkedin_dir="${repo_root}/linkedin"
 style="${RESUME_STYLE:-chmduquesne}"
 
 die() { printf 'error: %s\n' "$*" >&2; exit 1; }
@@ -119,8 +120,12 @@ sources() {
 #
 # A missing fragment is a hard error: resolving it to nothing would silently
 # strip every link definition and still produce a plausible-looking artifact.
-prepared_dir="${out_dir}/.prepared"
-
+#
+# The resolved file is written next to the artifacts as `<name>.prepared.md`,
+# deliberately visible rather than hidden in a dot-directory. It is exactly the
+# Markdown Pandoc was handed, so when a rendered document looks wrong the first
+# question — "did the include put what I expected where I expected it?" — is
+# answered by opening one file, not by reasoning about the build.
 prepare() {
   local src="$1" name out inc path
   if ! grep -q '^<!-- include: ' "${src}"; then
@@ -133,9 +138,8 @@ prepare() {
     [ -f "${path}" ] || die "$(basename "${src}") includes '${inc}', which does not exist at ${path}"
   done < <(sed -n 's/^<!-- include:[[:space:]]*\(.*[^[:space:]]\)[[:space:]]*-->[[:space:]]*$/\1/p' "${src}")
 
-  name="$(basename "${src}")"
-  out="${prepared_dir}/${name}"
-  mkdir -p "${prepared_dir}"
+  name="$(basename "${src}" .md)"
+  out="${out_dir}/${name}.prepared.md"
   awk -v dir="${markdown_dir}" '
     /^<!-- include: / {
       line = $0
@@ -188,6 +192,30 @@ build_rtf() {
   done < <(sources)
 }
 
+# LinkedIn accepts no formatting and caps every field (2,600 characters for the
+# About section, 2,000 per Experience entry), so the profile cannot be a copy of
+# the resume — it is a rendering of it. Sections marked with
+# `<!-- linkedin: <slug> limit=<n> -->` are rendered to plain text and checked
+# against their budget by the exporter.
+#
+# Unlike every other target here, the output is COMMITTED. That is deliberate
+# and is the whole point: pasting into LinkedIn is a manual act, so the tracked
+# diff is what tells the owner which fields have drifted from the resume and
+# need re-pasting. See linkedin/README.md, which the exporter generates.
+#
+# Runs on the prepared Markdown, like verify does, so a marked block may sit
+# inside shared _parts/ content.
+build_linkedin() {
+  note "linkedin"
+  local -a prepared=()
+  while IFS= read -r -d '' src; do
+    prepared+=("$(prepare "${src}")")
+  done < <(sources)
+
+  python3 "${tooling_dir}/linkedin_export.py" \
+    --out-dir "${linkedin_dir}" "${prepared[@]}"
+}
+
 build_pdf() {
   note "pdf"
   # ConTeXt resolves \externalfigure paths relative to its working directory, so
@@ -233,7 +261,12 @@ verify() {
 
   while IFS= read -r -d '' src; do
     name="$(basename "${src}" .md)"
-    grep -q '!\[' "${src}" || continue
+    # Test the RESOLVED input, not the raw source: the portrait reference lives
+    # in a shared fragment, so a source file no longer contains `![` itself and
+    # testing it here would silently skip the document entirely — the check
+    # would keep passing while checking nothing.
+    local img_input; img_input="$(prepare "${src}")"
+    grep -q '!\[' "${img_input}" || continue
 
     for ext in html pdf docx rtf; do
       local f="${out_dir}/${name}.${ext}"
@@ -260,6 +293,89 @@ print(sum(1 for n in z.namelist() if n.startswith('word/media/')))
 
   [ "${failed}" -eq 0 ] || die "one or more artifacts are missing the portrait image"
   note "all artifacts contain the portrait image"
+
+  verify_links
+}
+
+# Reference links are the other thing that breaks silently. A `[text][key]`
+# whose key is undefined does not fail the build — Pandoc renders it as literal
+# text, so a document loses a hyperlink and still looks finished. With the
+# reference block shared through _parts/, one bad include would do that to every
+# link in a document at once, so the build proves it did not rather than leaving
+# the reader to spot it.
+#
+# Two independent checks: keys used are defined in the Markdown Pandoc actually
+# received, and every rendered format carries a comparable number of real links.
+# If the include had silently resolved to nothing, both would collapse to zero.
+verify_links() {
+  note "verify (reference links resolve in every artifact)"
+  local failed=0
+
+  while IFS= read -r -d '' src; do
+    name="$(basename "${src}" .md)"
+    local input; input="$(prepare "${src}")"
+
+    local undefined
+    undefined="$(python3 - "${input}" <<'PY'
+import re, sys
+text = open(sys.argv[1], encoding="utf-8").read()
+body = re.sub(r'^\[[^\]]+\]:.*$', '', text, flags=re.M)      # drop definitions
+defined = set(re.findall(r'^\[([^\]]+)\]:', text, flags=re.M))
+used = set(k for k in re.findall(r'\]\[([^\]]+)\]', body) if k)
+print(",".join(sorted(used - defined)))
+PY
+)"
+    if [ -n "${undefined}" ]; then
+      printf '    UNDEFINED %s: %s\n' "${name}" "${undefined}"; failed=1
+    fi
+
+    # `grep -c` exits non-zero on zero matches, which under `set -o pipefail`
+    # would abort the run; a count of nothing is a legitimate answer here, so
+    # each count absorbs that rather than treating it as a build failure.
+    local html_n docx_n rtf_n pdf_n
+    html_n=$(grep -o 'href="[^"]*"' "${out_dir}/${name}.html" 2>/dev/null | wc -l || true)
+    rtf_n=$(grep -ao 'HYPERLINK' "${out_dir}/${name}.rtf" 2>/dev/null | wc -l || true)
+    # ConTeXt writes link annotations into compressed object streams, so a plain
+    # grep for /URI reports zero on a PDF whose links are perfectly good. Inflate
+    # the streams before counting — a check that always says zero is worse than
+    # no check, because it teaches the reader to ignore the column.
+    pdf_n=$(python3 -c "
+import sys, re, zlib
+data = open(sys.argv[1], 'rb').read()
+n = len(re.findall(rb'/URI', data))
+for m in re.finditer(rb'stream\r?\n', data):
+    start = m.end()
+    end = data.find(b'endstream', start)
+    if end < 0:
+        continue
+    try:
+        n += len(re.findall(rb'/URI', zlib.decompress(data[start:end])))
+    except Exception:
+        pass
+print(n)
+" "${out_dir}/${name}.pdf" 2>/dev/null || echo 0)
+    docx_n=$(python3 -c "
+import sys, zipfile, re
+try:
+    z = zipfile.ZipFile(sys.argv[1])
+    rels = z.read('word/_rels/document.xml.rels').decode('utf-8', 'replace')
+    print(len(re.findall(r'TargetMode=\"External\"', rels)))
+except Exception:
+    print(0)
+" "${out_dir}/${name}.docx" 2>/dev/null || echo 0)
+
+    printf '    %-38s html %-4s docx %-4s rtf %-4s pdf %s\n' \
+      "${name}" "${html_n}" "${docx_n}" "${rtf_n}" "${pdf_n}"
+
+    if [ "${html_n}" -eq 0 ] && grep -q '\]\[' "${input}"; then
+      printf '    NO LINKS  %s.html — the document uses reference links but rendered none\n' "${name}"
+      failed=1
+    fi
+  done < <(sources)
+
+  [ "${failed}" -eq 0 ] || die "reference links did not resolve; see the lines above"
+  printf '    (docx counts unique targets, the others count occurrences, so docx is legitimately lower)\n'
+  note "every reference key resolves, and links are present in all four formats"
 }
 
 clean() {
@@ -270,12 +386,14 @@ clean() {
 target="${1:-all}"
 case "${target}" in
   clean) clean; exit 0 ;;
-  html|docx|rtf|pdf|all|verify) ;;
-  *) die "Usage: script/pandoc_resume.sh [all|html|pdf|docx|rtf|verify|clean]" ;;
+  html|docx|rtf|pdf|all|verify|linkedin) ;;
+  *) die "Usage: script/pandoc_resume.sh [all|html|pdf|docx|rtf|linkedin|verify|clean]" ;;
 esac
 
 require_sources
-require_submodule
+# The LinkedIn export drives pandoc directly and never touches a style asset,
+# so it is the one target that works in a clone with no submodule checked out.
+[ "${target}" = "linkedin" ] || require_submodule
 require_pandoc
 mkdir -p "${out_dir}"
 if [ "${target}" = "pdf" ] || [ "${target}" = "all" ]; then
@@ -288,14 +406,19 @@ case "${target}" in
   docx) build_docx ;;
   rtf)  build_rtf ;;
   pdf)  build_pdf ;;
+  linkedin) build_linkedin ;;
   verify) verify ;;
   all)
     build_html
     build_pdf
     build_docx
     build_rtf
+    build_linkedin
     verify
     ;;
 esac
 
 note "output in ${out_dir}"
+case "${target}" in
+  linkedin|all) note "LinkedIn blocks in ${linkedin_dir} (tracked; a changed file is a field to re-paste)" ;;
+esac

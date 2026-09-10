@@ -54,16 +54,58 @@ script/pandoc_resume.sh all     # build, ending in the verify pass
 
 The build ends by asserting the portrait PNG is embedded in all four artifacts. A `NO IMAGE` line is a build failure: each format embeds images by a different mechanism, so a bad path typically breaks some formats while others still render fine, and inspecting one artifact proves nothing about the others.
 
+## The LinkedIn export
+
+```bash
+script/pandoc_resume.sh linkedin    # also runs as part of `all`
+```
+
+`linkedin_export.py` in this folder renders marked sections of the resume down
+to the plain text LinkedIn actually accepts, and checks each against its field
+limit. Sections are marked in any document under `markdown/`:
+
+```markdown
+<!-- linkedin: about limit=2600 title="About (My Story)" -->
+... Markdown ...
+<!-- linkedin: end -->
+```
+
+Three things about it differ from every other target here, each on purpose:
+
+- **The output is committed**, to `linkedin/` at the repo root, and is the one
+  exception to *never commit generated output* below. Pasting into LinkedIn is
+  a manual act with no API behind it, so the tracked diff is the only thing that
+  can answer "which fields have drifted from the resume and need re-pasting?" A
+  changed file is a field to re-paste. Nothing in the directory is hand-written;
+  a removed marker deletes its file on the next build.
+- **Over-budget is a build failure**, not a warning. LinkedIn truncates on paste
+  without saying so, so a block that no longer fits has to be shortened in the
+  Markdown rather than discovered later as a sentence that ends mid-word.
+- **Only one document may define a given block.** LinkedIn is one profile; a
+  duplicate slug across two resume variants is a hard error naming both files.
+
+Emphasis is dropped rather than faked with Unicode look-alike bold, which screen
+readers announce as gibberish and neither LinkedIn's search nor resume parsers
+match as words — the bolded terms are exactly the keywords worth being found by.
+The generated `linkedin/README.md` explains the whole conversion to the reader.
+
+Getting the result onto the profile is a separate job with its own skill,
+`linkedin-publish`, and its own page at
+[`llm-wiki/wiki/workflows/linkedin-publish.md`](../../../llm-wiki/wiki/workflows/linkedin-publish.md).
+Short version: there is no API for it. This target's job ends at a correct,
+in-budget block on disk.
+
 ## Known failure modes
 
 - **`pandoc_resume/` is empty.** The submodule commit recorded in this repo does not exist in the fork — the fork's history was rewritten by an upstream merge. `script/bootstrap.sh` falls back to the fork's default branch and warns; the owner then commits the corrected submodule pointer.
 - **`Cannot find context.lua` / ConTeXt fails on a fresh TeX Live.** The file database has not been generated. `script/pandoc_resume.sh` retries once through `mtxrun --generate` automatically; if it still fails, read `pandoc_resume/output/context_<name>.log`.
 - **PDF builds but the portrait is missing.** ConTeXt resolves `\externalfigure` paths relative to its working directory; the build stages `markdown/assets/` next to the generated `.tex` for exactly this reason.
+- **A LinkedIn block is over its limit.** Shorten the marked section in the Markdown source. Do not raise the `limit=` attribute: it is LinkedIn's number, not this repo's, and raising it just moves the truncation to the paste, where nothing reports it.
 
 ## Guardrails
 
 - Prefer official package managers and installer URLs; `manual-downloads.md` has the fallbacks.
 - Keep every command idempotent.
 - Never edit files inside `pandoc_resume/` — it is a submodule, and changes belong upstream in the fork.
-- Never commit generated output; `pandoc_resume/output/`, `*.pdf` and `*.htm*` are gitignored.
+- Never commit generated output; `pandoc_resume/output/`, `*.pdf` and `*.htm*` are gitignored. `linkedin/` is the single deliberate exception, for the reason given above — it is tracked, and it is still generated, so it is never edited by hand.
 - Agents do not commit — see the root [`AGENTS.md`](../../../AGENTS.md).

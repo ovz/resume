@@ -8,6 +8,15 @@
     "__untracked_stuff/",
     ".github/",
     ".claude/",
-    "script/"
+    "script/",
+    "archive/",
+    "llm-wiki/raw/trello/",
+    "/AGENTS\\.md$/",
+    "/CLAUDE\\.md$/",
+    "/^README\\.md$/",
+    "/^TODO\\.md$/",
+    "/^llm-wiki/AGENTS\\.md$/",
+    "/^llm-wiki/index\\.md$/",
+    "/^llm-wiki/raw/llm-wiki\\.md$/"
   ]
 }

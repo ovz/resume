@@ -8,37 +8,72 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:llm-wiki/raw/brag",
+      "query": "path:llm-wiki/raw/brag/inbox",
       "color": {
         "a": 1,
-        "rgb": 12089556
-      }
-    },
-    {
-      "query": "path:llm-wiki/wiki",
-      "color": {
-        "a": 1,
-        "rgb": 1879160
+        "rgb": 16734774
       }
     },
     {
       "query": "path:markdown",
       "color": {
         "a": 1,
-        "rgb": 2781796
+        "rgb": 16762173
+      }
+    },
+    {
+      "query": "path:llm-wiki/raw/brag [resume-worthy:yes]",
+      "color": {
+        "a": 1,
+        "rgb": 15246141
+      }
+    },
+    {
+      "query": "path:llm-wiki/raw/brag",
+      "color": {
+        "a": 1,
+        "rgb": 4046752
+      }
+    },
+    {
+      "query": "path:llm-wiki/wiki/analysis",
+      "color": {
+        "a": 1,
+        "rgb": 10906592
+      }
+    },
+    {
+      "query": "path:llm-wiki/wiki/resume",
+      "color": {
+        "a": 1,
+        "rgb": 6269127
+      }
+    },
+    {
+      "query": "path:llm-wiki/wiki",
+      "color": {
+        "a": 1,
+        "rgb": 5017049
+      }
+    },
+    {
+      "query": "path:llm-wiki/raw",
+      "color": {
+        "a": 1,
+        "rgb": 8026746
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.15,
+  "lineSizeMultiplier": 0.9,
   "collapse-forces": false,
-  "centerStrength": 0.5,
-  "repelStrength": 11,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
-  "close": false
+  "centerStrength": 0.4,
+  "repelStrength": 13,
+  "linkStrength": 0.85,
+  "linkDistance": 180,
+  "scale": 1.0212027267617707,
+  "close": true
 }
