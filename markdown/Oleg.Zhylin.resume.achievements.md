@@ -1,12 +1,14 @@
 <!-- include: _parts/header.md -->
 
-> Professional **Software Engineer** since **1996**. Most of the projects are in **C++** and **Python**. The domains include **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning/AI**, **Cellular Technologies**, **Health**, **Telecommunications**, **Data Science**, **Security** etc. Advanced knowledge of **SQL**. Working knowledge of **JavaScript**, and **C#**. Intermediate **Rust**. Successfully used **Neural Networks** in application to *Health and Safety of Senior Citizens*. I am looking for a **Sr. Principal Engineer** or **Sr. Staff Engineer** position.
->
-> I **bring non-trivial value** as a **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity* and kept *technical debt* at bay. I led teams up to **15 people**.
-
----- 
-
 ## My Story
+
+I am proud of my solid track record of impactful projects. Since **2023**, **AI** changed *what I take on*, not just how fast: I build the **Multi-Agent Orchestration** and **Knowledge Systems** that make it a team capability rather than a personal shortcut.
+
+I am passionate about **shifting quality to the left** and **eliminating toil**. My dream job is a perfect combination of **Innovation**, **Value**, and **Impact**. I successfully fulfilled Principal Engineer work for the entire [Lively Devices and Apps product line][lively_products], and since **April 2026** I own **Architecture** decisions across both **Wearables** and **Handsets** by Best Buy Health.
+
+Professional **Software Engineer** since **1996**. Most of the projects are in **C++** and **Python**. The domains include **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning/AI**, **Cellular Technologies**, **Health**, **Telecommunications**, **Data Science**, **Security** etc. Advanced knowledge of **SQL**. Working knowledge of **JavaScript**, and **C#**. Intermediate **Rust**. Successfully used **Neural Networks** in application to *Health and Safety of Senior Citizens*. I am looking for a **Sr. Principal Engineer** or **Sr. Staff Engineer** position.
+
+I **bring non-trivial value** as a **Software Architect**,  **Technical Team Lead**, and **Manager**. My knowledge of **Systems Design** and **Agile Methodologies** boosted *development velocity* and kept *technical debt* at bay. I led teams up to **15 people**.
 
 I was employed as a **Data Security** and **Cryptography** Software Engineer as an undergrad. My mentors from the University ran the Company. From that time, I have an important life skill to see things from the standpoint of a **Security Professional**.
 
@@ -17,10 +19,6 @@ Years **2000-2017** were a formative software engineering experience in **Data S
 In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I was instrumental in **Intellectual Property** transfer and further **Product Development**.
 
 Since **2018** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (presently [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO, presently on Verizon). The business is end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked throughout the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*. I met an OKR (Objectives and Key Result) and overdelivered on **Operational Excellence** using **Datadog** platform. My enormous gratitude goes to colleagues in the entire Best Buy for multiple occasions of **cross-team collaboration** and multiple occasions of me influencing the organization.
-
-I am proud of my solid track record of impactful projects. Since **2023**, **AI** changed *what I take on*, not just how fast: I build the **Multi-Agent Orchestration** and **Knowledge Systems** that make it a team capability rather than a personal shortcut.
-
-I am passionate about **shifting quality to the left** and **eliminating toil**. My dream job is a perfect combination of **Innovation**, **Value**, and **Impact**. I successfully fulfilled Principal Engineer work for the entire [Lively Devices and Apps product line][lively_products], and since **April 2026** I own **Architecture** decisions across both **Wearables** and **Handsets** by Best Buy Health. 
 
 ## Most prominent achievements
 
