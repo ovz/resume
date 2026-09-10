@@ -6,15 +6,17 @@ Start at [`index.md`](index.md). It lists every page with a one-line purpose and
 
 ## Layers
 
-- `../markdown/` — **outward-facing documents** and the pandoc build input. Today: the primary resume `Oleg.Zhylin.resume.achievements.md` (public, mirrored to LinkedIn) and `Oleg.Zhylin.professional.references.md` (private). Files here are edited only through the workflows in `wiki/resume/`.
+- `../markdown/` — **outward-facing documents** and the pandoc build input. Today: the primary resume `Oleg.Zhylin.resume.achievements.md` (public, mirrored to LinkedIn), the `Oleg.Zhylin.resume.embedded.md` variant, and `Oleg.Zhylin.professional.references.md` (private). Files here are edited only through the workflows in `wiki/resume/`.
+- `../linkedin/` — **generated**, and tracked for that reason. Marked sections of the primary resume rendered to the plain text LinkedIn accepts, checked against its per-field character limits. Never edited by hand and never a source: a changed file there means a profile field to re-paste. See `wiki/resume/primary-resume.md` § *The LinkedIn mirror*.
 - `raw/` — **source material, immutable once written** (brag entries excepted, below).
   - `raw/archive/` — superseded documents moved out of `../markdown/` (see `wiki/workflows/archive-source.md`). Readable and citable; never edited.
   - `raw/brag/` — the **Resume Brag File** drop zone: one file per accomplishment, dated by the accomplishment, written casually when it happens and augmented as evidence accrues; every change day is logged in the entry's trailing `## Record history` (see `wiki/workflows/brag-file.md`).
   - `raw/llm-wiki.md` — the abstract pattern this directory instantiates. Repo-specific rules here override it.
 - `wiki/` — **synthesis written by the LLM**, organized as:
   - `wiki/resume/` — the always-on shard for editing the primary resume (structure and cut points, link conventions, update workflow, and the coverage map that says which captured material has not reached the resume yet).
-  - `wiki/workflows/` — how-tos that change the repo's state (brag capture/ingest, archiving, sensitivity tiers).
+  - `wiki/workflows/` — how-tos that change the repo's state (brag capture/ingest, archiving, sensitivity tiers, large imports, the Obsidian vault).
   - `wiki/sources/` — one summary page per source document: role, vintage, what it uniquely contributes, harvest status, tier. Plus the brag ledger.
+  - `wiki/analysis/` — durable answers to questions that came up, including researched external context (e.g. an employer's public financial record correlated with the owner's own notes).
   - `wiki/concepts/`, `wiki/entities/`, `wiki/overview.md` — the career synthesis proper.
   - `wiki/sources.md` — the source map: every source's tier and disposition on one page.
 - `../archive/` — historical personal material predating the wiki; classified in `wiki/sources/`, not synthesized.
@@ -44,6 +46,8 @@ Three tiers govern where information may live: **T0 public** (the primary resume
 
 PDFs, exports, screenshots, and employer-internal notes are never committed (`.gitignore` covers `*.pdf`, `*.htm*`, `__untracked_stuff`). They wait in the maintainer's session-wiki scratch scope — `__untracked_stuff/<scope>/session-wiki/raw/` — and reach this wiki only as distilled, tier-checked text. The `session-wiki-pattern` skill (`.github/skills/session-wiki-pattern/SKILL.md`) owns that scope's structure.
 
+**The one exception is a large source the owner has decided to preserve verbatim** — today, the Trello board exports under `raw/trello/`. Granting that exception is the owner's call and never an agent's. Carrying it out is `wiki/workflows/large-imports.md`: the uncompressed working copy stays in the scratch scope, and the committed copy is compressed to `.xz` and checksummed against its plaintext. The `large-import` skill owns the format decision and the tooling.
+
 ## Workflows
 
 | Need | Page |
@@ -52,8 +56,11 @@ PDFs, exports, screenshots, and employer-internal notes are never committed (`.g
 | See what the resume is missing, or how much is covered | `wiki/resume/coverage.md` |
 | Capture an accomplishment right now, in any format | `wiki/workflows/brag-file.md` §§ *Part 0*–*Part 1* |
 | Fold captured accomplishments into the wiki | `wiki/workflows/brag-file.md` § *Part 2* |
+| Get the generated blocks onto the LinkedIn profile, or answer whether that can be automated | `wiki/workflows/linkedin-publish.md` |
 | Retire a superseded `../markdown/` document | `wiki/workflows/archive-source.md` |
 | Decide whether something may be written down here | `wiki/workflows/sensitivity-tiers.md` |
+| Change the Obsidian vault, the graph, or the brag entry schema | `wiki/workflows/obsidian-vault.md` |
+| Preserve a source too large to commit as-is | `wiki/workflows/large-imports.md` (the owner decides the tier first; an agent never grants the exception) |
 | Ingest any other new source | Read it fully; write or update its `wiki/sources/` page; update `wiki/sources.md`, the affected synthesis pages, and `index.md`; log the ingest (below). |
 | Answer a question | `index.md` → smallest set of pages → answer with source links and stated uncertainty. File durable answers under `wiki/analysis/` (create on first use) and index them. |
 | Lint | Broken relative links; pages over 500 lines; claims without sources; `__untracked_stuff` references; orphan pages; `raw/brag/` entries missing from the ledger; entries missing from `wiki/resume/coverage.md`, or coverage totals that no longer match its own tables; `wiki/sources/` pages whose harvest map is stale. Record findings in the operations log. |

@@ -17,8 +17,11 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 ## Workflows
 
 - [Resume Brag File — capture and ingest](wiki/workflows/brag-file.md) — *how-to.* Capture the input verbatim, write or enrich the entry in `raw/brag/`, then fold entries into the wiki and the coverage map later. **Load when** the owner says "add this to my brag file", supplies material in any form, or asks to ingest brag entries.
+- [Publish the resume to LinkedIn](wiki/workflows/linkedin-publish.md) — *how-to.* Why there is no API path, the paste round and its committed record of what has actually been pasted, keyring credentials with an encrypted backup bundle, and the supported announce-post. **Load when** asked to update or sync the profile, or whether the LinkedIn update can be automated.
 - [Archive a superseded source](wiki/workflows/archive-source.md) — *how-to.* Move a retired `markdown/` document into `raw/archive/` with a summary page. **Load when** a document stops being outward-facing.
+- [The Obsidian vault: where to dump, where to look](wiki/workflows/obsidian-vault.md) — *how-to.* The capture loop, the graph colour legend, entry properties, and the filters that answer "what do I already have on this?". **Load when** changing `.obsidian/` or the brag entry schema.
 - [Sensitivity tiers](wiki/workflows/sensitivity-tiers.md) — *reference.* T0 public / T1 private repo / T2 never committed; promotion is a rewrite. **Load when** deciding whether something may be written down, or before promoting brag content.
+- [Large imports](wiki/workflows/large-imports.md) — *how-to.* Preserving a source too large to commit as-is: uncompressed working copy in scratch, compressed and checksummed archive committed. **Load when** an export or dump needs archiving, or when adding a later snapshot of one.
 
 ## Career synthesis
 
@@ -27,6 +30,11 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 - [Technical themes](wiki/concepts/technical-themes.md) — *explanation.* Capabilities that recur across decades. **Load when** writing summary-level prose.
 - [Oleg Zhylin](wiki/entities/oleg-zhylin.md) — *reference.* Profile, what he is looking for, working identity, background. **Load when** the question is about the person rather than a project.
 - [Organizations](wiki/entities/organizations.md) — *reference.* Best Buy Health/GreatCall, Minitab, Salford Systems, IIT, education institutions. **Load when** the question is scoped to an employer or period.
+- [Professional contacts](wiki/entities/professional-contacts.md) — *reference.* The working roster: who, role, period, and reference availability — never contact details; relationship narrative lives with the work it describes. **Load when** asking for a reference, updating the references document, or recording a collaborator named in a brag entry.
+
+## Analysis
+
+- [Best Buy Health: the public record behind the private one](wiki/analysis/best-buy-health-context.md) — *explanation.* The disclosed impairments, restructuring and divestiture 2024–2026, correlated with the owner's contemporaneous notes, plus how to use it in an interview. **Load when** preparing to explain the Best Buy Health years, or writing anything that touches that period.
 
 ## Source summaries (one per document)
 
@@ -37,10 +45,13 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 - [Professional references](wiki/sources/professional-references.md) — who is listed, relationship, period; no contact details. **Load when** references come up.
 - [Minitab 2018 correspondence](wiki/sources/minitab-2018-correspondence.md) — classification of personal/legal material; not evidence. Load only to understand why it is not cited.
 - [Brag ledger](wiki/sources/brag-ledger.md) — ingest and promotion state of every `raw/brag/` entry. **Load when** ingesting or promoting.
+- [Trello board exports](wiki/sources/trello-boards.md) — the committed board snapshots, what has been harvested from them and what remains. **Load when** ingesting from the boards or planning a re-export.
 
 ## Raw
 
-- `raw/brag/` — brag drop zone ([README](raw/brag/README.md)).
+- `raw/brag/inbox/` — **the drop zone.** Write new notes here, any shape; a note here is un-ingested, an empty inbox means everything is ([README](raw/brag/inbox/README.md)).
+- `raw/brag/` — finished brag entries ([README](raw/brag/README.md)).
+- `raw/trello/` — committed board snapshots, compressed and checksummed, kept for safekeeping ([README](raw/trello/README.md)).
 - `raw/archive/` — archived documents: `Oleg.Zhylin.resume.md`, `Oleg.Zhylin.resume.overview.md`, `Oleg.Zhylin.skills_and_responsibilities.md`.
 - [LLM-wiki pattern](raw/llm-wiki.md) — the abstract idea document.
 
