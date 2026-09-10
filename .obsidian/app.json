@@ -1,0 +1,13 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "pandoc_resume/",
+    "__untracked_stuff/",
+    ".github/",
+    ".claude/",
+    "script/"
+  ]
+}

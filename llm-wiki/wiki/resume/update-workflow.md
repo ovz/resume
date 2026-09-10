@@ -7,7 +7,7 @@
 ## Before you start
 
 1. Load [primary-resume.md](primary-resume.md) and [link-conventions.md](link-conventions.md). They are the rules; this page is the sequence.
-2. Load [accomplishments by domain](../concepts/accomplishments-by-domain.md) — the pool of candidate material — and, if the request names an employer, the relevant part of [organizations](../entities/organizations.md).
+2. Load [accomplishments by domain](../concepts/accomplishments-by-domain.md) — the pool of candidate material — and [coverage.md](coverage.md), which says which of that pool has *not* reached the resume and is therefore where the pass has the most to gain. If the request names an employer, load the relevant part of [organizations](../entities/organizations.md).
 3. Read [`sources/resume-achievements.md`](../sources/resume-achievements.md) § *Known defects* so the pass can clear them.
 4. Confirm the **target**: which cut level (C0/C1/C2/beyond) the change affects, and whether the goal is a general refresh or a role-specific tailoring. Role-specific variants are separate files (not created yet); do not tailor the primary in place.
 
@@ -20,7 +20,7 @@
 5. **Run the sensitivity check** in [sensitivity-tiers.md](../workflows/sensitivity-tiers.md) § *Public tier*: no employer-internal names, numbers, customers, code names, or unreleased plans. Outcome and skill, not internal artifact.
 6. **Render and check page fit.** `script/pandoc_resume.sh pdf` (or `html`) from the repo root; open the PDF and note where the half-page, one-page, and two-page boundaries fall relative to the intended cut map. Adjust wording length before adjusting structure.
 7. **Lint the file:** every `[key]` used is defined once; no dangling emphasis markers; headings follow the section conventions; the *Side Note* still precedes the link-dense sections.
-8. **Update the wiki, not just the resume.** Refresh [`sources/resume-achievements.md`](../sources/resume-achievements.md) (structure map, defects list), and if the change came from a brag entry, mark the promotion in [brag-ledger.md](../sources/brag-ledger.md). Record the pass in the maintainer's operations log (outside version control; see [`../../AGENTS.md`](../../AGENTS.md) § *Operations log*).
+8. **Update the wiki, not just the resume.** Refresh [`sources/resume-achievements.md`](../sources/resume-achievements.md) (structure map, defects list). If the change came from brag material, flip the affected claims in [coverage.md](coverage.md) to `in` or `partial` **in the same edit** — a promotion recorded nowhere is a promotion the next pass will make again — and mark the promotion in [brag-ledger.md](../sources/brag-ledger.md). Record the pass in the maintainer's operations log (outside version control; see [`../../AGENTS.md`](../../AGENTS.md) § *Operations log*).
 9. **Hand off for review.** Present the diff and the render observations. The owner commits, then mirrors the text to LinkedIn. Agents do not commit.
 
 ## Tailored variants (when asked)

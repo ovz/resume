@@ -12,7 +12,7 @@ Start at [`index.md`](index.md). It lists every page with a one-line purpose and
   - `raw/brag/` — the **Resume Brag File** drop zone: one file per accomplishment, dated by the accomplishment, written casually when it happens and augmented as evidence accrues; every change day is logged in the entry's trailing `## Record history` (see `wiki/workflows/brag-file.md`).
   - `raw/llm-wiki.md` — the abstract pattern this directory instantiates. Repo-specific rules here override it.
 - `wiki/` — **synthesis written by the LLM**, organized as:
-  - `wiki/resume/` — the always-on shard for editing the primary resume (structure and cut points, link conventions, update workflow).
+  - `wiki/resume/` — the always-on shard for editing the primary resume (structure and cut points, link conventions, update workflow, and the coverage map that says which captured material has not reached the resume yet).
   - `wiki/workflows/` — how-tos that change the repo's state (brag capture/ingest, archiving, sensitivity tiers).
   - `wiki/sources/` — one summary page per source document: role, vintage, what it uniquely contributes, harvest status, tier. Plus the brag ledger.
   - `wiki/concepts/`, `wiki/entities/`, `wiki/overview.md` — the career synthesis proper.
@@ -48,14 +48,15 @@ PDFs, exports, screenshots, and employer-internal notes are never committed (`.g
 
 | Need | Page |
 |---|---|
-| Refine, improve, or update the primary resume | `wiki/resume/update-workflow.md` (load `wiki/resume/primary-resume.md` and `link-conventions.md` first) |
-| Capture an accomplishment right now | `wiki/workflows/brag-file.md` § *Drop* |
-| Fold captured accomplishments into the wiki | `wiki/workflows/brag-file.md` § *Ingest* |
+| Refine, improve, or update the primary resume | `wiki/resume/update-workflow.md` (load `wiki/resume/primary-resume.md`, `link-conventions.md` and `coverage.md` first) |
+| See what the resume is missing, or how much is covered | `wiki/resume/coverage.md` |
+| Capture an accomplishment right now, in any format | `wiki/workflows/brag-file.md` §§ *Part 0*–*Part 1* |
+| Fold captured accomplishments into the wiki | `wiki/workflows/brag-file.md` § *Part 2* |
 | Retire a superseded `../markdown/` document | `wiki/workflows/archive-source.md` |
 | Decide whether something may be written down here | `wiki/workflows/sensitivity-tiers.md` |
 | Ingest any other new source | Read it fully; write or update its `wiki/sources/` page; update `wiki/sources.md`, the affected synthesis pages, and `index.md`; log the ingest (below). |
 | Answer a question | `index.md` → smallest set of pages → answer with source links and stated uncertainty. File durable answers under `wiki/analysis/` (create on first use) and index them. |
-| Lint | Broken relative links; pages over 500 lines; claims without sources; `__untracked_stuff` references; orphan pages; `raw/brag/` entries missing from the ledger; `wiki/sources/` pages whose harvest map is stale. Record findings in the operations log. |
+| Lint | Broken relative links; pages over 500 lines; claims without sources; `__untracked_stuff` references; orphan pages; `raw/brag/` entries missing from the ledger; entries missing from `wiki/resume/coverage.md`, or coverage totals that no longer match its own tables; `wiki/sources/` pages whose harvest map is stale. Record findings in the operations log. |
 
 ## Operations log
 

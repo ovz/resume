@@ -1,10 +1,4 @@
-# ![Oleg Zhylin][oleg_kayaking_gravatar] Oleg Zhylin
-
-----
-
-Email: **[Oleg.Zhylin@gmail.com](mailto:Oleg.Zhylin@gmail.com)** | Cell Phone: **+1 619 500 6534** | Home Address: **21756 Harroun Ter, Ashburn, VA 20147** | LinkedIn: **[https://www.linkedin.com/in/olegzhylin/][oleg_linkedin]** 
-
-----
+<!-- include: _parts/header.md -->
 
 > Professional **Software Engineer** since **1996**. Most of the projects are in **C++** and **Python**. The domains include **Embedded Mobile Devices**, **Data Engineering**, **Machine Learning/AI**, **Cellular Technologies**, **Health**, **Telecommunications**, **Data Science**, **Security** etc. Advanced knowledge of **SQL**. Working knowledge of **JavaScript**, and **C#**. Intermediate **Rust**. Successfully used **Neural Networks** in application to *Health and Safety of Senior Citizens*. I am looking for a **Sr. Principal Engineer** or **Sr. Staff Engineer** position.
 >
@@ -24,17 +18,19 @@ In **2017** I helped Salford Systems to become a [Minitab][minitab] company. I w
 
 Since **2018** I had a fantastic opportunity to radically improve the entire life of a customer. [GreatCall][greatcall] (presently [Best Buy Health][bbh]) is a Mobile Virtual Network Operator (MVNO, presently on Verizon). The business is end to end production and operation of **Embedded** mobile devices with cellular connectivity for Seniors.  I worked throughout the entire pipeline from hardware manufacturing to facilitating innovative ways of Care. The software I built gives a gift of independence, confidence, and livelihood. I successfully applied **Cellular Technologies**, **Positioning/Location (GPS)**, **Distributed System Design** etc. to *exceed expectations* and achieve *outcomes*. I met an OKR (Objectives and Key Result) and overdelivered on **Operational Excellence** using **Datadog** platform. My enormous gratitude goes to colleagues in the entire Best Buy for multiple occasions of **cross-team collaboration** and multiple occasions of me influencing the organization.
 
-I am proud of my solid track record of impactful projects. With AI since 2023 I was able to deliver desired outcomes 3 times the expected rate. 
+I am proud of my solid track record of impactful projects. Since **2023**, **AI** changed *what I take on*, not just how fast: I build the **Multi-Agent Orchestration** and **Knowledge Systems** that make it a team capability rather than a personal shortcut.
 
-I am passionate about **shifting quality to the left** and **eliminating toil**. My dream job is a perfect combination of **Innovation**, **Value**, and **Impact**. I successfully fulfilled Principal Engineer work for the entire [Lively Devices and Apps product line][lively_products]. 
+I am passionate about **shifting quality to the left** and **eliminating toil**. My dream job is a perfect combination of **Innovation**, **Value**, and **Impact**. I successfully fulfilled Principal Engineer work for the entire [Lively Devices and Apps product line][lively_products], and since **April 2026** I own **Architecture** decisions across both **Wearables** and **Handsets** by Best Buy Health. 
 
 ## Most prominent achievements
 
+* ***Architecture Ownership** across the device portfolio*. Since **April 2026** I own **Architecture** decisions for both the **Wearables** ([Lively Mobile+][r4], [Lively Mobile 2][r5]) and **Handsets** (*Jitterbug* flip and smart phones) lines — every device of [GreatCall][greatcall] lineage still carried by [Lively][lively_products] — and I stay hands-on across all of them. I use **AI-assisted** *Rapid Prototyping* to get productive on a new stack fast and to judge an idea's **Innovation Potential** before it costs a team a quarter.
 * *Original **Embedded Software** for an Emergency Response mobile device*. Radio waves and technology stacks are deprived of a sense of urgency to save a human life. I used *modern C++* and scalable architectures to deliver multiple *successful Product Launches*. I went way beyond designated areas of responsibility to ensure *Performance*, *Testability*, outstanding *Battery Life*, *Operational Excellence* etc. I effectively exercised *Concurrency* and *Network Technologies*.
 * **Positioning Technologies** (GNSS (GPS, GLONAS, Galileo), ECID, Wi-Fi, Bluetooth/BLE Beacons). Accurate **Location** fixes are critical for an Emergence Response device. I addressed an urgent business need to improve positioning in the Emergency Response mobile device. I became **Subject Matter Expert on Positioning** for the Company, diagnosed and fixed implementation issues, designed and executed a *major upgrade* of the Positioning infrastructure. 
 * **Fully Automated Fall Detection**. It was imperative for [Lively Mobile+][r4] PERS product to automatically call for help when Customer falls. I added all the necessary infrastructure to filter information coming from MCU, and coordinate device subsystems to place a phone call. Falls are tracked even if the device reboots.
-* **Data Engineering**. Surprisingly and not **Data Preparation** came up on my plate at every job and in all the projects. This is a well-known roadblock between raw data and valuable insights. **[Data Wrangling][data_wrangling]** easily gobbles up 80% of time and budget. I prepared data for numerous Consulting projects, Troubleshooting, Forensics, Data Analytical Tech Support cases, etc. The results were ready for analysis within days or even hours. I developed effective **Extract Transform Load (ETL)** functionality. This allowed to quickly learn from data and iterate as many times as needed for desired results. 
-* *Advanced **Graphical User Interface (GUI)** for **Machine Learning/AI***. Catering to the whole range of users **from Domain Experts** very distant from statistics **to the best Data Scientists** in the world was at the core of Salford Systems *Business Offering*. GUIs I developed brought **solid success** to several consequent releases of Salford Systems products. This ensured steady revenue stream and opened possibility for innovation in **Machine Learning**.
+<!-- include: _parts/bullet-operational-excellence.md -->
+* **Data Engineering**. **Data Preparation** landed on my plate at every job and in every project — **[Data Wrangling][data_wrangling]** easily gobbles up 80% of the time and budget between raw data and a valuable insight. I prepared data for Consulting projects, Troubleshooting, Forensics and Analytical support cases, with results ready in days or even hours. The **Extract Transform Load (ETL)** functionality I built let us learn from data and iterate as many times as the answer required. 
+* *Advanced **Graphical User Interface (GUI)** for **Machine Learning/AI***. Serving the whole range of users — **from Domain Experts** far from statistics **to the best Data Scientists** in the world — was at the core of the Salford Systems *Business Offering*. The GUIs I developed brought **solid success** to several consecutive releases, ensuring a steady revenue stream and funding further **Machine Learning** innovation.
 * *Software Architecture for **Desktop Applications**, **Embedded devices**, **Command Line Applications**, **Client-Server systems**, **Distributed Systems for Machine Learning**, **Cloud Systems***. As an architect, I provided a **strong vision** and collaborated with *engineering*, and *business*, and *scientific* teams to produce the best decisions.
 * ***Application Programming Interface (API)** Design***. I helped [Salford Systems][salford] to get to a quality API architecture for the core intellectual assets.
 * ***Big Data***. I participated in **groundbreaking research** in the domain of **Machine Learning** from **peta-scale datasets**.
@@ -42,13 +38,11 @@ I am passionate about **shifting quality to the left** and **eliminating toil**.
 * ***Management** and **Technical Leadership** of **Distributed Software Development** teams*. Coordinating **U.S.** based developers and **Outsourcing** contractors from **Ukraine**, **China** etc. is far from trivial. I managed teams up to **15 people**.
 * ***Agile Software Development** Patterns and Practices*. I *mastered* the immense power of **Motivated and Self-organizing teams**. I achieved my best results by **empowering others** and **leading from behind**.
 
-## *Side Note*: Hyperlinks lead to the Internet Archive Wayback Machine (archive.org)
-
-*Hyperlinks in this document lead to online resources that best describe my experience. To make sure links are always valid I use [The Internet Archive Wayback Machine (archive.org)][archive_org]. You might see content from archive.org in addition to the original web page.*
+<!-- include: _parts/side-note-links.md -->
 
 ## Employment History
 
-### 2018-Present. [Best Buy Health][bbh] ([GreatCall][greatcall]). Sr Software Engineer.
+### 2018-Present. [Best Buy Health][bbh]. Health Engineer Senior.
 
 I joined a brilliant team in charge of Embedded development for [Lively Mobile+ Emergency Response device][r4]. This is a perfect unobtrusive piece of technology that helps many seniors to live long and independent life. I used the numerous challenges this product addresses as opportunities to learn the customer and make supremely meaningful changes in their life.
 
@@ -62,7 +56,9 @@ To keep our customers safe and happy we use comprehensive **QA** processes and p
 
 My initiatives in **Data Engineering** and **QA** facilitated successful utilization of contractor work force. Business was willing to pay for additional resources for **Testing**. To put the budget to a good use I was able to bring new people up to speed quickly and keep their day-to-day work enjoyable and effective.
 
-As we work on the new generation of the product, I gladly took upon myself a good deal of Software Architecture activities. I prepared Designs for sub-systems that send Telemetry, monitor system processes, etc.
+As we work on the new generation of the product, I gladly took upon myself a good deal of Software Architecture activities. I prepared Designs for sub-systems that send Telemetry, monitor system processes, etc. That work grew into the fleet **Observability** practice: an *agentless* device-health architecture chosen after I established that a conventional monitoring agent could not fit the device's memory budget, the production Monitors and Dashboards built on it, statistically tuned Anomaly Detection, and the continuing stewardship of that monitor portfolio as devices and firmware move on. I also brought the practice to a cross-team engineering community of practice so other teams could adopt and extend it.
+
+In **April 2026** my architecture responsibility expanded across the whole portfolio. I now own Architecture decisions for both the **Wearables** line and the **Handsets** line — effectively every device of [GreatCall][greatcall] lineage still carried in the [Lively][lively_products] catalogue — while staying hands-on as an engineer on any of them.
 
 I actively participated in the growing of the team. I learned from experienced Hiring Managers and actively contributed to put together **Technical Interview** challenges and otherwise improve **Hiring** process. With understanding that **Recruiting** is of a paramount importance for every organization I contribute to it on regular basis.
 
@@ -70,7 +66,7 @@ I actively participated in the growing of the team. I learned from experienced H
 
 At the end of the almost two-decades-long journey with Salford Systems, I helped it to become a [Minitab][minitab] company. I was instrumental in making the entire **Intellectual Property** of Salford Systems available to Minitab and get it under proper **Governance**. This allowed quickly moving on to Product Development and improving company-wide **Agile Development Process**.
 
-### 2000-2017. [Salford Systems][salford]. Sr Software Engineer, Architect.
+### 2000-2017. [Salford Systems][salford]. Principal Engineer.
 
 Salford Systems claim to fame is pioneering **Decision Trees** in **Machine Learning**. We commercialized work of **[Jerome Friedman][jerry]**, **[Leo Breiman][leo]**, **[Richard Olshen][olshen]**, and **[Charles Stone][chuck]**, the authors of the famous **[CART Monograph][cart_monograph]**.
 
@@ -78,7 +74,7 @@ For me, it was enormous fun and hard work to help our customers meet their **Dat
 
 I was primary **Graphical User Interface (GUI)** developer and one of the collaborators for **Command Line (nonGUI)** and **Machine Learning** engines for Salford Systems flagship product, **[Salford Predictive Modeler (SPM)][spm82]**.
 
-### 1996-2000. [Institute of Information Technology (IIT)][iit]. Software Developer. Data Security Researcher.
+### 1996-2000. [Institute of Information Technology (IIT)][iit]. Sr.Software Developer. Data Security Researcher.
 
 I was fortunate to receive my undergrad degree at the [Department of Information Technology Security (ITS)][kafedra_bit] of [Kharkiv National University of Radio Electronics (NURE)][nure_eng]. The department was founded by prominent military Rocket Scientists. I received solid training in **Cryptography**,  **Security Policy**, **Risk Assessment** etc. These skills proved to be very useful in professional and personal life.
 
@@ -256,94 +252,10 @@ A client requested a way to read Decision Tree models saved by CART in proprieta
 * **Tree Map**.
 * **Tree Printing**.
 
-## Education
-
-### 1995-2000 Master's Degree. "Data Security in Computer Systems"
-
-[Kharkiv National University of Radio Electronics (NURE)][nure_eng]. **Grade point average is 5.0**, the highest possible.
-
-### 1995-1998 University Certificate of Higher Education. "Information Systems".
-
-[Thames Valley University, London][thames_valley] Now known as University of West London.
+<!-- include: _parts/education.md -->
 
 ### 1993-1995. Software Developer, Researcher.
 
 [Lyceum "Professional"][lyceum_prof]. This was a pioneering school well ahead of its time. It gave us comprehensive University curriculum in an engaging and innovative way. This was an amazing professional and educational boost.
 
-[oleg_kayaking_gravatar]:assets/oleg-zhylin-gravatar.png "Oleg Zhylin"
-[oleg_linkedin]:https://www.linkedin.com/in/olegzhylin/ "Oleg Zhylin LinkedIn"
-[archive_org]:https://web.archive.org "The Internet Archive Wayback Machine"
-
-[pyinvoke]: http://web.archive.org/web/http://www.pyinvoke.org "Invoke Python Framework"
-[codemeter]: http://web.archive.org/web/20180628212725/https://www.wibu.com/codemeter/  "Wibu-Systems Codemeter"
-[anaconda_cloud]: http://web.archive.org/web/https://anaconda.org "Anaconda Cloud"
-[cart_4_0]: http://web.archive.org/web/20010205000600/http://www.salford-systems.com/products-cart.html "CART v4.0 (Classification and Regression Trees)"
-[cart_5_0]: http://web.archive.org/web/20030401151728/http://www.salford-systems.com:80/products-cart.html "CART v5.0"
-[treenet_first]: http://web.archive.org/web/20030413071322/http://www.salford-systems.com:80/index.html "TreeNet in CART 5.0"
-[salford]: https://web.archive.org/web/https://www.salford-systems.com "Salford Systems"
-[minitab]: https://web.archive.org/web/https://www.minitab.com "Minitab Inc."
-[greatcall]: https://web.archive.org/web/https://www.greatcall.com "GreatCall"
-[bbh]: https://web.archive.org/web/https://healthcare.bestbuy.com/ "Best Buy Health"
-[r4]: https://web.archive.org/web/20230511154535/https://www.lively.com/medical-alerts "Lively Mobile+"
-[r5]: https://web.archive.org/web/20240407110931/https://www.lively.com/medical-alerts/lively-mobile2 "Lively Mobile 2"
-[lively_products]: https://web.archive.org/web/20260830233733/https://shop.lively.com/collections/shop-all-products "Lively Devices and Apps product lines"
-[data_wrangling]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Data_wrangling "Data Wrangling"
-[spm82]: http://web.archive.org/web/20180503211221/https://www.salford-systems.com/products/spm "SPM 8.2"
-[gof_book]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Design_Patterns "Gang of Four (GoF)"
-[kafedra_bit]: http://web.archive.org/web/https://nure.ua/en/department/department-of-information-technology-security-its "Department of Information Technology Security (ITS)"
-[nure_eng]: http://web.archive.org/web/http://nure.ua/en "Kharkiv National University of Radio Electronics (NURE)"
-[thames_valley]: http://web.archive.org/web/https://www.uwl.ac.uk "University of West London"
-[oliphant]: http://web.archive.org/web/https://en.wikipedia.org/wiki/Travis_Oliphant "Travis Oliphant"
-[iit]:https://web.archive.org/web/https://iit.com.ua/en "Institute of Information Technology"
-[nalpeiron]:https://web.archive.org/web/https://www.nalpeiron.com "Nalpeiron License Manager"
-[jerry]:https://web.archive.org/web/https://statweb.stanford.edu/~jhf/ "Jerome H. Friedman"
-[leo]:https://statistics.berkeley.edu/memory/leo-breiman "Leo Breiman"
-[olshen]:http://statweb.stanford.edu/~olshen/ "Richard Olshen"
-[chuck]:https://vcresearch.berkeley.edu/faculty/charles-stone "Charles Stone"
-[cart_monograph]:http://web.archive.org/web/20180714003537/https://books.google.com/books?id=gLs6DwAAQBAJ&lpg=PA1&dq=%22Classification%20and%20Regression%20Trees%22&pg=PA1#v=onepage&q=%22Classification%20and%20Regression%20Trees%22&f=false "Breiman, L. (1984). Classification and Regression Trees. New York: Routledge."
-[dsteinberg]:http://web.archive.org/web/https://www.salford-systems.com/company "Dan Steinberg, the Founder of Salford Systems."
-[kaggle]:http://web.archive.org/web/https://www.kaggle.com "Kaggle"
-[ccnet]:http://web.archive.org/web/https://github.com/ccnet/CruiseControl.NET "CruiseControl .NET"
-[msvs_installer]: http://web.archive.org/web/https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects "Microsoft Visual Studio Installer Projects"
-[qt]:http://web.archive.org/web/https://www.qt.io "Qt framework"
-[qwidgets]:http://web.archive.org/web/http://doc.qt.io/qt-5/qtwidgets-index.html "Qt Widgets"
-[qml]:http://web.archive.org/web/http://doc.qt.io/qt-5/qtqml-index.html "QML"
-[milo]:http://web.archive.org/web/https://www.milosolutions.com/en/ "Milo Solutions"
-[qt_installer]:http://web.archive.org/web/https://wiki.qt.io/Qt-Installer-Framework "Qt Installer Framework"
-[cppcheck]:http://web.archive.org/web/20180616135607/https://sourceforge.net/projects/cppcheck/ "CppCheck"
-[boundschecker]:http://web.archive.org/web/20111026014755/http://www.microfocus.com:80/products/micro-focus-developer/devpartner/index.aspx "NuMega Boundschecker"
-[qydatatech]:http://web.archive.org/web/20180615125018/http://www.qydatatech.com/about/index.html   "QYDatatech"
-[seaweedfs]:https://github.com/chrislusf/seaweedfs "SeaweedFS"
-[mrocklin]:http://matthewrocklin.com "Matthew Rocklin"
-[pycon2014]:https://web.archive.org/web/https://us.pycon.org/2014/ "PyCon 2014 in Montréal"
-[pycon2016]:https://web.archive.org/web/https://us.pycon.org/2016/ "PyCon 2016 in Portland, OR"
-[pfa]:http://web.archive.org/web/http://dmg.org/pfa/ "Portable Format for Analytics (PFA)"
-[isle]: https://web.archive.org/web/20180611210658/http://statweb.stanford.edu/~jhf/ftp/isle.pdf "Importance Sampled Learning Ensembles"
-[databricks]:https://databricks.com "Databricks Cloud"
-[strata_conf_2014]:https://web.archive.org/web/https://conferences.oreilly.com/strata/stratany2014 "Strata conference"
-[dask]:https://dask.pydata.org/ "Dask Python framework"
-[tcc]:https://web.archive.org/web/https://bellard.org/tcc/ "Tiny C Compiler"
-[rancher_os]:https://web.archive.org/web/https://rancher.com/rancher-os/ "RancherOS"
-[rancher]:https://web.archive.org/web/https://rancher.com/what-is-rancher/overview/ "Rancher"
-[freeipa]:https://web.archive.org/web/https://www.freeipa.org/page/Main_Page "FreeIPA"
-[gitlab]:https://web.archive.org/web/https://gitlab.com "GitLab"
-[flexlm]:https://web.archive.org/web/https://www.flexera.com/products/software-license-optimization/flexnet-manager-engineering-applications.html "Flexera Software FlexLM"
-[rlm]:https://web.archive.org/web/http://www.reprisesoftware.com "Reprise License Manager"
-[arxan]:https://web.archive.org/web/https://www.arxan.com "Arxan"
-[safenet]:https://web.archive.org/web/http://sentinelrms.safenet-inc.com "Sentinel RMS - SafeNet"
-[spm70]:http://web.archive.org/web/20151108104149/http://www.salford-systems.com:80/products/spm "SPM 7.0"
-[wtl]:http://web.archive.org/web/https://en.wikipedia.org/wiki/Windows_Template_Library "Windows Template Library (WTL)"
-[gps_salford]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/gps "Generalized PathSeeker (GPS)"
-[salford_pipelines]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/model-compression "Model Compression via ISLE and RuleLearner"
-[treenet]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/treenet "TreeNet"
-[cart]:http://web.archive.org/web/https://www.salford-systems.com/support/spm-user-guide/help/classification-modeling-in-cart "CART"
-[gitolite]:http://web.archive.org/web/http://gitolite.com/gitolite/index.html "Gitolite"
-[redmine]:http://web.archive.org/web/http://www.redmine.org "RedMine"
-[clr_stored_procedures]:http://web.archive.org/web/https://msdn.microsoft.com/en-us/library/ms131094.aspx "CLR Stored Procedure"
-[intel_xe]:http://web.archive.org/web/https://software.intel.com/parallel-studio-xe "Intel Parallel Studio XE"
-[vsts]:http://web.archive.org/web/https://www.visualstudio.com/team-services "Visual Studio Team Services"
-[sas]:http://web.archive.org/web/https://www.sas.com "SAS"
-[cicd]:http://web.archive.org/web/https://en.wikipedia.org/wiki/Continuous_integration "Continuous integration/Continuous deployment"
-[crypkey]:http://web.archive.org/web/https://www.crypkey.com "CrypKey"
-[lyceum_prof]:http://web.archive.org/web/http://lyceum-prof.at.ua "Lyceum `Professional`"
-
+<!-- include: _parts/links.md -->

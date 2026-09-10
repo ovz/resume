@@ -12,10 +12,11 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 - [Primary resume — structure, cut points, editing rules](wiki/resume/primary-resume.md) — *reference.* What the public resume is, the half-page / one-page / two-page cut principle, section and style conventions. **Load before any edit to `markdown/Oleg.Zhylin.resume.achievements.md`.**
 - [Link conventions](wiki/resume/link-conventions.md) — *reference.* Wayback Machine snapshots as the default hyperlink; URL forms, key naming, observed inconsistencies. **Load when** adding or touching any link in an outward-facing document.
 - [Update the outward-facing resume](wiki/resume/update-workflow.md) — *how-to.* The deliberate edit pass: draft, place at the right depth, link-check, sensitivity-check, render, lint, hand off. **Load when** asked to refine/improve/update the resume or produce a tailored variant.
+- [Resume coverage map](wiki/resume/coverage.md) — *reference.* Brag material grouped into threads, decomposed into claims, each marked reflected / partial / absent in the resume, with an estimated coverage percentage. **Load when** deciding what a resume pass should cover, or after ingesting or promoting anything.
 
 ## Workflows
 
-- [Resume Brag File — drop and ingest](wiki/workflows/brag-file.md) — *how-to.* Capture an accomplishment in `raw/brag/` now; fold entries into the wiki later. **Load when** the owner says "add this to my brag file" or asks to ingest brag entries.
+- [Resume Brag File — capture and ingest](wiki/workflows/brag-file.md) — *how-to.* Capture the input verbatim, write or enrich the entry in `raw/brag/`, then fold entries into the wiki and the coverage map later. **Load when** the owner says "add this to my brag file", supplies material in any form, or asks to ingest brag entries.
 - [Archive a superseded source](wiki/workflows/archive-source.md) — *how-to.* Move a retired `markdown/` document into `raw/archive/` with a summary page. **Load when** a document stops being outward-facing.
 - [Sensitivity tiers](wiki/workflows/sensitivity-tiers.md) — *reference.* T0 public / T1 private repo / T2 never committed; promotion is a rewrite. **Load when** deciding whether something may be written down, or before promoting brag content.
 

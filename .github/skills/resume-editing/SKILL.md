@@ -1,6 +1,6 @@
 ---
 name: resume-editing
-description: "Edit an outward-facing resume document in markdown/ — the public achievements resume or the private references document. Loads the depth, link and sensitivity rules that must be applied before changing either file, plus the render-and-verify step that closes the edit. USE WHEN asked to refine, update, tailor, or proofread the resume, or to add an accomplishment to it. DO NOT USE for editing the llm-wiki knowledge layer or for capturing a raw brag entry."
+description: "Edit an outward-facing resume document in markdown/ — the public achievements resume or the private references document. Loads the depth, link and sensitivity rules that must be applied before changing either file, plus the render-and-verify step that closes the edit. USE WHEN asked to refine, update, tailor, or proofread the resume, or to promote an already-synthesized accomplishment onto it. DO NOT USE for editing the llm-wiki knowledge layer, and DO NOT USE for recording a new accomplishment as it happens — that is brag-capture, a separate earlier step."
 ---
 
 # Resume source editing

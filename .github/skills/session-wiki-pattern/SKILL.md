@@ -1,11 +1,28 @@
 ---
 name: session-wiki-pattern
-description: "USE WHEN planning or maintaining a long, multi-step assignment that must survive context compaction, host-process crash, or session loss — and you want every piece of knowledge the session produces preserved durably so the work can RESTART in a fresh, lean chat from a resume token. A session-wiki is an ephemeral, scope-scoped working wiki inside the host repo's gitignored scratch area that applies the LLM-wiki pattern at session scale (raw capture → synthesis → index). DO NOT USE for single-shot tasks (a simple tracker suffices) or for the repo's durable committed knowledge base (that is the LLM-wiki). Companion to agent-context-resilience (checkpoint/harvest mechanics) and multi-agent-choreography (delegation, context isolation)."
+description: "USE WHEN planning or maintaining a long, multi-step assignment that must survive context compaction, host-process crash, or session loss — and you want every piece of knowledge the session produces preserved durably so the work can RESTART in a fresh, lean chat from a resume token. A session-wiki is an ephemeral, scope-scoped working wiki in the host repo's gitignored scratch area, structured raw capture → synthesis → index, with a tracker that doubles as the resume token. It is self-contained and needs nothing but a scratch directory. DO NOT USE for single-shot tasks (a simple tracker suffices), or for authoring the host repo's durable committed knowledge, which outlives the session and follows that repo's own conventions."
 ---
 
 # Session-Wiki Pattern
 
-A **session-wiki** is an ephemeral, scope-scoped working wiki inside a *session sub-directory* under the host repo's gitignored scratch area (e.g. `__untracked_stuff/<scope>/` — crash-safe and machine-transferable). It applies the durable LLM-wiki pattern at SESSION scale so that (a) all knowledge produced during a long multi-step session is preserved on disk, not just in chat history or volatile memory, and (b) the session can RESTART in a fresh, lean chat from a resume token without losing anything.
+A **session-wiki** is an ephemeral, scope-scoped working wiki inside a *session sub-directory* under the host repo's gitignored scratch area (e.g. `__untracked_stuff/<scope>/` — crash-safe and machine-transferable). It gives a session the three-layer shape that makes knowledge accumulate instead of scroll past:
+
+> **raw capture → synthesis → index**, with a tracker alongside that doubles as the resume token.
+
+Raw holds what was actually observed, immutable once written. Synthesis distills it into findings that cite raw. An index makes both navigable without reading everything. The point is that (a) all knowledge produced during a long multi-step session is preserved on disk, not just in chat history or volatile memory, and (b) the session can RESTART in a fresh, lean chat from the tracker without losing anything.
+
+## What this skill assumes
+
+**Exactly one thing: a gitignored scratch area in the host repo that a session may write to freely.** Everything else — the structure, the rules, the two context templates — ships in this skill directory. Drop the directory into another repo that has such an area, and it works unmodified.
+
+It specifically does **not** require:
+
+- **A durable committed knowledge base.** Some repos keep one (an "LLM-wiki": a maintained, version-controlled set of synthesized pages). Where that exists, the rules below marked *if the host repo keeps durable committed knowledge* govern how material graduates out of scratch into it. Where it does not, promotion targets a skill, an instruction, a design doc or a README instead, and nothing else in this skill changes. Such a knowledge base is repo-specific content governed by its own repo's conventions — it is not a skill, and this skill never depends on one being installed.
+- **A ticket system.** A ticket ID is one kind of scope handle among several; a branch name or any other stable identifier works as well.
+- **Other skills.** Named conventions appearing later in this file are *optional host-repo capabilities*, listed so you defer to one if it exists. None is a dependency.
+- **A multi-agent cast.** Single-agent use is the baseline; coordinator-specific guidance is marked as such and is skippable.
+
+Examples below write `__untracked_stuff/` for the scratch root because that is this repository's name for it. Substitute whatever the host repo calls its own.
 
 ## Why
 
@@ -13,7 +30,7 @@ A long multi-turn session's context grows with accumulated conversation history,
 
 ## The one-way reference rule (read this before writing any cross-tier reference)
 
-A session-wiki lives in the host repo's **gitignored** scratch area; the repo's committed content — source, tests, skills, instructions, the durable LLM-wiki — lives under **version control**. References between those two tiers are legal in exactly one direction:
+A session-wiki lives in the host repo's **gitignored** scratch area; the repo's committed content — source, tests, skills, instructions, docs, and any durable knowledge base it happens to keep — lives under **version control**. References between those two tiers are legal in exactly one direction:
 
 > **A non-version-controlled file MAY reference version-controlled content. A version-controlled
 > file MUST NEVER reference non-version-controlled content.**
@@ -44,16 +61,16 @@ See __untracked_stuff/some-audit-2026-01/session-wiki/findings/some-analysis.md
 Origin: promoted from __untracked_stuff/some-experiment/deploy.sh
 ```
 
-Each of those asks a reader to open something a fresh clone does not have. **Every example in a version-controlled file is hypothetical** — if the point being made genuinely needs the evidence, the evidence has not been promoted far enough yet: distill the finding INTO the committed file (or into an LLM-wiki page) so the committed file stands alone, and let the scratch copy be the audit trail nobody has to read.
+Each of those asks a reader to open something a fresh clone does not have. **Every example in a version-controlled file is hypothetical** — if the point being made genuinely needs the evidence, the evidence has not been promoted far enough yet: distill the finding INTO the committed file so it stands alone, and let the scratch copy be the audit trail nobody has to read.
 
-This applies to *any* committed artifact — a `SKILL.md`, an instruction, an `AGENTS.md`, an LLM-wiki page, a `README.md`, a shell script's provenance comment, a source-file comment. It is the reference-direction counterpart to the content rule in *Promotion, and LLM-wiki independence* below. When the host repo has a wiki-linting tool (for example, a `wiki-lint` skill's `linkcheck.py --mode llm-wiki`), that tool is the mechanized enforcement of this rule.
+This applies to *any* committed artifact — a `SKILL.md`, an instruction, an `AGENTS.md`, a `README.md`, a durable knowledge page, a shell script's provenance comment, a source-file comment. It is the reference-direction counterpart to the content rule in *Promotion, and independence of durable knowledge* below. A link-checking tool, if the host repo has one, is the mechanized enforcement of this rule; absent one, it is enforced by reading.
 
 ### Session-only identifiers are references too, not just paths
 
-The rule is not limited to file paths. A **session-only identifier** — a Jira/ticket ID (`R55-1153`), a tracker item ID (`D33`, `D34`), a scope-directory slug, or a branch name — embedded in a committed comment or doc is exactly the same violation as a dead scratch path: it resolves only by opening the gitignored tracker that assigned it, and it fails exactly as *silently* for a fresh-clone reader, who has no way to know the ID even refers to anything.
+The rule is not limited to file paths. A **session-only identifier** — a ticket ID (`ABC-123`), a tracker item ID (`D7`), a scope-directory slug, or a branch name — embedded in a committed comment or doc is exactly the same violation as a dead scratch path: it resolves only by opening the gitignored tracker that assigned it, and it fails exactly as *silently* for a fresh-clone reader, who has no way to know the ID even refers to anything.
 
 ```
-// Sourced from Foo (R55-1153 D33), which now owns this behaviour.        <- forbidden
+// Sourced from Foo (ABC-123 D7), which now owns this behaviour.          <- forbidden
 // Extracted from Bar per the corner-case fix agreed for this ticket.     <- fine (self-contained)
 ```
 
@@ -63,9 +80,9 @@ Better still than skipping the label: **skip the label AND state the reasoning i
 
 Because committed files may not point into scratch, the scratch scope must carry the **complete** account of the work happening on this workstation — every side quest, dead end, capture, and decision. Nothing may be left implicit on the assumption that a committed file will explain it. The committed side keeps the distilled knowledge; the scratch side keeps how that knowledge was arrived at.
 
-## Memory (`/memories/`) is agent recall, never the visible record
+## An agent memory tool is agent recall, never the visible record
 
-The GitHub Copilot memory tool — user, session, and repo scopes under `/memories/` — exists to serve AGENT efficiency: fast recall, avoiding re-discovery, and durable conventions that help an agent resume work quickly across turns and sessions. That is its entire job.
+Most harnesses provide some agent memory mechanism — scoped stores under `/memories/`, a per-project memory directory, a persistent notes file. Whatever the host harness calls it, it exists to serve AGENT efficiency: fast recall, avoiding re-discovery, and durable conventions that help an agent resume work quickly across turns and sessions. That is its entire job, and the rule below holds regardless of which harness is in use.
 
 **Memory must never be the sole or primary home for anything the user would plausibly want to
 read or verify.** Unlike a version-controlled file, or a file under `__untracked_stuff/` (gitignored, but still fully visible in the editor and file tree), memory has no equivalent surface — a user does not browse it the way they browse the repo. Whatever the user asked about, or would want to check later, belongs in a VISIBLE tier: a version-controlled doc, skill, or instruction; or, for scope-scoped material, the scope's own `session-wiki/` (`findings/`, `log/`) or `tasks/assignment_tracker.md`.
@@ -84,12 +101,12 @@ This is *The one-way reference rule* above, one tier further out: a committed fi
 
 ## Tolerated redundancy is a tokenomics decision, and it differs per tier
 
-The three tiers an agent writes to — the committed LLM-wiki, the scope's session-wiki, and the agent memory tool — obey different redundancy laws because they are paid for differently:
+The three tiers an agent writes to — committed content, the scope's session-wiki, and the agent memory tool — obey different redundancy laws because they are paid for differently:
 
-- **The LLM-wiki is loaded by strangers.** Every reader of a shard pays for every line in it, on every load, forever. Redundancy there is pure cost: one fact, one page, everything else links. So is *perishable* content — a pass count, a ticket or tracker ID, a branch name, an "as of <date>" status, "this ticket" deixis — which is worklog residue that stops being true within days and then costs every future loader while helping none. The test before a sentence lands: *would it still be true and useful to a reader who has never heard of the ticket, on a fresh clone, after the next few commits?*
+- **Committed content is loaded by strangers.** Whatever form the repo keeps it in — a skill, an instruction, a design doc, a durable knowledge page — every reader pays for every line in it, on every load, forever. Redundancy there is pure cost: one fact, one page, everything else links. So is *perishable* content — a pass count, a ticket or tracker ID, a branch name, an "as of <date>" status, "this ticket" deixis — which is worklog residue that stops being true within days and then costs every future loader while helping none. The test before a sentence lands: *would it still be true and useful to a reader who has never heard of this assignment, on a fresh clone, after the next few commits?*
 - **The session-wiki and memory are workstation-local and read by the agent that wrote them.** Here worklog style is the point, and **duplication for locality is tolerated whenever it saves tokens on the next resume**: a tracker line that restates a finding's headline so the resume read does not have to open the finding; a memory pointer that repeats a path already in the tracker; a compacted closed-item summary that duplicates a log chunk's disposition. Each of these spends a few bytes once to save a file read every time the scope is re-entered. The limit is the *substance* rule above — duplicate pointers and headlines, never reasoning — and the compaction discipline below, so the redundancy stays small enough to keep paying for itself.
 
-When the host repo has an LLM-wiki, its protocol owns the repo-specific application of this split (which tier holds what, and any mechanized perishability check); this section is the transferable rationale.
+Where the host repo keeps durable committed knowledge, that repo's own conventions own the repo-specific application of this split — which tier holds what, and any mechanized perishability check. This section is the transferable rationale, and holds with or without such a repo-side convention.
 
 ## Sibling directories under the session sub-directory: `tasks/` and `session-wiki/` are always present; `logs/` is optional
 
@@ -155,7 +172,7 @@ Illustrative shapes (hypothetical — see *The one-way reference rule* above):
 ```
 __untracked_stuff/ABC-123-beacon-tracking-corner-cases/    # handle + condensed title
 __untracked_stuff/ABC-456-keep-alive-validation-and-pr/
-__untracked_stuff/wiki-lint-2026-01/                       # non-ticket handle, same shape
+__untracked_stuff/docs-audit-2026-01/                      # non-ticket handle, same shape
 ```
 
 A bare `__untracked_stuff/ABC-456/` is NOT sufficient. A directory listing is the cheapest discovery surface an agent or human has — a bare ID forces opening files just to learn what a scope is about, and after several tickets the listing becomes unreadable.
@@ -163,9 +180,9 @@ A bare `__untracked_stuff/ABC-456/` is NOT sufficient. A directory listing is th
 Rules:
 
 1. **Handle first, verbatim.** Keep the exact ticket/branch identifier as the leading token so
-ID-based search (`ls -d *1142*`, `grep R55-1142`) still resolves.
+ID-based search (`ls -d *123*`, `grep ABC-123`) still resolves.
 2. **Slug is lowercase kebab-case,** roughly 2–5 words / ≤ 40 characters. Condense the title;
-do not transcribe it. Drop filler ("update", "r5-core", "add") that every ticket shares.
+do not transcribe it. Drop filler ("update", "fix", "add") that every assignment shares.
 3. **Separator is `-`, not `_`.** One separator style keeps the listing scannable.
 4. **The slug names the SUBJECT, not the status.** No `-wip`, `-done`, `-v2`. Status lives in
 the outer `AGENTS.md` banner and the tracker.
@@ -181,7 +198,7 @@ Existing scopes named with a bare handle SHOULD be normalized. This is the one s
 1. Derive each slug from that scope's own `README.md`/`AGENTS.md`/branch — never invent one.
 2. Rename, then **rewrite every cross-scope path reference in the same operation** —
 `../<old>/`, `../../<old>/`, and `__untracked_stuff/<old>/` — across scope docs AND any version-controlled file that cites the path (wiki shards, skills). Restrict the rewrite to path contexts: a blind substitution corrupts branch names, which share the `<ID>/` prefix shape (`ABC-456/keep_alive_beacon_tracking`).
-3. Re-run the dead-link audit (`wiki-lint` → `linkcheck.py --mode session`) afterwards.
+3. Re-run a dead-link audit over the scope afterwards — mechanically where the host repo has a link-checking tool, otherwise by grepping the old scope name across scope documents and committed files.
 4. Log the full old→new mapping in the acting scope's `session-wiki/log/`, and leave already-
 written historical log chunks in other scopes unedited — they are an immutable audit trail; the mapping entry is what makes their old paths resolvable.
 
@@ -290,7 +307,9 @@ The trigger is the **rule of two**: on the second scope that needs it, the core 
 
 Before promoting, harvest the predecessors: earlier scopes' notebooks and scripts usually contain techniques and — more valuable — recorded *failures* that the new core should encode. Read the archived and superseded artifacts specifically; they hold the "this did not work, and here is why" that clean current code no longer shows. Every utility promoted this way should carry a one-line docstring naming the scope experience that justifies it; a utility nobody can justify that way is speculation, and speculation is what makes a core hard to change later.
 
-Worked example: the R55-1142 single-ticket validation harness was carried into R55-1153 and split into `engine.py` + per-ticket suites so one device capture proves both tickets (2026-07-27); one day later, with four earlier scopes' notebooks mined for technique, the engine was promoted to a version-controlled, unit-tested `r5syslog` package hosted in this repo's `r5-validation-protocol` skill, with the scope's harness path-depending on it (2026-07-28). Seam hazards 5 and 8 above were both hit for real during those two moves.
+The shape this takes in practice: a single-scope validation harness is carried into its successor scope and split into an `engine.py` plus per-scope suites, so one capture proves both scopes; then, once several earlier scopes' notebooks have been mined for technique, the engine graduates to a version-controlled, unit-tested package hosted inside the skill that owns it, with each scope's harness path-depending on that package. Seam hazards 5 and 8 above are the two that bite during those moves — expect them rather than discovering them.
+
+(Stated without ticket IDs or scope slugs on purpose: this file is version-controlled, and *Session-only identifiers are references too* above forbids labels a fresh-clone reader cannot resolve. The reasoning has to carry itself.)
 
 #### Rollover tokenomics
 
@@ -369,7 +388,7 @@ status banners, task lists, completed-item inventories, or other volatile resume
 succession, and tracker-generation changes update the tracker and `session-wiki/log/` operations
 log, leaving context files unchanged unless stable routing actually changes.
 3. **Dead-reference audit at session close.** Before ending a session (and always during a
-migration), audit the scope's outer/inner `AGENTS.md` and live tracker for references to files that were archived, moved, or never created; fix or remove each one. When the host repo has a wiki-linting tool, it can mechanize this detection (for example, a `wiki-lint` skill's `linkcheck.py --mode session`).
+migration), audit the scope's outer/inner `AGENTS.md` and live tracker for references to files that were archived, moved, or never created; fix or remove each one. A link-checking tool, where the host repo has one, mechanizes this detection; absent one it is a grep and a read.
 
 ### Ticket migration (scope succession)
 
@@ -395,15 +414,15 @@ Record the migration decision in the SUCCESSOR scope's `session-wiki/findings/` 
 
 Specialists MUST capture verbatim output to `raw/<YYYYMMDD>_<desc>.txt` before synthesizing into `findings/` (or the repo-local equivalent). This keeps the synthesis layer honest and enables re-synthesis without re-running commands.
 
-## Ownership model: a cross-functional task-tracking specialist owns `tasks/`
+## Ownership model: who owns `tasks/`
 
-If the repo's agent cast includes a dedicated task-tracking specialist (e.g. this repo's `@tasks`), that specialist owns the whole `tasks/` sub-directory: building and maintaining `assignment_tracker.md`, plus whatever internal structure it needs (waves, archiving stale items out of the live tracker). Keeping the tracker lean, well-organized, and evidence-backed is specialized knowledge that belongs to that role.
+If the host repo's agent cast includes a dedicated task-tracking specialist — a named sub-agent or persona, in a harness that supports them — that specialist owns the whole `tasks/` sub-directory: building and maintaining `assignment_tracker.md`, plus whatever internal structure it needs (waves, archiving stale items out of the live tracker). Keeping the tracker lean, well-organized, and evidence-backed is specialized knowledge that belongs to that role.
 
 This role is unlike a narrowly-scoped specialist: its remit spans EVERY other specialist's domain, because tracking work touches whatever any specialist is doing. That breadth means it needs correspondingly broad awareness — make this a durable **habit**, not a fact to memorize once:
 
-- Check the repo's LLM-wiki generally, starting from its root index, not one fixed shard — the tracking specialist does not know in advance which domain a given assignment will touch.
-- Check the `session-wiki-pattern` skill (this one) for the structural conventions it is applying.
-- Check for whatever OTHER conventions or mechanisms the repo has established, by browsing what the wiki index currently surfaces — new mechanisms get added over time, so a hardcoded enumerated list of "things to check" goes stale. The habit is "consult the index and see what's current," not "remember a fixed checklist."
+- Start from the repo's always-on instructions (`AGENTS.md`, or the host harness's equivalent) and follow wherever they route — a durable knowledge base's index where the repo keeps one, otherwise the skills, docs and per-directory rules they name. The tracking role cannot know in advance which domain a given assignment will touch, so it reads the router rather than one fixed page.
+- Check this skill for the structural conventions being applied.
+- Check for whatever OTHER conventions or mechanisms the repo has established, by browsing what that router currently surfaces — new mechanisms get added over time, so a hardcoded enumerated list of "things to check" goes stale. The habit is "consult the router and see what's current," not "remember a fixed checklist."
 
 Other specialists (e.g. a general dev specialist) author content into `session-wiki/` files; they do not own `tasks/`.
 
@@ -413,8 +432,8 @@ If a repo's cast has no dedicated task-tracking specialist, any specialist may p
 
 How an AI agent learns about the session-wiki-pattern.
 
-1. **Choreographer-led (default, lowest friction).** A choreographer's skill-discovery duty includes proactively telling relevant specialists about the session-wiki-pattern skill — and pointing them at the right scope directory — whenever it is coordinating multi-step or multi-session work.
-2. **User invokes a specialist directly** AGENTS.md and other agent customizations help discovering and applying the session-wiki context. User only need to point at AGENTS.md (or the scope directory) and the specialist will load the session-wiki-pattern skill and the relevant scope's session-wiki automatically.
+1. **Agent reads it from the repo's own instructions (the baseline, and the only path that needs no cast).** `AGENTS.md` and the other always-on customizations point at this skill and at the scratch-area convention. The user need only point at `AGENTS.md` or the scope directory, and the agent loads this skill and the relevant scope's session-wiki on its own.
+2. **Choreographer-led, where the host repo actually has a coordinating agent.** In a multi-agent setup, the coordinator's skill-discovery duty includes proactively telling relevant specialists about this skill — and pointing them at the right scope directory — whenever it coordinates multi-step or multi-session work. A single-agent repo simply does not use this path.
 
 ## Two `AGENTS.md` files per scope
 
@@ -436,9 +455,9 @@ Templates for both are provided in this skill's directory:
 
 **Naming warning:** neither template file is literally named `AGENTS.md` — that would risk being mistaken for a real sub-tree `AGENTS.md` when someone browses this skill's directory. Only the copies created inside an actual scope directory should be named `AGENTS.md`.
 
-## Discovery is general, not just Jira
+## Discovery is general, not tied to a ticket system
 
-Discovering a session's scope directory should not assume any single ticketing system. A Jira ticket ID is only ONE example handle. Others include a git branch name that matches or relates to the scope directory name, or any other durable identifier established by whoever started the session.
+Discovering a session's scope directory should not assume any single ticketing system, or that one exists at all. A ticket ID is only ONE example handle. Others include a git branch name that matches or relates to the scope directory name, or any other durable identifier established by whoever started the session.
 
 The general instruction: check `__untracked_stuff/<scope-identifier>/` for a matching or creatable session-wiki, where `<scope-identifier>` can be derived from a ticket ID, a branch name, or another stable handle. Deciding whether a matching session exists, or whether to create one, belongs to the agents/specializations relevant to the current work — it is not a rigid rule this skill enforces itself.
 
@@ -453,7 +472,7 @@ Two distinct logs may exist, never conflated:
 - **`session-wiki/log/`** is ALWAYS present. It is session-wiki's own operations log — raw captured, synthesized, promoted, and archived. Every scope has one, because every scope's session-wiki has construction activity worth logging.
 - **Scope-root `logs/`** is OPTIONAL, on the same footing as `session-wiki-archive/`: create it only when the scope has a genuine narrative that is NOT about session-wiki's own construction — e.g. real ticket/engineering work (implementation decisions, bugs found and fixed) that exists independently of building the wiki itself. A scope whose whole story IS the session-wiki (nothing beyond wiki construction happened) has no need for a scope-root `logs/` — do not maintain an empty or duplicate one "just in case".
 
-Unlike the version-controlled, curated LLM-wiki, both logs are expected to capture ALL side quests, archival decisions, and dead ends — not just the clean narrative. They are closer to an **audit trail** than a curated index, and are more likely to be inspected or audited precisely because they are the honest, complete record rather than a curated one.
+Unlike curated, version-controlled content, both logs are expected to capture ALL side quests, archival decisions, and dead ends — not just the clean narrative. They are closer to an **audit trail** than a curated index, and are more likely to be inspected or audited precisely because they are the honest, complete record rather than a curated one.
 
 Physical design (transferable — describe the shape generically; applies identically to BOTH `session-wiki/log/` and scope-root `logs/`, when the latter exists — **and to a durable knowledge base's own operations log, which is itself scratch; see *An operations log is never version-controlled* below**):
 
@@ -472,9 +491,9 @@ Physical design (transferable — describe the shape generically; applies identi
 
 ### An operations log is never version-controlled
 
-This holds for a **durable, committed** knowledge base too — not just for session scratch. A committed wiki's value is its distilled knowledge; an append-only "what happened when" log makes that wiki grow with **time** instead of with **knowledge**, and every entry ages into noise a reviewer must still read past. Worse, log entries are exactly the content most likely to cite scratch paths, patch waves, and in-flight state — which would put a committed file in violation of *The one-way reference rule* above.
+This holds for a **durable, committed** knowledge base too, where the host repo keeps one — not just for session scratch. Such a base earns its keep through distilled knowledge; an append-only "what happened when" log makes it grow with **time** instead of with **knowledge**, and every entry ages into noise a reviewer must still read past. Worse, log entries are exactly the content most likely to cite scratch paths, work waves, and in-flight state — which would put a committed file in violation of *The one-way reference rule* above.
 
-So: a committed knowledge base keeps its operations log in the **scratch scope of whoever maintains it**, using the same shape described here. What graduates into the committed wiki is the resulting knowledge page, not the record of the session that produced it. How the team arrived at an explanation is reviewed before the knowledge is committed; it is not maintained under version control afterwards.
+So: a committed knowledge base keeps its operations log in the **scratch scope of whoever maintains it**, using the same shape described here. What graduates into the committed side is the resulting knowledge page, not the record of the session that produced it. How the team arrived at an explanation is reviewed before the knowledge is committed; it is not maintained under version control afterwards.
 
 ## Retroactive bootstrap
 
@@ -500,22 +519,33 @@ A commit message is subject to *The one-way reference rule* at the top of this s
 
 The reviewer, not the agent, decides whether to use the message verbatim, edit it, or split the commit.
 
-## Promotion, and LLM-wiki independence
+## Promotion, and independence of durable knowledge
 
-When the assignment closes, stable and broadly-useful knowledge GRADUATES from the session-wiki into the durable committed knowledge base (LLM-wiki), or into a skill or instruction. Ephemeral session state — the tracker, raw captures, repros — is then discarded (or moved to `session-wiki-archive/` if still worth keeping cold).
+When the assignment closes, stable and broadly-useful knowledge GRADUATES out of the session-wiki into whatever durable home the host repo actually has — the file whose job it already is (a skill, an instruction, a design doc, a `README.md`), or a durable committed knowledge base where the repo keeps one. Ephemeral session state — the tracker, raw captures, repros — is then discarded, or moved to `session-wiki-archive/` if still worth keeping cold.
 
-The durable **LLM-wiki remains independent of the session-wiki**: a session-wiki MAY reference or cite LLM-wiki content (since the session-wiki is transient/ad hoc and benefits from citing durable knowledge), but the LLM-wiki must never depend on, or be edited to accommodate, session-wiki content. Promotion flows one direction only — session-wiki → LLM-wiki (or a skill/instruction) — and only when the knowledge proves durable and broadly useful.
+**Committed content stays independent of scratch.** A session-wiki MAY cite committed content freely; it is transient and benefits from pointing at what is durable. Committed content must never depend on, or be edited to accommodate, session-wiki content. Promotion flows one direction only, and only once the knowledge has proved durable and broadly useful — a finding still phrased in terms of this one assignment has not earned promotion yet.
 
 The reference-direction half of this is *The one-way reference rule* at the top of this skill: independence is not achieved if the committed page still ends with "see `__untracked_stuff/<real-scope>/findings/…`". Promote the substance, then cite nothing.
 
-## Proposing changes to chat customizations discovered during session-wiki work
+Where the host repo does keep a durable knowledge base, one further constraint applies: it is repo-specific content governed by its own conventions, and **this skill has no authority over it**. Read those conventions before promoting anything into it, and let them win wherever they differ from anything written here.
 
-Session-wiki work often surfaces a concrete improvement to a skill, instruction, agent persona, or wiki shard — the files that constitute agent-loaded knowledge and behavior. Prepare such improvements via a patch-wave workflow rather than editing those files directly mid-session, when the host repo has one (for example, a `customization-patch-workflow` skill) — it governs why a patch, wave grouping, apply-commands, and downstream review.
+## Improvements to agent customizations discovered mid-session
+
+Session-wiki work often surfaces a concrete improvement to the files that constitute agent-loaded knowledge and behavior — a skill, an instruction, an `AGENTS.md`, a durable knowledge page. Two rules, neither of which needs any particular workflow to exist:
+
+- **Capture it where you are.** Write the proposed improvement into the scope's `findings/` when you notice it, rather than carrying it in context to the end of the session — where it is among the first things lost to a crash or a compaction.
+- **Do not fold it in silently.** Editing an agent-loaded file changes how every future session behaves, so it is reviewed like any other change — see *Proposed commits* above.
+
+Where the host repo has an established workflow for proposing such changes in batches, defer to it; it will own grouping, apply-commands, and review routing. Absent one, prepare the edit in the working tree and hand it off with everything else.
 
 ## Relationship (link, don't duplicate)
 
-- `agent-context-resilience` — checkpoint-after-dispatch and harvest mechanics that populate the session-wiki.
-- `multi-agent-choreography` — delegation and context isolation that keep the choreographer's context small.
-- A repo-local patch-proposal convention (for example, a `customization-patch-workflow` skill), if the host repo has one — how to propose a change to a skill, instruction, agent persona, or wiki shard discovered during session-wiki work.
-- A repo-local wiki-linting tool (for example, a `wiki-lint` skill), if the host repo has one — how to lint this structure (dead links, structural conformance, staleness) and risk-tier fixes; applies to session-wikis and the durable LLM-wiki alike.
-- The durable **LLM-wiki** — the committed, compounding knowledge base. The session-wiki is its ephemeral, session-scoped sibling: same raw→synthesis→index shape, but thrown away or promoted when the assignment closes, never committed. See "Promotion, and LLM-wiki independence" above for the one-directional promotion rule.
+**This skill has no required companions.** It is complete on its own. Every capability below is optional: where the host repo has one, defer to it instead of restating its rules here; where it does not, nothing in this skill stops working. The names are conventional labels for a *kind* of capability, not a promise that anything by that name is installed.
+
+| Capability, where the host repo has one | What it owns |
+|---|---|
+| A durable committed knowledge base (an "LLM-wiki") | The repo's compounding, version-controlled knowledge — the same raw→synthesis→index shape as a session-wiki, but permanent and reviewed. It is **repo-specific content with its own conventions, not a skill**: a session-wiki cites it, promotes into it when knowledge has earned it, and never edits it to suit itself. See *Promotion, and independence of durable knowledge* above. |
+| A link-checking tool | Mechanized dead-link and structural-conformance checking over scope documents and committed files. |
+| A context-resilience convention | Checkpoint-after-dispatch and harvest mechanics that populate the session-wiki. |
+| A multi-agent choreography convention | Delegation and context isolation that keep a coordinator's context small. Irrelevant in a single-agent repo. |
+| A customization-patch convention | Batched proposal of changes to skills, instructions, and other agent-loaded files. |

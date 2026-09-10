@@ -3,6 +3,8 @@
 > **Doc type:** reference
 >
 > Ingest and promotion state of every entry in [`raw/brag/`](../../raw/brag/). An entry is *un-ingested* if it exists in `raw/brag/` and has no row here; it needs a *re-ingest* if its latest `## Record history` date is newer than its *Ingested* value. Rows are appended by the ingest step of [workflows/brag-file.md](../workflows/brag-file.md) and updated by [resume/update-workflow.md](../resume/update-workflow.md) when a promotion lands. Edits to the raw entries themselves follow [workflows/brag-file.md](../workflows/brag-file.md) § *Part 1b*.
+>
+> This page tracks state **per entry**. Its finer-grained sibling, [resume/coverage.md](../resume/coverage.md), tracks state **per claim** and groups entries into threads — that is the page to read when deciding what a resume pass should cover. Keep the two consistent: a promotion updates both.
 
 | Entry file | Ingested | Pages touched | Resume-worthy (per entry) | Promotion |
 |---|---|---|---|---|

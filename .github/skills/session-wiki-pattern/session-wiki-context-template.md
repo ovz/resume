@@ -19,4 +19,4 @@ Do not add mutable status or content inventories here. Load findings and cold hi
 An agent entering this scope reads the outer `AGENTS.md`, then the assignment tracker, and loads only the finding or log pages needed for the next action. No prior chat history is required.
 
 ## Agents do not commit
-Human review is mandatory before any commit. See root `AGENTS.md`.
+Human review is mandatory before any commit; proposed messages go in `commits/`. See the `session-wiki-pattern` skill § *Proposed commits*, plus whatever the host repo's own instructions say.

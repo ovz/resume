@@ -16,4 +16,4 @@ Read [`tasks/assignment_tracker.md`](tasks/assignment_tracker.md) first; it is t
 Do not add mutable status or content inventories here. Follow the `session-wiki-pattern` skill for physical design and archive rules.
 
 ## Agents do not commit
-Human review is mandatory before any commit. See root `AGENTS.md`.
+Human review is mandatory before any commit; proposed messages go in `session-wiki/commits/`. See the `session-wiki-pattern` skill § *Proposed commits*, plus whatever the host repo's own instructions say.

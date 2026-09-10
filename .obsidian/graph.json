@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:llm-wiki/raw/brag",
+      "color": {
+        "a": 1,
+        "rgb": 12089556
+      }
+    },
+    {
+      "query": "path:llm-wiki/wiki",
+      "color": {
+        "a": 1,
+        "rgb": 1879160
+      }
+    },
+    {
+      "query": "path:markdown",
+      "color": {
+        "a": 1,
+        "rgb": 2781796
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 11,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}

@@ -86,9 +86,25 @@ check() {
     printf '    MISSING  %-8s %s\n' "$1" "$2"; missing=1
   fi
 }
+# Arch's texlive-context ships the runner as `mtxrun.lua` and creates no plain
+# `mtxrun` symlink, while TeX Live's own installer ships it as `mtxrun`. Resolve
+# either, exactly as pandoc_resume.sh does — checking only for `mtxrun` reports a
+# complete toolchain as broken and sends the reader off installing what they have.
+check_any() {
+  local why="$1"; shift
+  local candidate
+  for candidate in "$@"; do
+    if command -v "${candidate}" >/dev/null 2>&1; then
+      printf '    ok       %-8s %s\n' "${candidate}" "$(command -v "${candidate}")"
+      return 0
+    fi
+  done
+  printf '    MISSING  %-8s %s\n' "$1" "${why}"; missing=1
+}
+
 check git    "install git"
 check pandoc "provides all four output formats"
-check mtxrun "ConTeXt engine; required for PDF output"
+check_any "ConTeXt engine; required for PDF output" mtxrun mtxrun.lua
 
 if [ "${missing}" -ne 0 ]; then
   printf '\n'

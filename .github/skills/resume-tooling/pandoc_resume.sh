@@ -97,23 +97,71 @@ setup_context_config() {
 # to this script's working directory.
 pandoc_common=(--standalone --resource-path="${markdown_dir}" --from markdown)
 
-# AGENTS.md is agent instructions, not an outward-facing document: it lives here
-# because the rules are scoped to this directory, but it is not a resume source
-# and must never be rendered into an artifact.
+# AGENTS.md and its CLAUDE.md import bridge are agent instructions, not
+# outward-facing documents: they live here because the rules are scoped to this
+# directory, but they are not resume sources and must never be rendered into an
+# artifact. Adding a further instruction-file convention here means adding it to
+# this exclusion list too — the failure is silent, producing a stray artifact
+# rather than an error.
 sources() {
-  find "${markdown_dir}" -maxdepth 1 -name '*.md' ! -name 'AGENTS.md' -print0 | sort -z
+  find "${markdown_dir}" -maxdepth 1 -name '*.md' \
+    ! -name 'AGENTS.md' ! -name 'CLAUDE.md' -print0 | sort -z
+}
+
+# Shared fragments live in markdown/_parts/ and are pulled in with a line
+# reading exactly:   <!-- include: _parts/<file>.md -->
+#
+# This exists so content that must be identical across resume variants — above
+# all the reference-link block, whose keys are defined once and mean the same
+# thing in every document — is stored once rather than copied per variant and
+# left to drift. _parts/ is a subdirectory, so sources() above never treats a
+# fragment as a document in its own right.
+#
+# A missing fragment is a hard error: resolving it to nothing would silently
+# strip every link definition and still produce a plausible-looking artifact.
+prepared_dir="${out_dir}/.prepared"
+
+prepare() {
+  local src="$1" name out inc path
+  if ! grep -q '^<!-- include: ' "${src}"; then
+    printf '%s' "${src}"
+    return 0
+  fi
+
+  while IFS= read -r inc; do
+    path="${markdown_dir}/${inc}"
+    [ -f "${path}" ] || die "$(basename "${src}") includes '${inc}', which does not exist at ${path}"
+  done < <(sed -n 's/^<!-- include:[[:space:]]*\(.*[^[:space:]]\)[[:space:]]*-->[[:space:]]*$/\1/p' "${src}")
+
+  name="$(basename "${src}")"
+  out="${prepared_dir}/${name}"
+  mkdir -p "${prepared_dir}"
+  awk -v dir="${markdown_dir}" '
+    /^<!-- include: / {
+      line = $0
+      sub(/^<!-- include:[[:space:]]*/, "", line)
+      sub(/[[:space:]]*-->[[:space:]]*$/, "", line)
+      path = dir "/" line
+      while ((getline l < path) > 0) print l
+      close(path)
+      next
+    }
+    { print }
+  ' "${src}" > "${out}"
+  printf '%s' "${out}"
 }
 
 build_html() {
   note "html"
   while IFS= read -r -d '' src; do
     name="$(basename "${src}" .md)"
+    input="$(prepare "${src}")"
     pandoc "${pandoc_common[@]}" --to html \
       --embed-resources \
       --include-in-header "${styles_dir}/${style}.css" \
       --lua-filter "${lua_filter}" \
       --metadata "pagetitle=${name}" \
-      --output "${out_dir}/${name}.html" "${src}"
+      --output "${out_dir}/${name}.html" "${input}"
     printf '    %s.html\n' "${name}"
   done < <(sources)
 }
@@ -122,8 +170,9 @@ build_docx() {
   note "docx"
   while IFS= read -r -d '' src; do
     name="$(basename "${src}" .md)"
+    input="$(prepare "${src}")"
     pandoc "${pandoc_common[@]}" --to docx \
-      --output "${out_dir}/${name}.docx" "${src}"
+      --output "${out_dir}/${name}.docx" "${input}"
     printf '    %s.docx\n' "${name}"
   done < <(sources)
 }
@@ -132,8 +181,9 @@ build_rtf() {
   note "rtf"
   while IFS= read -r -d '' src; do
     name="$(basename "${src}" .md)"
+    input="$(prepare "${src}")"
     pandoc "${pandoc_common[@]}" --to rtf \
-      --output "${out_dir}/${name}.rtf" "${src}"
+      --output "${out_dir}/${name}.rtf" "${input}"
     printf '    %s.rtf\n' "${name}"
   done < <(sources)
 }
@@ -149,10 +199,11 @@ build_pdf() {
 
   while IFS= read -r -d '' src; do
     name="$(basename "${src}" .md)"
+    input="$(prepare "${src}")"
     pandoc "${pandoc_common[@]}" --to context \
       --template "${styles_dir}/${style}.tex" \
       --variable papersize=A4 \
-      --output "${out_dir}/${name}.tex" "${src}"
+      --output "${out_dir}/${name}.tex" "${input}"
 
     ( cd "${out_dir}" && run_context "${name}" ) ||
       die "ConTeXt failed for ${name}; see ${out_dir}/context_${name}.log"

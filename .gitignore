@@ -2,3 +2,12 @@
 *.htm*
 *.pdf
 __untracked_stuff
+
+# Obsidian: the vault settings are committed so the vault opens the same way on
+# every machine; per-machine UI state and caches are not.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/
+.obsidian/themes/
+.obsidian/snippets/

@@ -24,6 +24,7 @@ The owner is a principal-level engineer; a great deal of what makes the career s
 4. **Brag entries carry a tier tag** (`sensitivity: public-friendly` or `sensitivity: private-repo`). An entry that cannot honestly be tagged either way is T2 material and belongs in the maintainer scope's `raw/`, not in `llm-wiki/raw/brag/`.
 5. **Large files are T2 by size alone.** PDFs, images beyond the single avatar, exports. `.gitignore` already excludes `*.pdf`, `*.htm*`, and `__untracked_stuff`. Do not add exceptions.
 6. **The owner may downgrade a tier, never an agent.** If an agent believes something committed should not be, it flags it in the maintainer tracker and leaves the file in place.
+7. **A case that resists the policy is a defect in the policy.** Most brag input is written with the professional record in mind and classifies without effort. When something genuinely does not — an artifact type these rules do not cover, an ambiguous partner or customer reference — do not settle it with a silent one-off judgement. Apply the most conservative reading, record the case, and propose a refinement here. Repeated judgement calls in the same spot mean this page needs rewriting, not that the reader needs to be more careful.
 
 ## Where the line usually falls (heuristics)
 

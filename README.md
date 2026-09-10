@@ -12,6 +12,8 @@ script/pandoc_resume.sh all      # html, pdf, docx, rtf, then verify
 
 Full build details, sensitivity rules, and everything else: [`AGENTS.md`](AGENTS.md).
 
+Accomplishments are not written straight into the resume. They are captured in `llm-wiki/raw/brag/` when they happen, synthesized into the knowledge layer, and only then promoted to `markdown/` — each hop a rewrite that re-checks sensitivity and depth. The pipeline and its entry points: [`AGENTS.md`](AGENTS.md) § *Tracking professional history*.
+
 ## Layout
 
 | Path | What it is |
