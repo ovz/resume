@@ -29,6 +29,16 @@ Two consequences:
 - If you move or rename anything under `assets/`, update both documents and re-run the build.
 - After any edit, run `script/pandoc_resume.sh all`. It ends with a `verify` pass asserting the image is embedded in all four formats. HTML, PDF, DOCX and RTF each embed images by a different mechanism, so a broken image path typically breaks *some* formats while others still look fine — the eye is not a reliable check here, and a rendered-looking HTML file proves nothing about the PDF.
 
+## The LinkedIn character budget
+
+Sections wrapped in `<!-- linkedin: <slug> limit=<n> -->` … `<!-- linkedin: end -->` are exported to `linkedin/` as the plain text pasted into the profile, and **the build fails when one exceeds its limit** — 2,600 characters for the About section, 2,000 for each Experience entry. Three consequences when editing:
+
+- **Adding a sentence inside a marked section costs one somewhere else.** The counts are printed on every build; check them before deciding a paragraph is too tight to trim.
+- **Never widen a `limit=` to make the build pass.** It is LinkedIn's number, not this repo's. Raising it only moves the truncation to the paste, where nothing reports it.
+- **Keep the Markdown formatted.** The same text renders to PDF, HTML, DOCX and RTF, where emphasis is doing real work; the export strips it. Do not flatten the source to match what LinkedIn shows.
+
+Only the primary resume carries these markers — one profile, one source. A duplicate slug in a second variant is a hard build error.
+
 ## Rendering check
 
 An edit is not finished until the artifacts build clean:
@@ -37,6 +47,6 @@ An edit is not finished until the artifacts build clean:
 script/pandoc_resume.sh all
 ```
 
-Then read the rendered output, not just the Markdown — line breaks, table widths and page cuts in the PDF are where formatting regressions show up.
+Then read the rendered output, not just the Markdown — line breaks, table widths and page cuts in the PDF are where formatting regressions show up. The same run regenerates `linkedin/`; whatever `git status` reports as changed there is what has to be re-pasted into the profile.
 
 Agents do not commit; see the root [`AGENTS.md`](../AGENTS.md).

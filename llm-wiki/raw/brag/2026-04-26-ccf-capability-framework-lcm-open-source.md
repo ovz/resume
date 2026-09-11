@@ -1,10 +1,18 @@
-# Designed and delivered the CCF capability/configuration framework, lifecycle management, and open-source enablement for embedded PERS SDKs
+---
+title: "Designed and delivered the CCF capability/configuration framework, lifecycle management, and open-source enablement for embedded PERS SDKs"
+date: "2026-04-01 to 2026-06 (milestone 2026-04-26)"
+thread: FW
+domains:
+  - "architecture and API design"
+  - "embedded and safety-critical devices"
+  - "operational excellence and observability"
+  - "open source"
+context: "Best Buy Health, SDK C libraries for Personal Emergency Response System (PERS) devices, multiple device SKUs"
+sensitivity: private-repo
+resume-worthy: yes
+---
 
-- date: 2026-04-01 to 2026-06 (milestone 2026-04-26)
-- context: Best Buy Health, SDK C libraries for Personal Emergency Response System (PERS) devices, multiple device SKUs
-- domains: architecture and API design, embedded and safety-critical devices, operational excellence and observability, open source
-- sensitivity: private-repo
-- resume-worthy: yes
+# Designed and delivered the CCF capability/configuration framework, lifecycle management, and open-source enablement for embedded PERS SDKs
 
 ## What I did
 

@@ -1,10 +1,18 @@
-# Beacon tracking reliability, location accuracy, and battery optimization for R5 devices
+---
+title: "Beacon tracking reliability, location accuracy, and battery optimization for R5 devices"
+date: "2026-07 to 2026-09-01"
+thread: POS
+domains:
+  - "positioning and location"
+  - "embedded and safety-critical devices"
+  - "operational excellence and observability"
+  - "battery/power"
+context: "Best Buy Health, wearables-em-r5-core (R5 senior-care wearable), firmware/systems"
+sensitivity: private-repo
+resume-worthy: maybe
+---
 
-- date: 2026-07 to 2026-09-01
-- context: Best Buy Health, wearables-em-r5-core (R5 senior-care wearable), firmware/systems
-- domains: positioning and location, embedded and safety-critical devices, operational excellence and observability, battery/power
-- sensitivity: private-repo
-- resume-worthy: maybe
+# Beacon tracking reliability, location accuracy, and battery optimization for R5 devices
 
 ## What I did
 

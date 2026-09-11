@@ -1,10 +1,17 @@
-# Co-designed device-health observability architecture for an agentless embedded fleet
+---
+title: "Co-designed device-health observability architecture for an agentless embedded fleet"
+date: "2023-12-21 to 2024-02-05"
+thread: OBS
+domains:
+  - "architecture and API design"
+  - "embedded and safety-critical devices"
+  - "operational excellence and observability"
+context: "Best Buy Health, fleet-wide health observability strategy for a cellular-connected embedded medical-alert device"
+sensitivity: private-repo
+resume-worthy: maybe
+---
 
-- date: 2023-12-21 to 2024-02-05
-- context: Best Buy Health, fleet-wide health observability strategy for a cellular-connected embedded medical-alert device
-- domains: architecture and API design, embedded and safety-critical devices, operational excellence and observability
-- sensitivity: private-repo
-- resume-worthy: maybe
+# Co-designed device-health observability architecture for an agentless embedded fleet
 
 ## What I did
 

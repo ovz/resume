@@ -1,0 +1,9 @@
+Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines, while staying hands-on as an engineer.
+
+I built the fleet Observability practice: an agentless device-health architecture chosen after I established no conventional agent fit the device’s memory budget, the production Monitors on it, and Anomaly Detection tuned from ARIMA/SARIMA first principles. It drastically reduced Cost of Operation and caught device and firmware defects before customers reported them — then paid off outside its own justification. When Lively Mobile 2 moved to a new contract manufacturer mid-programme, that fleet-level evidence was already in place, so whether the new build behaved was answerable with data rather than arguable. I was instrumental in making that transition succeed, treating the conservative engineering call and the customer outcome as one call, not a trade.
+
+We launched Lively Mobile 2 in 2024. I upgraded Positioning via Qualcomm Skyhook on Qualcomm Linux Enablement, then architected the Location Engine unifying GNSS, Wi-Fi and BLE beacons behind per-provider interfaces with arbitration and fallback.
+
+I moved into regulated medical devices on Current Health’s Hospital at Home platform: qualified into its medical-device Quality Management System — Design Control, CAPA, supplier quality — under FDA, EU and Australian regulatory process, mastered Orcanos and added PPG wearable to a sensor record spanning accelerometry, gyroscopes, GNSS and BLE, and traced a firmware defect in which a default temperature value reached the telemetry payload and made the platform conclude a patient was unmonitored.
+
+I own the platform foundations — a Capability and Configuration Framework in embedded C, C++ guidelines for a safety-critical codebase, Conan packaging with ARM cross-compilation — and since 2023 build the Multi-Agent Orchestration and Knowledge Systems that make AI a team capability rather than a personal shortcut.

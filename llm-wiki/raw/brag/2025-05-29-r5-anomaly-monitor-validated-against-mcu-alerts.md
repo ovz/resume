@@ -1,11 +1,17 @@
-# Validated an anomaly-based device error monitor against independent firmware alerts
+---
+title: "Validated an anomaly-based device error monitor against independent firmware alerts"
+date: "2025-05-29"
+thread: OBS
+domains:
+  - "operational excellence and observability"
+  - "embedded and safety-critical devices"
+context: "Best Buy Health, Lively Mobile 2 (R5) production reliability — Datadog anomaly monitoring of device self-reported error telemetry"
+sensitivity: private-repo
+resume-worthy: maybe
+collaborator: "Shiping Wang (MCU firmware owner)"
+---
 
-- date: 2025-05-29
-- context: Best Buy Health, Lively Mobile 2 (R5) production reliability — Datadog anomaly monitoring of device self-reported error telemetry
-- domains: operational excellence and observability, embedded and safety-critical devices
-- sensitivity: private-repo
-- resume-worthy: maybe
-- collaborator: Shiping Wang (MCU firmware owner)
+# Validated an anomaly-based device error monitor against independent firmware alerts
 
 ## What I did
 

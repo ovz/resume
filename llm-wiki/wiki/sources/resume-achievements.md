@@ -8,19 +8,22 @@
 
 The current edition of the resume the owner has used for several years. It descends from the archived [resume overview](resume-overview.md) (same Salford/Minitab/IIT spine) and adds the 2018–present Best Buy Health / GreatCall chapter, the target-role statement, the AI-since-2023 line, and the *Employment History* section. Every other resume variant in the repository is superseded by this one.
 
-## Structure map (line numbers as of 2026-09-06)
+## Structure map (line numbers as of 2026-09-10, second pass)
 
 | Lines | Section | Cut level ([primary-resume.md](../resume/primary-resume.md)) |
 |---|---|---|
-| 1–5 | Header, contact line (email, cell, Ashburn VA address, LinkedIn) | C0 |
-| 7–9 | Summary blockquote: engineer since 1996; C++ and Python; domains; SQL advanced, JS/C# working, Rust intermediate; neural networks for senior health & safety; target Sr. Principal / Sr. Staff; architect/lead/manager value; teams up to 15 | C0 |
-| 15–27 | *My Story*: security roots (IIT) → Salford Systems 2000–2017 → Minitab 2017 → GreatCall/Best Buy Health since 2018 (MVNO, embedded devices, positioning, distributed systems, Datadog OKR, cross-team) → AI since 2023, quality-left, toil, Principal-level scope over Lively devices and apps | C1 |
-| 29–41 | *Most prominent achievements* — 11 bullets: embedded emergency-response software; positioning SME (GNSS/ECID/Wi-Fi/BLE); fully automated fall detection; data engineering/ETL; ML GUIs; architecture breadth; API design; big data research; legacy Fortran; distributed-team management (15); Agile | C2 |
-| 43–45 | *Side Note* explaining Wayback Machine links | C2 boundary |
-| 47–83 | *Employment History*: 2018–present Best Buy Health (Lively Mobile+ relaunch 2019, Lively Mobile 2 launch 2024 with Qualcomm Skyhook on Qualcomm LE, ops-excellence, on-device test automation, contractor enablement, telemetry/process-monitor designs, hiring); 2017–2018 Minitab; 2000–2017 Salford Systems; 1996–2000 IIT | beyond C2, chronological |
-| 85–255 | *Projects Overview*: 2017–2018 acquisition (13 bullets) → SPM 8.2 → Cloud-ready SPM → ISLE → Qt GUI → Predictive engines API → Hive scoring → Unicode/i18n → Codemeter → SPM 7.0 → Brazil retail → 64-bit → National Health Survey → client-server → CART 5.0 → CART C++/MFC → Navigator API → CART 4.0 | beyond C2, chronological |
-| 257–269 | *Education*: NURE Master's (GPA 5.0), Thames Valley certificate, Lyceum "Professional" | after experience |
-| 271–346 | Reference-style link definitions | — |
+| 1 | Header include (`_parts/header.md`): portrait, name, contact line | C0 |
+| 3–17 | *My Story*, six paragraphs: present scope and target role → languages and domains → security roots → Salford/Minitab ML era as systems work → GreatCall/Best Buy Health embedded era ending in regulated medical devices → AI since 2023. **Marked `linkedin: about`, 2,600 characters** | C1 |
+| 19–37 | *Most prominent achievements* — 13 bullets: architecture ownership; embedded emergency-response software; positioning incl. the Location Engine; fall detection; regulated medical devices (QMS, Orcanos, Gen2, PPG); embedded platform frameworks; operational excellence (shared fragment); data engineering; ML GUIs; architecture breadth; API design; big data; legacy code; distributed-team management; Agile | C2 |
+| 37 | *Side Note* include explaining Wayback Machine links | C2 boundary |
+| 39–103 | *Employment History*, each section **marked `linkedin: experience-*`, 2,000 characters**: 41 Best Buy Health 2020–present; 55 GreatCall 2018–2020; 69 Minitab; 81 Salford Systems; 93 IIT | beyond C2, chronological |
+| 105–332 | *Projects Overview*. Eight Best Buy Health sections (109 regulated medical devices, 123 capability framework, 127 location engine, 133 FOTA escalation, 137 fleet observability, then security/risk, embedded platform, wearable power budget), followed by the Salford-era sequence to CART 4.0 | beyond C2, chronological |
+| — | *Education* include, then Lyceum "Professional" | after experience |
+| — | Reference-style link definitions (`_parts/links.md` include) | — |
+
+**The 2018–present tenure is two sections, not one.** GreatCall 2018–2020 and Best Buy Health 2020–present, matching how the LinkedIn profile lists the positions. It is one continuous employment; splitting it doubles the LinkedIn Experience budget for the most relevant eight years of the record, and lets the early device work and the current architecture scope each be told properly. Both carry the same title string — see *Known defects*.
+
+Line numbers move on every pass; the marked-section boundaries do not, and are the load-bearing part of this table.
 
 ## What only this document says
 
@@ -35,16 +38,18 @@ Claims that exist in no archived variant and therefore must be preserved here or
 
 ## Known defects (fix via the update workflow)
 
-| Line | Defect | Fix |
-|---|---|---|
-| 25 | `Since **2018***` — stray asterisk after bold | `Since **2018**` |
-| 27 | bare live URL `https://shop.lively.com/collections/shop-all-products` inline | pinned Wayback reference link, e.g. `[Lively devices and apps][lively_shop]` |
-| 49 | `Best Buy Health][bbh]` — missing opening `[` | `[Best Buy Health][bbh]` |
-| 51 | `Emergency Response device][r4]` — missing opening `[` | `[Lively Mobile+][r4] Emergency Response device` |
-| 286 | `[r5]` title attribute says "Lively Mobile+" | "Lively Mobile 2" |
-| 271–346 | live (unarchived) targets `leo`, `olshen`, `chuck`, `databricks`, `dask`, `seaweedfs`, `mrocklin`; several unused keys (`treenet_first`, `oliphant`, `qml`, `milo`, `qt_installer`, `cppcheck`, `boundschecker`, `qydatatech`, `seaweedfs`, `mrocklin`, `pycon2014`, `pycon2016`, `pfa`, `rancher_os`, `rancher`, `freeipa`, `gitlab`, `wtl`, `gps_salford`, `salford_pipelines`, `treenet`, `cart`, `gitolite`, `redmine`, `clr_stored_procedures`, `intel_xe`, `dsteinberg`, `kaggle`) inherited from the long resume | archive live targets per [link conventions](../resume/link-conventions.md); unused keys are harmless but may be pruned or kept for future harvest |
+**The 2026-09-06 list was cleared by the 2026-09-10 pass.** The stray asterisk after `Since **2018**`, the bare live `shop.lively.com` URL, the two references missing an opening bracket, the `[r5]` title attribute, and the unbalanced bold in the Codemeter paragraph are all fixed; the sections that carried most of them were rewritten outright.
 
-Also: the *Projects Overview* Codemeter paragraph (line 189) has unbalanced bold markers — `**[Reprise License Manager][rlm], **` lacks its closing `**`, and `**[Sentinel RMS - SafeNet][safenet].` likewise (inherited from the long resume).
+What remains:
+
+| Where | Defect | Fix |
+|---|---|---|
+| `_parts/links.md` | Live (unarchived) targets: `leo`, `olshen`, `chuck`, `databricks`, `dask`, `seaweedfs`, `mrocklin` | Archive per [link conventions](../resume/link-conventions.md), or accept as deliberate "identity" exceptions and say so there |
+| `_parts/links.md` | Mixed `http://` and `https://` schemes on `web.archive.org` definitions | Harmless; normalize opportunistically |
+| `_parts/links.md` | Unused keys inherited from the long resume (`treenet_first`, `oliphant`, `qml`, `milo`, `qt_installer`, `cppcheck`, `boundschecker`, `qydatatech`, `seaweedfs`, `mrocklin`, `pycon2014`, `pycon2016`, `pfa`, `rancher_os`, `rancher`, `freeipa`, `gitlab`, `wtl`, `gps_salford`, `salford_pipelines`, `treenet`, `cart`, `gitolite`, `redmine`, `clr_stored_procedures`, `intel_xe`, `dsteinberg`, `kaggle`) | Harmless. Keep for future harvest, or prune deliberately — but note the fragment is shared, so the embedded variant may use one the primary does not |
+| Document structure | No C0 summary blockquote, though [primary-resume.md](../resume/primary-resume.md) § *cut map* describes one and the embedded variant has one | Add it, or amend the cut table. The two currently disagree |
+
+**Resolved 2026-09-11:** employment titles. The owner keeps *Health Engineer Senior* for both 2018-onward positions, and the embedded variant was aligned to it.
 
 ## What it lacks (candidates from the archive)
 

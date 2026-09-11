@@ -1,10 +1,18 @@
-# Enterprise security patch management SOP and vendor security-feed engagement
+---
+title: "Enterprise security patch management SOP and vendor security-feed engagement"
+date: "2023-09-30"
+thread: RSK
+domains:
+  - "security"
+  - "vulnerability management"
+  - "vendor management"
+  - "process design"
+context: "Best Buy Health / Lively device security and vulnerability management"
+sensitivity: private-repo
+resume-worthy: maybe
+---
 
-- date: 2023-09-30
-- context: Best Buy Health / Lively device security and vulnerability management
-- domains: security, vulnerability management, vendor management, process design
-- sensitivity: private-repo
-- resume-worthy: maybe
+# Enterprise security patch management SOP and vendor security-feed engagement
 
 ## What I did
 

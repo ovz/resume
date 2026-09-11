@@ -19,6 +19,14 @@
 | [`Oleg.Zhylin.resume.overview.md`](../raw/archive/Oleg.Zhylin.resume.overview.md) | T1 private | archived 2026-09-06 | [sources/resume-overview.md](sources/resume-overview.md) | Nothing left to harvest; ancestor of the primary. |
 | [`Oleg.Zhylin.skills_and_responsibilities.md`](../raw/archive/Oleg.Zhylin.skills_and_responsibilities.md) | T1 private | archived 2026-09-06 | [sources/skills-and-responsibilities.md](sources/skills-and-responsibilities.md) | Skills-years baseline (carried to [skills matrix](concepts/skills-matrix.md)); GreatCall responsibilities. |
 
+## Archived tooling (`llm-wiki/raw/archive/tools/`, immutable)
+
+Code that was written, works, and has no caller. Archived rather than deleted so the effort and the findings survive; kept out of the live tool directories because unused code sitting next to used code reads as a claim that it is used.
+
+| Source | Tier | Status | Summary page | Use it for |
+|---|---|---|---|---|
+| [`tools/linkedin-secrets.sh`](../raw/archive/tools/linkedin-secrets.sh) | T1 private | archived 2026-09-10, never wired up | [sources/archived-linkedin-secrets-tool.md](sources/archived-linkedin-secrets-tool.md) | `secret-tool` keyring storage and an AES-256 backup bundle, for a LinkedIn announce post that was never built. Read the summary page before writing **any** credential handling here: two silent `secret-tool` traps, a backup classification, and why secrets never go in argv. |
+
 ## Brag entries (`llm-wiki/raw/brag/`)
 
 | Source | Tier | Status | Ledger | Use it for |

@@ -1,0 +1,7 @@
+I was fortunate to receive my undergrad degree at the Department of Information Technology Security (ITS) of Kharkiv National University of Radio Electronics (NURE). The department was founded by prominent military Rocket Scientists, and I received solid training in Cryptography, Security Policy and Risk Assessment. These skills proved very useful in professional and personal life.
+
+In 1996 I joined Institute of Information Technology (IIT), the Research and Development entity through which my mentors from the department ran commercial projects — I was the first undergraduate it employed. The biggest project was sub-contracting the Cryptography implementation for a Client-Bank online banking system.
+
+The work was low-level and unforgiving. I built a big-number arithmetic library and prime generation for public-key cryptography, and implemented full-disk encryption with a Windows 9x VxD kernel driver. My Master’s thesis was on Elliptic-Curve Cryptography, well before it became the industry default.
+
+From that time I have an important life skill: to see things from the standpoint of a Security Professional.

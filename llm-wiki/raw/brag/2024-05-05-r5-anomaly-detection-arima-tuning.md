@@ -1,10 +1,16 @@
-# Applied ARIMA/SARIMA anomaly-detection theory to tune fleet-scale error monitors
+---
+title: "Applied ARIMA/SARIMA anomaly-detection theory to tune fleet-scale error monitors"
+date: "2024-04-05 to 2024-05-05"
+thread: OBS
+domains:
+  - "operational excellence and observability"
+  - "data engineering"
+context: "Best Buy Health, device error-telemetry anomaly detection on a fast-growing device fleet"
+sensitivity: private-repo
+resume-worthy: yes
+---
 
-- date: 2024-04-05 to 2024-05-05
-- context: Best Buy Health, device error-telemetry anomaly detection on a fast-growing device fleet
-- domains: operational excellence and observability, data engineering
-- sensitivity: private-repo
-- resume-worthy: yes
+# Applied ARIMA/SARIMA anomaly-detection theory to tune fleet-scale error monitors
 
 ## What I did
 

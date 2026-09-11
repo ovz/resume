@@ -1,10 +1,16 @@
-# Diagnosed and proposed a fix for an unqueryable device-telemetry JSON schema
+---
+title: "Diagnosed and proposed a fix for an unqueryable device-telemetry JSON schema"
+date: "2024-01-20"
+thread: OBS
+domains:
+  - "data engineering"
+  - "operational excellence and observability"
+context: "Best Buy Health, device self-reported error telemetry ingested into Datadog"
+sensitivity: private-repo
+resume-worthy: maybe
+---
 
-- date: 2024-01-20
-- context: Best Buy Health, device self-reported error telemetry ingested into Datadog
-- domains: data engineering, operational excellence and observability
-- sensitivity: private-repo
-- resume-worthy: maybe
+# Diagnosed and proposed a fix for an unqueryable device-telemetry JSON schema
 
 ## What I did
 

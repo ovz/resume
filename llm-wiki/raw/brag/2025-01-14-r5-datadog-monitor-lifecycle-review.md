@@ -1,10 +1,16 @@
-# Initiated lifecycle review of obsolete and overlapping R5 Datadog monitors
+---
+title: "Initiated lifecycle review of obsolete and overlapping R5 Datadog monitors"
+date: "2025-01-14"
+thread: OBS
+domains:
+  - "operational excellence and observability"
+  - "embedded and safety-critical devices"
+context: "Best Buy Health, R5 / Lively Mobile 2 production reliability"
+sensitivity: private-repo
+resume-worthy: yes
+---
 
-- date: 2025-01-14
-- context: Best Buy Health, R5 / Lively Mobile 2 production reliability
-- domains: operational excellence and observability, embedded and safety-critical devices
-- sensitivity: private-repo
-- resume-worthy: yes
+# Initiated lifecycle review of obsolete and overlapping R5 Datadog monitors
 
 ## What I did
 

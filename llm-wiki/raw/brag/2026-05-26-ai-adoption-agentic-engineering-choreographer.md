@@ -1,10 +1,19 @@
-# Led AI adoption and agentic engineering for developer productivity and token optimization
+---
+title: "Led AI adoption and agentic engineering for developer productivity and token optimization"
+date: "2026-05-01 to 2026-09 (design milestone 2026-05-26; ongoing)"
+thread: AI
+domains:
+  - "AI-assisted engineering"
+  - "leadership and organizational influence"
+  - "developer productivity"
+  - "knowledge management"
+  - "cost discipline"
+context: "Best Buy Health, engineering organization — Copilot/LLM tooling, multi-agent orchestration, internal knowledge base"
+sensitivity: private-repo
+resume-worthy: yes
+---
 
-- date: 2026-05-01 to 2026-09 (design milestone 2026-05-26; ongoing)
-- context: Best Buy Health, engineering organization — Copilot/LLM tooling, multi-agent orchestration, internal knowledge base
-- domains: AI-assisted engineering, leadership and organizational influence, developer productivity, knowledge management, cost discipline
-- sensitivity: private-repo
-- resume-worthy: yes
+# Led AI adoption and agentic engineering for developer productivity and token optimization
 
 ## What I did
 

@@ -1,10 +1,18 @@
-# AI Data Product in Alation with Rodd
+---
+title: "AI Data Product in Alation with Rodd"
+date: "2025-10-29"
+thread: AI
+domains:
+  - "data products"
+  - "data catalog"
+  - "analytics enablement"
+  - "AI-assisted data discovery"
+context: "Best Buy Health / Alation data catalog and data-product exploration"
+sensitivity: private-repo
+resume-worthy: maybe
+---
 
-- date: 2025-10-29
-- context: Best Buy Health / Alation data catalog and data-product exploration
-- domains: data products, data catalog, analytics enablement, AI-assisted data discovery
-- sensitivity: private-repo
-- resume-worthy: maybe
+# AI Data Product in Alation with Rodd
 
 ## What I did
 

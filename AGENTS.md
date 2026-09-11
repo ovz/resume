@@ -43,8 +43,11 @@ captured when it happens   and themes                         variant
 | Fold captured entries into the knowledge layer | `brag-capture` skill → same page, § *Part 2* |
 | See what the resume is missing, and how much is covered | [`llm-wiki/wiki/resume/coverage.md`](llm-wiki/wiki/resume/coverage.md) |
 | Put something on the outward-facing resume | `resume-editing` skill → [`llm-wiki/wiki/resume/update-workflow.md`](llm-wiki/wiki/resume/update-workflow.md) |
+| Refresh the LinkedIn profile from the resume | `linkedin-publish` skill → [`llm-wiki/wiki/workflows/linkedin-publish.md`](llm-wiki/wiki/workflows/linkedin-publish.md) |
+| Find out whether the LinkedIn update can be automated | Same page, § *The answer, first* — it cannot, and the research is recorded so it is not repeated |
 | Decide whether a fact may be written down at all | [`llm-wiki/wiki/workflows/sensitivity-tiers.md`](llm-wiki/wiki/workflows/sensitivity-tiers.md) |
 | Retire a document that has stopped being outward-facing | [`llm-wiki/wiki/workflows/archive-source.md`](llm-wiki/wiki/workflows/archive-source.md) |
+| Preserve a source too large to commit as-is | `large-import` skill → [`llm-wiki/wiki/workflows/large-imports.md`](llm-wiki/wiki/workflows/large-imports.md) |
 | Ingest any other source, answer a question from the wiki, or lint it | [`llm-wiki/AGENTS.md`](llm-wiki/AGENTS.md) § *Workflows* |
 
 Skipping a hop is the failure this layout exists to prevent: text copied straight from a brag entry into the resume has passed neither the sensitivity check nor the depth check, and both are easy to lose silently.
@@ -53,12 +56,17 @@ Skipping a hop is the failure this layout exists to prevent: text copied straigh
 
 ```bash
 script/bootstrap.sh              # fresh machine: submodule + toolchain + first build
-script/pandoc_resume.sh all      # html, pdf, docx, rtf, then verify
+script/pandoc_resume.sh all      # html, pdf, docx, rtf, linkedin, then verify
+script/pandoc_resume.sh linkedin # regenerate the LinkedIn copy-paste blocks
 script/pandoc_resume.sh verify   # assert the portrait PNG is embedded in every artifact
 script/pandoc_resume.sh clean
 ```
 
 Artifacts land in `pandoc_resume/output/` and are gitignored, as are `*.pdf` and `*.htm*` repo-wide. The build must never be "fixed" by committing generated output.
+
+Pasting the result into the profile is [its own workflow](llm-wiki/wiki/workflows/linkedin-publish.md): `script/linkedin-sync.py status` says which blocks have not reached LinkedIn, and that record is committed so it survives a commit and a fresh clone. **There is no API for it** — the write path exists but is behind a closed partner permission, and browser automation is prohibited; the workflow page carries the evidence.
+
+**`linkedin/` is the one tracked exception**, and it is tracked *because* it is generated. LinkedIn accepts no formatting and caps each field — 2,600 characters for the About section, 2,000 per Experience entry — so the profile cannot be a copy of the resume; it is a rendering of it, produced from sections marked `<!-- linkedin: <slug> limit=<n> -->` in the Markdown. Updating the profile is a human pasting into a web form, so the committed diff is the only thing that can say *which* fields have drifted and need re-pasting: a changed file is a field to paste, an unchanged one is a field to leave alone. Files there are never hand-edited, and a block that outgrows its field fails the build rather than being silently truncated on paste. Details: [`.github/skills/resume-tooling/SKILL.md`](.github/skills/resume-tooling/SKILL.md) § *The LinkedIn export*.
 
 Every artifact is expected to embed the portrait image from `markdown/assets/`. Each output format embeds it by a different mechanism, so it fails silently and per-format; `script/pandoc_resume.sh verify` is the check that catches it. Treat a `NO IMAGE` line from `verify` as a build failure.
 
@@ -70,6 +78,7 @@ Two hard rules apply everywhere:
 
 - No committed file may reference a path under `__untracked_stuff/`. A committed file must stand alone in a fresh clone; a pointer into scratch is dead on arrival for every other reader, and dead *silently*. Describe the shape of the scratch convention if you must, but never a concrete scratch path.
 - Third-party contact details are never copied out of `markdown/Oleg.Zhylin.professional.references.md`.
+- Colleague names, roles and the substance of working relationships are recorded in full at T1 — they are the professional record, not an aside to it. Capture is not disclosure: what the owner chooses to say in an interview is a separate judgement, and names still come out at T0.
 
 ## Skills
 
@@ -77,8 +86,10 @@ Reusable procedures live in `.github/skills/<name>/SKILL.md`, the single copy of
 
 - `brag-capture` — recording an accomplishment, and folding captured entries into the knowledge layer.
 - `resume-editing` — editing an outward-facing resume document.
+- `linkedin-publish` — getting the generated blocks onto the LinkedIn profile, and the researched answer to whether any of it can be automated.
 - `resume-tooling` — setting up or repairing the toolchain on a workstation.
 - `pdf-extraction` — ingesting a PDF into a wiki.
+- `large-import` — preserving a source file too large to commit as-is, compressed and checksummed.
 - `session-wiki-pattern` — planning or maintaining a long, multi-step assignment.
 
 Not every agent scans `.github/skills/` on its own — Claude Code, for one, only scans `.claude/skills/`. Where a tool needs a different path, this repo adds a symlink back to the real folder rather than a second copy; see [`.github/AGENTS.md`](.github/AGENTS.md) § *The two bridges Claude Code needs* for the current list.

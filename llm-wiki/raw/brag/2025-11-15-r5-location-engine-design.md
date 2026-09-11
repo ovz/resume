@@ -1,10 +1,17 @@
-# Designed and implemented the modular R5 location engine unifying beacon, GPS, and Wi-Fi positioning
+---
+title: "Designed and implemented the modular R5 location engine unifying beacon, GPS, and Wi-Fi positioning"
+date: "2025-09 to 2025-11-15"
+thread: POS
+domains:
+  - "positioning and location"
+  - "embedded and safety-critical devices"
+  - "architecture and API design"
+context: "Best Buy Health, R5 senior-care wearable, firmware/systems"
+sensitivity: private-repo
+resume-worthy: maybe
+---
 
-- date: 2025-09 to 2025-11-15
-- context: Best Buy Health, R5 senior-care wearable, firmware/systems
-- domains: positioning and location, embedded and safety-critical devices, architecture and API design
-- sensitivity: private-repo
-- resume-worthy: maybe
+# Designed and implemented the modular R5 location engine unifying beacon, GPS, and Wi-Fi positioning
 
 ## What I did
 

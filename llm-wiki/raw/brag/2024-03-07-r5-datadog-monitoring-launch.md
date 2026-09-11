@@ -1,10 +1,16 @@
-# R5 Datadog Monitoring shipped for device production launch
+---
+title: "R5 Datadog Monitoring shipped for device production launch"
+date: "2024-03-07"
+thread: OBS
+domains:
+  - "operational excellence and observability"
+  - "embedded and safety-critical devices"
+context: "Best Buy Health, embedded emergency-response device (Lively Mobile 2 generation) production launch"
+sensitivity: private-repo
+resume-worthy: yes
+---
 
-- date: 2024-03-07
-- context: Best Buy Health, embedded emergency-response device (Lively Mobile 2 generation) production launch
-- domains: operational excellence and observability, embedded and safety-critical devices
-- sensitivity: private-repo
-- resume-worthy: yes
+# R5 Datadog Monitoring shipped for device production launch
 
 ## What I did
 

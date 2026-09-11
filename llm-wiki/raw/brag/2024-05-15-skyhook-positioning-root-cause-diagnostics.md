@@ -1,10 +1,16 @@
-# Root-caused a recurring positioning-library failure via telemetry log correlation
+---
+title: "Root-caused a recurring positioning-library failure via telemetry log correlation"
+date: "2024-01-25 to 2024-05-15"
+thread: POS
+domains:
+  - "positioning and location"
+  - "operational excellence and observability"
+context: "Best Buy Health, embedded device positioning subsystem (third-party GNSS/Wi-Fi positioning library)"
+sensitivity: private-repo
+resume-worthy: maybe
+---
 
-- date: 2024-01-25 to 2024-05-15
-- context: Best Buy Health, embedded device positioning subsystem (third-party GNSS/Wi-Fi positioning library)
-- domains: positioning and location, operational excellence and observability
-- sensitivity: private-repo
-- resume-worthy: maybe
+# Root-caused a recurring positioning-library failure via telemetry log correlation
 
 ## What I did
 

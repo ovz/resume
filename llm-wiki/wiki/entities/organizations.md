@@ -4,9 +4,17 @@
 >
 > Employers and the role played at each, newest first. Sources: `[primary]` = [primary resume][primary]; `[long]` = [archived long-form resume][long]; `[refs]` = [professional references](../sources/professional-references.md).
 
-## Best Buy Health (GreatCall), 2018–present — Sr. Software Engineer, Principal-level scope
+## GreatCall, 2018–2020, then Best Buy Health, 2020–present — Health Engineer Senior, Principal-level scope
+
+The resume and the LinkedIn profile both split this tenure at the rebrand: **GreatCall 2018–2020**, **Best Buy Health 2020–present**. It is one continuous employment, presented as two positions because the organization, the product scope and the seniority all changed at that boundary — and because two LinkedIn Experience entries carry twice the character budget of one, which is what lets the record be told properly.
+
+**On the title** (owner, 2026-09-11): *Health Engineer Senior* stays, on both positions and in both resume variants. A Principal role is sought on the strength of at least three years of principal-level behaviour, accelerated sharply by AI in 2026 — not on the title.
 
 GreatCall, an MVNO (now on Verizon) making cellular devices and services for seniors, became Best Buy Health after acquisition; the owner joined the embedded team for the Lively Mobile+ emergency-response device and has since worked across the Lively devices and apps line. Milestones stated in the primary: 2019 Lively Mobile+ relaunch with data-driven quality work; 2024 Lively Mobile 2 launch (UI, industrial and electrical design brought forward; Qualcomm Skyhook positioning on Qualcomm Linux Enablement); company positioning SME; automated fall detection; on-device test automation and QA enablement; Datadog-based operational excellence meeting an OKR; telemetry and process-monitoring designs; hiring-process contributions; AI-assisted engineering since 2023. [primary] Supervisor and peer references cover Oct 2019 – Apr 2022. [refs]
+
+**The August 2019 CPSC recall.** CPSC announced a *Fast Track* recall (19-775) of about 44,300 Lively Mobile+ units, model GCR4, over a call button that could fail when pushed in an emergency; no injuries were reported, and GreatCall contacted every known purchaser directly. The owner was instrumental in getting the product through it and through the relaunch that followed — the formative event of the GreatCall years. Public record: [CPSC notice, pinned snapshot](https://web.archive.org/web/20260517183859/https://www.cpsc.gov/Recalls/2019/GreatCall-Recalls-Lively-Mobile-Plus-Emergency-Alert-Device-Due-to-Risk-of-Call-Button-Failing-in-an-Emergency-Recall-Alert). Owner's account: [2019-08-30 CPSC recall and relaunch](../../raw/brag/2019-08-30-r4-cpsc-recall-and-relaunch.md).
+
+From 2024 the owner also worked **[Current Health](https://www.currenthealth.com/)**, Best Buy Health's clinical arm, on the *Hospital at Home* remote patient monitoring platform: a regulated medical-device organization with a formal QMS, where he qualified into design control, CAPA, supplier quality and FDA/EU/Australian regulatory process, mastered the Orcanos eQMS/ALM and the Gen2 wearable, and added PPG working knowledge. See [2026-06-15 Current Health](../../raw/brag/2026-06-15-current-health-hospital-at-home-qms.md); more material is expected.
 
 ## Minitab, 2017–2018 — Sr. Advisory Software Engineer
 

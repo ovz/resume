@@ -14,6 +14,7 @@ This skill is the on-demand entry point for agents that match on skill descripti
 1. **Load the depth rules first.** `llm-wiki/wiki/resume/primary-resume.md` defines the cut principle. Text written before reading it usually lands at the wrong depth, which is this repo's most common failure.
 2. **Draft against the wiki, not the brag files.** Accomplishments reach the resume through `llm-wiki/wiki/concepts/accomplishments-by-domain.md`, rewritten at each hop.
 3. **Check the tier.** The achievements resume is public and mirrored to LinkedIn.
-4. **Link as a Wayback snapshot**, defined in the reference-link block at the bottom of the file.
-5. **Render and verify:** `script/pandoc_resume.sh all`. The run ends by asserting the portrait PNG is embedded in all four formats; a `NO IMAGE` line is a build failure, not a cosmetic one.
-6. **Hand off.** Agents do not commit — see the root [`AGENTS.md`](../../../AGENTS.md).
+4. **Respect the LinkedIn budgets.** *My Story* and each *Employment History* section are marked `<!-- linkedin: ... -->` and capped at LinkedIn's field limits — 2,600 and 2,000 characters. The build fails when one is exceeded, so check the headroom (`script/pandoc_resume.sh linkedin`) before drafting into one; depth that does not fit belongs in *Projects Overview*, which is unbudgeted.
+5. **Link as a Wayback snapshot**, defined in the reference-link block at the bottom of the file.
+6. **Render and verify:** `script/pandoc_resume.sh all`. The run ends by asserting the portrait PNG is embedded in all four formats and regenerating the LinkedIn blocks; a `NO IMAGE` line is a build failure, not a cosmetic one.
+7. **Hand off.** Report which files under `linkedin/` changed — that is the list of profile fields to re-paste. Agents do not commit — see the root [`AGENTS.md`](../../../AGENTS.md).

@@ -1,10 +1,17 @@
-# Risk Management Practice — Early Analysis and Planning
+---
+title: "Risk Management Practice — Early Analysis and Planning"
+date: "2023-08-03"
+thread: RSK
+domains:
+  - "risk management"
+  - "quality and compliance"
+  - "organizational influence"
+context: "Best Buy Health, Quality organization — early involvement in the Risk Management practice"
+sensitivity: private-repo
+resume-worthy: maybe
+---
 
-- date: 2023-08-03
-- context: Best Buy Health, Quality organization — early involvement in the Risk Management practice
-- domains: risk management, quality and compliance, organizational influence
-- sensitivity: private-repo
-- resume-worthy: maybe
+# Risk Management Practice — Early Analysis and Planning
 
 ## What I did
 

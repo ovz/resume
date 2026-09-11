@@ -1,10 +1,16 @@
-# Proactively identified individual R5 devices exhibiting concrete failure patterns
+---
+title: "Proactively identified individual R5 devices exhibiting concrete failure patterns"
+date: "2025-03-21 to 2025-05-01"
+thread: OBS
+domains:
+  - "embedded and safety-critical devices"
+  - "operational excellence and observability"
+context: "Best Buy Health, R5 / Lively Mobile 2 device reliability"
+sensitivity: private-repo
+resume-worthy: yes
+---
 
-- date: 2025-03-21 to 2025-05-01
-- context: Best Buy Health, R5 / Lively Mobile 2 device reliability
-- domains: embedded and safety-critical devices, operational excellence and observability
-- sensitivity: private-repo
-- resume-worthy: yes
+# Proactively identified individual R5 devices exhibiting concrete failure patterns
 
 ## What I did
 

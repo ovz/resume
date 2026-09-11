@@ -17,9 +17,8 @@ and it stays reported as out of sync across commits, reboots and machines.
     linkedin-sync done about          record that it reached the profile
     linkedin-sync done --all          record every block as pasted
 
-This tool never touches secrets and never talks to the network. Secret
-handling lives in `secrets.sh` beside it, which in turn never talks to the
-network either; keeping the two apart means neither can leak into the other.
+This tool touches no secrets and makes no network requests, which is why the
+paste round works anywhere with a clipboard and needs no setup at all.
 """
 from __future__ import annotations
 

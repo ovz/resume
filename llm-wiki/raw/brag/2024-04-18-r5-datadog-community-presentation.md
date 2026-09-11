@@ -1,10 +1,16 @@
-# Presented Datadog observability program to engineering community, caught a live issue on stage
+---
+title: "Presented Datadog observability program to engineering community, caught a live issue on stage"
+date: "2024-04-18"
+thread: OBS
+domains:
+  - "operational excellence and observability"
+  - "leadership and communication"
+context: "Best Buy Health, cross-team engineering community-of-practice presentation on the device observability program"
+sensitivity: private-repo
+resume-worthy: yes
+---
 
-- date: 2024-04-18
-- context: Best Buy Health, cross-team engineering community-of-practice presentation on the device observability program
-- domains: operational excellence and observability, leadership and communication
-- sensitivity: private-repo
-- resume-worthy: yes
+# Presented Datadog observability program to engineering community, caught a live issue on stage
 
 ## What I did
 
