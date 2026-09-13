@@ -81,6 +81,7 @@ domains:
 context: "<employer / project / team, as publicly describable>"
 sensitivity: private-repo               # or public-friendly
 resume-worthy: yes                      # or maybe / no
+# storied: [<cluster>/<story>]         # added only when a story graduates this entry; never pre-filled
 ---
 
 # <One-line headline of the accomplishment>
@@ -156,6 +157,10 @@ Quarterly is also roughly the right cadence for the ingest itself: often enough 
 ## Part 3 — Promote to the resume
 
 Handled by [update the outward-facing resume](../resume/update-workflow.md). When a promotion lands, that pass sets the ledger row's promotion status and flips the affected claims in [coverage.md](../resume/coverage.md) to `in` or `partial` in the same edit.
+
+## Part 4 — Graduate into stories
+
+Once an entry's substance is told in a story, it graduates: a `storied:` property is added and the entry steps out of the main graph, while its body stays exactly as recorded. The procedure, the story structure and reading lists are [brag stories](brag-stories.md).
 
 ## Related
 

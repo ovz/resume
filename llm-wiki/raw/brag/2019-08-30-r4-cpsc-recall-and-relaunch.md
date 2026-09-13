@@ -68,7 +68,7 @@ No Wayback capture from 2019 exists; the 2026-05-17 snapshot is the earliest ava
 
 - [2023-12-21 Device-health observability architecture](2023-12-21-device-health-observability-architecture.md) — the same instinct at fleet scale, four years later.
 - [2023-09-01 Lively Mobile 2 manufacturer transition](2023-09-01-r5-odm-transition.md) — the next time the whole-company template was needed.
-- [Best Buy Health context](../../wiki/analysis/best-buy-health-context.md) — the organizational arc this sits at the start of.
+- [Best Buy Health context](../../wiki/analysis/employers/best-buy-health/2026-09-10-best-buy-health-2024-2026-divestiture-public-record.md) — the organizational arc this sits at the start of.
 
 ## Record history
 

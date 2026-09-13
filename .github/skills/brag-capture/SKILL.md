@@ -1,6 +1,6 @@
 ---
 name: brag-capture
-description: "Record a professional accomplishment in the brag file, or fold already-captured entries into the knowledge layer. Handles input in any form — an email or chat export, a pull-request description, a planning note, a dictated paragraph, or several differently-worded versions of the same story. Covers the verbatim capture, the entry that preserves it, and the periodic ingest that lands it in the career synthesis, the ledger and the resume coverage map. USE WHEN the owner mentions having shipped, launched, presented, fixed or led something worth remembering, says 'add this to my brag file', hands over material to file, asks to process the brag inbox, or asks to ingest or catch up on brag entries — including the quarterly pass around a Quarterly Conversation. DO NOT USE for putting something on the outward-facing resume — that is resume-editing, a separate deliberate pass."
+description: "Record a professional accomplishment in the brag file, fold captured entries into the knowledge layer, or graduate them into told-able stories and build reading lists from them. Handles input in any form — an email or chat export, a pull-request description, a planning note, a dictated paragraph, or several differently-worded versions of the same story. USE WHEN the owner mentions having shipped, launched, presented, fixed or led something worth remembering, says 'add this to my brag file', hands over material to file, asks to process the brag inbox, asks to ingest or catch up on brag entries — including the quarterly pass around a Quarterly Conversation — or asks for a story, a story cluster, or a reading list to prepare for an interview, a networking event or an employer. DO NOT USE for putting something on the outward-facing resume — that is resume-editing, a separate deliberate pass."
 ---
 
 # Capture an accomplishment
@@ -47,6 +47,15 @@ Follow § *Part 2* of the workflow page. Two steps are easy to forget and both m
 - **Coverage registration** — assign the entry to a thread in [`coverage.md`](../../../llm-wiki/wiki/resume/coverage.md), decompose it into claims, add them as `absent`, and recompute the totals. An entry that never reaches the coverage map is invisible during resume work.
 
 **Ingest never touches the outward-facing resume.** If an entry is clearly resume-worthy, say so in the ledger row and tell the owner; promotion is a separate pass under `resume-editing`.
+
+## Stories and reading lists
+
+The third stage. An entry whose substance is told in a **story** graduates: a `storied:` property goes on the entry, its body is never touched, and the main Obsidian graph steps it out of the working view. Stories live in `llm-wiki/wiki/stories/<cluster>/`, beside a hub note per cluster. A **reading list** is the three to seven stories worth rereading before one conversation.
+
+Procedure, structure and reading-list steps: [`llm-wiki/wiki/workflows/brag-stories.md`](../../../llm-wiki/wiki/workflows/brag-stories.md). Two rules are easy to break:
+
+- **Never add an empty `storied:`** — the graph tests for the property's presence, so an empty one hides an entry that has not graduated.
+- **A reading list belongs to one conversation.** Keep it in the session scratch scope; only durable employer research goes into `llm-wiki/wiki/analysis/employers/<employer>/`.
 
 ## Hand off
 

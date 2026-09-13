@@ -18,6 +18,9 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 
 - [Resume Brag File — capture and ingest](wiki/workflows/brag-file.md) — *how-to.* Capture the input verbatim, write or enrich the entry in `raw/brag/`, then fold entries into the wiki and the coverage map later. **Load when** the owner says "add this to my brag file", supplies material in any form, or asks to ingest brag entries.
 - [Publish the resume to LinkedIn](wiki/workflows/linkedin-publish.md) — *how-to.* Why there is no API path, the paste round and its committed record of what has actually been pasted, keyring credentials with an encrypted backup bundle, and the supported announce-post. **Load when** asked to update or sync the profile, or whether the LinkedIn update can be automated.
+- [Brag stories — graduating entries, and reading lists](wiki/workflows/brag-stories.md) — *how-to.* The third stage after capture and ingest: structure before narrative, a rehearsable telling, and reading lists for an interview, event or employer. **Load when** writing a story or preparing for a conversation.
+- [Story map](wiki/stories/story-map.md) — *reference.* Every story cluster, its hub, and when to reach for it.
+- [Positioning, location and GPS](wiki/stories/positioning.md) — *reference.* The first cluster hub.
 - [Can LinkedIn be updated programmatically? The evidence](wiki/analysis/linkedin-api-access.md) — *explanation.* Every source behind that verdict, with live links, Wayback snapshots, immutable git pins and verbatim quotations, read 2026-09-10. **Load when** someone proposes automating the profile, or when re-checking whether LinkedIn has opened a write path.
 - [Archived: the LinkedIn credential tool](wiki/sources/archived-linkedin-secrets-tool.md) — *reference.* Keyring storage and an encrypted backup bundle, built and then archived unused. **Load when** writing any credential handling for this repo, or wondering why that script is not in the working set.
 - [Archive a superseded source](wiki/workflows/archive-source.md) — *how-to.* Move a retired `markdown/` document into `raw/archive/` with a summary page. **Load when** a document stops being outward-facing.
@@ -36,7 +39,8 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 
 ## Analysis
 
-- [Best Buy Health: the public record behind the private one](wiki/analysis/best-buy-health-context.md) — *explanation.* The disclosed impairments, restructuring and divestiture 2024–2026, correlated with the owner's contemporaneous notes, plus how to use it in an interview. **Load when** preparing to explain the Best Buy Health years, or writing anything that touches that period.
+- [Best Buy Health 2024–2026: the divestiture on the public record](wiki/analysis/employers/best-buy-health/2026-09-10-best-buy-health-2024-2026-divestiture-public-record.md) — *explanation.* The disclosed impairments, restructuring and divestiture 2024–2026, correlated with the owner's contemporaneous notes, plus how to use it in an interview. **Load when** preparing to explain the Best Buy Health years, or writing anything that touches that period.
+- [Executive language glossary](wiki/analysis/executive-language-glossary.md) — *reference.* Impairment, restructuring charge, reporting unit, fiscal year, ODM, white label, modularity. **Load when** reading or writing about an employer's public record.
 
 ## Source summaries (one per document)
 

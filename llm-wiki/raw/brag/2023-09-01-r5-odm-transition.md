@@ -46,7 +46,7 @@ That is the shape of the achievement worth carrying outward: **the investment wa
 
 - [2022-08-03 ODM specification authoring](2022-08-03-odm-specification-authoring.md) — the manufacturer-facing specification set.
 - [2025-07-18 FOTA vendor escalation](2025-07-18-fota-vendor-escalation-lively-mobile2.md) — the later delivery-boundary crisis on the same product.
-- [Best Buy Health context](../../wiki/analysis/best-buy-health-context.md).
+- [Best Buy Health context](../../wiki/analysis/employers/best-buy-health/2026-09-10-best-buy-health-2024-2026-divestiture-public-record.md).
 
 ## Record history
 

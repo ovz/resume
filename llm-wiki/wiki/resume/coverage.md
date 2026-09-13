@@ -10,12 +10,14 @@
 
 | Measure | Coverage |
 |---|---|
-| All promotable claims | **≈ 77%** — 81.5 of 106 claims |
-| Claims from entries marked `resume-worthy: yes` | **≈ 94%** — 54.5 of 58 claims |
+| All promotable claims | **≈ 78%** — 93.5 of 120 claims |
+| Claims from entries marked `resume-worthy: yes` | **≈ 92%** — 66.5 of 72 claims |
 
-80 claims are fully reflected. 3 are gestured at generically. 23 are absent. **Two are `held`** — recorded deliberately and never for the resume — and are excluded from the totals above.
+91 claims are fully reflected. 5 are gestured at generically. 24 are absent. **Two are `held`** — recorded deliberately and never for the resume — and are excluded from the totals above.
 
 > **Earlier movement, kept because it explains the shape of the number.** Coverage *fell* twice while nothing was removed from the resume — from ≈ 40% to ≈ 33% on 2026-09-09, and from ≈ 33% to ≈ 21% on 2026-09-10 — as the brag ingest and then the full Trello board ingest enlarged the denominator faster than promotions could fill it. That is the metric behaving correctly: a coverage figure that only ever rises is measuring effort rather than coverage.
+
+> **Fourth pass, 2026-09-11.** Integration became a claim in its own right (new `INT` thread), the bar-raiser practice opened `LEAD` from zero, and the white-label-versus-ground-up judgement was grounded in Christensen and Porter so it reads as consensus rather than advocacy.
 
 > **Third pass, 2026-09-11.** Fall detection named as the product's focused driver and its next innovation promoted at the owner's direction; the hardware/software cadence practice added as a highlight; the manufacturer transition now ends in a return to a regular development lifecycle.
 
@@ -78,11 +80,30 @@ The owner's product judgement: the Care center is load-bearing, but fall detecti
 
 ---
 
+### INT — Integration across devices, protocols and organizations
+
+The kind of work the owner keeps being drawn to, and now a resume bullet in its own right: two device lines meeting in one care experience, a device programme meeting a contract manufacturer, a regulated culture meeting a consumer one.
+
+**Entries:** [2025-05-18 fall detection and hospital at home](../../raw/brag/2025-05-18-fall-detection-hospital-at-home-integration.md) · cross-listed: [2025-04-13 BLE SDK](../../raw/brag/2025-04-13-ble-sdk-breadth-first-white-label.md) (claims under `MED`)
+
+**Thread coverage: ≈ 88%** (3.5 of 4)
+
+| Claim | Source | Status |
+|---|---|---|
+| `INT-1` Pushed to integrate Lively Mobile 2's fall detection, a PPG wearable and surrounding sensors into one hospital-at-home care experience | 2025-05-18 | **in** |
+| `INT-2` Argued that overlapping radios and vitals across two wearables are complementary redundancy in a home, not waste | 2025-05-18 | **in** |
+| `INT-3` Grounded it in customer evidence that patients at home accept more devices and more elaborate protocols in exchange for autonomy | 2025-05-18 | partial |
+| `INT-4` Names integration across devices, technologies, companies and cultures as a recurring kind of work he is good at | 2025-05-18 | **in** |
+
+> `INT-3` is deliberately `partial`: the resume gives the reasoning ("a home without a nurse in the next room") but not the focus-group finding behind it, which is internal research and stays at T1. Nothing shipped, so no delivery is claimed anywhere.
+
+---
+
 ### LEAD — Managing upward and the quarterly cycle
 
-**Entries:** [2021-06-23 quarterly-conversation practice](../../raw/brag/2021-06-23-quarterly-conversation-practice.md) · [2020-07-14 upward feedback](../../raw/brag/2020-07-14-upward-feedback-practice.md) · [2021-06-29 engineering excellency](../../raw/brag/2021-06-29-engineering-excellency-and-meeting-facilitation.md) · [2023-05-02 performance conversation](../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md) · [2025-04-01 Staff Engineer positioning](../../raw/brag/2025-04-01-staff-engineer-behaviors-principal-positioning.md) · [2025-05-23 mentorship](../../raw/brag/2025-05-23-mentorship-principal-engineer-goal.md)
+**Entries:** [2025-05-28 bar-raiser practice](../../raw/brag/2025-05-28-bar-raiser-practice.md) · [2021-06-23 quarterly-conversation practice](../../raw/brag/2021-06-23-quarterly-conversation-practice.md) · [2020-07-14 upward feedback](../../raw/brag/2020-07-14-upward-feedback-practice.md) · [2021-06-29 engineering excellency](../../raw/brag/2021-06-29-engineering-excellency-and-meeting-facilitation.md) · [2023-05-02 performance conversation](../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md) · [2025-04-01 Staff Engineer positioning](../../raw/brag/2025-04-01-staff-engineer-behaviors-principal-positioning.md) · [2025-05-23 mentorship](../../raw/brag/2025-05-23-mentorship-principal-engineer-goal.md)
 
-**Thread coverage: 0%** (0 of 11 promotable; 2 held)
+**Thread coverage: ≈ 25%** (4 of 16 promotable; 2 held)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -99,8 +120,13 @@ The owner's product judgement: the Care center is load-bearing, but fall detecti
 | `LEAD-11` Maintained a multi-year, evidence-backed self-assessment against the enterprise IC job family, including honest gaps | 2025-04-01 | absent |
 | `LEAD-12` Rejected the management track on an argued principle about whose values an IC and a manager each carry | 2025-04-01 | absent |
 | `LEAD-13` Ran a formal mentorship as a structured working relationship, converting live crises into named practices for confidence, humility and pausing under pressure | 2025-05-23 | absent |
+| `LEAD-14` Raises the bar in whatever environment he lands in, as a stated and sustained practice | 2025-05-28 | **in** |
+| `LEAD-15` Salford's outsourced Ukrainian team over-performed when the standard rose | 2025-05-28 | **in** |
+| `LEAD-16` The Qt team was surprised to be asked to aim higher, then glad of it | 2025-05-28 | **in** |
+| `LEAD-17` Reads which environments let a raised bar compound rather than assuming one | 2025-05-28 | **in** |
+| `LEAD-18` Recognised his own philosophy in a formal *Bar Raiser* role at Current Health | 2025-05-28 | absent |
 
-> **`LEAD-9` and `LEAD-10` are marked `held`** — deliberately never promotable, at the owner's direction. They record a performance challenge and a contested promotion, and the owner's position is that he cannot document a win against those headwinds in resume form. They stay in the brag file because they are part of the professional record; they are excluded from the coverage denominator because counting claims that will never be promoted would make the metric measure the wrong thing. The organizational context that makes this period explicable is in [Best Buy Health context](../analysis/best-buy-health-context.md), which is where an interview answer should draw from instead.
+> **`LEAD-9` and `LEAD-10` are marked `held`** — deliberately never promotable, at the owner's direction. They record a performance challenge and a contested promotion, and the owner's position is that he cannot document a win against those headwinds in resume form. They stay in the brag file because they are part of the professional record; they are excluded from the coverage denominator because counting claims that will never be promoted would make the metric measure the wrong thing. The organizational context that makes this period explicable is in [Best Buy Health context](../analysis/employers/best-buy-health/2026-09-10-best-buy-health-2024-2026-divestiture-public-record.md), which is where an interview answer should draw from instead.
 
 > Marked `resume-worthy: maybe`, and it is genuinely a judgement call: it evidences the managing-upward habit that senior scope is actually negotiated through, but it describes a practice rather than a delivery and could read as process rather than impact. Worth one clause in a leadership bullet at most.
 
@@ -341,22 +367,27 @@ Where the device stops being ours: the specification handed to a contract manufa
 
 ### MED — Regulated medical devices (Current Health)
 
-The mid-career transition from consumer safety-adjacent devices into a regulated medical-device organization. **Partial capture** — the owner has said more material is coming, and supplied a first tranche (`MED-6`–`MED-8`) on 2026-09-10.
+The mid-career transition from consumer safety-adjacent devices into a regulated medical-device organization. **Partial capture** — the owner has said more material is coming, and supplied a first tranche (`MED-6`–`MED-8`) on 2026-09-10 and a second (`MED-9`–`MED-11`) on 2026-09-11, when the entry was also re-dated to sit inside the public window.
 
-**Entries:** [2026-06-15 Current Health and Hospital at Home](../../raw/brag/2026-06-15-current-health-hospital-at-home-qms.md)
+**Entries:** [2024-09-24 Current Health and Hospital at Home](../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md)
 
-**Thread coverage: 100%** (8 of 8)
+**Thread coverage: ≈ 96%** (12.5 of 13)
 
 | Claim | Source | Status |
 |---|---|---|
-| `MED-1` Qualified into a medical-device quality management system, covering design control, CAPA, supplier quality and product release | 2026-06-15 | **in** |
-| `MED-2` Works under FDA, EU and Australian regulatory process including mandatory device reporting, vigilance, and advisory notices and recalls | 2026-06-15 | **in** |
-| `MED-3` Operates under a full ISO-style information-security policy set — access control, cryptography, patch management, incident response, supplier security | 2026-06-15 | **in** |
-| `MED-4` Traced a firmware defect in which a default temperature value reached the telemetry payload and caused the platform to conclude a patient was not wearing the device | 2026-06-15 | **in** |
-| `MED-5` Made a domain transition into remote patient monitoring and hospital-at-home mid-career, learning a new observability and cloud stack with it | 2026-06-15 | **in** |
-| `MED-6` Mastered Orcanos, the eQMS/ALM the regulated development process runs through, rather than only signing off its documents | 2026-06-15 | **in** |
-| `MED-7` Mastered the Gen2 wearable and became familiar with the wider device range | 2026-06-15 | **in** |
-| `MED-8` Added working knowledge of PPG (photoplethysmography) to a sensor record already covering accelerometry, gyroscopes, GNSS and BLE | 2026-06-15 | **in** |
+| `MED-1` Qualified into a medical-device quality management system, covering design control, CAPA, supplier quality and product release | 2024-09-24 | **in** |
+| `MED-2` Works under FDA, EU and Australian regulatory process including mandatory device reporting, vigilance, and advisory notices and recalls | 2024-09-24 | **in** |
+| `MED-3` Operates under a full ISO-style information-security policy set — access control, cryptography, patch management, incident response, supplier security | 2024-09-24 | **in** |
+| `MED-4` Traced a firmware defect in which a default temperature value reached the telemetry payload and caused the platform to conclude a patient was not wearing the device | 2024-09-24 | **in** |
+| `MED-5` Made a domain transition into remote patient monitoring and hospital-at-home mid-career, learning a new observability and cloud stack with it | 2024-09-24 | **in** |
+| `MED-6` Mastered Orcanos, the eQMS/ALM the regulated development process runs through, rather than only signing off its documents | 2024-09-24 | **in** |
+| `MED-7` Mastered the Gen2 wearable and became familiar with the wider device range | 2024-09-24 | **in** |
+| `MED-8` Added working knowledge of PPG (photoplethysmography) to a sensor record already covering accelerometry, gyroscopes, GNSS and BLE | 2024-09-24 | **in** |
+| `MED-9` Earned the organization's trust to be given the Hospital at Home work, after asking for it for more than a year | 2024-09-24 | **in** |
+| `MED-10` Mastered Orcanos and a PPG wearable in record time, wholly inside the public window of the platform's ownership | 2024-09-24 | **in** |
+| `MED-11` Relished the integration across technologies, company cultures and people | 2024-09-24 | **in** |
+| `MED-12` Distinguishes breadth-first white-label integration from ground-up device engineering, and why a hybrid inherits the costs of both | 2025-04-13 | **in** |
+| `MED-13` Held an observer role on the BLE SDK initiative rather than claiming a model he was watching | 2025-04-13 | partial |
 
 > Fully promoted on 2026-09-10, at the owner's explicit direction to surface it prominently: a C2 bullet, a paragraph in the Best Buy Health Experience entry, a clause in *My Story*, and *Projects Overview* § **2024-2026. Regulated medical devices**. Design control, CAPA and regulatory process are what medical, automotive and industrial safety-critical employers screen for and are slow to acquire, and this went from the most under-exploited thread in the corpus to fully reflected in one pass. The entry behind it is still marked partial — more material is expected, and the resume text should be revisited when it lands. Note that the promotion runs ahead of the record here, as `ARC` does. `MED-1` and `MED-2` are the two that change which roles the owner is a plausible candidate for.
 

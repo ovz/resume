@@ -16,7 +16,8 @@ Start at [`index.md`](index.md). It lists every page with a one-line purpose and
   - `wiki/resume/` — the always-on shard for editing the primary resume (structure and cut points, link conventions, update workflow, and the coverage map that says which captured material has not reached the resume yet).
   - `wiki/workflows/` — how-tos that change the repo's state (brag capture/ingest, archiving, sensitivity tiers, large imports, the Obsidian vault).
   - `wiki/sources/` — one summary page per source document: role, vintage, what it uniquely contributes, harvest status, tier. Plus the brag ledger.
-  - `wiki/analysis/` — durable answers to questions that came up, including researched external context (e.g. an employer's public financial record correlated with the owner's own notes).
+  - `wiki/analysis/` — durable answers to questions that came up, including researched external context. Employer research lives under `wiki/analysis/employers/<employer>/`, one dated page per piece of research (`YYYY-MM-DD-<subject>.md`) — past employers and prospective ones alike, so preparing for a conversation starts in one folder.
+  - `wiki/stories/` — **told-able stories** graduated from brag entries, grouped by cluster: a hub note per cluster (`<cluster>.md`) beside a folder of its stories, and a [story map](wiki/stories/story-map.md). See `wiki/workflows/brag-stories.md`.
   - `wiki/concepts/`, `wiki/entities/`, `wiki/overview.md` — the career synthesis proper.
   - `wiki/sources.md` — the source map: every source's tier and disposition on one page.
 - `../archive/` — historical personal material predating the wiki; classified in `wiki/sources/`, not synthesized.
@@ -56,6 +57,7 @@ PDFs, exports, screenshots, and employer-internal notes are never committed (`.g
 | See what the resume is missing, or how much is covered | `wiki/resume/coverage.md` |
 | Capture an accomplishment right now, in any format | `wiki/workflows/brag-file.md` §§ *Part 0*–*Part 1* |
 | Fold captured accomplishments into the wiki | `wiki/workflows/brag-file.md` § *Part 2* |
+| Graduate entries into stories, or build a reading list for an interview, event or employer | `wiki/workflows/brag-stories.md` |
 | Get the generated blocks onto the LinkedIn profile, or answer whether that can be automated | `wiki/workflows/linkedin-publish.md` |
 | Retire a superseded `../markdown/` document | `wiki/workflows/archive-source.md` |
 | Decide whether something may be written down here | `wiki/workflows/sensitivity-tiers.md` |

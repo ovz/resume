@@ -41,6 +41,7 @@ captured when it happens   and themes                         variant
 |---|---|
 | Record something that just happened, in any format | `brag-capture` skill → [`llm-wiki/wiki/workflows/brag-file.md`](llm-wiki/wiki/workflows/brag-file.md) §§ *Part 0*–*Part 1* |
 | Fold captured entries into the knowledge layer | `brag-capture` skill → same page, § *Part 2* |
+| Turn entries into told-able stories, or get a reading list for an interview, event or employer | `brag-capture` skill → [`llm-wiki/wiki/workflows/brag-stories.md`](llm-wiki/wiki/workflows/brag-stories.md) |
 | See what the resume is missing, and how much is covered | [`llm-wiki/wiki/resume/coverage.md`](llm-wiki/wiki/resume/coverage.md) |
 | Put something on the outward-facing resume | `resume-editing` skill → [`llm-wiki/wiki/resume/update-workflow.md`](llm-wiki/wiki/resume/update-workflow.md) |
 | Refresh the LinkedIn profile from the resume | `linkedin-publish` skill → [`llm-wiki/wiki/workflows/linkedin-publish.md`](llm-wiki/wiki/workflows/linkedin-publish.md) |
@@ -84,7 +85,7 @@ Two hard rules apply everywhere:
 
 Reusable procedures live in `.github/skills/<name>/SKILL.md`, the single copy of each. Load one when its `description` matches the task:
 
-- `brag-capture` — recording an accomplishment, and folding captured entries into the knowledge layer.
+- `brag-capture` — recording an accomplishment, folding captured entries into the knowledge layer, and graduating them into stories and reading lists.
 - `resume-editing` — editing an outward-facing resume document.
 - `linkedin-publish` — getting the generated blocks onto the LinkedIn profile, and the researched answer to whether any of it can be automated.
 - `resume-tooling` — setting up or repairing the toolchain on a workstation.

@@ -34,13 +34,17 @@ Open the graph view. Colour is the pipeline stage:
 | Colour | What it is | What it means |
 |---|---|---|
 | 🔴 **Red-orange** | `raw/brag/inbox/` | **Un-ingested. This is where you dump.** A red node is a to-do. |
+| 🩷 **Magenta** | `wiki/stories/` | **Told-able stories** — what you reread before an interview or an event. |
 | 🟡 **Gold** | `markdown/` | The outward-facing resume — the destination everything is aiming at. |
 | 🟠 **Amber** | brag entries with `resume-worthy: yes` | Captured and judged promotable, **not yet on the resume**. These are the nodes to move next. |
 | 🟢 **Teal** | all other brag entries | Captured. Real evidence, not necessarily resume material. |
+| 🟣 **Deep purple** | `wiki/analysis/employers/` | Employer research — past employers and prospective ones, one dated page per piece of research. |
 | 🟣 **Purple** | `wiki/analysis/` | Durable answers to questions that came up — context, not accomplishments. |
 | 🔵 **Steel blue** | `wiki/resume/` | The resume machinery: structure, link conventions, coverage map. |
 | 🔵 **Blue** | rest of `wiki/` | Synthesis: domains, entities, workflows, sources. |
 | ⚪ **Grey** | rest of `raw/` | Archived sources. |
+
+**The main graph hides graduated entries.** Its filter is `-[storied]`: once an entry's substance is told in a story, it steps out of the working view. It stays one move away — the story's local graph, a search for `[storied]`, or the catalogue. See [brag stories](brag-stories.md).
 
 ### What the shapes tell you
 
@@ -59,6 +63,9 @@ Type these into the graph's search box to isolate one view:
 | One domain | `[domains:"positioning and location"]` |
 | Everything captured about a topic | `path:llm-wiki/raw/brag beacon` |
 | What is waiting to be filed | `path:llm-wiki/raw/brag/inbox` |
+| Every entry that has graduated into a story | `[storied]` |
+| Stories for one kind of conversation | `[fits:embedded]` — swap the need |
+| One cluster as a sub-graph | open its hub, e.g. `stories/positioning.md`, then *Open local graph* at depth 2 |
 
 ## Entry properties
 
@@ -73,6 +80,9 @@ Brag entries carry YAML frontmatter, so Obsidian indexes them as **properties** 
 | `context` | Employer / project / team, as publicly describable |
 | `sensitivity` | `private-repo` or `public-friendly` — see [sensitivity tiers](sensitivity-tiers.md) |
 | `resume-worthy` | `yes` / `maybe` / `no` — the owner's judgement, and what drives the amber colour |
+| `storied` | *Added only at graduation.* The stories this entry now lives in, as a list of paths. Its presence is what the main graph filters on, so **never add it empty** — an empty `storied:` hides an entry that has not graduated |
+
+Stories carry their own three properties — `cluster`, `fits`, `status` — described in [brag stories](brag-stories.md).
 
 **`thread` is the one to get right when adding an entry**, because it is what makes the topic cluster findable later. If nothing fits, that is a signal to open a new thread in the coverage map rather than to force a bad match.
 

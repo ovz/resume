@@ -20,11 +20,11 @@ to leave alone. Nothing else in the pipeline can answer that question.
 
 | File | LinkedIn field | Characters | Limit | Headroom | Source |
 |---|---|---:|---:|---:|---|
-| [`about.txt`](about.txt) | About (My Story) | 2,451 | 2,600 | 149 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
-| [`experience-best-buy-health.txt`](experience-best-buy-health.txt) | Experience — Best Buy Health (2020-present) | 1,954 | 2,000 | 46 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`about.txt`](about.txt) | About (My Story) | 2,485 | 2,600 | 115 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`experience-best-buy-health.txt`](experience-best-buy-health.txt) | Experience — Best Buy Health (2020-present) | 1,957 | 2,000 | 43 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-greatcall.txt`](experience-greatcall.txt) | Experience — GreatCall (2018-2020) | 1,969 | 2,000 | 31 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
-| [`experience-minitab.txt`](experience-minitab.txt) | Experience — Minitab | 1,689 | 2,000 | 311 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
-| [`experience-salford-systems.txt`](experience-salford-systems.txt) | Experience — Salford Systems | 1,662 | 2,000 | 338 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`experience-minitab.txt`](experience-minitab.txt) | Experience — Minitab | 1,872 | 2,000 | 128 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`experience-salford-systems.txt`](experience-salford-systems.txt) | Experience — Salford Systems | 1,910 | 2,000 | 90 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-iit.txt`](experience-iit.txt) | Experience — Institute of Information Technology | 1,122 | 2,000 | 878 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 
 A build **fails** when a block exceeds its limit, so these files are always
@@ -41,7 +41,7 @@ reads as one document.
 
 ### About (My Story)
 
-`about.txt` · 2,451 of 2,600 characters
+`about.txt` · 2,485 of 2,600 characters
 
 ````text
 I build Embedded software that people’s health and safety depends on, and I own the Architecture around it. Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines at Best Buy Health — every device of GreatCall lineage still carried by Lively — and I stay hands-on as an engineer on all of them. I am looking for a Sr. Principal Engineer or Sr. Staff Engineer position.
@@ -52,14 +52,14 @@ I began as a Data Security and Cryptography engineer as an undergrad, working fo
 
 From 2000 to 2017 at Salford Systems — later a Minitab company — I was an architect and technical lead in Machine Learning/AI long before the mainstream caught up. The work was systems work: a cross-platform Client-Server engine, Concurrency and Network Protocol design, a 64-bit migration, distributed ML over peta-scale datasets, and the CI/CD to ship it all. I managed teams up to 15 people across the U.S., Ukraine and China.
 
-Since 2018 at GreatCall (presently Best Buy Health) I have built Embedded devices for Seniors at an MVNO that runs the entire pipeline from hardware manufacturing through to Care. The software gives a gift of independence, confidence and livelihood, and it has to work when someone’s life depends on it. I became the company’s Subject Matter Expert on Positioning, built the fleet Observability practice, and applied Neural Networks to the Health and Safety of Senior Citizens. I then moved into regulated medical devices on a hospital-at-home platform: qualified into a medical-device Quality Management System under FDA, EU and Australian regulatory process, mastered Orcanos and added PPG wearable to a sensor record already spanning accelerometry, GNSS and BLE.
+Since 2018 at GreatCall (presently Best Buy Health) I have built Embedded devices for Seniors at an MVNO that runs the entire pipeline from hardware manufacturing through to Care. The software gives a gift of independence, confidence and livelihood, and it has to work when someone’s life depends on it. I became the company’s Subject Matter Expert on Positioning, built the fleet Observability practice, and applied Neural Networks to the Health and Safety of Senior Citizens. I then earned the organization’s trust to move into regulated medical devices on a hospital-at-home platform: qualified into a medical-device Quality Management System under FDA, EU and Australian regulatory process, mastered Orcanos and added PPG wearable to a sensor record already spanning accelerometry, GNSS and BLE.
 
 Since 2023, AI changed what I take on, not just how fast: I build the Multi-Agent Orchestration and Knowledge Systems that make it a team capability rather than a personal shortcut. My dream job is a perfect combination of Innovation, Value, and Impact.
 ````
 
 ### Experience — Best Buy Health (2020-present)
 
-`experience-best-buy-health.txt` · 1,954 of 2,000 characters
+`experience-best-buy-health.txt` · 1,957 of 2,000 characters
 
 ````text
 Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines, while staying hands-on. Fall detection is Lively Mobile’s killer feature, and I am driving its next innovation for active seniors.
@@ -68,7 +68,7 @@ I built the fleet Observability practice: an agentless device-health architectur
 
 We launched Lively Mobile 2 in 2024. I upgraded Positioning via Qualcomm Skyhook on Qualcomm Linux Enablement, then architected the Location Engine unifying GNSS, Wi-Fi and BLE beacons with arbitration and fallback.
 
-I moved into regulated medical devices on Current Health’s Hospital at Home platform: qualified into its medical-device Quality Management System — Design Control, CAPA, supplier quality — under FDA, EU and Australian regulatory process, mastered Orcanos and added PPG wearable to a sensor record spanning accelerometry, gyroscopes, GNSS and BLE, and traced a firmware defect in which a default temperature value reached the telemetry payload and made the platform conclude a patient was unmonitored.
+Having earned the organization’s trust, I was given Current Health’s Hospital at Home work in regulated medical devices: I qualified into its medical-device Quality Management System — Design Control, CAPA, supplier quality — under FDA, EU and Australian regulation, mastered Orcanos and a PPG wearable in record time, traced a firmware defect that made the platform conclude a patient was unmonitored, and relished the integration it demanded, across devices, technologies, company cultures and people.
 
 I own the platform foundations — a Capability and Configuration Framework in embedded C, safety-critical C++ guidelines, Conan packaging with ARM cross-compilation — and since 2023 build the Multi-Agent Orchestration and Knowledge Systems that make AI a team capability.
 ````
@@ -89,7 +89,7 @@ I took charge of the architecture for automated tests that run on the device, cu
 
 ### Experience — Minitab
 
-`experience-minitab.txt` · 1,689 of 2,000 characters
+`experience-minitab.txt` · 1,872 of 2,000 characters
 
 ````text
 At the end of an almost two-decades-long journey with Salford Systems, I helped it become a Minitab company. I was instrumental in making the entire Intellectual Property of Salford Systems available to Minitab and getting it under proper Governance — detailed records I had kept for years are what made that pace possible.
@@ -98,12 +98,12 @@ I completed the migration of Codebase, Issue Tracking and CI/CD onto Visual Stud
 
 Per a mandate from Top Management I built the process to scale up the development team, cutting onboarding from 2-3 months to less than a week. I established a stable baseline of Salford Predictive Modeler (SPM), identifying and addressing instabilities to create a solid foundation for the incremental SPM v8.3 release, and improved the coverage and quality of Automated Tests with the Quality Engineers, promoting Test-Driven Development.
 
-I brought the Codebase in line with Source Code Style guidelines, using my knowledge of C++ to get the company’s other Tech Leads on board for significant improvements. I learned the Nalpeiron license manager, introduced it into the product, and spearheaded making the License Management package reusable across all Minitab projects. I advocated a company-wide repository of reusable code based on NuGet, and participated in architecting the next version of the Machine Learning APIs and Cloud offerings on AWS.
+I brought the Codebase in line with Source Code Style guidelines, using my knowledge of C++ to get the company’s other Tech Leads on board for significant improvements. This was a short tenure and a formative one: the bar rose in some places and not others, and learning to read which is which — rather than assume — is what I took into the next role. I learned the Nalpeiron license manager, introduced it into the product, and spearheaded making the License Management package reusable across all Minitab projects. I advocated a company-wide repository of reusable code based on NuGet, and participated in architecting the next version of the Machine Learning APIs and Cloud offerings on AWS.
 ````
 
 ### Experience — Salford Systems
 
-`experience-salford-systems.txt` · 1,662 of 2,000 characters
+`experience-salford-systems.txt` · 1,910 of 2,000 characters
 
 ````text
 Salford Systems’ claim to fame is pioneering Decision Trees in Machine Learning. We commercialized the work of Jerome Friedman, Leo Breiman, Richard Olshen and Charles Stone, the authors of the famous CART Monograph. For me it was enormous fun and hard work to help our customers meet their Data Science and Artificial Intelligence needs long before those terms became buzzwords.
@@ -112,7 +112,7 @@ I was the primary Graphical User Interface (GUI) developer and a collaborator on
 
 The rest of the work was systems work. I designed and singlehandedly built a cross-platform Client-Server predictive analytics system with a TCP/IP daemon, which was my introduction to Concurrency, Parallelism and Network Protocol Design. I was Chief Architect and Product Owner for the Qt GUI rewrite, a Principal Architect and Product Owner for Cloud-ready SPM (OpenAPI middle layer, React/Redux front end, Python backend on a Redis distributed queue), and the architect of the Machine Learning Predictive engines API. I took SPM to 64 bits, hardened it for Unicode, ran Big Data research on Hadoop, Spark and Dask, built fully automated CI/CD, and selected Wibu Codemeter after trialling every serious licensing alternative.
 
-I managed teams up to 15 people, coordinating U.S. developers with Outsourcing contractors in Ukraine and China.
+I managed teams up to 15 people, coordinating U.S. developers with Outsourcing contractors in Ukraine and China. I raised the bar and the teams rose with it: the Ukrainian team over-performed, becoming instrumental contributors to features and quality rather than extra capacity, and the Qt team — surprised at first to be asked to aim higher — was glad of it.
 ````
 
 ### Experience — Institute of Information Technology

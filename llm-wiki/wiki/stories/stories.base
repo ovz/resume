@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.inFolder("llm-wiki/wiki/stories")
+views:
+  - type: table
+    name: Stories by cluster
+    groupBy:
+      property: note.cluster
+      direction: ASC

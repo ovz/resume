@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.inFolder("llm-wiki/raw/brag")
+    - not:
+      - file.inFolder("llm-wiki/raw/brag/inbox")
+views:
+  - type: table
+    name: Brag entries by thread
+    groupBy:
+      property: note.thread
+      direction: ASC
