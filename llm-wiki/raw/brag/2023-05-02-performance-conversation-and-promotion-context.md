@@ -54,7 +54,9 @@ Trello leadership board, *Performance Allegations* (7 cards) and *Tactical Empat
 - [2025-04-01 Staff Engineer behaviours and Principal positioning](2025-04-01-staff-engineer-behaviors-principal-positioning.md) — the standing self-assessment this episode tested.
 - [2020-07-14 Upward feedback practice](2020-07-14-upward-feedback-practice.md) — the earlier habit of giving structured feedback to management.
 - [2021-06-23 Quarterly-conversation practice](2021-06-23-quarterly-conversation-practice.md) — the regular cadence within which these conversations sat.
+- [2023-11-27-r5-home-away-beacon-tracking](2023-11-27-r5-home-away-beacon-tracking.md) — the beacon tracking work this conversation cites, and the re-litigated cradle decisions that slowed it.
 
 ## Record history
 
 - 2026-09-10: created from the Trello leadership board during the full board ingest, after the restriction on synthesizing performance-related and named material was withdrawn.
+- 2026-09-14: *Related* link to the 2023-11-27 beacon tracking entry.

@@ -56,11 +56,13 @@ Trello device-programme board, *Dead Reckoning*, *BLE Examples*, *Research for B
 
 ## Related
 
-- [2026-09-01 R5 beacon tracking and FOTA persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — the beacon-tracking capability this research laid the groundwork for, shipped years later.
+- [2026-09-01 R5 beacon tracking and FOTA persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — the late chapter of the beacon tracking later assigned on the R5; not built on this research, and never exposed to customers.
 - [2025-11-15 R5 location engine design](2025-11-15-r5-location-engine-design.md) — the eventual multi-source location engine; this entry is its distant ancestor on the sensor side.
 - [2021-11-15 R5 product architecture and power-budget trade-offs](2021-11-15-r5-product-architecture-power-budget-tradeoffs.md) — the product-level framing this research fed.
+- [2023-11-27-r5-home-away-beacon-tracking](2023-11-27-r5-home-away-beacon-tracking.md) — the 2023 beacon tracking assignment. Related by technology only: this research explored BLE beaconing for a different question and did not originate that feature.
 
 ## Record history
 
 - 2026-09-10: created from the Trello device-programme board during the full board ingest.
 - 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.
+- 2026-09-14: *Related* corrected — beacon tracking did not ship to customers and was an assignment, not an outgrowth of this research; link to the 2023-11-27 entry added.

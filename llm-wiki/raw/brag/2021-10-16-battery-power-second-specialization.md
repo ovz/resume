@@ -66,8 +66,10 @@ The owner's own device-programme board carries the power-budget list, the trade-
 - [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — presence detection over polling, the positioning decision made for battery reasons.
 - [2026-05-17-statistical-bar-and-data-science-partnership](2026-05-17-statistical-bar-and-data-science-partnership.md) — the analytical half of the same practice: hypothesis and cheap experiment over brute-force analysis.
 - [2024-01-04-cellular-cost-rogue-device-detection](2024-01-04-cellular-cost-rogue-device-detection.md) — the other half of the operating-cost story, where cellular data rather than battery is the resource being spent.
+- [2023-11-27-r5-home-away-beacon-tracking](2023-11-27-r5-home-away-beacon-tracking.md) — the simple beacon tracking design whose simplicity kept the 2026 keep-alive breakage cheap.
 
 ## Record history
 
 - 2026-09-13: created from the owner's direct statement of 2026-09-13, grounded the same day in the committed Trello snapshots. Filed at the start of the documented range, per the convention for a standing practice.
 - 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.
+- 2026-09-14: *Related* link to the 2023-11-27 beacon tracking entry.

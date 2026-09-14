@@ -69,7 +69,9 @@ Trello leadership board, *Staff Engineer behaviors* list (26 cards) plus related
 - [2021-06-23 Quarterly-conversation practice](2021-06-23-quarterly-conversation-practice.md) — the cadence this assessment fed into.
 - [2025-05-23 Mentorship toward Principal Engineer](2025-05-23-mentorship-principal-engineer-goal.md) — the formal mentoring relationship built around the same goal.
 - [2023-05-02 Performance conversation and promotion context](2023-05-02-performance-conversation-and-promotion-context.md) — the episode where this positioning was tested directly.
+- [2023-11-27-r5-home-away-beacon-tracking](2023-11-27-r5-home-away-beacon-tracking.md) — beacon tracking, one of the four things named here as delivered on his own initiative.
 
 ## Record history
 
 - 2026-09-10: created from the Trello leadership board during the full board ingest, after the restriction on synthesizing named and performance-related material was withdrawn.
+- 2026-09-14: *Related* link to the 2023-11-27 beacon tracking entry.
