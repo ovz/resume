@@ -10,10 +10,10 @@
 
 | Measure | Coverage |
 |---|---|
-| All promotable claims | **≈ 63%** — 94 of 150 claims |
-| Claims from entries marked `resume-worthy: yes` | **≈ 69%** — 68 of 98 claims |
+| All promotable claims | **≈ 62%** — 95 of 154 claims |
+| Claims from entries marked `resume-worthy: yes` | **≈ 68%** — 69 of 102 claims |
 
-91 claims are fully reflected. 6 are gestured at generically. 53 are absent. **Two are `held`** — recorded deliberately and never for the resume — and **one is struck** as wrong; all three are excluded from the totals above. Both figures were recounted from the tables on 2026-09-13 and adjusted by delta on 2026-09-14; the `resume-worthy: yes` line had drifted by one claim, which is the kind of drift the *Maintenance* note below expects and says to fix by recounting. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
+91 claims are fully reflected. 8 are gestured at generically. 55 are absent. **Two are `held`** — recorded deliberately and never for the resume — and **one is struck** as wrong; all three are excluded from the totals above. Both figures were recounted from the tables on 2026-09-13 and adjusted by delta on 2026-09-14; the `resume-worthy: yes` line had drifted by one claim, which is the kind of drift the *Maintenance* note below expects and says to fix by recounting. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
 
 > **How the number got here, and what each past pass promoted, is now [coverage history](coverage-history.md)** — including the two earlier occasions when coverage *fell* while nothing was removed from the resume, which is the metric behaving correctly rather than a regression.
 
@@ -145,11 +145,11 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 
 ### OBS — Device-health observability programme
 
-The largest thread by far: eight entries spanning 2023–2025, tracing one arc from "can we even observe this fleet?" through launch monitoring, statistical tuning, and portfolio stewardship.
+The largest thread by far: nine entries spanning 2023–2025, tracing one arc from "can we even observe this fleet?" through launch monitoring, operational response, statistical tuning, and portfolio stewardship.
 
-**Entries:** [2023-12-21 observability architecture](../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-14 lifecycle review](../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-29 anomaly validation](../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md)
+**Entries:** [2023-12-21 observability architecture](../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-29 anomaly validation](../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md)
 
-**Thread coverage: ≈ 94%** (17 of 18)
+**Thread coverage: ≈ 82%** (18 of 22)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -171,6 +171,10 @@ The largest thread by far: eight entries spanning 2023–2025, tracing one arc f
 | `OBS-16` Supplied focused evidence for recovery, replacement and defect-classification decisions with firmware partners | 2025-05-01 | **in** |
 | `OBS-17` Validated an anomaly monitor's first meaningful firing by correlating it with independent MCU alerts from firmware engineering | 2025-05-29 | **in** |
 | `OBS-18` Established an evidence-based observation loop for judging a monitor's ongoing usefulness | 2025-05-29 | partial |
+| `OBS-19` Co-authored the R5 self-reported-error runbook, translating device telemetry and syslog evidence into actionable operational guidance | 2025-01-09 | absent |
+| `OBS-20` Recognized that threshold detection alone could not diagnose some device conditions, routing them to device-specific engineering interpretation and recovery assessment | 2025-01-09 | partial |
+| `OBS-21` Prioritized physical-device recovery by customer-care urgency and diagnostic value, accounting for recovery cost | 2025-01-09 | partial |
+| `OBS-22` Ensured the detailed diagnostic guide was reviewed and published alongside the main runbook's recurring review | 2025-01-09 | absent |
 
 > `OBS-7` is deliberately `partial`: the resume claims the catch but not the battery-overheating specific, which names a safety-adjacent defect in a current employer's product. See *Open sensitivity question* below.
 
@@ -238,7 +242,6 @@ Four entries, 2023–2026: a feature owned from its inception, field diagnostics
 > `AI-7` was `in` until 2026-09-09 and was **deliberately retired** from the resume, not lost: an unverifiable productivity multiplier was replaced by what was actually built (`AI-3`, `AI-4`). The claim stays on this page because the underlying fact is still true and the owner may want it back — see *Open questions*.
 
 ---
-
 ### RSK — Risk, security and process practice
 
 **Entries:** [2023-08-03 risk management analysis](../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) · [2023-09-30 patch management SOP](../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) · [2023-12-05 launch readiness](../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md)
@@ -256,7 +259,6 @@ Four entries, 2023–2026: a feature owned from its inception, field diagnostics
 | `RSK-7` Substituted better controls — chaos-style testing where failures actually live, escalation-path membership, and the one device-specific scenario worth rehearsing | 2023-12-05 | **in** |
 
 ---
-
 ### DEV — Device architecture and sensor research (2021–2022)
 
 The R&D layer under the wearable programme: what the device should be, what it should cost in power, and how it would know where its user was. Captured 2026-09-10 from the owner's own working boards, years after the fact.
@@ -276,7 +278,6 @@ The R&D layer under the wearable programme: what the device should be, what it s
 | `DEV-7` Set the design goal that positioning be a non-issue in the power budget, which the sensor architecture was then built to satisfy | 2021-11-15 | **in** |
 
 ---
-
 ### CRISIS — The August 2019 CPSC recall and relaunch
 
 The formative event of the GreatCall years, captured 2026-09-10 from the owner's direct statement, seven years after the fact, and grounded the same day in the public CPSC record.
@@ -295,7 +296,6 @@ The formative event of the GreatCall years, captured 2026-09-10 from the owner's
 > **Settled 2026-09-10.** The owner confirmed the recall is public and supplied the CPSC notice, so the resume names it and links a pinned snapshot of the notice. What stays out is everything not in the public record — root cause and internal decision-making.
 
 ---
-
 ### MFG — Manufacturer boundary and firmware delivery
 
 Where the device stops being ours: the specification handed to a contract manufacturer, and what happens when firmware delivery through that boundary fails.
@@ -466,7 +466,7 @@ A failure class the owner has pursued for twenty years, with one fully documente
 
 ## What this says right now
 
-1. **The absent 51 claims now sit in nine threads, and the four largest are new or leadership.** `LEAD` has 12 absent of 16 — still no evidence on the resume of managing upward, mentoring, or process discipline, the behaviours that separate a principal candidate from a senior one. Then `PWR` (7), `COST` (6), `STAT` (5) and `CONC` (5), all opened on 2026-09-13 and none promoted. The statement that "everything technical the brag file knows about has landed" was true on 2026-09-11 and is no longer: battery and power, cost of operation, and concurrency are all technical, all current, and all absent.
+1. **The absent 55 claims now sit in nine threads, and the four largest are new or leadership.** `LEAD` has 12 absent of 16 — still no evidence on the resume of managing upward, mentoring, or process discipline, the behaviours that separate a principal candidate from a senior one. Then `PWR` (7), `COST` (6), `STAT` (5) and `CONC` (5), all opened on 2026-09-13 and none promoted. The statement that "everything technical the brag file knows about has landed" was true on 2026-09-11 and is no longer: battery and power, cost of operation, and concurrency are all technical, all current, and all absent.
 2. **Three of the four new threads are strong, and one is not.** `PWR`, `COST` and `CONC` each rest on documented work, and `CONC-1` is arguably the best debugging story in the corpus. `STAT` rests largely on the owner's own account. That asymmetry is exactly what the [prominence rule](../workflows/voice-and-prominence.md) exists for: promote `PWR-2`, `PWR-5`, `COST-2`, `COST-4` and `CONC-1` before anything from `STAT`.
 3. **`QA` is no longer small.** Reframed on 2026-09-13 around the mentorship it actually was, it now carries seven claims — including the refusal to let unit-test coverage become an externally watched metric, and pull-request discipline taught to QA engineers under a compliance mandate. Read it alongside `LEAD`: between them they are 19 of the 51 absent claims, and they are the same argument about how this person operates. `DATA` remains the genuine small zero, at two.
 4. **The binding constraint has changed.** Before the 2026-09-10 budget pass the question was *what is worth promoting*; the pool was rich and the document had room. It is now *what fits*: the About section and every Experience entry are marked with LinkedIn's character budgets and the build fails when one is exceeded. The Best Buy Health entry has 31 characters of headroom. The next promotion into it has to displace something, and that is a real editorial decision rather than an oversight.

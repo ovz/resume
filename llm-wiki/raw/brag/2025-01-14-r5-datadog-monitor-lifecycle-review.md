@@ -51,6 +51,7 @@ Initiated rationalization of the R5 Datadog monitoring portfolio by identifying 
 
 ## Related
 
+- [2025-01-09-r5-self-reported-error-operational-runbook](2025-01-09-r5-self-reported-error-operational-runbook.md) — the preceding runbook work translated self-reported-error telemetry into the operational response model that this later monitoring-lifecycle review helped maintain.
 - [2024-03-07-r5-datadog-monitoring-launch](2024-03-07-r5-datadog-monitoring-launch.md) — the monitoring foundation this review rationalizes.
 - [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — the deliberate MCU reboot/fatal handling there is what the MCU-oriented monitoring generation favoured here observes (2026).
 
@@ -58,3 +59,4 @@ Initiated rationalization of the R5 Datadog monitoring portfolio by identifying 
 
 - 2026-09-08: created from the owner's January 14, 2025 evidence summary
 - 2026-09-08: added *Related* links to the 2024-03-07 launch and 2026-09-01 beacon-tracking entries
+- 2026-09-08: added forward link to the preceding 2025-01-09 operational-runbook entry
