@@ -37,6 +37,17 @@ A response that ends with a list of things for the owner to do is a defect, even
 
 If work is under way and no scope exists yet, that is the signal to create one (`session-wiki-pattern` skill), not a licence to hand off in chat.
 
+### Keeping the tracker true
+
+The mechanics are the `session-wiki-pattern` skill's, § *The tracker*. Four rules are this repository's policy:
+
+- **Done items leave the tracker promptly**, into a done-batch file the tracker links — one line per batch, at most twenty, the oldest rotated out.
+- **Owner items are re-judged on every resume, before new work.** Read the cheap evidence first — `git log --oneline` since the tracker's date, `git show --stat` only on commits whose subject looks relevant, `git status --short`, `git diff --cached --stat`, `script/linkedin-sync.py status` — then move each owner item that is done or obsolete into a done batch, **with the evidence that decided it**. When the evidence is ambiguous, leave the item open and say what would settle it.
+- **Commit guides are owner assignments.** Every proposed commit file appears in the tracker's owner items, with its review guidance, until `git log` shows it landed — partially landed ones say what is still outstanding.
+- **`TODO.md` points the owner at trackers that hold owner items** and nothing more. It is the owner's scratch file; an agent does not re-add a trace the owner deleted unless new owner items have appeared since.
+
+Scratch is this workstation's worklog and may grow as it needs to; committed files are the garden of knowledge and hold only what has reached top quality.
+
 ## Where the rules live
 
 Per-directory `AGENTS.md` files are the primary, load-bearing instructions. Read the one covering the directory you are about to touch; do not rely on this router alone.
@@ -99,7 +110,7 @@ script/pandoc_resume.sh clean
 
 Artifacts land in `pandoc_resume/output/` and are gitignored, as are `*.pdf` and `*.htm*` repo-wide. The build must never be "fixed" by committing generated output.
 
-Pasting the result into the profile is [its own workflow](llm-wiki/wiki/workflows/linkedin-publish.md): `script/linkedin-sync.py status` says which blocks have not reached LinkedIn, and that record is committed so it survives a commit and a fresh clone. **There is no API for it** — the write path exists but is behind a closed partner permission, and browser automation is prohibited; the workflow page carries the evidence.
+Pasting the result into the profile is [its own workflow](llm-wiki/wiki/workflows/linkedin-publish.md), on its own clock: resume edits are committed as they go, and `script/linkedin-sync.py status` / `round` **regenerate the blocks from the Markdown themselves** before saying what has not reached LinkedIn. The paste record is committed so it survives a commit and a fresh clone; a non-zero `status` is a low-priority owner item in the tracker, never a blocker. **There is no API for it** — the write path exists but is behind a closed partner permission, and browser automation is prohibited; the workflow page carries the evidence.
 
 **`linkedin/` is the one tracked exception**, and it is tracked *because* it is generated. LinkedIn accepts no formatting and caps each field — 2,600 characters for the About section, 2,000 per Experience entry — so the profile cannot be a copy of the resume; it is a rendering of it, produced from sections marked `<!-- linkedin: <slug> limit=<n> -->` in the Markdown. Updating the profile is a human pasting into a web form, so the committed diff is the only thing that can say *which* fields have drifted and need re-pasting: a changed file is a field to paste, an unchanged one is a field to leave alone. Files there are never hand-edited, and a block that outgrows its field fails the build rather than being silently truncated on paste. Details: [`.github/skills/resume-tooling/SKILL.md`](.github/skills/resume-tooling/SKILL.md) § *The LinkedIn export*.
 
@@ -111,7 +122,7 @@ Three tiers govern what may be written where: **T0 public** (the primary resume 
 
 Two hard rules apply everywhere:
 
-- No committed file may reference a path under `__untracked_stuff/`. A committed file must stand alone in a fresh clone; a pointer into scratch is dead on arrival for every other reader, and dead *silently*. Describe the shape of the scratch convention if you must, but never a concrete scratch path. **The one exception is the root `TODO.md`**, the owner's worklist: it names every session-wiki assignment tracker that still holds action items — in this repository and in its [sibling career repositories](llm-wiki/wiki/workflows/career-repositories.md) — so that `git diff` shows what is outstanding. An agent adds the line when a tracker opens items and removes it when the tracker closes; no other committed file may cite those paths.
+- No committed file may reference a path under `__untracked_stuff/`. A committed file must stand alone in a fresh clone; a pointer into scratch is dead on arrival for every other reader, and dead *silently*. Describe the shape of the scratch convention if you must, but never a concrete scratch path. **The one exception is the root `TODO.md`**, the owner's worklist: it names every session-wiki assignment tracker that still holds action items — in this repository and in its [sibling career repositories](llm-wiki/wiki/workflows/career-repositories.md) — so that `git diff` shows what is outstanding. An agent adds the line when a tracker gains owner items and removes it when none remain. `TODO.md` is otherwise the owner's scratch space, and the owner may delete a trace whenever they like. No other committed file may cite those paths.
 - Third-party contact details are never copied out of `markdown/Oleg.Zhylin.professional.references.md`.
 - Colleague names, roles and the substance of working relationships are recorded in full at T1 — they are the professional record, not an aside to it. Capture is not disclosure: what the owner chooses to say in an interview is a separate judgement, and names still come out at T0.
 

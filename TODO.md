@@ -6,14 +6,11 @@
 
 # Open assignment trackers
 
-> One line per session-wiki assignment tracker that still holds action items — for Claude, for the owner, or both — in this repository and its sibling career repositories. Agents add a line when a tracker opens items and remove it when the tracker closes. The paths are gitignored scratch that exists only on this workstation; this file is the one committed exception to that rule (`AGENTS.md`).
+> Agent traces: each line is a session-wiki tracker that holds items **for you** — commit guides to land, decisions, checks. The paths are this workstation's scratch. This is your scratch file: delete a line whenever you like; an agent re-adds a trace only when new owner items appear.
 
-- `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **program tracker, start here.** Story lines (positioning first, then state machines), P4 split, inbox ingest, Obsidian, LinkedIn visibility, cross-repo setup and Cowork
-- `__untracked_stuff/2026-09-14-home-away-story/tasks/assignment_tracker.md` — owner: land commit 028, beacon PR and branch facts, the T0 tier call, rehearse P4
-- `__untracked_stuff/2026-09-13-dream-job-hub/tasks/assignment_tracker.md` — owner items in its *Open for the owner*
-- `__untracked_stuff/2026-09-11-brag-stories-and-linkedin/tasks/assignment_tracker.md` — owner: `tasks/owner-answers.md` sheet (unblocks P1's R4-era material), LinkedIn L2–L4
-- `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — agent router, Cowork project, where prospective-employer research lives
-- `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — agent router, a version-correct Boost MSM study track, employer tailoring
+- `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
+- `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
+- `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
 
 # :bangbang: Lookup r5 codebase to better support this story
 

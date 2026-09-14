@@ -47,6 +47,6 @@ An edit is not finished until the artifacts build clean:
 script/pandoc_resume.sh all
 ```
 
-Then read the rendered output, not just the Markdown — line breaks, table widths and page cuts in the PDF are where formatting regressions show up. The same run regenerates `linkedin/`; whatever `git status` reports as changed there is what has to be re-pasted into the profile.
+Then read the rendered output, not just the Markdown — line breaks, table widths and page cuts in the PDF are where formatting regressions show up. The same run regenerates `linkedin/`; whatever `git status` reports as changed there is what has to be re-pasted into the profile. Pasting need not follow the commit: `script/linkedin-sync.py round` regenerates the blocks itself and walks whatever is out of sync, whenever the owner decides to update the profile.
 
 Agents do not commit; see the root [`AGENTS.md`](../AGENTS.md).

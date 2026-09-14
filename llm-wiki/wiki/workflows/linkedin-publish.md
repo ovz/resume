@@ -60,24 +60,26 @@ It does have one honest use here. If [the announce post](#if-the-announce-post-i
 
 ## The paste round
 
-The routine after any resume change. The loop is resumable — the record of what has been pasted lives in `linkedin/paste-state.json`, which is committed, so it survives a commit, a reboot, and a fresh clone.
+Resume edits and profile updates run on **different clocks, deliberately**. Edit `markdown/` and commit as you go; update LinkedIn when you decide to. The [visibility research](../analysis/2026-09-14-linkedin-profile-visibility.md) found no benefit in a calendar cadence, and no harm in pasting several times a day either — so an update is simply a low-priority item that must not be forgotten. What keeps it from being forgotten is `linkedin/paste-state.json`, which is committed and records what has actually reached the profile.
 
 ```bash
-script/pandoc_resume.sh all          # rebuild; regenerates linkedin/ and enforces the budgets
-script/linkedin-sync.py status       # what is out of sync with the profile
-script/linkedin-sync.py round        # then paste them all in one guided pass
+script/linkedin-sync.py status       # regenerate the blocks, then say what is out of sync with the profile
+script/linkedin-sync.py round        # regenerate, then paste every stale block in one guided pass
+git diff -- linkedin/                # the paste text that changed; commit it whenever you choose
 ```
 
-`status` compares the SHA-256 of each generated block against the hash recorded when it was last confirmed pasted, and reports `NEVER PASTED`, `NEEDS PASTE`, or `in sync`. It exits non-zero while anything is outstanding, so it works as a check in a script or a shell prompt.
+**Both commands regenerate `linkedin/` from the Markdown first** — the `script/pandoc_resume.sh linkedin` target, which needs Pandoc but not the PDF toolchain and enforces the field limits — so a status is never measured against a stale build, even when the Markdown was committed without one. The run names the blocks whose paste text changed. A block over its limit stops the command with the build's message. `--no-regenerate` compares the files exactly as they are on disk. The full `script/pandoc_resume.sh all` is still what renders the PDF, HTML, DOCX and RTF; it is not needed for LinkedIn.
 
-**`round` is the one to use when more than one block is stale.** It opens the profile once, then walks the out-of-sync blocks in order: each is put on the clipboard, named by the profile field it belongs in (`About (My Story)`, `Experience — GreatCall (2018-2020)` — read from the `title=` on the resume's own `<!-- linkedin: -->` markers), and recorded the moment you press Enter. `s` skips a block, `q` stops. **State is written after every block, not at the end**, so a round interrupted by a meeting keeps everything already pasted and the next `round` picks up the rest.
+`status` compares the SHA-256 of each regenerated block against the hash recorded when it was last confirmed pasted, and reports `NEVER PASTED`, `NEEDS PASTE`, or `in sync`. It exits non-zero while anything is outstanding — which is how an agent resuming a session knows to list **LinkedIn paste due** as a low-priority owner item in the tracker.
+
+**`round` is the one to use.** It opens the profile once, then walks the out-of-sync blocks in order: each is put on the clipboard, named by the profile field it belongs in (`About (My Story)`, `Experience — GreatCall (2018-2020)` — read from the `title=` on the resume's own `<!-- linkedin: -->` markers), and **recorded when you press Enter** at `pasted?` (`y` works too). `s` or `n` skips a block, `q` stops, and any other answer asks again — a typo is never recorded as a paste. **State is written after every block, not at the end**, so a round interrupted by a meeting keeps everything already pasted and the next `round` picks up the rest.
 
 For a single block, the two-command form is still there:
 
 ```bash
-script/linkedin-sync.py copy about --open   # clipboard + open the profile
+script/linkedin-sync.py copy about --open   # regenerate, clipboard, open the profile
 #   ... paste into LinkedIn, save ...
-script/linkedin-sync.py done about          # record it
+script/linkedin-sync.py done about          # record it — done does not regenerate; it records what you copied
 ```
 
 Two things about the paste itself:
@@ -85,7 +87,7 @@ Two things about the paste itself:
 - **Select all in the LinkedIn field before pasting.** LinkedIn appends to whatever is in the box rather than replacing it, and a doubled About section is over the limit and reads badly.
 - **LinkedIn's own counter should agree with ours.** If it says you are over, something has gone wrong in the conversion; check `linkedin/README.md` for the block's recorded length rather than trimming blind.
 
-Finish by committing `linkedin/paste-state.json`. An uncommitted paste record is the one thing that makes the next round start from "did I do this?".
+Commit `linkedin/*.txt` and `linkedin/paste-state.json` whenever you choose. An uncommitted paste record is the one thing that makes the next round start from "did I do this?".
 
 ### When `status` disagrees with reality
 

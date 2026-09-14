@@ -7,10 +7,11 @@ or agent finds by looking at the repo, without needing to know a skill exists.
 
 Python rather than bash, to match the tool it launches.
 
-    python3 script/linkedin-sync.py status
-    python3 script/linkedin-sync.py round            # guided pass over every stale block
+    python3 script/linkedin-sync.py status           # regenerate blocks from the Markdown, then what is stale
+    python3 script/linkedin-sync.py round            # regenerate, then guided pass; Enter confirms each paste
     python3 script/linkedin-sync.py copy <block> [--open]
     python3 script/linkedin-sync.py done <block> | --all
+    python3 script/linkedin-sync.py --no-regenerate status   # compare the files exactly as on disk
 
 This tool touches no secrets and makes no network requests. Credential handling
 for the unbuilt announce-post workflow was archived out of the working set; see

@@ -19,10 +19,10 @@ Quote the workflow page's reasoning and offer the paste round instead. Do not bu
 
 ## The shape of the task
 
-1. **Rebuild first.** `script/pandoc_resume.sh all` regenerates `linkedin/` and fails if a block is over its field limit.
-2. **Ask what is outstanding.** `script/linkedin-sync.py status` — compares each block against the hash recorded when it was last confirmed pasted. Non-zero exit while anything is outstanding.
-3. **Offer `round` when more than one block is stale.** `script/linkedin-sync.py round` walks every out-of-sync block in one pass — clipboard, the profile field it belongs in, record on confirm — and writes state after each, so an interrupted round loses nothing. For a single block, `copy <slug> --open` then `done <slug>`. The owner does the pasting; an agent never drives the browser.
-4. **Commit `linkedin/paste-state.json`.** An uncommitted paste record is what makes the next round start from "did I already do this?".
+1. **A resume edit needs no LinkedIn step.** The owner edits `markdown/` and commits as they go. Pasting is a separate, low-priority owner step, taken whenever the owner chooses.
+2. **Ask what is outstanding.** `script/linkedin-sync.py status` first regenerates the blocks from the Markdown (the build's `linkedin` target — Pandoc only, no PDF toolchain — which also enforces the field limits), names any block whose paste text changed, then compares each against the hash recorded when it was last confirmed pasted. It exits non-zero while anything is outstanding. **An agent that sees a non-zero exit records "LinkedIn paste due" as a low-priority owner item in the tracker** — it does not ask for an immediate paste.
+3. **The owner runs `round`.** `script/linkedin-sync.py round` regenerates, then walks every out-of-sync block — clipboard, the profile field it belongs in — and records each one when the owner **presses Enter** (`y` also confirms; `s` or `n` skips; `q` stops; anything else asks again), writing state after every block. `git diff -- linkedin/` shows the paste text that changed. For a single block, `copy <slug> --open` then `done <slug>`; `done` never regenerates, because it records what was copied. The owner does the pasting; an agent never drives the browser.
+4. **The owner commits `linkedin/*.txt` and `linkedin/paste-state.json` whenever they choose** — with a resume change or on their own. An uncommitted paste record is what makes the next round start from "did I already do this?".
 5. **Hand off.** Agents do not commit — see the root [`AGENTS.md`](../../../AGENTS.md).
 
 ## Tools in this folder

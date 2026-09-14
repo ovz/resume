@@ -59,4 +59,4 @@ So the message carries **no scratch paths, no scope slug, no tracker item ID, no
 
 ## Handover
 
-Record the handover in `tasks/assignment_tracker.md` — which commit files are ready, in what order, and anything the owner has to decide before landing them — and let the chat response point at the tracker rather than repeat it (SKILL.md § *The tracker*). Do not stage on the owner's behalf unless asked, and never commit. The owner decides whether to use the message verbatim, edit it, or split the commit.
+Record the handover in `tasks/assignment_tracker.md` as **owner assignments** — one row per commit file, in landing order, with anything the owner has to decide first — and let the chat response point at the tracker rather than repeat it (SKILL.md § *The tracker*). The row stays until `git log` shows the commit landed; see SKILL.md § *Commit files are owner assignments*. Do not stage on the owner's behalf unless asked, and never commit. The owner decides whether to use the message verbatim, edit it, or split the commit.

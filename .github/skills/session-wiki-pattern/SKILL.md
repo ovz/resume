@@ -156,9 +156,27 @@ Specialists MUST capture verbatim output to `raw/<YYYYMMDD>_<desc>.txt` before s
 
 A tracker that a cold session can act on carries four things beyond the item list: **the assignment as stated** (and where the verbatim capture of it lives), **the state of the working tree** — what is changed, what is uncommitted, what is prepared in `commits/` — **what is blocked on a human decision**, and **what a fresh session should read first**. Everything else is optional.
 
-**Compact a closed item as soon as it reaches a terminal status** — one to three lines: the disposition, and an evidence pointer (a path, a test name and count, or a citation to the log chunk or findings page carrying the full narrative). Do not restate a narrative that already lives somewhere citable; cite it.
+### Done items leave the tracker
 
-Do this **incrementally, as each item closes**, never as a periodic big-bang rewrite. A rewrite touching every item at once is exactly the edit that gets interrupted or partially applied, and the drift is hard to notice afterwards because the decision gets logged as complete before the write is verified. Compacting one item in the same edit that closes it has nothing to lose if interrupted.
+**Move an item out as soon as it reaches a terminal status** — done, obsolete or superseded — into a done-batch file, `tasks/done/<YYYY-MM-DD>-<letter>-<slug>.md`: one to three lines per item, the disposition and an evidence pointer (a path, a commit hash, a test name and count, or a citation to the log chunk or findings page carrying the narrative). Do not restate a narrative that already lives somewhere citable; cite it.
+
+The tracker keeps a `## Done batches` section: **one line per batch file, newest first, at most twenty.** When a twenty-first arrives, move the oldest line into `tasks/done/index.md`, the complete list, so the tracker always shows the twenty most recent.
+
+Do this **incrementally, as each item closes** — append to the current batch in the same edit that removes the row — never as a periodic big-bang rewrite. A rewrite touching every item at once is exactly the edit that gets interrupted or partially applied, and the drift is hard to notice afterwards because the decision gets logged as complete before the write is verified.
+
+### Owner items: judge whether they are still open
+
+A human's items change state outside the session: they commit, decide, or stop caring. **On every resume, before new work, re-judge each owner item against cheap evidence**, and move the ones that are done or obsolete into a done batch with the evidence that decided it.
+
+- `git log --oneline --since=<tracker date>` for what landed; `git show --stat <hash>` only for commits whose subject looks relevant. That is usually a few hundred tokens for a week of history.
+- `git status --short` and `git diff --cached --stat` for what is still pending, and whether anything is half-staged.
+- Whatever cheap status command the host repo offers for the item's subject.
+
+This is judgement, not pattern-matching: a commit touching the right file does not prove the decision behind it was made. When the evidence is ambiguous, leave the item open and note what would settle it. Never drop an owner item without a done-batch line saying why.
+
+### Commit files are owner assignments
+
+Every file in `session-wiki/commits/` appears in the tracker as an owner item — "land commit NNN", with its review guidance — until `git log` shows it landed. A partial landing is recorded as partial, naming what is still outstanding.
 
 When the tracker accumulates enough terminal items to dominate a resume read, rotate a generation: [`scaling-up.md`](scaling-up.md).
 

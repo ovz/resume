@@ -12,8 +12,8 @@ SHA-256 of each block's text as of the last time you confirmed pasting it. A
 block whose current text hashes differently is out of sync with the profile,
 and it stays reported as out of sync across commits, reboots and machines.
 
-    linkedin-sync status              what is out of sync
-    linkedin-sync round               guided paste round: every stale block, in order
+    linkedin-sync status              regenerate, then what is out of sync
+    linkedin-sync round               regenerate, then guided paste round; Enter confirms
     linkedin-sync copy about          put one block on the clipboard
     linkedin-sync done about          record that it reached the profile
     linkedin-sync done --all          record every block as pasted
@@ -22,6 +22,14 @@ and it stays reported as out of sync across commits, reboots and machines.
 each block in turn, names the profile field it belongs in, and records it the
 moment you confirm -- so an interrupted round keeps everything already pasted
 and picks up where it stopped.
+
+Every command except `done` first **regenerates the blocks from the resume
+Markdown** (the `script/pandoc_resume.sh linkedin` target), so nothing is ever
+compared against a stale build -- the Markdown can be edited and committed
+freely, and the paste text catches up the moment anyone asks. The run names
+the blocks whose text changed; `git diff -- linkedin/` shows the new text.
+`done` does not regenerate, because it records the text that was copied.
+Pass `--no-regenerate` to compare the files exactly as they are on disk.
 
 This tool touches no secrets and makes no network requests, which is why the
 paste round works anywhere with a clipboard and needs no setup at all.
@@ -40,6 +48,9 @@ from datetime import date
 from pathlib import Path
 
 STATE_NAME = "paste-state.json"
+PASTED = {"", "y", "yes"}
+SKIP = {"s", "skip", "n", "no"}
+STOP = {"q", "quit"}
 PROFILE_KEY = "oleg_linkedin"
 
 
@@ -110,6 +121,47 @@ def profile_url(root: Path) -> str | None:
         return None
     m = re.search(rf"^\[{PROFILE_KEY}\]:\s*(\S+)", links.read_text(encoding="utf-8"), re.M)
     return m.group(1) if m else None
+
+
+def regenerate(root: Path, linkedin_dir: Path) -> bool:
+    """Rebuild the blocks from the resume Markdown before comparing anything.
+
+    Without this, `status` measures the profile against whatever the last full
+    build left on disk: a My Story edit committed without a rebuild would read
+    as "in sync" while the profile is out of date. The build's `linkedin`
+    target is the only producer of these files, so it is called rather than
+    reimplemented; where it does not exist (the skill copied into a repo
+    without that build), the files are compared as they are.
+    """
+    build = root / "script" / "pandoc_resume.sh"
+    if linkedin_dir.resolve() != (root / "linkedin").resolve():
+        print(f"note: comparing {linkedin_dir} as it is; only <repo>/linkedin is regenerated.\n")
+        return True
+    if not build.is_file():
+        print("note: no script/pandoc_resume.sh; comparing the blocks as they are on disk.\n")
+        return True
+
+    before = {slug: digest(text) for slug, text in blocks(linkedin_dir).items()}
+    proc = subprocess.run([str(build), "linkedin"], cwd=root, capture_output=True, text=True)
+    if proc.returncode != 0:
+        sys.stderr.write((proc.stdout + proc.stderr)[-4000:])
+        print(
+            "\nerror: regenerating the LinkedIn blocks failed (output above) -- most often a"
+            " block over its field limit. Fix the Markdown; nothing was compared.",
+            file=sys.stderr,
+        )
+        return False
+    after = {slug: digest(text) for slug, text in blocks(linkedin_dir).items()}
+
+    changed = sorted(slug for slug in after if before.get(slug) != after[slug])
+    removed = sorted(slug for slug in before if slug not in after)
+    if changed or removed:
+        names = changed + [f"{slug} (removed)" for slug in removed]
+        print("Regenerated from the resume Markdown. Paste text changed: " + ", ".join(names))
+        print("    git diff -- linkedin/    # review it; commit it whenever you choose\n")
+    else:
+        print("Regenerated from the resume Markdown. No paste text changed.\n")
+    return True
 
 
 def rows(linkedin_dir: Path, state: dict) -> list[tuple[str, str, str, int]]:
@@ -220,7 +272,7 @@ def cmd_round(args, root: Path, linkedin_dir: Path, state_path: Path) -> int:
     titles = field_titles(root)
     url = profile_url(root)
 
-    print(f"{len(stale)} block(s) to paste. Enter = pasted · s = skip · q = stop\n")
+    print(f"{len(stale)} block(s) to paste. Enter or y = pasted · s or n = skip · q = stop\n")
     if url:
         print(f"Profile: {url}")
         if not args.no_open and shutil.which("xdg-open"):
@@ -240,15 +292,21 @@ def cmd_round(args, root: Path, linkedin_dir: Path, state_path: Path) -> int:
         where = titles.get(slug, slug)
         print(f"[{n}/{len(stale)}] {where}")
         print(f"          on the clipboard, {len(body)} characters")
-        try:
-            answer = input("          pasted? ").strip().lower()
-        except (EOFError, KeyboardInterrupt):
-            print("\nstopped.")
-            break
-        if answer.startswith("q"):
+        # Enter is the confirmation. Only an explicit answer counts: a stray
+        # "n" or a typo must never be recorded as a paste that did not happen.
+        while True:
+            try:
+                answer = input("          pasted? ").strip().lower()
+            except (EOFError, KeyboardInterrupt):
+                answer = "q"
+                print()
+            if answer in PASTED | SKIP | STOP:
+                break
+            print("          Enter or y = pasted · s or n = skip · q = stop")
+        if answer in STOP:
             print("stopped.")
             break
-        if answer.startswith("s"):
+        if answer in SKIP:
             skipped += 1
             print("          skipped\n")
             continue
@@ -268,7 +326,8 @@ def cmd_round(args, root: Path, linkedin_dir: Path, state_path: Path) -> int:
     remaining = len(stale) - pasted - skipped
     print(f"{pasted} pasted, {skipped} skipped, {remaining} not reached.")
     if pasted:
-        print(f"\nCommit {state_path.name} — that is what makes the record survive a fresh clone.")
+        print(f"\nCommit {state_path.name} and the blocks in linkedin/ whenever you choose —")
+        print("the committed record is what survives a fresh clone.")
     if skipped or remaining:
         print("Run `linkedin-sync round` again to finish.")
     return 0
@@ -318,6 +377,11 @@ def main() -> int:
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
+        "--no-regenerate",
+        action="store_true",
+        help="compare the blocks as they are on disk instead of rebuilding them first",
+    )
+    parser.add_argument(
         "--linkedin-dir",
         type=Path,
         default=root / "linkedin",
@@ -344,6 +408,10 @@ def main() -> int:
 
     args = parser.parse_args()
     linkedin_dir = args.linkedin_dir
+    # `done` records what was copied, so it must not rebuild underneath it.
+    if args.command in ("status", "round", "copy") and not args.no_regenerate:
+        if not regenerate(root, linkedin_dir):
+            return 2
     if not linkedin_dir.is_dir():
         print(f"error: no {linkedin_dir}. Run: script/pandoc_resume.sh linkedin", file=sys.stderr)
         return 1
