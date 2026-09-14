@@ -111,7 +111,10 @@ resume-worthy: yes                      # or maybe / no
 - YYYY-MM-DD: created
 ```
 
-Optional sections are welcome when the input supplies them: dated sub-sections for multi-episode work, `## Evidence limitations` where the source does not support a claim, and any alternate renderings the owner wrote.
+Optional sections are welcome when the input supplies them: dated sub-sections for multi-episode work, and any alternate renderings the owner wrote. Two more are **expected wherever there is anything to say**, because they are what makes later prominence decisions possible:
+
+- `## Evidence limitations` — which parts of the entry rest on the owner's own statement rather than on an artifact. Say it plainly; an entry that names its weakest point is *more* usable outward, because the outward version can then be drawn exactly at the line the evidence reaches.
+- `## What was blocked, cut short, or wrong` — work proposed and refused, built and stopped, or a negative result reached and acted on. The owner's standing position is that these are part of the record and part of the win: the lesson from a blocker, including the ones not overcome, is tellable. See [voice and prominence](voice-and-prominence.md) § *Blocked, frozen, and never shipped*.
 
 **Dropping is capture only.** Do not edit the resume, `accomplishments-by-domain.md`, or any other wiki page during a drop. No index update is needed. An entry is *not yet ingested* while it is present in `raw/brag/` and absent from the ledger.
 
@@ -168,3 +171,4 @@ Once an entry's substance is told in a story, it graduates: a `storied:` propert
 - [Accomplishments by domain](../concepts/accomplishments-by-domain.md) — the landing page for ingested entries.
 - [Brag ledger](../sources/brag-ledger.md) — ingest and promotion state.
 - [Sensitivity tiers](sensitivity-tiers.md) — the tag definitions and the policy this workflow refines.
+- [Voice and prominence](voice-and-prominence.md) — why an entry records its own limitations, and how support decides prominence later.

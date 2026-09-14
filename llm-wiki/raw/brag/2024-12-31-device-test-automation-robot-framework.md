@@ -1,8 +1,9 @@
 ---
-title: "Unblocked device test automation across MQTT, OAuth and staging environments, and mentored the engineer who was stuck"
+title: "Turned a top-down test-automation mandate into a mentorship practice, and unblocked the automation nobody could get to pass"
 date: "2024-07 to 2025-01"
 thread: QA
 domains:
+  - "leadership, management, hiring"
   - "quality and test automation"
   - "cloud and distributed systems"
   - "AI-assisted engineering (since 2023)"
@@ -11,7 +12,7 @@ sensitivity: private-repo
 resume-worthy: maybe
 ---
 
-# Unblocked device test automation across MQTT, OAuth and staging environments, and mentored the engineer who was stuck
+# Turned a top-down test-automation mandate into a mentorship practice, and unblocked the automation nobody could get to pass
 
 ## What I did
 
@@ -31,8 +32,26 @@ I worked the hard, unglamorous end of the wearable automation suite — the test
 
 **Pushed automation of the automation.** I proposed configuring CI so an AI coding agent could actually open pull requests against the automation repository — treating the agent as a contributor with a route to land work, rather than a suggestion box — and used AI assistants as an explicit investigative tool during the token work.
 
+## What this was really about — the owner's framing, added 2026-09-13
+
+The technical content above is accurate and it is **not** where the value of this period sits. Set straight, in my own terms:
+
+**Robot Framework was not a growth item.** I mastered it in a couple of days. For an engineer with my experience that is far below what a development goal should be — I said so at the time, recording that the goal was applicable to the work but lacked a challenge, and that the genuinely challenging alternatives were innovation with SDKs or becoming an embedded Rust expert. I also wanted other team members to take over the Robot expert role, and I was learning to encourage that rather than to absorb it.
+
+**The mandate came top-down.** Test automation was not a bet the team placed; it was an instruction, and it arrived with the usual accompaniment — an attempt to make **unit-test coverage an externally observable metric, with increasing coverage as the goal**. I pushed back hard on that, on one specific ground: it takes unit tests out of my toolbox. A number someone else watches stops being an engineering instrument and becomes a thing to satisfy, and I will not give up a tool I rely on to feed a dashboard.
+
+**My own records are the real task tracker.** The employer's issue tracker is shaped by mandates rather than by the work, which is why the durable account of what I actually did in this period lives in my own boards. That is a statement about the tooling, not about the people.
+
+**So I converted the mandate into the growth item it would not otherwise have been: mentorship.** With Robot Framework I found a way to grow as a mentor of junior engineers and QA engineers, and I worked out the tradeoff deliberately — what I build myself, what I guide others to do, and what I guide them *not* to do. I introduced them to **pull-request discipline**, which outlives any framework. The two failure modes I was working with were different and both real:
+
+- Some QA engineers were **not interested**, but had to comply with the mandate. Guidance there is about making compliance produce something worth having.
+- Some **genuinely lacked experience**, and the mandate gave them no room for it. This is the part I mind: curiosity followed at an early age is what made engineers like me who we are, and a compliance schedule leaves no time to channel it. You cannot mentor someone into experience they were never given time to acquire.
+
+**On AI and mentorship, since it is the obvious question now.** Modern AI coding makes mentorship considerably less challenging — much of what used to need a person now needs a prompt. But inexperienced people do not master *building good software* through prompts in a few days. **Prompt engineering is easy to learn and easy to master; software is far more multi-dimensional.** That asymmetry is exactly why the mentoring problem did not go away, it moved.
+
 ## Why it matters
 
+- **The transferable accomplishment is the mentorship, not the framework.** A top-down mandate with a bad metric attached is the ordinary condition of senior engineering inside a large organization, and the useful skill is converting it into something that develops people — while refusing the part of it that would degrade your own practice. Both halves happened here.
 - **Distinguishing a broken test from a broken environment is the core skill in test automation**, and getting it wrong produces a suite nobody trusts. The MQTT conclusion — that the connection path was too unreliable to test through — prevented exactly that.
 - **The proposed redesign tests the real property** (do the brokers exist and work in staging, then do devices work with them) rather than the property that happened to be easy to assert.
 - **It is mentoring in the useful form:** reproducing a colleague's blocker, finding both the shallow and the deep cause, and returning guiding questions rather than a verdict.
@@ -41,7 +60,18 @@ I worked the hard, unglamorous end of the wearable automation suite — the test
 
 ## Skills demonstrated
 
-Robot Framework and keyword-driven test automation; MQTT and message-broker behaviour; OAuth 2.0 bearer tokens and authorization flows; staging-environment debugging; distinguishing environmental from functional failure; peer mentoring and diagnostic handover; CI configuration for AI coding agents; test-suite code quality.
+Mentoring junior engineers and QA under a compliance mandate; pull-request discipline as a taught practice; deciding what to build versus what to guide; pushing back on a metric that would degrade engineering practice; Robot Framework and keyword-driven test automation; MQTT and message-broker behaviour; OAuth 2.0 bearer tokens and authorization flows; staging-environment debugging; distinguishing environmental from functional failure; peer mentoring and diagnostic handover; CI configuration for AI coding agents; test-suite code quality.
+
+## What was blocked, cut short, or wrong
+
+- **The development goal itself was weak, and I knew it at the time.** Robot Framework took days to master; the challenging alternatives I named — SDK innovation, embedded Rust — were not what the mandate wanted. This period is an example of making something worthwhile out of an assignment that was not aimed at my growth.
+- **The push to make unit-test coverage an externally observed metric** was resisted rather than defeated on the record; what I can show is the argument I made and why.
+- **The mandate's schedule was the real constraint on the inexperienced engineers**, and I could not change it. I could only choose what to build myself and what to guide them through.
+- **Some of the people were complying rather than curious**, which limits how far mentorship can go regardless of how it is done.
+
+## Evidence limitations
+
+The technical detail is fully documented in the owner's own board. The mentorship framing, the coverage-metric pushback and the reasoning about curiosity are the owner's account, recorded 2026-09-13 — contemporaneous notes exist for the weak-development-goal judgement and for the intent to hand the Robot expert role to others, but not for the coverage-metric exchange as a discrete event.
 
 ## Evidence
 
@@ -52,7 +82,10 @@ Trello device-programme board, *R5.5 Automation* list (15 cards), 2024-07 throug
 - [2022-02-18 C++ safety-critical embedded guidelines](2022-02-18-cpp-safety-critical-embedded-guidelines.md) — the earlier engineering-standards work in the same programme.
 - [2026-05-26 AI adoption and agentic engineering](2026-05-26-ai-adoption-agentic-engineering-choreographer.md) — where the AI-agent-as-contributor thinking developed further.
 - [2025-05-01 R5 device-specific failure investigations](2025-05-01-r5-device-specific-failure-investigations.md) — the same diagnostic approach applied to fleet failures.
+- [2025-05-23 mentorship toward Principal](2025-05-23-mentorship-principal-engineer-goal.md) — being mentored, in the same period as mentoring; the two are one practice seen from both ends.
+- [2021-06-29 engineering excellency and meeting facilitation](2021-06-29-engineering-excellency-and-meeting-facilitation.md) — the earlier instance of refusing a process that would decay engineering quality, argued systemically rather than personally.
 
 ## Record history
 
 - 2026-09-10: created from the Trello device-programme board during the full board ingest.
+- 2026-09-13: reframed at the owner's direction. The headline now leads with the mentorship practice rather than the framework; added *What this was really about* (weak development goal, top-down mandate, the unit-test-coverage metric pushback, the build-versus-guide tradeoff, pull-request discipline, the two kinds of unready mentee, and prompt engineering versus software judgement), plus *What was blocked* and *Evidence limitations*. Domains gained leadership. Re-ingested the same day.

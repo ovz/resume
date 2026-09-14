@@ -10,9 +10,32 @@ What an agent does instead:
 
 1. Leave the work in the working tree, unstaged or staged, and say what changed and why.
 2. Write the **proposed commit message** into the session-wiki scratch scope, never into a tracked file and never into the repo. The `session-wiki-pattern` skill owns that scope's layout; commit messages belong alongside its other session artifacts, under a `commits/` directory in the session-wiki. One file per proposed commit, each naming the exact paths it covers.
-3. Hand off: point the owner at the changed paths and at the prepared message. The owner reviews, edits the message if needed, and commits.
+3. Hand off **through the tracker** — see the next section. The owner reviews, edits the message if needed, and commits.
 
 `git status`, `git diff`, `git log`, `git show` and other read-only inspection are always fine. So is `git stash` when protecting uncommitted work from a destructive operation.
+
+## Uncommitted work is the only thing git cannot give back
+
+Everything in this repository is reviewed before it lands, which means the working tree routinely holds hours of work that exists nowhere else. Two rules follow, and both are about the asymmetry rather than the odds:
+
+- **Before overwriting any region of a file that has uncommitted changes, secure a copy.** `git stash` is sanctioned for exactly this; a copy in the session scratch scope works too. Prefer a section-scoped edit to a whole-file write when the file holds in-flight work — restoring one section is recoverable, rewriting a file is not. Verify a restore by equality against the snapshot, never by eye.
+- **When an answer could mean two things and one reading destroys work, ask.** "Rewrite it" and "add to it" are the same three words. The cost of asking is one turn; the cost of guessing wrong is unbounded, so the asymmetry decides it and not the probability.
+
+## Hand-offs go in the assignment tracker, never in the chat response
+
+**Anything the owner has to do, decide, verify, or answer is written into the session-wiki's `tasks/assignment_tracker.md`, under an `## Open for the owner` heading, at the moment it is discovered.** Not at the end of the session, and not into the chat.
+
+The chat response says *that* there are open items and where they live. It does not restate them.
+
+Why the rule is absolute:
+
+- **A chat response is not durable.** It disappears with the session, it is not on disk, it cannot be reopened in the editor, and a fresh session cannot read it. An item that exists only in a chat message is an item that will be lost — silently, because nothing reports it missing.
+- **The tracker is the resume token.** It is the first thing any session reads. Putting the owner's items anywhere else guarantees the next agent does not know they are outstanding.
+- **The owner works from one list.** Two lists — one in the tracker, one scrolled past in a terminal — is worse than either alone, because neither is trustworthy.
+
+A response that ends with a list of things for the owner to do is a defect, even when the list is correct. The correct ending points at the tracker.
+
+If work is under way and no scope exists yet, that is the signal to create one (`session-wiki-pattern` skill), not a licence to hand off in chat.
 
 ## Where the rules live
 

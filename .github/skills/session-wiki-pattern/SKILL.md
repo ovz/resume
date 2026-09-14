@@ -152,6 +152,10 @@ Specialists MUST capture verbatim output to `raw/<YYYYMMDD>_<desc>.txt` before s
 
 `tasks/assignment_tracker.md` carries open items, status, dependencies and evidence pointers. It is read first on every resume, so it earns its size or loses it.
 
+**It is also where hand-offs to the human live.** Anything the user has to do, decide, verify or answer goes under an `## Open for the owner` heading (name it for whoever the human is) **at the moment it is discovered**, not at the end of the session — and never only in a chat response, which is not on disk, cannot be reopened, and is invisible to the next session. The reply says that the tracker has open items; the tracker holds them. Where the host repo states this rule itself, that statement governs.
+
+A tracker that a cold session can act on carries four things beyond the item list: **the assignment as stated** (and where the verbatim capture of it lives), **the state of the working tree** — what is changed, what is uncommitted, what is prepared in `commits/` — **what is blocked on a human decision**, and **what a fresh session should read first**. Everything else is optional.
+
 **Compact a closed item as soon as it reaches a terminal status** — one to three lines: the disposition, and an evidence pointer (a path, a test name and count, or a citation to the log chunk or findings page carrying the full narrative). Do not restate a narrative that already lives somewhere citable; cite it.
 
 Do this **incrementally, as each item closes**, never as a periodic big-bang rewrite. A rewrite touching every item at once is exactly the edit that gets interrupted or partially applied, and the drift is hard to notice afterwards because the decision gets logged as complete before the write is verified. Compacting one item in the same edit that closes it has nothing to lose if interrupted.

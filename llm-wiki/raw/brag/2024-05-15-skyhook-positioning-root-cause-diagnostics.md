@@ -8,6 +8,8 @@ domains:
 context: "Best Buy Health, embedded device positioning subsystem (third-party GNSS/Wi-Fi positioning library)"
 sensitivity: private-repo
 resume-worthy: maybe
+storied:
+  - "positioning/the-fault-that-lost-the-fix"
 ---
 
 # Root-caused a recurring positioning-library failure via telemetry log correlation
@@ -36,3 +38,4 @@ Internal chat threads and observability-platform log queries (January and May 20
 
 - 2026-09-07: created
 - 2026-09-08: added *Related* link to the 2025-11-15 location-engine entry
+- 2026-09-13: graduated into story `positioning/the-fault-that-lost-the-fix`; `storied` property added, body untouched.

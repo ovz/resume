@@ -8,6 +8,8 @@ domains:
 context: "Best Buy Health, R5 senior-care wearable, product and system architecture"
 sensitivity: private-repo
 resume-worthy: yes
+storied:
+  - "positioning/power-budget-non-issue"
 ---
 
 # Framed the next-generation wearable's architecture as an explicit battery-versus-hardware budget, and set the product direction from it
@@ -66,3 +68,4 @@ Trello device-programme board, *R5 Vision*, *R5 Trade Offs*, *R5 Strategic direc
 ## Record history
 
 - 2026-09-10: created from the Trello device-programme board during the full board ingest.
+- 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.

@@ -9,6 +9,8 @@ domains:
 context: "GreatCall / Best Buy Health — Lively Mobile+ and Lively Mobile 2, Qualcomm MDM-class modem SoCs"
 sensitivity: private-repo
 resume-worthy: yes
+storied:
+  - "positioning/power-budget-non-issue"
 ---
 
 # Battery and power management as a second specialization, interlocked with positioning
@@ -68,3 +70,4 @@ The owner's own device-programme board carries the power-budget list, the trade-
 ## Record history
 
 - 2026-09-13: created from the owner's direct statement of 2026-09-13, grounded the same day in the committed Trello snapshots. Filed at the start of the documented range, per the convention for a standing practice.
+- 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.

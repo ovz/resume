@@ -19,7 +19,7 @@
 
 What *is* available and worth having: a **post** announcing the update, published through the self-serve `w_member_social` scope. That is a genuinely supported API call, and it is the only write this repo can legitimately make.
 
-So the working arrangement is: the build renders the blocks, and [paste assist](#the-paste-round) makes moving them a two-command loop that *records that it happened*. The announce post is [an option that was researched and not built](#if-the-announce-post-is-ever-wanted).
+So the working arrangement is: the build renders the blocks, and [paste assist](#the-paste-round) makes moving them a single guided pass that *records that it happened*. The announce post is [an option that was researched and not built](#if-the-announce-post-is-ever-wanted).
 
 ## Why the Profile Edit API is closed
 
@@ -60,16 +60,19 @@ It does have one honest use here. If [the announce post](#if-the-announce-post-i
 
 ## The paste round
 
-The routine after any resume change. Two commands per field, and the loop is resumable — the record of what has been pasted lives in `linkedin/paste-state.json`, which is committed, so it survives a commit, a reboot, and a fresh clone.
+The routine after any resume change. The loop is resumable — the record of what has been pasted lives in `linkedin/paste-state.json`, which is committed, so it survives a commit, a reboot, and a fresh clone.
 
 ```bash
 script/pandoc_resume.sh all          # rebuild; regenerates linkedin/ and enforces the budgets
 script/linkedin-sync.py status       # what is out of sync with the profile
+script/linkedin-sync.py round        # then paste them all in one guided pass
 ```
 
 `status` compares the SHA-256 of each generated block against the hash recorded when it was last confirmed pasted, and reports `NEVER PASTED`, `NEEDS PASTE`, or `in sync`. It exits non-zero while anything is outstanding, so it works as a check in a script or a shell prompt.
 
-Then, for each block it names:
+**`round` is the one to use when more than one block is stale.** It opens the profile once, then walks the out-of-sync blocks in order: each is put on the clipboard, named by the profile field it belongs in (`About (My Story)`, `Experience — GreatCall (2018-2020)` — read from the `title=` on the resume's own `<!-- linkedin: -->` markers), and recorded the moment you press Enter. `s` skips a block, `q` stops. **State is written after every block, not at the end**, so a round interrupted by a meeting keeps everything already pasted and the next `round` picks up the rest.
+
+For a single block, the two-command form is still there:
 
 ```bash
 script/linkedin-sync.py copy about --open   # clipboard + open the profile

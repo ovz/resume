@@ -3,6 +3,8 @@
 > **Doc type:** how-to
 >
 > How brag entries graduate into told-able **stories**, how the Obsidian vault shows each stage, and how to pull a reading list before an interview, a networking event or a conversation with an employer. Audience: the owner preparing to talk about his work; agents asked to write a story or produce a reading list. Capture and ingest, which this builds on, are [brag-file.md](brag-file.md).
+>
+> **Read [voice and prominence](voice-and-prominence.md) first.** This page owns a story's *structure*; that one owns its *voice* — which era register it is told in, how loudly its claim may be made, and how to handle work that was blocked or never shipped. A story that follows the six beats below in the wrong register, or that overclaims, is worse than no story.
 
 ## Three stages, and where each shows
 
@@ -40,6 +42,7 @@ Everything between the beats is **detail**, and detail is droppable *by design*.
 
 ### Writing the narrative
 
+- **Pick the era register before the first line.** The 1997 cryptographer and the 2026 architecture owner do not sound alike, and should not — [voice and prominence](voice-and-prominence.md) § *The registers, era by era*.
 - **Say every line out loud as you write it.** If it cannot be said in one breath, it is two lines or it is cut.
 - **Every phrase does one of three jobs**: spark interest, deliver a punchline, or set one of those up. A line that only informs is detail — mark it optional or delete it.
 - **Short declaratives project confidence.** Explaining why something mattered twice projects the opposite.
@@ -168,6 +171,7 @@ A reading list is the three to seven stories worth rereading before one conversa
 
 ## Related
 
+- [Voice and prominence](voice-and-prominence.md) — the register to tell it in, the prominence it earns, and how to answer what happened to work that stopped.
 - [Brag file workflow](brag-file.md) — capture and ingest, the stages before this.
 - [Story map](../stories/story-map.md) — every cluster and its hub.
 - [Obsidian vault](obsidian-vault.md) — the graph filter, colours and properties.

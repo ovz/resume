@@ -13,9 +13,15 @@ block whose current text hashes differently is out of sync with the profile,
 and it stays reported as out of sync across commits, reboots and machines.
 
     linkedin-sync status              what is out of sync
+    linkedin-sync round               guided paste round: every stale block, in order
     linkedin-sync copy about          put one block on the clipboard
     linkedin-sync done about          record that it reached the profile
     linkedin-sync done --all          record every block as pasted
+
+`round` is the one to reach for when more than one block is stale. It copies
+each block in turn, names the profile field it belongs in, and records it the
+moment you confirm -- so an interrupted round keeps everything already pasted
+and picks up where it stopped.
 
 This tool touches no secrets and makes no network requests, which is why the
 paste round works anywhere with a clipboard and needs no setup at all.
@@ -44,6 +50,25 @@ def repo_root() -> Path:
         if (parent / "markdown").is_dir() and (parent / ".git").exists():
             return parent
     return Path.cwd()
+
+
+def field_titles(root: Path) -> dict[str, str]:
+    """slug -> the profile field it belongs in, read from the resume's own markers.
+
+    The Markdown carries `<!-- linkedin: <slug> limit=<n> title="..." -->`, and
+    that title is the field label a person sees on LinkedIn. Reading it here
+    keeps the field names in one place -- the document -- rather than in a
+    lookup table that would drift the first time a position is renamed.
+    """
+    titles: dict[str, str] = {}
+    md = root / "markdown"
+    if not md.is_dir():
+        return titles
+    pattern = re.compile(r'<!--\s*linkedin:\s*(?P<slug>[\w-]+)[^>]*?title="(?P<title>[^"]+)"')
+    for path in sorted(md.glob("*.md")):
+        for m in pattern.finditer(path.read_text(encoding="utf-8")):
+            titles.setdefault(m.group("slug"), m.group("title"))
+    return titles
 
 
 def blocks(linkedin_dir: Path) -> dict[str, str]:
@@ -119,7 +144,12 @@ def cmd_status(args, root: Path, linkedin_dir: Path, state_path: Path) -> int:
     if not stale:
         print("Profile matches the resume. Nothing to paste.")
         return 0
-    print(f"{len(stale)} block(s) to paste. For each:")
+    if len(stale) > 1:
+        print(f"{len(stale)} block(s) to paste. One guided pass over all of them:")
+        print("    linkedin-sync round")
+        print("\nOr one at a time:")
+    else:
+        print("1 block to paste:")
     for slug, *_ in stale:
         print(f"    linkedin-sync copy {slug}   # then paste, then: linkedin-sync done {slug}")
     # A non-zero exit makes this usable as a check in a script or a prompt hook
@@ -170,6 +200,77 @@ def cmd_copy(args, root: Path, linkedin_dir: Path, state_path: Path) -> int:
     print("Select all in the LinkedIn field before pasting — LinkedIn appends to")
     print("whatever is already there rather than replacing it.")
     print(f"Then record it:  linkedin-sync done {args.slug}")
+    return 0
+
+
+def cmd_round(args, root: Path, linkedin_dir: Path, state_path: Path) -> int:
+    """Walk every out-of-sync block: copy, say where it goes, record on confirm."""
+    state = load_state(state_path)
+    stale = [r[0] for r in rows(linkedin_dir, state) if r[1] != "in sync"]
+    if not stale:
+        print("Profile matches the resume. Nothing to paste.")
+        return 0
+
+    clip = clipboard_command()
+    if clip is None:
+        print("error: no clipboard tool found (wl-copy, xclip or xsel).", file=sys.stderr)
+        return 1
+
+    available = blocks(linkedin_dir)
+    titles = field_titles(root)
+    url = profile_url(root)
+
+    print(f"{len(stale)} block(s) to paste. Enter = pasted · s = skip · q = stop\n")
+    if url:
+        print(f"Profile: {url}")
+        if not args.no_open and shutil.which("xdg-open"):
+            subprocess.Popen(
+                ["xdg-open", url],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                start_new_session=True,
+            )
+        print()
+    print("LinkedIn appends rather than replaces: select all in the field first.\n")
+
+    pasted, skipped = 0, 0
+    for n, slug in enumerate(stale, 1):
+        body = available[slug].rstrip("\n")
+        subprocess.run(clip, input=body, text=True, check=True)
+        where = titles.get(slug, slug)
+        print(f"[{n}/{len(stale)}] {where}")
+        print(f"          on the clipboard, {len(body)} characters")
+        try:
+            answer = input("          pasted? ").strip().lower()
+        except (EOFError, KeyboardInterrupt):
+            print("\nstopped.")
+            break
+        if answer.startswith("q"):
+            print("stopped.")
+            break
+        if answer.startswith("s"):
+            skipped += 1
+            print("          skipped\n")
+            continue
+
+        # Written after every single block, not at the end: a round interrupted
+        # by a meeting must not lose what already reached the profile.
+        state = load_state(state_path)
+        state["blocks"][slug] = {
+            "sha256": digest(available[slug]),
+            "chars": len(body),
+            "pasted_at": date.today().isoformat(),
+        }
+        save_state(state_path, state)
+        pasted += 1
+        print("          recorded\n")
+
+    remaining = len(stale) - pasted - skipped
+    print(f"{pasted} pasted, {skipped} skipped, {remaining} not reached.")
+    if pasted:
+        print(f"\nCommit {state_path.name} — that is what makes the record survive a fresh clone.")
+    if skipped or remaining:
+        print("Run `linkedin-sync round` again to finish.")
     return 0
 
 
@@ -226,6 +327,11 @@ def main() -> int:
 
     sub.add_parser("status", help="show which blocks are out of sync with the profile")
 
+    p_round = sub.add_parser("round", help="guided paste round over every stale block")
+    p_round.add_argument(
+        "--no-open", action="store_true", help="do not open the profile in a browser"
+    )
+
     p_copy = sub.add_parser("copy", help="put one block on the clipboard")
     p_copy.add_argument("slug")
     p_copy.add_argument(
@@ -242,7 +348,12 @@ def main() -> int:
         print(f"error: no {linkedin_dir}. Run: script/pandoc_resume.sh linkedin", file=sys.stderr)
         return 1
 
-    handler = {"status": cmd_status, "copy": cmd_copy, "done": cmd_done}[args.command]
+    handler = {
+        "status": cmd_status,
+        "round": cmd_round,
+        "copy": cmd_copy,
+        "done": cmd_done,
+    }[args.command]
     return handler(args, root, linkedin_dir, linkedin_dir / STATE_NAME)
 
 

@@ -10,6 +10,8 @@ domains:
 context: "Best Buy Health, wearables-em-r5-core (R5 senior-care wearable), firmware/systems"
 sensitivity: private-repo
 resume-worthy: maybe
+storied:
+  - "positioning/one-engine-for-every-source"
 ---
 
 # Beacon tracking reliability, location accuracy, and battery optimization for R5 devices
@@ -54,3 +56,4 @@ Jira story describing the beacon-tracking FOTA migration; a merged pull request 
 
 - 2026-09-07: created
 - 2026-09-08: renamed from `2026-09-07-…` to `2026-09-01-…` so the filename carries the accomplishment's impact date rather than the capture date; merged a second owner write-up of the same accomplishment (corner-case/MCU reboot-fatal fixes, structured impact bullets, second PR in evidence); widened domains; added *Related* cross-links; later the same day added *Related* link to the 2025-11-15 location-engine entry
+- 2026-09-13: graduated into story `positioning/one-engine-for-every-source`; `storied` property added, body untouched.

@@ -8,7 +8,7 @@
 
 | Cluster | Hub | Stories | Reach for it when |
 |---|---|---|---|
-| Positioning, location and GPS | [positioning](positioning.md) | 4 planned, 0 written | Embedded and firmware roles; location, sensors, power; "hardest bug"; vendor and silicon partners |
+| Positioning, location and GPS | [positioning](positioning.md) | 4 planned, 3 drafted (P2, P3, P4); P1 needs capture | Embedded and firmware roles; location, sensors, power; "hardest bug"; vendor and silicon partners |
 
 ## Clusters to come
 
@@ -21,6 +21,12 @@ Seeded by the coverage threads, each of which already has entries to draw on —
 - **Regulated medical devices** — Hospital at Home (`MED`).
 - **Platform and standards** — capability framework, C++ guidelines, build and packaging (`FW`, `BLD`).
 - **Leading as an IC** — managing upward, mentorship, principal behaviours (`LEAD`).
+- **Power and the cost of running a fleet** — battery as a second specialization, and the devices that burned real money in cellular data (`PWR`, `COST`).
+- **Concurrency, and the bugs that vanish when observed** — the audio artifact never reproduced on demand, the positioning library's multithreading fault, and the 2004 daemon that taught it (`CONC`).
+
+## Reading lists
+
+A reading list for one conversation is built here or from [`stories.base`](stories.base) — see [brag stories](../workflows/brag-stories.md) § *Reading lists*. When the conversation is about a **direction** rather than a past role, start from the [dream-job hub](../dream-jobs/dream-job-hub.md) instead: each candidate page names the stories to tell for it.
 
 ## Catalogue
 

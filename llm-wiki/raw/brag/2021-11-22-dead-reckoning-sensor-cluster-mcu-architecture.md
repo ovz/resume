@@ -9,6 +9,8 @@ domains:
 context: "Best Buy Health, R5 senior-care wearable, embedded architecture and R&D"
 sensitivity: private-repo
 resume-worthy: yes
+storied:
+  - "positioning/power-budget-non-issue"
 ---
 
 # Defined the dead-reckoning and sensor-cluster architecture for the next-generation wearable, and ran the hardware evaluation behind it
@@ -61,3 +63,4 @@ Trello device-programme board, *Dead Reckoning*, *BLE Examples*, *Research for B
 ## Record history
 
 - 2026-09-10: created from the Trello device-programme board during the full board ingest.
+- 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.

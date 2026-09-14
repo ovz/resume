@@ -10,11 +10,13 @@ aliases:
 
 > **Doc type:** explanation
 >
+> Financial vocabulary used here — impairment, restructuring charge, reporting unit, comparable sales, fiscal year — is defined in the [executive language glossary](../../executive-language-glossary.md).
+>
 > What was publicly disclosed about Best Buy Health's difficulties in 2024–2026, how it lines up with the owner's own contemporaneous notes, and how to use that in an interview. Audience: the owner preparing to explain a hard period; agents writing about employment context. Tier **T1**.
 
 ## Why this page exists
 
-The owner's private notes from 2023 contain a blunt assessment: that parts of the organization had mismanaged Best Buy Health into unprofitability, that the device teams were reducing call-centre operating cost and doing good work, and that pressure was landing on the wrong people. That is recorded in [2023-05-02 performance conversation]((../../../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md).
+The owner's private notes from 2023 contain a blunt assessment: that parts of the organization had mismanaged Best Buy Health into unprofitability, that the device teams were reducing call-centre operating cost and doing good work, and that pressure was landing on the wrong people. That is recorded in [2023-05-02 performance conversation](../../../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md).
 
 At the time it was one engineer's opinion, expressed upward, with career risk attached. **It was subsequently confirmed by public financial disclosure.** This page assembles that record so the owner can point at it rather than assert it.
 
@@ -22,6 +24,7 @@ At the time it was one engineer's opinion, expressed upward, with career risk at
 
 | When | What was disclosed | Source |
 |---|---|---|
+| **Aug–Oct 2018** | Best Buy acquires GreatCall for **$800 million in cash** — more than 900,000 paying subscribers, bought from private-equity owner GTCR; widely reported at the time as its largest acquisition | [Best Buy corporate][bby-gc], [MedCity News][mcn] |
 | **Oct 2021** | Best Buy acquires Current Health for approximately **$400 million** | [healthcare.digital analysis][hcd] |
 | **Q4 FY2025** (quarter ended 1 Feb 2025) | Pretax non-cash **goodwill impairment of $475 million** on the Best Buy Health reporting unit, reflecting downward revisions to its long-term financial projections | [Healthcare Dive][hd-restr], [SEC 10-K FY2026][sec10k] |
 | **4 Mar 2025** | Disclosure contributes to a **~16% single-day share-price drop** | [healthcare.digital][hcd] |
@@ -33,13 +36,13 @@ At the time it was one engineer's opinion, expressed upward, with career risk at
 
 ## Where the owner's notes line up
 
-- **The 2023 assessment.** Roughly $780M of impairment and restructuring charges across FY2025–FY2026, plus a sale back to the founder at a fraction of the acquisition price, is the public version of "mismanaged into being unprofitable". The owner wrote that two years before the first impairment was disclosed.
+- **The 2023 assessment.** Best Buy paid $800M for GreatCall and about $400M for Current Health. Roughly $780M of [impairment](../../executive-language-glossary.md) and restructuring charges across FY2025–FY2026, plus a sale back to the founder at a fraction of the acquisition price, is the public version of "mismanaged into being unprofitable". The owner wrote that two years before the first impairment was disclosed.
 - **Which bets failed.** The restructuring specifically wound down **hospital-at-home partnerships**, not the Lively device line the owner worked on. His argument — that the teams reducing call-centre cost were performing while other bets lost the money — is borne out by which parts were cut.
 - **The May 2025 reorganization.** The owner's mentor notes record "a reorg that included some layoffs happened exactly 2 weeks ago, on May 9th" and his relief at being retained. That is the Q1 FY2026 restructuring, from the inside, in real time.
-- **The lost career path.** The owner had made Current Health his stretch goal and wrote that "the path to a Principal Engineer in Embedded Devices was clear" — immediately followed by the divestiture removing it. See [2025-05-23 mentorship]((../../../../raw/brag/2025-05-23-mentorship-principal-engineer-goal.md).
+- **The lost career path.** The owner had made Current Health his stretch goal and wrote that "the path to a Principal Engineer in Embedded Devices was clear" — immediately followed by the divestiture removing it. See [2025-05-23 mentorship](../../../../raw/brag/2025-05-23-mentorship-principal-engineer-goal.md).
 - **When the separation reached the owner.** His note of 24 Jun 2025 — "Current health was my big goal. Up to this Monday things were looking up so much!" — and of 30 Jun — "quite a Disney ride with the Current Health separation this week" — put the news in the week of the public sale. The contraction came earlier: the March impairment, the 9 May reorganization, and the 18 May slowing of "Fall Detection work and integration of R5 FD into Hospital at Home". The owner recalls an internal announcement three to six months ahead of the public one; the boards do not show it, so that stays open until another source settles it.
-- **The Hospital at Home work sits wholly inside the public window.** First Hospital at Home card 24 Sep 2024, access late January 2025, last card the week of 30 Jun 2025 — every claim about it predates the 24 Jun 2025 sale. The trust arc that got the owner the work, and the timeline, are in [2024-09-24 Current Health]((../../../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md).
-- **The FOTA crisis in context.** [2025-07-18]((../../../../raw/brag/2025-07-18-fota-vendor-escalation-lively-mobile2.md) happened in the same weeks as the divestiture and the layoffs — an inventory-critical firmware failure handled while the surrounding organization was being restructured.
+- **The Hospital at Home work sits wholly inside the public window.** First Hospital at Home card 24 Sep 2024, access late January 2025, last card the week of 30 Jun 2025 — every claim about it predates the 24 Jun 2025 sale. The trust arc that got the owner the work, and the timeline, are in [2024-09-24 Current Health](../../../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md).
+- **The FOTA crisis in context.** [2025-07-18](../../../../raw/brag/2025-07-18-fota-vendor-escalation-lively-mobile2.md) happened in the same weeks as the divestiture and the layoffs — an inventory-critical firmware failure handled while the surrounding organization was being restructured.
 
 ## Be fair about the causes
 
@@ -61,7 +64,7 @@ The temptation is to lead with vindication. Don't — it reads as grievance, and
 - **Concede the external cause.** Naming the waiver uncertainty shows the judgement to separate what an employer controlled from what it did not, which is exactly the judgement a principal-level role is being hired for.
 - **Note the recovery.** The company returned to comparable-sales growth in FY2026 and stabilized share. The difficulty was a period, not a trajectory — and the owner is still there through it.
 
-**What to avoid:** naming individuals, characterizing colleagues' performance, or repeating the promotion-competition argument. That material is real and recorded at T1 for the owner's own memory; none of it belongs in a room with an interviewer. See [sensitivity tiers]((../../../workflows/sensitivity-tiers.md) rule 8 — *capture is not disclosure*.
+**What to avoid:** naming individuals, characterizing colleagues' performance, or repeating the promotion-competition argument. That material is real and recorded at T1 for the owner's own memory; none of it belongs in a room with an interviewer. See [sensitivity tiers](../../../workflows/sensitivity-tiers.md) rule 8 — *capture is not disclosure*.
 
 ## Status of this page
 
@@ -71,11 +74,13 @@ The owner has said he expects Best Buy to come out of this period, and FY2026 su
 
 ## Related
 
-- [2023-05-02 performance conversation]((../../../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md) — the contemporaneous private assessment.
-- [2025-05-23 mentorship]((../../../../raw/brag/2025-05-23-mentorship-principal-engineer-goal.md) — the reorganization and the lost path, in real time.
-- [2024-09-24 Current Health and Hospital at Home]((../../../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md) — the regulated-device work the owner moved into.
-- [Organizations]((../../../entities/organizations.md) — employer facts.
+- [2023-05-02 performance conversation](../../../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md) — the contemporaneous private assessment.
+- [2025-05-23 mentorship](../../../../raw/brag/2025-05-23-mentorship-principal-engineer-goal.md) — the reorganization and the lost path, in real time.
+- [2024-09-24 Current Health and Hospital at Home](../../../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md) — the regulated-device work the owner moved into.
+- [Organizations](../../../entities/organizations.md) — employer facts.
 
+[bby-gc]: https://corporate.bestbuy.com/2018/best-buy-acquires-greatcall-a-leading-connected-health-services-provider/
+[mcn]: https://medcitynews.com/2018/08/best-buy-greatcall-gtcr/
 [hcd]: https://www.healthcare.digital/single-post/clinical-ambitions-and-retail-realities-analysis-of-best-buy-s-acquisition-and-divestiture-of-curre
 [hd-restr]: https://www.healthcaredive.com/news/best-buy-health-109-million-restructuring-charges/749368/
 [hd-div]: https://www.healthcaredive.com/news/best-buy-sells-current-health-home-care-christopher-mcghee/751645/

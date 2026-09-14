@@ -14,10 +14,11 @@ Start at [`index.md`](index.md). It lists every page with a one-line purpose and
   - `raw/llm-wiki.md` — the abstract pattern this directory instantiates. Repo-specific rules here override it.
 - `wiki/` — **synthesis written by the LLM**, organized as:
   - `wiki/resume/` — the always-on shard for editing the primary resume (structure and cut points, link conventions, update workflow, and the coverage map that says which captured material has not reached the resume yet).
-  - `wiki/workflows/` — how-tos that change the repo's state (brag capture/ingest, archiving, sensitivity tiers, large imports, the Obsidian vault).
+  - `wiki/workflows/` — how-tos and rules that govern the repo's state (brag capture/ingest, **voice and prominence** — the storytelling pillar, archiving, sensitivity tiers, large imports, the Obsidian vault).
   - `wiki/sources/` — one summary page per source document: role, vintage, what it uniquely contributes, harvest status, tier. Plus the brag ledger.
   - `wiki/analysis/` — durable answers to questions that came up, including researched external context. Employer research lives under `wiki/analysis/employers/<employer>/`, one dated page per piece of research (`YYYY-MM-DD-<subject>.md`) — past employers and prospective ones alike, so preparing for a conversation starts in one folder.
   - `wiki/stories/` — **told-able stories** graduated from brag entries, grouped by cluster: a hub note per cluster (`<cluster>.md`) beside a folder of its stories, and a [story map](wiki/stories/story-map.md). See `wiki/workflows/brag-stories.md`.
+  - `wiki/dream-jobs/` — **where the career could go next**: a hub note plus one page per candidate direction, each graded on what the record supports. Candidates carry an `origin` property — `owner` for the owner's own ideas, `suggested` for an agent's — and **an agent may only ever add `suggested`**. See `wiki/dream-jobs/dream-job-hub.md`.
   - `wiki/concepts/`, `wiki/entities/`, `wiki/overview.md` — the career synthesis proper.
   - `wiki/sources.md` — the source map: every source's tier and disposition on one page.
 - `../archive/` — historical personal material predating the wiki; classified in `wiki/sources/`, not synthesized.
@@ -53,6 +54,8 @@ PDFs, exports, screenshots, and employer-internal notes are never committed (`.g
 
 | Need | Page |
 |---|---|
+| **Write anything outward — a story, a resume line, a LinkedIn block, a reading list** | `wiki/workflows/voice-and-prominence.md` **first**: one voice across era registers, prominence that follows evidence, and honest handling of blocked or unshipped work |
+| Decide where the career should point next, or judge a role against the record | `wiki/dream-jobs/dream-job-hub.md`; market evidence in `wiki/analysis/2026-09-13-specializations-landscape.md` |
 | Refine, improve, or update the primary resume | `wiki/resume/update-workflow.md` (load `wiki/resume/primary-resume.md`, `link-conventions.md` and `coverage.md` first) |
 | See what the resume is missing, or how much is covered | `wiki/resume/coverage.md` |
 | Capture an accomplishment right now, in any format | `wiki/workflows/brag-file.md` §§ *Part 0*–*Part 1* |
@@ -65,7 +68,7 @@ PDFs, exports, screenshots, and employer-internal notes are never committed (`.g
 | Preserve a source too large to commit as-is | `wiki/workflows/large-imports.md` (the owner decides the tier first; an agent never grants the exception) |
 | Ingest any other new source | Read it fully; write or update its `wiki/sources/` page; update `wiki/sources.md`, the affected synthesis pages, and `index.md`; log the ingest (below). |
 | Answer a question | `index.md` → smallest set of pages → answer with source links and stated uncertainty. File durable answers under `wiki/analysis/` (create on first use) and index them. |
-| Lint | Broken relative links; pages over 500 lines; claims without sources; `__untracked_stuff` references; orphan pages; `raw/brag/` entries missing from the ledger; entries missing from `wiki/resume/coverage.md`, or coverage totals that no longer match its own tables; `wiki/sources/` pages whose harvest map is stale. Record findings in the operations log. |
+| Lint | Broken relative links; pages over 500 lines; claims without sources; `__untracked_stuff` references; orphan pages; `raw/brag/` entries missing from the ledger; entries missing from `wiki/resume/coverage.md`, or coverage totals that no longer match its own tables; `wiki/sources/` pages whose harvest map is stale; dream-job candidates whose `origin` was changed to `owner` without the owner saying so, or whose evidence grade no longer matches the entries they cite; Obsidian colour groups that disagree with the legend in `wiki/workflows/obsidian-vault.md`. Record findings in the operations log. |
 
 ## Operations log
 

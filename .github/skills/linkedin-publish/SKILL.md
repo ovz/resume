@@ -21,7 +21,7 @@ Quote the workflow page's reasoning and offer the paste round instead. Do not bu
 
 1. **Rebuild first.** `script/pandoc_resume.sh all` regenerates `linkedin/` and fails if a block is over its field limit.
 2. **Ask what is outstanding.** `script/linkedin-sync.py status` — compares each block against the hash recorded when it was last confirmed pasted. Non-zero exit while anything is outstanding.
-3. **One block at a time.** `copy <slug> --open`, the owner pastes, then `done <slug>`. The owner does the pasting; an agent never drives the browser.
+3. **Offer `round` when more than one block is stale.** `script/linkedin-sync.py round` walks every out-of-sync block in one pass — clipboard, the profile field it belongs in, record on confirm — and writes state after each, so an interrupted round loses nothing. For a single block, `copy <slug> --open` then `done <slug>`. The owner does the pasting; an agent never drives the browser.
 4. **Commit `linkedin/paste-state.json`.** An uncommitted paste record is what makes the next round start from "did I already do this?".
 5. **Hand off.** Agents do not commit — see the root [`AGENTS.md`](../../../AGENTS.md).
 

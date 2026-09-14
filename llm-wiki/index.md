@@ -4,6 +4,7 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 
 ## Start here
 
+- **[Dream-job hub](wiki/dream-jobs/dream-job-hub.md)** — *reference.* Where this career could go next: nine candidate directions, each graded on what the record supports, with the owner's own ideas marked ★ and agent suggestions ○. **Load when** a role appears, a resume variant is being tailored, or a new accomplishment might move a candidate.
 - [Career overview](wiki/overview.md) — *explanation.* The arc in four chapters and what makes it distinctive. **Load when** you need the story before anything else.
 - [Source map](wiki/sources.md) — *reference.* Every source document, its tier, disposition, and summary page. **Load when** about to cite or edit any source.
 
@@ -13,9 +14,11 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 - [Link conventions](wiki/resume/link-conventions.md) — *reference.* Wayback Machine snapshots as the default hyperlink; URL forms, key naming, observed inconsistencies. **Load when** adding or touching any link in an outward-facing document.
 - [Update the outward-facing resume](wiki/resume/update-workflow.md) — *how-to.* The deliberate edit pass: draft, place at the right depth, link-check, sensitivity-check, render, lint, hand off. **Load when** asked to refine/improve/update the resume or produce a tailored variant.
 - [Resume coverage map](wiki/resume/coverage.md) — *reference.* Brag material grouped into threads, decomposed into claims, each marked reflected / partial / absent in the resume, with an estimated coverage percentage. **Load when** deciding what a resume pass should cover, or after ingesting or promoting anything.
+- [Coverage history](wiki/resume/coverage-history.md) — *explanation.* Why the coverage figure moved as it did, and what each past pass promoted, thread by thread. **Load when** a figure looks surprising, or when tracing which resume section a claim landed in.
 
 ## Workflows
 
+- **[Voice and prominence](wiki/workflows/voice-and-prominence.md)** — *reference.* The storytelling pillar: one voice across five era registers, role-play as the mode, prominence that follows evidence rather than stated impact, and how to talk honestly about work that was blocked or never shipped. **Load before** writing any story, resume line, LinkedIn block or reading list.
 - [Resume Brag File — capture and ingest](wiki/workflows/brag-file.md) — *how-to.* Capture the input verbatim, write or enrich the entry in `raw/brag/`, then fold entries into the wiki and the coverage map later. **Load when** the owner says "add this to my brag file", supplies material in any form, or asks to ingest brag entries.
 - [Publish the resume to LinkedIn](wiki/workflows/linkedin-publish.md) — *how-to.* Why there is no API path, the paste round and its committed record of what has actually been pasted, keyring credentials with an encrypted backup bundle, and the supported announce-post. **Load when** asked to update or sync the profile, or whether the LinkedIn update can be automated.
 - [Brag stories — graduating entries, and reading lists](wiki/workflows/brag-stories.md) — *how-to.* The third stage after capture and ingest: structure before narrative, a rehearsable telling, and reading lists for an interview, event or employer. **Load when** writing a story or preparing for a conversation.
@@ -37,9 +40,18 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 - [Organizations](wiki/entities/organizations.md) — *reference.* Best Buy Health/GreatCall, Minitab, Salford Systems, IIT, education institutions. **Load when** the question is scoped to an employer or period.
 - [Professional contacts](wiki/entities/professional-contacts.md) — *reference.* The working roster: who, role, period, and reference availability — never contact details; relationship narrative lives with the work it describes. **Load when** asking for a reference, updating the references document, or recording a collaborator named in a brag entry.
 
+## Dream jobs
+
+The hub above is the entry point; these are its candidate pages. ★ = the owner's own idea, ○ = agent-suggested. Each carries the fit, the gap, the vocabulary to foreground, and the stories to tell for it.
+
+- ★ [Database internals in C++ or Rust](wiki/dream-jobs/database-internals.md) · ★ [Next-generation AI sensor fusion](wiki/dream-jobs/ai-sensor-fusion.md)
+- ○ [Resilient and assured PNT](wiki/dream-jobs/resilient-pnt.md) · ○ [Agentic engineering platform](wiki/dream-jobs/agentic-engineering-platform.md) · ○ [Connected-device fleet reliability and cost](wiki/dream-jobs/device-fleet-reliability.md) · ○ [Regulated medical device software](wiki/dream-jobs/regulated-medical-software.md)
+- ○ [Telemetry and time-series engine internals](wiki/dream-jobs/telemetry-engines.md) — the bridge candidate · ○ [Rust in safety-critical embedded](wiki/dream-jobs/rust-safety-critical.md) · ○ [Edge AI on constrained wearables](wiki/dream-jobs/edge-ai-wearables.md)
+
 ## Analysis
 
 - [Best Buy Health 2024–2026: the divestiture on the public record](wiki/analysis/employers/best-buy-health/2026-09-10-best-buy-health-2024-2026-divestiture-public-record.md) — *explanation.* The disclosed impairments, restructuring and divestiture 2024–2026, correlated with the owner's contemporaneous notes, plus how to use it in an interview. **Load when** preparing to explain the Best Buy Health years, or writing anything that touches that period.
+- [Emerging and established specializations, 2026-09-13](wiki/analysis/2026-09-13-specializations-landscape.md) — *explanation.* Market evidence behind every dream-job candidate, with the quotations committed and each source marked read-directly or search-summary. **Load when** weighing a direction, or re-checking whether a candidate has aged well.
 - [Executive language glossary](wiki/analysis/executive-language-glossary.md) — *reference.* Impairment, restructuring charge, reporting unit, fiscal year, ODM, white label, modularity. **Load when** reading or writing about an employer's public record.
 
 ## Source summaries (one per document)

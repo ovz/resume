@@ -10,20 +10,12 @@
 
 | Measure | Coverage |
 |---|---|
-| All promotable claims | **≈ 78%** — 93.5 of 120 claims |
-| Claims from entries marked `resume-worthy: yes` | **≈ 92%** — 66.5 of 72 claims |
+| All promotable claims | **≈ 64%** — 93.5 of 147 claims |
+| Claims from entries marked `resume-worthy: yes` | **≈ 70%** — 65.5 of 94 claims |
 
-91 claims are fully reflected. 5 are gestured at generically. 24 are absent. **Two are `held`** — recorded deliberately and never for the resume — and are excluded from the totals above.
+91 claims are fully reflected. 5 are gestured at generically. 51 are absent. **Two are `held`** — recorded deliberately and never for the resume — and are excluded from the totals above. Both figures were recounted from the tables on 2026-09-13; the `resume-worthy: yes` line had drifted by one claim, which is the kind of drift the *Maintenance* note below expects and says to fix by recounting. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
 
-> **Earlier movement, kept because it explains the shape of the number.** Coverage *fell* twice while nothing was removed from the resume — from ≈ 40% to ≈ 33% on 2026-09-09, and from ≈ 33% to ≈ 21% on 2026-09-10 — as the brag ingest and then the full Trello board ingest enlarged the denominator faster than promotions could fill it. That is the metric behaving correctly: a coverage figure that only ever rises is measuring effort rather than coverage.
-
-> **Fourth pass, 2026-09-11.** Integration became a claim in its own right (new `INT` thread), the bar-raiser practice opened `LEAD` from zero, and the white-label-versus-ground-up judgement was grounded in Christensen and Porter so it reads as consensus rather than advocacy.
-
-> **Third pass, 2026-09-11.** Fall detection named as the product's focused driver and its next innovation promoted at the owner's direction; the hardware/software cadence practice added as a highlight; the manufacturer transition now ends in a return to a regular development lifecycle.
-
-> **Second pass, 2026-09-10 (position split).** The 2018–present tenure was split into GreatCall 2018–2020 and Best Buy Health 2020–present, matching the LinkedIn profile and doubling that era's Experience budget from 2,000 to 4,000 characters. The room went to the early device work — fall detection, positioning SME, the 2019 relaunch, on-device test automation — which the single compressed entry had squeezed out. The owner also supplied the first tranche of the promised Current Health material (`MED-6`–`MED-8`: Orcanos, Gen2, PPG), captured in the brag entry and promoted in the same pass.
-
-> **First pass: 2026-09-10 (LinkedIn budget pass).** The largest single promotion in this page's history: coverage went from ≈ 21% to ≈ 73%, and seven threads that stood at exactly zero — `BLD`, `RSK`, `DEV`, `MFG`, `FW`, `MED` and the newer half of `POS` — are now fully reflected. The mechanism was structural rather than editorial. LinkedIn caps the About section at 2,600 characters and each Experience entry at 2,000, so bringing the resume within those budgets forced the *Employment History* narrative down to a dense highlight reel and pushed the depth into eight new *Projects Overview* sections covering the Best Buy Health era, which until this pass had none at all. Squeezing the top of the document is what created room to promote forty-seven claims at the bottom of it.
+> **How the number got here, and what each past pass promoted, is now [coverage history](coverage-history.md)** — including the two earlier occasions when coverage *fell* while nothing was removed from the resume, which is the metric behaving correctly rather than a regression.
 
 **What this number does not mean.** It is not a grade on the resume. The resume carries 25+ years of work, most of it from before the brag file existed and therefore invisible to this page — Salford Systems, Minitab and the pre-2023 Best Buy Health years are all well represented there and score nothing here. What the number measures is narrower: **how much of the recent, captured 2023–2026 material has reached the resume.**
 
@@ -149,8 +141,6 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 | `BLD-5` Designed a Conan versioning and channel-promotion policy tying version fields to releases and pull requests, with CI-generated unique build identity | 2022-04-06 | **in** |
 | `BLD-6` Established cross-compilation to the embedded ARM target, including sysroot packaging strategy and toolchain version pinning | 2022-04-06 | **in** |
 
-> Fully promoted on 2026-09-10 into *Projects Overview* § **2021-2022. Embedded platform: monorepo, packaging and C++ standards**, with the packaging and cross-compilation half also named in the Best Buy Health Experience entry. `BLD-3` — choosing a C++ standard on what static analysis can actually enforce — is the one that reads most clearly as principal-level judgement, and the resume now says so in those terms.
-
 ---
 
 ### OBS — Device-health observability programme
@@ -181,8 +171,6 @@ The largest thread by far: eight entries spanning 2023–2025, tracing one arc f
 | `OBS-16` Supplied focused evidence for recovery, replacement and defect-classification decisions with firmware partners | 2025-05-01 | **in** |
 | `OBS-17` Validated an anomaly monitor's first meaningful firing by correlating it with independent MCU alerts from firmware engineering | 2025-05-29 | **in** |
 | `OBS-18` Established an evidence-based observation loop for judging a monitor's ongoing usefulness | 2025-05-29 | partial |
-
-> Raised from ≈ 64% to ≈ 94% on 2026-09-10 by *Projects Overview* § **2023-2025. Fleet device-health Observability**, which carries the parts of the arc a single C2 bullet could not: the feasibility check, the wide-contract event, the telemetry schema diagnosis, the vendor Premier Support escalation, and the device caught live on stage.
 
 > `OBS-7` is deliberately `partial`: the resume claims the catch but not the battery-overheating specific, which names a safety-adjacent defect in a current employer's product. See *Open sensitivity question* below.
 
@@ -225,8 +213,6 @@ Three entries, 2024–2026, moving from field diagnostics to owning the architec
 | `FW-3` Built an aligned structured-logging framework giving consistent logs across all supported devices | 2026-04-26 | **in** |
 | `FW-4` Modularized and documented the framework for open-source release and external contribution | 2026-04-26 | **in** |
 
-> Fully promoted on 2026-09-10: a C2 bullet and *Projects Overview* § **2026. Capability and Configuration Framework**. Still the only open-source-facing work in the corpus, and the resume now says so.
-
 ---
 
 ### AI — AI adoption and agentic engineering
@@ -265,8 +251,6 @@ Three entries, 2024–2026, moving from field diagnostics to owning the architec
 | `RSK-6` Challenged a mandated launch-readiness control as the wrong instrument for the device, arguing from system coupling and existing test coverage rather than effort | 2023-12-05 | **in** |
 | `RSK-7` Substituted better controls — chaos-style testing where failures actually live, escalation-path membership, and the one device-specific scenario worth rehearsing | 2023-12-05 | **in** |
 
-> Fully promoted on 2026-09-10 into *Projects Overview* § **2023. Security patch management, and Risk practice**. The resume's security material is no longer only the 1996–2000 cryptography era — there is now current practice on the page, which was the point.
-
 ---
 
 ### DEV — Device architecture and sensor research (2021–2022)
@@ -286,8 +270,6 @@ The R&D layer under the wearable programme: what the device should be, what it s
 | `DEV-5` Argued the battery budget must be decided before the form factor, making it a researchable constraint rather than one inherited from an enclosure | 2021-11-15 | **in** |
 | `DEV-6` Made the battery-versus-hardware trade-off structure explicit, including that capable hardware costs power twice — once for the part, once for software that uses it | 2021-11-15 | **in** |
 | `DEV-7` Set the design goal that positioning be a non-issue in the power budget, which the sensor architecture was then built to satisfy | 2021-11-15 | **in** |
-
-> Fully promoted on 2026-09-10 into *Projects Overview* § **2021. Next generation wearable: power budget and dead reckoning**, kept in the order the judgement actually ran: the power-budget argument first, the architecture that satisfies it second. Still the most senior *technical* material in the pre-2023 corpus, and the direct ancestor of the `POS` thread.
 
 ---
 
@@ -334,21 +316,25 @@ Where the device stops being ours: the specification handed to a contract manufa
 | `MFG-12` Treats the Agile Manifesto as the framework that makes engineer-to-engineer practice a transferable skill | 2026-09-11 | **in** |
 | `MFG-13` Brought the programme back to a regular hardware/software development lifecycle after the manufacturer transition | 2023-09-01 | **in** |
 
-> Fully promoted on 2026-09-10 into two *Projects Overview* sections — the specification work under **2021-2022. Embedded platform**, the escalation under **2025. Firmware over the air, under a device-inventory crisis**. `MFG-4` remains the strongest single principal-level story in the corpus: business-critical, vendor-facing, and resolved by acquiring depth rather than by escalating, which is how the section is written.
-
 ---
 
 ### QA — Test automation and environment diagnosis
 
 **Entries:** [2024-12-31 device test automation](../../raw/brag/2024-12-31-device-test-automation-robot-framework.md)
 
-**Thread coverage: 0%** (0 of 3)
+**Thread coverage: 0%** (0 of 7)
 
 | Claim | Source | Status |
 |---|---|---|
 | `QA-1` Distinguished broken tests from broken environments across message-broker, staging and provisioning failures, preventing an untrustworthy suite | 2024-12-31 | absent |
 | `QA-2` Ran a protocol-level OAuth bearer-token investigation to unblock a whole class of automated tests | 2024-12-31 | absent |
 | `QA-3` Configured CI so an AI coding agent could open pull requests against the automation repository, treating the agent as a contributor | 2024-12-31 | absent |
+| `QA-4` Converted a top-down test-automation mandate into a mentorship practice for junior and QA engineers, deciding deliberately what to build himself and what to guide others through | 2024-12-31 | absent |
+| `QA-5` Introduced pull-request discipline to the engineers he mentored — a practice that outlives the framework it arrived with | 2024-12-31 | absent |
+| `QA-6` Pushed back on making unit-test coverage an externally observed metric, on the ground that it removes unit tests from an engineer's own toolbox | 2024-12-31 | absent |
+| `QA-7` Names the limit of AI-assisted mentorship: prompt engineering is easy to learn and easy to master, while building good software is multi-dimensional | 2024-12-31 | absent |
+
+> **Re-ingested 2026-09-13 after the owner reframed the entry.** The framework was mastered in days and was never the accomplishment; the mentorship under a mandate is. `QA-4` and `QA-6` are the principal-level claims here and belong with `LEAD` in any promotion pass — `QA-6` in particular is a refusal argued on engineering grounds, which is the same behaviour as the launch-readiness challenge in `RSK`. The entry stays `resume-worthy: maybe`; that judgement is the owner's and the reframing may change it.
 
 ---
 
@@ -389,17 +375,99 @@ The mid-career transition from consumer safety-adjacent devices into a regulated
 | `MED-12` Distinguishes breadth-first white-label integration from ground-up device engineering, and why a hybrid inherits the costs of both | 2025-04-13 | **in** |
 | `MED-13` Held an observer role on the BLE SDK initiative rather than claiming a model he was watching | 2025-04-13 | partial |
 
-> Fully promoted on 2026-09-10, at the owner's explicit direction to surface it prominently: a C2 bullet, a paragraph in the Best Buy Health Experience entry, a clause in *My Story*, and *Projects Overview* § **2024-2026. Regulated medical devices**. Design control, CAPA and regulatory process are what medical, automotive and industrial safety-critical employers screen for and are slow to acquire, and this went from the most under-exploited thread in the corpus to fully reflected in one pass. The entry behind it is still marked partial — more material is expected, and the resume text should be revisited when it lands. Note that the promotion runs ahead of the record here, as `ARC` does. `MED-1` and `MED-2` are the two that change which roles the owner is a plausible candidate for.
+---
 
 ---
 
+### PWR — Battery and power as a standing specialization
+
+The owner's second major, and the same subject as `POS` seen from the power side. `DEV` holds the 2021 argument that started it; this thread holds the standing expertise and the judgement calls it enabled, through 2026.
+
+**Entries:** [2021-10-16 battery and power as a second specialization](../../raw/brag/2021-10-16-battery-power-second-specialization.md) · cross-listed: [2021-11-15 power budget](../../raw/brag/2021-11-15-r5-product-architecture-power-budget-tradeoffs.md) and [2021-11-22 sensor cluster](../../raw/brag/2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md) (claims under `DEV`)
+
+**Thread coverage: 0%** (0 of 7)
+
+| Claim | Source | Status |
+|---|---|---|
+| `PWR-1` Carries battery and power management as a second specialization alongside positioning, on a cellular wearable | 2021-10-16 | absent |
+| `PWR-2` Established the mechanical interlock between the two: the fallback breadcrumbing interval specified in units of MQTT keep-alive intervals, so a location report rides an existing network wake-up | 2021-10-16 | absent |
+| `PWR-3` Holds a platform-level intuition for power on Qualcomm MDM-class SoCs — modem-versus-AP positioning, combo-radio beacon scanning, wakelocks, cellular power-saving modes | 2021-10-16 | absent |
+| `PWR-4` Reduced battery questions from analysis campaigns to a stated hypothesis plus a cheap experiment, and has been consistently right in recent years | 2021-10-16 | absent |
+| `PWR-5` Delivered the 2026 keep-alive production configuration, with a notebook from the engineering build and device soak testing to confirm the battery effect | 2021-10-16 | absent |
+| `PWR-6` Advises product management and business partners on what will and will not move battery life before a quarter is spent finding out | 2021-10-16 | absent |
+| `PWR-7` Cut a prototyping path short on his own finding that MCU-based positioning might not reduce the power budget — a negative result reached and acted on | 2021-10-16 | absent |
+
+> `PWR-4` and `PWR-6` are the claims to watch: both are genuinely principal-level and both currently rest on the owner's own assessment, with no measured before/after committed. Promote them narrowly, or promote `PWR-2` and `PWR-5` instead, which are documented. See [voice and prominence](../workflows/voice-and-prominence.md) § *Prominence follows evidence*.
+
+---
+
+### COST — Cost of operation: cellular data and the devices that waste it
+
+Where observability stops being about reliability and starts being about money. The company is its own MVNO, so cellular data is a direct per-device cost.
+
+**Entries:** [2024-01-04 cellular cost and rogue-device detection](../../raw/brag/2024-01-04-cellular-cost-rogue-device-detection.md) · cross-listed: [2025-10-29 AI data product](../../raw/brag/2025-10-29-ai-data-product-in-alation.md) (claims under `AI`)
+
+**Thread coverage: 0%** (0 of 6)
+
+| Claim | Source | Status |
+|---|---|---|
+| `COST-1` Joined carrier cellular-operations data, device telemetry and warehouse event tables on device identity to find devices consuming far outside any plausible pattern | 2024-01-04 | absent |
+| `COST-2` Built a rogue-device emulation script to validate the detection path against a device known to be misbehaving, and got the threshold agreed before an incident rather than during one | 2024-01-04 | absent |
+| `COST-3` Published a rogue-device runbook and fed the scenario into the launch tabletop exercise | 2024-01-04 | absent |
+| `COST-4` The work revealed a real misbehaving unit at roughly a gigabyte a day, investigated quickly because detection and runbook were already in place | 2024-01-04 | absent |
+| `COST-5` Made replacement plus root cause the routine response, so each bad device produced a root cause rather than only a swap | 2024-01-04 | absent |
+| `COST-6` Submitted five ideas to the organization's cost-reduction programme | 2024-01-04 | absent |
+
+> `COST-6` is deliberately weak and should stay low-prominence or be dropped outward: submitted is not adopted, and the record shows no outcome. The dollar figure behind `COST-1` is the owner's own and is not in the archive — an outward claim should say "devices costing real money" and let a follow-up question carry the number.
+
+---
+
+### STAT — The statistical bar, and the Data Science partnership
+
+The practice underneath the `OBS` thread's credibility: knowing when a question needs statistics and when it needs one decisive experiment, and keeping a specialist team engaged across an organizational boundary.
+
+**Entries:** [2026-05-17 statistical bar and the Data Science partnership](../../raw/brag/2026-05-17-statistical-bar-and-data-science-partnership.md) · cross-listed: [2024-05-05 anomaly tuning](../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) and [2025-05-29 anomaly validation](../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) (claims under `OBS`)
+
+**Thread coverage: 0%** (0 of 5)
+
+| Claim | Source | Status |
+|---|---|---|
+| `STAT-1` Argued for statistical reasoning where statistics is the right tool, including engaging real statisticians rather than approximating them | 2026-05-17 | absent |
+| `STAT-2` Replaced brute-force analysis with a stated hypothesis and the smallest experiment that could settle it | 2026-05-17 | absent |
+| `STAT-3` Replaced hand-built spreadsheets with re-runnable notebooks going directly at the warehouse | 2026-05-17 | absent |
+| `STAT-4` Presented the anomaly monitors to the extended Data Science organization | 2026-05-17 | absent |
+| `STAT-5` Sustained a working partnership with a specialist team that had its own priorities, including a named tactic for getting device work prioritized | 2026-05-17 | absent |
+
+> **The weakest-supported thread in the corpus, and the entry says so itself.** `STAT-1` and `STAT-3` rest largely on the owner's statement; `STAT-2` and `STAT-4` are corroborated. Any outward claim should be drawn at the line the `OBS` entries already reach.
+
+---
+
+### CONC — Concurrency, and the bugs that vanish when observed
+
+A failure class the owner has pursued for twenty years, with one fully documented investigation at its centre.
+
+**Entries:** [2023-09-26 audio-service race condition](../../raw/brag/2023-09-26-audio-service-race-condition-diagnosis.md) · cross-listed: [2024-05-15 positioning root cause](../../raw/brag/2024-05-15-skyhook-positioning-root-cause-diagnostics.md) (claims under `POS`)
+
+**Thread coverage: 0%** (0 of 5)
+
+| Claim | Source | Status |
+|---|---|---|
+| `CONC-1` Diagnosed an intermittent audio artifact as a race condition without ever reproducing it, from correlated logs showing the playback thread created twice and the audio wakelock acquired twice before a forced reboot | 2023-09-26 | absent |
+| `CONC-2` Corroborated the reboot story from an independent subsystem's own counter | 2023-09-26 | absent |
+| `CONC-3` Designed instrumentation and fault injection instead of repeating a manual test, including a negative experiment that separated two failure modes | 2023-09-26 | absent |
+| `CONC-4` Separated a defect that was being debugged as part of another, wrote a reproduction others could follow, and framed it as a risk rather than a bug report | 2023-09-26 | absent |
+| `CONC-5` Treats concurrency as a specialization spanning a 2004 TCP/IP daemon, a 2024 positioning multithreading fault, and TLA+ study in 2026 | 2023-09-26 | absent |
+
+> The resume already says "advanced Concurrency" twice without evidence behind it; this thread is the evidence. `CONC-1` is the strongest single debugging story in the corpus for a systems audience, and the honest ending — mechanism established, fix not attributable to him alone — is what makes it credible rather than weaker.
+
 ## What this says right now
 
-1. **The leadership story is the whole remaining gap.** `LEAD` stands at 0 of 11 promotable claims and is now, on its own, most of what is absent. The resume still carries no evidence of managing upward, mentoring, or meeting and process discipline — the behaviours that distinguish a principal candidate from a senior one. Everything technical that the brag file knows about has now landed.
-2. **`QA` and `DATA` are the other zeros**, five claims between them. Both are small and both are real: environment-versus-test diagnosis, a protocol-level authentication investigation, an AI agent configured as a contributor with a route to land work, and the data-warehouse and data-mesh argument that preceded the governance stewardship. They were left out of this pass for space, not on judgement.
-3. **The binding constraint has changed.** Until this pass the question was *what is worth promoting*; the pool was rich and the document had room. It is now *what fits*: the About section and every Experience entry are marked with LinkedIn's character budgets and the build fails when one is exceeded. The Best Buy Health entry has 31 characters of headroom. The next promotion into it has to displace something, and that is a real editorial decision rather than an oversight.
-4. **`ARC` is still promoted but uncaptured**, which inverts the normal direction of the pipeline. The resume asserts something the knowledge layer cannot source. The brag entry remains genuinely owed.
-5. **Depth now lives in *Projects Overview*.** Eight new sections carry the Best Buy Health era, which had none before. That is where a future promotion should land first; the C2 bullets and the LinkedIn-budgeted sections above them are for claims that change what a reader should know in the first two pages.
+1. **The absent 51 claims now sit in nine threads, and the four largest are new or leadership.** `LEAD` has 12 absent of 16 — still no evidence on the resume of managing upward, mentoring, or process discipline, the behaviours that separate a principal candidate from a senior one. Then `PWR` (7), `COST` (6), `STAT` (5) and `CONC` (5), all opened on 2026-09-13 and none promoted. The statement that "everything technical the brag file knows about has landed" was true on 2026-09-11 and is no longer: battery and power, cost of operation, and concurrency are all technical, all current, and all absent.
+2. **Three of the four new threads are strong, and one is not.** `PWR`, `COST` and `CONC` each rest on documented work, and `CONC-1` is arguably the best debugging story in the corpus. `STAT` rests largely on the owner's own account. That asymmetry is exactly what the [prominence rule](../workflows/voice-and-prominence.md) exists for: promote `PWR-2`, `PWR-5`, `COST-2`, `COST-4` and `CONC-1` before anything from `STAT`.
+3. **`QA` is no longer small.** Reframed on 2026-09-13 around the mentorship it actually was, it now carries seven claims — including the refusal to let unit-test coverage become an externally watched metric, and pull-request discipline taught to QA engineers under a compliance mandate. Read it alongside `LEAD`: between them they are 19 of the 51 absent claims, and they are the same argument about how this person operates. `DATA` remains the genuine small zero, at two.
+4. **The binding constraint has changed.** Before the 2026-09-10 budget pass the question was *what is worth promoting*; the pool was rich and the document had room. It is now *what fits*: the About section and every Experience entry are marked with LinkedIn's character budgets and the build fails when one is exceeded. The Best Buy Health entry has 31 characters of headroom. The next promotion into it has to displace something, and that is a real editorial decision rather than an oversight.
+5. **`ARC` is still promoted but uncaptured**, which inverts the normal direction of the pipeline. The resume asserts something the knowledge layer cannot source. The brag entry remains genuinely owed.
+6. **Depth now lives in *Projects Overview*.** Eight new sections carry the Best Buy Health era, which had none before. That is where a future promotion should land first; the C2 bullets and the LinkedIn-budgeted sections above them are for claims that change what a reader should know in the first two pages.
 
 ## Open questions
 
@@ -421,5 +489,7 @@ The mid-career transition from consumer safety-adjacent devices into a regulated
 - [Update the outward-facing resume](update-workflow.md) — the pass this page feeds.
 - [Primary resume — structure and cut points](primary-resume.md) — where a promoted claim has to fit.
 - [Accomplishments by domain](../concepts/accomplishments-by-domain.md) — the same material organized for drafting rather than for gap-spotting.
+- [Coverage history](coverage-history.md) — how the figure moved, and what each past pass promoted.
 - [Brag ledger](../sources/brag-ledger.md) — ingest and promotion state per entry.
 - [Brag file workflow](../workflows/brag-file.md) — capture and ingest.
+- [Voice and prominence](../workflows/voice-and-prominence.md) — how a claim's support here decides how loudly it may be made outward.

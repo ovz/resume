@@ -9,6 +9,8 @@ domains:
 context: "Best Buy Health, R5 senior-care wearable, firmware/systems"
 sensitivity: private-repo
 resume-worthy: maybe
+storied:
+  - "positioning/one-engine-for-every-source"
 ---
 
 # Designed and implemented the modular R5 location engine unifying beacon, GPS, and Wi-Fi positioning
@@ -48,3 +50,4 @@ Internal design document (Confluence, "R5 Location Design") with diagrams, inter
 ## Record history
 
 - 2026-09-08: created from an owner write-up (accomplishment dated 2025-09 to 2025-11-15); internal design-doc URL replaced with a generic description per the brag-file rules
+- 2026-09-13: graduated into story `positioning/one-engine-for-every-source`; `storied` property added, body untouched.

@@ -8,6 +8,7 @@ or agent finds by looking at the repo, without needing to know a skill exists.
 Python rather than bash, to match the tool it launches.
 
     python3 script/linkedin-sync.py status
+    python3 script/linkedin-sync.py round            # guided pass over every stale block
     python3 script/linkedin-sync.py copy <block> [--open]
     python3 script/linkedin-sync.py done <block> | --all
 
