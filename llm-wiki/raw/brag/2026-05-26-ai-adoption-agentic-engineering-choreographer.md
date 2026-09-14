@@ -26,6 +26,14 @@ Led the adoption and integration of advanced AI tooling and agentic workflows wi
 
 The problems this addressed: developer productivity limited by manual orchestration of several AI tools and constant context switching (with context overflow as the failure mode); inconsistent application of AI-generated insights and no central place to share what worked; and unoptimized prompting and tool usage burning tokens and operating cost.
 
+### Follow-up, 2026-09: the gap an agent noticed, and what it implies
+
+While the owner prepared the beacon tracking release candidate in August 2026, AI-assisted research flagged that surviving a firmware-over-the-air update was missing from the 2023 design — without the updated firmware documents being part of what it had read ([2026-09-01 beacon tracking and FOTA persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md)). The owner's position, in his own words (stated 2026-09-14, lightly corrected):
+
+> This also confirmed my early intuition since I started doing agentic coding that the strength of AI coding agent is that it will read all the inputs and not forget about any important piece of 1000 pages manual. Obviously one might mis-prompt forgetfulness but I cannot imagine how I with my software engineering experience will ever prompt AI to do a bad job. And I don't believe junior engineers will ever be challenged to tell AI to do the best job possible. If anything, modern AI is not good enough to tell people that we have gaps in our risk management posture and require adequate grounding as a company policy (thus giving senior engineers and leaders more ways to help juniors), not just one of the "possible TODOs" checklists.
+
+Read as a claim: the agent's advantage is completeness of reading, not judgement; the failure mode is an unchallenged prompt, which lands on less experienced engineers; and the remedy is organizational — grounding required by risk-management policy — rather than a checklist item. It connects this practice to the owner's [risk management](2023-08-03-risk-management-practice-early-analysis.md) work.
+
 ## Why it matters
 
 - **Accelerated delivery:** reduced time-to-ship for key features and documentation by automating repetitive tasks and enabling parallel agent workflows.
@@ -50,7 +58,9 @@ Merged pull request introducing the choreographer agent to the internal agent-pl
 - [2025-10-29-ai-data-product-in-alation](2025-10-29-ai-data-product-in-alation.md) — earlier AI-assisted-analytics exploration on the data-catalog side; this entry is the engineering-workflow side of the same "leverage AI since 2023" thread.
 - [2024-04-18-r5-datadog-community-presentation](2024-04-18-r5-datadog-community-presentation.md) — precedent for reframing a team-level effort as reusable cross-team guidance; the same move is made here with agent patterns and the knowledge base.
 - [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — concurrent enablement work: both entries lower onboarding barriers through reusable frameworks plus documentation and contribution guidelines.
+- [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — the FOTA gap AI-assisted research caught, which the follow-up above draws on.
 
 ## Record history
 
 - 2026-09-08: created from an owner-supplied brag write-up dated 2026-05-26
+- 2026-09-14: *Follow-up, 2026-09* added from the owner's statement — the FOTA gap an agent noticed, and his position that grounding belongs in risk-management policy; *Related* link to the 2026-09-01 entry.

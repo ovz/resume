@@ -10,10 +10,10 @@
 
 | Measure | Coverage |
 |---|---|
-| All promotable claims | **≈ 64%** — 93.5 of 147 claims |
-| Claims from entries marked `resume-worthy: yes` | **≈ 70%** — 65.5 of 94 claims |
+| All promotable claims | **≈ 63%** — 94 of 150 claims |
+| Claims from entries marked `resume-worthy: yes` | **≈ 69%** — 68 of 98 claims |
 
-91 claims are fully reflected. 5 are gestured at generically. 51 are absent. **Two are `held`** — recorded deliberately and never for the resume — and are excluded from the totals above. Both figures were recounted from the tables on 2026-09-13; the `resume-worthy: yes` line had drifted by one claim, which is the kind of drift the *Maintenance* note below expects and says to fix by recounting. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
+91 claims are fully reflected. 6 are gestured at generically. 53 are absent. **Two are `held`** — recorded deliberately and never for the resume — and **one is struck** as wrong; all three are excluded from the totals above. Both figures were recounted from the tables on 2026-09-13 and adjusted by delta on 2026-09-14; the `resume-worthy: yes` line had drifted by one claim, which is the kind of drift the *Maintenance* note below expects and says to fix by recounting. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
 
 > **How the number got here, and what each past pass promoted, is now [coverage history](coverage-history.md)** — including the two earlier occasions when coverage *fell* while nothing was removed from the resume, which is the metric behaving correctly rather than a regression.
 
@@ -178,11 +178,11 @@ The largest thread by far: eight entries spanning 2023–2025, tracing one arc f
 
 ### POS — Positioning and location
 
-Three entries, 2024–2026, moving from field diagnostics to owning the architecture.
+Four entries, 2023–2026: a feature owned from its inception, field diagnostics, and the architecture.
 
-**Entries:** [2024-05-15 positioning root cause](../../raw/brag/2024-05-15-skyhook-positioning-root-cause-diagnostics.md) · [2025-11-15 location engine](../../raw/brag/2025-11-15-r5-location-engine-design.md) · [2026-09-01 beacon FOTA persistence](../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md)
+**Entries:** [2023-11-27 Home/Away beacon tracking](../../raw/brag/2023-11-27-r5-home-away-beacon-tracking.md) · [2024-05-15 positioning root cause](../../raw/brag/2024-05-15-skyhook-positioning-root-cause-diagnostics.md) · [2025-11-15 location engine](../../raw/brag/2025-11-15-r5-location-engine-design.md) · [2026-09-01 beacon FOTA persistence](../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md)
 
-**Thread coverage: ≈ 72%** (6.5 of 9)
+**Thread coverage: ≈ 54%** (7 of 13)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -193,10 +193,14 @@ Three entries, 2024–2026, moving from field diagnostics to owning the architec
 | `POS-5` Built the state-management layer arbitrating between sources, with fallback when a provider fails | 2025-11-15 | **in** |
 | `POS-6` Documented design and interfaces so other teams can extend the engine for new device variants | 2025-11-15 | **in** |
 | `POS-7` Designed schema-backed persistence restoring paired beacon state across firmware-over-the-air updates | 2026-09-01 | **in** |
-| `POS-8` Kept devices in low-power beacon presence detection after updates instead of high-frequency polling, protecting battery life fleet-wide | 2026-09-01 | **in** |
-| `POS-9` Hardened beacon/FOTA error categorization and made MCU reboot/fatal handling deliberate rather than incidental | 2026-09-01 | **in** |
+| ~~`POS-8` Kept devices in low-power beacon presence detection after updates instead of high-frequency polling, protecting battery life fleet-wide~~ — never customer-exposed, no fleet outcome | 2026-09-01 | struck 2026-09-14 |
+| `POS-9` Hardened beacon/FOTA error categorization and made MCU reboot/fatal handling deliberate rather than incidental | 2026-09-01 | absent |
+| `POS-10` Owned BLE beacon tracking from its inception, designing Home/Away as the simplest feature that answers home or away | 2023-11-27 | **in** |
+| `POS-11` Drove the contract manufacturer's MCU and cradle BLE firmware to specification against a frozen cradle firmware | 2023-11-27 | **in** |
+| `POS-12` Designed for optionality and held scope minimal (YAGNI) while consumers were out of scope, then argued for a location state machine as the next stage once top-down add-ons accreted | 2023-11-27 | partial |
+| `POS-13` Named the long-running feature branch as technical debt while it accrued, and paid it down | 2023-11-27 | absent |
 
-> The 2025 engine architecture and the 2026 beacon/FOTA work were promoted on 2026-09-10, into the C2 positioning bullet and *Projects Overview* § **2025-2026. Modular Location Engine**. What is left is the 2024 field-diagnostics detail — `POS-2` and `POS-3` — which is genuinely fine-grained for a resume and reads better as an interview answer than as a bullet.
+> Corrected 2026-09-14: beacon tracking was an assignment owned since 2023 and never customer-exposed, so `POS-8` is struck and the beacon paragraph in *Projects Overview* was rewritten around `POS-10`–`POS-12`. `POS-4`–`POS-6` stay `in`; the engine entry's outcome claims are unconfirmed, see its limitations. `POS-2`/`POS-3` remain interview detail.
 
 ---
 

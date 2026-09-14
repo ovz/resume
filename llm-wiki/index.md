@@ -24,12 +24,14 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 - [Brag stories — graduating entries, and reading lists](wiki/workflows/brag-stories.md) — *how-to.* The third stage after capture and ingest: structure before narrative, a rehearsable telling, and reading lists for an interview, event or employer. **Load when** writing a story or preparing for a conversation.
 - [Story map](wiki/stories/story-map.md) — *reference.* Every story cluster, its hub, and when to reach for it.
 - [Positioning, location and GPS](wiki/stories/positioning.md) — *reference.* The first cluster hub.
+- [State machines, and the codebase whose authors are gone](wiki/stories/state-machines.md) — *reference.* Cluster hub, stories planned: the keep-alive build, MCU Fatal UI, and Boost MSM stewardship. Related to positioning, not conflated with it.
 - [Can LinkedIn be updated programmatically? The evidence](wiki/analysis/linkedin-api-access.md) — *explanation.* Every source behind that verdict, with live links, Wayback snapshots, immutable git pins and verbatim quotations, read 2026-09-10. **Load when** someone proposes automating the profile, or when re-checking whether LinkedIn has opened a write path.
 - [Archived: the LinkedIn credential tool](wiki/sources/archived-linkedin-secrets-tool.md) — *reference.* Keyring storage and an encrypted backup bundle, built and then archived unused. **Load when** writing any credential handling for this repo, or wondering why that script is not in the working set.
 - [Archive a superseded source](wiki/workflows/archive-source.md) — *how-to.* Move a retired `markdown/` document into `raw/archive/` with a summary page. **Load when** a document stops being outward-facing.
 - [The Obsidian vault: where to dump, where to look](wiki/workflows/obsidian-vault.md) — *how-to.* The capture loop, the graph colour legend, entry properties, and the filters that answer "what do I already have on this?". **Load when** changing `.obsidian/` or the brag entry schema.
 - [Sensitivity tiers](wiki/workflows/sensitivity-tiers.md) — *reference.* T0 public / T1 private repo / T2 never committed; promotion is a rewrite. **Load when** deciding whether something may be written down, or before promoting brag content.
 - [Large imports](wiki/workflows/large-imports.md) — *how-to.* Preserving a source too large to commit as-is: uncompressed working copy in scratch, compressed and checksummed archive committed. **Load when** an export or dump needs archiving, or when adding a later snapshot of one.
+- [Career repositories](wiki/workflows/career-repositories.md) — *reference.* This repository holds the past; job-search-infra the search; cpp_edu the C++ practice; Claude Cowork the glue. How scopes, trackers and `TODO.md` traces work across them. **Load when** work crosses a repository boundary or touches the next ten-year stage.
 
 ## Career synthesis
 
@@ -52,6 +54,7 @@ The hub above is the entry point; these are its candidate pages. ★ = the owner
 
 - [Best Buy Health 2024–2026: the divestiture on the public record](wiki/analysis/employers/best-buy-health/2026-09-10-best-buy-health-2024-2026-divestiture-public-record.md) — *explanation.* The disclosed impairments, restructuring and divestiture 2024–2026, correlated with the owner's contemporaneous notes, plus how to use it in an interview. **Load when** preparing to explain the Best Buy Health years, or writing anything that touches that period.
 - [Emerging and established specializations, 2026-09-13](wiki/analysis/2026-09-13-specializations-landscape.md) — *explanation.* Market evidence behind every dream-job candidate, with the quotations committed and each source marked read-directly or search-summary. **Load when** weighing a direction, or re-checking whether a candidate has aged well.
+- [LinkedIn profile visibility, 2026-09-14](wiki/analysis/2026-09-14-linkedin-profile-visibility.md) — *explanation.* What LinkedIn's own engineering and help pages say gets a profile found by recruiters, which popular claims are unsourced, and the update cadence that follows. **Load when** deciding whether or how often to touch the profile.
 - [Executive language glossary](wiki/analysis/executive-language-glossary.md) — *reference.* Impairment, restructuring charge, reporting unit, fiscal year, ODM, white label, modularity. **Load when** reading or writing about an employer's public record.
 
 ## Source summaries (one per document)

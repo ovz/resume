@@ -56,9 +56,10 @@ Director of Data Governance, Best Buy Health. Collaborator on the AI-enabled dat
 
 ### Tim Wodarski
 
-Best Buy Health. Provided mentorship toward the owner's Staff Engineer progression, and is the contact with whom the owner maintained a standing list of topics revisited over time — the longest-running mentoring relationship in the records.
+Senior Director, Networking, in Best Buy's Digital and Technology organization (DAT — where Best Buy's engineers sit). The owner's mentor for over a year and counting: always helpful, always curious how Health is doing, and the person who taught him most about navigating the wider enterprise. Tim's view is that the owner is **overdue for the Staff Engineer pay grade**, as many engineers in Tim's own team and across DAT are. The owner brings him career questions he cannot take to his reporting line — how to get closer to profit-generating work, how to handle the uncertainty of a possible pivot from building devices, and his goal of the official Principal Engineer pay grade before fifty.
 
-- **Reference potential: strong** for growth, engineering judgement, and trajectory. Role title not stated in the source; confirm before listing.
+- Evidenced in: leadership-board one-on-one lists with him, 2025–2026; [career repositories](../workflows/career-repositories.md) for the goal he advises on
+- **Reference potential: strong** for growth, engineering judgement and trajectory, from outside the reporting line. Title stated by the owner 2026-09-14.
 
 ### Lindsay Stocks
 
@@ -68,10 +69,10 @@ Assistant Director, Best Buy Health. Appears as an escalation path and a relatio
 
 ### Shiping Wang
 
-MCU firmware owner, Best Buy Health. The firmware counterpart in the production-telemetry ↔ firmware-expertise collaboration that the device-health work depends on; correlated an anomaly-monitor firing with independent MCU alerts.
+MCU firmware engineer, Best Buy Health — bright, and junior. Worked with the MCU Principal Engineer, Rob Gonsiewski, until Rob was laid off, and now carries the microcontroller side largely alone. The firmware counterpart in the production-telemetry ↔ firmware-expertise collaboration that the device-health work depends on; correlated an anomaly-monitor firing with independent MCU alerts; supplied the corner-case material behind the 2026 beacon tracking release candidate. The owner continually raises the bar for him — in January 2026, for example, pushing for comprehensiveness grounded in a defined space rather than comprehensiveness for its own sake.
 
-- Evidenced in: [2025-05-29 anomaly monitor validation](../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md)
-- **Reference potential: strong and specific** — a firmware engineer who can speak first-hand to the observability work's technical credibility, covering 2025.
+- Evidenced in: [2025-05-29 anomaly monitor validation](../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md), [2023-11-27 Home/Away beacon tracking](../../raw/brag/2023-11-27-r5-home-away-beacon-tracking.md), [2026-09-01 beacon tracking and FOTA persistence](../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md)
+- **Reference potential: strong and specific** — a firmware engineer who can speak first-hand to the observability work's technical credibility, covering 2025–2026.
 
 ### Rick Kunin
 
@@ -89,10 +90,10 @@ Reporting-line manager, Best Buy Health, roughly 2022 – late 2024. The counter
 
 ### Hao Do
 
-Engineering peer, Best Buy Health. Long-running one-on-one counterpart and the other candidate in the contested Staff Engineer promotion — a peer relationship the owner deliberately kept collegial while arguing openly that the organization should clarify whether it could promote both.
+Former peer — a Sr. Software Engineer alongside the owner at GreatCall — and now his engineering manager at Best Buy Health. Competent, and more oriented to engineering management than to engineering; in the owner's reading still building the people-management side of the role. Their weekly one-on-ones are solid, and they are where the owner raised the 2026 asks — the location state machine as the next stage, downstream consumers for beacon tracking, the AI token budget. The owner also raises the bar for him, and does not rely on Hao's management to advance his own career. Earlier, the other candidate in the contested 2023 Staff Engineer promotion — a peer relationship the owner deliberately kept collegial while arguing openly that the organization should clarify whether it could promote both.
 
-- Evidenced in: [2023-05-02 performance conversation](../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md)
-- **Reference potential: worth considering** as a peer who can speak to sustained collaboration under competitive pressure. Surname inferred from the source username — confirm before use.
+- Evidenced in: [2023-05-02 performance conversation](../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md), [2026-09-01 beacon tracking and FOTA persistence](../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md); leadership-board one-on-one lists 2025–2026
+- **Reference potential: worth considering** as a former peer and current manager who can speak to sustained collaboration. Surname inferred from the source username — confirm before use.
 
 ### Joel Stair
 
@@ -107,6 +108,15 @@ Hardware engineering, Best Buy Health. The hardware counterpart on the sensor-cl
 
 - Evidenced in: [2021-11-22 dead reckoning and sensor cluster](../../raw/brag/2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md)
 - **Reference potential: strong and specific** for hardware/firmware collaboration and the R&D phase.
+
+### Rob Gonsiewski
+
+Principal Engineer, MCU firmware, Best Buy Health, until he was laid off (date to confirm). Carried the microcontroller and low-level cradle testing on beacon tracking in 2023 alongside Shiping Wang, and was the senior engineer the MCU junior learned from. His departure is part of why the owner is now the only engineer fully qualified on the device's state-machine codebase.
+
+The owner also describes a "Rob" as possibly the best boss he ever had — and says that instead of becoming that Rob's peer across Hospital at Home and wearables, he has had to fight a big-fish-small-pond mentality. **Whether that is Rob Gonsiewski is not established in the records**, which show Rob Gonsiewski as an MCU engineering colleague; confirm before either statement is attached to him.
+
+- Evidenced in: [2023-11-27 Home/Away beacon tracking](../../raw/brag/2023-11-27-r5-home-away-beacon-tracking.md)
+- **Reference potential: strong** for the device programme's firmware side, if reachable.
 
 ### Others appearing in the records
 

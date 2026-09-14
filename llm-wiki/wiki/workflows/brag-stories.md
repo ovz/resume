@@ -138,7 +138,7 @@ The two tier sections are load-bearing. **Say it** is what goes in the room; **K
 
 1. **Pick or open a cluster.** A cluster is a set of stories a listener would ask about together. Its hub note lists the planned and written stories and the entries behind each. Coverage threads are a good first cut, but a cluster is shaped for telling, not for gap-counting.
 2. **Write the story** from the template, linking every entry it draws on under *Sources*.
-3. **Mark each source entry.** Add `storied:` to its frontmatter — a list of story paths, e.g. `storied: [positioning/one-engine-for-every-source]` — and a `## Record history` line. It is the one property that changes after capture, alongside `thread`; the body is never touched. **Never add it empty:** the main graph tests whether the property exists, so an empty `storied:` hides an entry that has not graduated.
+3. **Mark each source entry.** Add `storied:` to its frontmatter — a list of story paths, e.g. `storied: [positioning/home-away-kept-simple]` — and a `## Record history` line. It is the one property that changes after capture, alongside `thread`; the body is never touched. **Never add it empty:** the main graph tests whether the property exists, so an empty `storied:` hides an entry that has not graduated.
 4. **Update the hub's table and the [story map](../stories/story-map.md).**
 
 An entry may feed several stories; list them all. Nothing here touches the resume — promotion to `markdown/` stays the [update workflow](../resume/update-workflow.md).

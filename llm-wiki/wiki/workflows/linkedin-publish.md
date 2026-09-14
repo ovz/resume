@@ -114,6 +114,7 @@ Three rules would apply, all consequences of the same idea — that this is the 
 
 ## Related
 
+- [LinkedIn profile visibility, 2026-09-14](../analysis/2026-09-14-linkedin-profile-visibility.md) — what actually gets a profile found, and why the paste cadence here does not need to change for search.
 - [Primary resume — structure and cut points](../resume/primary-resume.md) § *The LinkedIn mirror* — how blocks are marked and budgeted.
 - [Update the outward-facing resume](../resume/update-workflow.md) — the edit pass that produces a new block in the first place.
 - [`linkedin/README.md`](../../../linkedin/README.md) — generated; what each block is and how the conversion works.

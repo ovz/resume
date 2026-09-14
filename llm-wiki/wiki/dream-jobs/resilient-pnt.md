@@ -30,7 +30,7 @@ The threat is cheap and routine: "cheap one-watt jammers, though illegal in most
 Unusually direct, once the vocabulary is translated:
 
 - **Company subject-matter expert on positioning** across GNSS, ECID, Wi-Fi and BLE — a genuinely multi-source record, not a GPS record ([resume][primary]).
-- **The arbitration layer already built**: [per-provider interfaces with a state-management layer that arbitrates between sources and falls back cleanly when one fails](../../raw/brag/2025-11-15-r5-location-engine-design.md). That is the core of a resilient-PNT design, shipped on a consumer wearable.
+- **The arbitration layer already built**: [per-provider interfaces with a state-management layer that arbitrates between sources and falls back cleanly when one fails](../../raw/brag/2025-11-15-r5-location-engine-design.md). That is the core of a resilient-PNT design. *Note 2026-09-14: the board does not document the 2025 engine itself, and "shipped" is unconfirmed — see its* Evidence limitations.
 - **Failure behaviour treated as the design problem**: [root-causing a positioning library losing the fix, finding the recovery step the fallback path was missing, and reinterpreting an error counter as a proxy for *time without a fix*](../../raw/brag/2024-05-15-skyhook-positioning-root-cause-diagnostics.md). Time-without-fix is exactly the assured-PNT metric.
 - **Dead reckoning from first principles** — [sensor and MCU selection justified against heading and gyroscope-precession requirements](../../raw/brag/2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md) — which is the inertial half of the discipline.
 - **Silicon-partner fluency**: the vendor question set on what the modem can serve alone, and [the engineer-to-engineer practice across silicon and firmware partners](../../raw/brag/2026-09-11-hardware-cadence-engineer-to-engineer.md).
@@ -40,7 +40,7 @@ Unusually direct, once the vocabulary is translated:
 
 Three named gaps, none deep: **no anti-spoofing or anti-jamming work**; **no inertial navigation at the filter level** (he specified and architected dead reckoning, he did not implement the estimator); and **no exposure to the certification regimes** of aviation or defence timing.
 
-Shortest path: learn the threat model properly (spoofing detection signatures, the standard countermeasure stack), then re-tell the location-engine story in PNT terms — sources, arbitration, fallback, degradation — because the structure already matches and only the words are missing. A first role is more likely to be a systems or architecture seat on a resilient-PNT product than a filter-design seat, and that is the right entry anyway.
+Shortest path: learn the threat model properly (spoofing detection signatures, the standard countermeasure stack), then tell the location-engine work in PNT terms, once its outcome claims are confirmed — sources, arbitration, fallback, degradation — because the structure already matches and only the words are missing. A first role is more likely to be a systems or architecture seat on a resilient-PNT product than a filter-design seat, and that is the right entry anyway.
 
 ## The vocabulary to foreground
 
@@ -49,7 +49,6 @@ Multi-source PNT · arbitration and source selection · GNSS denial and degradat
 ## Stories to tell for it
 
 - [The fault that lost the fix](../stories/positioning.md) (P3) — a positioning failure diagnosed from telemetry, plus the recovery gap.
-- [One engine for every location source](../stories/positioning.md) (P4) — arbitration and fallback, verbatim the job description.
 - [Positioning as a non-issue in the power budget](../stories/positioning.md) (P2) — for any battery-powered PNT product.
 
 ## How to tell if this is the one

@@ -42,7 +42,7 @@ Start at [`index.md`](index.md). It lists every page with a one-line purpose and
 
 ## Sensitivity
 
-Three tiers govern where information may live: **T0 public** (the primary resume only), **T1 private repo** (everything else committed, including brag entries and the references document), **T2 never committed** (employer-internal material and large files, which live in a session-wiki scratch scope). Definitions, promotion rules, and heuristics: `wiki/workflows/sensitivity-tiers.md`. Two hard rules apply everywhere: no committed file references a path under `__untracked_stuff/`, and third-party contact details are never copied out of the references document.
+Three tiers govern where information may live: **T0 public** (the primary resume only), **T1 private repo** (everything else committed, including brag entries and the references document), **T2 never committed** (employer-internal material and large files, which live in a session-wiki scratch scope). Definitions, promotion rules, and heuristics: `wiki/workflows/sensitivity-tiers.md`. Two hard rules apply everywhere: no committed file references a path under `__untracked_stuff/` (the root `TODO.md` is the single deliberate exception — see the root `AGENTS.md`), and third-party contact details are never copied out of the references document.
 
 ## Large and sensitive files
 
@@ -61,6 +61,7 @@ PDFs, exports, screenshots, and employer-internal notes are never committed (`.g
 | Capture an accomplishment right now, in any format | `wiki/workflows/brag-file.md` §§ *Part 0*–*Part 1* |
 | Fold captured accomplishments into the wiki | `wiki/workflows/brag-file.md` § *Part 2* |
 | Graduate entries into stories, or build a reading list for an interview, event or employer | `wiki/workflows/brag-stories.md` |
+| Work that spans the resume, job-search and C++ training repositories, or Claude Cowork | `wiki/workflows/career-repositories.md` |
 | Get the generated blocks onto the LinkedIn profile, or answer whether that can be automated | `wiki/workflows/linkedin-publish.md` |
 | Retire a superseded `../markdown/` document | `wiki/workflows/archive-source.md` |
 | Decide whether something may be written down here | `wiki/workflows/sensitivity-tiers.md` |

@@ -9,8 +9,6 @@ domains:
 context: "Best Buy Health, R5 senior-care wearable, firmware/systems"
 sensitivity: private-repo
 resume-worthy: maybe
-storied:
-  - "positioning/one-engine-for-every-source"
 ---
 
 # Designed and implemented the modular R5 location engine unifying beacon, GPS, and Wi-Fi positioning
@@ -42,6 +40,13 @@ Embedded systems architecture, modular/provider-based interface design, state ma
 
 Internal design document (Confluence, "R5 Location Design") with diagrams, interface definitions, and usage examples; modular architecture and provider interfaces visible in the code repositories and interface specifications.
 
+## Evidence limitations
+
+Added 2026-09-14 and revised the same day after the owner's clarification.
+
+- **The 2026 location state-machine argument is not evidence against this entry.** Board notes from July–August 2026 say beacon tracking "as an add on falls apart quickly" and ask for a green light on a location state machine. The owner clarified that the 2023 Home/Away design never needed one; the case arose from top-down add-ons accreted onto beacon tracking by August 2026, and he advocates the state machine as the next stage. See [2026-09-01 beacon tracking and FOTA persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) § *Correction and context*.
+- **The board does not itself document the 2025 engine.** The design document cited under *Evidence* shares its name with the location design he wrote in 2022, and this entry was built from the same style of owner write-up as the beacon entry, whose outcome claims turned out to be design intent. Read *Why it matters* as intent until confirmed.
+
 ## Related
 
 - [2024-05-15-skyhook-positioning-root-cause-diagnostics](2024-05-15-skyhook-positioning-root-cause-diagnostics.md) — earlier positioning-reliability work on the Wi-Fi/GNSS side of the same device family; the fragmentation diagnosed there is part of what this engine consolidates.
@@ -51,3 +56,5 @@ Internal design document (Confluence, "R5 Location Design") with diagrams, inter
 
 - 2026-09-08: created from an owner write-up (accomplishment dated 2025-09 to 2025-11-15); internal design-doc URL replaced with a generic description per the brag-file rules
 - 2026-09-13: graduated into story `positioning/one-engine-for-every-source`; `storied` property added, body untouched.
+- 2026-09-14: *Evidence limitations* added — August 2026 board notes contradict beacon tracking being a provider behind a finished engine; owner ruling pending. `storied` removed because the story `positioning/one-engine-for-every-source` was retired as wrong; the entry returns to the working graph.
+- 2026-09-14 (second round): *Evidence limitations* revised — the owner clarified that the state-machine argument concerns add-ons accreted onto beacon tracking, so the "contradiction" framing was withdrawn; the remaining limitation is that the board does not document the engine itself.

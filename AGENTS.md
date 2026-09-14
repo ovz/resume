@@ -68,6 +68,8 @@ captured when it happens   and themes                         variant
 | See what the resume is missing, and how much is covered | [`llm-wiki/wiki/resume/coverage.md`](llm-wiki/wiki/resume/coverage.md) |
 | Put something on the outward-facing resume | `resume-editing` skill → [`llm-wiki/wiki/resume/update-workflow.md`](llm-wiki/wiki/resume/update-workflow.md) |
 | Decide where this career should point next, or judge a role against the record | [`llm-wiki/wiki/dream-jobs/dream-job-hub.md`](llm-wiki/wiki/dream-jobs/dream-job-hub.md) — candidates graded on evidence, the owner's own ideas marked apart from an agent's |
+| Work across the career repositories — this one holds the past, the job-search and C++ training repositories hold the search and the future | [`llm-wiki/wiki/workflows/career-repositories.md`](llm-wiki/wiki/workflows/career-repositories.md) — what each owns, how knowledge moves between them, where Claude Cowork fits |
+| Decide how often to touch the LinkedIn profile, and what actually gets it found | [`llm-wiki/wiki/analysis/2026-09-14-linkedin-profile-visibility.md`](llm-wiki/wiki/analysis/2026-09-14-linkedin-profile-visibility.md) |
 | Refresh the LinkedIn profile from the resume | `linkedin-publish` skill → [`llm-wiki/wiki/workflows/linkedin-publish.md`](llm-wiki/wiki/workflows/linkedin-publish.md) |
 | Find out whether the LinkedIn update can be automated | Same page, § *The answer, first* — it cannot, and the research is recorded so it is not repeated |
 | Decide whether a fact may be written down at all | [`llm-wiki/wiki/workflows/sensitivity-tiers.md`](llm-wiki/wiki/workflows/sensitivity-tiers.md) |
@@ -109,7 +111,7 @@ Three tiers govern what may be written where: **T0 public** (the primary resume 
 
 Two hard rules apply everywhere:
 
-- No committed file may reference a path under `__untracked_stuff/`. A committed file must stand alone in a fresh clone; a pointer into scratch is dead on arrival for every other reader, and dead *silently*. Describe the shape of the scratch convention if you must, but never a concrete scratch path.
+- No committed file may reference a path under `__untracked_stuff/`. A committed file must stand alone in a fresh clone; a pointer into scratch is dead on arrival for every other reader, and dead *silently*. Describe the shape of the scratch convention if you must, but never a concrete scratch path. **The one exception is the root `TODO.md`**, the owner's worklist: it names every session-wiki assignment tracker that still holds action items — in this repository and in its [sibling career repositories](llm-wiki/wiki/workflows/career-repositories.md) — so that `git diff` shows what is outstanding. An agent adds the line when a tracker opens items and removes it when the tracker closes; no other committed file may cite those paths.
 - Third-party contact details are never copied out of `markdown/Oleg.Zhylin.professional.references.md`.
 - Colleague names, roles and the substance of working relationships are recorded in full at T1 — they are the professional record, not an aside to it. Capture is not disclosure: what the owner chooses to say in an interview is a separate judgement, and names still come out at T0.
 

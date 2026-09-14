@@ -34,7 +34,7 @@ This is the strongest-evidenced candidate on the list that is also genuinely new
 - **Eight years as the company's positioning subject-matter expert** across GNSS (GPS, GLONASS, Galileo), ECID, Wi-Fi and BLE beacons, including a major upgrade of the positioning infrastructure ([resume][primary]).
 - **A sensor-fusion architecture already designed from first principles**: [a low-power sensor cluster and dedicated BLE MCU between the sensors and the application processor, using the sensor's own embedded machine-learning core to classify motion so the AP stays asleep](../../raw/brag/2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md) — selected and justified against motion, fall, stair-transition, heading and gyroscope-precession requirements, with a bench-evaluation programme specified to settle the open questions.
 - **Fusion pushed as far down the stack as the silicon allows**: the vendor question set from that period asks which positioning methods the modem can serve alone, what the fused-location path costs, and whether the combo radio can watch for specific beacons and wake the AP only on a change. That is hardware-aware fusion, not library integration.
-- **One engine, many sources, with arbitration**: [the modular location engine unifying beacon, GPS and Wi-Fi behind per-provider interfaces with a state layer that arbitrates and falls back](../../raw/brag/2025-11-15-r5-location-engine-design.md).
+- **One engine, many sources, with arbitration**: [the modular location engine unifying beacon, GPS and Wi-Fi behind per-provider interfaces with a state layer that arbitrates and falls back](../../raw/brag/2025-11-15-r5-location-engine-design.md). *Note 2026-09-14: the board does not document the 2025 engine itself and its outcome claims are unconfirmed; see the entry's* Evidence limitations.
 - **The sensor record itself**: accelerometry, gyroscopes, GNSS, BLE and [PPG](../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md) — and [fall detection as the product's focused driver, whose next innovation he is driving](../../raw/brag/2026-09-11-fall-detection-product-driver.md).
 - **Power as a co-equal constraint** — [battery and power management as a second specialization](../../raw/brag/2021-10-16-battery-power-second-specialization.md) — which is what separates someone who can ship fusion from someone who can only prototype it.
 - **Machine learning as a product discipline for seventeen years**, plus neural networks already applied to senior health and safety ([resume][primary]).
@@ -56,7 +56,6 @@ Sensor fusion · multimodal · IMU and inertial · GNSS/Wi-Fi/BLE hybridization 
 ## Stories to tell for it
 
 - [Positioning as a non-issue in the power budget](../stories/positioning.md) (P2) — the architecture story, told as a fusion story.
-- [One engine for every location source](../stories/positioning.md) (P4) — arbitration and fallback.
 - Fall detection from the R4 implementation through the sensor-cluster architecture to the innovation he is driving now — the through-line a perception team will care about most.
 
 ## How to tell if this is the one

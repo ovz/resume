@@ -8,7 +8,8 @@
 
 | Cluster | Hub | Stories | Reach for it when |
 |---|---|---|---|
-| Positioning, location and GPS | [positioning](positioning.md) | 4 planned, 3 drafted (P2, P3, P4); P1 needs capture | Embedded and firmware roles; location, sensors, power; "hardest bug"; vendor and silicon partners |
+| Positioning, location and GPS | [positioning](positioning.md) | 4 planned, 3 drafted (P2, P3, P4); P1 needs ingest of new owner material | Embedded and firmware roles; location, sensors, power; "hardest bug"; vendor and silicon partners; buy-versus-build |
+| State machines, and the codebase whose authors are gone | [state-machines](state-machines.md) | 3 planned (S1–S3), none drafted | Legacy code and technical debt; saying no to ad hoc complexity; mentoring and raising the bar; C++ state-machine design |
 
 ## Clusters to come
 
