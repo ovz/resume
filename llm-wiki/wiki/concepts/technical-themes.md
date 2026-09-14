@@ -8,6 +8,14 @@
 
 Modern C++, concurrency, battery-aware design, cellular connectivity, positioning, subsystem coordination, and device-side testing recur in the healthcare and emergency-response work. The framing is that radio and software stacks have no sense of urgency of their own; the engineering supplies it. [primary]
 
+## Power, and cost of operation, as first-class constraints
+
+Not a footnote to the embedded work but a second specialization interlocked with the first: positioning and power are treated as one subject, because the same mechanisms — what wakes the application processor, how often the device talks to the network, how long a radio stays on — decide both. The same instinct extends past the battery to the bill: the resource a fleet spends on cellular data is engineered, measured and policed the same way. The recurring habit is that **a claim about a resource is not admissible without a measurement** — an engineering build, devices soaking, a notebook. [battery] [cost]
+
+## Concurrency, and the failures that will not reproduce
+
+A twenty-year thread rather than a listed skill: a cross-platform TCP/IP daemon that taught it, a positioning library losing its fix to a multithreading fault, a race on a power-managed SoC that expressed itself as a wrong sound and a reboot. The method is consistent — when the bug will not reproduce, make the *evidence* reproducible: correlate independent subsystems, look for the same operation happening twice, treat a negative experiment as information, and instrument so the occurrence you cannot schedule leaves a trace. [concurrency]
+
 ## Machine learning products
 
 Connecting machine learning theory and predictive engines with usable GUIs, APIs, command-line tools, cloud offerings, and customer-facing data workflows. The repeated concern is serving both domain experts and specialist data scientists from one product. [primary] [long]
@@ -33,4 +41,7 @@ An undergraduate career in cryptography and information security left a habit of
 Technical leadership, product ownership, hiring, distributed and outsourced teams, Agile practice, mentoring, and management. The preferred style is enabling motivated, self-organizing teams and leading from behind; the recurring result is team members growing into instrumental contributors. [primary] [long]
 
 [primary]: ../../../markdown/Oleg.Zhylin.resume.achievements.md "Primary resume (achievements)"
+[battery]: ../../raw/brag/2021-10-16-battery-power-second-specialization.md "Battery and power as a second specialization"
+[cost]: ../../raw/brag/2024-01-04-cellular-cost-rogue-device-detection.md "Cellular cost and rogue-device detection"
+[concurrency]: ../../raw/brag/2023-09-26-audio-service-race-condition-diagnosis.md "The audio-service race condition"
 [long]: ../../raw/archive/Oleg.Zhylin.resume.md "Archived long-form resume"

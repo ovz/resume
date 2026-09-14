@@ -31,9 +31,10 @@ This skill owns the first two. Capture is deliberately low-friction because it i
 2. **Check for an existing entry**, then classify: *duplicate* (nothing new — merge, no second file), *update* (new evidence or outcome — augment in place), or *related* (distinct accomplishment in the same programme — new entry, reciprocal links, same thread).
 3. **Date by the accomplishment, not by today.** The filename and `date:` line describe when the thing happened; the trailing `## Record history` is the only place that records when the file changed.
 4. **Check the tier** against [`sensitivity-tiers.md`](../../../llm-wiki/wiki/workflows/sensitivity-tiers.md). Input is usually clean, but check every time. A case the policy does not resolve cleanly is a defect in the policy: apply the conservative reading, record the case, and propose the refinement — never settle it with a silent one-off call.
-5. **Preserve the technical substance.** Mechanisms, schemas, algorithms, failure modes, thresholds and the actual reasoning stay in. Keep the owner's own words where they carry meaning, and keep every rendering supplied — a performance-review version, a concise version and a resume-style version are three useful compressions, not one to pick from. Abstract only what the tier requires.
-6. **Capture only.** A drop never edits the resume, the synthesis pages, or the coverage map.
-7. **Confirm the paths back to the owner and stop.**
+5. **Write down what the evidence does *not* support, while it is fresh.** An `## Evidence limitations` section, and a `## What was blocked, cut short, or wrong` section where there is anything to say, are what make later prominence decisions possible — and the owner's position is explicit: honest telling of blockers, including the ones not overcome, beats a record that only holds wins.
+6. **Preserve the technical substance.** Mechanisms, schemas, algorithms, failure modes, thresholds and the actual reasoning stay in. Keep the owner's own words where they carry meaning, and keep every rendering supplied — a performance-review version, a concise version and a resume-style version are three useful compressions, not one to pick from. Abstract only what the tier requires.
+7. **Capture only.** A drop never edits the resume, the synthesis pages, or the coverage map.
+8. **Confirm the paths back to the owner and stop.**
 
 ## Ingest — periodic
 
@@ -52,7 +53,7 @@ Follow § *Part 2* of the workflow page. Two steps are easy to forget and both m
 
 The third stage. An entry whose substance is told in a **story** graduates: a `storied:` property goes on the entry, its body is never touched, and the main Obsidian graph steps it out of the working view. Stories live in `llm-wiki/wiki/stories/<cluster>/`, beside a hub note per cluster. A **reading list** is the three to seven stories worth rereading before one conversation.
 
-Procedure, structure and reading-list steps: [`llm-wiki/wiki/workflows/brag-stories.md`](../../../llm-wiki/wiki/workflows/brag-stories.md). Two rules are easy to break:
+Procedure, structure and reading-list steps: [`llm-wiki/wiki/workflows/brag-stories.md`](../../../llm-wiki/wiki/workflows/brag-stories.md). **Voice, prominence and how to talk about work that was blocked: [`llm-wiki/wiki/workflows/voice-and-prominence.md`](../../../llm-wiki/wiki/workflows/voice-and-prominence.md)** — read it before writing any outward text, including a resume line or a LinkedIn block. Two rules are easy to break:
 
 - **Never add an empty `storied:`** — the graph tests for the property's presence, so an empty one hides an entry that has not graduated.
 - **A reading list belongs to one conversation.** Keep it in the session scratch scope; only durable employer research goes into `llm-wiki/wiki/analysis/employers/<employer>/`.

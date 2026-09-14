@@ -44,6 +44,7 @@ captured when it happens   and themes                         variant
 | Turn entries into told-able stories, or get a reading list for an interview, event or employer | `brag-capture` skill → [`llm-wiki/wiki/workflows/brag-stories.md`](llm-wiki/wiki/workflows/brag-stories.md) |
 | See what the resume is missing, and how much is covered | [`llm-wiki/wiki/resume/coverage.md`](llm-wiki/wiki/resume/coverage.md) |
 | Put something on the outward-facing resume | `resume-editing` skill → [`llm-wiki/wiki/resume/update-workflow.md`](llm-wiki/wiki/resume/update-workflow.md) |
+| Decide where this career should point next, or judge a role against the record | [`llm-wiki/wiki/dream-jobs/dream-job-hub.md`](llm-wiki/wiki/dream-jobs/dream-job-hub.md) — candidates graded on evidence, the owner's own ideas marked apart from an agent's |
 | Refresh the LinkedIn profile from the resume | `linkedin-publish` skill → [`llm-wiki/wiki/workflows/linkedin-publish.md`](llm-wiki/wiki/workflows/linkedin-publish.md) |
 | Find out whether the LinkedIn update can be automated | Same page, § *The answer, first* — it cannot, and the research is recorded so it is not repeated |
 | Decide whether a fact may be written down at all | [`llm-wiki/wiki/workflows/sensitivity-tiers.md`](llm-wiki/wiki/workflows/sensitivity-tiers.md) |
@@ -52,6 +53,14 @@ captured when it happens   and themes                         variant
 | Ingest any other source, answer a question from the wiki, or lint it | [`llm-wiki/AGENTS.md`](llm-wiki/AGENTS.md) § *Workflows* |
 
 Skipping a hop is the failure this layout exists to prevent: text copied straight from a brag entry into the resume has passed neither the sensitivity check nor the depth check, and both are easy to lose silently.
+
+## How the record gets told — a foundation pillar
+
+Anything written to be read or said outward — a story, a resume line, a LinkedIn block, a reading list — goes through [`llm-wiki/wiki/workflows/voice-and-prominence.md`](llm-wiki/wiki/workflows/voice-and-prominence.md) **before** it is drafted. It is not a style guide; it is load-bearing, and it carries three rules that the rest of this repository assumes:
+
+- **One voice, many registers.** Every telling sounds like the same person, so the owner drops into storytelling mode from the first line — but thirty years cannot be told in one register, and the page defines one per era. The mode is role-play: channel the genuine past self, then let the present self narrate.
+- **Prominence follows evidence.** How loudly a claim is made is set by support *and* impact, never by stated impact alone. **False humility is a defect**, exactly as overclaiming is: a well-grounded, high-impact accomplishment that appears nowhere prominent is a bug in the record.
+- **Blocked, frozen and never-shipped work is tellable.** What shipped, what was built then stopped, and what was argued for and refused — each has an honest sentence, and the lesson from a blocker is part of the win. Honest telling never requires disclosure; the boundary stays [the sensitivity tiers](llm-wiki/wiki/workflows/sensitivity-tiers.md).
 
 ## Building
 

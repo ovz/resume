@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-[storied]",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -22,6 +22,27 @@
       }
     },
     {
+      "query": "path:llm-wiki/wiki/dream-jobs [origin:owner]",
+      "color": {
+        "a": 1,
+        "rgb": 2877546
+      }
+    },
+    {
+      "query": "path:llm-wiki/wiki/dream-jobs",
+      "color": {
+        "a": 1,
+        "rgb": 10273899
+      }
+    },
+    {
+      "query": "path:llm-wiki/wiki/stories",
+      "color": {
+        "a": 1,
+        "rgb": 15224744
+      }
+    },
+    {
       "query": "path:llm-wiki/raw/brag [resume-worthy:yes]",
       "color": {
         "a": 1,
@@ -33,6 +54,13 @@
       "color": {
         "a": 1,
         "rgb": 4046752
+      }
+    },
+    {
+      "query": "path:llm-wiki/wiki/analysis/employers",
+      "color": {
+        "a": 1,
+        "rgb": 7028159
       }
     },
     {
@@ -74,6 +102,6 @@
   "repelStrength": 13,
   "linkStrength": 0.85,
   "linkDistance": 180,
-  "scale": 1.0127192567913843,
+  "scale": 0.7059781736397789,
   "close": true
 }
