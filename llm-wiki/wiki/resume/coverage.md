@@ -10,10 +10,10 @@
 
 | Measure | Coverage |
 |---|---|
-| All promotable claims | **≈ 62%** — 95 of 154 claims |
-| Claims from entries marked `resume-worthy: yes` | **≈ 68%** — 69 of 102 claims |
+| All promotable claims | **≈ 59%** — 95 of 160 claims |
+| Claims from entries marked `resume-worthy: yes` | **≈ 64%** — 69 of 108 claims |
 
-91 claims are fully reflected. 8 are gestured at generically. 55 are absent. **Two are `held`** — recorded deliberately and never for the resume — and **one is struck** as wrong; all three are excluded from the totals above. Both figures were recounted from the tables on 2026-09-13 and adjusted by delta on 2026-09-14; the `resume-worthy: yes` line had drifted by one claim, which is the kind of drift the *Maintenance* note below expects and says to fix by recounting. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
+91 claims are fully reflected. 8 are gestured at generically. 61 are absent. **Two are `held`** — recorded deliberately and never for the resume — and **one is struck** as wrong; all three are excluded from the totals above. Both figures were recounted from the tables on 2026-09-14. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
 
 > **How the number got here, and what each past pass promoted, is now [coverage history](coverage-history.md)** — including the two earlier occasions when coverage *fell* while nothing was removed from the resume, which is the metric behaving correctly rather than a regression.
 
@@ -403,8 +403,6 @@ The owner's second major, and the same subject as `POS` seen from the power side
 
 > `PWR-4` and `PWR-6` are the claims to watch: both are genuinely principal-level and both currently rest on the owner's own assessment, with no measured before/after committed. Promote them narrowly, or promote `PWR-2` and `PWR-5` instead, which are documented. See [voice and prominence](../workflows/voice-and-prominence.md) § *Prominence follows evidence*.
 
----
-
 ### COST — Cost of operation: cellular data and the devices that waste it
 
 Where observability stops being about reliability and starts being about money. The company is its own MVNO, so cellular data is a direct per-device cost.
@@ -424,8 +422,6 @@ Where observability stops being about reliability and starts being about money. 
 
 > `COST-6` is deliberately weak and should stay low-prominence or be dropped outward: submitted is not adopted, and the record shows no outcome. The dollar figure behind `COST-1` is the owner's own and is not in the archive — an outward claim should say "devices costing real money" and let a follow-up question carry the number.
 
----
-
 ### STAT — The statistical bar, and the Data Science partnership
 
 The practice underneath the `OBS` thread's credibility: knowing when a question needs statistics and when it needs one decisive experiment, and keeping a specialist team engaged across an organizational boundary.
@@ -444,15 +440,13 @@ The practice underneath the `OBS` thread's credibility: knowing when a question 
 
 > **The weakest-supported thread in the corpus, and the entry says so itself.** `STAT-1` and `STAT-3` rest largely on the owner's statement; `STAT-2` and `STAT-4` are corroborated. Any outward claim should be drawn at the line the `OBS` entries already reach.
 
----
-
 ### CONC — Concurrency, and the bugs that vanish when observed
 
-A failure class the owner has pursued for twenty years, with one fully documented investigation at its centre.
+A failure class the owner has pursued for twenty years: evidence-led diagnosis, followed by vendor corrective engineering and a later owner-reported QA improvement in the same audio subsystem. Owner's concurrency chops acquired early in the career continue to bring value. 
 
-**Entries:** [2023-09-26 audio-service race condition](../../raw/brag/2023-09-26-audio-service-race-condition-diagnosis.md) · cross-listed: [2024-05-15 positioning root cause](../../raw/brag/2024-05-15-skyhook-positioning-root-cause-diagnostics.md) (claims under `POS`)
+**Entries:** [2023-09-26 audio-service race condition](../../raw/brag/2023-09-26-audio-service-race-condition-diagnosis.md) · [2026-04-24 manufacturer audio-service corrections](../../raw/brag/2026-04-24-tcl-audio-service-concurrency-corrections.md) · cross-listed: [2024-05-15 positioning root cause](../../raw/brag/2024-05-15-skyhook-positioning-root-cause-diagnostics.md) (claims under `POS`)
 
-**Thread coverage: 0%** (0 of 5)
+**Thread coverage: 0%** (0 of 11)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -461,14 +455,20 @@ A failure class the owner has pursued for twenty years, with one fully documente
 | `CONC-3` Designed instrumentation and fault injection instead of repeating a manual test, including a negative experiment that separated two failure modes | 2023-09-26 | absent |
 | `CONC-4` Separated a defect that was being debugged as part of another, wrote a reproduction others could follow, and framed it as a risk rather than a bug report | 2023-09-26 | absent |
 | `CONC-5` Treats concurrency as a specialization spanning a 2004 TCP/IP daemon, a 2024 positioning multithreading fault, and TLA+ study in 2026 | 2023-09-26 | absent |
+| `CONC-6` Drove the manufacturer's audio-service corrections through successive concrete requests and source reviews, with the vendor owning implementation | 2026-04-24 | absent |
+| `CONC-7` Directed corrections to producer-consumer synchronization, queue-pointer ownership and shared-state locking | 2026-04-24 | absent |
+| `CONC-8` Extended corrective review to C/ALSA resource lifetimes and worker shutdown sequencing | 2026-04-24 | absent |
+| `CONC-9` Defined structural acceptance criteria and runtime test requirements so known unsafe code did not masquerade as meaningful stress-test evidence | 2026-04-24 | absent |
+| `CONC-10` After the team's fixes, QA reported smooth audio-service operation with no observed behaviours attributable to lingering concurrency issues; owner-reported, bounded by the retest | 2026-04-24 | absent |
+| `CONC-11` The resulting audio service also received a subjective user-experience improvement assessment in QA; qualitative, not a measured performance gain | 2026-04-24 | absent |
 
-> The resume already says "advanced Concurrency" twice without evidence behind it; this thread is the evidence. `CONC-1` is the strongest single debugging story in the corpus for a systems audience, and the honest ending — mechanism established, fix not attributable to him alone — is what makes it credible rather than weaker.
+> The resume already says "advanced Concurrency" twice without evidence behind it; this thread is the evidence. `CONC-1` supplies the diagnosis; `CONC-6` through `CONC-11` add a distinct correction-and-outcome story. The last retained static review still had open findings; the later QA result is owner-reported, with no exact retest date, final build, full closure ledger, or proof of race freedom. Test plans are not executed tests, and the vendor identity stays private.
 
 ## What this says right now
 
-1. **The absent 55 claims now sit in nine threads, and the four largest are new or leadership.** `LEAD` has 12 absent of 16 — still no evidence on the resume of managing upward, mentoring, or process discipline, the behaviours that separate a principal candidate from a senior one. Then `PWR` (7), `COST` (6), `STAT` (5) and `CONC` (5), all opened on 2026-09-13 and none promoted. The statement that "everything technical the brag file knows about has landed" was true on 2026-09-11 and is no longer: battery and power, cost of operation, and concurrency are all technical, all current, and all absent.
+1. **The absent 61 claims now sit in ten threads.** `LEAD` has 12 absent of 16 — still no evidence on the resume of managing upward, mentoring, or process discipline, the behaviours that separate a principal candidate from a senior one. `CONC` now has 11 absent claims, followed by `PWR` (7), `COST` (6) and `STAT` (5). The statement that "everything technical the brag file knows about has landed" was true on 2026-09-11 and is no longer: battery and power, cost of operation, and concurrency are all technical, all current, and all absent.
 2. **Three of the four new threads are strong, and one is not.** `PWR`, `COST` and `CONC` each rest on documented work, and `CONC-1` is arguably the best debugging story in the corpus. `STAT` rests largely on the owner's own account. That asymmetry is exactly what the [prominence rule](../workflows/voice-and-prominence.md) exists for: promote `PWR-2`, `PWR-5`, `COST-2`, `COST-4` and `CONC-1` before anything from `STAT`.
-3. **`QA` is no longer small.** Reframed on 2026-09-13 around the mentorship it actually was, it now carries seven claims — including the refusal to let unit-test coverage become an externally watched metric, and pull-request discipline taught to QA engineers under a compliance mandate. Read it alongside `LEAD`: between them they are 19 of the 51 absent claims, and they are the same argument about how this person operates. `DATA` remains the genuine small zero, at two.
+3. **`QA` is no longer small.** Reframed on 2026-09-13 around the mentorship it actually was, it now carries seven claims — including the refusal to let unit-test coverage become an externally watched metric, and pull-request discipline taught to QA engineers under a compliance mandate. Read it alongside `LEAD`: between them they are 19 of the 61 absent claims, and they are the same argument about how this person operates. `DATA` remains the genuine small zero, at two.
 4. **The binding constraint has changed.** Before the 2026-09-10 budget pass the question was *what is worth promoting*; the pool was rich and the document had room. It is now *what fits*: the About section and every Experience entry are marked with LinkedIn's character budgets and the build fails when one is exceeded. The Best Buy Health entry has 31 characters of headroom. The next promotion into it has to displace something, and that is a real editorial decision rather than an oversight.
 5. **`ARC` is still promoted but uncaptured**, which inverts the normal direction of the pipeline. The resume asserts something the knowledge layer cannot source. The brag entry remains genuinely owed.
 6. **Depth now lives in *Projects Overview*.** Eight new sections carry the Best Buy Health era, which had none before. That is where a future promotion should land first; the C2 bullets and the LinkedIn-budgeted sections above them are for claims that change what a reader should know in the first two pages.

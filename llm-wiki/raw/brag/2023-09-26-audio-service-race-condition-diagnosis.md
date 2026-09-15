@@ -60,8 +60,11 @@ The owner's device-programme board carries the investigation in detail: the quot
 
 Everything above is documented in the owner's own contemporaneous notes; what is absent is the defect's eventual disposition in the employer's tracker. Treat the outcome claim conservatively, as this entry does.
 
+The [later manufacturer-correction effort](2026-04-24-tcl-audio-service-concurrency-corrections.md) now records the owner's report of smooth QA retesting and a subjective user-experience improvement after the team's fixes. That is a distinct, positive outcome in the same subsystem; it does not establish sole closure or a proven one-to-one cause for the original intermittent symptom.
+
 ## Related
 
+- [2026-04-24 TCL audio-service concurrency corrections](2026-04-24-tcl-audio-service-concurrency-corrections.md) — the later vendor-facing corrective effort and QA outcome, extending the thread beyond diagnosis.
 - [2024-05-15-skyhook-positioning-root-cause-diagnostics](2024-05-15-skyhook-positioning-root-cause-diagnostics.md) — the same failure class and the same method, one subsystem over: a multithreading fault found from telemetry alone.
 - [2021-10-16-battery-power-second-specialization](2021-10-16-battery-power-second-specialization.md) — wakelocks and sleep as the power mechanism that this race expressed itself through.
 - [2024-12-31-device-test-automation-robot-framework](2024-12-31-device-test-automation-robot-framework.md) — distinguishing broken tests from broken environments; the same refusal to accept "it is flaky" as an explanation.
@@ -70,3 +73,4 @@ Everything above is documented in the owner's own contemporaneous notes; what is
 ## Record history
 
 - 2026-09-13: created from the committed Trello snapshots, prompted by the owner's statement of 2026-09-13 that concurrency and the heisenbugs it brings is a repeating story. Closes the repository's standing note to capture the audio-service troubleshooting as an entry.
+- 2026-09-14: linked the distinct April-May 2026 TCL correction effort and later owner-reported QA outcome, retaining the original investigation's attribution and root-cause limits.
