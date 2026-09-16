@@ -1,0 +1,61 @@
+# Engineering And Tooling Coverage
+
+> **Doc type:** reference
+>
+> Build systems, standards, AI-assisted engineering and Boost proficiency. Audience: brag ingest and resume promotion. [Coverage map](../coverage.md) owns totals, counting rules and shard routing; each claim below has one canonical home.
+
+### BLD — Build, packaging and engineering standards
+
+The 2021–2022 platform-and-standards layer under the device programme: where the code lives, how it is built and versioned, and the rules it is written to. Captured 2026-09-09 from the owner's own working boards, years after the fact.
+
+**Entries:** [2021-08-15 GitHub Enterprise migration](../../../raw/brag/2021-08-15-github-enterprise-migration-monorepo.md) · [2022-02-18 C++ safety-critical guidelines](../../../raw/brag/2022-02-18-cpp-safety-critical-embedded-guidelines.md) · [2022-04-06 Conan and cross-build](../../../raw/brag/2022-04-06-conan-package-management-embedded-cross-build.md)
+
+**Thread coverage: 100%** (6 of 6)
+
+| Claim | Source | Status |
+|---|---|---|
+| `BLD-1` Spearheaded the organization's migration from Atlassian tooling to GitHub Enterprise, personally owning the embedded monorepo case the platform group could not take | 2021-08-15 | **in** |
+| `BLD-2` Took ownership of an unowned cross-team change rather than waiting for it to be scheduled, as a deliberate and repeated pattern | 2021-08-15 | **in** |
+| `BLD-3` Selected the C++ standard for a safety-critical embedded codebase on what static analysis could actually enforce, comparing MISRA C++, JSF and the Core Guidelines | 2022-02-18 | **in** |
+| `BLD-4` Grounded the written guidelines in the existing static-analysis baseline so the rules are checked on every build rather than remembered by reviewers | 2022-02-18 | **in** |
+| `BLD-5` Designed a Conan versioning and channel-promotion policy tying version fields to releases and pull requests, with CI-generated unique build identity | 2022-04-06 | **in** |
+| `BLD-6` Established cross-compilation to the embedded ARM target, including sysroot packaging strategy and toolchain version pinning | 2022-04-06 | **in** |
+
+---
+
+### AI — AI adoption and agentic engineering
+
+**Entries:** [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) · [2026-05-26 agentic engineering](../../../raw/brag/2026-05-26-ai-adoption-agentic-engineering-choreographer.md)
+
+**Thread coverage: ≈ 29%** (2 of 7)
+
+| Claim | Source | Status |
+|---|---|---|
+| `AI-1` Scoped an AI-enabled data product on the enterprise data catalog to test whether warehoused device-event tables earn their storage and cellular cost | 2025-10-29 | absent |
+| `AI-2` Combined lineage, query-log usage, glossary metadata and chat-with-your-data exploration into one cost-aware proposal | 2025-10-29 | absent |
+| `AI-3` Designed and shipped a multi-agent orchestration layer as an agent plugin, preventing context overflow through delegation | 2026-05-26 | **in** |
+| `AI-4` Established a persistent, versioned knowledge base (raw capture → synthesis → index) for the engineering organization | 2026-05-26 | **in** |
+| `AI-5` Developed and documented prompt and agent patterns that cut token consumption while holding output quality | 2026-05-26 | absent |
+| `AI-6` Integrated agents into code review, documentation and release-note workflows | 2026-05-26 | absent |
+| `AI-7` Delivered outcomes at roughly three times the expected rate using AI since 2023 | 2026-05-26 | absent |
+
+> `AI-7` was `in` until 2026-09-09 and was **deliberately retired** from the resume, not lost: an unverifiable productivity multiplier was replaced by what was actually built (`AI-3`, `AI-4`). The claim stays on this page because the underlying fact is still true and the owner may want it back — see [editorial questions](editorial.md#open-questions).
+
+---
+
+### BOOST - Boost library proficiency
+
+One cross-career capability record, with specific embedded C++ examples. The entry's corrected device-wiki grounding establishes **Boost 1.67.0 across ARM Linux, native Linux and macOS**, corroborated by the three vendored headers. The older Asio 1.67 study checklist is historical context. Investigations and advocacy are not claims of delivered redesigns; this structural move preserves the existing six claims.
+
+**Entry:** [2026-09-14 Boost proficiency](../../../raw/brag/2026-09-14-boost-library-proficiency.md)
+
+**Thread coverage: 0%** (0 of 6). All six claims belong to the entry marked `resume-worthy: yes` and are not promoted.
+
+| Claim | Source | Status |
+|---|---|---|
+| `BOOST-1` Works with an inherited Boost.MSM architecture composed of submachines and orthogonal regions | 2026-09-14 | absent |
+| `BOOST-2` Diagnosed unexpected MSM transitions using typed action traces and shared-state initialization hypotheses | 2026-09-14 | absent |
+| `BOOST-3` Stewards the inherited state-machine architecture and argues for explicit lifecycle integration of cross-cutting modes | 2026-09-14 | absent |
+| `BOOST-4` Analyzed Boost.Asio executor boundaries and mockable message-bus reuse for off-target testing | 2026-09-14 | absent |
+| `BOOST-5` Identified signal-handling guarantee trade-offs around Boost.Asio signal_set and SIGTERM | 2026-09-14 | absent |
+| `BOOST-6` Records long-standing Boost/C++ and Boost.Test experience, with historical 15-year and 2-year baselines rather than invented current totals | 2026-09-14 | absent |

@@ -58,6 +58,7 @@
 
 | Skill | Evidence | Suggested treatment |
 |---|---|---|
+| Boost.MSM / Boost.Asio / Boost.Test | [Consolidated Boost record](../../raw/brag/2026-09-14-boost-library-proficiency.md): MSM submachines, orthogonal regions and typed-transition diagnosis; Asio executor abstraction and SIGTERM/`signal_set` analysis; Test remains an explicit historical baseline | name **MSM** and **Asio** beneath Boost/C++; keep Test distinct from Google Test; **Asio 1.67** is a checklist study/usage reference, not a verified build pin; MSM 1.6x is recalled; do not re-age the 15/2-year baseline or claim proposed fixes shipped |
 | Rust | summary now says "Intermediate Rust"; studied again in 2026, and now a stated *direction* as well as a skill — see the [dream-job hub](../dream-jobs/dream-job-hub.md) | baseline row (0 years) is stale twice over; owner to supply years |
 | Embedded C++ / cellular / positioning | six more years of Lively Mobile+ and Lively Mobile 2 work | re-age Embedded C++ and Cellular; add **GNSS/positioning (GPS, GLONASS, Galileo, ECID, Wi-Fi, BLE)** and **Qualcomm Linux Enablement / Skyhook** |
 | Observability / Datadog | OKR-level operational excellence; monitor/dashboard design, ARIMA/SARIMA-based anomaly tuning, vendor Premier Support collaboration ([brag entries, 2023-12 to 2024-05](../../raw/brag/)) | add **Datadog**, **incident management, runbooks, post-mortems**, **applied time-series anomaly detection** |

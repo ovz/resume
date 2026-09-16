@@ -32,6 +32,7 @@ The device's core runs on **Boost MSM** state machines — a top-level machine c
 
 ## Related, not conflated
 
+- [Consolidated Boost proficiency](../../raw/brag/2026-09-14-boost-library-proficiency.md) preserves the MSM composition, transition-diagnosis and stewardship evidence alongside Asio and Test. It is a capability entry, not a completed S1-S3 story; the remaining inbox narrative is still pending.
 - **[Positioning](positioning.md)** is the success story of the same device and years. Keep the two apart: a positioning story should not carry the state-machine complaints, and a state-machine story should not borrow positioning's wins.
 - **P4**, [the beacon tracking story](positioning/home-away-kept-simple.md), currently carries the state-machine half in its pitfall table — the add-ons, the keep-alive breakage, the location state machine. When S1 is written, that half moves here and P4 keeps the beacon design.
 

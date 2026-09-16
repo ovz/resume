@@ -3,8 +3,8 @@ title: "Translated R5 self-reported-error telemetry into an operational runbook"
 date: "2025-01-09 (supporting evidence: 2024-12-31 through 2025-01-15)"
 thread: OBS
 domains:
-	- "operational excellence and observability"
-	- "embedded and safety-critical devices"
+  - "operational excellence and observability"
+  - "embedded and safety-critical devices"
 context: "Best Buy Health, R5 / Lively Mobile 2 operational readiness"
 sensitivity: private-repo
 resume-worthy: yes
@@ -58,3 +58,4 @@ Translated R5 device-health telemetry into operational runbooks covering proacti
 ## Record history
 
 - 2026-09-08: created from the owner's January 2025 evidence summary
+- 2026-09-15: repaired YAML list indentation so the entry parses without special handling; accomplishment text and classification unchanged.

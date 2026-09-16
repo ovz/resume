@@ -125,10 +125,12 @@ cherish rather than something you memorised.>
 <T1: names, internal detail, the real reasons. For answering follow-ups, never for saying.>
 
 ## Sources
-- [<entry>](../../../raw/brag/<entry>.md)
+- <Insert a Markdown link to the existing source entry here.>
 
 ## Related stories
 ```
+
+Use the actual entry's title and relative path in the source link; the template prompt is not a source document.
 
 `fits` is how a story is found later: the kinds of role, conversation or question it serves. Keep the vocabulary small and reuse it — `embedded`, `firmware`, `architecture`, `principal`, `debugging`, `crisis`, `leadership`, `vendor`, `product`, `regulated`, `data`, `ai`, `integration`.
 

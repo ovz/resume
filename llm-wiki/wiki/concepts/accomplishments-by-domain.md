@@ -72,6 +72,7 @@
 
 ## Architecture and API design
 
+- Long-standing Boost proficiency with concrete **Boost.MSM** depth: inherited hierarchical machines with submachines and orthogonal regions, typed-transition diagnosis, and advocacy for integrating cross-cutting modes into lifecycle state models. **Boost.Asio** evidence adds executor-boundary and SIGTERM/`signal_set` analysis; investigations are not recast as shipped fixes, and exact Boost versions remain unconfirmed. [2026-09-14-boost-library-proficiency](../../raw/brag/2026-09-14-boost-library-proficiency.md)
 - Architectures for desktop, embedded, CLI, client-server, distributed ML, and cloud systems; strong vision across engineering, business, and scientific stakeholders. [primary]
 - Client-server predictive analytics (2004–2005): cross-platform TCP/IP daemon on Windows/Linux/Solaris with native installers; GoF-pattern C++ library. [primary] [long]
 - Machine Learning Predictive engines API (2014–2017): per-engine APIs, Conda packaging, test-first surface, pyinvoke task framework (Docker, CMake, tests, Codemeter, Anaconda publish). [primary] [long]
@@ -102,6 +103,7 @@
 
 ## Quality and test automation
 
+- **Boost.Test** is explicitly recorded in the circa-2020 skills inventory (2 years, alongside 15 years of Boost/C++). Later Boost-related work includes MSM transition tracing in Google Test and analysis of mockable asynchronous message-bus boundaries; those examples do not establish advanced Boost.Test features. [2026-09-14-boost-library-proficiency](../../raw/brag/2026-09-14-boost-library-proficiency.md)
 - On-device automated test architecture and implementation; testing time and quality improved by orders of magnitude; QA team onboarded to the framework. [primary]
 - Minitab era: unit-test projects across the codebase, TDD promoted, production-executable test system built with QE. [primary]
 - Unicode hardening process (2011): warnings, regex sweeps, Unicode test inputs, static (CppCheck) and dynamic (BoundsChecker) analysis. [long]

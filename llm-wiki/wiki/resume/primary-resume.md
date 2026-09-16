@@ -7,7 +7,7 @@
 ## What the primary resume is
 
 - **File:** [`markdown/Oleg.Zhylin.resume.achievements.md`](../../../markdown/Oleg.Zhylin.resume.achievements.md). The only document in this repository that is mirrored to the owner's LinkedIn profile (linked from the resume header); the Markdown file is the source of truth and LinkedIn is a *rendering* of it, produced by the build — see *The LinkedIn mirror* below.
-- **Variants:** a role-specific variant exists at [`markdown/Oleg.Zhylin.resume.embedded.md`](../../../markdown/Oleg.Zhylin.resume.embedded.md), targeting an embedded/C++ Principal Engineer audience. It is T0 public on the same terms, follows every rule on this page, and shares the reference-link block through `markdown/_parts/`. See [update workflow](update-workflow.md) § *Tailored variants* for what differs and how to choose between them. **Rules on this page apply to every variant**, not just the primary.
+- **Variants:** the previously described embedded/C++ Principal Engineer variant, `markdown/Oleg.Zhylin.resume.embedded.md`, is not present in this repository. Do not offer it as an available artifact. The [update workflow](update-workflow.md) § *Tailored variants* describes how variants share material through `markdown/_parts/`; any restored or newly authored variant is T0 public and follows every rule on this page. **Rules on this page apply to every variant**, not just the primary.
 - **Rendering:** `script/pandoc_resume.sh` builds every `markdown/*.md` through the `pandoc_resume` submodule (HTML, PDF, DOCX, RTF). Page-fit claims below must be verified against a render, not estimated from line counts.
 - **Positioning:** the owner seeks an employer interested in the *work*, not the *titles*. Every edit should move weight toward outcomes, scope, and evidence, and away from job-title inflation. Current target roles named in the summary: Sr. Principal Engineer or Sr. Staff Engineer.
 - **Genre:** "achievements resume" — a narrative document that reads well when cut at several depths (below). It is not a bullet-only ATS form; keyword coverage is handled by keeping the [skills matrix](../concepts/skills-matrix.md) reflected in the prose.
@@ -38,7 +38,7 @@ Section order in the file as of the 2026-09-10 pass: header/contact → *My Stor
 
 Two known divergences from the table above, both live:
 
-- **The primary has no C0 summary blockquote.** The cut table describes one and the embedded variant has one; the primary opens straight into *My Story*. Either add it or amend the table — but decide, rather than leaving the two disagreeing.
+- **The primary has no C0 summary blockquote.** The cut table describes one; the primary opens straight into *My Story*. The previously described embedded variant is unavailable for comparison. Either add the summary or amend the table — but decide, rather than leaving the two disagreeing.
 - **The 2018–present employer now has depth below C2.** Until the 2026-09-10 pass *Projects Overview* was entirely Salford-era, so the current role — the longest and most relevant one — had no drill-down at all. Eight Best Buy Health sections were added. Rule 3 (every C2 bullet traces to a section below it) is satisfiable for the recent work for the first time.
 
 ## The LinkedIn mirror

@@ -26,7 +26,7 @@ Newest first.
 
 ## What each pass promoted, thread by thread
 
-Each note was written under its thread in the map and moved here unchanged. Thread codes are defined in [coverage.md](coverage.md) § *Threads*.
+Each note was written under its thread in the map and moved here unchanged. Thread codes are routed by [coverage.md](coverage.md#shards); their current claims live in the linked subject shards.
 
 **`BLD`** — Fully promoted on 2026-09-10 into *Projects Overview* § **2021-2022. Embedded platform: monorepo, packaging and C++ standards**, with the packaging and cross-compilation half also named in the Best Buy Health Experience entry. `BLD-3` — choosing a C++ standard on what static analysis can actually enforce — is the one that reads most clearly as principal-level judgement, and the resume now says so in those terms.
 
