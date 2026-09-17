@@ -17,6 +17,10 @@
 
 Run copilot to see which GreatCall or best buy stories and other material need support from Outlook copilot or Rovo Jira/Confluence
 
+## CCF repos
+
+Enrich CCF material with what was actually in repos. I might have actual traces two CCF processes talking to each other over LCM. LCM might be a good keyword for resume, including one for Embedded. Might attract some robotics oriented employers. Make sure to link the public  github.
+
 
 
 
