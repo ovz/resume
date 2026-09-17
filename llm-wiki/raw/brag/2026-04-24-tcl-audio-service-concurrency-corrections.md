@@ -9,6 +9,7 @@ domains:
 context: "Best Buy Health - Lively Mobile 2, embedded Linux audio and manufacturer collaboration"
 sensitivity: private-repo
 resume-worthy: yes
+storied: [concurrency/lowest-level-reflexes]
 ---
 
 # Drove TCL's audio-service corrections through repeated concurrency review to a smoother QA-tested result
@@ -89,3 +90,4 @@ TCL's identity and the manufacturer relationship stay at T1, consistent with the
 ## Record history
 
 - 2026-09-14: created and ingested from the April-May internal audit and manufacturer-revision trail, plus the owner's direct report of the subsequent QA retest. Classified as related to, not a duplicate of, the earlier audio investigation; internal artifacts remain offline and the positive QA result is explicitly owner-reported.
+- 2026-09-16: graduated into [concurrency/lowest-level-reflexes](../../wiki/stories/concurrency/lowest-level-reflexes.md), which pairs this correction effort with the 2004-2005 daemon that taught the reading skill. Body untouched; `storied:` added.

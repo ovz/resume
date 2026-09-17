@@ -9,6 +9,7 @@ domains:
 context: "Best Buy Health — Lively Mobile 2 device firmware, audio service on an embedded Linux Qualcomm MDM platform"
 sensitivity: private-repo
 resume-worthy: yes
+storied: [concurrency/the-bug-i-never-saw]
 ---
 
 # Tracked an audio artifact to a race condition I could never make happen on demand
@@ -74,3 +75,4 @@ The [later manufacturer-correction effort](2026-04-24-tcl-audio-service-concurre
 
 - 2026-09-13: created from the committed Trello snapshots, prompted by the owner's statement of 2026-09-13 that concurrency and the heisenbugs it brings is a repeating story. Closes the repository's standing note to capture the audio-service troubleshooting as an entry.
 - 2026-09-14: linked the distinct April-May 2026 TCL correction effort and later owner-reported QA outcome, retaining the original investigation's attribution and root-cause limits.
+- 2026-09-16: graduated into [concurrency/the-bug-i-never-saw](../../wiki/stories/concurrency/the-bug-i-never-saw.md). Body untouched; `storied:` added.

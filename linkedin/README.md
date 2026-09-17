@@ -20,8 +20,8 @@ to leave alone. Nothing else in the pipeline can answer that question.
 
 | File | LinkedIn field | Characters | Limit | Headroom | Source |
 |---|---|---:|---:|---:|---|
-| [`about.txt`](about.txt) | About (My Story) | 2,485 | 2,600 | 115 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
-| [`experience-best-buy-health.txt`](experience-best-buy-health.txt) | Experience — Best Buy Health (2020-present) | 1,957 | 2,000 | 43 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`about.txt`](about.txt) | About (My Story) | 2,587 | 2,600 | 13 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`experience-best-buy-health.txt`](experience-best-buy-health.txt) | Experience — Best Buy Health (2020-present) | 1,995 | 2,000 | 5 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-greatcall.txt`](experience-greatcall.txt) | Experience — GreatCall (2018-2020) | 1,969 | 2,000 | 31 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-minitab.txt`](experience-minitab.txt) | Experience — Minitab | 1,872 | 2,000 | 128 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-salford-systems.txt`](experience-salford-systems.txt) | Experience — Salford Systems | 1,910 | 2,000 | 90 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
@@ -41,12 +41,12 @@ reads as one document.
 
 ### About (My Story)
 
-`about.txt` · 2,485 of 2,600 characters
+`about.txt` · 2,587 of 2,600 characters
 
 ````text
 I build Embedded software that people’s health and safety depends on, and I own the Architecture around it. Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines at Best Buy Health — every device of GreatCall lineage still carried by Lively — and I stay hands-on as an engineer on all of them. I am looking for a Sr. Principal Engineer or Sr. Staff Engineer position.
 
-Professional Software Engineer since 1996, most of it C++, with Python and SQL for the telemetry and data side and intermediate Rust. My domains are Embedded Mobile Devices, Cellular Technologies, Positioning/Location (GNSS), Health, Machine Learning/AI, Data Engineering and Security. I am passionate about shifting quality to the left and eliminating toil.
+Professional Software Engineer since 1996, most of it C++, with Python and SQL for the telemetry and data side and intermediate Rust. My domains are Embedded Mobile Devices, Cellular Technologies, Positioning/Location (GNSS), Health, Machine Learning/AI, Data Engineering and Security. Under all of it sit Concurrency and Network Programming, on bare-metal MCUs and embedded Linux alike. I am passionate about shifting quality to the left and eliminating toil.
 
 I began as a Data Security and Cryptography engineer as an undergrad, working for the University mentors who ran the company. It left me a habit I have never lost: reading every system from the standpoint of a Security Professional.
 
@@ -59,18 +59,18 @@ Since 2023, AI changed what I take on, not just how fast: I build the Multi-Agen
 
 ### Experience — Best Buy Health (2020-present)
 
-`experience-best-buy-health.txt` · 1,957 of 2,000 characters
+`experience-best-buy-health.txt` · 1,995 of 2,000 characters
 
 ````text
 Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines, while staying hands-on. Fall detection is Lively Mobile’s killer feature, and I am driving its next innovation for active seniors.
 
-I built the fleet Observability practice: an agentless device-health architecture, chosen when no monitoring agent fit the memory budget, the production Monitors on it, and Anomaly Detection tuned from ARIMA/SARIMA first principles. It drastically reduced Cost of Operation and caught defects before customers did — then paid off beyond its own justification. When Lively Mobile 2 moved to a new contract manufacturer mid-programme, that evidence was already in place, so whether the new build behaved was answerable with data, not argument. I was instrumental in making that transition succeed and in bringing the programme back to a regular hardware/software development lifecycle, playing it safe and serving customers at the same time.
+I built the fleet Observability practice: an agentless device-health architecture, chosen when no monitoring agent fit the memory budget, the production Monitors on it, and Anomaly Detection tuned from ARIMA/SARIMA first principles. It drastically reduced Cost of Operation and caught defects before customers did. When Lively Mobile 2 moved to a new contract manufacturer mid-programme, that evidence was already in place, so whether the new build behaved was answerable with data, not argument. I was instrumental in making that transition succeed and in bringing the programme back to a regular hardware/software development lifecycle, playing it safe and serving customers at the same time.
 
 We launched Lively Mobile 2 in 2024. I upgraded Positioning via Qualcomm Skyhook on Qualcomm Linux Enablement, then architected the Location Engine unifying GNSS, Wi-Fi and BLE beacons with arbitration and fallback.
 
 Having earned the organization’s trust, I was given Current Health’s Hospital at Home work in regulated medical devices: I qualified into its medical-device Quality Management System — Design Control, CAPA, supplier quality — under FDA, EU and Australian regulation, mastered Orcanos and a PPG wearable in record time, traced a firmware defect that made the platform conclude a patient was unmonitored, and relished the integration it demanded, across devices, technologies, company cultures and people.
 
-I own the platform foundations — a Capability and Configuration Framework in embedded C, safety-critical C++ guidelines, Conan packaging with ARM cross-compilation — and since 2023 build the Multi-Agent Orchestration and Knowledge Systems that make AI a team capability.
+I bring Concurrency and Network Programming to bare-metal MCUs and embedded Linux. I own the platform foundations — a Capability and Configuration Framework in embedded C, safety-critical C++ guidelines, Conan packaging with ARM cross-compilation — and since 2023 build the Multi-Agent Orchestration and Knowledge Systems that make AI a team capability.
 ````
 
 ### Experience — GreatCall (2018-2020)

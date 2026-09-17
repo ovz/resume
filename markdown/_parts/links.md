@@ -84,3 +84,4 @@
 [nist]: https://web.archive.org/web/20230828202909/https://csrc.nist.gov/pubs/sp/800/40/r4/final "NIST SP 800-40 Rev. 4, Guide to Enterprise Patch Management Planning"
 [orcanos]: https://web.archive.org/web/20260615050611/https://www.orcanos.com/ "Orcanos eQMS and ALM for medical devices"
 [cpsc_recall]: https://web.archive.org/web/20260517183859/https://www.cpsc.gov/Recalls/2019/GreatCall-Recalls-Lively-Mobile-Plus-Emergency-Alert-Device-Due-to-Risk-of-Call-Button-Failing-in-an-Emergency-Recall-Alert "CPSC Recall 19-775: GreatCall recalls Lively Mobile Plus emergency alert device (August 30, 2019)"
+[boost_asio]: https://web.archive.org/web/https://www.boost.org/doc/libs/1_67_0/doc/html/boost_asio.html "Boost.Asio (Boost 1.67)"
