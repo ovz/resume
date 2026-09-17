@@ -10,6 +10,9 @@
 |---|---|---|---|
 | Positioning, location and GPS | [positioning](positioning.md) | 4 planned, 3 drafted (P2, P3, P4); P1 needs ingest of new owner material | Embedded and firmware roles; location, sensors, power; "hardest bug"; vendor and silicon partners; buy-versus-build |
 | State machines, and the codebase whose authors are gone | [state-machines](state-machines.md) | 3 planned (S1–S3), none drafted | Legacy code and technical debt; saying no to ad hoc complexity; mentoring and raising the bar; C++ state-machine design |
+| Concurrency, and the bugs that vanish when observed | [concurrency](concurrency.md) | 3 planned, 2 drafted (C1, C2); C3 needs dating | Low-level concurrency and systems roles; "hardest bug"; vendor and manufacturer code review; what you read and how you keep sharp; toolchain and modernization judgement |
+| Stewardship, and eliminating toil | [stewardship](stewardship.md) | 4 planned, 1 drafted (ST1) | "What do you stand for?"; governance, security and data-ownership conversations; acquisitions, migrations and continuity; automation and toil |
+| Salford Systems, and machine learning before it was fashionable | [salford](salford.md) | 4 planned, 1 drafted (SF1) | Depth in someone else's discipline; data, statistics and ML-adjacent roles; pharma and clinical data; client-facing delivery; long tenure; outsourced teams |
 
 ## Clusters to come
 
@@ -23,7 +26,6 @@ Seeded by the coverage threads, each of which already has entries to draw on —
 - **Platform and standards** — capability framework, C++ guidelines, build and packaging (`FW`, `BLD`).
 - **Leading as an IC** — managing upward, mentorship, principal behaviours (`LEAD`).
 - **Power and the cost of running a fleet** — battery as a second specialization, and the devices that burned real money in cellular data (`PWR`, `COST`).
-- **Concurrency, and the bugs that vanish when observed** — the audio artifact never reproduced on demand, the positioning library's multithreading fault, and the 2004 daemon that taught it (`CONC`).
 
 ## Reading lists
 

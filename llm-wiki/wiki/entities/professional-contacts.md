@@ -41,7 +41,7 @@ The people currently listed in [the references document](../../../markdown/Oleg.
 | Katrina Bautista | See references document | — | — | Listed |
 | Victor Ronin | See references document | — | — | Listed |
 
-**Gap worth noting:** every listed reference from Best Buy Health covers 2018–2022. Nothing on the roster speaks to the 2023–2026 work — the observability programme, the architecture ownership, CCF, or the AI adoption — which is exactly the period a Principal Engineer interview will probe. See *Wider network* for who could close that gap.
+**Gap worth noting:** every listed reference from Best Buy Health covers 2018–2022. Nothing on the roster speaks to the 2023–2026 work — the observability programme, the architecture ownership, the component framework, or the AI adoption — which is exactly the period a Principal Engineer interview will probe. See *Wider network* for who could close that gap.
 
 ## Wider network
 
@@ -117,6 +117,73 @@ The owner also describes a "Rob" as possibly the best boss he ever had — and s
 
 - Evidenced in: [2023-11-27 Home/Away beacon tracking](../../raw/brag/2023-11-27-r5-home-away-beacon-tracking.md)
 - **Reference potential: strong** for the device programme's firmware side, if reachable.
+
+### The move to the U.S. — and the IIT years
+
+#### Irina Martimyanova
+
+The person the owner talked to about **Akvelon** and possible contract work for **Microsoft**, while he was deciding how to move to the United States (owner, 2026-09-16). The year is not established — see [organizations](organizations.md) § *The move to the U.S.* Nothing about her role or the outcome is recorded beyond that, and the personal mailbox holds nothing from either candidate period.
+
+- **Reference potential: unknown** — recorded because she is the named contact on a career fork that mattered.
+
+#### Constantine (Konstantin) Korovkin
+
+Co-founder and COO of **Akvelon** (Bellevue, Washington; earlier an engineer and development manager at Microsoft and IBM — [LinkedIn](https://www.linkedin.com/in/kkorovkin/), [The Org](https://theorg.com/org/akvelon-inc/person/constantine-korovkin)). The owner **briefly encountered him during the IIT era** and remembers him as Akvelon's founder. Akvelon today staffs large engineering organizations including Microsoft, T-Mobile, Google and GitHub.
+
+- A live, unused door: **Akvelon recruiters have viewed the owner's LinkedIn profile repeatedly through February–April 2026**, which is a warm surface if the owner ever wants a conversation there.
+- **Reference potential: none** (a brief acquaintance) — but a network lead, and the other half of the [Mirabit identity question](../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md).
+
+### Salford Systems era (2000–2017)
+
+**Mykhaylo Golovnya is "Mikhail" and "Misha" in the mail** — the same listed reference. He led the NCS-R engagement for a pharmaceutical client in 2010, with the owner doing the SAS data preparation, and was on the CloudSML weekly check-ins in 2017.
+
+- Evidenced in: [2010-05-01 NCS-R SAS data preparation](../../raw/brag/2010-05-01-ncs-r-sas-data-preparation-pharma-client.md), [2015-01-01 Mirabit staffing](../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md)
+
+#### Illia Polosukhin — high-priority reference candidate
+
+At Salford Systems around 2012–2013 (the RuleFit model-setup tab, the Carrefour C4 work); later a co-author of *Attention Is All You Need* at Google and co-founder of NEAR Protocol. The relationship stayed warm: in June 2018 he wrote to the owner — "sad to hear that Salford has fully bureaucratized. Do you want to work on C++ compiler itself? Or tooling / LLVM etc?" — and in early 2022 he messaged three times about hiring at NEAR. He "hit it off immediately" with Ken Bernstein.
+
+- Evidenced in: [2012-06-01 Linux port and TBB](../../raw/brag/2012-06-01-spm7-linux-port-tbb-evaluation.md), [2013-01-01 Carrefour C4](../../raw/brag/2013-01-01-carrefour-c4-promotion-optimization-brazil.md)
+- **Reference potential: high priority (owner, 2026-09-16)** — speaks to the Salford engineering years, and his own outreach twice says he rates the owner's C++.
+
+#### Vladyslav (Vlad) Frolov — high-priority reference candidate
+
+A Mirabit (Ukraine) developer and the CloudSML lead in 2017, working to the owner's direction on scope, documentation and demos; the owner credits him as "a solid guidance" on storage architecture in the Cloud-ready SPM era. Software Engineer at NEAR Protocol since 2019; prolific open-source contributor (GitHub `frol`).
+
+- Evidenced in: [2015-01-01 Mirabit staffing](../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md), [2012-09-01 storage architecture](../../raw/brag/2012-09-01-spm-workspace-storage-architecture-sqlite-json.md), [2016-11-01 Minitab diligence](../../raw/brag/2016-11-01-salford-minitab-acquisition-technical-diligence.md)
+- **Reference potential: high priority (owner, 2026-09-16)** — speaks to the owner managing and architecting across a vendor boundary.
+
+#### Stas (Minkov) — a lead to use wisely
+
+In the owner's words "even more stellar in every aspect… very kind and approachable back when we worked together when he was 16-17 years old. He will likely be generous." A "Stas" appears on the 2017 CloudSML and UA QA threads; the surname *Minkov* is the owner's and is not yet seen in the mail — confirm before use.
+
+- **Reference potential: strong, and to be spent deliberately** (owner).
+
+#### Felipe Fernandez
+
+A friend of Dan Steinberg's with long brick-and-mortar retail experience, including in France; on the Carrefour promotion-optimization collaboration in Brazil and Brazilian retail prospects, 2012–2015 (`interefe.com`). LinkedIn shows "Felipe Fernandez Martinez", and the owner receives his posts, so they are probably connected; otherwise reachable through Dan. The owner names him as a main collaborator and remembered the surname as "Hernandez" — the mail says Fernandez.
+
+- Evidenced in: [2013-01-01 Carrefour C4](../../raw/brag/2013-01-01-carrefour-c4-promotion-optimization-brazil.md); named by the owner on [2009-02-01 licensing](../../raw/brag/2009-02-01-spm-protected-wibu-codemeter-license-integration.md) (link to that work unconfirmed)
+- **Reference potential: worth considering** for client-facing delivery and the retail work.
+
+#### Jeff Powers and Ken Bernstein
+
+**Jeff Powers** — hired by the U.S. office as Bernie Bernstein's official successor; at Salford by 2009, gone by October 2014. The owner's account of that working relationship, and what it taught him about holding the bar against rent-seeking, is in [2012-01-01 Git/RedMine modernization](../../raw/brag/2012-01-01-salford-git-github-redmine-modernization.md). **Reference potential: none.**
+
+**Ken Bernstein** — Bernie's son; brilliant in chip design and later at Apple; the colleague behind the "porting TBB was doomed to fail" conclusion. See [2012-06-01](../../raw/brag/2012-06-01-spm7-linux-port-tbb-evaluation.md). **Reference potential: unlikely** — the domain was not his.
+
+### Reference candidates — outreach
+
+The owner asked (2026-09-16) for "a good approach to get through arrogance of competitive programming super stars" for Illia and Vlad, and to use the Stas lead wisely. What the record suggests, and general reference-request practice agrees with:
+
+1. **The premise may be wrong for these two.** Illia initiated contact twice, unprompted, and offered work both times; Vlad worked to the owner's direction for months. Approach them as former colleagues who already rate the work, not as stars to be won over.
+2. **Ask for something small and specific.** Not "be my reference" in general, but: *would you speak to what I did on the C++ engine and the CloudSML architecture in 2012–2017, for a Principal Engineer search?* People with scarce time answer precise asks and ignore open-ended ones.
+3. **Give before asking.** A congratulation on something public and recent (a talk, a release), with no ask attached, a week or two ahead.
+4. **Make it cheap.** Offer a three-line summary of the work they would be vouching for, so they are not reconstructing 2013 from memory.
+5. **Accept "no" or silence gracefully**, and keep the door open — these are relationships first, references second.
+6. **Spend Stas last, and once.** Reserve him for the conversation where a generous, specific reference changes the outcome.
+
+Order and timing are the owner's call.
 
 ### Others appearing in the records
 

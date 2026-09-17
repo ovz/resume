@@ -78,6 +78,7 @@
 
 [current_health]: https://web.archive.org/web/20241224160233/https://www.currenthealth.com/ "Current Health"
 [conan]: https://web.archive.org/web/20220402190522/https://conan.io/ "Conan C/C++ package manager"
+[artifactory]: https://web.archive.org/web/https://jfrog.com/artifactory/ "JFrog Artifactory"
 [core_guidelines]: https://web.archive.org/web/20220203172951/https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines "C++ Core Guidelines"
 [github_enterprise]: https://web.archive.org/web/20210802015015/https://github.com/enterprise "GitHub Enterprise"
 [atlassian]: https://web.archive.org/web/20210602104530/https://www.atlassian.com/ "Atlassian"

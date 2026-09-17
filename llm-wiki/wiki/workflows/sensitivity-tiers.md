@@ -36,6 +36,18 @@ The owner is a principal-level engineer; a great deal of what makes the career s
 - An internal system's name → T2; its *function* ("a telemetry pipeline", "device-side test harness") → T0-eligible.
 - A colleague's contribution, a disagreement, a mentoring relationship, a reorganization → name the people and record what actually happened; T1 (names come out at T0). This is the professional record, not an aside to it — see rule 8. Contact details stay in the references document. Exception: partners or individuals covered by an NDA, an unannounced partnership, or an explicit request not to be named → role only.
 - Anything about a current employer's roadmap → T2 until it ships publicly.
+- **An internal name that happens to sound generic is still an internal name.** "Defensibly generic" is not the test; *is this what the team calls it internally?* is. Such a name gets a public alias, below.
+
+## Public aliases for internal names
+
+Some internal names read like ordinary English, which is exactly how they leak. Each one below has a **public alias** used on every outward surface — the resumes, LinkedIn, and any story or synthesis page whose text could be spoken or copied outward. The internal name stays in the brag entry that records the work, at T1, because that is where the owner needs to recognise it; the entry notes the alias so the mapping is never lost. The alias describes **function, in lower case** rather than inventing a pseudo-product name, which is what keeps it from reading as a disclosure of its own.
+
+| Internal name (T1 only) | Public alias | What it is | Entry |
+|---|---|---|---|
+| CCF — "Capability and Configuration Framework" | **component framework** (embedded C, across device SKUs) | The framework standardizing how device features are declared, configured and brought up | [2026-04-26](../../raw/brag/2026-04-26-ccf-capability-framework-lcm-open-source.md) |
+| "sensorhub" — the conventional name for the wearable's microcontroller | **sensor co-processor** (MCU) | The low-power microcontroller between the sensors and the application processor | [2021-11-22](../../raw/brag/2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md), [2022-08-03](../../raw/brag/2022-08-03-odm-specification-authoring.md) |
+
+Adding a row is how a new internal name is handled; do not coin an alias in one page and leave the others. A search for the internal name across `markdown/`, `linkedin/`, `wiki/stories/`, `wiki/concepts/`, `wiki/dream-jobs/` and `wiki/resume/` should return nothing but this table.
 
 ## Related
 
