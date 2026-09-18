@@ -10,10 +10,10 @@
 
 | Measure | Coverage |
 |---|---|
-| All promotable claims | **≈ 57%** — 95 of 166 claims |
-| Claims from entries marked `resume-worthy: yes` | **≈ 61%** — 69 of 114 claims |
+| All promotable claims | **≈ 61%** — 121.5 of 198 claims |
+| Claims from entries marked `resume-worthy: yes` | **≈ 67%** — 93 of 139 claims |
 
-91 claims are fully reflected. 8 are gestured at generically. 67 are absent. **Two are `held`** — recorded deliberately and never for the resume — and **one is struck** as wrong; all three are excluded from the totals above. Tables recounted on 2026-09-15, including six newly captured Boost claims; no resume content was removed. The worthy-entry figure remains **provisional**: four Home/Away claims use the ledger's classification because their 2023-11-27 source entry is missing. Available worthy entries account for 66.5 of 110; that missing source accounts for the remaining 2.5 of 4. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
+115 claims are fully reflected. 13 are gestured at generically. 70 are absent. **Two are `held`** — recorded deliberately and never for the resume — and **one is struck** as wrong; all three are excluded from the totals above. Tables recounted 2026-09-16 (twice): first for nine newly captured concurrency claims from the 2004-2005 client-server daemon and the concurrency-specialization entry, then for eleven new claims (`SALF-1` through `SALF-6`, `CONC-21`, `CONC-22`, `DATA-3` through `DATA-5`) from a breadth-first Gmail survey of Salford Systems-era material — all absent, none deep-dived yet. No resume content was removed either time. Then a promotion pass the same day put concurrency and network programming on the resume: sixteen claims moved (`CONC`, `POS-1`, `PWR-2`, `BOOST-4`, `BOOST-5`) and two were added already `in` (`CONC-23`, `CONC-24`), lifting coverage from 53% to 60%. A third pass the same day added a stewardship thread (`STEW-1` to `STEW-4`) and six `DATA` claims from the Data Steward and NCS-R entries, and promoted stewardship, the Data Steward role and engine-level debugging of the classic ML engines: six claims `in` on arrival (`STEW-1` to `STEW-3`, `DATA-6` to `DATA-8`) and `AI-1` flipped to `in`, with `AI-2` and `CONC-21` to `partial` — 60% to 61%. The worthy-entry figure remains **provisional**: four Home/Away claims use the ledger's classification because their 2023-11-27 source entry is missing. Available worthy entries account for 84.5 of 125; that missing source accounts for the remaining 2.5 of 4. The five `ARC` claims come from the owner's direct statement rather than an entry, so they count in the first row and not the second.
 
 > **How the number got here, and what each past pass promoted, is now [coverage history](coverage-history.md)** — including the two earlier occasions when coverage *fell* while nothing was removed from the resume, which is the metric behaving correctly rather than a regression.
 
@@ -38,11 +38,11 @@ Load this map first, then only the shard whose subject matches the entry or prom
 | Shard | Threads | Load when | Weighted / claims | Absent |
 |---|---|---|---|---|
 | [Device Architecture And Delivery](coverage/devices.md) | ARC, FALL, INT, FW, DEV, MED, MFG | Portfolio ownership, device features, platforms, medical devices and manufacturer delivery | 47 / 48 | 0 |
-| [Positioning And Power](coverage/positioning-power.md) | POS, PWR | Location, beacon tracking, battery and power trade-offs | 7 / 19 | 11 |
-| [Reliability And Operations](coverage/reliability.md) | OBS, CRISIS, CONC, COST | Observability, recall response, concurrency and cellular operating cost | 22 / 43 | 19 |
-| [Engineering And Tooling](coverage/engineering.md) | BLD, AI, BOOST | Build systems, standards, AI-assisted engineering and Boost proficiency | 8 / 19 | 11 |
-| [Leadership And Risk](coverage/leadership.md) | LEAD, QA, RSK | Managing upward, mentorship, test discipline and risk practice | 11 / 30 | 19 |
-| [Data And Statistics](coverage/data.md) | DATA, STAT | Data engineering, governance, statistical reasoning and specialist partnerships | 0 / 7 | 7 |
+| [Positioning And Power](coverage/positioning-power.md) | POS, PWR | Location, beacon tracking, battery and power trade-offs | 8.5 / 19 | 10 |
+| [Reliability And Operations](coverage/reliability.md) | OBS, CRISIS, CONC, COST | Observability, recall response, concurrency and cellular operating cost | 38.5 / 56 | 14 |
+| [Engineering And Tooling](coverage/engineering.md) | BLD, AI, BOOST, SALF | Build systems, standards, AI-assisted engineering, Boost proficiency and the Salford Systems technical/organizational record | 10.5 / 25 | 13 |
+| [Leadership And Risk](coverage/leadership.md) | LEAD, QA, RSK, STEW | Managing upward, mentorship, test discipline, risk practice and stewardship | 14 / 34 | 20 |
+| [Data And Statistics](coverage/data.md) | DATA, STAT | Data engineering, governance and stewardship, statistical reasoning and specialist partnerships | 3 / 16 | 13 |
 
 Interpretation and unresolved editorial choices live in [editorial guidance](coverage/editorial.md), separate from the reference tables.
 

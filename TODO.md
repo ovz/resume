@@ -12,10 +12,60 @@
 - `__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md` — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
 - `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
+ 
+# Must mention Rich Stevens book
+
+To this day this is the bible of network programming. Misha brought this book to Ukraine during his visit and I devoured it. this was one of my pillars for predictive jobs tcp/ip daemon  and I am an advanced network programmer to this day.
+
+
+# llm-wiki/wiki/stories/concurrency.md
+
+Need to mine gmail for intel communicatoion. And otherwise must make sure everything from gmail is properly in this repo, those brags I started and up to and including completely missed ones.
+
+# Intel TBB
+
+Fix everywhere it is Intel TBB not TPL.
+
+```
+"Intel TPL" is ambiguous — Intel's threading library is TBB (now oneTBB); TPL is Microsoft's .NET Task Parallel Library. The specialization entry preserves the owner's wording and does not pick one.
+```
+
+BTW despite fortran compiler bug saga Ken Bernstein and Illya polosukhin got excited to migrate SPM codebase to Intel Cpp compiler. I pushed back strongly Ken even called be "gatekeeper" and I didn't know the word and thought it is a compliment. My pushback was precisely because some blunder in C++ compiler would tank SPM hard and intel had no track record to help out. I also had an intuition that both Illya and Ken are very likely to leave the company soon to their bigger aspirations. It did happen, Ken went to Apple and Illya went to Google. Not too much committment from them, but at least they agreed to disagree. I don't recall we ever did any email communication about this. It is one of the vivid memory of mine, this conversation in the meeting.
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Ingest
 
 Run copilot to see which GreatCall or best buy stories and other material need support from Outlook copilot or Rovo Jira/Confluence
+
+# llm-wiki/wiki/resume/coverage/engineering.md
+
+There are a number of facts to mine Gmail for **Via Clause Cowork**
+
+# llm-wiki/wiki/stories/stewardship/records-nobody-asked-for.md
+
+Can be augmented with system-monitor story from best buy era. A contractor team lead by C++ superstar Michael Casey created a system-monitor process to manager lifecycle of r5 device (there is a detailed record of design specs in confluence). The project was fully unit tested. Because of r5 delays we had to defer putting system monitor on actual device. When it was time to resurrect the project unit tests didn't work. If I was in charge of the freeze, I would make sure everything builds and runs. But it was CVK who worked with contractors, and he just took their word for it and never tested himself. system-monitor is still in production with no unit test security harness as no one has time to figure out how to run them. xpmf (extensibe portable mobile framework) is another creation of Michael Casey consulting. It does MQTT handling and has beautiful design, but it relies on niche tool called Genie for interface definitions. No one knows how to build xpmf to this day.
+
+
+
+
+
+
+
+
+
+
+
 
 ## CCF repos
 

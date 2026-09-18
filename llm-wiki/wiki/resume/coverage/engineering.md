@@ -18,7 +18,7 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 | `BLD-2` Took ownership of an unowned cross-team change rather than waiting for it to be scheduled, as a deliberate and repeated pattern | 2021-08-15 | **in** |
 | `BLD-3` Selected the C++ standard for a safety-critical embedded codebase on what static analysis could actually enforce, comparing MISRA C++, JSF and the Core Guidelines | 2022-02-18 | **in** |
 | `BLD-4` Grounded the written guidelines in the existing static-analysis baseline so the rules are checked on every build rather than remembered by reviewers | 2022-02-18 | **in** |
-| `BLD-5` Designed a Conan versioning and channel-promotion policy tying version fields to releases and pull requests, with CI-generated unique build identity | 2022-04-06 | **in** |
+| `BLD-5` Designed a Conan (JFrog Artifactory) versioning and channel-promotion policy tying version fields to releases and pull requests, with CI-generated unique build identity | 2022-04-06 | **in** |
 | `BLD-6` Established cross-compilation to the embedded ARM target, including sysroot packaging strategy and toolchain version pinning | 2022-04-06 | **in** |
 
 ---
@@ -27,12 +27,12 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 
 **Entries:** [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) · [2026-05-26 agentic engineering](../../../raw/brag/2026-05-26-ai-adoption-agentic-engineering-choreographer.md)
 
-**Thread coverage: ≈ 29%** (2 of 7)
+**Thread coverage: 50%** (3.5 of 7). `AI-1` and `AI-2` reached the resume on 2026-09-16 inside the data-stewardship paragraph; `AI-2` is `partial` because chat-with-your-data is not named.
 
 | Claim | Source | Status |
 |---|---|---|
-| `AI-1` Scoped an AI-enabled data product on the enterprise data catalog to test whether warehoused device-event tables earn their storage and cellular cost | 2025-10-29 | absent |
-| `AI-2` Combined lineage, query-log usage, glossary metadata and chat-with-your-data exploration into one cost-aware proposal | 2025-10-29 | absent |
+| `AI-1` Scoped an AI-enabled data product on the enterprise data catalog to test whether warehoused device-event tables earn their storage and cellular cost | 2025-10-29 | **in** |
+| `AI-2` Combined lineage, query-log usage, glossary metadata and chat-with-your-data exploration into one cost-aware proposal | 2025-10-29 | partial |
 | `AI-3` Designed and shipped a multi-agent orchestration layer as an agent plugin, preventing context overflow through delegation | 2026-05-26 | **in** |
 | `AI-4` Established a persistent, versioned knowledge base (raw capture → synthesis → index) for the engineering organization | 2026-05-26 | **in** |
 | `AI-5` Developed and documented prompt and agent patterns that cut token consumption while holding output quality | 2026-05-26 | absent |
@@ -43,19 +43,40 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 
 ---
 
+### SALF — Salford Systems technical and organizational record (2009-2017)
+
+A breadth-first Gmail survey pass (2026-09-16) surfaced eight distinct Salford Systems threads with enough evidence for a dedicated candidate entry each, spanning release engineering, tooling modernization, storage architecture, cross-platform/concurrency work, client delivery, big-data R&D, M&A technical diligence and vendor staffing. Two (engine debugging and the Linux/TBB port) are tracked under `CONC` for their concurrency content; two (Carrefour delivery and CloudSML/BigISLE R&D) are tracked under `DATA`. This thread carries the remainder — release engineering, tooling modernization, storage architecture, M&A diligence and vendor staffing. **None of these entries has been deep-dived**; each is explicit that more detail could be mined from Gmail via the Gmail connector available to Claude, deferred to a later session.
+
+**Entries:** [2009-06-01 SPM release engineering and Japanese localization](../../../raw/brag/2009-06-01-spm-release-engineering-japanese-localization.md) · [2012-01-01 Git/GitHub/RedMine modernization](../../../raw/brag/2012-01-01-salford-git-github-redmine-modernization.md) · [2012-09-01 SPM workspace storage architecture](../../../raw/brag/2012-09-01-spm-workspace-storage-architecture-sqlite-json.md) · [2016-11-01 Minitab acquisition technical diligence](../../../raw/brag/2016-11-01-salford-minitab-acquisition-technical-diligence.md) · [2015-01-01 Mirabit outsourcing vendor staffing](../../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md) · [2009-02-01 SPM_protected / Wibu-Systems CodeMeter](../../../raw/brag/2009-02-01-spm-protected-wibu-codemeter-license-integration.md)
+
+**Thread coverage: 0%** (0 of 6)
+
+| Claim | Source | Status |
+|---|---|---|
+| `SALF-1` Directed release engineering across three parallel build tracks (English, Japanese, license-protected) for a commercial statistical modeling product, triaging cross-cutting bug reports as central reviewer, and ran a full literal-string-to-resource-table Japanese localization | 2009-06-01 | absent |
+| `SALF-2` Led the technical case for moving a team off Visual SourceSafe onto Git/GitHub and RedMine, including hands-on git-workflow mentorship of a colleague senior in tenure | 2012-01-01 | absent |
+| `SALF-3` Owned the architectural decision between SQLite and a JSON-document approach for a new persistent workspace feature's storage layer, articulating the trade-off against ACID requirements | 2012-09-01 | absent |
+| `SALF-4` Directly asked by the company president to prepare and help deliver the technical due-diligence presentation to an acquirer's representatives ahead of the company's acquisition | 2016-11-01 | absent |
+| `SALF-5` Made and defended staffing recommendations for an outsourced development team across three concurrent products, escalating the case to leadership | 2015-01-01 | absent |
+| `SALF-6` Owned a commercial license-protection build track from at least 2009 and corresponded directly with the licensing vendor on integration | 2009-02-01 | absent |
+
+> All six entries are candidates from a single-pass Gmail survey, not full-thread deep-dives — dates, named colleagues and quotes are preserved, but outcomes and full technical detail are largely unconfirmed. See *Evidence limitations* in each entry before promoting any claim.
+
+---
+
 ### BOOST - Boost library proficiency
 
 One cross-career capability record, with specific embedded C++ examples. The entry's corrected device-wiki grounding establishes **Boost 1.67.0 across ARM Linux, native Linux and macOS**, corroborated by the three vendored headers. The older Asio 1.67 study checklist is historical context. Investigations and advocacy are not claims of delivered redesigns; this structural move preserves the existing six claims.
 
 **Entry:** [2026-09-14 Boost proficiency](../../../raw/brag/2026-09-14-boost-library-proficiency.md)
 
-**Thread coverage: 0%** (0 of 6). All six claims belong to the entry marked `resume-worthy: yes` and are not promoted.
+**Thread coverage: ≈ 17%** (1 of 6). All six claims belong to the entry marked `resume-worthy: yes`. `BOOST-4` and `BOOST-5` became `partial` on 2026-09-16: the resume now names Boost.Asio as the day-to-day abstraction and its executor and signal-handling boundaries, without the off-target testing or `signal_set` detail.
 
 | Claim | Source | Status |
 |---|---|---|
 | `BOOST-1` Works with an inherited Boost.MSM architecture composed of submachines and orthogonal regions | 2026-09-14 | absent |
 | `BOOST-2` Diagnosed unexpected MSM transitions using typed action traces and shared-state initialization hypotheses | 2026-09-14 | absent |
 | `BOOST-3` Stewards the inherited state-machine architecture and argues for explicit lifecycle integration of cross-cutting modes | 2026-09-14 | absent |
-| `BOOST-4` Analyzed Boost.Asio executor boundaries and mockable message-bus reuse for off-target testing | 2026-09-14 | absent |
-| `BOOST-5` Identified signal-handling guarantee trade-offs around Boost.Asio signal_set and SIGTERM | 2026-09-14 | absent |
+| `BOOST-4` Analyzed Boost.Asio executor boundaries and mockable message-bus reuse for off-target testing | 2026-09-14 | partial |
+| `BOOST-5` Identified signal-handling guarantee trade-offs around Boost.Asio signal_set and SIGTERM | 2026-09-14 | partial |
 | `BOOST-6` Records long-standing Boost/C++ and Boost.Test experience, with historical 15-year and 2-year baselines rather than invented current totals | 2026-09-14 | absent |

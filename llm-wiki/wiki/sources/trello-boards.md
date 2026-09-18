@@ -50,7 +50,7 @@ The thematic lists are now largely harvested. What is left is thinner and more d
 
 - Sprint-planning and dated working lists, 2022 → 2026 (roughly 120 lists). These are a working log rather than accomplishment material; the value in them is corroborating dates and filling detail into entries that already exist, not new entries. Mine them when a specific claim needs evidence.
 - Smaller thematic lists not yet worked: *Hack Blue 22*, *R4-style R5*, *Development Goals*, *LED*, *Birds*, *R6+ Ideas*, *R5 Ticket Ideas*, *TODO backburners*, *Learning*.
-- *Current Health* and *Hospital at Home* lists — the 2025–2026 platform the owner moved toward; overlaps the CCF and architecture-ownership entries and may be better captured from more recent sources.
+- *Current Health* and *Hospital at Home* lists — the 2025–2026 platform the owner moved toward; overlaps the component-framework and architecture-ownership entries and may be better captured from more recent sources.
 - *puffin* and *mdm9607 documentation* — component-level detail, largely superseded.
 
 **Leadership board**

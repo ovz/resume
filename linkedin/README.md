@@ -21,10 +21,10 @@ to leave alone. Nothing else in the pipeline can answer that question.
 | File | LinkedIn field | Characters | Limit | Headroom | Source |
 |---|---|---:|---:|---:|---|
 | [`about.txt`](about.txt) | About (My Story) | 2,587 | 2,600 | 13 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
-| [`experience-best-buy-health.txt`](experience-best-buy-health.txt) | Experience — Best Buy Health (2020-present) | 1,995 | 2,000 | 5 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`experience-best-buy-health.txt`](experience-best-buy-health.txt) | Experience — Best Buy Health (2020-present) | 1,997 | 2,000 | 3 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-greatcall.txt`](experience-greatcall.txt) | Experience — GreatCall (2018-2020) | 1,969 | 2,000 | 31 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-minitab.txt`](experience-minitab.txt) | Experience — Minitab | 1,872 | 2,000 | 128 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
-| [`experience-salford-systems.txt`](experience-salford-systems.txt) | Experience — Salford Systems | 1,910 | 2,000 | 90 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`experience-salford-systems.txt`](experience-salford-systems.txt) | Experience — Salford Systems | 1,983 | 2,000 | 17 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-iit.txt`](experience-iit.txt) | Experience — Institute of Information Technology | 1,122 | 2,000 | 878 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 
 A build **fails** when a block exceeds its limit, so these files are always
@@ -44,22 +44,22 @@ reads as one document.
 `about.txt` · 2,587 of 2,600 characters
 
 ````text
-I build Embedded software that people’s health and safety depends on, and I own the Architecture around it. Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines at Best Buy Health — every device of GreatCall lineage still carried by Lively — and I stay hands-on as an engineer on all of them. I am looking for a Sr. Principal Engineer or Sr. Staff Engineer position.
+I build Embedded software that people’s health and safety depends on, and I own the Architecture around it. Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines at Best Buy Health — every device of GreatCall lineage still carried by Lively — and I stay hands-on across all of them. I am looking for a Sr. Principal Engineer or Sr. Staff Engineer position.
 
-Professional Software Engineer since 1996, most of it C++, with Python and SQL for the telemetry and data side and intermediate Rust. My domains are Embedded Mobile Devices, Cellular Technologies, Positioning/Location (GNSS), Health, Machine Learning/AI, Data Engineering and Security. Under all of it sit Concurrency and Network Programming, on bare-metal MCUs and embedded Linux alike. I am passionate about shifting quality to the left and eliminating toil.
+Professional Software Engineer since 1996, most of it C++, with Python and SQL for the telemetry and data side and intermediate Rust. My domains are Embedded Mobile Devices, Cellular Technologies, Positioning/Location (GNSS), Health, Machine Learning/AI, Data Engineering and Security. Under all of it sit Concurrency and Network Programming, on bare-metal MCUs and embedded Linux alike. Stewardship is my first principle, and I practise it by shifting quality to the left and eliminating toil.
 
 I began as a Data Security and Cryptography engineer as an undergrad, working for the University mentors who ran the company. It left me a habit I have never lost: reading every system from the standpoint of a Security Professional.
 
-From 2000 to 2017 at Salford Systems — later a Minitab company — I was an architect and technical lead in Machine Learning/AI long before the mainstream caught up. The work was systems work: a cross-platform Client-Server engine, Concurrency and Network Protocol design, a 64-bit migration, distributed ML over peta-scale datasets, and the CI/CD to ship it all. I managed teams up to 15 people across the U.S., Ukraine and China.
+From 2000 to 2017 at Salford Systems — later a Minitab company — I was an architect and technical lead in Machine Learning/AI long before the mainstream caught up. The work was systems work: a cross-platform Client-Server engine, Concurrency and Network Protocol design, a 64-bit migration, distributed ML over peta-scale datasets, and the CI/CD to ship it all. I managed teams up to 15 people across the U.S., Ukraine, Poland and China.
 
-Since 2018 at GreatCall (presently Best Buy Health) I have built Embedded devices for Seniors at an MVNO that runs the entire pipeline from hardware manufacturing through to Care. The software gives a gift of independence, confidence and livelihood, and it has to work when someone’s life depends on it. I became the company’s Subject Matter Expert on Positioning, built the fleet Observability practice, and applied Neural Networks to the Health and Safety of Senior Citizens. I then earned the organization’s trust to move into regulated medical devices on a hospital-at-home platform: qualified into a medical-device Quality Management System under FDA, EU and Australian regulatory process, mastered Orcanos and added PPG wearable to a sensor record already spanning accelerometry, GNSS and BLE.
+Since 2018 at GreatCall (presently Best Buy Health) I have built Embedded devices for Seniors at an MVNO that runs the entire pipeline from hardware manufacturing through to Care. The software gives a gift of independence, confidence and livelihood, and it has to work when someone’s life depends on it. I became the company’s Subject Matter Expert on Positioning, built the fleet Observability practice, and applied Neural Networks to Senior Health and Safety. I then earned the trust to move into regulated medical devices on a hospital-at-home platform: qualified into a medical-device Quality Management System under FDA, EU and Australian regulatory process, mastered Orcanos and added PPG wearable to a sensor record already spanning accelerometry, GNSS and BLE.
 
 Since 2023, AI changed what I take on, not just how fast: I build the Multi-Agent Orchestration and Knowledge Systems that make it a team capability rather than a personal shortcut. My dream job is a perfect combination of Innovation, Value, and Impact.
 ````
 
 ### Experience — Best Buy Health (2020-present)
 
-`experience-best-buy-health.txt` · 1,995 of 2,000 characters
+`experience-best-buy-health.txt` · 1,997 of 2,000 characters
 
 ````text
 Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines, while staying hands-on. Fall detection is Lively Mobile’s killer feature, and I am driving its next innovation for active seniors.
@@ -70,7 +70,7 @@ We launched Lively Mobile 2 in 2024. I upgraded Positioning via Qualcomm Skyhook
 
 Having earned the organization’s trust, I was given Current Health’s Hospital at Home work in regulated medical devices: I qualified into its medical-device Quality Management System — Design Control, CAPA, supplier quality — under FDA, EU and Australian regulation, mastered Orcanos and a PPG wearable in record time, traced a firmware defect that made the platform conclude a patient was unmonitored, and relished the integration it demanded, across devices, technologies, company cultures and people.
 
-I bring Concurrency and Network Programming to bare-metal MCUs and embedded Linux. I own the platform foundations — a Capability and Configuration Framework in embedded C, safety-critical C++ guidelines, Conan packaging with ARM cross-compilation — and since 2023 build the Multi-Agent Orchestration and Knowledge Systems that make AI a team capability.
+I bring Concurrency and Network Programming to bare-metal MCUs and embedded Linux. I own the platform foundations — a component framework in embedded C, safety-critical C++ guidelines, Conan packaging on JFrog Artifactory with ARM cross-compilation — and since 2023 build the Multi-Agent Orchestration and Knowledge Systems that make AI a team capability.
 ````
 
 ### Experience — GreatCall (2018-2020)
@@ -103,16 +103,16 @@ I brought the Codebase in line with Source Code Style guidelines, using my knowl
 
 ### Experience — Salford Systems
 
-`experience-salford-systems.txt` · 1,910 of 2,000 characters
+`experience-salford-systems.txt` · 1,983 of 2,000 characters
 
 ````text
 Salford Systems’ claim to fame is pioneering Decision Trees in Machine Learning. We commercialized the work of Jerome Friedman, Leo Breiman, Richard Olshen and Charles Stone, the authors of the famous CART Monograph. For me it was enormous fun and hard work to help our customers meet their Data Science and Artificial Intelligence needs long before those terms became buzzwords.
 
 I was the primary Graphical User Interface (GUI) developer and a collaborator on the Command Line and Machine Learning engines for the flagship Salford Predictive Modeler (SPM), across releases from CART 4.0 to SPM 8.2. Serving the whole range of users — from Domain Experts far from statistics to the best Data Scientists in the world — was at the core of the business offering, and those GUIs funded further Machine Learning innovation.
 
-The rest of the work was systems work. I designed and singlehandedly built a cross-platform Client-Server predictive analytics system with a TCP/IP daemon, which was my introduction to Concurrency, Parallelism and Network Protocol Design. I was Chief Architect and Product Owner for the Qt GUI rewrite, a Principal Architect and Product Owner for Cloud-ready SPM (OpenAPI middle layer, React/Redux front end, Python backend on a Redis distributed queue), and the architect of the Machine Learning Predictive engines API. I took SPM to 64 bits, hardened it for Unicode, ran Big Data research on Hadoop, Spark and Dask, built fully automated CI/CD, and selected Wibu Codemeter after trialling every serious licensing alternative.
+The rest of the work was systems work. I designed and singlehandedly built a cross-platform Client-Server predictive analytics system with a TCP/IP daemon, which was my introduction to Concurrency, Parallelism and Network Protocol Design. I was Chief Architect and Product Owner for the Qt GUI rewrite, a Principal Architect and Product Owner for Cloud-ready SPM (OpenAPI middle layer, React/Redux front end, Python backend on a Redis distributed queue), and the architect of the Machine Learning Predictive engines API. I debugged the classic ML engines at their Fortran numerical core, took SPM to 64 bits, hardened it for Unicode, ran Big Data research on Hadoop, Spark and Dask, built fully automated CI/CD, and selected Wibu Codemeter after trialling every serious licensing alternative.
 
-I managed teams up to 15 people, coordinating U.S. developers with Outsourcing contractors in Ukraine and China. I raised the bar and the teams rose with it: the Ukrainian team over-performed, becoming instrumental contributors to features and quality rather than extra capacity, and the Qt team — surprised at first to be asked to aim higher — was glad of it.
+I managed teams up to 15 people, coordinating U.S. developers with Outsourcing contractors in Ukraine, Poland and China. I raised the bar and the teams rose with it: the Ukrainian team over-performed, becoming instrumental contributors to features and quality rather than extra capacity, and the Qt team — surprised at first to be asked to aim higher — was glad of it.
 ````
 
 ### Experience — Institute of Information Technology

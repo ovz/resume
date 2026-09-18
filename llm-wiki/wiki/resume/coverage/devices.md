@@ -60,13 +60,13 @@ The kind of work the owner keeps being drawn to, and now a resume bullet in its 
 
 ### FW — Embedded platform frameworks
 
-**Entries:** [2026-04-26 CCF capability framework](../../../raw/brag/2026-04-26-ccf-capability-framework-lcm-open-source.md) · cross-listed: [2026-09-01 beacon FOTA persistence](../../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md) (claims tracked under POS)
+**Entries:** [2026-04-26 component framework](../../../raw/brag/2026-04-26-ccf-capability-framework-lcm-open-source.md) · cross-listed: [2026-09-01 beacon FOTA persistence](../../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md) (claims tracked under POS)
 
 **Thread coverage: 100%** (4 of 4)
 
 | Claim | Source | Status |
 |---|---|---|
-| `FW-1` Led design and delivery of a capability and configuration framework standardizing capability management across device SKUs | 2026-04-26 | **in** |
+| `FW-1` Led design and delivery of an embedded component framework standardizing how device SKUs declare, configure and bring up features | 2026-04-26 | **in** |
 | `FW-2` Implemented dependency injection and hierarchical state machines with predictable lifecycle management in embedded C | 2026-04-26 | **in** |
 | `FW-3` Built an aligned structured-logging framework giving consistent logs across all supported devices | 2026-04-26 | **in** |
 | `FW-4` Modularized and documented the framework for open-source release and external contribution | 2026-04-26 | **in** |
@@ -114,7 +114,7 @@ The mid-career transition from consumer safety-adjacent devices into a regulated
 | `MED-9` Earned the organization's trust to be given the Hospital at Home work, after asking for it for more than a year | 2024-09-24 | **in** |
 | `MED-10` Mastered Orcanos and a PPG wearable in record time, wholly inside the public window of the platform's ownership | 2024-09-24 | **in** |
 | `MED-11` Relished the integration across technologies, company cultures and people | 2024-09-24 | **in** |
-| `MED-12` Distinguishes breadth-first white-label integration from ground-up device engineering, and why a hybrid inherits the costs of both | 2025-04-13 | **in** |
+| `MED-12` Distinguishes breadth-first white-label integration from ground-up device engineering by their exits — replace the vendor, or fix it in-house — and why a hybrid, having neither, destabilizes care provider and vendor alike | 2025-04-13 | **in** |
 | `MED-13` Held an observer role on the BLE SDK initiative rather than claiming a model he was watching | 2025-04-13 | partial |
 
 ---
@@ -129,7 +129,7 @@ Where the device stops being ours: the specification handed to a contract manufa
 
 | Claim | Source | Status |
 |---|---|---|
-| `MFG-1` Authored the manufacturer-facing specification set — sensor-hub API, IPC API, device authentication, activation flow, system-monitor test plan | 2022-08-03 | **in** |
+| `MFG-1` Authored the manufacturer-facing specification set — sensor co-processor API, IPC API, device authentication, activation flow, system-monitor test plan | 2022-08-03 | **in** |
 | `MFG-2` Set authoring principles separating hard requirements from recommendations, and wrote for spoken as well as written use across an organizational and language boundary | 2022-08-03 | **in** |
 | `MFG-3` Ran a deliberate retrospective on his own specification process after it went wrong, rather than treating documentation quality as unexaminable | 2022-08-03 | **in** |
 | `MFG-4` Became the firmware-over-the-air subject-matter expert in record time to change the balance of a vendor negotiation during an inventory crisis | 2025-07-18 | **in** |

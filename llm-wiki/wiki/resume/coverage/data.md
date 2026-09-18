@@ -2,18 +2,31 @@
 
 > **Doc type:** reference
 >
-> Data engineering, governance, statistical reasoning and specialist partnerships. Audience: brag ingest and resume promotion. [Coverage map](../coverage.md) owns totals, counting rules and shard routing; each claim below has one canonical home.
+> Data engineering, governance and stewardship, statistical reasoning and specialist partnerships. Audience: brag ingest and resume promotion. [Coverage map](../coverage.md) owns totals, counting rules and shard routing; each claim below has one canonical home.
 
 ### DATA — Data engineering and governance
 
-**Entries:** [2022-05-18 Snowflake device telemetry](../../../raw/brag/2022-05-18-snowflake-edw-device-telemetry.md) · cross-listed: [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) (claims tracked under `AI`)
+**Entries:** [2022-05-18 Snowflake device telemetry](../../../raw/brag/2022-05-18-snowflake-edw-device-telemetry.md) · [2013-01-01 Carrefour C4 promotion optimization](../../../raw/brag/2013-01-01-carrefour-c4-promotion-optimization-brazil.md) · [2014-01-01 CloudSML/CloudSPM/BigISLE big-data R&D](../../../raw/brag/2014-01-01-cloudsml-cloudspm-bigisle-big-data-rd.md) · [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) · [2010-05-01 NCS-R SAS data preparation](../../../raw/brag/2010-05-01-ncs-r-sas-data-preparation-pharma-client.md) · cross-listed: [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) (claims tracked under `AI`)
 
-**Thread coverage: 0%** (0 of 2)
+**Thread coverage: ≈ 27%** (3 of 11)
 
 | Claim | Source | Status |
 |---|---|---|
 | `DATA-1` Learned the enterprise data warehouse to interrogate device telemetry directly, removing the device team's dependency on requested reports | 2022-05-18 | absent |
 | `DATA-2` Argued data-mesh and data-product ownership for the device domain years before taking on the data-governance stewardship that realized it | 2022-05-18 | absent |
+| `DATA-3` Delivered and sustained, across at least four years, a demand-forecasting and promotion-optimization system for a major retail client's Brazilian operation, backed by a roughly 1TB SQL Server database and a parallel SAS implementation, communicating directly with the client's business side | 2013-01-01 | absent |
+| `DATA-4` Owned data-pipeline reliability, including backup and redundancy, for the client project's shared data store | 2013-01-01 | absent |
+| `DATA-5` Drove an R&D push into cloud and distributed big-data infrastructure and prepared technical material for an external industry-analyst (Gartner Magic Quadrant) briefing positioning the company's big-data strategy | 2014-01-01 | absent |
+| `DATA-6` Holds the formal Data Steward role on the enterprise data catalog for device data | 2025-01-01 | **in** |
+| `DATA-7` Treats data governance as risk management applied to data — who owns it, what it means, and whether it earns what it costs to keep | 2025-01-01 | **in** |
+| `DATA-8` Learned SAS from scratch and built a SAS-macro data-preparation system that warehoused a national health survey for a pharmaceutical client, who commissioned follow-on work | 2010-05-01 | **in** |
+| `DATA-9` Made a legacy SAS 8 codebase runnable, added diagnostic variables at the client's request, and documented the preparation method for the client | 2010-05-01 | absent |
+| `DATA-10` Out-built the in-house SAS expertise as a software engineer new to the language (owner's account) | 2010-05-01 | absent |
+| `DATA-11` Worked with a pharmaceutical client on clinical-survey data a decade before regulated medical devices, and carries that exposure into the medical-device work | 2010-05-01 | absent |
+
+> `DATA-3` through `DATA-5` are 2013-2017 Salford-era client-delivery and R&D work, captured 2026-09-16 from a breadth-first Gmail survey; `DATA-3` and `DATA-4` corroborate and extend an existing primary/archived-resume-sourced bullet in [accomplishments by domain](../../concepts/accomplishments-by-domain.md) § *Data engineering*, and `DATA-5` does the same for § *Big data and distributed ML*. Not yet deep-dived — see each entry's own *Evidence limitations*.
+>
+> `DATA-6` and `DATA-7` rest on the owner's statement (2026-09-16); the appointment date and the stewarded tables are not recorded. `DATA-8` was already on the resume under a 2008-2009 heading; the mailbox dates the owner's part to 2010 and 2013, which is unresolved. `DATA-10` is owner-reported and names nobody.
 
 ---
 

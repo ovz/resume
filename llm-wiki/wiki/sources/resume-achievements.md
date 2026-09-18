@@ -14,10 +14,10 @@ The current edition of the resume the owner has used for several years. It desce
 |---|---|---|
 | 1 | Header include (`_parts/header.md`): portrait, name, contact line | C0 |
 | 3–17 | *My Story*, six paragraphs: present scope and target role → languages and domains → security roots → Salford/Minitab ML era as systems work → GreatCall/Best Buy Health embedded era ending in regulated medical devices → AI since 2023. **Marked `linkedin: about`, 2,600 characters** | C1 |
-| 19–37 | *Most prominent achievements* — 13 bullets: architecture ownership; embedded emergency-response software; positioning incl. the Location Engine; fall detection; regulated medical devices (QMS, Orcanos, Gen2, PPG); embedded platform frameworks; operational excellence (shared fragment); data engineering; ML GUIs; architecture breadth; API design; big data; legacy code; distributed-team management; Agile | C2 |
+| 19–39 | *Most prominent achievements* — 15 bullets (two added 2026-09-16: **stewardship practised by eliminating toil**, and **machine-learning engines from the inside**, which replaced the bare *Legacy code* bullet): architecture ownership; embedded emergency-response software; **concurrency and network programming as the embedded fundamentals, bare-metal MCU and hosted Linux alike (added 2026-09-16)**; positioning incl. the Location Engine; fall detection; regulated medical devices (QMS, Orcanos, Gen2, PPG); embedded platform frameworks; operational excellence (shared fragment); data engineering; ML GUIs; architecture breadth; API design; big data; legacy code; distributed-team management; Agile | C2 |
 | 37 | *Side Note* include explaining Wayback Machine links | C2 boundary |
 | 39–103 | *Employment History*, each section **marked `linkedin: experience-*`, 2,000 characters**: 41 Best Buy Health 2020–present; 55 GreatCall 2018–2020; 69 Minitab; 81 Salford Systems; 93 IIT | beyond C2, chronological |
-| 105–332 | *Projects Overview*. Eight Best Buy Health sections (109 regulated medical devices, 123 capability framework, 127 location engine, 133 FOTA escalation, 137 fleet observability, then security/risk, embedded platform, wearable power budget), followed by the Salford-era sequence to CART 4.0 | beyond C2, chronological |
+| 105–332 | *Projects Overview*. Eight Best Buy Health sections (109 regulated medical devices, 123 the embedded component framework — renamed 2026-09-16 from the internal name to its public alias, 127 location engine, the 2023-2026 concurrency section added 2026-09-16, 133 FOTA escalation, 137 fleet observability, then security/risk, embedded platform, wearable power budget), followed by the Salford-era sequence to CART 4.0 | beyond C2, chronological |
 | — | *Education* include, then Lyceum "Professional" | after experience |
 | — | Reference-style link definitions (`_parts/links.md` include) | — |
 
@@ -29,6 +29,8 @@ Line numbers move on every pass; the marked-section boundaries do not, and are t
 
 Claims that exist in no archived variant and therefore must be preserved here or in the wiki:
 
+- Stewardship as a stated first principle, in chord with toil elimination, and the Data Steward role on the enterprise data catalog (2026-09-16).
+- Engine-level debugging of the classic machine-learning implementations in Fortran and C/C++, alongside the statisticians who owned them (2026-09-16).
 - Target role and the "work, not titles" positioning; "leveraging AI since 2023"; quality-left and toil-elimination themes; Principal-level scope across the Lively product line.
 - Best Buy Health chapter: MVNO on Verizon; 2019 Lively Mobile+ relaunch and data-driven troubleshooting; 2024 Lively Mobile 2 launch; Qualcomm Skyhook positioning upgrade and collaboration with Qualcomm; Datadog-based operational excellence (observability, monitoring, incidents, runbooks, post-mortems) meeting an OKR; on-device automated test architecture and QA enablement; contractor onboarding; telemetry and process-monitoring subsystem designs; interview/hiring contributions.
 - Fall detection: MCU signal filtering, subsystem coordination to place a call, persistence across reboot.

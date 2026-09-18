@@ -2,7 +2,7 @@
 
 > **Doc type:** reference
 >
-> Managing upward, mentorship, test discipline and risk practice. Audience: brag ingest and resume promotion. [Coverage map](../coverage.md) owns totals, counting rules and shard routing; each claim below has one canonical home.
+> Managing upward, mentorship, test discipline, risk practice and stewardship. Audience: brag ingest and resume promotion. [Coverage map](../coverage.md) owns totals, counting rules and shard routing; each claim below has one canonical home.
 
 ### LEAD — Managing upward and the quarterly cycle
 
@@ -72,3 +72,23 @@
 | `RSK-5` Initiated vendor security-feed engagement to formalize vulnerability-patch notification ahead of a device launch | 2023-09-30 | **in** |
 | `RSK-6` Challenged a mandated launch-readiness control as the wrong instrument for the device, arguing from system coupling and existing test coverage rather than effort | 2023-12-05 | **in** |
 | `RSK-7` Substituted better controls — chaos-style testing where failures actually live, escalation-path membership, and the one device-specific scenario worth rehearsing | 2023-12-05 | **in** |
+
+---
+
+### STEW — Stewardship as a first principle
+
+The disposition that connects `RSK`, `DATA` governance, `OBS` portfolio care and the Minitab IP transfer: ownership of what is held in trust, practised by eliminating toil. A capability thread — its entry indexes evidence that lives in other threads, so its claims are about the principle and its outward telling, never duplicates of theirs.
+
+**Entries:** [2026-09-16 stewardship as a first principle](../../../raw/brag/2026-09-16-stewardship-first-principle.md) · cross-listed: [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) (claims under `DATA`), [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) and [2023-08-03 risk management](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) (claims under `RSK`)
+
+**Thread coverage: 75%** (3 of 4)
+
+| Claim | Source | Status |
+|---|---|---|
+| `STEW-1` Holds stewardship and a strong sense of ownership as a first principle of professional life | 2026-09-16 | **in** |
+| `STEW-2` Practises stewardship in several registers at once — security and risk, data, technical, and people and organization | 2026-09-16 | **in** |
+| `STEW-3` Treats eliminating toil as how stewardship is practised: a steward is judged by what is handed on, and hand work is where drift and single points of knowledge live | 2026-09-16 | **in** |
+| `STEW-4` Extends stewardship to the employer's information, describing internal systems by function and keeping internal names off public material | 2026-09-16 | absent |
+
+> Promoted the day it was captured: a *My Story* sentence, a C2 achievement in both resumes, and a data-stewardship paragraph in the 2023-2026 security and risk project section. `STEW-4` is deliberately left off the resume — it is practised by the resume rather than claimed on it, and it is a follow-up answer in a story.
+

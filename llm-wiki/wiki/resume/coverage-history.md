@@ -32,7 +32,7 @@ Each note was written under its thread in the map and moved here unchanged. Thre
 
 **`OBS`** — Raised from ≈ 64% to ≈ 94% on 2026-09-10 by *Projects Overview* § **2023-2025. Fleet device-health Observability**, which carries the parts of the arc a single C2 bullet could not: the feasibility check, the wide-contract event, the telemetry schema diagnosis, the vendor Premier Support escalation, and the device caught live on stage.
 
-**`FW`** — Fully promoted on 2026-09-10: a C2 bullet and *Projects Overview* § **2026. Capability and Configuration Framework**. Still the only open-source-facing work in the corpus, and the resume now says so.
+**`FW`** — Fully promoted on 2026-09-10: a C2 bullet and *Projects Overview* § **2026. Embedded component framework across device SKUs** (renamed 2026-09-16 to its public alias). Still the only open-source-facing work in the corpus, and the resume now says so.
 
 **`RSK`** — Fully promoted on 2026-09-10 into *Projects Overview* § **2023. Security patch management, and Risk practice**. The resume's security material is no longer only the 1996–2000 cryptography era — there is now current practice on the page, which was the point.
 
