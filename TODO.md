@@ -13,9 +13,33 @@
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
 - `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
  
+## Networking tailored resume
+
 # Must mention Rich Stevens book
 
 To this day this is the bible of network programming. Misha brought this book to Ukraine during his visit and I devoured it. this was one of my pillars for predictive jobs tcp/ip daemon  and I am an advanced network programmer to this day.
+
+# My mentor Tim Wodarski is in charge of networking
+
+Tim told me a lot of war stories about networking at best buy. This landed on furtile soil given my networking expereinces with strong foundation on Client/Server SPM (TCP/IP predictive job daemon) and being side initiative for many of the projects, obviously including cellular enabled R5.
+
+This confirmed I am a die hard fan of russ white. I did listen to his O'Reilly content and this cemented my network engineering understanding. I am even glad I do not specialize on networks and stuck in dogmas and looking forward to embrace such specialization and be successful because of Russ White and my mentor Tim advice and inspiration
+
+ 
+rule11.tech
+ (titled Rule 11 Reader) is the official personal website and primary technical blog of network architect Russ White. This is one of my beacon in the world of today as of 2026
+
+ Another saying from Russ is "there are usually 4 basic problems and 4 basic solution in each domain". Upgrade my domains with stories around up to 4 such fundamental problems and top 4 solutions 4 them. Steal 4 network problem from Russ White.
+
+
+
+
+
+
+
+
+
+
 
 
 # llm-wiki/wiki/stories/concurrency.md
@@ -46,7 +70,29 @@ BTW despite fortran compiler bug saga Ken Bernstein and Illya polosukhin got exc
 
 # Ingest
 
+## Discover
+
 Run copilot to see which GreatCall or best buy stories and other material need support from Outlook copilot or Rovo Jira/Confluence
+
+# llm-wiki/wiki/stories/stewardship.md
+
+Get all the material for data goverance stretch assignment with Alation, Rodd Johnson, etc In 
+
+- Outlook
+
+- Rovo
+
+- Trello
+
+
+
+
+
+
+
+
+
+
 
 # llm-wiki/wiki/resume/coverage/engineering.md
 

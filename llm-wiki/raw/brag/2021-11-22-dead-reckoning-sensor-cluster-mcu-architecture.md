@@ -39,6 +39,8 @@ The shape of this is the point: positioning becomes a mostly-asleep, sensor-trig
 
 **Kept it connected to the team.** Coordinated with the hardware side, who had boards with the same sensor cluster already, on whether the sensor hub could deliver high-level data packs to both the BLE MCU and the application processor. Circulated the blueprint for review and folded in questions from the hardware lead — position quality indicators and their categorization (precision, reliability, custom and industry-standard parameters), gyroscope precession under centrifugal force, step counting as a vector quantity, MCU-side beacon scanning, and deep-sleep wake latency.
 
+**Outward alias.** "sensorhub" is the conventional internal name for this microcontroller. Outward it is the **sensor co-processor** — see [sensitivity tiers](../../wiki/workflows/sensitivity-tiers.md) § *Public aliases for internal names*.
+
 ## Why it matters
 
 - **It set the architecture for how the device knows where it is** — an approach where positioning is triggered by motion and normally costs nothing, rather than a continuous drain, which was the difference between positioning being a feature and positioning being a battery problem.
@@ -66,3 +68,4 @@ Trello device-programme board, *Dead Reckoning*, *BLE Examples*, *Research for B
 - 2026-09-10: created from the Trello device-programme board during the full board ingest.
 - 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.
 - 2026-09-14: *Related* corrected — beacon tracking did not ship to customers and was an assignment, not an outgrowth of this research; link to the 2023-11-27 entry added.
+- 2026-09-16: added *Outward alias* for the "sensorhub" name.
