@@ -8,6 +8,7 @@
 
 > Agent traces: each line is a session-wiki tracker that holds items **for you** — commit guides to land, decisions, checks. The paths are this workstation's scratch. This is your scratch file: delete a line whenever you like; an agent re-adds a trace only when new owner items appear.
 
+- `__untracked_stuff/llm-wiki-maintenance/tasks/assignment_tracker.md` - networking brag capture: proposal 006 and optional HTTP/watchdog evidence enrichment.
 - `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
 - `__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md` — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
@@ -24,7 +25,7 @@ The cradle's firmware was frozen at launch — an irreversible decision, made ea
 
 ```
 
-These are more statements than steps in the story. And this style is usually associated with AI generating spoken narrative. Also Fix narrative related agent customizations to sound human rather than like in examples above. Note that using such sentences in speach structure somewhat makes sense. These are not spoken verbatim, though. In speach they sound like artificial corporate, marketing, etc speak. While I am marketing myself (thus the structure), when I tell the story I channel my memories and put them in words. Most humans don't think in tag lines
+These are more statements than steps in the story. And this style is usually associated with AI generating spoken narrative. Also Fix narrative related agent customizations to sound human rather than like in examples above. Note that using such sentences in speach structure somewhat makes sense. These are not spoken verbatim, though. In speach they sound like artificial corporate, marketing, etc speak. While I am marketing myself (thus the structure), when I tell the story I channel my memories and put them in words. Most humans don't think in tag lines. So short self contained sentences with elevated emotional load are not typical in natural human storytelling.
 
 
 
@@ -34,16 +35,6 @@ These are more statements than steps in the story. And this style is usually ass
 
 
 ## Networking tailored resume
-
-# r5 code
-
-Study the repo and prepare detailed brag file about networking related experience (as in TCP/IP, also cellular in computer networks rather than radio sense; put radio tech into separate brag files). I recall HTTP calls that could time out a watch dog, though in this repo watchdog is not active and I think we are using asynchrony properly. Networking is not the main value prop of the repo, but I have significant career goals building products more dedicated to networking. This repo created some networking challenges as I recall. This is my most recent networking exeperience and I need it in brag files
-
-
-
-
-
-
 
 
 # Must mention Rich Stevens book
