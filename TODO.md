@@ -8,7 +8,7 @@
 
 > Agent traces: each line is a session-wiki tracker that holds items **for you** — commit guides to land, decisions, checks. The paths are this workstation's scratch. This is your scratch file: delete a line whenever you like; an agent re-adds a trace only when new owner items appear.
 
-- `__untracked_stuff/llm-wiki-maintenance/tasks/assignment_tracker.md` - networking brag capture: proposal 006 and optional HTTP/watchdog evidence enrichment.
+- `__untracked_stuff/llm-wiki-maintenance/tasks/assignment_tracker.md` - land proposals 006–008 (networking captures, Qualcomm ingest, tailored-variant inventory with networking first); confirm the two tiering corrections and the "coverage measures the primary" rule; paste the next Outlook brag file.
 - `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
 - `__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md` — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home

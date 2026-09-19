@@ -26,7 +26,7 @@ Start at [`index.md`](index.md). It lists every page with a one-line purpose and
 
 ## Size and shape
 
-- Every Markdown file in this directory stays **under roughly 200–500 lines; 500 is the ceiling**. Split by topic before exceeding it. Router pages (this file, `index.md`) stay well under 200. Short is fine — pages are sized by knowledge, not padded.
+- Prefer Markdown pages of **500 lines or fewer; 1,024 lines is the hard ceiling**. Split by coherent subject before exceeding the preferred size; do not pad or compress prose to meet a limit. Routers contain navigation, not claim detail, and grow with the number of shards rather than accomplishments. Router pages (this file, `index.md`) stay well under 200 where practical. Coverage's physical design lives in [wiki/resume/coverage.md](wiki/resume/coverage.md#physical-design).
 - A prose paragraph is one logical line; do not hard-wrap. Real newlines are for headings, list items, table rows, and paragraph breaks.
 - Every synthesized page declares its Diataxis mode right after the title: `> **Doc type:** reference | how-to | explanation | tutorial`. One mode per file.
 - Lowercase kebab-case filenames. Links are relative to the page making them.
@@ -69,7 +69,7 @@ PDFs, exports, screenshots, and employer-internal notes are never committed (`.g
 | Preserve a source too large to commit as-is | `wiki/workflows/large-imports.md` (the owner decides the tier first; an agent never grants the exception) |
 | Ingest any other new source | Read it fully; write or update its `wiki/sources/` page; update `wiki/sources.md`, the affected synthesis pages, and `index.md`; log the ingest (below). |
 | Answer a question | `index.md` → smallest set of pages → answer with source links and stated uncertainty. File durable answers under `wiki/analysis/` (create on first use) and index them. |
-| Lint | Broken relative links; pages over 500 lines; claims without sources; `__untracked_stuff` references; orphan pages; `raw/brag/` entries missing from the ledger; entries missing from `wiki/resume/coverage.md`, or coverage totals that no longer match its own tables; `wiki/sources/` pages whose harvest map is stale; dream-job candidates whose `origin` was changed to `owner` without the owner saying so, or whose evidence grade no longer matches the entries they cite; Obsidian colour groups that disagree with the legend in `wiki/workflows/obsidian-vault.md`. Record findings in the operations log. |
+| Lint | Broken relative links; pages over 500 lines (sharding review) or 1,024 lines (failure); claims without sources; `__untracked_stuff` references; orphan pages; `raw/brag/` entries missing from the ledger; entries missing from the subject shards routed by `wiki/resume/coverage.md`, or coverage totals that fail `python3 script/check-coverage.py`; `wiki/sources/` pages whose harvest map is stale; dream-job candidates whose `origin` was changed to `owner` without the owner saying so, or whose evidence grade no longer matches the entries they cite; Obsidian colour groups that disagree with the legend in `wiki/workflows/obsidian-vault.md`. Record findings in the operations log. |
 
 ## Operations log
 

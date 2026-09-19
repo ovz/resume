@@ -66,11 +66,11 @@ A breadth-first Gmail survey pass (2026-09-16) surfaced eight distinct Salford S
 
 ### BOOST - Boost library proficiency
 
-One cross-career capability record, with specific embedded C++ examples. The entry's corrected device-wiki grounding establishes **Boost 1.67.0 across ARM Linux, native Linux and macOS**, corroborated by the three vendored headers. The older Asio 1.67 study checklist is historical context. Investigations and advocacy are not claims of delivered redesigns; this structural move preserves the existing six claims.
+One cross-career capability record, with specific embedded C++ examples. The entry's corrected device-wiki grounding establishes **Boost 1.67.0 across ARM Linux, native Linux and macOS**, corroborated by the three vendored headers. The older Asio 1.67 study checklist is historical context. Investigations and advocacy are not claims of delivered redesigns. A 2026-09-19 pass added Signals2, Filesystem, System and String Algorithms as a wider base of production-infrastructure evidence from the same device wiki; a repeat targeted search again found no evidence of Boost.MPL.
 
 **Entry:** [2026-09-14 Boost proficiency](../../../raw/brag/2026-09-14-boost-library-proficiency.md)
 
-**Thread coverage: ≈ 17%** (1 of 6). All six claims belong to the entry marked `resume-worthy: yes`. `BOOST-4` and `BOOST-5` became `partial` on 2026-09-16: the resume now names Boost.Asio as the day-to-day abstraction and its executor and signal-handling boundaries, without the off-target testing or `signal_set` detail.
+**Thread coverage: 10%** (1 of 10). All ten claims belong to the entry marked `resume-worthy: yes`. `BOOST-4` and `BOOST-5` became `partial` on 2026-09-16: the resume now names Boost.Asio as the day-to-day abstraction and its executor and signal-handling boundaries, without the off-target testing or `signal_set` detail.
 
 | Claim | Source | Status |
 |---|---|---|
@@ -80,3 +80,7 @@ One cross-career capability record, with specific embedded C++ examples. The ent
 | `BOOST-4` Analyzed Boost.Asio executor boundaries and mockable message-bus reuse for off-target testing | 2026-09-14 | partial |
 | `BOOST-5` Identified signal-handling guarantee trade-offs around Boost.Asio signal_set and SIGTERM | 2026-09-14 | partial |
 | `BOOST-6` Records long-standing Boost/C++ and Boost.Test experience, with historical 15-year and 2-year baselines rather than invented current totals | 2026-09-14 | absent |
+| `BOOST-7` Built the device's cross-component event bus on Boost.Signals2's connect-order slot guarantee, composed with per-subscriber posted delivery | 2026-09-14 | absent |
+| `BOOST-8` Resolved production file paths through Boost.Filesystem and closed a gap where `filesystem_error` escaped uncaught from an unsearchable-parent or symlink-loop path | 2026-09-14 | absent |
+| `BOOST-9` Used Boost.System `error_category` as the repo-wide convention identifying which subsystem raised an error, mapped to a bit-packed reporting code | 2026-09-14 | absent |
+| `BOOST-10` Used Boost String Algorithms (`replace_all`) for in-place placeholder substitution on a live component ahead of a controlled rebuild | 2026-09-14 | absent |

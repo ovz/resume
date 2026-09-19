@@ -28,12 +28,7 @@
 
 A role-specific resume is a **new file** in `markdown/` named `Oleg.Zhylin.resume.<audience>.md`, derived from the primary by retargeting the summary, compressing *My Story*, re-ordering and pruning C2 bullets, and cutting beyond-C2 sections that do not serve that audience. It inherits every convention here. When a variant is retired, archive it via [workflows/archive-source.md](../workflows/archive-source.md) with its own summary page.
 
-**Existing variants:**
-
-| File | Audience | Cut relative to the primary |
-|---|---|---|
-| `Oleg.Zhylin.resume.achievements.md` | General — the primary, mirrored to LinkedIn | — |
-| `Oleg.Zhylin.resume.embedded.md` | Principal Engineer, C++/Rust, embedded (hosted or bare metal), owning operational excellence | Summary retargeted to Principal and embedded; *My Story* compressed from six paragraphs to four, with the ML-product era reframed as systems work; C2 reordered with a Quality-Engineering bullet added and the ML-GUI, API-design and Big-Data bullets dropped; *Projects Overview* replaced by a shorter *Selected Projects* keeping the cross-platform, systems and toolchain work |
+**Which variants exist, which are planned and in what order, and what each one draws on** is [variants.md](variants.md) — load it, then only the shards its brief names, before drafting or refreshing any variant. The embedded variant's cut relative to the primary, for reference: summary retargeted to Principal and embedded; *My Story* compressed from six paragraphs to four, with the ML-product era reframed as systems work; C2 reordered with a Quality-Engineering bullet added and the ML-GUI, API-design and Big-Data bullets dropped; *Projects Overview* replaced by a shorter *Selected Projects* keeping the cross-platform, systems and toolchain work.
 
 ### Keeping variants from drifting
 

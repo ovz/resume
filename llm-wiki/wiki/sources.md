@@ -8,7 +8,8 @@
 
 | Source | Tier | Status | Summary page | Use it for |
 |---|---|---|---|---|
-| [`Oleg.Zhylin.resume.achievements.md`](../../markdown/Oleg.Zhylin.resume.achievements.md) | T0 public | **PRIMARY** — live, mirrored to LinkedIn | [sources/resume-achievements.md](sources/resume-achievements.md) | The canonical statement of the career; the only document edited by the [update workflow](resume/update-workflow.md). |
+| [`Oleg.Zhylin.resume.achievements.md`](../../markdown/Oleg.Zhylin.resume.achievements.md) | T0 public | **PRIMARY** — live, mirrored to LinkedIn | [sources/resume-achievements.md](sources/resume-achievements.md) | The canonical statement of the career; edited by the [update workflow](resume/update-workflow.md). |
+| [`Oleg.Zhylin.resume.embedded.md`](../../markdown/Oleg.Zhylin.resume.embedded.md) | T0 public | live tailored variant — not mirrored to LinkedIn | [resume/variants.md](resume/variants.md) (no per-source page yet) | Principal Engineer, C++/Rust, embedded audience. Derived from the primary; shares `_parts/` fragments. |
 | [`Oleg.Zhylin.professional.references.md`](../../markdown/Oleg.Zhylin.professional.references.md) | T1 private (third-party PII) | live hand-out | [sources/professional-references.md](sources/professional-references.md) | Who can vouch, relationship, period. Never copy contact details into the wiki. |
 
 ## Archived resume variants (`llm-wiki/raw/archive/`, immutable)
@@ -31,7 +32,7 @@ Code that was written, works, and has no caller. Archived rather than deleted so
 
 | Source | Tier | Status | Ledger | Use it for |
 |---|---|---|---|---|
-| `raw/brag/YYYY-MM-DD-<slug>.md` (none yet) | T1 private or T0-eligible per tag | rolling | [sources/brag-ledger.md](sources/brag-ledger.md) | Fresh accomplishments awaiting synthesis into [accomplishments by domain](concepts/accomplishments-by-domain.md). |
+| `raw/brag/YYYY-MM-DD-<slug>.md` | T1 private or T0-eligible per tag | rolling | [sources/brag-ledger.md](sources/brag-ledger.md) | Accomplishments captured as they happen, synthesized into [accomplishments by domain](concepts/accomplishments-by-domain.md); ingest and promotion state per entry is in the ledger. |
 
 ## Historical material (`archive/`)
 
