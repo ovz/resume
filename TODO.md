@@ -67,6 +67,14 @@ Another related fact is that SKyhook was decided for positioning. Among other th
 
 Throw in a restrospect that with AI such experiment design and execution is literally calendar time expense. This is a perfect case for vibe coding, code review is a breathe because no clever code is allowed and irrelevant code is easily spotted. Once llm is in the correct area of hyperspace it doesn't chaotically blunder to some danger zone just out of coarseness of the model parameters etc. That's why prompt engineer profession was short lived. The challenge to keep LLM in the correct space (single word in the prompt determines succsss/failure) got solved by the industry in the matter of months. For modern LLMs the skill is to keep model comrehensive, demand top quality, not accept half baked results etc. I designed several successful experiments and the experience was stellar. A bunch of scripts configured any number of devices, testing instructions were ones I enjoyed executing, and analysis in Jupyter notebook looks like what would be an initiative for a Data Scientist to spend a week just on the first draft and engineer to put it in production. Now I have production grade internal software on my dev machine in minutes. That's my local SAS-apocalypse episode, but more Javon paradox style. I used to have to figure out what is doable and keep my urges to eliminate toil under strict reality check. Now my good stewardship instincts grow into comprehensive documentation and production grade software. I feel like we solved Navier-Stocks equaltions for Agile software development. Contract negotiation still stands, but comrehensive documentation is not a cope out anymore. 
 
+# llm-wiki/wiki/stories/positioning/the-fault-that-lost-the-fix.md
+
+here and other places emphasize automated fall detection. Button press is for care center and seniors can press it for loneliness, lyft ride, or whatever other reason. The point is we don't limit time with agent who actually cares. Fall Detection, home/away is what we do without customer awareness to give them care they need.
+
+There is also related story that Skyhook, and even Qualcomm QMI in separate scenarios badly leaked file descriptors. QMI incident is where I read a ton of Qualcomm code and did a number of experiments pre-AI by hand. skyhook is where FD guarding condition saved the day and pointed at a problem. This is at least 2 stories, maybe even more than that because discourse of wathing out for File Descriptors on Linux where everything is a file makes a good conversation. Process that leaks file descriptors is subject to OOM killer. in practice, though, OOM might arrive late or even never on an Yocto embedded system and process with file descriptor failures at random places is like alternator broken on a car. Because alternator give electricity to every piece of modern car the failure modes and funny behaviours are abundant
+
+
+
 
 
 
