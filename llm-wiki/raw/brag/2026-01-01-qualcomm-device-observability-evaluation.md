@@ -49,6 +49,7 @@ Several fields could not become operationally useful without additional TCL impl
 - [2023-12-21-device-health-observability-architecture](2023-12-21-device-health-observability-architecture.md) — earlier architecture work establishing an agentless device-health telemetry approach under embedded resource constraints.
 - [2024-03-07-r5-datadog-monitoring-launch](2024-03-07-r5-datadog-monitoring-launch.md) — existing Datadog monitoring and vendor-support foundation against which this platform was evaluated.
 - [2024-01-04-cellular-cost-rogue-device-detection](2024-01-04-cellular-cost-rogue-device-detection.md) — related analysis of cellular operating cost using device and carrier data.
+- [2025-05-01-qualcomm-skyhook-device-identity](2025-05-01-qualcomm-skyhook-device-identity.md) — earlier cross-company work establishing the device-identity prerequisite for Qualcomm/Skyhook observability and telemetry.
 
 ## Record history
 

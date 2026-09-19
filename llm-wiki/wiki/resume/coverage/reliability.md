@@ -8,9 +8,9 @@
 
 The largest thread by far: ten entries spanning 2023–2026, tracing one arc from "can we even observe this fleet?" through launch monitoring, operational response, statistical tuning, portfolio stewardship and vendor-platform due diligence.
 
-**Entries:** [2023-12-21 observability architecture](../../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-29 anomaly validation](../../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) · [2026-01-01 Qualcomm observability evaluation](../../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
+**Entries:** [2023-12-21 observability architecture](../../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-01 device identity](../../../raw/brag/2025-05-01-qualcomm-skyhook-device-identity.md) · [2025-05-29 anomaly validation](../../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) · [2026-01-01 Qualcomm observability evaluation](../../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
 
-**Thread coverage: ≈ 56%** (18 of 32)
+**Thread coverage: ≈ 43%** (18 of 42)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -46,6 +46,16 @@ The largest thread by far: ten entries spanning 2023–2026, tracing one arc fro
 | `OBS-30` Coordinated the evaluation across Qualcomm/Skyhook, TCL, Best Buy Health engineering, Operations and Product stakeholders | 2026-01-01 | absent |
 | `OBS-31` Obtained vendor pricing and translated technical findings into a fleet-scale cost and operational-impact discussion for leadership | 2026-01-01 | absent |
 | `OBS-32` Built an engineering and business recommendation while explicitly accounting for data quality, vendor readiness and operational readiness | 2026-01-01 | absent |
+| `OBS-33` Identified that Linux-based R5 devices lacked a reliable portable way to expose product OEM identity, distinct from the available Qualcomm SoC identity | 2025-05-01 | absent |
+| `OBS-34` Reframed an ambiguous OEM-name question as a production firmware-and-SDK engineering deliverable | 2025-05-01 | absent |
+| `OBS-35` Coordinated Best Buy Health, TCL and Qualcomm/Skyhook across the firmware, SDK and observability boundaries | 2025-05-01 | absent |
+| `OBS-36` Clarified the identity information required by the SDK and the platform identity information already available from TCL | 2025-05-01 | absent |
+| `OBS-37` Drove evaluation of firmware changes to expose OEM identity while keeping Best Buy Health involved in partner communications | 2025-05-01 | absent |
+| `OBS-38` Connected a short-term device-identity implementation with continued investigation of a longer-term Linux-platform approach | 2025-05-01 | absent |
+| `OBS-39` Tied consistent OEM identity to future device-model, operating-system, device-health and operational telemetry | 2025-05-01 | absent |
+| `OBS-40` Framed device identity as an architecture layer spanning firmware, operating system, SDK, observability and cloud analytics | 2025-05-01 | absent |
+| `OBS-41` Drove a cross-company ambiguity toward a workable implementation direction rather than allowing it to stall between organisations | 2025-05-01 | absent |
+| `OBS-42` Improved Qualcomm/Skyhook integration readiness by establishing a path toward machine-readable device attribution, without claiming release or fleet deployment | 2025-05-01 | absent |
 
 > `OBS-7` is deliberately `partial`: the resume claims the catch but not the battery-overheating specific, which names a safety-adjacent defect in a current employer's product. See [editorial questions](editorial.md#open-questions).
 
