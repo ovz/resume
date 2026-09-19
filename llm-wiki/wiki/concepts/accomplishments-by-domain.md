@@ -54,6 +54,8 @@
 
 ## Data engineering
 
+- Validated Qualcomm/Skyhook fleet telemetry as data rather than vendor marketing: checked observed battery and CPU fields for semantic and range problems, pursued clarification, and judged whether the data could support production decisions and monitoring. [2026-01-01-qualcomm-device-observability-evaluation](../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
+
 - Data preparation/ETL as the recurring 80% of every analytics, troubleshooting, forensics, and support engagement; results ready in hours or days. [primary]
 - 2019 relaunch: data-driven analysis of device fleet and server infrastructure; introduced the team to data-science tooling; contractor QA workforce made effective through data tooling. [primary]
 - Brazil retail promotion optimization (2013): full ETL to a 1 TB MS SQL warehouse; C#/WPF automation with CLR stored procedures and embedded Windows Workflow Foundation designer; data cleanup and product-cannibalization modelling. [long] Sustained across 2013-2017 as a client-facing relationship with Carrefour's Brazilian retail operation ("C4"), producing weekly predictions feeding the client's pricing-flyer cycle, with a parallel SAS implementation and owned data-pipeline reliability/backup. [2013-01-01-carrefour-c4-promotion-optimization-brazil](../../raw/brag/2013-01-01-carrefour-c4-promotion-optimization-brazil.md)
@@ -74,6 +76,8 @@
 - Sustained low-level C/C++ debugging inside the CART/TreeNet/MARS statistical engine itself — model/grove-pointer lifetime assertion failures, an R-squared computation path shared between `SCORE` and TSLS, and partial-dependency-plot semantics reasoned through directly with the engine's original author, Dan Steinberg (2009-2012). [2010-01-01-spm-engine-debugging-cart-treenet-mars](../../raw/brag/2010-01-01-spm-engine-debugging-cart-treenet-mars.md) The owner's framing (2026-09-16): code that is "a mathematical paper encoded in Fortran" rather than software-engineering bread and butter — where he tested his mathematical boundaries and learned to value the statisticians on the other side of them; he wants it featured among the prominent achievements.
 
 ## Architecture and API design
+
+- Evaluated Qualcomm/Skyhook Device Observability as a fleet-scale telemetry and diagnostics platform: validated metric quality and semantics, assessed Datadog overlap, cellular reporting cost, OEM dependencies and vendor lock-in, obtained pricing, and built the technical business case for leadership. [2026-01-01-qualcomm-device-observability-evaluation](../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
 
 - Long-standing Boost proficiency with concrete **Boost.MSM** depth: inherited hierarchical machines with submachines and orthogonal regions, typed-transition diagnosis, and advocacy for integrating cross-cutting modes into lifecycle state models. **Boost.Asio** evidence adds executor-boundary and SIGTERM/`signal_set` analysis; investigations are not recast as shipped fixes, and exact Boost versions remain unconfirmed. [2026-09-14-boost-library-proficiency](../../raw/brag/2026-09-14-boost-library-proficiency.md)
 - Architectures for desktop, embedded, CLI, client-server, distributed ML, and cloud systems; strong vision across engineering, business, and scientific stakeholders. [primary]
@@ -121,6 +125,8 @@
 - Turned audio-service findings into reviewable synchronization, queue-ownership and resource-lifetime corrections, with explicit structural and runtime acceptance criteria. Kept successive source-review results distinct from later owner-reported QA success; neither the test plans nor the positive retest establish exhaustive defect closure. [2026-04-24-tcl-audio-service-concurrency-corrections](../../raw/brag/2026-04-24-tcl-audio-service-concurrency-corrections.md)
 
 ## Operational excellence and observability
+
+- Evaluated a Qualcomm/Skyhook observability platform as an architecture and operating-cost decision, comparing it with Datadog, identifying vendor and ODM readiness risks, and converting telemetry and pricing findings into a fleet-scale recommendation. [2026-01-01-qualcomm-device-observability-evaluation](../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
 
 - Met an OKR and over-delivered on operational excellence with Datadog: observability, monitoring, incident creation, runbooks, post-mortems; drastically reduced cost of operation. [primary]
 - Product-quality analytics that let the team focus on strategy through the adoption phase. [primary]

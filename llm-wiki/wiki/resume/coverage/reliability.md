@@ -6,11 +6,11 @@
 
 ### OBS — Device-health observability programme
 
-The largest thread by far: nine entries spanning 2023–2025, tracing one arc from "can we even observe this fleet?" through launch monitoring, operational response, statistical tuning, and portfolio stewardship.
+The largest thread by far: ten entries spanning 2023–2026, tracing one arc from "can we even observe this fleet?" through launch monitoring, operational response, statistical tuning, portfolio stewardship and vendor-platform due diligence.
 
-**Entries:** [2023-12-21 observability architecture](../../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-29 anomaly validation](../../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md)
+**Entries:** [2023-12-21 observability architecture](../../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-29 anomaly validation](../../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) · [2026-01-01 Qualcomm observability evaluation](../../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
 
-**Thread coverage: ≈ 82%** (18 of 22)
+**Thread coverage: ≈ 56%** (18 of 32)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -36,6 +36,16 @@ The largest thread by far: nine entries spanning 2023–2025, tracing one arc fr
 | `OBS-20` Recognized that threshold detection alone could not diagnose some device conditions, routing them to device-specific engineering interpretation and recovery assessment | 2025-01-09 | partial |
 | `OBS-21` Prioritized physical-device recovery by customer-care urgency and diagnostic value, accounting for recovery cost | 2025-01-09 | partial |
 | `OBS-22` Ensured the detailed diagnostic guide was reviewed and published alongside the main runbook's recurring review | 2025-01-09 | absent |
+| `OBS-23` Evaluated Qualcomm/Skyhook Device Observability as a potential fleet-scale telemetry and diagnostics platform rather than as an isolated vendor feature | 2026-01-01 | absent |
+| `OBS-24` Validated the telemetry actually produced, including cellular, battery, storage, data-usage, device-health and location-related fields | 2026-01-01 | absent |
+| `OBS-25` Identified battery-range, CPU-utilization and metric-semantics questions and pursued vendor clarification before judging deployment suitability | 2026-01-01 | absent |
+| `OBS-26` Compared vendor telemetry with existing Datadog monitoring to assess overlap, coverage and custom-reporting implications | 2026-01-01 | absent |
+| `OBS-27` Assessed the potential effect of telemetry reporting on cellular utilization and operating cost without claiming realized savings | 2026-01-01 | absent |
+| `OBS-28` Identified Qualcomm/Skyhook infrastructure dependency and vendor lock-in as architecture risks for adoption | 2026-01-01 | absent |
+| `OBS-29` Determined that additional TCL participation was required before several observability fields could become operationally useful | 2026-01-01 | absent |
+| `OBS-30` Coordinated the evaluation across Qualcomm/Skyhook, TCL, Best Buy Health engineering, Operations and Product stakeholders | 2026-01-01 | absent |
+| `OBS-31` Obtained vendor pricing and translated technical findings into a fleet-scale cost and operational-impact discussion for leadership | 2026-01-01 | absent |
+| `OBS-32` Built an engineering and business recommendation while explicitly accounting for data quality, vendor readiness and operational readiness | 2026-01-01 | absent |
 
 > `OBS-7` is deliberately `partial`: the resume claims the catch but not the battery-overheating specific, which names a safety-adjacent defect in a current employer's product. See [editorial questions](editorial.md#open-questions).
 
