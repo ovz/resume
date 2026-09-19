@@ -61,6 +61,7 @@ The owner's own device-programme board carries the power-budget list, the trade-
 
 ## Related
 
+- [2026-07-29 cellular MQTT traffic scheduling](2026-07-29-cellular-mqtt-traffic-scheduling.md) - the detailed, source-attributed implementation episode behind the 2026 keep-alive work above; not an additional independently measured battery saving.
 - [2021-11-15-r5-product-architecture-power-budget-tradeoffs](2021-11-15-r5-product-architecture-power-budget-tradeoffs.md) — the origin: the argument that the battery budget must be decided before the form factor. This entry is the standing expertise that argument started.
 - [2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture](2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md) — the architecture built to satisfy the power goal, and where the MCU-versus-AP power question was researched.
 - [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — presence detection over polling, the positioning decision made for battery reasons.
@@ -73,3 +74,4 @@ The owner's own device-programme board carries the power-budget list, the trade-
 - 2026-09-13: created from the owner's direct statement of 2026-09-13, grounded the same day in the committed Trello snapshots. Filed at the start of the documented range, per the convention for a standing practice.
 - 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.
 - 2026-09-14: *Related* link to the 2023-11-27 beacon tracking entry.
+- 2026-09-19: Linked the separate, source-grounded networking implementation episode for the 2026 keep-alive work; existing accomplishment text and outcome limits unchanged.
