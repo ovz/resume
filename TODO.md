@@ -12,7 +12,27 @@
 - `__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md` — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
 - `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
- 
+
+# llm-wiki/wiki/stories/positioning/home-away-kept-simple.md
+
+In this and other stories fix the narrative style. Rewrite sentences like
+
+```
+A design review where everyone agreed and nobody engaged. 
+
+The cradle's firmware was frozen at launch — an irreversible decision, made early. 
+
+```
+
+These are more statements than steps in the story. And this style is usually associated with AI generating spoken narrative. Also Fix narrative related agent customizations to sound human rather than like in examples above. Note that using such sentences in speach structure somewhat makes sense. These are not spoken verbatim, though. In speach they sound like artificial corporate, marketing, etc speak. While I am marketing myself (thus the structure), when I tell the story I channel my memories and put them in words. Most humans don't think in tag lines
+
+
+
+
+
+
+
+
 ## Networking tailored resume
 
 # Must mention Rich Stevens book
@@ -31,6 +51,21 @@ rule11.tech
 
  Another saying from Russ is "there are usually 4 basic problems and 4 basic solution in each domain". Upgrade my domains with stories around up to 4 such fundamental problems and top 4 solutions 4 them. Steal 4 network problem from Russ White.
 
+
+
+
+
+
+
+
+
+# llm-wiki/wiki/stories/positioning/power-budget-non-issue.md
+
+Power budget trade off analysis is something rather obvious even for juniors, not to mention executives and other non-techincal people. The story is about cutting corners on statistically significant estimation with proper groundng. This story interplas with STM discovery board, MEMs etc. While proving significant motion, ML core, dead reckoning etc are not just keyword match on vendor marketing but actually observed is fundamental, no less important is not only locate the correct numbers in data sheets etc but also add them to budget with the correct analysis. Make sure the approach to battery budget like any other industry wide "standard of care" (medical metaphor a good fit here) for embedded devices matches industry consensus and not something that will raise eyebrows, sound revolutionary, controversial etc. e.g. Russ White critisism of ISO OSI network model resonates with professionals and shows that I think and I care, not just defer to authority. I am a Data Security major and I internalized a thing or two about compliance at a young age. Compliance skills are powerful and "power and responsibility" metaphor works good here. Put another story draft that my less security educated team members still periodically put together ad hoc IMEI, lat/lon numbers, etc obfuscations in the spirit of PII  protection. I always push back that we don't have a concrere certification document , no audit by 3rd party security professionals planned etc. Even our enterprise one Checkmarkx scanner would be some real compliance vehicle. Just because you think this sounds like compliance doesn't help during static analysis, audit etc. So keep it simple, practice yagni, don't put PII into logs, but IMEI, lat/lon etc have some technical meaning and obfuscating them unnecessarily creates work to build obfuscation, test obfuscation itself and use obfuscated data and actual compliance process will still cost the same or even more because one guessed what the right answer is despite in this case if there is no book with righ answer the right answer doesn't exist. 
+
+Another related fact is that SKyhook was decided for positioning. Among other things r5 skyhook powered location fix is much more effective on battery as compared to iZat qualcomm (lookup exact names) previous generation positioning. Qualcomm did a good call purchasing skyhook. We didn't get skyhook just for battery. As I tell in another story, commercial customers e.g. assisted living don't appreciate 1.0 technology. Consumers might tolerate some variability and 1.0 kinds of blunder might drive the churn up somewhat, but rarely be single signficant factor that hikes the churn and kills the product. one of those cases when "no product" means no churn, otherwise getting something in the field is progress, perfectionism is stagnation and failure.
+
+Throw in a restrospect that with AI such experiment design and execution is literally calendar time expense. This is a perfect case for vibe coding, code review is a breathe because no clever code is allowed and irrelevant code is easily spotted. Once llm is in the correct area of hyperspace it doesn't chaotically blunder to some danger zone just out of coarseness of the model parameters etc. That's why prompt engineer profession was short lived. The challenge to keep LLM in the correct space (single word in the prompt determines succsss/failure) got solved by the industry in the matter of months. For modern LLMs the skill is to keep model comrehensive, demand top quality, not accept half baked results etc. I designed several successful experiments and the experience was stellar. A bunch of scripts configured any number of devices, testing instructions were ones I enjoyed executing, and analysis in Jupyter notebook looks like what would be an initiative for a Data Scientist to spend a week just on the first draft and engineer to put it in production. Now I have production grade internal software on my dev machine in minutes. That's my local SAS-apocalypse episode, but more Javon paradox style. I used to have to figure out what is doable and keep my urges to eliminate toil under strict reality check. Now my good stewardship instincts grow into comprehensive documentation and production grade software. I feel like we solved Navier-Stocks equaltions for Agile software development. Contract negotiation still stands, but comrehensive documentation is not a cope out anymore. 
 
 
 
