@@ -35,6 +35,7 @@ These are more statements than steps in the story. And this style is usually ass
 
 ## Networking tailored resume
 
+Networking doesn't make it into "dream job" candidate. I could leverage my experience my better in Data Engineering and Embedded. So from Dream job standpoint options must be weighed according to my expressed preferences and available grounding in raw experience data, published resume items etc. Networking still has many attracitve points and it merits a tailored resume. 
 
 # Must mention Rich Stevens book
 
