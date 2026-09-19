@@ -25,6 +25,8 @@ Led the design and delivery of CCF — the Capability and Configuration Framewor
 
 Before CCF, device SDKs handled capabilities, dependencies, and lifecycle events ad hoc, producing inconsistent behaviour and maintenance burden; the lack of standardized logging and state-machine patterns made debugging and cross-device analysis hard; and inconsistent frameworks and documentation kept external contributors away.
 
+**Outward alias.** "CCF" and "Capability and Configuration Framework" are the internal names. Every outward surface says **component framework** (in embedded C, across device SKUs) — see [sensitivity tiers](../../wiki/workflows/sensitivity-tiers.md) § *Public aliases for internal names*. The name sounds generic enough to defend; the point is that it is the team's own name, and a good steward of the employer's information does not publish it.
+
 ## Why it matters
 
 - **Cross-device consistency:** a single extensible framework for capability management enables rapid onboarding of new device SKUs and cuts code duplication.
@@ -52,3 +54,4 @@ Internal design pages for the CCF framework and for logging in CCF; framework co
 ## Record history
 
 - 2026-09-08: created from an owner-supplied brag write-up dated 2026-04-26
+- 2026-09-16: added *Outward alias* — the internal name stays here; outward surfaces use "component framework".

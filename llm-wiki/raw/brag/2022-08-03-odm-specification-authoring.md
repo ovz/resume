@@ -32,6 +32,8 @@ The wearable was built by an outside manufacturer, which makes the specification
 
 **Documented the working relationship itself**, not just the interfaces — how the two organizations were to work together, alongside the technical content.
 
+**Outward alias.** The "sensor-hub API" is named after the internal "sensorhub"; outward it is the **sensor co-processor API** — see [sensitivity tiers](../../wiki/workflows/sensitivity-tiers.md) § *Public aliases for internal names*.
+
 ## Why it matters
 
 - **The specification *is* the product when an ODM builds the device.** Ambiguity does not produce a discussion; it produces hardware that behaves differently from what was intended, found at integration.
@@ -58,3 +60,4 @@ Trello device-programme board, *ODM Documentation for R5* list (16 cards) and th
 ## Record history
 
 - 2026-09-10: created from the Trello device-programme and leadership boards during the full board ingest.
+- 2026-09-16: added *Outward alias* for the "sensorhub" name.

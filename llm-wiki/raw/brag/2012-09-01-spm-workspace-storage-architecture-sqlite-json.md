@@ -7,7 +7,7 @@ domains:
   - "Data engineering"
 context: "Salford Systems — SPM workspace persistent-storage layer"
 sensitivity: private-repo
-resume-worthy: maybe
+resume-worthy: maybe   # needs more evidence — see the note under What I did
 ---
 
 # Owned the SQLite-vs-JSON storage-architecture decision for the SPM workspace feature
@@ -15,6 +15,8 @@ resume-worthy: maybe
 ## What I did
 
 Owned the architectural decision for a new persistent **"SPM workspace"** feature — evaluating **SQLite** against a JSON-document approach for storing model metadata, data info, and prediction-success records — and articulated the trade-off explicitly: *"relational data model has its strong points, but they make sense when you need ACID..."*
+
+> **Needs more evidence (owner, 2026-09-16).** Do not promote this entry until the thread is read in full. The owner recalls "something similar from CloudSPM era, but that's several years later, and Vlad Frolov was a solid guidance in this regard" — so the storage decision may belong to 2015–2017 Cloud-ready SPM work rather than, or as well as, a 2012 desktop feature, and the reasoning may have been shared with Vlad Frolov. Until the dates and the decision are established, treat the date, the ownership claim and the quote as provisional.
 
 ## Why it matters
 
@@ -41,3 +43,4 @@ A 2026-09-16 breadth-first Gmail survey identified this thread by keyword (SQLit
 ## Record history
 
 - 2026-09-16: created, ingested from inbox note "gmail-brag-file-candidates.md" (candidate 5).
+- 2026-09-16: marked **needs more evidence** at the owner's request; recorded his recollection that a similar decision belongs to the CloudSPM era with Vlad Frolov's guidance.

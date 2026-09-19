@@ -18,6 +18,8 @@ Multi-year, client-facing delivery of a demand-forecasting and promotion-optimiz
 
 This corroborates and extends an existing, thinner record: [`accomplishments-by-domain.md`](../../wiki/concepts/accomplishments-by-domain.md) already carries, from the archived long-form resume, "Brazil retail promotion optimization (2013): full ETL to a 1 TB MS SQL warehouse; C#/WPF automation with CLR stored procedures and embedded Windows Workflow Foundation designer; data cleanup and product-cannibalization modelling." The Gmail survey adds the client-relationship dimension (named business contacts, the parallel SAS build, the demand-curve/tabloide mechanics, the multi-year sustained relationship, and pipeline-reliability ownership) that the archived resume's technical summary does not carry.
 
+**Felipe Fernandez** (`interefe.com`; "Felipe Fernandez Martinez" on LinkedIn), a friend of Dan Steinberg's with long brick-and-mortar retail experience, including in France, was part of the Brazil collaboration: copied on the client's tabloide and perishables files in late 2012, on Dan's "Prescriptive Analytics — we did this for C4" (May 2014), and visiting a São Paulo prospect with Dan (June 2014). The owner names him as a main collaborator of that era (2026-09-16) and says his Salford colleagues were "pleasantly surprised what I did for Promo Optimization". **Illia Polosukhin** also worked on C4 (the owner: "I've just had a brief chat with Illia", August 2013), as did **John Ries**.
+
 ## Why it matters
 
 This is "shipped and kept running for a real paying client" evidence, sustained across at least four years — distinct from, and complementary to, the resume's brief technical mention of the same project. It demonstrates direct client-relationship ownership at the business-stakeholder level (not just engineering delivery), plus operational ownership of the data pipeline underneath a live, weekly-cadence business process.
@@ -44,3 +46,4 @@ Client-facing delivery in a second language/dialect (Portuguese-inflected Englis
 ## Record history
 
 - 2026-09-16: created, ingested from inbox note "gmail-brag-file-candidates.md" (candidate 6); merges new Gmail-survey detail into the existing archived-resume-sourced record in `accomplishments-by-domain.md`.
+- 2026-09-16: added Felipe Fernandez, Illia Polosukhin and John Ries as collaborators from Gmail, and the owner's account of how colleagues regarded the promotion-optimization work.

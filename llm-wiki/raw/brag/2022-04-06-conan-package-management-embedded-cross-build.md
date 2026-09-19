@@ -1,5 +1,5 @@
 ---
-title: "Designed the Conan package and cross-build strategy for an embedded C++ product"
+title: "Designed the Conan package (JFrog Artifactory) and cross-build strategy for an embedded C++ product"
 date: "2022-04-06 to 2022-06"
 thread: BLD
 domains:
@@ -13,7 +13,7 @@ sensitivity: private-repo
 resume-worthy: yes
 ---
 
-# Designed the Conan package and cross-build strategy for an embedded C++ product
+# Designed the Conan package (JFrog Artifactory) and cross-build strategy for an embedded C++ product
 
 ## What I did
 
@@ -27,6 +27,8 @@ Designed how the device's C++ components would be **versioned, packaged and cros
 - The development channel takes the full scheme; the test channel's major/minor match the *upcoming* release, so promoting a tested package to production is a plain upload rather than a rebuild.
 - **CI appends its own unique suffix**, so two builds of nominally the same version are still distinguishable — the failure this prevents is the one where a bug reproduces against a package nobody can identify.
 
+**Where the binaries live: JFrog Artifactory.** The Conan remote is **JFrog Artifactory**, which is where Best Buy stores its binaries, and the owner's C++ packages are published there too (owner's statement, 2026-09-16). That makes the channel scheme above concrete: a channel is a place in Artifactory, and "promotion is a plain upload rather than a rebuild" means copying an already-identified binary between repositories. Conan and Artifactory are one ecosystem — Conan joined JFrog in 2016 and Artifactory hosts Conan repositories natively ([Conan joins JFrog](https://jfrog.com/blog/conan-joins-jfrog/), [Artifactory Conan repositories](https://docs.jfrog.com/artifactory/docs/conan-repositories)). **Every mention of the Conan work names Artifactory beside it**; one without the other describes half the pipeline.
+
 **"Living at the head" where it earns its keep.** Components that track the latest build of a dependency declare that directly, so routine work does not pay a manual version-bump tax on every change; components that need pinning still pin.
 
 **Cross-building to the ARM target.** I researched building the product for the device from a developer machine, which is the part that decides whether the scheme is usable day to day. I worked through the realistic options — packaging sysroots as a Conan package, a container carrying them, or consuming them as a submodule — and through the toolchain mechanics: how tool requirements behave when cross-compiling (including the documented cases where they are silently *not* satisfied), which parts of the vendor's guidance were current versus obsolete, and pinning the specific compiler version the target demanded.
@@ -39,7 +41,7 @@ The cross-build work removed the constraint that only a correctly-configured mac
 
 ## Skills demonstrated
 
-C++ dependency management (Conan), package versioning and promotion-channel design, cross-compilation and toolchain construction for embedded ARM targets, sysroot packaging strategies, CI/CD integration, writing engineering policy that others can follow, self-directed research against vendor documentation of uneven quality.
+C++ dependency management (Conan, JFrog Artifactory), package versioning and promotion-channel design, cross-compilation and toolchain construction for embedded ARM targets, sysroot packaging strategies, CI/CD integration, writing engineering policy that others can follow, self-directed research against vendor documentation of uneven quality.
 
 ## Evidence
 
@@ -54,3 +56,4 @@ The owner's working board for the device programme, April–June 2022: a written
 ## Record history
 
 - 2026-09-09: created from the owner's Trello device-programme board export (Conan list). The card dates cluster on 2022-04-06 with follow-on activity; **owner to confirm** how far the policy was adopted and whether the cross-build approach shipped.
+- 2026-09-16: added JFrog Artifactory as the Conan remote and binary store, from the owner's statement, with public grounding.
