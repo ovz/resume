@@ -30,6 +30,8 @@ Internal Confluence narrative and a recorded team walkthrough of the device Data
 
 Related later lifecycle review: [2025-01-14-r5-datadog-monitor-lifecycle-review](2025-01-14-r5-datadog-monitor-lifecycle-review.md).
 
+Related later platform evaluation: [2026-01-01-qualcomm-device-observability-evaluation](2026-01-01-qualcomm-device-observability-evaluation.md).
+
 ## Record history
 
 - 2026-09-07: created

@@ -54,6 +54,8 @@ The owner's device-programme board carries the rogue-device emulation ticket wit
 
 ## Related
 
+- [2026-01-01-qualcomm-device-observability-evaluation](2026-01-01-qualcomm-device-observability-evaluation.md) — later vendor-platform evaluation considered whether additional telemetry reporting could affect cellular operating cost.
+
 - [2022-05-18-snowflake-edw-device-telemetry](2022-05-18-snowflake-edw-device-telemetry.md) — learning the warehouse well enough to interrogate device telemetry directly, which is what made this join possible at all.
 - [2025-10-29-ai-data-product-in-alation](2025-10-29-ai-data-product-in-alation.md) — the same cost question asked one layer up: do the warehoused device-event tables earn their storage and cellular cost?
 - [2023-12-05-operational-excellence-launch-readiness](2023-12-05-operational-excellence-launch-readiness.md) — the launch-readiness argument that put chaos-style testing where failures actually live; the tabletop exercise this fed is that argument carried out.
