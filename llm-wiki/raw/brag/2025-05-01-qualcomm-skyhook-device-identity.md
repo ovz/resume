@@ -61,7 +61,9 @@ Led a three-company effort involving Qualcomm/Skyhook and TCL to solve Linux-bas
 - [2026-01-01-qualcomm-device-observability-evaluation](2026-01-01-qualcomm-device-observability-evaluation.md) — later evaluated Qualcomm/Skyhook's observability platform, including OEM implementation requirements and telemetry readiness.
 - [2023-12-21-device-health-observability-architecture](2023-12-21-device-health-observability-architecture.md) — earlier agentless device-health observability architecture whose telemetry consumers benefit from consistent device identity.
 - [2024-03-07-r5-datadog-monitoring-launch](2024-03-07-r5-datadog-monitoring-launch.md) — existing device observability foundation that motivated reliable attribution across telemetry systems.
+- [2025-12-01-qualcomm-ces-aware-showcase](2025-12-01-qualcomm-ces-aware-showcase.md) — applied the development-device and observability configuration direction to Qualcomm's intended CES demonstration with commercial Lively hardware.
 
 ## Record history
 
 - 2026-09-19: created from owner-supplied May 2025 accomplishment note
+- 2026-09-19: added *Related* forward link to the December 2025 Qualcomm CES showcase entry

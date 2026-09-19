@@ -8,9 +8,9 @@
 
 The largest thread by far: ten entries spanning 2023–2026, tracing one arc from "can we even observe this fleet?" through launch monitoring, operational response, statistical tuning, portfolio stewardship and vendor-platform due diligence.
 
-**Entries:** [2023-12-21 observability architecture](../../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-01 device identity](../../../raw/brag/2025-05-01-qualcomm-skyhook-device-identity.md) · [2025-05-29 anomaly validation](../../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) · [2026-01-01 Qualcomm observability evaluation](../../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
+**Entries:** [2023-12-21 observability architecture](../../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-01 device identity](../../../raw/brag/2025-05-01-qualcomm-skyhook-device-identity.md) · [2025-05-29 anomaly validation](../../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) · [2025-12-01 Qualcomm CES showcase](../../../raw/brag/2025-12-01-qualcomm-ces-aware-showcase.md) · [2026-01-01 Qualcomm observability evaluation](../../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
 
-**Thread coverage: ≈ 43%** (18 of 42)
+**Thread coverage: ≈ 38%** (18 of 48)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -56,6 +56,12 @@ The largest thread by far: ten entries spanning 2023–2026, tracing one arc fro
 | `OBS-40` Framed device identity as an architecture layer spanning firmware, operating system, SDK, observability and cloud analytics | 2025-05-01 | absent |
 | `OBS-41` Drove a cross-company ambiguity toward a workable implementation direction rather than allowing it to stall between organisations | 2025-05-01 | absent |
 | `OBS-42` Improved Qualcomm/Skyhook integration readiness by establishing a path toward machine-readable device attribution, without claiming release or fleet deployment | 2025-05-01 | absent |
+| `OBS-43` Recognized that Qualcomm's intended CES use of production Lively devices required the same observability-capable configuration previously prepared for its engineering team | 2025-12-01 | absent |
+| `OBS-44` Connected development-device setup, observability work, location and telemetry context, and partner-demo requirements into a single device-readiness path | 2025-12-01 | absent |
+| `OBS-45` Coordinated preparation, shipment and alignment across Best Buy Health engineering, leadership and logistics and Qualcomm engineering, marketing and product stakeholders | 2025-12-01 | absent |
+| `OBS-46` Made commercial Lively hardware available for Qualcomm's intended partner-device showcase rather than generic reference hardware | 2025-12-01 | absent |
+| `OBS-47` Followed through on shipment and obtained Qualcomm confirmation of receipt and intended use with supporting video materials | 2025-12-01 | absent |
+| `OBS-48` Extended the Qualcomm relationship from technical integration and evaluation into an externally facing demonstration opportunity, without claiming the CES event occurred or produced a commercial outcome | 2025-12-01 | absent |
 
 > `OBS-7` is deliberately `partial`: the resume claims the catch but not the battery-overheating specific, which names a safety-adjacent defect in a current employer's product. See [editorial questions](editorial.md#open-questions).
 

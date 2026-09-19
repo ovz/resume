@@ -34,8 +34,10 @@ Cross-team chat log and internal design-page draft (December 2023–February 202
 - [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — *practice maintained:* the structured-logging framework in CCF carries the telemetry-contract principle set here down into the device SDKs (2026).
 - [2026-01-01-qualcomm-device-observability-evaluation](2026-01-01-qualcomm-device-observability-evaluation.md) — later vendor-platform due diligence tested the agentless telemetry architecture against Qualcomm/Skyhook's proposed fleet-scale service.
 - [2025-05-01-qualcomm-skyhook-device-identity](2025-05-01-qualcomm-skyhook-device-identity.md) — related work establishing consistent product identity for the telemetry consumers this architecture serves.
+- [2025-12-01-qualcomm-ces-aware-showcase](2025-12-01-qualcomm-ces-aware-showcase.md) — later applied the telemetry and observability context to Qualcomm's intended CES demonstration with production Lively devices.
 
 ## Record history
 
 - 2026-09-07: created
 - 2026-09-08: added *Related* forward link to the 2026-04-26 CCF entry
+- 2026-09-19: added *Related* forward link to the December 2025 Qualcomm CES showcase entry
