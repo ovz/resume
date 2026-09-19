@@ -35,6 +35,17 @@ These are more statements than steps in the story. And this style is usually ass
 
 ## Networking tailored resume
 
+# r5 code
+
+Study the repo and prepare detailed brag file about networking related experience (as in TCP/IP, also cellular in computer networks rather than radio sense; put radio tech into separate brag files). I recall HTTP calls that could time out a watch dog, though in this repo watchdog is not active and I think we are using asynchrony properly. Networking is not the main value prop of the repo, but I have significant career goals building products more dedicated to networking. This repo created some networking challenges as I recall. This is my most recent networking exeperience and I need it in brag files
+
+
+
+
+
+
+
+
 # Must mention Rich Stevens book
 
 To this day this is the bible of network programming. Misha brought this book to Ukraine during his visit and I devoured it. this was one of my pillars for predictive jobs tcp/ip daemon  and I am an advanced network programmer to this day.
