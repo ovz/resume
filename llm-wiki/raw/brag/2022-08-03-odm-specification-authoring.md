@@ -56,8 +56,10 @@ Trello device-programme board, *ODM Documentation for R5* list (16 cards) and th
 - [2021-11-22 Dead reckoning and sensor-cluster architecture](2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md) — the sensor architecture whose API is specified here.
 - [2023-09-30 Security patch management SOP and vendor engagement](2023-09-30-security-patch-management-sop-and-vendor-engagement.md) — later work on the same vendor boundary.
 - [2025-07-18 FOTA vendor escalation](2025-07-18-fota-vendor-escalation-lively-mobile2.md) — what happens when the manufacturer boundary fails under pressure.
+- [2025-08-30 cross-platform SDK modularization](2025-08-30-cross-platform-sdk-modularization-pers-devices.md) — later SDK boundary work that extends the earlier manufacturer-facing API specification into reusable cross-platform libraries.
 
 ## Record history
 
 - 2026-09-10: created from the Trello device-programme and leadership boards during the full board ingest.
 - 2026-09-16: added *Outward alias* for the "sensorhub" name.
+- 2026-09-19: linked the later cross-platform SDK modularization entry.

@@ -75,8 +75,10 @@ The two exits map exactly onto the two governance answers in the economics liter
 - [2025-05-18 Fall detection and hospital-at-home integration](2025-05-18-fall-detection-hospital-at-home-integration.md)
 - [2024-09-24 Current Health and Hospital at Home](2024-09-24-current-health-hospital-at-home-qms.md)
 - [2025-07-18 FOTA vendor escalation](2025-07-18-fota-vendor-escalation-lively-mobile2.md) — the ground-up model's own version of vendor dependency, resolved by acquiring depth rather than by switching.
+- [2025-08-30 cross-platform SDK modularization](2025-08-30-cross-platform-sdk-modularization-pers-devices.md) — distinct direct work on reusable core libraries and platform adapters, following this entry's observer role on the breadth-first white-label SDK model.
 
 ## Record history
 
 - 2026-09-11: created from the owner's direct statement; the architecture claim grounded in Christensen's modularity theory and Porter's generic strategies so it reads as consensus rather than advocacy.
 - 2026-09-16: rewritten around the owner's restated argument — each pure model has an exit (fix in-house, or switch vendors) and the hybrid has neither. Grounded in transaction cost economics (hold-up), switching-cost theory, Baldwin & Clark's modularity and medical-electronics multi-sourcing; Christensen and Porter kept as supporting rather than leading. Added *Evidence limitations*.
+- 2026-09-19: linked the distinct cross-platform SDK modularization entry.

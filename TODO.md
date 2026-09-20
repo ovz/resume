@@ -13,7 +13,72 @@
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
 - `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
 
-# llm-wiki/wiki/stories/positioning/home-away-kept-simple.md
+
+# CCF and presentation style
+
+In context of CCF "LCM" never meant lifecycle management. So any LCM about CCF and derived work must talk about LIghtweigh communication and marshaling
+
+```
+**The correction matters as much as the additions.** The existing framework entry used "LCM" to mean lifecycle management, while the repositories depend on LCM the messaging library. Both are real and unrelated; the entry now separates them, records the state machine's actual design, and raises a dating discrepancy **without changing the entry's date**.
+```
+
+The dates come from the repository
+
+```
+- **Settle the dating discrepancy** flagged in the framework entry (2024–2025 in the repositories versus 2026-04 on the entry).
+```
+
+All manufacturers names are obsfucated the same way. Sensitivity rules stands
+
+```
+The specifications name the manufacturers they were written for — Wistron, Borqs and TCL, with Wistron identified as the one that implemented the R5 location service. These are recorded at T1, consistent with how TCL already appears elsewhere in the wiki, and stay out of any outward text. Confirm that is the handling you want, or say if any of them should be role-only.
+```
+
+Here is the information on meeting with Amber. Rodd Johnson participated as well. Rodd gave me a lot of support. He is a brilliant Data governance leader at BBYH and he was very delightful and grateful for my Alalation work. 
+
+```
+Subject: AI for Data Governance Column Mapping Framework
+Location: Microsoft Teams Meeting
+Organizer: Oleg.Zhylin@bestbuy.com
+Start time: Monday, December 22, 2025 at 3:00 PM
+End time: Monday, December 22, 2025 at 3:25 PM
+Hi Amber,
+@Wodarski, Tim mentioned to you that I have recently made an achievement in Data
+Governance. I developed a framework based on GitHub Copilot and I contributed
+Alation Data Catalog content for Snowflake Data Warehouse hosting Analytics data that
+Lively Devices (https://shop.lively.com/) send. I believe Column Mapping Framework (CMF)
+can be leveraged by a wide variety of teams in Best Buy Enterprise.
+A recording of the presentation I gave to my sibling teams (I am in charge of Lively Mobile) is
+available at
+Demo of R5 DA Events Column Mapping Framework-20251113_141811-Meeting
+Recording.mp4
+I will gladly prepare a presentation based on this one for our upcoming meeting.
+```
+
+
+Make sure you can read notes in pptx files. e.g. in ccfphone_innovation.pptx the note for the first slide is as follows. Most of the notes are words that I said verbatim in my presentations in BBY. Make improvments to stories, agent customization guidance, etc to improve the match of my authentic style. 
+
+```
+R5 device is the latest in a great lineage of Mobile Personal Emergency Response devices, also known as MPERS. It travels with Abigail anywhere she goes on her journey. Eventually a new PERS device, code named W3, is going to join in. 
+
+As part of FY25 Roadmap, Wearables team would like to introduce Capability SDKs.
+
+The acronym CCF stands for Capability C Framework. It will allow to build new devices using C programming language faster and cheaper.
+
+# previous
+
+It takes a solid lineage from an innovative startup called GreatCall. 
+
+R5 device is doing an excellent job in production. 
+
+It is an outcome of an innovative startup called GreatCall. Capabilities of Personal Emergency Response devices, also known as PERS, continue to delight the customers. This brought the focus of our present innovation to build these capabilities into new devices faster and cheaper.
+
+# Drafts
+
+R5 device is the current representative of 
+```
+
+e.g in  llm-wiki/wiki/stories/positioning/home-away-kept-simple.md
 
 In this and other stories fix the narrative style. Rewrite sentences like
 
@@ -29,7 +94,7 @@ These are more statements than steps in the story. And this style is usually ass
 
 
 
-
+# 💡 CCF as UDP recent experience so contributes to networking resume
 
 
 

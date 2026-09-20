@@ -59,9 +59,9 @@
 
 ### RSK — Risk, security and process practice
 
-**Entries:** [2023-08-03 risk management analysis](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) · [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) · [2023-12-05 launch readiness](../../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md)
+**Entries:** [2023-08-03 risk management analysis](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) · [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) · [2023-12-05 launch readiness](../../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md) · [2025-01-16 SDK security hardening and the information-security case](../../../raw/brag/2025-01-16-ccf-sdk-security-hardening-infosec-presentation.md)
 
-**Thread coverage: 100%** (7 of 7)
+**Thread coverage: ≈ 58%** (7 of 12)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -72,6 +72,11 @@
 | `RSK-5` Initiated vendor security-feed engagement to formalize vulnerability-patch notification ahead of a device launch | 2023-09-30 | **in** |
 | `RSK-6` Challenged a mandated launch-readiness control as the wrong instrument for the device, arguing from system coupling and existing test coverage rather than effort | 2023-12-05 | **in** |
 | `RSK-7` Substituted better controls — chaos-style testing where failures actually live, escalation-path membership, and the one device-specific scenario worth rehearsing | 2023-12-05 | **in** |
+| `RSK-8` Configured toolchain-level exploit mitigations for an embedded device's binaries — stack protection, non-executable stack, position-independent executables for ASLR, full RELRO with immediate binding, stripped symbols | 2025-01-16 | absent |
+| `RSK-9` Vendored third-party open source with provenance-encoded directory names and pinned public release tags, making the supply chain auditable from the tree itself | 2025-01-16 | absent |
+| `RSK-10` Made the trust boundary explicit in the source, marking the manufacturer-facing header as distributed outside the company | 2025-01-16 | absent |
+| `RSK-11` Adopted defensive C conventions as house style — comparisons that make an accidental assignment fail to compile, a state-machine re-entrancy guard, and input validation as first-class return values | 2025-01-16 | absent |
+| `RSK-12` Presented the SDK work and its information-security applicability to enterprise Cyber Security leadership, well received by the Senior Director of Cyber Security Risk & Compliance, with a follow-up pending | 2025-01-16 | absent |
 
 ---
 

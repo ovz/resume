@@ -25,9 +25,9 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 
 ### AI — AI adoption and agentic engineering
 
-**Entries:** [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) · [2026-05-26 agentic engineering](../../../raw/brag/2026-05-26-ai-adoption-agentic-engineering-choreographer.md)
+**Entries:** [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) · [2026-05-26 agentic engineering](../../../raw/brag/2026-05-26-ai-adoption-agentic-engineering-choreographer.md) · [2024-10-18 Copilot practice for an embedded C SDK](../../../raw/brag/2024-10-18-copilot-embedded-c-sdk-practice.md)
 
-**Thread coverage: 50%** (3.5 of 7). `AI-1` and `AI-2` reached the resume on 2026-09-16 inside the data-stewardship paragraph; `AI-2` is `partial` because chat-with-your-data is not named.
+**Thread coverage: 25%** (3.5 of 14). `AI-1` and `AI-2` reached the resume on 2026-09-16 inside the data-stewardship paragraph; `AI-2` is `partial` because chat-with-your-data is not named. The 2024 embedded-C practice claims (`AI-8` to `AI-14`) arrived absent on 2026-09-19 and put a verifiable 2024 date under the resume's "leveraging AI since 2023".
 
 | Claim | Source | Status |
 |---|---|---|
@@ -38,6 +38,13 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 | `AI-5` Developed and documented prompt and agent patterns that cut token consumption while holding output quality | 2026-05-26 | absent |
 | `AI-6` Integrated agents into code review, documentation and release-note workflows | 2026-05-26 | absent |
 | `AI-7` Delivered outcomes at roughly three times the expected rate using AI since 2023 | 2026-05-26 | absent |
+| `AI-8` Wrote the team's AI-assisted engineering practice into an embedded C SDK repository in 2024, so it reached everyone who cloned it | 2024-10-18 | absent |
+| `AI-9` Kept prompt comments in the source as living documentation, regenerating code when prompt and implementation diverged | 2024-10-18 | absent |
+| `AI-10` Established the failing unit test as the most effective prompt, frequently yielding a zero-shot correct implementation | 2024-10-18 | absent |
+| `AI-11` Documented a recency-bias failure mode in code suggestions and the context-priming workaround for it | 2024-10-18 | absent |
+| `AI-12` Committed editor settings pointing the assistant's code-generation instructions at the repository's own C style guide, years before committed instruction files were standard | 2024-10-18 | absent |
+| `AI-13` Required a hallucination check on LLM-generated pull-request summaries and code review | 2024-10-18 | absent |
+| `AI-14` Drew a repository physical-design conclusion from workspace-indexing limits, preferring smaller repositories consuming each other through headers | 2024-10-18 | absent |
 
 > `AI-7` was `in` until 2026-09-09 and was **deliberately retired** from the resume, not lost: an unverifiable productivity multiplier was replaced by what was actually built (`AI-3`, `AI-4`). The claim stays on this page because the underlying fact is still true and the owner may want it back — see [editorial questions](editorial.md#open-questions).
 

@@ -44,8 +44,9 @@ Some internal names read like ordinary English, which is exactly how they leak. 
 
 | Internal name (T1 only) | Public alias | What it is | Entry |
 |---|---|---|---|
-| CCF — "Capability and Configuration Framework" | **component framework** (embedded C, across device SKUs) | The framework standardizing how device features are declared, configured and brought up | [2026-04-26](../../raw/brag/2026-04-26-ccf-capability-framework-lcm-open-source.md) |
+| CCF — "Capability ansi C Framework" (this entry's earlier text said "Capability and Configuration Framework"; the governing specification corrects it) | **component framework** (embedded C, across device SKUs) | The framework standardizing how device features are declared, configured and brought up | [2026-04-26](../../raw/brag/2026-04-26-ccf-capability-framework-lcm-open-source.md) |
 | "sensorhub" — the conventional name for the wearable's microcontroller | **sensor co-processor** (MCU) | The low-power microcontroller between the sensors and the application processor | [2021-11-22](../../raw/brag/2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md), [2022-08-03](../../raw/brag/2022-08-03-odm-specification-authoring.md) |
+| "ccfphone" — the phone capability SDK's own name, and the `bbyccf` symbol prefix | **phone capability SDK** (embedded C) | The first capability SDK built on the component framework, handling emergency-response phone calls | [2025-01-16](../../raw/brag/2025-01-16-ccfphone-r5-device-lcm-odm-integration.md) |
 
 Adding a row is how a new internal name is handled; do not coin an alias in one page and leave the others. A search for the internal name across `markdown/`, `linkedin/`, `wiki/stories/`, `wiki/concepts/`, `wiki/dream-jobs/` and `wiki/resume/` should return nothing but this table.
 
