@@ -1,23 +1,23 @@
 ---
-title: "Built the SDK's binaries and supply chain to an information-security standard, and carried the case to Cyber Security leadership"
-date: "2024-07 to 2025-01 (hardened device toolchain 2025-01-16); presentation date not established"
+title: "Built the SDK's binaries and supply chain to an information-security standard"
+date: "2024-07 to 2025-01 (hardened device toolchain 2025-01-16)"
 thread: RSK
 domains:
   - "security, cryptography, licensing"
   - "embedded and safety-critical devices"
   - "risk management and compliance"
-context: "Best Buy Health, component framework and phone capability SDK for PERS devices; enterprise Cyber Security Risk & Compliance"
+context: "Best Buy Health, component framework and phone capability SDK for PERS devices"
 sensitivity: private-repo
 resume-worthy: yes
 ---
 
-# Built the SDK's binaries and supply chain to an information-security standard, and carried the case to Cyber Security leadership
+# Built the SDK's binaries and supply chain to an information-security standard
 
 ## What I did
 
-Two halves, with very different evidence behind them — the engineering is in the source, the presentation rests on the owner's account.
+The security posture of the SDK is not a document; it is in the build, the dependency layout and the house style.
 
-### The engineering: hardening that is actually in the build
+### Hardening that is actually in the build
 
 The device toolchain file for the SDK does not merely cross-compile — it compiles and links every binary with a deliberate exploit-mitigation set. In the flags themselves:
 
@@ -46,20 +46,15 @@ A header in the tree is explicitly marked as a public include file distributed t
 
 The codebase's written C style encodes defenses rather than preferences: **Yoda conditionals** (`if (NULL == ptr)`) adopted explicitly to make an accidental assignment in a comparison a compile error; a zero-terminated-string convention; a ban on relative include paths; and rules for executable lifecycle and memory footprint. The framework's state machine carries a **re-entrancy guard** that returns a distinct error rather than allowing recursive dispatch, and input validation is a first-class part of every return-value enumeration — invalid argument, uninitialized, dependencies uninitialized — rather than an assertion that vanishes in a release build.
 
-### The presentation
-
-The owner presented this work, including its information-security applicability, to the enterprise security organization. **Amber Kashmark, Senior Director of Cyber Security Risk & Compliance — and the manager of the owner's mentor, Tim Wodarski — appreciated the presentation, and a follow-up is pending.** That reception, from the leader of the function whose job is to be sceptical about other people's security claims, is the part worth recording.
-
 ## Why it matters
 
 - **It is security built in at the point where it is cheapest and most durable.** Mitigations set in a toolchain file apply to every binary the SDK produces, for every device that consumes it, without anyone remembering to do anything. That is the same principle as choosing a C++ standard on what static analysis can enforce: put the rule where the build checks it.
 - **It gives a device SDK a real answer to a security review.** "Compiled hardened, dependencies pinned and attributable, trust boundary explicit, input validated at every entry point" is a set of claims an auditor can verify, rather than assurances.
-- **It connects two parts of the owner's record that are usually kept apart** — the Ukrainian Data Security degree and early cryptography engineering at one end, embedded platform work at the other — and the presentation is evidence that the enterprise security function found the connection credible.
-- **The audience matters more than the artifact.** Reaching a Senior Director of Cyber Security Risk & Compliance is organizational influence outside the owner's own reporting line and outside device engineering entirely.
+- **It connects two parts of the owner's record that are usually kept apart** — the Ukrainian Data Security degree and early cryptography engineering at one end, embedded platform work at the other.
 
 ## Skills demonstrated
 
-Embedded binary hardening and exploit mitigation (stack protection, NX, PIE/ASLR, RELRO); toolchain-level security configuration for ARM targets; open-source supply-chain provenance and pinning; trust-boundary design across an organizational boundary; defensive C coding standards; input-validation discipline; communicating security engineering to a non-engineering executive audience.
+Embedded binary hardening and exploit mitigation (stack protection, NX, PIE/ASLR, RELRO); toolchain-level security configuration for ARM targets; open-source supply-chain provenance and pinning; trust-boundary design across an organizational boundary; defensive C coding standards; input-validation discipline.
 
 ## Evidence
 
@@ -67,9 +62,6 @@ The retained working copies of the SDK and framework repositories contain the de
 
 ## Evidence limitations
 
-- **The presentation has no artifact in this repository.** No deck, agenda, date, attendee list or written feedback was found in the source trees or in the retained notes. The presentation, Amber Kashmark's appreciation, her role, the reporting relationship to the owner's mentor and the pending follow-up all rest on the owner's own statement of 2026-09-19. **Its date is not established** and the filename date is the engineering milestone, not the presentation.
-- **What the presentation actually contained is not recorded.** It should not be assumed to have covered the specific mitigations listed above; the engineering evidence and the presentation evidence are separate and are kept separate here.
-- **"Appreciated, follow-up pending" is the whole outcome.** No decision, adoption, policy change, funding or endorsement followed that this record can show. Outward, this is told as a presentation well received by a security leader, never as an approved security standard.
 - **The hardening flags are in the build; their effect was not measured here.** No penetration test, binary-analysis report (`checksec` or equivalent), threat model or security review finding is retained. The claim is that the mitigations are configured, not that the device was proven secure.
 - **Authorship of the toolchain file is not separable from this evidence alone.** Cross-compilation flag sets of this shape are commonly inherited from a platform SDK environment, and the file's own comments say most cross-compilation flags were taken from the SDK environment. The honest claim is that the owner carried them into this project's build and understood what they were for — not that he originated them.
 
@@ -82,12 +74,13 @@ This is a distinct accomplishment about engineering judgement rather than about 
 ## Related
 
 - [2025-01-16 phone capability SDK on R5 hardware](2025-01-16-ccfphone-r5-device-lcm-odm-integration.md) — the binaries these mitigations apply to, and the process boundary named here.
-- [2026-04-26 component framework](2026-04-26-ccf-capability-framework-lcm-open-source.md) — the framework whose style rules and state machine carry the defensive conventions.
+- [2024-05-08 component framework](2024-05-08-ccf-capability-framework-lcm-open-source.md) — the framework whose style rules and state machine carry the defensive conventions.
+- [2025-11-13 Column Mapping Framework](2025-11-13-column-mapping-framework-alation-data-governance.md) — the work that actually reached Cyber Security leadership, and where the owner's information-security argument is made.
 - [2023-09-30 security patch management SOP and vendor engagement](2023-09-30-security-patch-management-sop-and-vendor-engagement.md) — the fleet-level security practice; this entry is the same concern at build time.
 - [2022-02-18 C++ safety-critical embedded guidelines](2022-02-18-cpp-safety-critical-embedded-guidelines.md) — the earlier instance of the same principle: choose rules the toolchain can enforce.
-- [2025-05-23 mentorship and the Principal Engineer goal](2025-05-23-mentorship-principal-engineer-goal.md) — Tim Wodarski, the mentor whose organization this presentation reached.
 - [2026-09-16 stewardship as a first principle](2026-09-16-stewardship-first-principle.md) — security and risk as one of the registers of stewardship.
 
 ## Record history
 
-- 2026-09-19: created from a direct study of the retained SDK and framework working copies, plus the owner's statement about the presentation and its reception. Engineering evidence and presentation evidence recorded separately and graded differently.
+- 2026-09-19: created from a direct study of the retained SDK and framework working copies, plus a presentation claim.
+- 2026-09-20: **the presentation was removed from this entry — it did not belong here.** The talk the owner gave to Cyber Security leadership was about the Column Mapping Framework and data governance, not about this SDK hardening work; attaching it here was an inference error made while ingesting. It now has its own entry. This entry was renamed accordingly and is purely the build-and-supply-chain record, which is entirely source-grounded.

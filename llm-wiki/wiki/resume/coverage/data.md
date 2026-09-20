@@ -6,9 +6,9 @@
 
 ### DATA — Data engineering and governance
 
-**Entries:** [2022-05-18 Snowflake device telemetry](../../../raw/brag/2022-05-18-snowflake-edw-device-telemetry.md) · [2013-01-01 Carrefour C4 promotion optimization](../../../raw/brag/2013-01-01-carrefour-c4-promotion-optimization-brazil.md) · [2014-01-01 CloudSML/CloudSPM/BigISLE big-data R&D](../../../raw/brag/2014-01-01-cloudsml-cloudspm-bigisle-big-data-rd.md) · [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) · [2010-05-01 NCS-R SAS data preparation](../../../raw/brag/2010-05-01-ncs-r-sas-data-preparation-pharma-client.md) · cross-listed: [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) (claims tracked under `AI`)
+**Entries:** [2022-05-18 Snowflake device telemetry](../../../raw/brag/2022-05-18-snowflake-edw-device-telemetry.md) · [2013-01-01 Carrefour C4 promotion optimization](../../../raw/brag/2013-01-01-carrefour-c4-promotion-optimization-brazil.md) · [2014-01-01 CloudSML/CloudSPM/BigISLE big-data R&D](../../../raw/brag/2014-01-01-cloudsml-cloudspm-bigisle-big-data-rd.md) · [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) · [2010-05-01 NCS-R SAS data preparation](../../../raw/brag/2010-05-01-ncs-r-sas-data-preparation-pharma-client.md) · [2025-11-13 Column Mapping Framework](../../../raw/brag/2025-11-13-column-mapping-framework-alation-data-governance.md) · cross-listed: [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) (claims tracked under `AI`)
 
-**Thread coverage: ≈ 27%** (3 of 11)
+**Thread coverage: ≈ 17%** (3 of 18)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -23,6 +23,13 @@
 | `DATA-9` Made a legacy SAS 8 codebase runnable, added diagnostic variables at the client's request, and documented the preparation method for the client | 2010-05-01 | absent |
 | `DATA-10` Out-built the in-house SAS expertise as a software engineer new to the language (owner's account) | 2010-05-01 | absent |
 | `DATA-11` Worked with a pharmaceutical client on clinical-survey data a decade before regulated medical devices, and carries that exposure into the medical-device work | 2010-05-01 | absent |
+| `DATA-12` Built the Column Mapping Framework: Copilot-driven roundtrip engineering that documents warehouse columns from the device source code that produces them | 2025-11-13 | absent |
+| `DATA-13` Cataloged over thirty tables and nine hundred columns of device telemetry, every description grounded in source code, where the catalog had been empty | 2025-11-13 | absent |
+| `DATA-14` Made Markdown mapping files the bridge between C++ telemetry code and the catalog, requiring no change to the device source | 2025-11-13 | absent |
+| `DATA-15` Moved documentation into the development workflow like unit tests — code change and mapping update in one pull request, so a reviewer can verify the mapping still matches the code | 2025-11-13 | absent |
+| `DATA-16` Argued that LLMs make roundtrip engineering viable where UML and model-driven development failed, because a customized process per codebase replaces the universal one that never scaled | 2025-11-13 | absent |
+| `DATA-17` Framed the data catalog as the channel through which codebases communicate, making semantic coupling across a shared warehouse explicit instead of tribal | 2025-11-13 | absent |
+| `DATA-18` Designed the framework to compound with model improvement, so its rough edges are fixed by the assistant getting better rather than by rewriting it | 2025-11-13 | absent |
 
 > `DATA-3` through `DATA-5` are 2013-2017 Salford-era client-delivery and R&D work, captured 2026-09-16 from a breadth-first Gmail survey; `DATA-3` and `DATA-4` corroborate and extend an existing primary/archived-resume-sourced bullet in [accomplishments by domain](../../concepts/accomplishments-by-domain.md) § *Data engineering*, and `DATA-5` does the same for § *Big data and distributed ML*. Not yet deep-dived — see each entry's own *Evidence limitations*.
 >

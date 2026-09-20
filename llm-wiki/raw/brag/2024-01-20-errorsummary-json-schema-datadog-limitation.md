@@ -31,7 +31,7 @@ Internal ticket drafts and vendor support correspondence (January 2024).
 ## Related
 
 - [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — *practice maintained:* hardened chronic error categorization for beacon/FOTA interactions continues the error-summary contract established here (2026).
-- [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — the CCF structured-logging framework applies the consumer-shaped-telemetry lesson learned here (2026).
+- [2024-05-08-ccf-capability-framework-lcm-open-source](2024-05-08-ccf-capability-framework-lcm-open-source.md) — the CCF structured-logging framework applies the consumer-shaped-telemetry lesson learned here (2024-2025).
 
 ## Record history
 

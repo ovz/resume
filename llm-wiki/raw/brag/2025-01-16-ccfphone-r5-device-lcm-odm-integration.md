@@ -15,7 +15,7 @@ resume-worthy: yes
 
 ## What I did
 
-Built the phone (MPERS call-handling) capability SDK on top of the [component framework](2026-04-26-ccf-capability-framework-lcm-open-source.md), and took it all the way to running on production-class R5 hardware. Its own README describes it as one of the first capability SDKs built on that framework, so the SDK and the framework were deliberately evolved in lockstep.
+Built the phone (MPERS call-handling) capability SDK on top of the [component framework](2024-05-08-ccf-capability-framework-lcm-open-source.md), and took it all the way to running on production-class R5 hardware. Its own README describes it as one of the first capability SDKs built on that framework, so the SDK and the framework were deliberately evolved in lockstep.
 
 **The architecture splits along the organizational boundary, not just a technical one.** The example system is two executables, and which company owns each is the point:
 
@@ -26,7 +26,7 @@ The manufacturer's service consumes the SDK's public C API to satisfy the applic
 
 **The two processes talk over LCM — Lightweight Communications and Marshalling**, the open-source messaging library from the robotics world (<https://github.com/lcm-proj/lcm>), pinned to the public v1.5.0 release and carried over UDP multicast. Three named channels carry the traffic in both directions: commands from the application to the service, events from the service back, and a third channel marshalling the ODM service's **log records** across the process boundary so device logging stays unified across the company boundary. Payloads are JSON, built with the vendored cJSON library.
 
-> **Naming note.** "LCM" here is the messaging library, not lifecycle management. Both senses appear in this record — see *Related* — and the framework entry's "LCM" originally meant lifecycle control. Keeping them apart matters because the messaging library is the outward-facing keyword. The **design rationale** for choosing it — publish/subscribe simplicity, a robotics track record, recordable and replayable messages, and portability to platforms without UDP — is recorded in the [framework entry](2026-04-26-ccf-capability-framework-lcm-open-source.md) § *From the framework specification*, which also proposed rewriting the existing Boost signal buses on it.
+> **Naming note.** In CCF and everything derived from it, **LCM always means Lightweight Communications and Marshalling** — never lifecycle management. An earlier version of the framework entry glossed it as "lifecycle control"; that was an error, now corrected. The **design rationale** for choosing it — publish/subscribe simplicity, a robotics track record, recordable and replayable messages, and portability to platforms without UDP — is recorded in the [framework entry](2024-05-08-ccf-capability-framework-lcm-open-source.md) § *From the framework specification*, which also proposed rewriting the existing Boost signal buses on it.
 
 **The phone capability itself** models call handling properly rather than as a thin passthrough: mobile-originated and mobile-terminated call direction; service state including a distinct *in-service emergency* value; call states through ringing, dialing, active, disconnected and failed; the 3GPP call-end reason code carried through on disconnect; and volume control via client callbacks. The interface was modelled on the platform's existing D-Bus API specification, so the SDK met the platform where it already was.
 
@@ -70,9 +70,9 @@ Four working copies of the SDK and framework repositories retained on the owner'
 
 ## Related
 
-- [2026-04-26 component framework](2026-04-26-ccf-capability-framework-lcm-open-source.md) — the framework this SDK is built on and evolved alongside; also where the "LCM" naming collision is reconciled.
+- [2024-05-08 component framework](2024-05-08-ccf-capability-framework-lcm-open-source.md) — the framework this SDK is built on and evolved alongside; also where the mistaken "lifecycle control" gloss of LCM is corrected.
 - [2025-08-30 cross-platform SDK modularization](2025-08-30-cross-platform-sdk-modularization-pers-devices.md) — the requirements and core-versus-adapter boundaries this SDK realizes on a specific capability.
-- [2025-01-16 SDK security hardening and the information-security case](2025-01-16-ccf-sdk-security-hardening-infosec-presentation.md) — the security properties of these same binaries and the presentation that carried them to the Cyber Security organization.
+- [2025-01-16 SDK binary hardening](2025-01-16-ccf-sdk-binary-hardening.md) — the security properties of these same binaries: the toolchain mitigations, the pinned and provenance-named dependencies, and the trust boundary in the public header.
 - [2024-10-18 Copilot practice for an embedded C SDK](2024-10-18-copilot-embedded-c-sdk-practice.md) — how this codebase was actually written, and the team practice recorded alongside it.
 - [2022-08-03 ODM specification authoring](2022-08-03-odm-specification-authoring.md) — the earlier manufacturer-facing API specifications; this is the same boundary expressed as a compilable contract instead of a document.
 - [2022-04-06 Conan package management and cross-build](2022-04-06-conan-package-management-embedded-cross-build.md) — the packaging and cross-compilation discipline the README calls for as the fix to the submodule approach.

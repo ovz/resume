@@ -92,7 +92,7 @@ The FOTA handoff file was, by his own account, added "rather opportunistically":
 - [2025-05-01-r5-device-specific-failure-investigations](2025-05-01-r5-device-specific-failure-investigations.md) — the operations side of the same loop: device-level investigations there surfaced MCU and firmware-update-related conditions; this entry closes several of them in firmware.
 - [2025-11-15-r5-location-engine-design](2025-11-15-r5-location-engine-design.md) — the modular location engine whose beacon provider this entry hardens; the persistence and lifecycle work here builds on that engine's provider interfaces.
 - [2024-05-15-skyhook-positioning-root-cause-diagnostics](2024-05-15-skyhook-positioning-root-cause-diagnostics.md) — earlier positioning-reliability work on the same device family (Wi-Fi/GNSS side; this entry is the BLE-beacon side).
-- [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — same device programme and period; the lifecycle-management and structured-logging patterns there are the framework-level counterpart of the lifecycle/error-handling patterns applied here (thematic link, not a claimed dependency).
+- [2024-05-08-ccf-capability-framework-lcm-open-source](2024-05-08-ccf-capability-framework-lcm-open-source.md) — same device programme; the lifecycle-management and structured-logging patterns there are the framework-level counterpart of the lifecycle/error-handling patterns applied here (thematic link, not a claimed dependency).
 
 ## Record history
 

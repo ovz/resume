@@ -64,8 +64,8 @@ The framework repository's README in the retained working copies carries the ful
 - [2026-05-26 AI adoption and agentic engineering](2026-05-26-ai-adoption-agentic-engineering-choreographer.md) — the later, larger AI work; this entry is its documented antecedent, two years earlier and in embedded C.
 - [2024-12-31 device test automation and mentorship](2024-12-31-device-test-automation-robot-framework.md) — the same period; there he gave an AI coding agent a route to land pull requests, and named the limits of AI-assisted mentorship.
 - [2025-01-16 phone capability SDK on R5 hardware](2025-01-16-ccfphone-r5-device-lcm-odm-integration.md) — the codebase this practice was written for and applied to.
-- [2025-01-16 SDK security hardening](2025-01-16-ccf-sdk-security-hardening-infosec-presentation.md) — the defensive style rules that the instruction files fed to the model.
-- [2026-04-26 component framework](2026-04-26-ccf-capability-framework-lcm-open-source.md) — the framework whose repository carries the guide.
+- [2025-01-16 SDK binary hardening](2025-01-16-ccf-sdk-binary-hardening.md) — the defensive style rules that the instruction files fed to the model.
+- [2024-05-08 component framework](2024-05-08-ccf-capability-framework-lcm-open-source.md) — the framework whose repository carries the guide, and whose innovation presentation records the same Copilot observations in the owner's own words.
 
 ## Record history
 

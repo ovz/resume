@@ -76,7 +76,7 @@ No blocker or failed approach was supplied. The expected benefits are recorded a
 
 ## Related
 
-- [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — later component-framework work that builds on the earlier cross-platform SDK requirements and modular boundaries.
+- [2024-05-08-ccf-capability-framework-lcm-open-source](2024-05-08-ccf-capability-framework-lcm-open-source.md) — the component framework this requirements work feeds, developed over the same period.
 - [2025-04-13-ble-sdk-breadth-first-white-label](2025-04-13-ble-sdk-breadth-first-white-label.md) — related SDK work in the same broader device programme; that entry records an observer role on a breadth-first white-label model, while this entry records direct cross-platform modularization work.
 - [2022-08-03-odm-specification-authoring](2022-08-03-odm-specification-authoring.md) — earlier manufacturer-facing API and integration specifications.
 

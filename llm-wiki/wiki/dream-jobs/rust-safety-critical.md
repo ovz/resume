@@ -33,7 +33,7 @@ The rare combination, in three parts:
 
 1. **He has already made the language-rules decision the Rust-in-safety-critical argument is about.** [He chose the C++ standard for a safety-critical embedded codebase on *enforceability* rather than reputation — comparing MISRA C++, JSF and the Core Guidelines by what static analysis could actually check — and then wrote the guidelines against the existing analysis baseline so the rules are verified on every build instead of remembered by reviewers](../../raw/brag/2022-02-18-cpp-safety-critical-embedded-guidelines.md). That is precisely the reasoning a certification-aware Rust adoption needs, applied once already.
 2. **He works inside a regulated lifecycle**, [qualified into a medical-device QMS with design control, CAPA and supplier quality, under FDA, EU and Australian process](../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md) — so the evidence-generation half of the job is familiar rather than theoretical.
-3. **He builds embedded platform code now**: [a component framework in embedded C with dependency injection, hierarchical state machines and aligned structured logging, modularized for open-source release](../../raw/brag/2026-04-26-ccf-capability-framework-lcm-open-source.md), plus [Conan packaging on JFrog Artifactory and ARM cross-compilation with sysroot and toolchain pinning](../../raw/brag/2022-04-06-conan-package-management-embedded-cross-build.md) — the toolchain layer where Rust adoption actually lands.
+3. **He builds embedded platform code now**: [a component framework in embedded C with dependency injection, hierarchical state machines and aligned structured logging, modularized for open-source release](../../raw/brag/2024-05-08-ccf-capability-framework-lcm-open-source.md), plus [Conan packaging on JFrog Artifactory and ARM cross-compilation with sysroot and toolchain pinning](../../raw/brag/2022-04-06-conan-package-management-embedded-cross-build.md) — the toolchain layer where Rust adoption actually lands.
 
 Supporting: intermediate Rust on the resume; "becoming an embedded Rust expert" named in his own notes as the *challenging* development goal he wanted; a 2021 note on his own board that the next device generation could incorporate Rust modules; and Rust among the 2026 study items.
 
@@ -54,7 +54,7 @@ Embedded Rust · `no_std` · toolchain qualification · MISRA and coding-standar
 ## Stories to tell for it
 
 - [Choosing the C++ standard on what static analysis can enforce](../../raw/brag/2022-02-18-cpp-safety-critical-embedded-guidelines.md) — the single best story for this audience, because it is the same argument one language earlier.
-- [The component framework taken to open source](../../raw/brag/2026-04-26-ccf-capability-framework-lcm-open-source.md) — embedded C architecture with lifecycle discipline.
+- [The component framework taken to open source](../../raw/brag/2024-05-08-ccf-capability-framework-lcm-open-source.md) — embedded C architecture with lifecycle discipline. **Its innovation presentation names Rust in `no_std` mode as the corner-stone of the bare-metal strategy for a future device**, with the owner stating that his own Rust expertise could decide whether such an effort succeeds — the strongest direct evidence for this candidate in the corpus.
 - [Qualifying into the medical QMS](../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md) — the evidence-generation half.
 
 ## How to tell if this is the one

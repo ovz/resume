@@ -51,7 +51,7 @@ The owner's working board for the device programme, April–June 2022: a written
 
 - [2021-08-15-github-enterprise-migration-monorepo](2021-08-15-github-enterprise-migration-monorepo.md) — the platform migration that made the CI automation this policy depends on possible.
 - [2022-02-18-cpp-safety-critical-embedded-guidelines](2022-02-18-cpp-safety-critical-embedded-guidelines.md) — concurrent work setting how C++ is written in the same codebase, as this sets how it is built.
-- [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — the later framework whose modular, contribution-ready packaging assumes exactly this kind of dependency discipline.
+- [2024-05-08-ccf-capability-framework-lcm-open-source](2024-05-08-ccf-capability-framework-lcm-open-source.md) — the later framework whose modular, contribution-ready packaging assumes exactly this kind of dependency discipline, and whose own design page points back at this work as the basis for its binaries flow.
 
 ## Record history
 

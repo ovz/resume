@@ -24,6 +24,50 @@ Practical consequences when writing or rehearsing:
 - **Let the earlier self be junior where he was junior.** The 1997 story is better told with the awe intact than re-narrated as though you always knew.
 - **Keep one constant thread audible across all of them** — see the last row of the table below. That is what makes it one career rather than five jobs.
 
+## Sentences that sound like him, and sentences that do not
+
+**The owner's correction, 2026-09-20, and it overrides any drafting instinct elsewhere in this repository.** The stories had drifted into a register he does not speak in. The problem is not vocabulary or length; it is a specific sentence shape that sounds written-to-be-quoted rather than remembered and said.
+
+**What he actually does, in his own words:** *"when I tell the story I channel my memories and put them in words. Most humans don't think in tag lines."*
+
+### The failure mode: the tagline
+
+These are the shapes to stop producing. All four examples are real, from stories in this corpus:
+
+| Shape | Example from the corpus | Why it is wrong |
+|---|---|---|
+| **A fragment standing as a paragraph** | *"A design review where everyone agreed and nobody engaged."* | It is a noun phrase, not a sentence. Nobody narrating a memory produces one |
+| **The em-dash verdict** | *"The cradle's firmware was frozen at launch — an irreversible decision, made early."* | The fact and the judgement about the fact are fused into one line, so the listener is handed the conclusion instead of reaching it |
+| **The epigram** | *"A feature branch that lived long enough to charge interest."* | Cleverness compressed for quotability. It draws attention to the writing |
+| **Balanced antithesis** | *"I would rather be right quietly than loudly late."* | A rhetorical figure, not a recollection |
+
+The common thread is **elevated emotional load in a short, self-contained line**. That is the house style of marketing copy and of AI writing spoken narrative, and it is the tell. Note the structural point the owner concedes: this shape *does* have a place in the skeleton of a talk, because a marketing structure is what a talk is. But the lines are not spoken verbatim, and spoken aloud they land as corporate speak.
+
+### What his voice does instead
+
+Read from his own presentation speaker notes, which are what he said in the room:
+
+- **Complete sentences, mostly plain declaratives.** *"The process that we are using today is well known in the industry."*
+- **Short sentences carry facts, not punchlines.** *"Column descriptions were blank."* *"900 columns."* *"It didn't scale."* These are brief because the fact is brief, not because brevity is dramatic. That is the whole distinction: a short sentence is fine; a short sentence engineered to land is not.
+- **Fact first, meaning in its own separate sentence.** He does not fuse them with a dash. He states the thing, then says what follows from it.
+- **Opinions are marked as opinions.** *"I believe"*, *"In my opinion"*, *"My explanation -"*, *"I suppose"*. He does not assert a judgement in the voice of fact.
+- **Acronyms are expanded in passing**, the way a considerate speaker does: *"Mobile Personal Emergency Response devices, also known as MPERS"*.
+- **Conversational connectors carry the flow:** *"So,"*, *"Thus,"*, *"Actually,"*, *"Well,"*, *"And, not the least in importance,"*.
+- **Wry asides are a full sentence, never a barb.** *"Funny how things go in cycles and loops."* *"Must be the track record in Machine Learning, I suppose."*
+- **Self-deprecation is allowed and is warm.** *"A lame excuse is that Motion and Fall Detection are much harder to prototype."* *"Of course, we are good at dreaming and the reality check is going to be brutal."*
+- **Enthusiasm is plain rather than arch.** *"The framework is super-slick."* *"LCM Type Specification Language conquers Connascence of Type oh so well!"*
+- **Credit and concession come before the point.** He names what a colleague's work was good at before saying where it trapped them.
+
+### The test to apply before writing any narrative line
+
+1. **Could you say this to one person, across a table, without sounding like you rehearsed it?** If it would need a pause after it, it is a tagline.
+2. **Is it a complete sentence?** If it is a noun phrase, rewrite it as something that happened.
+3. **Does one line contain both the fact and the verdict on the fact?** Split it in two.
+4. **Is a judgement stated as though it were fact?** Mark it — *I thought*, *I believe*, *my read was*.
+5. **Is the sentence balanced, ironic or quotable?** That is the writing showing. Say the plainer thing.
+
+The register tables below still apply; this section governs sentence shape inside whichever register is chosen.
+
 ## The registers, era by era
 
 | Era | Who you were | The register it earns | Say it only from inside this era | The trap |

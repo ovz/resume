@@ -9,7 +9,7 @@ runtime: "3 min"
 
 ## Why I still care
 
-This is the one where I watched textbook pitfalls stop being a list and start being a product. A frozen cradle, a missing consumer, pressure to gold-plate, a branch that lived too long, and then add-on after add-on — any one of them I could absorb, and I did. What I am proud of is that I saw early which factor I actually controlled, the number of states, and kept driving it down: Home/Away in 2023, and in 2026 the argument that the next stage is a real location state machine, not one more little thing. Being right was quiet both times, and I would rather be right quietly than loudly late.
+This is the one where the textbook pitfalls stopped being a list I had read about and became the thing I was actually shipping. The cradle firmware was frozen. The teams who would consume the result were not in my scope. There was pressure to gold-plate it, and a branch that stayed open too long, and then add-on after add-on. I could absorb any one of them, and I did. What I am proud of is that I worked out early which factor I actually controlled, the number of states, and kept driving it down. That gave me Home/Away in 2023, and in 2026 it gave me the argument that the next stage has to be a real location state machine rather than one more small addition. Neither of those was a loud win. I think that is usually what being right looks like.
 
 ## Structure
 
@@ -36,15 +36,15 @@ This is the one where I watched textbook pitfalls stop being a list and start be
 > It is an emergency-response wearable for active seniors. The beacon is the charging cradle in their home — and whether they are home is exactly what a caregiver wants to know. Often the caregiver is the one paying for the subscription.
 
 **3 · Complication**
-> It came to me as an assignment, and I could see at once the device side was the easy part. Everything around it was a classic pitfall.
-> The cradle's firmware was frozen at launch — an irreversible decision, made early. The radio firmware on both ends belonged to our contract manufacturer. And the teams who would consume the result were out of my scope. I was building a producer without its consumer.
-*(optional)* Then the usual suspects arrived on time. Pressure to build something more capable than anyone had asked for. Decisions re-argued while I was implementing them. A design review where everyone agreed and nobody engaged. A feature branch that lived long enough to charge interest.
-> Any one of those, you absorb. What experience tells you — and this one proved — is that they do not add up. They multiply.
+> It came to me as an assignment, and I could see right away that the device side was the easy part. Everything around it was a classic pitfall.
+> The cradle's firmware was frozen at launch. That decision was made early, and there was no way back from it. The radio firmware on both ends belonged to our contract manufacturer. And the teams who would eventually consume the result were not in my scope, so I was building a producer without its consumer.
+*(optional)* Then the usual suspects showed up, right on schedule. There was pressure to build something more capable than anyone had asked for. Decisions I was already implementing got re-argued. We held a design review where everybody agreed with me and nobody really engaged. And the feature branch stayed open long enough that it started costing us interest.
+> You can absorb any one of those. What experience tells you, and this one proved, is that they do not add up. They multiply.
 ⟨breathe⟩
 
 **4 · Move**
-> So I went after the one factor I actually controlled: the number of states. Home/Away. One home cradle. Enter, exit, a report every few minutes. No state machine — it did not need one.
-*(optional)* The pressure to add was constant, so I asked my manager, out loud, to help me prune scope.
+> So I went after the one factor I actually controlled, which was the number of states. Home or away. One home cradle. Enter, exit, and a report every few minutes. I did not build a state machine, because three events did not need one.
+*(optional)* The pressure to add kept coming, so I asked my manager, out loud, to help me prune the scope.
 > Then I put the rest of the effort where the risk was. I drove the manufacturer's firmware, build after build, until cradle linking worked. I built relationships downstream without a mandate to. I wrote the design for optionality, because I could not ask its consumers what they needed. And I named the branch as debt, and paid it down.
 ⟨breathe⟩
 > That held. Then the add-ons came — top down, each one a reasonable little thing. Freshness on exit. Freshness on every beacon event. Syncs that behave differently inside the home. A test call when the cradle links. And underneath, a keep-alive refactor that broke beacon tracking outright.
@@ -53,8 +53,8 @@ This is the one where I watched textbook pitfalls stop being a list and start be
 *(optional)* And I was not going to be the person who broke firmware updates. I had an AI agent read every execution flow, and it found the one gap my 2023 design never had to cover.
 
 **5 · Punchline**
-> The release candidate landed in August 2026 — surviving firmware updates, still standing on that small design.
-> What I carry from it: you do not beat pitfalls that multiply by trimming each one a little. You find the factor you control, and you drive it toward one.
+> The release candidate landed in August 2026. It survives firmware updates, and it still stands on that small design.
+> What I carry from it is that you do not beat multiplying pitfalls by trimming each one a little. You find the factor you actually control, and you drive that one down.
 ⟨breathe⟩
 
 **6 · Handover**

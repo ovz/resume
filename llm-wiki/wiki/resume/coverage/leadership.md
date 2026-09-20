@@ -59,9 +59,9 @@
 
 ### RSK — Risk, security and process practice
 
-**Entries:** [2023-08-03 risk management analysis](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) · [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) · [2023-12-05 launch readiness](../../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md) · [2025-01-16 SDK security hardening and the information-security case](../../../raw/brag/2025-01-16-ccf-sdk-security-hardening-infosec-presentation.md)
+**Entries:** [2023-08-03 risk management analysis](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) · [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) · [2023-12-05 launch readiness](../../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md) · [2025-01-16 SDK binary hardening](../../../raw/brag/2025-01-16-ccf-sdk-binary-hardening.md) · [2025-11-13 Column Mapping Framework](../../../raw/brag/2025-11-13-column-mapping-framework-alation-data-governance.md) (primary claims under `DATA`)
 
-**Thread coverage: ≈ 58%** (7 of 12)
+**Thread coverage: ≈ 54%** (7 of 13)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -76,7 +76,11 @@
 | `RSK-9` Vendored third-party open source with provenance-encoded directory names and pinned public release tags, making the supply chain auditable from the tree itself | 2025-01-16 | absent |
 | `RSK-10` Made the trust boundary explicit in the source, marking the manufacturer-facing header as distributed outside the company | 2025-01-16 | absent |
 | `RSK-11` Adopted defensive C conventions as house style — comparisons that make an accidental assignment fail to compile, a state-machine re-entrancy guard, and input validation as first-class return values | 2025-01-16 | absent |
-| `RSK-12` Presented the SDK work and its information-security applicability to enterprise Cyber Security leadership, well received by the Senior Director of Cyber Security Risk & Compliance, with a follow-up pending | 2025-01-16 | absent |
+| ~~`RSK-12` Presented the SDK work and its information-security applicability to enterprise Cyber Security leadership, well received by the Senior Director of Cyber Security Risk & Compliance, with a follow-up pending~~ — the presentation was about the Column Mapping Framework, not the SDK; re-stated as `RSK-13` and `RSK-14` | 2025-01-16 | struck 2026-09-20 |
+| `RSK-13` Argued to enterprise Cyber Security leadership that a source-grounded roundtrip framework shifts security tooling left — asset inventories, data classification and scanner gates — making the pull request the natural unit of risk management | 2025-11-13 | absent |
+| `RSK-14` Presented to the Senior Director of Cyber Security Risk & Compliance in December 2025, introduced by his mentor and supported by the data-governance leader; appreciated, with a follow-up pending | 2025-11-13 | absent |
+
+> `RSK-12` was struck on 2026-09-20. It was created the previous day from an inference that "infosec applicability" referred to the device SDK's hardening; the owner's own meeting invitation shows the talk was about the Column Mapping Framework. The underlying fact survives as `RSK-13` and `RSK-14`, sourced to the right entry.
 
 ---
 

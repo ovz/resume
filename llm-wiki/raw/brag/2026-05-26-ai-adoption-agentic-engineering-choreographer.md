@@ -57,7 +57,7 @@ Merged pull request introducing the choreographer agent to the internal agent-pl
 
 - [2025-10-29-ai-data-product-in-alation](2025-10-29-ai-data-product-in-alation.md) — earlier AI-assisted-analytics exploration on the data-catalog side; this entry is the engineering-workflow side of the same "leverage AI since 2023" thread.
 - [2024-04-18-r5-datadog-community-presentation](2024-04-18-r5-datadog-community-presentation.md) — precedent for reframing a team-level effort as reusable cross-team guidance; the same move is made here with agent patterns and the knowledge base.
-- [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — concurrent enablement work: both entries lower onboarding barriers through reusable frameworks plus documentation and contribution guidelines.
+- [2024-05-08-ccf-capability-framework-lcm-open-source](2024-05-08-ccf-capability-framework-lcm-open-source.md) — earlier enablement work sharing the same lever: reusable framework plus documentation and contribution guidelines to lower onboarding friction.
 - [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — the FOTA gap AI-assisted research caught, which the follow-up above draws on.
 
 ## Record history

@@ -31,7 +31,7 @@ Six beats carry a story. None of them is optional; everything else is.
 | # | Beat | Its job |
 |---|---|---|
 | 0 | **Offer** | The sentence that proposes the story when nobody asked a question. "There's one from the 2019 recall I still think about." Skip it when answering a direct question. |
-| 1 | **Hook** | Buys attention in one sentence. A fact, a number or a contradiction — never a preamble. |
+| 1 | **Hook** | Buys attention in one sentence. A fact or a number, said plainly — never a preamble, and never a line engineered to be quotable. |
 | 2 | **Stakes** | Why it mattered, in terms the listener already cares about. |
 | 3 | **Complication** | What made it hard. This is the reason there is a story at all. |
 | 4 | **Move** | What you did — the part only you can tell. |
@@ -44,7 +44,8 @@ Everything between the beats is **detail**, and detail is droppable *by design*.
 
 - **Pick the era register before the first line.** The 1997 cryptographer and the 2026 architecture owner do not sound alike, and should not — [voice and prominence](voice-and-prominence.md) § *The registers, era by era*.
 - **Say every line out loud as you write it.** If it cannot be said in one breath, it is two lines or it is cut.
-- **Every phrase does one of three jobs**: spark interest, deliver a punchline, or set one of those up. A line that only informs is detail — mark it optional or delete it.
+- **Every phrase earns its place**: it moves the story forward, or it sets up something that does. A line that only informs is detail — mark it optional or delete it. **This is not a licence to write punchlines.** Earning a place means being a step in what happened, not being quotable; see [voice and prominence](voice-and-prominence.md) § *Sentences that sound like him, and sentences that do not*, which governs sentence shape and overrides any drafting instinct here.
+- **Write in complete sentences, and keep the fact separate from the verdict on the fact.** Fragments standing as paragraphs, em-dash reveals and balanced antitheses are the failure mode this corpus has actually suffered from; the linked section carries the test to apply before writing any spoken line.
 - **Short declaratives project confidence.** Explaining why something mattered twice projects the opposite.
 - **Numbers land bare.** "Forty-four thousand devices" — not "approximately 44,300 units".
 - **Present tense for the moment you want to relive**: "I can still see the graph." That is what makes it sound like memory rather than recitation, and it is what puts *you* back in the room while you tell it.

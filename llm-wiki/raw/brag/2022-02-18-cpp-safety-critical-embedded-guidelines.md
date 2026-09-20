@@ -39,7 +39,7 @@ The owner's working board for the device programme, February–June 2022, coveri
 ## Related
 
 - [2022-04-06-conan-package-management-embedded-cross-build](2022-04-06-conan-package-management-embedded-cross-build.md) — concurrent work on the same codebase, establishing how its dependencies are versioned and cross-built.
-- [2026-04-26-ccf-capability-framework-lcm-open-source](2026-04-26-ccf-capability-framework-lcm-open-source.md) — the later framework work that made these conventions concrete across device SKUs.
+- [2024-05-08-ccf-capability-framework-lcm-open-source](2024-05-08-ccf-capability-framework-lcm-open-source.md) — the later framework work that made these conventions concrete across device SKUs.
 
 ## Record history
 

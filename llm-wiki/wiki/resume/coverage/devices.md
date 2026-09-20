@@ -60,16 +60,16 @@ The kind of work the owner keeps being drawn to, and now a resume bullet in its 
 
 ### FW — Embedded platform frameworks
 
-**Entries:** [2026-04-26 component framework](../../../raw/brag/2026-04-26-ccf-capability-framework-lcm-open-source.md) · [2025-08-30 cross-platform SDK modularization](../../../raw/brag/2025-08-30-cross-platform-sdk-modularization-pers-devices.md) · [2025-01-16 phone capability SDK on R5 hardware](../../../raw/brag/2025-01-16-ccfphone-r5-device-lcm-odm-integration.md) · cross-listed: [2026-09-01 beacon FOTA persistence](../../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md) (claims tracked under POS)
+**Entries:** [2024-05-08 component framework](../../../raw/brag/2024-05-08-ccf-capability-framework-lcm-open-source.md) · [2025-08-30 cross-platform SDK modularization](../../../raw/brag/2025-08-30-cross-platform-sdk-modularization-pers-devices.md) · [2025-01-16 phone capability SDK on R5 hardware](../../../raw/brag/2025-01-16-ccfphone-r5-device-lcm-odm-integration.md) · cross-listed: [2026-09-01 beacon FOTA persistence](../../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md) (claims tracked under POS)
 
 **Thread coverage: ≈ 13%** (4 of 32). `FW-20` to `FW-32` arrived 2026-09-19 from the two governing Confluence design specifications, which the owner supplied after the source study.
 
 | Claim | Source | Status |
 |---|---|---|
-| `FW-1` Led design and delivery of an embedded component framework standardizing how device SKUs declare, configure and bring up features | 2026-04-26 | **in** |
-| `FW-2` Implemented dependency injection and hierarchical state machines with predictable lifecycle management in embedded C | 2026-04-26 | **in** |
-| `FW-3` Built an aligned structured-logging framework giving consistent logs across all supported devices | 2026-04-26 | **in** |
-| `FW-4` Modularized and documented the framework for open-source release and external contribution | 2026-04-26 | **in** |
+| `FW-1` Led design and delivery of an embedded component framework standardizing how device SKUs declare, configure and bring up features | 2024-05-08 | **in** |
+| `FW-2` Implemented dependency injection and hierarchical state machines with predictable lifecycle management in embedded C | 2024-05-08 | **in** |
+| `FW-3` Built an aligned structured-logging framework giving consistent logs across all supported devices | 2024-05-08 | **in** |
+| `FW-4` Modularized and documented the framework for open-source release and external contribution | 2024-05-08 | **in** |
 | `FW-5` Co-authored cross-platform SDK C-library requirements covering ANSI C compatibility, minimal dependencies, predictable memory usage and separation between core SDK and ODM integrations | 2025-08-30 | absent |
 | `FW-6` Separated platform-agnostic capabilities from Linux- and MCU-specific adapters so core SDK libraries could be reused across targets | 2025-08-30 | absent |
 | `FW-7` Defined stable public C headers and library boundaries for capability and configuration APIs consumed by ODMs and internal teams | 2025-08-30 | absent |
@@ -92,12 +92,12 @@ The kind of work the owner keeps being drawn to, and now a resume bullet in its 
 | `FW-24` Identified reusable location-fix quality comparison as the shared-library core of a capability, so logic previously re-implemented per device could be owned once and varied where needed | 2025-08-30 | absent |
 | `FW-25` Set ANSI C as the default with conservative use of newer ISO C, so libraries stay compilable unchanged for restricted MCU targets | 2025-08-30 | absent |
 | `FW-26` Required an automated test suite covering all functionality, with unit tests carrying a code-coverage metric | 2025-08-30 | absent |
-| `FW-27` Specified a reusable memory pool to satisfy a no-dynamic-allocation constraint, drawing on C++17 polymorphic memory resources for industry-standard patterns | 2026-04-26 | absent |
-| `FW-28` Proposed the SDK take over wakelock management, naming manufacturer wakelock misuse as a known defect source and wakelocks as fundamental to location and audio | 2026-04-26 | absent |
-| `FW-29` Argued flat state machines grow exponentially with emergency-device scenarios, making hierarchical state machines a requirement rather than a preference | 2026-04-26 | absent |
-| `FW-30` Ran a build-versus-buy evaluation against the commercial QP/C real-time embedded framework, pricing its licence plus team learning and a proof of concept, and built the hierarchical state machine in-house instead | 2026-04-26 | absent |
-| `FW-31` Made the case for the LCM messaging library over D-Bus marshaling — publish/subscribe, a robotics track record, recordable and replayable messages, portability without UDP — including rewriting existing Boost signal buses while preserving their nomenclature | 2026-04-26 | absent |
-| `FW-32` Specified an on-device integration-and-validation test executable so firmware could be validated automatically and manufacturer issues pinpointed | 2026-04-26 | absent |
+| `FW-27` Specified a reusable memory pool to satisfy a no-dynamic-allocation constraint, drawing on C++17 polymorphic memory resources for industry-standard patterns | 2024-05-08 | absent |
+| `FW-28` Proposed the SDK take over wakelock management, naming manufacturer wakelock misuse as a known defect source and wakelocks as fundamental to location and audio | 2024-05-08 | absent |
+| `FW-29` Argued flat state machines grow exponentially with emergency-device scenarios, making hierarchical state machines a requirement rather than a preference | 2024-05-08 | absent |
+| `FW-30` Ran a build-versus-buy evaluation against the commercial QP/C real-time embedded framework, pricing its licence plus team learning and a proof of concept, and built the hierarchical state machine in-house instead | 2024-05-08 | absent |
+| `FW-31` Made the case for the LCM messaging library over D-Bus marshaling — publish/subscribe, a robotics track record, recordable and replayable messages, portability without UDP — including rewriting existing Boost signal buses while preserving their nomenclature | 2024-05-08 | absent |
+| `FW-32` Specified an on-device integration-and-validation test executable so firmware could be validated automatically and manufacturer issues pinpointed | 2024-05-08 | absent |
 
 ---
 
