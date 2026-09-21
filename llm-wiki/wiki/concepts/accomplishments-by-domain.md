@@ -58,6 +58,8 @@
 
 ## Data engineering
 
+- Led the R5 fleet observability and analytics platform as a telemetry data-engineering effort: designed queryable representations and quantitative fleet metrics that supported population-level monitoring, trend analysis, anomaly and outlier detection, and operational intelligence. [2024-03-01-r5-fleet-observability-analytics-datadog](../../raw/brag/2024-03-01-r5-fleet-observability-analytics-datadog.md)
+
 - Validated Qualcomm/Skyhook fleet telemetry as data rather than vendor marketing: checked observed battery and CPU fields for semantic and range problems, pursued clarification, and judged whether the data could support production decisions and monitoring. [2026-01-01-qualcomm-device-observability-evaluation](../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
 - Connected a Linux OEM-identity gap to telemetry quality: drove Qualcomm/Skyhook, TCL and Best Buy Health toward a firmware-and-SDK implementation path so future device-health and fleet data could carry consistent machine-readable attribution. [2025-05-01-qualcomm-skyhook-device-identity](../../raw/brag/2025-05-01-qualcomm-skyhook-device-identity.md)
 
@@ -160,6 +162,8 @@ four half-views. The domain read as a problem space rather than an inventory:
 - Turned audio-service findings into reviewable synchronization, queue-ownership and resource-lifetime corrections, with explicit structural and runtime acceptance criteria. Kept successive source-review results distinct from later owner-reported QA success; neither the test plans nor the positive retest establish exhaustive defect closure. [2026-04-24-tcl-audio-service-concurrency-corrections](../../raw/brag/2026-04-24-tcl-audio-service-concurrency-corrections.md)
 
 ## Operational excellence and observability
+
+- Led the end-to-end R5 Datadog observability and analytics platform for production launch and post-launch operations, moving fleet monitoring beyond dashboard inspection into automated alerting, quantitative population analysis, anomaly and outlier detection, and operational response across critical device behaviours. [2024-03-01-r5-fleet-observability-analytics-datadog](../../raw/brag/2024-03-01-r5-fleet-observability-analytics-datadog.md)
 
 - **The operator is the customer.** Frames observability, runbooks, SOPs and tabletop exercises as a product built for network engineers, DevOps and 24/7 pager carriers rather than as internal housekeeping — a demanding customer, because they are expert, interrupted, and judge software by its worst day. Grounded in a full annotated read of Nygard's *Release It!* and argued at the enterprise book club; the owner's own extensions are that failure-mode coverage belongs at the unit layer, that monitoring justifies itself economically rather than technically, and that AI removes toil rather than jobs. [2026-09-20-release-it-production-readiness-reading](../../raw/brag/2026-09-20-release-it-production-readiness-reading.md)
 - Evaluated a Qualcomm/Skyhook observability platform as an architecture and operating-cost decision, comparing it with Datadog, identifying vendor and ODM readiness risks, and converting telemetry and pricing findings into a fleet-scale recommendation. [2026-01-01-qualcomm-device-observability-evaluation](../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)

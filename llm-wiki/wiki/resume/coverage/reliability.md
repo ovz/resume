@@ -6,11 +6,11 @@
 
 ### OBS — Device-health observability programme
 
-The largest thread by far: ten entries spanning 2023–2026, tracing one arc from "can we even observe this fleet?" through launch monitoring, operational response, statistical tuning, portfolio stewardship and vendor-platform due diligence.
+The largest thread by far: thirteen entries spanning 2023–2026, tracing one arc from "can we even observe this fleet?" through launch monitoring, operational response, statistical tuning, portfolio stewardship and vendor-platform due diligence.
 
-**Entries:** [2023-12-21 observability architecture](../../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-07 monitoring launch](../../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-01 device identity](../../../raw/brag/2025-05-01-qualcomm-skyhook-device-identity.md) · [2025-05-29 anomaly validation](../../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) · [2025-12-01 Qualcomm CES showcase](../../../raw/brag/2025-12-01-qualcomm-ces-aware-showcase.md) · [2026-01-01 Qualcomm observability evaluation](../../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
+**Entries:** [2023-12-21 observability architecture](../../../raw/brag/2023-12-21-device-health-observability-architecture.md) · [2024-01-20 telemetry schema](../../../raw/brag/2024-01-20-errorsummary-json-schema-datadog-limitation.md) · [2024-03-01 fleet observability and analytics](../../../raw/brag/2024-03-01-r5-fleet-observability-analytics-datadog.md) · [2024-03-07 monitoring launch](../../../raw/brag/2024-03-07-r5-datadog-monitoring-launch.md) · [2024-04-18 community presentation](../../../raw/brag/2024-04-18-r5-datadog-community-presentation.md) · [2024-05-05 anomaly tuning](../../../raw/brag/2024-05-05-r5-anomaly-detection-arima-tuning.md) · [2025-01-09 operational runbook](../../../raw/brag/2025-01-09-r5-self-reported-error-operational-runbook.md) · [2025-01-14 lifecycle review](../../../raw/brag/2025-01-14-r5-datadog-monitor-lifecycle-review.md) · [2025-05-01 device investigations](../../../raw/brag/2025-05-01-r5-device-specific-failure-investigations.md) · [2025-05-01 device identity](../../../raw/brag/2025-05-01-qualcomm-skyhook-device-identity.md) · [2025-05-29 anomaly validation](../../../raw/brag/2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) · [2025-12-01 Qualcomm CES showcase](../../../raw/brag/2025-12-01-qualcomm-ces-aware-showcase.md) · [2026-01-01 Qualcomm observability evaluation](../../../raw/brag/2026-01-01-qualcomm-device-observability-evaluation.md)
 
-**Thread coverage: ≈ 38%** (18 of 48)
+**Thread coverage: ≈ 35%** (18 of 51)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -62,6 +62,9 @@ The largest thread by far: ten entries spanning 2023–2026, tracing one arc fro
 | `OBS-46` Made commercial Lively hardware available for Qualcomm's intended partner-device showcase rather than generic reference hardware | 2025-12-01 | absent |
 | `OBS-47` Followed through on shipment and obtained Qualcomm confirmation of receipt and intended use with supporting video materials | 2025-12-01 | absent |
 | `OBS-48` Extended the Qualcomm relationship from technical integration and evaluation into an externally facing demonstration opportunity, without claiming the CES event occurred or produced a commercial outcome | 2025-12-01 | absent |
+| `OBS-49` Led the end-to-end R5 observability strategy across telemetry architecture, monitor selection, alerting, dashboards, tuning, incident workflows and production readiness | 2024-03-01 | absent |
+| `OBS-50` Represented fleet behaviour quantitatively so population-level monitoring, trend analysis, anomaly detection, outlier identification and failure-mode clustering could supplement individual error events | 2024-03-01 | absent |
+| `OBS-51` Established production monitoring coverage across location-service issues, dropped calls, battery-temperature conditions, accelerometer failures, firmware-update behaviour and self-reported device errors | 2024-03-01 | absent |
 
 > `OBS-7` is deliberately `partial`: the resume claims the catch but not the battery-overheating specific, which names a safety-adjacent defect in a current employer's product. See [editorial questions](editorial.md#open-questions).
 
