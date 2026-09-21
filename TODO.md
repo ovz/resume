@@ -10,35 +10,9 @@
 
 - `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
 - `__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md` — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
+- `__untracked_stuff/2026-09-20-networking-resume-variant/tasks/assignment_tracker.md` — networking resume plus the Release It! ingest; build clean. Land 035 then 036 — **036 is what makes the tree build again, since your 6efb590 committed the resume without the link keys it uses**. Then read the rendered PDF and confirm the "never specialized, and that is an advantage" paragraph says what you meant
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
 - `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
-
-
-
-# 💡 CCF as UDP recent experience so contributes to networking resume
-
-
-
-## Networking tailored resume
-
-Networking doesn't make it into "dream job" candidate. I could leverage my experience my better in Data Engineering and Embedded. So from Dream job standpoint options must be weighed according to my expressed preferences and available grounding in raw experience data, published resume items etc. Networking still has many attracitve points and it merits a tailored resume. 
-
-# Must mention Rich Stevens book
-
-To this day this is the bible of network programming. Misha brought this book to Ukraine during his visit and I devoured it. this was one of my pillars for predictive jobs tcp/ip daemon  and I am an advanced network programmer to this day.
-
-# My mentor Tim Wodarski is in charge of networking
-
-Tim told me a lot of war stories about networking at best buy. This landed on furtile soil given my networking expereinces with strong foundation on Client/Server SPM (TCP/IP predictive job daemon) and being side initiative for many of the projects, obviously including cellular enabled R5.
-
-This confirmed I am a die hard fan of russ white. I did listen to his O'Reilly content and this cemented my network engineering understanding. I am even glad I do not specialize on networks and stuck in dogmas and looking forward to embrace such specialization and be successful because of Russ White and my mentor Tim advice and inspiration
-
- 
-rule11.tech
- (titled Rule 11 Reader) is the official personal website and primary technical blog of network architect Russ White. This is one of my beacon in the world of today as of 2026
-
- Another saying from Russ is "there are usually 4 basic problems and 4 basic solution in each domain". Upgrade my domains with stories around up to 4 such fundamental problems and top 4 solutions 4 them. Steal 4 network problem from Russ White.
-
 
 
 

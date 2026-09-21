@@ -29,6 +29,7 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 - [State machines, and the codebase whose authors are gone](wiki/stories/state-machines.md) — *reference.* Cluster hub, stories planned: the keep-alive build, MCU Fatal UI, and Boost MSM stewardship. Related to positioning, not conflated with it.
 - [Concurrency, and the bugs that vanish when observed](wiki/stories/concurrency.md) — *reference.* Cluster hub: the 2005 TCP/IP daemon that bought the reflexes, the audio artifact never witnessed, the manufacturer's code read closely enough to correct, and the abstractions from Boost.Asio to C++ coroutines.
 - [Stewardship, and eliminating toil](wiki/stories/stewardship.md) — *reference.* Cluster hub: custody through an acquisition, the Data Steward role, security patching, and holding a bar the designated owner would not. Stewardship is the why, eliminating toil is the how.
+- [Design for production, and the people who carry the pager](wiki/stories/production-readiness.md) — *reference.* Cluster hub: the agentless evidence layer, the cellular-cost threshold agreed before an incident, owning a monitor portfolio as a product, and the argument that error branches belong in unit tests. The through-line is that the customer is the operator.
 - [Salford Systems, and machine learning before it was fashionable](wiki/stories/salford.md) — *reference.* Cluster hub: debugging the numerical engines in Fortran, SAS learned for a pharmaceutical client, a Brazilian retailer's weekly flyer, and two outsourcing vendors at once.
 - [Can LinkedIn be updated programmatically? The evidence](wiki/analysis/linkedin-api-access.md) — *explanation.* Every source behind that verdict, with live links, Wayback snapshots, immutable git pins and verbatim quotations, read 2026-09-10. **Load when** someone proposes automating the profile, or when re-checking whether LinkedIn has opened a write path.
 - [Archived: the LinkedIn credential tool](wiki/sources/archived-linkedin-secrets-tool.md) — *reference.* Keyring storage and an encrypted backup bundle, built and then archived unused. **Load when** writing any credential handling for this repo, or wondering why that script is not in the working set.
@@ -41,6 +42,7 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 ## Career synthesis
 
 - [Accomplishments by domain](wiki/concepts/accomplishments-by-domain.md) — *reference.* Headline accomplishments per domain with citations; the landing page for ingested brag entries and the pool the resume draws from. **Load when** drafting resume text or ingesting a brag entry.
+- [Four problems, four solutions](wiki/concepts/four-problems.md) — *explanation.* Each domain read as the short list of problems anything in it must solve, with the record's answer to each; Russ White's model for networking, this repository's derivation elsewhere. **Load when** rehearsing for a domain conversation, or when a story or resume line needs a domain's shape rather than its inventory.
 - [Skills matrix](wiki/concepts/skills-matrix.md) — *reference.* Skill × years baseline (~2020) plus deltas evidenced since. **Load when** checking keyword coverage or re-aging skills.
 - [Technical themes](wiki/concepts/technical-themes.md) — *explanation.* Capabilities that recur across decades. **Load when** writing summary-level prose.
 - [Oleg Zhylin](wiki/entities/oleg-zhylin.md) — *reference.* Profile, what he is looking for, working identity, background. **Load when** the question is about the person rather than a project.
@@ -71,6 +73,7 @@ The hub above is the entry point; these are its candidate pages. ★ = the owner
 - [Professional references](wiki/sources/professional-references.md) — who is listed, relationship, period; no contact details. **Load when** references come up.
 - [Minitab 2018 correspondence](wiki/sources/minitab-2018-correspondence.md) — classification of personal/legal material; not evidence. Load only to understand why it is not cited.
 - [Brag ledger](wiki/sources/brag-ledger.md) — ingest and promotion state of every `raw/brag/` entry. **Load when** ingesting or promoting.
+- [*Release It!* annotations](wiki/sources/release-it-annotations.md) — the owner's own highlights and margin notes in Nygard's production-readiness book, and what they contribute. **Load when** writing about operability, observability or the operator as customer. The book itself is not committed and is never quoted from.
 - [Trello board exports](wiki/sources/trello-boards.md) — the committed board snapshots, what has been harvested from them and what remains. **Load when** ingesting from the boards or planning a re-export.
 
 ## Raw

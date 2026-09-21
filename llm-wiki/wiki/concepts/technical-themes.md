@@ -16,6 +16,10 @@ Not a footnote to the embedded work but a second specialization interlocked with
 
 A twenty-year thread rather than a listed skill: a cross-platform TCP/IP daemon that taught it, a positioning library losing its fix to a multithreading fault, a race on a power-managed SoC that expressed itself as a wrong sound and a reboot. The method is consistent — when the bug will not reproduce, make the *evidence* reproducible: correlate independent subsystems, look for the same operation happening twice, treat a negative experiment as information, and instrument so the occurrence you cannot schedule leaves a trace. [concurrency]
 
+## Networking, written rather than inherited
+
+The through-line is that the network layer is something he *builds*, not something a runtime hands him: a TCP/IP daemon with its own wire protocol in 2004, and today the whole device-side transport surface — asynchronous HTTP over TLS, an MQTT keep-alive cadence designed around what a metered cellular link costs, UDP multicast publish/subscribe between processes, and an SMS path for when IP is gone. The characteristic move is refusing to conflate observations that look alike: registration is not packet data, a send is not a delivery, a quiet dashboard is not a healthy device. The understanding above the code is largely **Russ White**'s problem-first framing rather than a layer diagram, and the owner's stated position is that never having specialized is an asset, because there is no inherited dogma to unlearn. [foundations] [four]
+
 ## Machine learning products
 
 Connecting machine learning theory and predictive engines with usable GUIs, APIs, command-line tools, cloud offerings, and customer-facing data workflows. The repeated concern is serving both domain experts and specialist data scientists from one product. [primary] [long]
@@ -44,4 +48,6 @@ Technical leadership, product ownership, hiring, distributed and outsourced team
 [battery]: ../../raw/brag/2021-10-16-battery-power-second-specialization.md "Battery and power as a second specialization"
 [cost]: ../../raw/brag/2024-01-04-cellular-cost-rogue-device-detection.md "Cellular cost and rogue-device detection"
 [concurrency]: ../../raw/brag/2023-09-26-audio-service-race-condition-diagnosis.md "The audio-service race condition"
+[foundations]: ../../raw/brag/2026-09-20-network-programming-foundations-and-mentors.md "Network programming foundations: Stevens, Russ White, and the mentors"
+[four]: four-problems.md "Four problems, four solutions — a domain read as its problem space"
 [long]: ../../raw/archive/Oleg.Zhylin.resume.md "Archived long-form resume"

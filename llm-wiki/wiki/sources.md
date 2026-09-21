@@ -10,6 +10,7 @@
 |---|---|---|---|---|
 | [`Oleg.Zhylin.resume.achievements.md`](../../markdown/Oleg.Zhylin.resume.achievements.md) | T0 public | **PRIMARY** — live, mirrored to LinkedIn | [sources/resume-achievements.md](sources/resume-achievements.md) | The canonical statement of the career; edited by the [update workflow](resume/update-workflow.md). |
 | [`Oleg.Zhylin.resume.embedded.md`](../../markdown/Oleg.Zhylin.resume.embedded.md) | T0 public | live tailored variant — not mirrored to LinkedIn | [resume/variants.md](resume/variants.md) (no per-source page yet) | Principal Engineer, C++/Rust, embedded audience. Derived from the primary; shares `_parts/` fragments. |
+| [`Oleg.Zhylin.resume.networking.md`](../../markdown/Oleg.Zhylin.resume.networking.md) | T0 public | live tailored variant — not mirrored to LinkedIn | [resume/variants.md](resume/variants.md) (no per-source page yet) | Network software engineer audience: device-side transport, cellular, fleet telemetry. Derived from the primary; shares `_parts/` fragments. Names its own gap — no routing or switch-configuration practice. |
 | [`Oleg.Zhylin.professional.references.md`](../../markdown/Oleg.Zhylin.professional.references.md) | T1 private (third-party PII) | live hand-out | [sources/professional-references.md](sources/professional-references.md) | Who can vouch, relationship, period. Never copy contact details into the wiki. |
 
 ## Archived resume variants (`llm-wiki/raw/archive/`, immutable)
@@ -45,6 +46,12 @@ Code that was written, works, and has no caller. Archived rather than deleted so
 | Source | Tier | Status | Use it for |
 |---|---|---|---|
 | [`raw/llm-wiki.md`](../raw/llm-wiki.md) | public idea document | reference | The abstract LLM-wiki pattern this directory instantiates. Repo-specific rules override it (notably: no committed operations log). |
+
+## Personal reading, annotated (the book itself is not committed)
+
+| Source | Tier | Status | Summary page | Use it for |
+|---|---|---|---|---|
+| *Release It!* 2nd ed. (Nygard) — the owner's annotated copy | T1 for **the annotations only**; the book is a copyrighted commercial work and stays out of version control | harvested 2026-09-20, one pass, complete | [sources/release-it-annotations.md](sources/release-it-annotations.md) | Production-readiness vocabulary; the operators-as-customers framing; the owner's own arguments about failure-mode testing, availability zones and toil. **Never quote the book from the harvest — only the owner's notes.** |
 
 ## Not under version control
 

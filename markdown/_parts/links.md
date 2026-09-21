@@ -86,3 +86,7 @@
 [orcanos]: https://web.archive.org/web/20260615050611/https://www.orcanos.com/ "Orcanos eQMS and ALM for medical devices"
 [cpsc_recall]: https://web.archive.org/web/20260517183859/https://www.cpsc.gov/Recalls/2019/GreatCall-Recalls-Lively-Mobile-Plus-Emergency-Alert-Device-Due-to-Risk-of-Call-Button-Failing-in-an-Emergency-Recall-Alert "CPSC Recall 19-775: GreatCall recalls Lively Mobile Plus emergency alert device (August 30, 2019)"
 [boost_asio]: https://web.archive.org/web/https://www.boost.org/doc/libs/1_67_0/doc/html/boost_asio.html "Boost.Asio (Boost 1.67)"
+[stevens_unp]: https://web.archive.org/web/20251204015305/https://en.wikipedia.org/wiki/UNIX_Network_Programming "W. Richard Stevens, UNIX Network Programming, Volume 1: The Sockets Networking API"
+[rule11]: https://web.archive.org/web/20260828035729/https://rule11.tech/ "Rule 11 Reader — Russ White's technical blog"
+[lcm_proj]: https://web.archive.org/web/20260503193538/https://github.com/lcm-proj/lcm "LCM — Lightweight Communications and Marshalling"
+[release_it]: https://web.archive.org/web/20260919013804/https://pragprog.com/titles/mnee2/release-it-second-edition/ "Michael T. Nygard, Release It! Design and Deploy Production-Ready Software, 2nd Edition"

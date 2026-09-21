@@ -12,6 +12,7 @@
 | State machines, and the codebase whose authors are gone | [state-machines](state-machines.md) | 3 planned (S1–S3), none drafted | Legacy code and technical debt; saying no to ad hoc complexity; mentoring and raising the bar; C++ state-machine design |
 | Concurrency, and the bugs that vanish when observed | [concurrency](concurrency.md) | 3 planned, 2 drafted (C1, C2); C3 needs dating | Low-level concurrency and systems roles; "hardest bug"; vendor and manufacturer code review; what you read and how you keep sharp; toolchain and modernization judgement |
 | Stewardship, and eliminating toil | [stewardship](stewardship.md) | 4 planned, 1 drafted (ST1) | "What do you stand for?"; governance, security and data-ownership conversations; acquisitions, migrations and continuity; automation and toil |
+| Design for production, and the people who carry the pager | [production-readiness](production-readiness.md) | 4 planned (PR1–PR4), none drafted | Operations, SRE, platform and network organizations; "how do you think about monitoring?"; reliability and on-call conversations; cost of operation with an executive audience; testing philosophy |
 | Salford Systems, and machine learning before it was fashionable | [salford](salford.md) | 4 planned, 1 drafted (SF1) | Depth in someone else's discipline; data, statistics and ML-adjacent roles; pharma and clinical data; client-facing delivery; long tenure; outsourced teams |
 
 ## Clusters to come
@@ -19,7 +20,6 @@
 Seeded by the coverage threads, each of which already has entries to draw on — see [coverage.md](../resume/coverage.md):
 
 - **Crisis** — the August 2019 CPSC recall and relaunch (`CRISIS`).
-- **Fleet observability** — from "can we observe this fleet?" to a monitor portfolio (`OBS`).
 - **The manufacturer boundary** — specifications, the ODM transition, the FOTA escalation, hardware/software cadence (`MFG`).
 - **Fall detection** — the feature the product is chosen for (`FALL`).
 - **Regulated medical devices** — Hospital at Home (`MED`).

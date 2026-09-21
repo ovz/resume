@@ -58,8 +58,11 @@ Director of Data Governance, Best Buy Health. Collaborator on the AI-enabled dat
 
 Senior Director, Networking, in Best Buy's Digital and Technology organization (DAT — where Best Buy's engineers sit). The owner's mentor for over a year and counting: always helpful, always curious how Health is doing, and the person who taught him most about navigating the wider enterprise. Tim's view is that the owner is **overdue for the Staff Engineer pay grade**, as many engineers in Tim's own team and across DAT are. The owner brings him career questions he cannot take to his reporting line — how to get closer to profit-generating work, how to handle the uncertainty of a possible pivot from building devices, and his goal of the official Principal Engineer pay grade before fifty.
 
-- Evidenced in: leadership-board one-on-one lists with him, 2025–2026; [career repositories](../workflows/career-repositories.md) for the goal he advises on
+He is also, incidentally, the reason the owner's networking thread stayed warm. Tim told him **a lot of war stories about networking at Best Buy**, and they landed on someone who had built a TCP/IP daemon from scratch and owns the device side of a cellular transport — so a mentorship about career trajectory acquired a technical dimension nobody planned. The owner's own note on it: the stories confirmed him as a die-hard fan of **Russ White**, and Tim's advice and inspiration are half of why he now wants a networking specialization rather than being content to keep networking as a side initiative.
+
+- Evidenced in: leadership-board one-on-one lists with him, 2025–2026; [career repositories](../workflows/career-repositories.md) for the goal he advises on; [2026-09-20 network programming foundations](../../raw/brag/2026-09-20-network-programming-foundations-and-mentors.md) for the networking half
 - **Reference potential: strong** for growth, engineering judgement and trajectory, from outside the reporting line. Title stated by the owner 2026-09-14.
+- **The war stories are his, not the owner's.** Nothing from them is a claim of the owner's experience and none of it reaches an outward document.
 
 ### Lindsay Stocks
 
@@ -137,7 +140,9 @@ Co-founder and COO of **Akvelon** (Bellevue, Washington; earlier an engineer and
 
 **Mykhaylo Golovnya is "Mikhail" and "Misha" in the mail** — the same listed reference. He led the NCS-R engagement for a pharmaceutical client in 2010, with the owner doing the SAS data preparation, and was on the CloudSML weekly check-ins in 2017.
 
-- Evidenced in: [2010-05-01 NCS-R SAS data preparation](../../raw/brag/2010-05-01-ncs-r-sas-data-preparation-pharma-client.md), [2015-01-01 Mirabit staffing](../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md)
+**He is also the person who brought the owner W. Richard Stevens' *UNIX Network Programming*** on a visit to Ukraine, where the owner was working as a Salford contractor. The owner read it and built the 2004–2005 TCP/IP daemon on it, and still calls it the bible of network programming. The visit is undated in the record; only "before the daemon" is established. A small act, and it is upstream of an entire twenty-year capability — worth remembering if a reference conversation with him ever happens.
+
+- Evidenced in: [2010-05-01 NCS-R SAS data preparation](../../raw/brag/2010-05-01-ncs-r-sas-data-preparation-pharma-client.md), [2015-01-01 Mirabit staffing](../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md), [2026-09-20 network programming foundations](../../raw/brag/2026-09-20-network-programming-foundations-and-mentors.md)
 
 #### Illia Polosukhin — high-priority reference candidate
 
