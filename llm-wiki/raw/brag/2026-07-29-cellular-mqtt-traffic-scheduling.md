@@ -43,6 +43,12 @@ The work also consolidated shared sync configuration and carried enable/disable 
 
 I added and maintained unit-test expectations around those boundaries. Test source is evidence of the intended contract and my implementation work; this capture does not claim a fresh test run.
 
+### Named the change, and reconciled its configuration stories
+
+The merge is PR #220, titled around "keep-alive-only mode" and "major-sync optional-task gating" — the same distinction as the component-boundary work above, expressed at the ticket level for firmware and operations audiences who read PR descriptions rather than source. I wrote the PR description to say when and why to use keep-alive-only, how it interacts with major-sync tasks, and what safety and monitoring guarantees remain in each configuration, so a future engineer or operator can adjust the settings without re-deriving the design from source.
+
+Alongside the merge, I worked through a set of keep-alive configuration Jiras — reconciliation and in-home ('inside-home major sync') behavior tickets — that had accumulated inconsistent expectations about what "keep-alive-only" actually suppresses. That reconciliation work is the configuration-semantics half of this episode: making the settings mean one agreed thing across the tickets that referenced them, not a second independent feature. The inside-home major-sync ticket itself is part of the beacon-tracking add-on history, not a new claim here; see [beacon tracking](2023-11-27-r5-home-away-beacon-tracking.md) and its [2025-2026 add-on record](2026-09-01-r5-beacon-tracking-fota-persistence.md).
+
 ## MQTT mechanics I worked within
 
 The inherited messaging stack makes this more than a timer exercise:
@@ -103,7 +109,7 @@ MQTT application integration; event-driven C++ and executor boundaries; periodic
 
 ## Evidence
 
-- Owner-authored source changes dated May 13 and July 18-21, 2026; the keep-alive/beacon-tracking branch merge dated July 29.
+- Owner-authored source changes dated May 13 and July 18-21, 2026; the keep-alive/beacon-tracking branch merge dated July 29 as PR #220 ("keep-alive-only mode / major-sync optional-task gating"), with a PR description covering when to use the mode, its interaction with major sync, and the safety guarantees retained. A separately supplied draft cited July 15, 2026 as an "impact date" for the same PR; the July 29 date is the one grounded in direct source/merge inspection and is treated as authoritative here.
 - Current synchronization, platform network-query, MQTT and flush-tracking implementation; neighboring unit-test definitions for query suppression and resumption. Source identifiers and exact internal paths retained offline.
 - [Battery and power specialization](2021-10-16-battery-power-second-specialization.md): contemporaneous board-derived account of the engineering build, notebook, soak tests, regression and architecture concerns.
 - [Boost proficiency](2026-09-14-boost-library-proficiency.md): existing evidence for the event-driven architecture and cross-cutting-mode design concern.
@@ -129,3 +135,4 @@ This supports networked-device software engineering, not unearned claims of BGP/
 
 - 2026-09-19: Created as the detailed networking implementation episode related to the existing power-specialization record, using direct source/history inspection and the owner's networking-career request. Capture only; no synthesis, coverage or public resume promotion.
 - 2026-09-19: Expanded at the owner's request with continued operation under application TCP/IP failure, separate SMS location and command communication, recovery capabilities and explicit shared-dependency limits. This system-level experience is not recast as original SMS architecture authorship or a measured outcome of the scheduling change.
+- 2026-09-21: Updated from an owner-supplied structured brag draft describing the same PR under the working name "keep-alive-only mode & sync gating" (PR #220). Added the PR number, the PR-description documentation practice, and the keep-alive-configuration/in-home-behavior Jira reconciliation. The draft's operational-metrics claims (battery-life deltas, traffic-byte reductions, ticket-rate changes) are **pending** and not recorded as achieved impact, consistent with this entry's existing evidence limitations; no new measurement is added by this update. Session-wiki capture: `20260921_brag-keep-alive-only-mode-sync-gating.md`.
