@@ -62,7 +62,7 @@ The kind of work the owner keeps being drawn to, and now a resume bullet in its 
 
 **Entries:** [2024-05-08 component framework](../../../raw/brag/2024-05-08-ccf-capability-framework-lcm-open-source.md) · [2025-08-30 cross-platform SDK modularization](../../../raw/brag/2025-08-30-cross-platform-sdk-modularization-pers-devices.md) · [2025-01-16 phone capability SDK on R5 hardware](../../../raw/brag/2025-01-16-ccfphone-r5-device-lcm-odm-integration.md) · cross-listed: [2026-09-01 beacon FOTA persistence](../../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md) (claims tracked under POS)
 
-**Thread coverage: ≈ 13%** (4 of 32). `FW-20` to `FW-32` arrived 2026-09-19 from the two governing Confluence design specifications, which the owner supplied after the source study.
+**Thread coverage: ≈ 12%** (4 of 34). `FW-20` to `FW-32` arrived 2026-09-19 from the two governing Confluence design specifications, which the owner supplied after the source study. `FW-33` and `FW-34` arrived 2026-09-21 from the owner-supplied MPERS SDK Confluence draft rendering and are bounded to strategy and requirements rather than adoption.
 
 | Claim | Source | Status |
 |---|---|---|
@@ -98,6 +98,8 @@ The kind of work the owner keeps being drawn to, and now a resume bullet in its 
 | `FW-30` Ran a build-versus-buy evaluation against the commercial QP/C real-time embedded framework, pricing its licence plus team learning and a proof of concept, and built the hierarchical state machine in-house instead | 2024-05-08 | absent |
 | `FW-31` Made the case for the LCM messaging library over D-Bus marshaling — publish/subscribe, a robotics track record, recordable and replayable messages, portability without UDP — including rewriting existing Boost signal buses while preserving their nomenclature | 2024-05-08 | absent |
 | `FW-32` Specified an on-device integration-and-validation test executable so firmware could be validated automatically and manufacturer issues pinpointed | 2024-05-08 | absent |
+| `FW-33` Helped define reusable SDK requirements and platform-abstraction concepts intended to support current and future PERS wearable generations, including R6-class planning | 2025-08-30 | absent |
+| `FW-34` Framed common embedded services and shared SDK architecture as a way to reduce future platform-migration and maintenance risk rather than optimizing only for one product release | 2025-08-30 | absent |
 
 ---
 

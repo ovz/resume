@@ -50,6 +50,24 @@ The justification is experience rather than preference: integrating the Qualcomm
 
 **ODM context.** The document names the manufacturers this was written for — Wistron, Borqs and TCL — and Wistron as the one that implemented the R5 location service. Those names stay at T1; outward text says "a contract manufacturer".
 
+## Future-device strategy framing, 2026-09-21
+
+The owner supplied a second rendering grounded primarily in the internal MPERS SDK Confluence draft. It reframes the same SDK modularization work as a future-device platform strategy rather than only a current-product architecture pass. The supported claim is deliberately bounded: the material documents requirements, architectural patterns and platform-abstraction concepts intended to support future PERS device families, including R6-class planning; it does not prove that those future devices adopted the SDK or that migration cost was later measured.
+
+Within that boundary, the update adds three points to the record:
+
+- The SDK strategy was explicitly aimed at both current and future generations of wearable safety devices, not only the immediate R5 implementation.
+- The architecture emphasized reusable embedded services — SDK abstraction layers, state-machine architecture, platform services, reusable modules and shared framework components — as a way to reduce repeat redevelopment across hardware generations.
+- The platform value was future migration risk reduction: portability, minimized adaptation effort and requirements intended to survive hardware transitions.
+
+### Owner-supplied performance-review version
+
+Helped define a future-device strategy for the MPERS software platform by contributing to reusable SDK requirements, platform-abstraction concepts, and architectural guidance intended to support multiple generations of wearable safety devices while reducing future migration and maintenance effort.
+
+### Owner-supplied concise brag-file version
+
+Contributed to the long-term MPERS platform strategy by helping define portable SDK requirements and reusable architecture concepts intended to support future generations of wearable devices while reducing platform-migration effort and increasing software reuse.
+
 ## Why it matters
 
 The architecture makes new-device integration a thinner adapter exercise rather than a fresh implementation of each capability, reducing duplication and inconsistency across PERS devices. Shared fixes and enhancements can benefit every consumer of a core library, while stable boundaries make the SDK easier for engineers and vendors to understand and extend. The requirements and modular structure also created the foundation for later component-framework and lifecycle-management work.
@@ -64,11 +82,15 @@ Internal requirements and architectural design materials for SDK C libraries; so
 
 The governing specification itself was supplied by the owner on 2026-09-19 as a rendered copy of the internal Confluence page *Requirements for SDK C Libraries for PERS devices*, and is the source for the section above. Its internal wiki, repository and board URLs are deliberately not reproduced here.
 
+On 2026-09-21 the owner supplied a second accomplishment rendering grounded primarily in the internal *MPERS SDK Confluence Draft* document. Its internal document link is deliberately not reproduced here. The rendering is preserved in the maintainer scratch raw capture and distilled above at private-repo level.
+
 ## Evidence limitations
 
 The technical requirements and architectural intent are documented, and the code structure reflects the stated separation. Adoption and efficiency data — reduced onboarding time, number of SKUs sharing components, and defect reduction from shared fixes — were not systematically captured in the supplied note. The entry therefore does not claim measured time-to-market improvement, a specific number of onboarded SKUs, or quantified defect reduction.
 
 **The specification is a design document, and much of it is written in the imperative future** — "shall be", "could provide", "is expected to". It establishes what was decided and required, not what was subsequently built or adopted. The reusable location-fix predicate, the shared repository template and the utility-library split are proposals in this document; only some of them are corroborated as built by the retained source trees. **Authorship is not separately attested**: the document is a team Confluence page, its content matches the owner's account and his adjacent authored work, and no contradicting evidence was found — but no byline is reproduced in the supplied copy.
+
+The 2026-09-21 update is likewise bounded to the MPERS SDK draft. It supports future-device strategy, portability intent and reusable-architecture planning; it does not establish a shipped R6-class SDK, a completed migration, adoption across multiple later device generations, or measured maintenance savings.
 
 ## What was blocked, cut short, or wrong
 
@@ -84,3 +106,4 @@ No blocker or failed approach was supplied. The expected benefits are recorded a
 
 - 2026-09-19: created from an owner-supplied accomplishment note dated 2025-08-30.
 - 2026-09-19: added *From the specification itself* after the owner supplied the governing Confluence requirements page — the code-injection strategy, the asymmetric static/dynamic policy and its Skyhook grounding, public/private header separation, the reusable location-fix-quality example, and the ANSI C portability rules. Evidence limitations extended to separate what the document decided from what was built.
+- 2026-09-21: added future-device platform-strategy framing from the owner-supplied MPERS SDK Confluence draft rendering, preserving the performance-review and concise versions while bounding the claim to documented strategy rather than adoption or measured savings.
