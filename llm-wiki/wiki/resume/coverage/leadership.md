@@ -39,9 +39,9 @@
 
 ### QA — Test automation and environment diagnosis
 
-**Entries:** [2024-12-31 device test automation](../../../raw/brag/2024-12-31-device-test-automation-robot-framework.md)
+**Entries:** [2024-12-31 device test automation](../../../raw/brag/2024-12-31-device-test-automation-robot-framework.md) · [2024-01-01 R5 CI stability and monitoring hygiene](../../../raw/brag/2024-01-01-r5-ci-test-stability-monitoring-hygiene.md) · [2026-05-02 cross-repo device unit-testing practice](../../../raw/brag/2026-05-02-device-unit-testing-practice-across-repositories.md)
 
-**Thread coverage: 0%** (0 of 7)
+**Thread coverage: 0%** (0 of 23)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -52,6 +52,22 @@
 | `QA-5` Introduced pull-request discipline to the engineers he mentored — a practice that outlives the framework it arrived with | 2024-12-31 | absent |
 | `QA-6` Pushed back on making unit-test coverage an externally observed metric, on the ground that it removes unit tests from an engineer's own toolbox | 2024-12-31 | absent |
 | `QA-7` Names the limit of AI-assisted mentorship: prompt engineering is easy to learn and easy to master, while building good software is multi-dimensional | 2024-12-31 | absent |
+| `QA-8` Investigated long-standing intermittent failures in the R5 firmware-core test suite that appeared sporadically in GitHub Actions | 2024-01-01 | absent |
+| `QA-9` Replaced brittle sleep assumptions with explicit synchronization and deterministic conditions, while tuning timeouts and retries without masking failures | 2024-01-01 | absent |
+| `QA-10` Isolated Ubuntu-runner, locale/timezone and filesystem-timing causes and updated tests or helpers for consistent cross-environment behaviour | 2024-01-01 | absent |
+| `QA-11` Reduced CI log and monitoring noise by tightening logging and removing repeated warnings for benign expected conditions | 2024-01-01 | absent |
+| `QA-12` Reviewed GitHub Actions ordering, job isolation and retry policy so failures were more actionable and state did not leak between runs | 2024-01-01 | absent |
+| `QA-13` Re-established CI as a trusted gate without weakening test coverage or suppressing real alerts; the outcome is owner-reported and not yet supported by before-and-after metrics | 2024-01-01 | absent |
+| `QA-14` Used behavioural unit tests as executable specifications for embedded-device state transitions and user-visible signals | 2024-01-01 | absent |
+| `QA-15` Built shared fixtures, working-directory validation and sandbox setup for database, filesystem, migration-path and runtime dependencies to reduce environment-sensitive failures | 2024-01-01 | absent |
+| `QA-16` Quarantined or disabled tests explicitly identified as brittle in the Ubuntu Docker path, preserving CI signal instead of normalizing random red builds | 2024-01-01 | absent |
+| `QA-17` Made real SQLite state-database tests reliable through shared setup and teardown of database files and migration scripts | 2024-01-01 | absent |
+| `QA-18` Added repeat-run stress scripts to surface intermittent unit-test failures deliberately, with per-suite pass/fail summaries and logs | 2024-01-01 | absent |
+| `QA-19` Made the older device core's unit tests run in a devcontainer, addressing timeouts, platform-condition differences and environment-specific assertions | 2026-05-02 | absent |
+| `QA-20` Proved a reusable package template could pull in gtest and exercise both static and dynamic consumers through tests | 2026-05-02 | absent |
+| `QA-21` Carried gtest execution and CI artifact discipline into the sensor co-processor firmware support surface | 2026-05-02 | absent |
+| `QA-22` Built broad Kotlin unit-test coverage for smartwatch proof-of-concept domain logic across feature flags, permissions, fall detection, complications, medication, vitals, navigation and view-model behaviours | 2026-05-02 | absent |
+| `QA-23` Kept the same testing judgement across repositories: unit-test deterministic logic and contract boundaries, but do not pretend unreliable external environments are stable dependencies | 2026-05-02 | absent |
 
 > **Re-ingested 2026-09-13 after the owner reframed the entry.** The framework was mastered in days and was never the accomplishment; the mentorship under a mandate is. `QA-4` and `QA-6` are the principal-level claims here and belong with `LEAD` in any promotion pass — `QA-6` in particular is a refusal argued on engineering grounds, which is the same behaviour as the launch-readiness challenge in `RSK`. The entry stays `resume-worthy: maybe`; that judgement is the owner's and the reframing may change it.
 
