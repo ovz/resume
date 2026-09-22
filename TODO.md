@@ -8,6 +8,7 @@
 
 > Agent traces: each line is a session-wiki tracker that holds items **for you** — commit guides to land, decisions, checks. The paths are this workstation's scratch. This is your scratch file: delete a line whenever you like; an agent re-adds a trace only when new owner items appear.
 
+- `__untracked_stuff/llm-wiki-maintenance/tasks/assignment_tracker.md` - risk-track and Engineering Manager review, proposals 021-022, and report-attribution questions; four-format build verified.
 - `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
 - `__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md` — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
 - `__untracked_stuff/2026-09-20-networking-resume-variant/tasks/assignment_tracker.md` — networking resume plus the Release It! ingest; build clean. Land 035 then 036 — **036 is what makes the tree build again, since your 6efb590 committed the resume without the link keys it uses**. Then read the rendered PDF and confirm the "never specialized, and that is an advantage" paragraph says what you meant

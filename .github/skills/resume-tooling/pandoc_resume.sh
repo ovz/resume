@@ -243,13 +243,20 @@ build_pdf() {
 # which surfaces as "cannot find context.lua". `mtxrun --generate` is the
 # documented fix, so retry once through it before giving up.
 run_context() {
-  local name="$1" log="context_$1.log"
-  if "${mtxrun_bin}" --script context --nonstopmode --result="${name}.pdf" "${name}.tex" >"${log}" 2>&1; then
-    return 0
+  local name="$1" log="$PWD/context_$1.log" job_dir
+  job_dir="$(mktemp -d "$PWD/.context-XXXXXX")" || return 1
+  cp "${name}.tex" "${job_dir}/resume.tex" || return 1
+  if [ -d "$PWD/assets" ]; then
+    ln -s "$PWD/assets" "${job_dir}/assets" || return 1
   fi
-  note "ConTeXt run failed; regenerating the file database and retrying"
-  "${mtxrun_bin}" --generate >>"${log}" 2>&1 || true
-  "${mtxrun_bin}" --script context --nonstopmode --result="${name}.pdf" "${name}.tex" >>"${log}" 2>&1
+  if ! ( cd "${job_dir}" && "${mtxrun_bin}" --script context --nonstopmode resume.tex ) >"${log}" 2>&1; then
+    note "ConTeXt run failed; regenerating the file database and retrying"
+    "${mtxrun_bin}" --generate >>"${log}" 2>&1 || true
+    ( cd "${job_dir}" && "${mtxrun_bin}" --script context --nonstopmode resume.tex ) >>"${log}" 2>&1 || return 1
+  fi
+  [ -s "${job_dir}/resume.pdf" ] || return 1
+  cp "${job_dir}/resume.pdf" "${name}.pdf" || return 1
+  rm -rf "${job_dir}"
 }
 
 # The portrait PNG is the artifact most likely to go missing, because every

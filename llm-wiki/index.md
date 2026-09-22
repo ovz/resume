@@ -41,6 +41,7 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 
 ## Career synthesis
 
+- [Risk engineering track record](wiki/concepts/risk-engineering-track-record.md) - *reference.* Three evidence-bounded telling angles connecting Data Security, practical controls and engineering leadership. **Load when** preparing Risk Engineer or Engineering Manager positioning; risk is a capability track, not a dream-job direction.
 - [Accomplishments by domain](wiki/concepts/accomplishments-by-domain.md) — *reference.* Headline accomplishments per domain with citations; the landing page for ingested brag entries and the pool the resume draws from. **Load when** drafting resume text or ingesting a brag entry.
 - [Four problems, four solutions](wiki/concepts/four-problems.md) — *explanation.* Each domain read as the short list of problems anything in it must solve, with the record's answer to each; Russ White's model for networking, this repository's derivation elsewhere. **Load when** rehearsing for a domain conversation, or when a story or resume line needs a domain's shape rather than its inventory.
 - [Skills matrix](wiki/concepts/skills-matrix.md) — *reference.* Skill × years baseline (~2020) plus deltas evidenced since. **Load when** checking keyword coverage or re-aging skills.
@@ -66,6 +67,7 @@ The hub above is the entry point; these are its candidate pages. ★ = the owner
 
 ## Source summaries (one per document)
 
+- [Engineering Manager resume](wiki/sources/resume-engineering-manager.md) - *reference.* The single management variant, its claim provenance and scope boundaries. **Load when** refreshing the management document or checking variant-only promotions.
 - [Achievements resume — PRIMARY](wiki/sources/resume-achievements.md) — structure map with line numbers, unique claims, known defects. **Load when** planning an edit pass.
 - [Long-form resume (archived)](wiki/sources/resume-full.md) — harvest map of ~20 project sections not yet synthesized. **Load when** you need depth on any pre-2018 project.
 - [Resume overview (archived)](wiki/sources/resume-overview.md) — nothing left to harvest. Load only for provenance.

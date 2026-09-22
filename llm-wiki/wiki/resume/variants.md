@@ -27,6 +27,7 @@ The assessment is an input, not a source of claims: nothing on it enters a resum
 | — | `Oleg.Zhylin.resume.embedded.md` | Principal Engineer, C++/Rust, embedded, owning operational excellence | live (Tier 1) |
 | — | [`Oleg.Zhylin.resume.networking.md`](../../../markdown/Oleg.Zhylin.resume.networking.md) | Network software engineer — device-side transport, cellular, fleet telemetry | live (Tier 2), 2026-09-20 |
 | **1** | `Oleg.Zhylin.resume.data-ai.md` | Data Engineer for AI / ML / Data Science enablement | planned (Tier 3) |
+| Owner-requested | [`Oleg.Zhylin.resume.engineering-manager.md`](../../../markdown/Oleg.Zhylin.resume.engineering-manager.md) | Engineering Manager with hands-on technical depth and risk-informed delivery | live; one management variant |
 
 A variant that is retired leaves this table for [archive-source](../workflows/archive-source.md). The primary is always the safe default when a posting's centre of gravity is unclear ([choosing a variant](update-workflow.md#choosing-a-variant-to-submit)).
 
@@ -78,6 +79,16 @@ Each brief is the loading list for one variant. When drafting, open this section
 - **Keywords the assessment saw recurring:** Data Engineering, Telemetry Pipelines, Data Quality, Instrumentation, Analytics Infrastructure, AI Enablement.
 - **Framing the assessment got right and the variant must keep:** the owner is usually *not* the data scientist; he is the engineer the data scientist depends on. Say so plainly — it is the honest and the more marketable claim.
 - **What it must not become:** "Observability Engineer" (the assessment's explicit exclusion) or a generic "Data Engineer" with a Spark/Airflow keyword list the record does not support. The [data shard](coverage/data.md) is 3/16 covered on the primary; expect this variant to promote more new claims than the networking one.
+
+### Engineering Manager - Live
+
+- **Document and provenance:** [management resume](../../../markdown/Oleg.Zhylin.resume.engineering-manager.md), [source and claim map](../sources/resume-engineering-manager.md). Variant-only promotions do not change primary coverage.
+- **Centre of gravity:** distributed-team delivery, coaching and quality, architecture judgement and cross-functional risk decisions. Retain the hands-on security-trained engineer; do not turn the voice into a generic management profile.
+- **Owner's direction, 2026-09-22:** one Engineering Manager variant is sufficient across prospective career directions. Risk Engineer is a capability track, explicitly not a dream job. This does not change the existing Data Engineer for AI priority or create a Risk Engineer resume.
+- **Loading list:** [risk-engineering track record](../concepts/risk-engineering-track-record.md); [domain synthesis](../concepts/accomplishments-by-domain.md) sections *Leadership, management, hiring*, *Risk management and compliance*, *Quality and test automation*, *Security, cryptography, licensing*; `LEAD`, `QA`, `RSK`, `STEW` in [leadership coverage](coverage/leadership.md). Established delivery and team scale come from the [primary resume](../../../markdown/Oleg.Zhylin.resume.achievements.md).
+- **Draws on:** [2023 risk-practice analysis](../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md), [patch SOP](../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md), [readiness challenge](../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md), [test-automation mentorship](../../raw/brag/2024-12-31-device-test-automation-robot-framework.md), [quality-work triage](../../raw/brag/2021-06-29-engineering-excellency-and-meeting-facilitation.md), [data-governance framework](../../raw/brag/2025-11-13-column-mapping-framework-alation-data-governance.md), [firmware escalation](../../raw/brag/2025-07-18-fota-vendor-escalation-lively-mobile2.md).
+- **Boundaries:** historical titles unchanged; teams up to 15 is not a claim of 15 direct reports. No invented budget, hiring volume, performance-review authority, current formal manager role or enterprise risk ownership. The report's retail experiments, data migration and recovery-plan claims stay out pending attribution. No "process wars" language outward.
+- **Career continuity:** the earlier [Staff Engineer positioning](../../raw/brag/2025-04-01-staff-engineer-behaviors-principal-positioning.md) records reservations about a management track. Preserve that historical view; the owner's newer request authorizes a management variant, not a rewrite claiming management was always the goal.
 
 ## Maintenance
 

@@ -186,7 +186,8 @@ four half-views. The domain read as a problem space rather than an inventory:
 
 ## Risk management and compliance
 
-- Early analysis of the Quality organization's Risk Management practice: found planning limited to one line of business and largely qualitative; proposed risk appetite as the foundation for a unified, quantitatively-informed, org-wide approach and clearer risk-category naming (2023). [2023-08-03-risk-management-practice-early-analysis](../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md)
+- Early analysis of the Quality organization's Risk Management practice: found planning limited to one line of business and little probability quantification; proposed risk appetite, alignment with product-development practice and clearer risk-category naming (2023). The original note records analysis and intended contributions, not adoption of an enterprise framework. [2023-08-03-risk-management-practice-early-analysis](../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md)
+- **Risk Engineer capability, not a dream-job direction:** the [risk-engineering track record](risk-engineering-track-record.md) connects the Data Security foundation to risk-practice analysis, patch controls, launch-readiness judgement and data stewardship. It supplies three evidence-bounded telling angles and their Engineering Manager relevance without attributing the retrospective report's unverified initiatives to the owner.
 - Qualified into a medical-device quality management system — design control, CAPA, supplier quality, product release — and works under FDA, EU and Australian regulatory process and a full ISO-style information-security policy set. [2024-09-24-current-health-hospital-at-home-qms](../../raw/brag/2024-09-24-current-health-hospital-at-home-qms.md)
 
 ## Security, cryptography, licensing

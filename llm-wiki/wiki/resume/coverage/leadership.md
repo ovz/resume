@@ -98,6 +98,8 @@
 
 > `RSK-12` was struck on 2026-09-20. It was created the previous day from an inference that "infosec applicability" referred to the device SDK's hardening; the owner's own meeting invitation shows the talk was about the Column Mapping Framework. The underlying fact survives as `RSK-13` and `RSK-14`, sourced to the right entry.
 
+> **Risk-practice evidence boundary:** `RSK-1` and `RSK-2` describe the dated analysis and proposal, not rollout or adoption. Re-reading the original note corroborates the intended alignment with product-development practice and the disposition vocabulary; it does not substantiate the later report's initiative authorship or impact. Those claims remain leads in the entry rather than new promotable assertions. The [risk-engineering track record](../../concepts/risk-engineering-track-record.md) maps the three telling angles to existing claims without double counting. A management-variant promotion does not change these primary-resume statuses.
+
 ---
 
 ### STEW — Stewardship as a first principle
