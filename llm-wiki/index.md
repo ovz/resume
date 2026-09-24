@@ -8,83 +8,16 @@ Navigation for the synthesized resume knowledge base. Source files remain author
 - [Career overview](wiki/overview.md) — *explanation.* The arc in four chapters and what makes it distinctive. **Load when** you need the story before anything else.
 - [Source map](wiki/sources.md) — *reference.* Every source document, its tier, disposition, and summary page. **Load when** about to cite or edit any source.
 
-## Primary resume (always-on shard for resume work)
+## Topics
 
-- [Primary resume — structure, cut points, editing rules](wiki/resume/primary-resume.md) — *reference.* What the public resume is, the half-page / one-page / two-page cut principle, section and style conventions. **Load before any edit to `markdown/Oleg.Zhylin.resume.achievements.md`.**
-- [Link conventions](wiki/resume/link-conventions.md) — *reference.* Wayback Machine snapshots as the default hyperlink; URL forms, key naming, observed inconsistencies. **Load when** adding or touching any link in an outward-facing document.
-- [Update the outward-facing resume](wiki/resume/update-workflow.md) — *how-to.* The deliberate edit pass: draft, place at the right depth, link-check, sensitivity-check, render, lint, hand off. **Load when** asked to refine/improve/update the resume or produce a tailored variant.
-- [Tailored resume variants](wiki/resume/variants.md) — *reference.* Which variants exist and are planned (networking first, Data Engineer for AI second), how they relate, and the loading list — threads, entries, stories, dream-job candidates — for each. **Load when** choosing a resume to send, or drafting or refreshing a variant; then load only the shards its brief names.
-- [Resume coverage map](wiki/resume/coverage.md) — *reference.* Aggregate totals and routing to six subject shards; each thread's claims have one home. **Load when** deciding what a resume pass should cover, or after ingesting or promoting anything; then load only the relevant shard.
-- [Coverage editorial guidance](wiki/resume/coverage/editorial.md) — *explanation.* Evidence strength, promotion trade-offs and unresolved editorial choices. **Load when** deciding how to use a gap, not merely locating or counting claims.
-- [Coverage history](wiki/resume/coverage-history.md) — *explanation.* Why the coverage figure moved as it did, and what each past pass promoted, thread by thread. **Load when** a figure looks surprising, or when tracing which resume section a claim landed in.
+Read the shard for the task at hand; each lists its pages with a *load when* hint. A new page goes into its shard, and this table gains a row only for a new topic.
 
-## Workflows
-
-- **[Voice and prominence](wiki/workflows/voice-and-prominence.md)** — *reference.* The storytelling pillar: one voice across five era registers, role-play as the mode, prominence that follows evidence rather than stated impact, and how to talk honestly about work that was blocked or never shipped. **Load before** writing any story, resume line, LinkedIn block or reading list.
-- [Resume Brag File — capture and ingest](wiki/workflows/brag-file.md) — *how-to.* Capture the input verbatim, write or enrich the entry in `raw/brag/`, then fold entries into the wiki and the coverage map later. **Load when** the owner says "add this to my brag file", supplies material in any form, or asks to ingest brag entries.
-- [Publish the resume to LinkedIn](wiki/workflows/linkedin-publish.md) — *how-to.* Why there is no API path, the paste round and its committed record of what has actually been pasted, keyring credentials with an encrypted backup bundle, and the supported announce-post. **Load when** asked to update or sync the profile, or whether the LinkedIn update can be automated.
-- [Brag stories — graduating entries, and reading lists](wiki/workflows/brag-stories.md) — *how-to.* The third stage after capture and ingest: structure before narrative, a rehearsable telling, and reading lists for an interview, event or employer. **Load when** writing a story or preparing for a conversation.
-- [Story map](wiki/stories/story-map.md) — *reference.* Every story cluster, its hub, and when to reach for it.
-- [Positioning, location and GPS](wiki/stories/positioning.md) — *reference.* The first cluster hub.
-- [State machines, and the codebase whose authors are gone](wiki/stories/state-machines.md) — *reference.* Cluster hub, stories planned: the keep-alive build, MCU Fatal UI, and Boost MSM stewardship. Related to positioning, not conflated with it.
-- [Concurrency, and the bugs that vanish when observed](wiki/stories/concurrency.md) — *reference.* Cluster hub: the 2005 TCP/IP daemon that bought the reflexes, the audio artifact never witnessed, the manufacturer's code read closely enough to correct, and the abstractions from Boost.Asio to C++ coroutines.
-- [Stewardship, and eliminating toil](wiki/stories/stewardship.md) — *reference.* Cluster hub: custody through an acquisition, the Data Steward role, security patching, and holding a bar the designated owner would not. Stewardship is the why, eliminating toil is the how.
-- [Design for production, and the people who carry the pager](wiki/stories/production-readiness.md) — *reference.* Cluster hub: the agentless evidence layer, the cellular-cost threshold agreed before an incident, owning a monitor portfolio as a product, and the argument that error branches belong in unit tests. The through-line is that the customer is the operator.
-- [Salford Systems, and machine learning before it was fashionable](wiki/stories/salford.md) — *reference.* Cluster hub: debugging the numerical engines in Fortran, SAS learned for a pharmaceutical client, a Brazilian retailer's weekly flyer, and two outsourcing vendors at once.
-- [Can LinkedIn be updated programmatically? The evidence](wiki/analysis/linkedin-api-access.md) — *explanation.* Every source behind that verdict, with live links, Wayback snapshots, immutable git pins and verbatim quotations, read 2026-09-10. **Load when** someone proposes automating the profile, or when re-checking whether LinkedIn has opened a write path.
-- [Archived: the LinkedIn credential tool](wiki/sources/archived-linkedin-secrets-tool.md) — *reference.* Keyring storage and an encrypted backup bundle, built and then archived unused. **Load when** writing any credential handling for this repo, or wondering why that script is not in the working set.
-- [Archive a superseded source](wiki/workflows/archive-source.md) — *how-to.* Move a retired `markdown/` document into `raw/archive/` with a summary page. **Load when** a document stops being outward-facing.
-- [The Obsidian vault: where to dump, where to look](wiki/workflows/obsidian-vault.md) — *how-to.* The capture loop, the graph colour legend, entry properties, and the filters that answer "what do I already have on this?". **Load when** changing `.obsidian/` or the brag entry schema.
-- [Sensitivity tiers](wiki/workflows/sensitivity-tiers.md) — *reference.* T0 public / T1 private repo / T2 never committed; promotion is a rewrite. **Load when** deciding whether something may be written down, or before promoting brag content.
-- [Large imports](wiki/workflows/large-imports.md) — *how-to.* Preserving a source too large to commit as-is: uncompressed working copy in scratch, compressed and checksummed archive committed. **Load when** an export or dump needs archiving, or when adding a later snapshot of one.
-- [Career repositories](wiki/workflows/career-repositories.md) — *reference.* This repository holds the past; job-search-infra the search; cpp_edu the C++ practice; Claude Cowork the glue. How scopes, trackers and `TODO.md` traces work across them. **Load when** work crosses a repository boundary or touches the next ten-year stage.
-
-## Career synthesis
-
-- [Risk engineering track record](wiki/concepts/risk-engineering-track-record.md) - *reference.* Three evidence-bounded telling angles connecting Data Security, practical controls and engineering leadership. **Load when** preparing Risk Engineer or Engineering Manager positioning; risk is a capability track, not a dream-job direction.
-- [Accomplishments by domain](wiki/concepts/accomplishments-by-domain.md) — *reference.* Headline accomplishments per domain with citations; the landing page for ingested brag entries and the pool the resume draws from. **Load when** drafting resume text or ingesting a brag entry.
-- [Four problems, four solutions](wiki/concepts/four-problems.md) — *explanation.* Each domain read as the short list of problems anything in it must solve, with the record's answer to each; Russ White's model for networking, this repository's derivation elsewhere. **Load when** rehearsing for a domain conversation, or when a story or resume line needs a domain's shape rather than its inventory.
-- [Skills matrix](wiki/concepts/skills-matrix.md) — *reference.* Skill × years baseline (~2020) plus deltas evidenced since. **Load when** checking keyword coverage or re-aging skills.
-- [Technical themes](wiki/concepts/technical-themes.md) — *explanation.* Capabilities that recur across decades. **Load when** writing summary-level prose.
-- [Oleg Zhylin](wiki/entities/oleg-zhylin.md) — *reference.* Profile, what he is looking for, working identity, background. **Load when** the question is about the person rather than a project.
-- [Organizations](wiki/entities/organizations.md) — *reference.* Best Buy Health/GreatCall, Minitab, Salford Systems, IIT, education institutions. **Load when** the question is scoped to an employer or period.
-- [Professional contacts](wiki/entities/professional-contacts.md) — *reference.* The working roster: who, role, period, and reference availability — never contact details; relationship narrative lives with the work it describes. **Load when** asking for a reference, updating the references document, or recording a collaborator named in a brag entry.
-
-## Dream jobs
-
-The hub above is the entry point; these are its candidate pages. ★ = the owner's own idea, ○ = agent-suggested. Each carries the fit, the gap, the vocabulary to foreground, and the stories to tell for it.
-
-- ★ [Database internals in C++ or Rust](wiki/dream-jobs/database-internals.md) · ★ [Next-generation AI sensor fusion](wiki/dream-jobs/ai-sensor-fusion.md)
-- ○ [Resilient and assured PNT](wiki/dream-jobs/resilient-pnt.md) · ○ [Agentic engineering platform](wiki/dream-jobs/agentic-engineering-platform.md) · ○ [Connected-device fleet reliability and cost](wiki/dream-jobs/device-fleet-reliability.md) · ○ [Regulated medical device software](wiki/dream-jobs/regulated-medical-software.md)
-- ○ [Telemetry and time-series engine internals](wiki/dream-jobs/telemetry-engines.md) — the bridge candidate · ○ [Rust in safety-critical embedded](wiki/dream-jobs/rust-safety-critical.md) · ○ [Edge AI on constrained wearables](wiki/dream-jobs/edge-ai-wearables.md)
-
-## Analysis
-
-- [Best Buy Health 2024–2026: the divestiture on the public record](wiki/analysis/employers/best-buy-health/2026-09-10-best-buy-health-2024-2026-divestiture-public-record.md) — *explanation.* The disclosed impairments, restructuring and divestiture 2024–2026, correlated with the owner's contemporaneous notes, plus how to use it in an interview. **Load when** preparing to explain the Best Buy Health years, or writing anything that touches that period.
-- [Emerging and established specializations, 2026-09-13](wiki/analysis/2026-09-13-specializations-landscape.md) — *explanation.* Market evidence behind every dream-job candidate, with the quotations committed and each source marked read-directly or search-summary. **Load when** weighing a direction, or re-checking whether a candidate has aged well.
-- [LinkedIn profile visibility, 2026-09-14](wiki/analysis/2026-09-14-linkedin-profile-visibility.md) — *explanation.* What LinkedIn's own engineering and help pages say gets a profile found by recruiters, which popular claims are unsourced, and the update cadence that follows. **Load when** deciding whether or how often to touch the profile.
-- [Executive language glossary](wiki/analysis/executive-language-glossary.md) — *reference.* Impairment, restructuring charge, reporting unit, fiscal year, ODM, white label, modularity. **Load when** reading or writing about an employer's public record.
-
-## Source summaries (one per document)
-
-- [Engineering Manager resume](wiki/sources/resume-engineering-manager.md) - *reference.* The single management variant, its claim provenance and scope boundaries. **Load when** refreshing the management document or checking variant-only promotions.
-- [Achievements resume — PRIMARY](wiki/sources/resume-achievements.md) — structure map with line numbers, unique claims, known defects. **Load when** planning an edit pass.
-- [Long-form resume (archived)](wiki/sources/resume-full.md) — harvest map of ~20 project sections not yet synthesized. **Load when** you need depth on any pre-2018 project.
-- [Resume overview (archived)](wiki/sources/resume-overview.md) — nothing left to harvest. Load only for provenance.
-- [Skills and responsibilities (archived)](wiki/sources/skills-and-responsibilities.md) — table carried to the skills matrix; GreatCall responsibilities. Load for provenance.
-- [Professional references](wiki/sources/professional-references.md) — who is listed, relationship, period; no contact details. **Load when** references come up.
-- [Minitab 2018 correspondence](wiki/sources/minitab-2018-correspondence.md) — classification of personal/legal material; not evidence. Load only to understand why it is not cited.
-- [Brag ledger](wiki/sources/brag-ledger.md) — ingest and promotion state of every `raw/brag/` entry. **Load when** ingesting or promoting.
-- [*Release It!* annotations](wiki/sources/release-it-annotations.md) — the owner's own highlights and margin notes in Nygard's production-readiness book, and what they contribute. **Load when** writing about operability, observability or the operator as customer. The book itself is not committed and is never quoted from.
-- [Trello board exports](wiki/sources/trello-boards.md) — the committed board snapshots, what has been harvested from them and what remains. **Load when** ingesting from the boards or planning a re-export.
-
-## Raw
-
-- `raw/brag/inbox/` — **the drop zone.** Write new notes here, any shape; a note here is un-ingested, an empty inbox means everything is ([README](raw/brag/inbox/README.md)).
-- `raw/brag/` — finished brag entries ([README](raw/brag/README.md)).
-- `raw/trello/` — committed board snapshots, compressed and checksummed, kept for safekeeping ([README](raw/trello/README.md)).
-- `raw/archive/` — archived documents: `Oleg.Zhylin.resume.md`, `Oleg.Zhylin.resume.overview.md`, `Oleg.Zhylin.skills_and_responsibilities.md`.
-- [LLM-wiki pattern](raw/llm-wiki.md) — the abstract idea document.
+| Topic | Shard | Covers |
+|---|---|---|
+| Resume editing and variants | [topics/resume.md](topics/resume.md) | primary resume rules, links, update workflow, variants, coverage |
+| Workflows and stories | [topics/workflows-and-stories.md](topics/workflows-and-stories.md) | brag capture, voice, LinkedIn, sensitivity, story clusters |
+| Career synthesis | [topics/career-synthesis.md](topics/career-synthesis.md) | accomplishments, entities, dream jobs, analysis |
+| Sources and raw | [topics/sources.md](topics/sources.md) | source summaries, brag ledger, raw layers |
 
 ## Maintenance
 

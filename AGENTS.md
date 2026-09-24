@@ -23,30 +23,9 @@ Everything in this repository is reviewed before it lands, which means the worki
 
 ## Hand-offs go in the assignment tracker, never in the chat response
 
-**Anything the owner has to do, decide, verify, or answer is written into the session-wiki's `tasks/assignment_tracker.md`, under an `## Open for the owner` heading, at the moment it is discovered.** Not at the end of the session, and not into the chat.
+**Anything the owner has to do, decide, verify, or answer is written into the session-wiki's `tasks/assignment_tracker.md`, under an `## Open for the owner` heading, at the moment it is discovered** — never into the chat response, which is not durable. The chat says *that* there are open items and where they live; it does not restate them. A response ending in a list of owner to-dos is a defect.
 
-The chat response says *that* there are open items and where they live. It does not restate them.
-
-Why the rule is absolute:
-
-- **A chat response is not durable.** It disappears with the session, it is not on disk, it cannot be reopened in the editor, and a fresh session cannot read it. An item that exists only in a chat message is an item that will be lost — silently, because nothing reports it missing.
-- **The tracker is the resume token.** It is the first thing any session reads. Putting the owner's items anywhere else guarantees the next agent does not know they are outstanding.
-- **The owner works from one list.** Two lists — one in the tracker, one scrolled past in a terminal — is worse than either alone, because neither is trustworthy.
-
-A response that ends with a list of things for the owner to do is a defect, even when the list is correct. The correct ending points at the tracker.
-
-If work is under way and no scope exists yet, that is the signal to create one (`session-wiki-pattern` skill), not a licence to hand off in chat.
-
-### Keeping the tracker true
-
-The mechanics are the `session-wiki-pattern` skill's, § *The tracker*. Four rules are this repository's policy:
-
-- **Done items leave the tracker promptly**, into a done-batch file the tracker links — one line per batch, at most twenty, the oldest rotated out.
-- **Owner items are re-judged on every resume, before new work.** Read the cheap evidence first — `git log --oneline` since the tracker's date, `git show --stat` only on commits whose subject looks relevant, `git status --short`, `git diff --cached --stat`, `script/linkedin-sync.py status` — then move each owner item that is done or obsolete into a done batch, **with the evidence that decided it**. When the evidence is ambiguous, leave the item open and say what would settle it.
-- **Commit guides are owner assignments.** Every proposed commit file appears in the tracker's owner items, with its review guidance, until `git log` shows it landed — partially landed ones say what is still outstanding.
-- **`TODO.md` points the owner at trackers that hold owner items** and nothing more. It is the owner's scratch file; an agent does not re-add a trace the owner deleted unless new owner items have appeared since.
-
-Scratch is this workstation's worklog and may grow as it needs to; committed files are the garden of knowledge and hold only what has reached top quality.
+Full rationale, and the four tracker-hygiene rules (done items leave promptly, owner items re-judged on every resume, commit guides are owner assignments, `TODO.md` traces): [`.github/rules/handoffs-and-tracker.md`](.github/rules/handoffs-and-tracker.md). Read it before opening or resuming a tracker.
 
 ## Where the rules live
 
@@ -62,59 +41,15 @@ Per-directory `AGENTS.md` files are the primary, load-bearing instructions. Read
 
 ## Tracking professional history
 
-This repository is a pipeline, not a single document. An accomplishment reaches the resume in three hops, and **each hop is a rewrite, never a copy**:
-
-```
-llm-wiki/raw/brag/     →   llm-wiki/wiki/concepts/        →   markdown/
-one dated file per         accomplishments-by-domain.md       the public resume
-accomplishment,            plus the ledger, entities          and any tailored
-captured when it happens   and themes                         variant
-```
-
-| Need | Start here |
-|---|---|
-| Record something that just happened, in any format | `brag-capture` skill → [`llm-wiki/wiki/workflows/brag-file.md`](llm-wiki/wiki/workflows/brag-file.md) §§ *Part 0*–*Part 1* |
-| Fold captured entries into the knowledge layer | `brag-capture` skill → same page, § *Part 2* |
-| Turn entries into told-able stories, or get a reading list for an interview, event or employer | `brag-capture` skill → [`llm-wiki/wiki/workflows/brag-stories.md`](llm-wiki/wiki/workflows/brag-stories.md) |
-| See what the resume is missing, and how much is covered | [`llm-wiki/wiki/resume/coverage.md`](llm-wiki/wiki/resume/coverage.md) |
-| Put something on the outward-facing resume | `resume-editing` skill → [`llm-wiki/wiki/resume/update-workflow.md`](llm-wiki/wiki/resume/update-workflow.md) |
-| Decide where this career should point next, or judge a role against the record | [`llm-wiki/wiki/dream-jobs/dream-job-hub.md`](llm-wiki/wiki/dream-jobs/dream-job-hub.md) — candidates graded on evidence, the owner's own ideas marked apart from an agent's |
-| Work across the career repositories — this one holds the past, the job-search and C++ training repositories hold the search and the future | [`llm-wiki/wiki/workflows/career-repositories.md`](llm-wiki/wiki/workflows/career-repositories.md) — what each owns, how knowledge moves between them, where Claude Cowork fits |
-| Decide how often to touch the LinkedIn profile, and what actually gets it found | [`llm-wiki/wiki/analysis/2026-09-14-linkedin-profile-visibility.md`](llm-wiki/wiki/analysis/2026-09-14-linkedin-profile-visibility.md) |
-| Refresh the LinkedIn profile from the resume | `linkedin-publish` skill → [`llm-wiki/wiki/workflows/linkedin-publish.md`](llm-wiki/wiki/workflows/linkedin-publish.md) |
-| Find out whether the LinkedIn update can be automated | Same page, § *The answer, first* — it cannot, and the research is recorded so it is not repeated |
-| Decide whether a fact may be written down at all | [`llm-wiki/wiki/workflows/sensitivity-tiers.md`](llm-wiki/wiki/workflows/sensitivity-tiers.md) |
-| Retire a document that has stopped being outward-facing | [`llm-wiki/wiki/workflows/archive-source.md`](llm-wiki/wiki/workflows/archive-source.md) |
-| Preserve a source too large to commit as-is | `large-import` skill → [`llm-wiki/wiki/workflows/large-imports.md`](llm-wiki/wiki/workflows/large-imports.md) |
-| Ingest any other source, answer a question from the wiki, or lint it | [`llm-wiki/AGENTS.md`](llm-wiki/AGENTS.md) § *Workflows* |
-
-Skipping a hop is the failure this layout exists to prevent: text copied straight from a brag entry into the resume has passed neither the sensitivity check nor the depth check, and both are easy to lose silently.
+This repository is a pipeline: `llm-wiki/raw/brag/` → `llm-wiki/wiki/concepts/accomplishments-by-domain.md` → `markdown/`. **Each hop is a rewrite, never a copy**; skipping a hop skips the sensitivity and depth checks. The routing table (recording an accomplishment, stories, coverage, resume edits, dream jobs, LinkedIn, sensitivity, archiving, large imports) is [`.github/rules/professional-history.md`](.github/rules/professional-history.md).
 
 ## How the record gets told — a foundation pillar
 
-Anything written to be read or said outward — a story, a resume line, a LinkedIn block, a reading list — goes through [`llm-wiki/wiki/workflows/voice-and-prominence.md`](llm-wiki/wiki/workflows/voice-and-prominence.md) **before** it is drafted. It is not a style guide; it is load-bearing, and it carries three rules that the rest of this repository assumes:
-
-- **One voice, many registers.** Every telling sounds like the same person, so the owner drops into storytelling mode from the first line — but thirty years cannot be told in one register, and the page defines one per era. The mode is role-play: channel the genuine past self, then let the present self narrate.
-- **Prominence follows evidence.** How loudly a claim is made is set by support *and* impact, never by stated impact alone. **False humility is a defect**, exactly as overclaiming is: a well-grounded, high-impact accomplishment that appears nowhere prominent is a bug in the record.
-- **Blocked, frozen and never-shipped work is tellable.** What shipped, what was built then stopped, and what was argued for and refused — each has an honest sentence, and the lesson from a blocker is part of the win. Honest telling never requires disclosure; the boundary stays [the sensitivity tiers](llm-wiki/wiki/workflows/sensitivity-tiers.md).
+Anything written to be read or said outward goes through [`llm-wiki/wiki/workflows/voice-and-prominence.md`](llm-wiki/wiki/workflows/voice-and-prominence.md) **before** it is drafted: one voice with a register per era; prominence follows evidence (false humility is a defect, as overclaiming is); blocked, frozen and never-shipped work is tellable, and honest telling never requires disclosure. Summary of the three rules: [`.github/rules/voice-pillar.md`](.github/rules/voice-pillar.md).
 
 ## Building
 
-```bash
-script/bootstrap.sh              # fresh machine: submodule + toolchain + first build
-script/pandoc_resume.sh all      # html, pdf, docx, rtf, linkedin, then verify
-script/pandoc_resume.sh linkedin # regenerate the LinkedIn copy-paste blocks
-script/pandoc_resume.sh verify   # assert the portrait PNG is embedded in every artifact
-script/pandoc_resume.sh clean
-```
-
-Artifacts land in `pandoc_resume/output/` and are gitignored, as are `*.pdf` and `*.htm*` repo-wide. The build must never be "fixed" by committing generated output.
-
-Pasting the result into the profile is [its own workflow](llm-wiki/wiki/workflows/linkedin-publish.md), on its own clock: resume edits are committed as they go, and `script/linkedin-sync.py status` / `round` **regenerate the blocks from the Markdown themselves** before saying what has not reached LinkedIn. The paste record is committed so it survives a commit and a fresh clone; a non-zero `status` is a low-priority owner item in the tracker, never a blocker. **There is no API for it** — the write path exists but is behind a closed partner permission, and browser automation is prohibited; the workflow page carries the evidence.
-
-**`linkedin/` is the one tracked exception**, and it is tracked *because* it is generated. LinkedIn accepts no formatting and caps each field — 2,600 characters for the About section, 2,000 per Experience entry — so the profile cannot be a copy of the resume; it is a rendering of it, produced from sections marked `<!-- linkedin: <slug> limit=<n> -->` in the Markdown. Updating the profile is a human pasting into a web form, so the committed diff is the only thing that can say *which* fields have drifted and need re-pasting: a changed file is a field to paste, an unchanged one is a field to leave alone. Files there are never hand-edited, and a block that outgrows its field fails the build rather than being silently truncated on paste. Details: [`.github/skills/resume-tooling/SKILL.md`](.github/skills/resume-tooling/SKILL.md) § *The LinkedIn export*.
-
-Every artifact is expected to embed the portrait image from `markdown/assets/`. Each output format embeds it by a different mechanism, so it fails silently and per-format; `script/pandoc_resume.sh verify` is the check that catches it. Treat a `NO IMAGE` line from `verify` as a build failure.
+`script/pandoc_resume.sh all` builds html, pdf, docx, rtf, the LinkedIn blocks, then verifies; a `NO IMAGE` line from `verify` is a build failure. Artifacts are gitignored — never commit generated output, except `linkedin/`, which is tracked because it is generated and never hand-edited. Commands, the LinkedIn character budgets and the paste workflow: [`.github/rules/building.md`](.github/rules/building.md).
 
 ## Sensitivity
 
@@ -128,19 +63,7 @@ Two hard rules apply everywhere:
 
 ## Skills
 
-Reusable procedures live in `.github/skills/<name>/SKILL.md`, the single copy of each. Load one when its `description` matches the task:
-
-- `brag-capture` — recording an accomplishment, folding captured entries into the knowledge layer, and graduating them into stories and reading lists.
-- `resume-editing` — editing an outward-facing resume document.
-- `linkedin-publish` — getting the generated blocks onto the LinkedIn profile, and the researched answer to whether any of it can be automated.
-- `resume-tooling` — setting up or repairing the toolchain on a workstation.
-- `pdf-extraction` — ingesting a PDF into a wiki.
-- `large-import` — preserving a source file too large to commit as-is, compressed and checksummed.
-- `session-wiki-pattern` — planning or maintaining a long, multi-step assignment.
-
-Not every agent scans `.github/skills/` on its own — Claude Code, for one, only scans `.claude/skills/`. Where a tool needs a different path, this repo adds a symlink back to the real folder rather than a second copy; see [`.github/AGENTS.md`](.github/AGENTS.md) § *The two bridges Claude Code needs* for the current list.
-
-See [`.github/AGENTS.md`](.github/AGENTS.md) for the full customization map and the conventions each file type must follow.
+Reusable procedures live in `.github/skills/<name>/SKILL.md`, the single copy of each (brag-capture, resume-editing, linkedin-publish, resume-tooling, pdf-extraction, large-import, session-wiki-pattern); load one when its `description` matches the task. Claude Code scans `.claude/skills/`, so each has a symlink there. List with triggers and the bridge: [`.github/rules/skills-list.md`](.github/rules/skills-list.md).
 
 ## Reading this file with Claude Code
 
