@@ -17,6 +17,25 @@
 
 
 
+# llm-wiki/wiki/dream-jobs/dream-job-hub.md
+
+My best peer to peer collaboration was on ClaudeSPM . Vlad Frolov and I were both strong in our areas, I am more on SME for Salford Systems technology and he and Illya Polosukhin were Python, Linux etc. Cloud (mainly AWS) was new for us all . memorable episode is when Vlad convinced me to repave the entire in-house big data cluster into Rancher and host everything in containers. It was an involved initiative, but as a result we ran hybrid AWS/onprem container based cloud and CloudSPM successfully demonstrated model building on big data. Both data and workers ran in AWS and on prem
+
+
+# llm-wiki/wiki/stories/about-me.md
+
+At my present place most people cought the drift that data is important. Still people compute mean and std dev and reason about them as if everything is normally distributed. They don't even realize they assume normal distribution and no proper statistical reasoning happening. I had to educate people about percentiles. One of my big insights is that normal distribution is called so because people like things where mean is intuitive and stuff 3 sigma away just never happens. Real world is multimodal with crazy power law (include power law and related statistical items refresher so that I could look up as I rehearse the story). I want to tell the story from the position of humility, good stewardship, helping others to grow. Didn't have much opportunity to formally promote other people. Salford Systems was a small company and GreatCall was buidling up goodwill repairment steadily since acquisition (that's my leaders usually right story - every blunder I saw coming and some of them I could even voice against; Livey Home which was visioned as full smart home solution sounded out of touch, incurred non-trivial waste and was one of dominating factors to pivot towards osterity aka profitability; I expressed my expert opinion early and it fell on deaf ears; That was my learning of what poorly defined missions does to even rich organization; We weren't general magic but MVNO on top of Verizon cannot be run on a shoestring budget, so some of that rich company pshyco complex was present until goodwill repairment ran out)
+
+
+# llm-wiki/wiki/stories/about-me/why-i-do-this-work.md
+ 
+My growing up is 1980s and 1990s (born 1978). In 2000s are formative years with daugther Liza born 2007 and son Bogdan born 2012. Plenty of young adult learning.
+
+
+
+
+
+
 
 
 
@@ -273,4 +292,4 @@ These are also  bragging material
 
 
 
-- read coverage and represent all worthy material
+- read coverage and represent all worthy material- `__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md` — review the belonging/stewardship hub section and About Me story AM1; land its commit guide

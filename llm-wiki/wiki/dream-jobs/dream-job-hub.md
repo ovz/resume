@@ -40,6 +40,22 @@ The sharpest consequence of the Value and Impact readings above: **the same spec
 
 This is why two candidates with **strong** evidence can rank very differently, and it is the correction that matters most: an earlier version of this page treated "somebody pays for this" as the Value test, which would have scored a cost-reduction role as a pass.
 
+## Mission, belonging and ownership — the register underneath the grades
+
+> Owner's words, 2026-09-23, from a mailbox message sent by the C++ practice repository during interview preparation. **Input, not final copy**: the wording is staged for the owner's review. Tier T1 — this section frames *what he is looking for*; nothing here is for the public resume until the owner promotes a line under [resume editing](../resume/update-workflow.md).
+
+The Innovation / Value / Impact tests above say what makes a job pass. This section says what the owner wants the job to *be*, and it reframes the target from a technology to a stance:
+
+- **Mission-bearing work, where he finds the critical path and owns the risk on it.** Devices and systems people depend on; software whose correctness is the point. Open domains, none ranked: aerospace and defence, safety-critical devices, infrastructure, anything where people rely on the software being right.
+- **Senior technical ownership among strong peers.** "Strong opinions, loosely held", with no hidden agenda; changing his mind on peer data is part of the practice.
+- **Judged on results and quality of collaboration, not on presence.** On-site is acceptable: five days a week is a challenge he is willing to take, and he says so rather than treating it as a cost to be negotiated away.
+- **Belonging he can earn by contributing, and stewardship he can extend.** He found that sense of belonging after moving to the U.S., and the next step is to reach further with it: help on the critical path, own mission-critical risk, make the place he lives a bit stronger. The stewardship stance is already recorded as a first principle in the [stewardship cluster](../stories/stewardship.md).
+- **A mission test for employer shape.** A vertical-agnostic, tools-for-anyone's-problem employer is well built but leaves him wanting a mission ("horizontal by design; I learned I need a mission"). Related lesson he now probes for explicitly: what a small company's growth actually returns to the people who build it.
+
+**How it interacts with the grades.** It strengthens `DJ-3`, `DJ-6`, `DJ-8` and any `DJ-4` role at an employer whose product people depend on, because "people depend on the software being right" is their whole premise; it does not change the `Revenue line` screen. Treat it as an additional filter on postings, not a new candidate.
+
+**Balance rules for any outward telling** (from the owner): do not single-focus on GPS/positioning — it is one depth among several; do not lead with feelings about the birth country — one clause at most; stay confident, forward-looking and balanced; end on what he will do, not what he felt. The stories built on this theme are the [About Me cluster](../stories/about-me.md).
+
 ## The candidates
 
 ★ = the owner's own idea · ○ = suggested by an agent from this repository's material plus outside research
