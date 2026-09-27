@@ -6,17 +6,7 @@ Sections: [Agents do not commit](#agents-do-not-commit) · [Uncommitted work](#u
 
 ## Agents do not commit
 
-**Never run `git commit`, `git push`, `git tag`, or any other history-writing command.** Every change in this repository is reviewed by a human before it lands. This holds without exception, including for changes an agent is confident about and changes the owner appeared to pre-approve in conversation.
-
-What an agent does instead:
-
-1. Leave the work in the working tree, unstaged or staged, and say what changed and why.
-2. Write the **proposed commit message** into the session-wiki scratch scope, never into a tracked file and never into the repo. The `session-wiki-pattern` skill owns that scope's layout; commit messages belong alongside its other session artifacts, under a `commits/` directory in the session-wiki. One file per proposed commit, each naming the exact paths it covers.
-3. Hand off **through the tracker** — see [`handoffs-and-tracker.md`](handoffs-and-tracker.md). The owner reviews, edits the message if needed, and commits.
-
-`git status`, `git diff`, `git log`, `git show` and other read-only inspection are always fine. So is `git stash` when protecting uncommitted work from a destructive operation.
-
-Proposals stay lean: the ready-to-paste message, plus only what the diff cannot show (a judgement call, something expensive to reverse, a superseded earlier proposal). The owner reads the diff anyway, and long proposals go stale and mislead.
+**Never run `git commit`, `git push`, `git tag`, or any other history-writing command.** Every change in this repository is reviewed by a human before it lands, without exception. Leave the work in the working tree and write the proposed commit message into the session-wiki scope's `commits/` — the `session-wiki-pattern` skill owns that format — then hand off through the tracker; see [`handoffs-and-tracker.md`](handoffs-and-tracker.md).
 
 ## Uncommitted work is the only thing git cannot give back
 

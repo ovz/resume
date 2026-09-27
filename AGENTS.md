@@ -34,3 +34,5 @@ Each is a file in [`.github/rules/`](.github/rules/).
 | Loading a skill (brag-capture, resume-editing, linkedin-publish, resume-tooling, pdf-extraction, large-import; each has a `.claude/skills/` symlink) or planning a long assignment (`session-wiki-pattern`, shared from the agentic_linux repo) | [`skills-list.md`](.github/rules/skills-list.md) |
 | Sending material to the about-me repository or Claude Cowork | [`about-me-and-cowork.md`](.github/rules/about-me-and-cowork.md) |
 | How Claude Code reaches this file (`CLAUDE.md` imports) | [`claude-code-bridge.md`](.github/rules/claude-code-bridge.md) |
+
+conventions: v1

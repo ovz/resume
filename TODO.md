@@ -6,16 +6,20 @@
 
 # Open assignment trackers
 
-- `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
+- [`__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md) — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
 > Agent traces: each line is a session-wiki tracker that holds items **for you** — commit guides to land, decisions, checks. The paths are this workstation's scratch. This is your scratch file: delete a line whenever you like; an agent re-adds a trace only when new owner items appear.
 
-
-- `__untracked_stuff/llm-wiki-maintenance/tasks/assignment_tracker.md` - risk-track and Engineering Manager review, proposals 021-022, and report-attribution questions; four-format build verified.
-- `__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md` — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
-- `__untracked_stuff/2026-09-20-networking-resume-variant/tasks/assignment_tracker.md` — networking resume plus the Release It! ingest; build clean. Land 035 then 036 — **036 is what makes the tree build again, since your 6efb590 committed the resume without the link keys it uses**. Then read the rendered PDF and confirm the "never specialized, and that is an advantage" paragraph says what you meant
+- [`__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md) — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
+- [`__untracked_stuff/2026-09-20-networking-resume-variant/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-20-networking-resume-variant/tasks/assignment_tracker.md) — networking resume plus the Release It! ingest; build clean. Land 035 then 036 — **036 is what makes the tree build again, since your 6efb590 committed the resume without the link keys it uses**. Then read the rendered PDF and confirm the "never specialized, and that is an advantage" paragraph says what you meant
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
 - `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
-- `__untracked_stuff/2026-09-24-notes-to-stories-voice/tasks/assignment_tracker.md` — your nine notes through brag → stories → resume, plus the voice study; land 037 → 041; submit the about-me digest (waiting in the cross-repo mailbox) to Cowork; decide two public-resume date questions; pick discovery candidates to write up
+- [`__untracked_stuff/2026-09-24-notes-to-stories-voice/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-24-notes-to-stories-voice/tasks/assignment_tracker.md) — your nine notes through brag → stories → resume, plus the voice study; land 037 → 041; submit the about-me digest (waiting in the cross-repo mailbox) to Cowork; decide two public-resume date questions; pick discovery candidates to write up
+- [`__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md) — review the belonging/stewardship hub section and About Me story AM1; land its commit guide
+- [`__untracked_stuff/2026-09-27-conform-to-shared-conventions/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-27-conform-to-shared-conventions/tasks/assignment_tracker.md) — land commits 001 (TODO.md links) and 002 (conform agent customizations to shared conventions)
+
+## Mailbox
+
+- `~/mailbox/resume/inbox/2026-09-27-session-scopes-policy-line.md` — add the `**Session scopes:** archive on-demand · lint on request` line to root `AGENTS.md`; Haiku 4.5 · low
 
 
 # .github/skills/brag-capture/SKILL.md
@@ -140,4 +144,4 @@ These are also  bragging material
 
 
 
-- read coverage and represent all worthy material- `__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md` — review the belonging/stewardship hub section and About Me story AM1; land its commit guide
+- read coverage and represent all worthy material
