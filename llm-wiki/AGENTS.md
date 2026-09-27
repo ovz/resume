@@ -30,7 +30,7 @@ Three tiers govern where information may live: **T0 public** (the primary resume
 
 ## Large and sensitive files
 
-PDFs, exports, screenshots, and employer-internal notes are never committed (`.gitignore` covers `*.pdf`, `*.htm*`, `__untracked_stuff`). They wait in the maintainer's session-wiki scratch scope — `__untracked_stuff/<scope>/session-wiki/raw/` — and reach this wiki only as distilled, tier-checked text. The `session-wiki-pattern` skill (`.github/skills/session-wiki-pattern/SKILL.md`) owns that scope's structure.
+PDFs, exports, screenshots, and employer-internal notes are never committed (`.gitignore` covers `*.pdf`, `*.htm*`, `__untracked_stuff`). They wait in the maintainer's session-wiki scratch scope — `__untracked_stuff/<scope>/session-wiki/raw/` — and reach this wiki only as distilled, tier-checked text. The `session-wiki-pattern` skill (agentic_linux repo) owns that scope's structure.
 
 **The one exception is a large source the owner has decided to preserve verbatim** — today, the Trello board exports under `raw/trello/`. Granting that exception is the owner's call and never an agent's. Carrying it out is `wiki/workflows/large-imports.md`: the uncompressed working copy stays in the scratch scope, and the committed copy is compressed to `.xz` and checksummed against its plaintext. The `large-import` skill owns the format decision and the tooling.
 

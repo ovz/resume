@@ -51,9 +51,11 @@ A 2026-09-16 breadth-first Gmail survey identified this thread from corresponden
 - [2009-06-01 SPM release engineering and Japanese localization](2009-06-01-spm-release-engineering-japanese-localization.md) — the same build era's release-process side.
 - [2004-01-01 client-server TCP/IP daemon](2004-01-01-spm-client-server-tcpip-daemon.md) — the concurrency origin this entry's defensive-coding discipline extends.
 - [2012-06-01 SPM 7.x Linux port and TBB evaluation](2012-06-01-spm7-linux-port-tbb-evaluation.md) — later cross-platform engine work in the same codebase.
+- [2013-12-01 Intel Fortran 14 rollback and escalation](2013-12-01-intel-fortran-14-rollback-premier-support-escalation.md) — the toolchain that built these engines, and the year it misbehaved.
 
 ## Record history
 
 - 2026-09-16: created, ingested from inbox note "gmail-brag-file-candidates.md" (candidate 2).
 - 2026-09-16: added the owner's framing (a mathematical paper encoded in Fortran; testing his mathematical boundaries; appreciating colleagues' talents) and his instruction that this be featured among prominent achievements.
 - 2026-09-16: graduated into the story [salford/a-paper-encoded-in-fortran]; body unchanged.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

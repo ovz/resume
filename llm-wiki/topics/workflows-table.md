@@ -11,6 +11,7 @@
 | Capture an accomplishment right now, in any format | `../wiki/workflows/brag-file.md` §§ *Part 0*–*Part 1* |
 | Fold captured accomplishments into the wiki | `../wiki/workflows/brag-file.md` § *Part 2* |
 | Graduate entries into stories, or build a reading list for an interview, event or employer | `../wiki/workflows/brag-stories.md` |
+| Write or revise a story's spoken narrative so it rehearses well | `../wiki/workflows/spoken-drafts.md` (subordinate to voice and prominence) |
 | Work that spans the resume, job-search and C++ training repositories, or Claude Cowork | `../wiki/workflows/career-repositories.md` |
 | Get the generated blocks onto the LinkedIn profile, or answer whether that can be automated | `../wiki/workflows/linkedin-publish.md` |
 | Retire a superseded `../markdown/` document | `../wiki/workflows/archive-source.md` |

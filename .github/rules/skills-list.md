@@ -10,7 +10,8 @@ Reusable procedures live in `.github/skills/<name>/SKILL.md`, the single copy of
 - `resume-tooling` — setting up or repairing the toolchain on a workstation.
 - `pdf-extraction` — ingesting a PDF into a wiki.
 - `large-import` — preserving a source file too large to commit as-is, compressed and checksummed.
-- `session-wiki-pattern` — planning or maintaining a long, multi-step assignment.
+
+Planning or maintaining a long, multi-step assignment uses `session-wiki-pattern`, which lives in the agentic_linux repo and is not copied here. It reaches every session on this machine through the user's own skill directories, so nothing in this repo has to point at it.
 
 Not every agent scans `.github/skills/` on its own — Claude Code, for one, only scans `.claude/skills/`. Where a tool needs a different path, this repo adds a symlink back to the real folder rather than a second copy; see [`.github/AGENTS.md`](../../.github/AGENTS.md) § *The two bridges Claude Code needs* for the current list.
 

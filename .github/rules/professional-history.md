@@ -15,6 +15,7 @@ captured when it happens   and themes                         variant
 |---|---|
 | Record something that just happened, in any format | `brag-capture` skill → [`llm-wiki/wiki/workflows/brag-file.md`](../../llm-wiki/wiki/workflows/brag-file.md) §§ *Part 0*–*Part 1* |
 | Fold captured entries into the knowledge layer | `brag-capture` skill → same page, § *Part 2* |
+| The owner's memory and the mailbox disagree about an episode | [`llm-wiki/wiki/workflows/brag-file.md`](../../llm-wiki/wiki/workflows/brag-file.md) § *Part 1c* — the email record wins; his account stays verbatim beside it |
 | Turn entries into told-able stories, or get a reading list for an interview, event or employer | `brag-capture` skill → [`llm-wiki/wiki/workflows/brag-stories.md`](../../llm-wiki/wiki/workflows/brag-stories.md) |
 | See what the resume is missing, and how much is covered | [`llm-wiki/wiki/resume/coverage.md`](../../llm-wiki/wiki/resume/coverage.md) |
 | Put something on the outward-facing resume | `resume-editing` skill → [`llm-wiki/wiki/resume/update-workflow.md`](../../llm-wiki/wiki/resume/update-workflow.md) |

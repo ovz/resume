@@ -110,4 +110,4 @@ Hence: the committed copy is compressed (so a stray `>>` cannot append plausible
 
 ## Reference-direction reminder
 
-The raw store is version-controlled and the working copy is not, so the [`session-wiki-pattern`](../session-wiki-pattern/SKILL.md) one-way reference rule applies at full strength: **the raw store's `README.md` must never point at the scratch copy.** It may describe the convention that an uncompressed working copy exists in a scratch scope; it may not name a path to one. A fresh clone has no scratch directory, and a pointer into one is dead on arrival and silently so.
+The raw store is version-controlled and the working copy is not, so the `session-wiki-pattern` skill's (agentic_linux repo) one-way reference rule applies at full strength: **the raw store's `README.md` must never point at the scratch copy.** It may describe the convention that an uncompressed working copy exists in a scratch scope; it may not name a path to one. A fresh clone has no scratch directory, and a pointer into one is dead on arrival and silently so.

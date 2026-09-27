@@ -6,90 +6,21 @@
 
 # Open assignment trackers
 
+- `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
 > Agent traces: each line is a session-wiki tracker that holds items **for you** — commit guides to land, decisions, checks. The paths are this workstation's scratch. This is your scratch file: delete a line whenever you like; an agent re-adds a trace only when new owner items appear.
 
+
 - `__untracked_stuff/llm-wiki-maintenance/tasks/assignment_tracker.md` - risk-track and Engineering Manager review, proposals 021-022, and report-attribution questions; four-format build verified.
-- `__untracked_stuff/2026-09-14-career-system-plan/tasks/assignment_tracker.md` — **start here**: your items by priority (land commit guides 030–031 first), and the suggested sequence of Claude sessions
 - `__untracked_stuff/2026-09-16-stewardship-integration-grounding/tasks/assignment_tracker.md` — land its commit guides after 032–033; approve the two public aliases; Felipe, Mirabit vs Milo Solutions, NCS-R date and Data Steward facts
 - `__untracked_stuff/2026-09-20-networking-resume-variant/tasks/assignment_tracker.md` — networking resume plus the Release It! ingest; build clean. Land 035 then 036 — **036 is what makes the tree build again, since your 6efb590 committed the resume without the link keys it uses**. Then read the rendered PDF and confirm the "never specialized, and that is an advantage" paragraph says what you meant
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
 - `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
+- `__untracked_stuff/2026-09-24-notes-to-stories-voice/tasks/assignment_tracker.md` — your nine notes through brag → stories → resume, plus the voice study; land 037 → 041; submit the about-me digest (waiting in the cross-repo mailbox) to Cowork; decide two public-resume date questions; pick discovery candidates to write up
 
 
+# .github/skills/brag-capture/SKILL.md
 
-# llm-wiki/wiki/dream-jobs/dream-job-hub.md
-
-My best peer to peer collaboration was on ClaudeSPM . Vlad Frolov and I were both strong in our areas, I am more on SME for Salford Systems technology and he and Illya Polosukhin were Python, Linux etc. Cloud (mainly AWS) was new for us all . memorable episode is when Vlad convinced me to repave the entire in-house big data cluster into Rancher and host everything in containers. It was an involved initiative, but as a result we ran hybrid AWS/onprem container based cloud and CloudSPM successfully demonstrated model building on big data. Both data and workers ran in AWS and on prem
-
-
-# llm-wiki/wiki/stories/about-me.md
-
-At my present place most people cought the drift that data is important. Still people compute mean and std dev and reason about them as if everything is normally distributed. They don't even realize they assume normal distribution and no proper statistical reasoning happening. I had to educate people about percentiles. One of my big insights is that normal distribution is called so because people like things where mean is intuitive and stuff 3 sigma away just never happens. Real world is multimodal with crazy power law (include power law and related statistical items refresher so that I could look up as I rehearse the story). I want to tell the story from the position of humility, good stewardship, helping others to grow. Didn't have much opportunity to formally promote other people. Salford Systems was a small company and GreatCall was buidling up goodwill repairment steadily since acquisition (that's my leaders usually right story - every blunder I saw coming and some of them I could even voice against; Livey Home which was visioned as full smart home solution sounded out of touch, incurred non-trivial waste and was one of dominating factors to pivot towards osterity aka profitability; I expressed my expert opinion early and it fell on deaf ears; That was my learning of what poorly defined missions does to even rich organization; We weren't general magic but MVNO on top of Verizon cannot be run on a shoestring budget, so some of that rich company pshyco complex was present until goodwill repairment ran out)
-
-
-# llm-wiki/wiki/stories/about-me/why-i-do-this-work.md
- 
-My growing up is 1980s and 1990s (born 1978). In 2000s are formative years with daugther Liza born 2007 and son Bogdan born 2012. Plenty of young adult learning.
-
-
-
-
-
-
-
-
-
-
-
-# llm-wiki/wiki/stories/positioning/power-budget-non-issue.md
-
-Power budget trade off analysis is something rather obvious even for juniors, not to mention executives and other non-techincal people. The story is about cutting corners on statistically significant estimation with proper groundng. This story interplas with STM discovery board, MEMs etc. While proving significant motion, ML core, dead reckoning etc are not just keyword match on vendor marketing but actually observed is fundamental, no less important is not only locate the correct numbers in data sheets etc but also add them to budget with the correct analysis. Make sure the approach to battery budget like any other industry wide "standard of care" (medical metaphor a good fit here) for embedded devices matches industry consensus and not something that will raise eyebrows, sound revolutionary, controversial etc. e.g. Russ White critisism of ISO OSI network model resonates with professionals and shows that I think and I care, not just defer to authority. I am a Data Security major and I internalized a thing or two about compliance at a young age. Compliance skills are powerful and "power and responsibility" metaphor works good here. Put another story draft that my less security educated team members still periodically put together ad hoc IMEI, lat/lon numbers, etc obfuscations in the spirit of PII  protection. I always push back that we don't have a concrere certification document , no audit by 3rd party security professionals planned etc. Even our enterprise one Checkmarkx scanner would be some real compliance vehicle. Just because you think this sounds like compliance doesn't help during static analysis, audit etc. So keep it simple, practice yagni, don't put PII into logs, but IMEI, lat/lon etc have some technical meaning and obfuscating them unnecessarily creates work to build obfuscation, test obfuscation itself and use obfuscated data and actual compliance process will still cost the same or even more because one guessed what the right answer is despite in this case if there is no book with righ answer the right answer doesn't exist. 
-
-Another related fact is that SKyhook was decided for positioning. Among other things r5 skyhook powered location fix is much more effective on battery as compared to iZat qualcomm (lookup exact names) previous generation positioning. Qualcomm did a good call purchasing skyhook. We didn't get skyhook just for battery. As I tell in another story, commercial customers e.g. assisted living don't appreciate 1.0 technology. Consumers might tolerate some variability and 1.0 kinds of blunder might drive the churn up somewhat, but rarely be single signficant factor that hikes the churn and kills the product. one of those cases when "no product" means no churn, otherwise getting something in the field is progress, perfectionism is stagnation and failure.
-
-Throw in a restrospect that with AI such experiment design and execution is literally calendar time expense. This is a perfect case for vibe coding, code review is a breathe because no clever code is allowed and irrelevant code is easily spotted. Once llm is in the correct area of hyperspace it doesn't chaotically blunder to some danger zone just out of coarseness of the model parameters etc. That's why prompt engineer profession was short lived. The challenge to keep LLM in the correct space (single word in the prompt determines succsss/failure) got solved by the industry in the matter of months. For modern LLMs the skill is to keep model comrehensive, demand top quality, not accept half baked results etc. I designed several successful experiments and the experience was stellar. A bunch of scripts configured any number of devices, testing instructions were ones I enjoyed executing, and analysis in Jupyter notebook looks like what would be an initiative for a Data Scientist to spend a week just on the first draft and engineer to put it in production. Now I have production grade internal software on my dev machine in minutes. That's my local SAS-apocalypse episode, but more Javon paradox style. I used to have to figure out what is doable and keep my urges to eliminate toil under strict reality check. Now my good stewardship instincts grow into comprehensive documentation and production grade software. I feel like we solved Navier-Stocks equaltions for Agile software development. Contract negotiation still stands, but comrehensive documentation is not a cope out anymore. 
-
-# llm-wiki/wiki/stories/positioning/the-fault-that-lost-the-fix.md
-
-here and other places emphasize automated fall detection. Button press is for care center and seniors can press it for loneliness, lyft ride, or whatever other reason. The point is we don't limit time with agent who actually cares. Fall Detection, home/away is what we do without customer awareness to give them care they need.
-
-There is also related story that Skyhook, and even Qualcomm QMI in separate scenarios badly leaked file descriptors. QMI incident is where I read a ton of Qualcomm code and did a number of experiments pre-AI by hand. skyhook is where FD guarding condition saved the day and pointed at a problem. This is at least 2 stories, maybe even more than that because discourse of wathing out for File Descriptors on Linux where everything is a file makes a good conversation. Process that leaks file descriptors is subject to OOM killer. in practice, though, OOM might arrive late or even never on an Yocto embedded system and process with file descriptor failures at random places is like alternator broken on a car. Because alternator give electricity to every piece of modern car the failure modes and funny behaviours are abundant
-
-
-
-
-
-
-
-
-
-
-
-
-
-# llm-wiki/wiki/stories/concurrency.md
-
-Need to mine gmail for intel communicatoion. And otherwise must make sure everything from gmail is properly in this repo, those brags I started and up to and including completely missed ones.
-
-# Intel TBB
-
-Fix everywhere it is Intel TBB not TPL.
-
-```
-"Intel TPL" is ambiguous — Intel's threading library is TBB (now oneTBB); TPL is Microsoft's .NET Task Parallel Library. The specialization entry preserves the owner's wording and does not pick one.
-```
-
-BTW despite fortran compiler bug saga Ken Bernstein and Illya polosukhin got excited to migrate SPM codebase to Intel Cpp compiler. I pushed back strongly Ken even called be "gatekeeper" and I didn't know the word and thought it is a compliment. My pushback was precisely because some blunder in C++ compiler would tank SPM hard and intel had no track record to help out. I also had an intuition that both Illya and Ken are very likely to leave the company soon to their bigger aspirations. It did happen, Ken went to Apple and Illya went to Google. Not too much committment from them, but at least they agreed to disagree. I don't recall we ever did any email communication about this. It is one of the vivid memory of mine, this conversation in the meeting.
-
-
-
-
-
-
-
-
-
-
+prospective employers are in cpp-edu repo. job-infra is how I look for jobs and cpp-edu is how I prepare for jobs.
 
 
 
@@ -103,57 +34,22 @@ Run copilot to see which GreatCall or best buy stories and other material need s
 
 Get all the material for data goverance stretch assignment with Alation, Rodd Johnson, etc In 
 
-- Outlook
+V Outlook
 
-- Rovo
+V Rovo
 
 - Trello
-
-
-
-
-
-
-
-
-
-
 
 # llm-wiki/wiki/resume/coverage/engineering.md
 
 There are a number of facts to mine Gmail for **Via Clause Cowork**
-
-# llm-wiki/wiki/stories/stewardship/records-nobody-asked-for.md
-
-Can be augmented with system-monitor story from best buy era. A contractor team lead by C++ superstar Michael Casey created a system-monitor process to manager lifecycle of r5 device (there is a detailed record of design specs in confluence). The project was fully unit tested. Because of r5 delays we had to defer putting system monitor on actual device. When it was time to resurrect the project unit tests didn't work. If I was in charge of the freeze, I would make sure everything builds and runs. But it was CVK who worked with contractors, and he just took their word for it and never tested himself. system-monitor is still in production with no unit test security harness as no one has time to figure out how to run them. xpmf (extensibe portable mobile framework) is another creation of Michael Casey consulting. It does MQTT handling and has beautiful design, but it relies on niche tool called Genie for interface definitions. No one knows how to build xpmf to this day.
-
-
-
-
-
-
-
-
-
-
-
 
 ## CCF repos
 
 Enrich CCF material with what was actually in repos. I might have actual traces two CCF processes talking to each other over LCM. LCM might be a good keyword for resume, including one for Embedded. Might attract some robotics oriented employers. Make sure to link the public  github.
 
 
-
-
-
-
-
-
-
-
 # Tailored Resume
-
-
 
 
 
@@ -176,10 +72,6 @@ Strong data science background
 Strong C++ background
 Could lead data engineering team with use of AI and other modern ways
 
-llm-wiki/raw/brag/2014-01-01-cloudsml-cloudspm-bigisle-big-data-rd.md must be made as my strong claim to fame in Data Engineering. Databricks must be the top contender of chops still relevant today. Snowflake pretty much obsoleted eye balling query graphs which I spent so much quality time in SQL server and got Relational Algebra ingrained in my mind. I love relational algebra, but unfortutely linear algebra doesn't land in my brain smoothly. Lucky 5% of world population making crazy money on GPT based AI.
-
-
-
 
 
 
@@ -191,54 +83,10 @@ session to incorporate everything is STOPPED BECAUSE OF SESSION LIMIT
 
 I recently ingested brag material about my mastery of boost C++ library. Work through material and promote it to stories
 
-# Cyber Security - CSO appreticeship
-
-Official title is 26 years old, but many side-projjects that are security related, and otherwise, I resurrected Embedded from Computer Engineering Data security majjor from ukraine (not computer science based, because how things were in UA in 1990s) and I am sure I can grow into CSO role, if there is an opportunity. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 ## 2. The five era registers in the voice page: if one reads wrong, that table is the thing to fix.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -11,7 +11,10 @@
 | **resume** (this repository) | The record: brag entries, synthesis, stories, the resume and its LinkedIn rendering, and the [dream-job hub](../dream-jobs/dream-job-hub.md), which grades futures against that record | The past, and how it is told | `bitbucket.org/ovz/resume` |
 | **job-search-infra** | The search: the application pipeline and recruiting contacts (a live tracker page with its own data store, plus its source and snapshots), per-application reading lists and tailoring | The present and the next move | `bitbucket.org/ovz/job-search-infra` |
 | **cpp_edu** | The practice: C++ training — standards essays for embedded work, guides, problem sets — tailored to specific employers under `jobs/<employer>/` | The skills the next stage needs | `bitbucket.org/ovz/cpp_edu` |
+| **about-me** | Who the owner is, for any assistant: a curated profile, preferences, trends register, and dated voice reports on how he writes and speaks across email, notes and AI-assistant history — kept in sync with a Claude project | Identity and voice, not career record | `bitbucket.org/ovz/about-me` |
 | **Claude Cowork** | The glue: conversations and tasks that keep going with every laptop off, through connectors and published pages | Continuous | — no repository of its own; what it produces lands in one of the three |
+
+**about-me is read, not written, from here.** Its voice reports help a spoken draft rehearse better; this repository's own [voice and prominence](voice-and-prominence.md) rules win wherever the two differ ([spoken drafts](spoken-drafts.md)). A fact about the career belongs here even when about-me mentions it too.
 
 **Rule of thumb: the past here, the search and the future in the siblings.** The dream-job hub stays here because its grades are only as good as the record beside it; acting on it — applications, outreach, preparation — happens in the siblings.
 
@@ -20,6 +23,8 @@
 ## Why this exists: a ten-year stage
 
 The owner's career has moved in stages of roughly a decade — cybersecurity as an undergraduate, the Salford Systems years from Ukraine, becoming an American principal engineer, then an embedded principal engineer — and another stage is due ([Oleg Zhylin](../entities/oleg-zhylin.md) § *Ten-year stages*). The repositories are split so that each can move at its own cadence without the others' history getting in the way, and the whole system is judged by one question: **does it help set up the next ten years?**
+
+The program-level tracker for the whole system is the tracker of the `career-system-plan` scope in this repository, reached through the root `TODO.md`. The three repositories are sibling checkouts under one directory on the owner's workstation.
 
 ## How the repositories talk
 
@@ -39,6 +44,10 @@ The owner's career has moved in stages of roughly a decade — cybersecurity as 
 | job-search-infra | cpp_edu | Which employers need which C++ preparation, and when |
 | resume | cpp_edu | Domain depth to study against — Boost MSM for state-machine design, embedded C++ standards behind the 2022 guidelines |
 | cpp_edu | resume | Demonstrated skill, as a brag entry when a series or a solution set is finished |
+
+## Cloud direction
+
+Owner's decision, 2026-09-25: this repository is a **round trip** with the cloud. It has no claude.ai project of its own; the cloud side is the job-search project, tracked from `cpp_edu` and the other career repositories. Inputs arrive from brag notes and varied upstream sources (mailbox messages, Cowork output); digests such as the about-me summary go back out. The repository stays the durable copy in both directions.
 
 ## Claude Cowork
 

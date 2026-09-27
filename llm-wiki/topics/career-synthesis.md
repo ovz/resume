@@ -5,7 +5,7 @@
 ## Career synthesis
 
 - [Risk engineering track record](../wiki/concepts/risk-engineering-track-record.md) - *reference.* Three evidence-bounded telling angles connecting Data Security, practical controls and engineering leadership. **Load when** preparing Risk Engineer or Engineering Manager positioning; risk is a capability track, not a dream-job direction.
-- [Accomplishments by domain](../wiki/concepts/accomplishments-by-domain.md) — *reference.* Headline accomplishments per domain with citations; the landing page for ingested brag entries and the pool the resume draws from. **Load when** drafting resume text or ingesting a brag entry.
+- [Accomplishments by domain](../wiki/concepts/accomplishments-by-domain.md) — *reference.* Headline accomplishments per domain with citations; the landing page for ingested brag entries and the pool the resume draws from. A router: its table names the shard for each domain — [devices, positioning and power](../wiki/concepts/accomplishments-devices.md), [data, ML and AI](../wiki/concepts/accomplishments-data-ml.md), [architecture, systems and networking](../wiki/concepts/accomplishments-architecture-systems.md), [build, quality and operations](../wiki/concepts/accomplishments-engineering-practice.md), [leadership, risk and security](../wiki/concepts/accomplishments-leadership-risk-security.md). **Load when** drafting resume text or ingesting a brag entry; then load only the shard you need.
 - [Four problems, four solutions](../wiki/concepts/four-problems.md) — *explanation.* Each domain read as the short list of problems anything in it must solve, with the record's answer to each; Russ White's model for networking, this repository's derivation elsewhere. **Load when** rehearsing for a domain conversation, or when a story or resume line needs a domain's shape rather than its inventory.
 - [Skills matrix](../wiki/concepts/skills-matrix.md) — *reference.* Skill × years baseline (~2020) plus deltas evidenced since. **Load when** checking keyword coverage or re-aging skills.
 - [Technical themes](../wiki/concepts/technical-themes.md) — *explanation.* Capabilities that recur across decades. **Load when** writing summary-level prose.
@@ -17,7 +17,7 @@
 
 The hub above is the entry point; these are its candidate pages. ★ = the owner's own idea, ○ = agent-suggested. Each carries the fit, the gap, the vocabulary to foreground, and the stories to tell for it.
 
-- ★ [Database internals in C++ or Rust](../wiki/dream-jobs/database-internals.md) · ★ [Next-generation AI sensor fusion](../wiki/dream-jobs/ai-sensor-fusion.md)
+- ★ [Database internals in C++ or Rust](../wiki/dream-jobs/database-internals.md) · ★ [Next-generation AI sensor fusion](../wiki/dream-jobs/ai-sensor-fusion.md) · ★ [Security leadership — an apprenticeship toward CSO](../wiki/dream-jobs/security-leadership.md)
 - ○ [Resilient and assured PNT](../wiki/dream-jobs/resilient-pnt.md) · ○ [Agentic engineering platform](../wiki/dream-jobs/agentic-engineering-platform.md) · ○ [Connected-device fleet reliability and cost](../wiki/dream-jobs/device-fleet-reliability.md) · ○ [Regulated medical device software](../wiki/dream-jobs/regulated-medical-software.md)
 - ○ [Telemetry and time-series engine internals](../wiki/dream-jobs/telemetry-engines.md) — the bridge candidate · ○ [Rust in safety-critical embedded](../wiki/dream-jobs/rust-safety-critical.md) · ○ [Edge AI on constrained wearables](../wiki/dream-jobs/edge-ai-wearables.md)
 

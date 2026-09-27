@@ -46,8 +46,10 @@ A 2026-09-16 breadth-first Gmail survey identified the thread by keyword (SPM 7.
 - [2004-01-01 client-server TCP/IP daemon](2004-01-01-spm-client-server-tcpip-daemon.md) — the concurrency origin.
 - [2010-01-01 SPM engine debugging — CART/TreeNet/MARS internals](2010-01-01-spm-engine-debugging-cart-treenet-mars.md) — the same-era engine work.
 - [2026-09-16 concurrency and parallelism specialization](2026-09-16-concurrency-parallelism-specialization.md) — the Fortran/Intel compiler vendor-dependency sibling case.
+- [2012-12-18 Intel C++ compiler migration pushback](2012-12-18-intel-cpp-compiler-migration-careful-path.md) — the December 2012 meeting where the same colleagues pushed Intel C++ and TBB into the main codebase, and the owner asked for a careful path and for the statistician's view on TBB in the engine.
 
 ## Record history
 
 - 2026-09-16: created, ingested from inbox note "gmail-brag-file-candidates.md" (candidate 4).
 - 2026-09-16: added *People* — Ken Bernstein (Bernie's son; chip design; later Apple), his rapport with Illia Polosukhin, and the owner's reading of his own long-tenure tendency.
+- 2026-09-24: reciprocal link to the 2012-12-18 entry, which the mailbox deep-dive produced.
