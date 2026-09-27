@@ -17,9 +17,16 @@
 - [`__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md) — review the belonging/stewardship hub section and About Me story AM1; land its commit guide
 - [`__untracked_stuff/2026-09-27-conform-to-shared-conventions/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-27-conform-to-shared-conventions/tasks/assignment_tracker.md) — land commits 001 (TODO.md links) and 002 (conform agent customizations to shared conventions)
 
-## Mailbox
 
-- `~/mailbox/resume/inbox/2026-09-27-session-scopes-policy-line.md` — add the `**Session scopes:** archive on-demand · lint on request` line to root `AGENTS.md`; Haiku 4.5 · low
+# .github/rules/about-me-and-cowork.md
+
+I think we need a better workflow for about m e. This repo can has inputs that describe me and so do other repos, claude.ai, etc. I already have weekly about me task in claude cowork. That task must produce zip file based on what claude cowork reasonably believes is new information about me. I think the ideal would be if claude cowork could also study git diffs of my bitbucket repos and harvest updated information from all sources. This makes it more a monthly activity, as inputs are more sizable and week to week might be too volatile. For now I believe it is practical to make about-me on this rig to be responsible to aggregate all the about me content on the rig when it receives about-me from claude cowork or other sources in the inbox. Make sure all the existing about-me related processes are properly consolidated in about-me repo and simplified to ingesting weekly about-me zips from claude cowork or otther cloud sources and optionally (on demand) scans of git history of other ~/bitbucket repos. optimize this repo and put ready for sonnet/medium execution information for agentic-linux and about-me. delegate about-me to look for my persona information inputs in local repos.
+ 
+
+
+
+
+
 
 
 # .github/skills/brag-capture/SKILL.md

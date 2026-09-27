@@ -5,6 +5,8 @@ description: "Record a professional accomplishment in the brag file, fold captur
 
 # Capture an accomplishment
 
+Stewardship: strict · home: resume
+
 The rules live in [`llm-wiki/wiki/workflows/brag-file.md`](../../../llm-wiki/wiki/workflows/brag-file.md): the capture step, the entry template, the dating rule, the duplicate/update/related test, and the ingest sequence. Read that page before writing anything. Nothing is duplicated here, so the two cannot drift.
 
 This skill is the on-demand entry point for agents that match on skill descriptions; [`llm-wiki/AGENTS.md`](../../../llm-wiki/AGENTS.md) delivers the same routing automatically once an agent is already working inside `llm-wiki/`. The gap this closes is the cold start — the owner mentioning an accomplishment while nothing in `llm-wiki/` is open.

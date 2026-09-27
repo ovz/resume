@@ -1,5 +1,7 @@
 # Resume Brag File — capture and ingest
 
+Stewardship: strict · home: resume
+
 > **Doc type:** how-to
 >
 > Low-friction capture of anything that might belong in the resume someday, plus the periodic pass that folds captures into the wiki. Deliberately separate from [updating the outward-facing resume](../resume/update-workflow.md). Audience: the owner (dropping) and any agent (dropping on the owner's behalf, or ingesting).

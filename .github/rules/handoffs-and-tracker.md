@@ -18,12 +18,14 @@ If work is under way and no scope exists yet, that is the signal to create one (
 
 ### Keeping the tracker true
 
-The mechanics are the `session-wiki-pattern` skill's, § *The tracker*. Four rules are this repository's policy:
+The mechanics — required shape, explicit links, done batches, owner-item re-judgement — are the `session-wiki-pattern` skill's `tracker.md`. Four rules are this repository's policy:
 
 - **Done items leave the tracker promptly**, into a done-batch file `tasks/done/<date>-<letter>-<slug>.md` that the tracker links — one line per batch, at most twenty, the oldest rotated out into `tasks/done/index.md`.
 - **Owner items are re-judged on every resume, before new work.** Read the cheap evidence first — `git log --oneline` since the tracker's date, `git show --stat` only on commits whose subject looks relevant, `git status --short`, `git diff --cached --stat`, `script/linkedin-sync.py status` — then move each owner item that is done or obsolete into a done batch, **with the evidence that decided it**. When the evidence is ambiguous, leave the item open and say what would settle it.
 - **Commit guides are owner assignments.** Every proposed commit file appears in the tracker's owner items, with its review guidance, until `git log` shows it landed — partially landed ones say what is still outstanding.
 - **`TODO.md` points the owner at trackers that hold owner items** and nothing more. It is the owner's scratch file; an agent does not re-add a trace the owner deleted unless new owner items have appeared since.
+
+Every tracker step and owner item links the file it acts on.
 
 Two further details:
 

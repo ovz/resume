@@ -6,7 +6,9 @@ Sections: [Agents do not commit](#agents-do-not-commit) · [Uncommitted work](#u
 
 ## Agents do not commit
 
-**Never run `git commit`, `git push`, `git tag`, or any other history-writing command.** Every change in this repository is reviewed by a human before it lands, without exception. Leave the work in the working tree and write the proposed commit message into the session-wiki scope's `commits/` — the `session-wiki-pattern` skill owns that format — then hand off through the tracker; see [`handoffs-and-tracker.md`](handoffs-and-tracker.md).
+**Never run `git commit`, `git push`, `git tag`, or any other history-writing command.** Every change in this repository is reviewed by a human before it lands, without exception. Leave the work in the working tree and write the proposed commit message into the session-wiki scope's `commits/` — the `session-wiki-pattern` skill owns that format — then hand off through the tracker; see [`handoffs-and-tracker.md`](handoffs-and-tracker.md). Say what changed and why; one file per proposed commit, naming the exact paths it covers.
+
+`git status`, `git diff`, `git log`, `git show` and other read-only inspection are always fine. So is `git stash` when protecting uncommitted work (below).
 
 ## Uncommitted work is the only thing git cannot give back
 

@@ -1,5 +1,7 @@
 # Sensitivity Tiers
 
+Stewardship: strict · home: resume
+
 > **Doc type:** reference
 >
 > Where each kind of information may live in this repository, and what must happen before it moves up a tier. Audience: the owner and every agent writing into `llm-wiki/`, `markdown/`, or `__untracked_stuff/`.
