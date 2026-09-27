@@ -130,9 +130,11 @@ This supports networked-device software engineering, not unearned claims of BGP/
 - [Cellular data-cost investigations](2024-01-04-cellular-cost-rogue-device-detection.md): carrier/device/warehouse correlation, controlled traffic generation and an operational response to excessive usage; already captured, not duplicated here.
 - [MQTT broker-test diagnosis](2024-12-31-device-test-automation-robot-framework.md): distinguishing laptop/VPN connectivity problems from a device or batching defect.
 - [The TCP/IP predictive-job daemon](2004-01-01-spm-client-server-tcpip-daemon.md): earlier transport, concurrency and protocol-design foundation.
+- [2026-07-28 AI-assisted device experiments](2026-07-28-ai-assisted-device-experiments.md) — the soak experiment that validated this mode, built and analysed with an AI coding agent.
 
 ## Record history
 
 - 2026-09-19: Created as the detailed networking implementation episode related to the existing power-specialization record, using direct source/history inspection and the owner's networking-career request. Capture only; no synthesis, coverage or public resume promotion.
 - 2026-09-19: Expanded at the owner's request with continued operation under application TCP/IP failure, separate SMS location and command communication, recovery capabilities and explicit shared-dependency limits. This system-level experience is not recast as original SMS architecture authorship or a measured outcome of the scheduling change.
 - 2026-09-21: Updated from an owner-supplied structured brag draft describing the same PR under the working name "keep-alive-only mode & sync gating" (PR #220). Added the PR number, the PR-description documentation practice, and the keep-alive-configuration/in-home-behavior Jira reconciliation. The draft's operational-metrics claims (battery-life deltas, traffic-byte reductions, ticket-rate changes) are **pending** and not recorded as achieved impact, consistent with this entry's existing evidence limitations; no new measurement is added by this update. Session-wiki capture: `20260921_brag-keep-alive-only-mode-sync-gating.md`.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

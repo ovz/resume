@@ -64,8 +64,11 @@ The linked entries in the table, and the primary resume's Minitab and Salford se
 - [2025-01-01 Data Steward](2025-01-01-data-steward-enterprise-data-catalog.md) — the formal role.
 - [2023-09-30 patch management SOP](2023-09-30-security-patch-management-sop-and-vendor-engagement.md), [2023-08-03 risk management](2023-08-03-risk-management-practice-early-analysis.md) — security and risk.
 - [2025-01-14 monitor lifecycle review](2025-01-14-r5-datadog-monitor-lifecycle-review.md) — portfolio stewardship.
+- [2023-01-30 system-monitor freeze counterexample](2023-01-30-system-monitor-freeze-counterexample.md) — the freeze done wrong, as a counterpoint to the Salford freeze.
+- [2025-01-10 compliance-vehicle pushback](2025-01-10-pii-obfuscation-pushback-compliance-vehicle.md) — security stewardship: find the standard before writing the control.
 
 ## Record history
 
 - 2026-09-16: created from the owner's direct statements, as a capability entry indexing existing evidence by register, with the toil-elimination chord grounded in Google's SRE definition of toil.
 - 2026-09-16: graduated into the story [stewardship/records-nobody-asked-for]; body unchanged.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

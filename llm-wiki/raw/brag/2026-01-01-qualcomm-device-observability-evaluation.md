@@ -51,8 +51,10 @@ Several fields could not become operationally useful without additional TCL impl
 - [2024-01-04-cellular-cost-rogue-device-detection](2024-01-04-cellular-cost-rogue-device-detection.md) — related analysis of cellular operating cost using device and carrier data.
 - [2025-05-01-qualcomm-skyhook-device-identity](2025-05-01-qualcomm-skyhook-device-identity.md) — earlier cross-company work establishing the device-identity prerequisite for Qualcomm/Skyhook observability and telemetry.
 - [2025-12-01-qualcomm-ces-aware-showcase](2025-12-01-qualcomm-ces-aware-showcase.md) — shared observability context, applied to Qualcomm's intended CES use of production Lively devices before this later fleet-platform evaluation.
+- [2022-09-16 buying positioning and calendar time](2022-09-16-skyhook-license-buy-calendar-time.md) — the positioning decision and the direct vendor relationship behind this evaluation.
 
 ## Record history
 
 - 2026-09-19: created from owner-supplied January 2026 accomplishment note
 - 2026-09-19: added *Related* forward link to the December 2025 Qualcomm CES showcase entry
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

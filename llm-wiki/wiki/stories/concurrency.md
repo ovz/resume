@@ -14,9 +14,9 @@ aliases:
 
 ## The through-line
 
-**Twenty years, one skill, spent twice.** In 2004-2005 he built a cross-platform TCP/IP daemon alone — every thread, every lifetime, the wire protocol, on three operating systems, before the standard library had threads. That is where the reflexes were bought. Everything after it is those reflexes spent on code somebody else wrote: an audio artifact diagnosed from doubled log lines without ever being witnessed, a positioning library's listener-thread fault found from fleet telemetry, and a manufacturer's producer-consumer C read closely enough to name each race as an actionable correction.
+**Twenty years, one skill, spent twice.** In 2004-2005 he built a cross-platform TCP/IP daemon alone — every thread, every lifetime, the wire protocol, on three operating systems, before the standard library had threads. That is where the reflexes were bought. Everything after it is those reflexes spent on code somebody else wrote — and on lifetimes as much as threads: two file-descriptor leaks in vendor code on two device generations, one found by reading, one by a guard. an audio artifact diagnosed from doubled log lines without ever being witnessed, a positioning library's listener-thread fault found from fleet telemetry, and a manufacturer's producer-consumer C read closely enough to name each race as an actionable correction.
 
-The arc has a second half that is not about bugs at all: **the abstractions**. The pattern literature, the industry's successive attempts to codify parallelism, a vendor compiler that miscompiled the analytics backend for a year, Boost.Asio as the day-to-day abstraction whose value he can state precisely *because* he built the hand-rolled version first, and C++ coroutines — the right answer, arriving about two years ago, on toolchains an embedded programme does not get to choose.
+The arc has a second half that is not about bugs at all: **the abstractions**. The pattern literature, the industry's successive attempts to codify parallelism, a vendor compiler whose regression kept the whole team pinned to the previous version for a year and a half, the argument for care a year before it, Boost.Asio as the day-to-day abstraction whose value he can state precisely *because* he built the hand-rolled version first, and C++ coroutines — the right answer, arriving about two years ago, on toolchains an embedded programme does not get to choose.
 
 ## Stories
 
@@ -24,14 +24,19 @@ The arc has a second half that is not about bugs at all: **the abstractions**. T
 |---|---|---|---|---|
 | C1 | [I built the hand-rolled version in 2005, so twenty years later I could read someone else's and see it](concurrency/lowest-level-reflexes.md) | The 2005 daemon bought the reflexes; the 2026 audio-service audit spent them — named the races in another company's C precisely enough to be implemented, reviewed every round, and QA reported the service running smoothly afterwards. Boost.Asio and coroutines are the follow-up depth | [2004-01-01 TCP/IP daemon](../../raw/brag/2004-01-01-spm-client-server-tcpip-daemon.md) · [2026-04-24 manufacturer corrections](../../raw/brag/2026-04-24-tcl-audio-service-concurrency-corrections.md) · cited not graduated: [2026-09-16 specialization](../../raw/brag/2026-09-16-concurrency-parallelism-specialization.md), [2026-09-14 Boost](../../raw/brag/2026-09-14-boost-library-proficiency.md) | **draft written** |
 | C2 | [I never heard the bug once, and I still know what it was](concurrency/the-bug-i-never-saw.md) | Stopped trying to reproduce an intermittent audio artifact and made the evidence dense instead: correlated logs showing the playback thread created twice and the wakelock taken twice before a forced-reboot gap, a second subsystem's counter agreeing, fault injection, and a negative experiment that separated two failure modes | [2023-09-26 audio-service race-condition diagnosis](../../raw/brag/2023-09-26-audio-service-race-condition-diagnosis.md) | **draft written** |
-| C3 | The compiler was wrong, and it took a year | The Intel Fortran compiler miscompiled the Fortran analytics backend; Intel engaged and stayed responsive, and resolution still took a year the business paid for. A responsive vendor and an acceptable time-to-resolution are two different things, and only the second is on your critical path | [2026-09-16 specialization](../../raw/brag/2026-09-16-concurrency-parallelism-specialization.md) § *Living with the Intel Fortran compiler* | **needs dating** — the episode has no year, compiler version or bug identity; owner item |
+| C3 | [I pinned a whole team to the older compiler for a year and a half](concurrency/the-compiler-was-wrong.md) | Certified Intel Fortran 14 for SPM's numerical backend, rolled every developer on two continents back within six weeks over Release-build internal compiler errors, escalated Intel Premier Support, and moved again only together. A responsive vendor and an acceptable time to resolution are two different things | [2013-12-01 Intel Fortran 14 rollback](../../raw/brag/2013-12-01-intel-fortran-14-rollback-premier-support-escalation.md) · cited: [2026-09-16 specialization](../../raw/brag/2026-09-16-concurrency-parallelism-specialization.md) | **draft written** (2026-09-24, dated from the mailbox) |
+| C4 | [They called me a gatekeeper, and I took it as a compliment](concurrency/the-gatekeeper.md) | Pushed back on moving the C++ codebase onto the Intel compiler before a release, wrote down a careful path — ship on the known toolchain, experiment on the next version, hear the statistician before TBB went into the engine — then set up the experiment himself | [2012-12-18 Intel C++ migration pushback](../../raw/brag/2012-12-18-intel-cpp-compiler-migration-careful-path.md) · cited: [2012-06-01 TBB evaluation](../../raw/brag/2012-06-01-spm7-linux-port-tbb-evaluation.md) | **draft written** (2026-09-24) |
+| C5 | [A process leaking file descriptors is like a car with a broken alternator](concurrency/the-alternator.md) | Read the chip vendor's code and experimented by hand until a descriptor leak in its modem-interface routing had an address; said plainly that mitigation was the only realistic answer when the vendor fix was out of reach. Carries the Linux descriptor follow-ups | [2021-05-19 QMI descriptor leak](../../raw/brag/2021-05-19-r4-qmi-file-descriptor-leak-mitigation.md) | **draft written** (2026-09-24) |
+| C6 | [The positioning library leaked twice](concurrency/the-guard-that-counted-descriptors.md) | The first leak was an easy fix that the manufacturer's update process kept off devices for almost a year until he pushed it through; the second shows only after five days of uptime, and he and a colleague ruled out the vendor library, narrowing it to the manufacturer-written location client — the audit that would close it was never scheduled | [2024-04-03 positioning-library descriptor leak](../../raw/brag/2024-04-03-skyhook-file-descriptor-leak-reproduction.md) | **draft rewritten** (2026-09-25, from the owner's two-leak account); the guard's details are still unrecorded |
 
 ## Reach for these when
 
 - **"Tell me about your hardest bug"** — C2, then [the fault that lost the fix](positioning/the-fault-that-lost-the-fix.md) if they want a second.
 - **Embedded, firmware or systems roles where concurrency is the actual job** — C1. It is the only story in the corpus that shows both halves: building the low-level thing and reading someone else's.
 - **Principal or architecture conversations** — C1, because the value in its second half is entirely judgement and influence, with no code written.
-- **Working with vendors, manufacturers or silicon partners** — C1's review technique, then C3 once it is dated.
+- **Working with vendors, manufacturers or silicon partners** — C1's review technique, then C3; C6 when the question is a third-party library.
+- **Linux systems, resource lifetimes, "hardest bug" with a Linux interviewer** — C5, then C6. The descriptor follow-ups in C5 are a conversation on their own.
+- **Release risk, toolchains, or disagreeing with senior colleagues** — C4, then C3.
 - **"What do you read / how do you keep sharp?"** — C1's follow-ups: the pattern literature, Boost.Asio's guarantees, the coroutine timeline, TLA+ in 2026.
 - **"Why do embedded engineers need this?", bare metal versus hosted, or Rust** — C1's follow-ups on the backend contrast and embedded Rust's do-it-yourself mandate, then [the power-budget story](positioning/power-budget-non-issue.md)'s concurrency follow-up for the two-processor wake-up chain. This is the framing the public resume now leads its concurrency achievement with (2026-09-16).
 - **Modernization and toolchain judgement** — C1's coroutine follow-up. It is the clearest example in the corpus of separating "the right answer exists" from "we can adopt it".
@@ -44,16 +49,15 @@ The arc has a second half that is not about bugs at all: **the abstractions**. T
 
 ## Status
 
-C1 and C2 are written as drafts (2026-09-16) and are ready to **rehearse** — read each aloud once, then set `status: rehearsed` in its frontmatter. C1 is the longer telling at about three minutes and carries the richest follow-up set in the corpus; it is the one to rehearse first.
+C1 and C2 are drafts from 2026-09-16, ready to **rehearse** — read each aloud once, then set `status: rehearsed`. C1 is the longer telling at about three minutes and carries the richest follow-up set in the corpus; rehearse it first.
 
-C3 is blocked on dating, not on writing. The Intel Fortran episode is recorded in full in the specialization entry, but a story needs a year, and inventing one would be the exact failure [voice and prominence](../workflows/voice-and-prominence.md) exists to prevent.
+C3 to C6 were written on 2026-09-24. C3 is no longer blocked on dating: the mailbox places the Intel Fortran regression in 2013–2015. The order is settled: the owner ruled on 2026-09-25 that the email-grounded record is authoritative, so the C++ debate (C4, December 2012) comes first and the Fortran year (C3, 2013–2015) follows, and C3's bug is internal compiler errors, not a miscompilation.
 
 ## Before writing more
 
-Two gaps in the record, both cheap to close:
-
-- **The Intel Fortran episode has no date, no compiler version and no bug identity.** It is the whole of C3.
-- **"Intel TPL" is ambiguous** — Intel's threading library is TBB (now oneTBB); TPL is Microsoft's .NET Task Parallel Library. The specialization entry preserves the owner's wording and does not pick one.
+- **The Intel Fortran fix is not in the record** — no closure of the escalated support case was found. C3 says so.
+- **"Intel TPL" is settled**: the owner confirmed on 2026-09-24 that it is Intel TBB.
+- **The Skyhook descriptor guard** (C6) is the owner's statement only; his 2026-09-25 account settled the two-leak story but not which check counted descriptors.
 
 ## Related
 

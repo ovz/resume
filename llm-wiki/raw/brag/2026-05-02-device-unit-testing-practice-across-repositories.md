@@ -56,7 +56,9 @@ Unit tests cannot substitute for hardware, emulator or fleet validation. The poi
 - [2024-10-18 Copilot embedded-C practice](2024-10-18-copilot-embedded-c-sdk-practice.md) — unit tests as prompt and design surface in the component framework.
 - [2025-01-16 phone capability SDK](2025-01-16-ccfphone-r5-device-lcm-odm-integration.md) — GoogleTest-style integration tests over live message channels.
 - [2022-04-06 Conan package and cross-build strategy](2022-04-06-conan-package-management-embedded-cross-build.md) — package-template and cross-build work this entry extends with its testability evidence.
+- [2023-01-30 system-monitor freeze counterexample](2023-01-30-system-monitor-freeze-counterexample.md) — a component that reached production after its unit tests stopped running.
 
 ## Record history
 
 - 2026-09-22: created from the comprehensive `~/ghe` unit-testing audit after the owner clarified that Robot, CCF and newer-repo unit-testing accomplishments are still brag material, while R5 remains the largest and most nuanced slice.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

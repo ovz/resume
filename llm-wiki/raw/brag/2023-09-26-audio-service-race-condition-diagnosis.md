@@ -70,9 +70,11 @@ The [later manufacturer-correction effort](2026-04-24-tcl-audio-service-concurre
 - [2021-10-16-battery-power-second-specialization](2021-10-16-battery-power-second-specialization.md) — wakelocks and sleep as the power mechanism that this race expressed itself through.
 - [2024-12-31-device-test-automation-robot-framework](2024-12-31-device-test-automation-robot-framework.md) — distinguishing broken tests from broken environments; the same refusal to accept "it is flaky" as an explanation.
 - [2023-12-05-operational-excellence-launch-readiness](2023-12-05-operational-excellence-launch-readiness.md) — the argument for chaos-style testing where the failures actually live, which is what fault injection is.
+- [2021-05-19 QMI file-descriptor leak](2021-05-19-r4-qmi-file-descriptor-leak-mitigation.md) — another failure that surfaced far from its cause.
 
 ## Record history
 
 - 2026-09-13: created from the committed Trello snapshots, prompted by the owner's statement of 2026-09-13 that concurrency and the heisenbugs it brings is a repeating story. Closes the repository's standing note to capture the audio-service troubleshooting as an entry.
 - 2026-09-14: linked the distinct April-May 2026 TCL correction effort and later owner-reported QA outcome, retaining the original investigation's attribution and root-cause limits.
 - 2026-09-16: graduated into [concurrency/the-bug-i-never-saw](../../wiki/stories/concurrency/the-bug-i-never-saw.md). Body untouched; `storied:` added.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

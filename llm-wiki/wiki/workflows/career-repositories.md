@@ -18,7 +18,7 @@
 
 **Rule of thumb: the past here, the search and the future in the siblings.** The dream-job hub stays here because its grades are only as good as the record beside it; acting on it — applications, outreach, preparation — happens in the siblings.
 
-**One boundary is still the owner's to draw:** employer research. It lives today in this repository under `wiki/analysis/employers/`, for past and prospective employers alike. Prospective employers may belong in job-search-infra instead; until that is decided, keep adding it here.
+**Employer research follows the same line, and the owner has drawn it (2026-09-25): this repository is about actual employers — the ones the owner has worked for.** Research on a past employer that explains the record (for example the Best Buy Health public-record page) lives here under `wiki/analysis/employers/`. Research on a prospective employer belongs in job-search-infra. The owner will work in this repository while talking to employers, but it must not grow as interviews accumulate: it is about what the owner has accomplished, and resume work here focuses on that.
 
 ## Why this exists: a ten-year stage
 
@@ -28,7 +28,7 @@ The program-level tracker for the whole system is the tracker of the `career-sys
 
 ## How the repositories talk
 
-1. **Each repository keeps its own gitignored scratch area**, `__untracked_stuff/<scope>/`, holding a session-wiki: raw capture, findings, commit proposals, a log, and an assignment tracker that is the resume token. The pattern's one copy is this repository's `session-wiki-pattern` skill; sibling repositories refer to it rather than copying it.
+1. **Each repository keeps its own gitignored scratch area**, `__untracked_stuff/<scope>/`, holding a session-wiki: raw capture, findings, commit proposals, a log, and an assignment tracker that is the resume token. The pattern's one copy is the `session-wiki-pattern` skill in the agentic_linux repo, reached from every repository through the user's own skill directories; no repository copies it.
 2. **Cross-repository work opens a scope in every repository it touches**, with the same scope name. A scratch file may cite another repository's committed files by path; a committed file never cites scratch.
 3. **Every open tracker is traced in its repository's root `TODO.md`** — one line per tracker with action items, added when it opens them, removed when it closes. A tracker in one repository may also be traced from another's `TODO.md` when the owner should see it there. This is the single, deliberate exception to "no committed file references scratch" (root [`AGENTS.md`](../../../AGENTS.md)).
 4. **Hand-offs go in the tracker, never only in a chat reply** — for Claude and for the owner alike.
@@ -40,7 +40,7 @@ The program-level tracker for the whole system is the tracker of the `career-sys
 | From | To | What |
 |---|---|---|
 | resume | job-search-infra | Stories and reading-list material, tailored resume variants, dream-job grades |
-| job-search-infra | resume | New evidence — an interview that probed a claim, feedback on a telling — as a brag inbox note; employer research worth keeping |
+| job-search-infra | resume | New evidence — an interview that probed a claim, feedback on a telling — as a brag inbox note; employer research on a prospective employer stays there; only new evidence about the record comes here |
 | job-search-infra | cpp_edu | Which employers need which C++ preparation, and when |
 | resume | cpp_edu | Domain depth to study against — Boost MSM for state-machine design, embedded C++ standards behind the 2022 guidelines |
 | cpp_edu | resume | Demonstrated skill, as a brag entry when a series or a solution set is finished |

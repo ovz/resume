@@ -33,9 +33,11 @@ Internal chat threads and observability-platform log queries (January and May 20
 ## Related
 
 - [2025-11-15-r5-location-engine-design](2025-11-15-r5-location-engine-design.md) — the later modular location engine that consolidates the fragmented positioning logic this investigation exposed.
+- [2024-04-03-skyhook-file-descriptor-leak-reproduction](2024-04-03-skyhook-file-descriptor-leak-reproduction.md) — the same library's descriptor leak, reproduced for the vendor in the same months; whether the two are connected is open.
 
 ## Record history
 
 - 2026-09-07: created
 - 2026-09-08: added *Related* link to the 2025-11-15 location-engine entry
 - 2026-09-13: graduated into story `positioning/the-fault-that-lost-the-fix`; `storied` property added, body untouched.
+- 2026-09-24: related link to the 2024-04-03 descriptor-leak entry.

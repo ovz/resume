@@ -40,10 +40,11 @@ SAS and SAS macro programming learned from scratch; survey-data preparation (ICP
 
 ## Evidence limitations
 
-- **The dates disagree.** The resume says 2008-2009; the mailbox shows May–September 2010 and January 2013, and says the J&J codebase had been run "back in the day" on SAS 8 — so an earlier phase existed, but whether the owner ran it is not established. Unresolved; the owner has been asked.
+- **The dates disagree, and the mailbox now says who ran the earlier phase (read 2026-09-25).** The earlier NCS-R data preparation, 2008 to January 2009, was **John Ries's**: on 15 January 2009 he wrote to a partner analyst "I've been completely out of the loop on NHANES (been focused on NCS-R)", set out Salford's missing-value conventions for the survey (impute skipped answers from prior ones; `.r` refused, `.d` don't know, `.n` not applicable; never overwrite a raw variable; label every new one) and offered his SAS macros. The owner's own record starts later: in May 2010 he asked John for "the document you've prepared back then" on data-preparation methodology, because the client had asked again, and in June 2010 he **forked the NCS-R data-prep code for the cluster analysis** "and made changes to minimize .n making a judgment wherever possible … keep .n usage to local (not section-wide)" — e.g. treating a respondent as a non-smoker when the screener shows no smoking issues and the section was skipped. His own SAS learning is visible from December 2009, reproducing a colleague's SAS pipeline for the Carrefour project in SQL Server ("Next time will do look up in SAS manual before asking").
+- **This bears on the public resume.** Its *2008-2009* project section says "I learned SAS from scratch and created a system based on SAS macros." On the mail, the 2008–2009 phase and its macro system were John's; the owner's work is 2010 (and the January 2013 follow-up), and his SAS learning dates from late 2009. Either the resume's date and attribution need correcting, or the owner has a 2008–2009 role the mail does not show. **Owner to decide; the resume is untouched.**
 - **"Outdid the in-house SAS expert" is the owner's account.** The mailbox shows the work, not a comparison; who the in-house expert was is not recorded, and nobody is named until the owner says.
 - **The client's name is T1.** Outward it stays "a large pharmaceutical company", as the resume already has it; the survey itself is public and may be named.
-- Snippets only; full threads not read.
+- The January 2009 and May–June 2010 threads were read in full; the rest from snippets.
 
 ## Related
 
@@ -54,3 +55,4 @@ SAS and SAS macro programming learned from scratch; survey-data preparation (ICP
 ## Record history
 
 - 2026-09-16: created from the owner's statement and a Gmail search that identified the survey, client, contacts and dates; public grounding for the NCS-R added.
+- 2026-09-25: mailbox read — the 2008–2009 phase was John Ries's; the owner's own work is 2010 (a judged-imputation fork for the cluster analysis) and 2013; the resume's *2008-2009* section flagged for the owner.

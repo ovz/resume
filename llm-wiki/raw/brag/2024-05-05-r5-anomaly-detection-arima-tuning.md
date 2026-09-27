@@ -31,8 +31,10 @@ Internal Confluence drafts and dated research notes on anomaly-monitor tuning (A
 ## Related
 
 - [2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts](2025-05-29-r5-anomaly-monitor-validated-against-mcu-alerts.md) — a year later, one of the per-category anomaly monitors produced by this tuning fired on a real device condition and was validated against independent firmware-level alerts.
+- [2022-11-10 percentiles over averages](2022-11-10-percentiles-over-averages-location-statistics.md) — the distribution-aware reasoning taught to colleagues.
 
 ## Record history
 
 - 2026-09-07: created
 - 2026-09-07: added *Related* forward link to the 2025-05-29 validation entry
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

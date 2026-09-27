@@ -25,9 +25,9 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 
 ### AI — AI adoption and agentic engineering
 
-**Entries:** [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) · [2026-05-26 agentic engineering](../../../raw/brag/2026-05-26-ai-adoption-agentic-engineering-choreographer.md) · [2024-10-18 Copilot practice for an embedded C SDK](../../../raw/brag/2024-10-18-copilot-embedded-c-sdk-practice.md)
+**Entries:** [2025-10-29 AI data product](../../../raw/brag/2025-10-29-ai-data-product-in-alation.md) · [2026-05-26 agentic engineering](../../../raw/brag/2026-05-26-ai-adoption-agentic-engineering-choreographer.md) · [2024-10-18 Copilot practice for an embedded C SDK](../../../raw/brag/2024-10-18-copilot-embedded-c-sdk-practice.md) · [2026-07-28 AI-assisted device experiments](../../../raw/brag/2026-07-28-ai-assisted-device-experiments.md)
 
-**Thread coverage: 25%** (3.5 of 14). `AI-1` and `AI-2` reached the resume on 2026-09-16 inside the data-stewardship paragraph; `AI-2` is `partial` because chat-with-your-data is not named. The 2024 embedded-C practice claims (`AI-8` to `AI-14`) arrived absent on 2026-09-19 and put a verifiable 2024 date under the resume's "leveraging AI since 2023".
+**Thread coverage: ≈ 28%** (4.5 of 16). `AI-1` and `AI-2` reached the resume on 2026-09-16 inside the data-stewardship paragraph; `AI-2` is `partial` because chat-with-your-data is not named. The 2024 embedded-C practice claims (`AI-8` to `AI-14`) arrived absent on 2026-09-19 and put a verifiable 2024 date under the resume's "leveraging AI since 2023".
 
 | Claim | Source | Status |
 |---|---|---|
@@ -45,6 +45,8 @@ The 2021–2022 platform-and-standards layer under the device programme: where t
 | `AI-12` Committed editor settings pointing the assistant's code-generation instructions at the repository's own C style guide, years before committed instruction files were standard | 2024-10-18 | absent |
 | `AI-13` Required a hallucination check on LLM-generated pull-request summaries and code review | 2024-10-18 | absent |
 | `AI-14` Drew a repository physical-design conclusion from workspace-indexing limits, preferring smaller repositories consuming each other through headers | 2024-10-18 | absent |
+| `AI-15` Designs and runs device experiments end to end with an AI coding agent — fleet configuration scripts, test procedures, notebook analysis — in calendar time | 2026-07-28 | **in** |
+| `AI-16` Judges where AI code generation is safe: straightforward code with no cleverness, where irrelevant code is easy to spot in review | 2026-07-28 | absent |
 
 > `AI-7` was `in` until 2026-09-09 and was **deliberately retired** from the resume, not lost: an unverifiable productivity multiplier was replaced by what was actually built (`AI-3`, `AI-4`). The claim stays on this page because the underlying fact is still true and the owner may want it back — see [editorial questions](editorial.md#open-questions).
 
@@ -61,11 +63,11 @@ A breadth-first Gmail survey pass (2026-09-16) surfaced eight distinct Salford S
 | Claim | Source | Status |
 |---|---|---|
 | `SALF-1` Directed release engineering across three parallel build tracks (English, Japanese, license-protected) for a commercial statistical modeling product, triaging cross-cutting bug reports as central reviewer, and ran a full literal-string-to-resource-table Japanese localization | 2009-06-01 | absent |
-| `SALF-2` Led the technical case for moving a team off Visual SourceSafe onto Git/GitHub and RedMine, including hands-on git-workflow mentorship of a colleague senior in tenure | 2012-01-01 | absent |
-| `SALF-3` Owned the architectural decision between SQLite and a JSON-document approach for a new persistent workspace feature's storage layer, articulating the trade-off against ACID requirements | 2012-09-01 | absent |
-| `SALF-4` Directly asked by the company president to prepare and help deliver the technical due-diligence presentation to an acquirer's representatives ahead of the company's acquisition | 2016-11-01 | absent |
+| `SALF-2` Led a team's migration from SVN to Git — access-controlled server, timing argument, scheduled cut-over, wiki runbooks — including hands-on git-workflow mentorship of a colleague senior in tenure | 2012-01-01 | absent |
+| `SALF-3` Argued for four years a document-store model repository and separate columnar data storage for SPM, with consistency and denormalisation trade-offs made explicit (never shipped) | 2012-09-01 | absent |
+| `SALF-4` Led engineering's side of an acquirer's pre-acquisition technical visits — integration pitch, technical deep dive and code review with their architect, written follow-up from source history, a second codebase visit | 2016-11-01 | absent |
 | `SALF-5` Made and defended staffing recommendations for an outsourced development team across three concurrent products, escalating the case to leadership | 2015-01-01 | absent |
-| `SALF-6` Owned a commercial license-protection build track from at least 2009 and corresponded directly with the licensing vendor on integration | 2009-02-01 | absent |
+| `SALF-6` Owned commercial licence protection from 2009 to 2017 — planned and ran the CodeMeter migration (2015), protected builds on Windows, Linux and macOS, licence-server and customer licensing support in production | 2009-02-01 | absent |
 
 > All six entries are candidates from a single-pass Gmail survey, not full-thread deep-dives — dates, named colleagues and quotes are preserved, but outcomes and full technical detail are largely unconfirmed. See *Evidence limitations* in each entry before promoting any claim.
 

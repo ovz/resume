@@ -121,6 +121,13 @@ The owner also describes a "Rob" as possibly the best boss he ever had — and s
 - Evidenced in: [2023-11-27 Home/Away beacon tracking](../../raw/brag/2023-11-27-r5-home-away-beacon-tracking.md)
 - **Reference potential: strong** for the device programme's firmware side, if reachable.
 
+### Sergey Galat
+
+Colleague, Best Buy Health (role not stated in the records). Worked with the owner, "diligently" in his word, to rule out the positioning vendor's library as the cause of the second, five-day file-descriptor leak on the R5 device, narrowing it to the device's own location-service client (owner's account, 2026-09-25).
+
+- Evidenced in: [2024-04-03 positioning-library descriptor leak](../../raw/brag/2024-04-03-skyhook-file-descriptor-leak-reproduction.md)
+- **Reference potential: not assessed** — role and period to confirm.
+
 ### The move to the U.S. — and the IIT years
 
 #### Irina Martimyanova
@@ -155,7 +162,9 @@ At Salford Systems around 2012–2013 (the RuleFit model-setup tab, the Carrefou
 
 A Mirabit (Ukraine) developer and the CloudSML lead in 2017, working to the owner's direction on scope, documentation and demos; the owner credits him as "a solid guidance" on storage architecture in the Cloud-ready SPM era. Software Engineer at NEAR Protocol since 2019; prolific open-source contributor (GitHub `frol`).
 
-- Evidenced in: [2015-01-01 Mirabit staffing](../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md), [2012-09-01 storage architecture](../../raw/brag/2012-09-01-spm-workspace-storage-architecture-sqlite-json.md), [2016-11-01 Minitab diligence](../../raw/brag/2016-11-01-salford-minitab-acquisition-technical-diligence.md)
+**The owner's best peer-to-peer collaboration** (2026-09-24): the two were strong in different halves of the problem — the owner the subject-matter expert on Salford's technology, Vlad (with Illia before him) on Python and Linux, cloud new to both. Vlad talked the owner into repaving the whole in-house big-data cluster into containers under Rancher; the result was a hybrid AWS/on-premises platform on which CloudSPM demonstrated model building on big data ([2016-09-01](../../raw/brag/2016-09-01-sparky-hybrid-container-cluster-rancher-aws.md)).
+
+- Evidenced in: [2015-01-01 Mirabit staffing](../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md), [2012-09-01 storage architecture](../../raw/brag/2012-09-01-spm-workspace-storage-architecture-sqlite-json.md), [2016-11-01 Minitab diligence](../../raw/brag/2016-11-01-salford-minitab-acquisition-technical-diligence.md), [2016-09-01 hybrid container cluster](../../raw/brag/2016-09-01-sparky-hybrid-container-cluster-rancher-aws.md)
 - **Reference potential: high priority (owner, 2026-09-16)** — speaks to the owner managing and architecting across a vendor boundary.
 
 #### Stas (Minkov) — a lead to use wisely
@@ -175,7 +184,7 @@ A friend of Dan Steinberg's with long brick-and-mortar retail experience, includ
 
 **Jeff Powers** — hired by the U.S. office as Bernie Bernstein's official successor; at Salford by 2009, gone by October 2014. The owner's account of that working relationship, and what it taught him about holding the bar against rent-seeking, is in [2012-01-01 Git/RedMine modernization](../../raw/brag/2012-01-01-salford-git-github-redmine-modernization.md). **Reference potential: none.**
 
-**Ken Bernstein** — Bernie's son; brilliant in chip design and later at Apple; the colleague behind the "porting TBB was doomed to fail" conclusion. See [2012-06-01](../../raw/brag/2012-06-01-spm7-linux-port-tbb-evaluation.md). **Reference potential: unlikely** — the domain was not his.
+**Ken Bernstein** — Bernie's son; brilliant in chip design and later at Apple; the colleague behind the "porting TBB was doomed to fail" conclusion. See [2012-06-01](../../raw/brag/2012-06-01-spm7-linux-port-tbb-evaluation.md). In December 2012 the founder named him technical leader for SPM speed-ups; he and Illia pushed to move the codebase to Intel's C++ compiler, the owner argued for a careful path, and — in the owner's memory — Ken called him a "gatekeeper", a word the owner did not know and took as a compliment. The heated exchange and the founder's note are recorded in [2012-12-18](../../raw/brag/2012-12-18-intel-cpp-compiler-migration-careful-path.md); they agreed to disagree. **Reference potential: unlikely** — the domain was not his.
 
 ### Reference candidates — outreach
 
@@ -189,6 +198,14 @@ The owner asked (2026-09-16) for "a good approach to get through arrogance of co
 6. **Spend Stas last, and once.** Reserve him for the conversation where a generous, specific reference changes the outcome.
 
 Order and timing are the owner's call.
+
+#### Michael Caisse (Ciere Consulting)
+
+The C++ consultant whose team built the R5 device's process supervisor and the XPMF messaging framework — in the owner's words a "C++ superstar", and XPMF "beautiful design". Both are the owner's cautionary precedents: a framework whose build toolchain became unrecoverable, and a supervisor paused without a build-and-run check whose tests no longer ran when it was revived ([2024-05-08](../../raw/brag/2024-05-08-ccf-capability-framework-lcm-open-source.md), [2023-01-30](../../raw/brag/2023-01-30-system-monitor-freeze-counterexample.md)). The owner's note spells him "Casey"; the committed record's spelling is kept. **Reference potential: none recorded.**
+
+#### Christopher VanKirk (CVK)
+
+A GreatCall / Best Buy Health device-team colleague who managed the contractor relationship for the process supervisor and wrote its statements of work (2021–2022). The owner's one-on-one agendas from 2020 to 2024 record repeated disagreements about scope, test harnesses versus unit tests, territoriality and collaboration style, and in 2023 the owner asked his manager for help including him and keeping scope simple. Recorded here because the working relationship is part of the record (sensitivity rule 8); no telling names him or characterises him. **Reference potential: none.**
 
 ### Others appearing in the records
 

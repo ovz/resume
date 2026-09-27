@@ -40,7 +40,7 @@ Open the graph view. Colour is the pipeline stage:
 | 🩷 **Magenta** | `wiki/stories/` | **Told-able stories** — what you reread before an interview or an event. |
 | 🟠 **Amber** | brag entries with `resume-worthy: yes` | Captured and judged promotable, **not yet on the resume**. These are the nodes to move next. |
 | 🟢 **Teal** | all other brag entries | Captured. Real evidence, not necessarily resume material. |
-| 🟣 **Deep purple** | `wiki/analysis/employers/` | Employer research — past employers and prospective ones, one dated page per piece of research. |
+| 🟣 **Deep purple** | `wiki/analysis/employers/` | Employer research — past employers only, one dated page per piece of research. |
 | 🟣 **Purple** | `wiki/analysis/` | Durable answers to questions that came up — context, not accomplishments. |
 | 🔵 **Steel blue** | `wiki/resume/` | The resume machinery: structure, link conventions, coverage map. |
 | 🔵 **Blue** | rest of `wiki/` | Synthesis: domains, entities, workflows, sources. |

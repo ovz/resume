@@ -58,6 +58,7 @@ Seventeen years of a product line, and the part I am proudest of is the boring p
 ## If they follow up
 
 - **"What does freezing a project properly mean?"** → Write the state down as if the reader is a stranger, because they will be: the decision history, not just the code; the dependency versions; the one experiment that failed and why. The test is whether someone who never met you can restart it. Most "paused" projects fail that test on day one.
+- **"What does a freeze done wrong look like?"** → I have seen one since. At my current company an outside consultancy built a process supervisor for the device — fully unit-tested, good engineers. Because the device was delayed, it was put on hold. When it was time to bring it back, the unit tests did not run. It went to production anyway, and it still has no working test harness, because nobody has had the time to work out how to run them. If I had been running that freeze, the one thing I would have insisted on is that on the day you stop, somebody who is not the author builds it and runs the tests, and writes down how. The same consultancy's messaging framework has a beautiful design and depends on a niche code generator for its interfaces — nobody can build it today.
 - **"Isn't that just documentation?"** → It is documentation with an owner. The difference is that I kept it when nobody was asking for it and there was no deadline attached, which is the only time it actually gets written.
 - **"Where else does this show up?"** → It is the thread through my career. The security version: I wrote a NIST-grounded patch-management SOP for a fleet of devices after tracing firmware staleness to a partner who patched on release, which is not the same thing as patching deliberately. The data version: I hold the formal Data Steward role on our enterprise data catalog for device data — governance is just risk management applied to data, who owns it and what it means and whether it earns what it costs to keep. The code version: I am the one fully qualified on a state-machine architecture whose authors have all left.
 - **"How does that square with eliminating toil? Records sound like toil."** → Opposite ends of the same idea. A steward is judged by the condition of what is handed on, and hand work is where drift and single points of knowledge live — so I automate it away. On-device test automation that cut testing time by orders of magnitude, and then I onboarded the QA engineers onto it so the gain outlived my attention. That last part is the stewardship half; building it was the easy half.
@@ -74,10 +75,13 @@ The claim that the records are *why* the pace was possible is the owner's own ac
 
 T1: the acquirer is Minitab and the acquired company Salford Systems, both public on the resume; the frictions of the post-acquisition environment, the separation correspondence, and the recommendation letter Minitab declined to sign are recorded in the archive and are **never** told outward or used as endorsement. The Data Steward register names Alation internally; outward it is "our enterprise data catalog". The inherited state-machine codebase is owner-reported.
 
+**The counterexample, T1:** the process supervisor is the R5 "system-monitor", built by Ciere Consulting (Michael Caisse); the messaging framework is XPMF, which depends on the Genie tool; the contractor relationship was managed by Christopher VanKirk, who took the contractors' word that it was done. My note of January 2023 names it as "the blast from the past". Told without names, and never as a verdict on the colleague — the lesson is what a freeze needs.
+
 ## Sources
 
 - [2026-09-16 Stewardship as a first principle](../../../raw/brag/2026-09-16-stewardship-first-principle.md)
 - [Primary resume](../../../../markdown/Oleg.Zhylin.resume.achievements.md) § *Minitab* and § *2017-2018 Acquisition of Salford Systems by Minitab*
+- [2023-01-30 process-supervisor freeze counterexample](../../../raw/brag/2023-01-30-system-monitor-freeze-counterexample.md) — the freeze done wrong, in the follow-ups
 - [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) · [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) — the follow-up registers
 
 ## Related stories

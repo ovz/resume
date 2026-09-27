@@ -93,7 +93,9 @@ Nothing was blocked. The honest shape of the story is that the built part is nar
 - [2024-09-24 Current Health and the quality management system](2024-09-24-current-health-hospital-at-home-qms.md) — the Orcanos experience behind the QMS extension.
 - [2025-01-16 SDK binary hardening](2025-01-16-ccf-sdk-binary-hardening.md) — the device-side security engineering; distinct work, and **not** what the Cyber Security meeting was about.
 - [2025-05-23 mentorship and the Principal Engineer goal](2025-05-23-mentorship-principal-engineer-goal.md) — Tim Wodarski, the mentor who opened the door to this meeting.
+- [2025-01-10 compliance-vehicle pushback](2025-01-10-pii-obfuscation-pushback-compliance-vehicle.md) — the same governance instinct applied to log lines.
 
 ## Record history
 
 - 2026-09-20: created from the owner's presentation deck and meeting invitation. **This entry corrects an ingest error made on 2026-09-19**, when the Cyber Security presentation was attached to the SDK binary-hardening entry on the assumption that "infosec applicability" referred to the device SDK. It did not — the talk was about this framework, and the security entry has been corrected and renamed.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

@@ -59,8 +59,10 @@ Merged pull request introducing the choreographer agent to the internal agent-pl
 - [2024-04-18-r5-datadog-community-presentation](2024-04-18-r5-datadog-community-presentation.md) — precedent for reframing a team-level effort as reusable cross-team guidance; the same move is made here with agent patterns and the knowledge base.
 - [2024-05-08-ccf-capability-framework-lcm-open-source](2024-05-08-ccf-capability-framework-lcm-open-source.md) — earlier enablement work sharing the same lever: reusable framework plus documentation and contribution guidelines to lower onboarding friction.
 - [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — the FOTA gap AI-assisted research caught, which the follow-up above draws on.
+- [2026-07-28 AI-assisted device experiments](2026-07-28-ai-assisted-device-experiments.md) — the individual practice: experiments whose tooling now costs calendar time rather than project time.
 
 ## Record history
 
 - 2026-09-08: created from an owner-supplied brag write-up dated 2026-05-26
 - 2026-09-14: *Follow-up, 2026-09* added from the owner's statement — the FOTA gap an agent noticed, and his position that grounding belongs in risk-management policy; *Related* link to the 2026-09-01 entry.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

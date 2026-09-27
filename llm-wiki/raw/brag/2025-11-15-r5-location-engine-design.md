@@ -51,6 +51,7 @@ Added 2026-09-14 and revised the same day after the owner's clarification.
 
 - [2024-05-15-skyhook-positioning-root-cause-diagnostics](2024-05-15-skyhook-positioning-root-cause-diagnostics.md) — earlier positioning-reliability work on the Wi-Fi/GNSS side of the same device family; the fragmentation diagnosed there is part of what this engine consolidates.
 - [2026-09-01-r5-beacon-tracking-fota-persistence](2026-09-01-r5-beacon-tracking-fota-persistence.md) — later work on the beacon provider of this engine: persisting paired beacon state across FOTA updates and hardening the beacon lifecycle/error handling.
+- [2022-09-16 buying positioning and calendar time](2022-09-16-skyhook-license-buy-calendar-time.md) — the buy-versus-build decision for the positioning source this engine arbitrates.
 
 ## Record history
 
@@ -58,3 +59,4 @@ Added 2026-09-14 and revised the same day after the owner's clarification.
 - 2026-09-13: graduated into story `positioning/one-engine-for-every-source`; `storied` property added, body untouched.
 - 2026-09-14: *Evidence limitations* added — August 2026 board notes contradict beacon tracking being a provider behind a finished engine; owner ruling pending. `storied` removed because the story `positioning/one-engine-for-every-source` was retired as wrong; the entry returns to the working graph.
 - 2026-09-14 (second round): *Evidence limitations* revised — the owner clarified that the state-machine argument concerns add-ons accreted onto beacon tracking, so the "contradiction" framing was withdrawn; the remaining limitation is that the board does not document the engine itself.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

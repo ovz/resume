@@ -42,9 +42,9 @@ A 2026-09-16 breadth-first Gmail survey identified this thread from corresponden
 
 ## Evidence limitations
 
-**Breadth-first candidate, not a deep-dive.** The survey preserved one strong verbatim quote and named the technical areas (grove-pointer lifetime, R-squared/TSLS, partial dependency) but did not extract specific bug identifiers, fix dates, or the full context of the assertions-as-watchdogs statement. The philosophy quote is recorded here exactly as surfaced; it should be re-verified against the full email before it is used outward as a direct quotation.
+**The assertions quote is verified, and its context corrected (mailbox, read 2026-09-25).** The full sentence, 3 November 2009, is: *"I prefer to treat assertions as watchdogs which only get activated if the abnormal situation is detected."* It was written to **Phil Colla**, the engine developer, not to Dan Steinberg, in the "SPM 6.6.0.045" release thread. The case: a `USE` command on a CSV that was open in Excel killed a non-GUI build with `Assertion failed: pFile` in the file-I/O library. The owner's position was that "Access Denied to a file is a perfectly normal situation" and should be handled; Phil answered that release GUI builds handled it and the assertion was his own debugging aid, and offered to disable assertions in release compiles. The same thread shows the owner reviewing the engine's TreeNet plot-export XML for that release — the closing tag written only on `QUIT`, variable names spelled inconsistently between the data dictionary and the plot coordinates, and a character variable exported as continuous — the last two fixed in 6.6.0.046. The release itself added scoring of TSLS models "in support of Carrefour work".
 
-**More detail could be mined from Gmail via the Gmail connector available to Claude** — reading the full thread(s) with Dan Steinberg to get the complete quote, dates, and surrounding technical context. That mining is deferred to a later session (this desktop or a Claude web chat), not performed here.
+**Still survey-level:** the grove-pointer lifetime and R-squared/TSLS items, and the partial-dependency dialogue with Dan Steinberg, were not re-read; no bug identifiers or fix dates are recorded for them.
 
 ## Related
 
@@ -59,3 +59,4 @@ A 2026-09-16 breadth-first Gmail survey identified this thread from corresponden
 - 2026-09-16: added the owner's framing (a mathematical paper encoded in Fortran; testing his mathematical boundaries; appreciating colleagues' talents) and his instruction that this be featured among prominent achievements.
 - 2026-09-16: graduated into the story [salford/a-paper-encoded-in-fortran]; body unchanged.
 - 2026-09-24: reciprocal *Related* link to an entry created the same day.
+- 2026-09-25: assertions-as-watchdogs quote verified in full against the 2009-11-03 thread; addressee corrected to Phil Colla; release-QA context added to *Evidence limitations*.

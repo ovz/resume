@@ -60,7 +60,10 @@ The leadership board carries the quarterly-conversation records naming the Datad
 - [2021-10-16-battery-power-second-specialization](2021-10-16-battery-power-second-specialization.md) — the domain where the cheap-experiment half of this practice mattered most.
 - [2024-01-04-cellular-cost-rogue-device-detection](2024-01-04-cellular-cost-rogue-device-detection.md) — a threshold agreed in advance and validated against a deliberately misbehaving device, rather than negotiated during an incident.
 - [2022-05-18-snowflake-edw-device-telemetry](2022-05-18-snowflake-edw-device-telemetry.md) — the warehouse access that made notebooks a credible replacement for requested reports.
+- [2022-11-10-percentiles-over-averages-location-statistics](2022-11-10-percentiles-over-averages-location-statistics.md) — the teaching instance: percentiles instead of means and standard deviations.
+- [2026-07-28-ai-assisted-device-experiments](2026-07-28-ai-assisted-device-experiments.md) — the cheap decisive experiment, now in calendar time.
 
 ## Record history
 
 - 2026-09-13: created from the owner's direct statement of 2026-09-13, grounded the same day in the committed Trello snapshots. Filed at the recent end of the range, where the documented evidence is; the 2019 start is the owner's dating of the practice, supported for that period only by the primary resume's account of introducing the team to data-science tooling during the 2019 relaunch.
+- 2026-09-24: related links to the 2022-11-10 percentiles entry and the 2026-07-28 AI-assisted experiments entry.

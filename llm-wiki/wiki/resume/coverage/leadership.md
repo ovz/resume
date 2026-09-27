@@ -6,9 +6,9 @@
 
 ### LEAD — Managing upward and the quarterly cycle
 
-**Entries:** [2025-05-28 bar-raiser practice](../../../raw/brag/2025-05-28-bar-raiser-practice.md) · [2021-06-23 quarterly-conversation practice](../../../raw/brag/2021-06-23-quarterly-conversation-practice.md) · [2020-07-14 upward feedback](../../../raw/brag/2020-07-14-upward-feedback-practice.md) · [2021-06-29 engineering excellency](../../../raw/brag/2021-06-29-engineering-excellency-and-meeting-facilitation.md) · [2023-05-02 performance conversation](../../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md) · [2025-04-01 Staff Engineer positioning](../../../raw/brag/2025-04-01-staff-engineer-behaviors-principal-positioning.md) · [2025-05-23 mentorship](../../../raw/brag/2025-05-23-mentorship-principal-engineer-goal.md)
+**Entries:** [2025-05-28 bar-raiser practice](../../../raw/brag/2025-05-28-bar-raiser-practice.md) · [2021-06-23 quarterly-conversation practice](../../../raw/brag/2021-06-23-quarterly-conversation-practice.md) · [2020-07-14 upward feedback](../../../raw/brag/2020-07-14-upward-feedback-practice.md) · [2021-06-29 engineering excellency](../../../raw/brag/2021-06-29-engineering-excellency-and-meeting-facilitation.md) · [2023-05-02 performance conversation](../../../raw/brag/2023-05-02-performance-conversation-and-promotion-context.md) · [2025-04-01 Staff Engineer positioning](../../../raw/brag/2025-04-01-staff-engineer-behaviors-principal-positioning.md) · [2025-05-23 mentorship](../../../raw/brag/2025-05-23-mentorship-principal-engineer-goal.md) · [2019-01-01 product-vision objection](../../../raw/brag/2019-01-01-lively-home-objection-mission-definition.md)
 
-**Thread coverage: ≈ 25%** (4 of 16 promotable; 2 held)
+**Thread coverage: ≈ 24%** (4 of 17 promotable; 2 held)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -30,6 +30,7 @@
 | `LEAD-16` The Qt team was surprised to be asked to aim higher, then glad of it | 2025-05-28 | **in** |
 | `LEAD-17` Reads which environments let a raised bar compound rather than assuming one | 2025-05-28 | **in** |
 | `LEAD-18` Recognised his own philosophy in a formal *Bar Raiser* role at Current Health | 2025-05-28 | absent |
+| `LEAD-19` Raised an early concern about a product vision's fit, and drew the lesson that a poorly defined mission wastes money even in a well-funded company | 2019-01-01 | absent |
 
 > **`LEAD-9` and `LEAD-10` are marked `held`** — deliberately never promotable, at the owner's direction. They record a performance challenge and a contested promotion, and the owner's position is that he cannot document a win against those headwinds in resume form. They stay in the brag file because they are part of the professional record; they are excluded from the coverage denominator because counting claims that will never be promoted would make the metric measure the wrong thing. The organizational context that makes this period explicable is in [Best Buy Health context](../../analysis/employers/best-buy-health/2026-09-10-best-buy-health-2024-2026-divestiture-public-record.md), which is where an interview answer should draw from instead.
 
@@ -75,9 +76,9 @@
 
 ### RSK — Risk, security and process practice
 
-**Entries:** [2023-08-03 risk management analysis](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) · [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) · [2023-12-05 launch readiness](../../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md) · [2025-01-16 SDK binary hardening](../../../raw/brag/2025-01-16-ccf-sdk-binary-hardening.md) · [2025-11-13 Column Mapping Framework](../../../raw/brag/2025-11-13-column-mapping-framework-alation-data-governance.md) (primary claims under `DATA`)
+**Entries:** [2023-08-03 risk management analysis](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) · [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) · [2023-12-05 launch readiness](../../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md) · [2025-01-16 SDK binary hardening](../../../raw/brag/2025-01-16-ccf-sdk-binary-hardening.md) · [2025-11-13 Column Mapping Framework](../../../raw/brag/2025-11-13-column-mapping-framework-alation-data-governance.md) (primary claims under `DATA`) · [2025-01-10 compliance-vehicle pushback](../../../raw/brag/2025-01-10-pii-obfuscation-pushback-compliance-vehicle.md)
 
-**Thread coverage: ≈ 54%** (7 of 13)
+**Thread coverage: ≈ 47%** (7 of 15)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -95,6 +96,8 @@
 | ~~`RSK-12` Presented the SDK work and its information-security applicability to enterprise Cyber Security leadership, well received by the Senior Director of Cyber Security Risk & Compliance, with a follow-up pending~~ — the presentation was about the Column Mapping Framework, not the SDK; re-stated as `RSK-13` and `RSK-14` | 2025-01-16 | struck 2026-09-20 |
 | `RSK-13` Argued to enterprise Cyber Security leadership that a source-grounded roundtrip framework shifts security tooling left — asset inventories, data classification and scanner gates — making the pull request the natural unit of risk management | 2025-11-13 | absent |
 | `RSK-14` Presented to the Senior Director of Cyber Security Risk & Compliance in December 2025, introduced by his mentor and supported by the data-governance leader; appreciated, with a follow-up pending | 2025-11-13 | absent |
+| `RSK-15` Pushes back on home-made obfuscation of identifiers and coordinates: a control needs a document, an auditor or the enterprise scanner | 2025-01-10 | absent |
+| `RSK-16` Places the treatment of sensitive device data in the compliance programme — classification, log-system access and retention, the scanner's rule — rather than in ad hoc code | 2025-01-10 | absent |
 
 > `RSK-12` was struck on 2026-09-20. It was created the previous day from an inference that "infosec applicability" referred to the device SDK's hardening; the owner's own meeting invitation shows the talk was about the Column Mapping Framework. The underlying fact survives as `RSK-13` and `RSK-14`, sourced to the right entry.
 
@@ -106,9 +109,9 @@
 
 The disposition that connects `RSK`, `DATA` governance, `OBS` portfolio care and the Minitab IP transfer: ownership of what is held in trust, practised by eliminating toil. A capability thread — its entry indexes evidence that lives in other threads, so its claims are about the principle and its outward telling, never duplicates of theirs.
 
-**Entries:** [2026-09-16 stewardship as a first principle](../../../raw/brag/2026-09-16-stewardship-first-principle.md) · cross-listed: [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) (claims under `DATA`), [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) and [2023-08-03 risk management](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) (claims under `RSK`)
+**Entries:** [2026-09-16 stewardship as a first principle](../../../raw/brag/2026-09-16-stewardship-first-principle.md) · cross-listed: [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) (claims under `DATA`), [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) and [2023-08-03 risk management](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) (claims under `RSK`) · [2023-01-30 freeze counterexample](../../../raw/brag/2023-01-30-system-monitor-freeze-counterexample.md)
 
-**Thread coverage: 75%** (3 of 4)
+**Thread coverage: 60%** (3 of 5)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -116,6 +119,7 @@ The disposition that connects `RSK`, `DATA` governance, `OBS` portfolio care and
 | `STEW-2` Practises stewardship in several registers at once — security and risk, data, technical, and people and organization | 2026-09-16 | **in** |
 | `STEW-3` Treats eliminating toil as how stewardship is practised: a steward is judged by what is handed on, and hand work is where drift and single points of knowledge live | 2026-09-16 | **in** |
 | `STEW-4` Extends stewardship to the employer's information, describing internal systems by function and keeping internal names off public material | 2026-09-16 | absent |
+| `STEW-5` Holds that a frozen project must still build and its tests still run on the day it stops, from a counterexample observed first-hand | 2023-01-30 | absent |
 
 > Promoted the day it was captured: a *My Story* sentence, a C2 achievement in both resumes, and a data-stewardship paragraph in the 2023-2026 security and risk project section. `STEW-4` is deliberately left off the resume — it is practised by the resume rather than claimed on it, and it is a follow-up answer in a story.
 

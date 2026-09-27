@@ -68,6 +68,8 @@ Read from his own presentation speaker notes, which are what he said in the room
 
 The register tables below still apply; this section governs sentence shape inside whichever register is chosen.
 
+**The ban is on lines composed to be quoted, not on his own sayings.** A rule the owner actually states in his own words — recorded in a brag entry or his dictation — may appear once in a story, introduced as his and never as the closing line. How to build spoken lines from his dictation, and the other rehearsal craft this section implies, is [spoken drafts](spoken-drafts.md); that page is subordinate to this one.
+
 ## The registers, era by era
 
 | Era | Who you were | The register it earns | Say it only from inside this era | The trap |
@@ -129,7 +131,7 @@ In a telling:
 
 | Doing this | Apply |
 |---|---|
-| Writing a story ([brag-stories.md](brag-stories.md)) | Pick the era register before writing the narrative; write *Why I still care* first; put blocked work in *If they follow up* with its lesson |
+| Writing a story ([brag-stories.md](brag-stories.md)) | Pick the era register before writing the narrative; write *Why I still care* first; put blocked work in *If they follow up* with its lesson; build the spoken lines from the owner's own dictation per [spoken drafts](spoken-drafts.md) |
 | Building a reading list | Order by support × impact, not by recency alone; include at least one blocked-work answer, because it will be asked |
 | A resume pass ([update-workflow.md](../resume/update-workflow.md)) | Prominence table above decides placement before wording is drafted; check the claim's coverage status first |
 | A LinkedIn pass ([linkedin-publish.md](linkedin-publish.md)) | The About section is the highest-prominence surface in the corpus. Only well-grounded, high-impact claims belong in its first paragraph |

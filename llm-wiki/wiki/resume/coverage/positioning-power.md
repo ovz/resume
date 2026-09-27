@@ -8,9 +8,9 @@
 
 Four entries, 2023–2026: a feature owned from its inception, field diagnostics, and the architecture.
 
-**Entries:** [2023-11-27 Home/Away beacon tracking](../../../raw/brag/2023-11-27-r5-home-away-beacon-tracking.md) · [2024-05-15 positioning root cause](../../../raw/brag/2024-05-15-skyhook-positioning-root-cause-diagnostics.md) · [2025-11-15 location engine](../../../raw/brag/2025-11-15-r5-location-engine-design.md) · [2026-09-01 beacon FOTA persistence](../../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md)
+**Entries:** [2023-11-27 Home/Away beacon tracking](../../../raw/brag/2023-11-27-r5-home-away-beacon-tracking.md) · [2024-05-15 positioning root cause](../../../raw/brag/2024-05-15-skyhook-positioning-root-cause-diagnostics.md) · [2025-11-15 location engine](../../../raw/brag/2025-11-15-r5-location-engine-design.md) · [2026-09-01 beacon FOTA persistence](../../../raw/brag/2026-09-01-r5-beacon-tracking-fota-persistence.md) · [2020-01-01 R4 location fix](../../../raw/brag/2020-01-01-r4-location-fix-engineer-to-engineer-borqs.md) · [2022-09-16 buying positioning and calendar time](../../../raw/brag/2022-09-16-skyhook-license-buy-calendar-time.md) · [2024-04-03 positioning-library descriptor leak](../../../raw/brag/2024-04-03-skyhook-file-descriptor-leak-reproduction.md)
 
-**Thread coverage: ≈ 63%** (7.5 of 12)
+**Thread coverage: 50%** (9 of 18)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -27,6 +27,12 @@ Four entries, 2023–2026: a feature owned from its inception, field diagnostics
 | `POS-11` Drove the contract manufacturer's MCU and cradle BLE firmware to specification against a frozen cradle firmware | 2023-11-27 | **in** |
 | `POS-12` Designed for optionality and held scope minimal (YAGNI) while consumers were out of scope, then argued for a location state machine as the next stage once top-down add-ons accreted | 2023-11-27 | partial |
 | `POS-13` Named the long-running feature branch as technical debt while it accrued, and paid it down | 2023-11-27 | absent |
+| `POS-14` Fixed degrading location on the previous-generation device through engineer-to-engineer work with the manufacturer's engineers and the chip vendor, becoming the company's positioning expert | 2020-01-01 | **partial** |
+| `POS-15` Argued to license a commercial positioning service per device over home-grown fusion, on commercial-customer reliability and calendar time | 2022-09-16 | **in** |
+| `POS-16` Evaluated the vendor SDK against the previous generation as the baseline before adopting it | 2022-09-16 | absent |
+| `POS-17` Built a direct engineering relationship with the positioning vendor where chip-vendor communication otherwise routes through the manufacturer | 2022-09-16 | absent |
+| `POS-18` Reproduced a third-party positioning library's slow file-descriptor leak (five days of uptime to appear) and, with designed experiments, ruled the library out and narrowed the leak to the device's location client | 2024-04-03 | absent |
+| `POS-19` Escalated an earlier leak's library fix into the release after the manufacturer's update process held it back for almost a year | 2024-04-03 | absent |
 
 > Corrected 2026-09-14: beacon tracking was an assignment owned since 2023 and never customer-exposed, so `POS-8` is struck and the beacon paragraph in *Projects Overview* was rewritten around `POS-10`–`POS-12`. `POS-4`–`POS-6` stay `in`; the engine entry's outcome claims are unconfirmed, see its limitations. `POS-2`/`POS-3` remain interview detail.
 

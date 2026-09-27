@@ -45,6 +45,16 @@ Before the next-generation wearable had a form factor, a bill of materials or a 
 
 **Pushed on serialization as a strategic lever.** Proposed researching an automated way to convert positioning data structures to JSON at compile time — generating conversion code from C structures rather than hand-writing it — and looked at whether a ProtoBuf-family serializer could be capitalized on rather than building in-house, on the argument that an embedded platform may as well inherit the industry's work. Connected it to an internal embedded-development training exercise that had covered serialization, as a way to build on existing team knowledge.
 
+### Follow-up, 2026-09-24 — what the owner says the work was really about
+
+The owner, verbatim:
+
+> Power budget trade off analysis is something rather obvious even for juniors, not to mention executives and other non-techincal people. The story is about cutting corners on statistically significant estimation with proper groundng. This story interplas with STM discovery board, MEMs etc. While proving significant motion, ML core, dead reckoning etc are not just keyword match on vendor marketing but actually observed is fundamental, no less important is not only locate the correct numbers in data sheets etc but also add them to budget with the correct analysis. Make sure the approach to battery budget like any other industry wide "standard of care" (medical metaphor a good fit here) for embedded devices matches industry consensus and not something that will raise eyebrows, sound revolutionary, controversial etc. e.g. Russ White critisism of ISO OSI network model resonates with professionals and shows that I think and I care, not just defer to authority.
+
+Read as a correction of emphasis: **that battery and hardware trade off is obvious; what the work was about is refusing to cut corners on the estimate.** Two halves — *observe* what the components do on the discovery hardware (significant-motion detection, the sensor's machine-learning core, dead reckoning) rather than take a feature list's word for it; and *add the right numbers the right way*, from the right datasheet rows into a budget that averages each state's current over its duty cycle.
+
+**The standard of care it matches.** That is the industry's ordinary method, not a novel one: battery life is a function of average current, average current is dominated by duty cycle rather than any mode's headline figure, and the estimate is only trusted once measured with a power profiler ([Embedded.com](https://www.embedded.com/low-power-embedded-design-are-you-optimizing-the-wrong-thing/), fetched 2026-09-24). The purchase list in [2021-11-22](2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md) included a programmable power supply with current measurement for exactly this. The owner's model for how to hold a consensus method while still thinking for yourself is Russ White's critique of the OSI model — built for circuit switching, top-down, silent on middleboxes ([rule11.tech, 2019](https://rule11.tech/stop-using-osi/)): know the standard well enough to say where it is wrong, then say it plainly.
+
 ## Why it matters
 
 - **It changed the order of the decisions.** Deciding battery before form factor, and making the trade-offs explicit, is the difference between an architecture that is chosen and one that is inherited from an enclosure drawing.
@@ -64,8 +74,11 @@ Trello device-programme board, *R5 Vision*, *R5 Trade Offs*, *R5 Strategic direc
 
 - [2021-11-22 Dead reckoning and sensor-cluster architecture](2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md) — the positioning architecture built to meet the power goal set here.
 - [2025-11-15 R5 location engine design](2025-11-15-r5-location-engine-design.md) — the location architecture that eventually shipped.
+- [2026-07-28 AI-assisted device experiments](2026-07-28-ai-assisted-device-experiments.md) — the same experiment-first method five years later, in calendar time.
+- [2022-09-16 buying positioning and calendar time](2022-09-16-skyhook-license-buy-calendar-time.md) — the positioning decision the power goal fed.
 
 ## Record history
 
 - 2026-09-10: created from the Trello device-programme board during the full board ingest.
 - 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.
+- 2026-09-24: follow-up with the owner's correction of emphasis (verbatim): the story is the rigour of the estimate, observed rather than marketed, matching industry standard of care; industry grounding linked.

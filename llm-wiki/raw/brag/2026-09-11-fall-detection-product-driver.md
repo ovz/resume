@@ -24,6 +24,12 @@ That is a product judgement, not just an engineering one: the Care center is wha
 
 *(To supply: the owner's specific contributions to the R4 implementation beyond the resume's summary; what "active seniors' needs" covers beyond falls — at T1 only.)*
 
+### Follow-up, 2026-09-24 — automatic is the point
+
+The owner, verbatim: *"here and other places emphasize automated fall detection. Button press is for care center and seniors can press it for loneliness, lyft ride, or whatever other reason. The point is we don't limit time with agent who actually cares. Fall Detection, home/away is what we do without customer awareness to give them care they need."*
+
+So the emergency button is not the fall story. The button reaches a Care agent for any reason at all — loneliness, a ride, a question — and the service deliberately does not ration that time. **Fall detection and Home/Away are what the device does without the user doing anything**, which is why they are the features the product is chosen for: the fall where the person cannot press anything is the one that matters most. Any telling that says "the device someone presses when they have fallen" has it backwards.
+
 ## Why it matters
 
 - **Knowing which feature is the driver is principal-level product sense.** A load-bearing service and a focused driver need different engineering investment; naming the difference is what lets architecture spend go where it moves the product.
@@ -40,3 +46,4 @@ That is a product judgement, not just an engineering one: the Care center is wha
 ## Record history
 
 - 2026-09-11: created from the owner's direct statements; supersedes the 2026-09-10 decision to hold the innovation direction at T1.
+- 2026-09-24: follow-up with the owner's framing: the button is for any reason and time with a caring agent is not limited; fall detection and Home/Away are automatic, and that is the point.

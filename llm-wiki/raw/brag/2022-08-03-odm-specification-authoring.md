@@ -32,7 +32,7 @@ The wearable was built by an outside manufacturer, which makes the specification
 
 **Documented the working relationship itself**, not just the interfaces — how the two organizations were to work together, alongside the technical content.
 
-**Outward alias.** The "sensor-hub API" is named after the internal "sensorhub"; outward it is the **sensor co-processor API** — see [sensitivity tiers](../../wiki/workflows/sensitivity-tiers.md) § *Public aliases for internal names*.
+**Outward alias.** The "sensor-hub API" is named after the internal "sensorhub"; outward it is the **sensor co-processor API** — see [sensitivity tiers](../../wiki/workflows/sensitivity-tiers.md) § *Public aliases for internal names*. Likewise the "system-monitor test plan" is outward the **process-supervisor test plan** (alias approved by the owner 2026-09-25).
 
 ## Why it matters
 
@@ -62,4 +62,5 @@ Trello device-programme board, *ODM Documentation for R5* list (16 cards) and th
 
 - 2026-09-10: created from the Trello device-programme and leadership boards during the full board ingest.
 - 2026-09-16: added *Outward alias* for the "sensorhub" name.
+- 2026-09-25: *Outward alias* extended to the "system-monitor" name, approved by the owner.
 - 2026-09-19: linked the later cross-platform SDK modularization entry.

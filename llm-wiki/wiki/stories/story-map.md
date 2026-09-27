@@ -8,13 +8,13 @@
 
 | Cluster | Hub | Stories | Reach for it when |
 |---|---|---|---|
-| Positioning, location and GPS | [positioning](positioning.md) | 4 planned, 3 drafted (P2, P3, P4); P1 needs ingest of new owner material | Embedded and firmware roles; location, sensors, power; "hardest bug"; vendor and silicon partners; buy-versus-build |
+| Positioning, location and GPS | [positioning](positioning.md) | 4 drafted (P1–P4; P1 written and P2 rewritten 2026-09-24) | Embedded and firmware roles; location, sensors, power; "hardest bug"; vendor and silicon partners; buy-versus-build |
 | State machines, and the codebase whose authors are gone | [state-machines](state-machines.md) | 3 planned (S1–S3), none drafted | Legacy code and technical debt; saying no to ad hoc complexity; mentoring and raising the bar; C++ state-machine design |
-| Concurrency, and the bugs that vanish when observed | [concurrency](concurrency.md) | 3 planned, 2 drafted (C1, C2); C3 needs dating | Low-level concurrency and systems roles; "hardest bug"; vendor and manufacturer code review; what you read and how you keep sharp; toolchain and modernization judgement |
-| Stewardship, and eliminating toil | [stewardship](stewardship.md) | 4 planned, 1 drafted (ST1) | "What do you stand for?"; governance, security and data-ownership conversations; acquisitions, migrations and continuity; automation and toil |
+| Concurrency, and the bugs that vanish when observed | [concurrency](concurrency.md) | 6 drafted (C1–C6; C3–C6 written 2026-09-24) | Low-level concurrency and systems roles; "hardest bug"; vendor and manufacturer code review; what you read and how you keep sharp; toolchain and modernization judgement; Linux resource lifetimes (file descriptors); disagreeing with senior colleagues about release risk |
+| Stewardship, and eliminating toil | [stewardship](stewardship.md) | 5 planned, 2 drafted (ST1, ST5) | "What do you stand for?"; governance, security, compliance and data-ownership conversations; acquisitions, migrations and continuity; automation and toil |
 | Design for production, and the people who carry the pager | [production-readiness](production-readiness.md) | 4 planned (PR1–PR4), none drafted | Operations, SRE, platform and network organizations; "how do you think about monitoring?"; reliability and on-call conversations; cost of operation with an executive audience; testing philosophy |
-| Salford Systems, and machine learning before it was fashionable | [salford](salford.md) | 4 planned, 1 drafted (SF1) | Depth in someone else's discipline; data, statistics and ML-adjacent roles; pharma and clinical data; client-facing delivery; long tenure; outsourced teams |
-| About me: why I do this work, and ownership | [about-me](about-me.md) | 1 drafted (AM1), 1 bank of 4–6 ownership stories planned | "Why this work / why now?"; mission-driven and safety-critical employers; senior ownership and stewardship conversations; the About Me and summary line |
+| Salford Systems, and machine learning before it was fashionable | [salford](salford.md) | 5 planned, 2 drafted (SF1, SF5) | Depth in someone else's discipline; data, statistics and ML-adjacent roles; pharma and clinical data; client-facing delivery; long tenure; outsourced teams |
+| About me: why I do this work, and ownership | [about-me](about-me.md) | 3 drafted (AM1–AM3), a bank of ownership stories planned | "Why this work / why now?"; mission-driven and safety-critical employers; senior ownership and stewardship conversations; the About Me and summary line |
 
 ## Clusters to come
 

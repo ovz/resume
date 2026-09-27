@@ -68,6 +68,8 @@ The owner's own device-programme board carries the power-budget list, the trade-
 - [2026-05-17-statistical-bar-and-data-science-partnership](2026-05-17-statistical-bar-and-data-science-partnership.md) — the analytical half of the same practice: hypothesis and cheap experiment over brute-force analysis.
 - [2024-01-04-cellular-cost-rogue-device-detection](2024-01-04-cellular-cost-rogue-device-detection.md) — the other half of the operating-cost story, where cellular data rather than battery is the resource being spent.
 - [2023-11-27-r5-home-away-beacon-tracking](2023-11-27-r5-home-away-beacon-tracking.md) — the simple beacon tracking design whose simplicity kept the 2026 keep-alive breakage cheap.
+- [2022-09-16 buying positioning and calendar time](2022-09-16-skyhook-license-buy-calendar-time.md) — the positioning decision, including the owner's (unmeasured) battery comparison with the previous generation.
+- [2026-07-28 AI-assisted device experiments](2026-07-28-ai-assisted-device-experiments.md) — battery soak experiments, 2026.
 
 ## Record history
 
@@ -75,3 +77,4 @@ The owner's own device-programme board carries the power-budget list, the trade-
 - 2026-09-13: graduated into story `positioning/power-budget-non-issue`; `storied` property added, body untouched.
 - 2026-09-14: *Related* link to the 2023-11-27 beacon tracking entry.
 - 2026-09-19: Linked the separate, source-grounded networking implementation episode for the 2026 keep-alive work; existing accomplishment text and outcome limits unchanged.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.

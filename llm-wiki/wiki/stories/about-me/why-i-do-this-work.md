@@ -19,22 +19,26 @@ Confident and forward-looking, first person. Ukraine is **one clause**, not the 
 
 | # | Beat | In this story |
 |---|---|---|
-| 1 | Where I come from | Grew up in the Soviet Union, then Ukraine; hard to feel one belonged to the institutions around one (one clause) |
+| 1 | Where I come from | Grew up in the Soviet Union, then Ukraine, in the 1980s and 1990s; hard to feel one belonged to the institutions around one (one clause). The 2000s were the formative young-adult years |
 | 2 | What changed | In the U.S., belonging he can earn by contributing; GreatCall, then Best Buy, gave meaningful work |
 | 3 | What I learned | Salford: excellent, deliberately horizontal technology; he missed the mission |
 | 4 | Why now | Stewardship reaching further: real stakes, owning risk on the critical path |
 
 ## Narrative — owner's draft, adapt before use
 
-Written by the owner for one specific conversation; the employer-specific lines were dropped when it was filed here. Rehearse in his own words, not this text.
+Written by the owner for one specific conversation; the employer-specific lines were dropped when it was filed here. Corrected 2026-09-24 on his instruction: he grew up in the 1980s and 1990s, not "the 90s and 2000s"; the 2000s were the formative young-adult years. Rehearse in his own words, not this text.
 
-> Where I come from: I grew up in the Soviet Union and then in Ukraine in the 90s and 2000s, where it was hard to feel you belonged to the institutions around you, or that your work made them better.
+> Where I come from: I grew up in the Soviet Union and then in Ukraine in the 80s and 90s, where it was hard to feel you belonged to the institutions around you, or that your work made them better. The 2000s were my formative years: plenty of young-adult learning, and both of my children were born.
 >
 > What changed: in the U.S. I found a sense that I belong here and can earn it by contributing. GreatCall, then Best Buy after the acquisition, gave me my first taste of truly meaningful work: devices someone's parent relies on when they need help. I do my best work when I can see who depends on it.
 >
 > What I learned: at Salford Systems the technology was excellent but deliberately horizontal, tools for anyone's problem. I missed the mission.
 >
 > Why now: this is my home, and I want my stewardship to reach further: work where the stakes are real, own the risks on the critical path, help make the place I belong a bit stronger.
+
+## Know it — what stays with me
+
+T1, from the owner (2026-09-24): born in 1978; grew up in the 1980s and 1990s; the 2000s were the formative years — Salford Systems from Kharkiv, leading an offshore team in his early twenties, his daughter Liza born in 2007 and his son Bogdan in 2012. "Plenty of young adult learning." The family is context for the listener only if they ask; the story does not need it.
 
 ## Evidence limitations
 

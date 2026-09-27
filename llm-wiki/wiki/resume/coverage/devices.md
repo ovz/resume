@@ -28,12 +28,13 @@ The owner's product judgement: the Care center is load-bearing, but fall detecti
 
 **Entries:** [2026-09-11 fall detection as product driver](../../../raw/brag/2026-09-11-fall-detection-product-driver.md)
 
-**Thread coverage: 100%** (2 of 2)
+**Thread coverage: ≈ 83%** (2.5 of 3)
 
 | Claim | Source | Status |
 |---|---|---|
 | `FALL-1` Identified fall detection as the product's focused driver, distinct from the load-bearing Care center | 2026-09-11 | **in** |
 | `FALL-2` As Wearables architecture owner, driving the next round of fall-detection innovation for active seniors | 2026-09-11 | **in** |
+| `FALL-3` Frames fall detection and Home/Away as the care the device gives without the user acting, distinct from a button that reaches a Care agent for any reason | 2026-09-11 | **partial** |
 
 > Promoted at the owner's explicit direction on 2026-09-11, reversing the 2026-09-10 call to hold the innovation direction at T1 as roadmap. The outward wording states the direction only — no feature, sensor, algorithm or date.
 
@@ -109,7 +110,7 @@ The R&D layer under the wearable programme: what the device should be, what it s
 
 **Entries:** [2021-11-15 product architecture and power budget](../../../raw/brag/2021-11-15-r5-product-architecture-power-budget-tradeoffs.md) · [2021-11-22 dead reckoning and sensor cluster](../../../raw/brag/2021-11-22-dead-reckoning-sensor-cluster-mcu-architecture.md)
 
-**Thread coverage: 100%** (7 of 7)
+**Thread coverage: 100%** (8 of 8)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -120,6 +121,7 @@ The R&D layer under the wearable programme: what the device should be, what it s
 | `DEV-5` Argued the battery budget must be decided before the form factor, making it a researchable constraint rather than one inherited from an enclosure | 2021-11-15 | **in** |
 | `DEV-6` Made the battery-versus-hardware trade-off structure explicit, including that capable hardware costs power twice — once for the part, once for software that uses it | 2021-11-15 | **in** |
 | `DEV-7` Set the design goal that positioning be a non-issue in the power budget, which the sensor architecture was then built to satisfy | 2021-11-15 | **in** |
+| `DEV-8` Holds power budgets to the industry standard of care — duty-cycle-weighted average current from the right datasheet rows, component behaviour observed on discovery hardware, estimates confirmed by measurement | 2021-11-15 | **in** |
 
 ---
 
@@ -159,7 +161,7 @@ Where the device stops being ours: the specification handed to a contract manufa
 
 | Claim | Source | Status |
 |---|---|---|
-| `MFG-1` Authored the manufacturer-facing specification set — sensor co-processor API, IPC API, device authentication, activation flow, system-monitor test plan | 2022-08-03 | **in** |
+| `MFG-1` Authored the manufacturer-facing specification set — sensor co-processor API, IPC API, device authentication, activation flow, process-supervisor test plan | 2022-08-03 | **in** |
 | `MFG-2` Set authoring principles separating hard requirements from recommendations, and wrote for spoken as well as written use across an organizational and language boundary | 2022-08-03 | **in** |
 | `MFG-3` Ran a deliberate retrospective on his own specification process after it went wrong, rather than treating documentation quality as unexaminable | 2022-08-03 | **in** |
 | `MFG-4` Became the firmware-over-the-air subject-matter expert in record time to change the balance of a vendor negotiation during an inventory crisis | 2025-07-18 | **in** |

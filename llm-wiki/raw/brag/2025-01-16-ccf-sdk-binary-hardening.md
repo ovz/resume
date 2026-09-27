@@ -69,7 +69,7 @@ The retained working copies of the SDK and framework repositories contain the de
 
 From the owner's own working notes: he pushes back when teammates add ad-hoc obfuscation of values such as device identifiers or coordinates "in the spirit of PII protection", arguing that without a certification document, a planned third-party audit or an enterprise static-analysis scanner in the path, self-invented obfuscation is not compliance — it creates work to build it, work to test it, work to consume the obfuscated data, and leaves the real compliance cost unchanged. His rule is the simple one: keep personally identifying data out of logs, and leave technically meaningful values intact. He grounds this in a Data Security degree and says compliance skills carry responsibility with their power.
 
-This is a distinct accomplishment about engineering judgement rather than about this SDK, and it is recorded here only so it is not lost. **It deserves its own entry**, with the owner asked for a concrete instance and rough date.
+This is a distinct accomplishment about engineering judgement rather than about this SDK, and it is recorded here only so it is not lost. **It now has its own entry**, [2025-01-10](2025-01-10-pii-obfuscation-pushback-compliance-vehicle.md), built on the owner's fuller statement of 2026-09-24 and the industry rules it meets.
 
 ## Related
 
@@ -84,3 +84,4 @@ This is a distinct accomplishment about engineering judgement rather than about 
 
 - 2026-09-19: created from a direct study of the retained SDK and framework working copies, plus a presentation claim.
 - 2026-09-20: **the presentation was removed from this entry — it did not belong here.** The talk the owner gave to Cyber Security leadership was about the Column Mapping Framework and data governance, not about this SDK hardening work; attaching it here was an inference error made while ingesting. It now has its own entry. This entry was renamed accordingly and is purely the build-and-supply-chain record, which is entirely source-grounded.
+- 2026-09-24: pointer to the new compliance-judgement entry.

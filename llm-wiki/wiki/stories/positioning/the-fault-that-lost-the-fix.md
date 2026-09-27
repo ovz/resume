@@ -17,7 +17,7 @@ I never had the device in my hand. Everything I knew came off a fleet, through t
 |---|---|---|
 | 0 | Offer | There is one where the hardest part was not the bug, it was the dashboard |
 | 1 | Hook | Devices stopped knowing where they were. No crash, no reboot, nothing anyone could reproduce |
-| 2 | Stakes | On an emergency-response device, location is not a feature, it is the product |
+| 2 | Stakes | The device calls for help by itself when it detects a fall; on an emergency-response device, location is not a feature, it is the product |
 | 3 | Complication | Third-party positioning library, no reproduction, and a fallback path that looked like it was working |
 | 4 | Move | Correlated the logs across the fleet, found a multithreading fault creating a listener thread, then found the fallback never actually restored the library |
 | 5 | Punchline | The error counter was not counting errors. It was counting how long a device had gone without knowing where it was |
@@ -33,7 +33,7 @@ I never had the device in my hand. Everything I knew came off a fleet, through t
 ⟨breathe⟩
 
 **2 · Stakes**
-> This is a device someone presses when they have fallen. Location is not a feature on it. Location is the product.
+> This is a device that calls for help, very often by itself — it detects a fall when the person cannot press anything. Location is not a feature on it. Location is the product.
 
 **3 · Complication**
 > Three things made it hard. The positioning library was a third party's, so I could not read it. It never reproduced on demand. And we already had a fallback — when the library could not get a fix, the device fell back to the modem's own positioning. So on paper the device recovered. In the field, some of them never came back.
@@ -57,6 +57,8 @@ I never had the device in my hand. Everything I knew came off a fleet, through t
 - **"What did you do to the monitor?"** → Thresholded it as a duration rather than a count, and documented the reinterpretation so the next person reading the signal inherits the right meaning instead of rediscovering it. A telemetry signal is a contract; when you learn what it really measures, you write that down.
 - **"How do you debug a library you cannot read?"** → You debug the boundary. What goes in, what comes out, when it stops, what else was true on that device at that second. Fleet telemetry is a debugger with terrible ergonomics and an enormous sample size.
 - **"Did this change anything structural?"** → Yes. The fragmentation this exposed — positioning logic scattered across the system with each source recovering in its own way — is a large part of what the later location engine consolidated behind one arbitration layer.
+- **"Was this the same library that leaked file descriptors?"** → Same library, same months — I reproduced a descriptor leak in it for the vendor that spring. I have not proved the two are connected, and I would not claim it; a thread that fails to start is one of the symptoms you would expect. That is its own story.
+- **"Isn't the button the main thing?"** → The button reaches a Care agent for any reason at all — loneliness, a ride, a question — and we deliberately do not ration that time. Fall detection and Home/Away are what the device does without being asked. The fall where nobody can press anything is the one that matters most.
 - **"How did the vendor take it?"** → Concrete findings travel better than escalations. A named failure point and correlated evidence is a different artifact from "our devices sometimes lose positioning."
 
 ## Proof

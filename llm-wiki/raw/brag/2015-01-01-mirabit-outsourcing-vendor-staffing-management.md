@@ -47,16 +47,23 @@ A 2026-09-16 breadth-first Gmail survey identified this thread by keyword (Mirab
 
 ## Evidence limitations
 
-**Breadth-first candidate, not a deep-dive.** The survey did not establish the outcome of the staffing recommendations (who was retained, whether the case succeeded with "Steve O"), nor full surnames for the named individuals. "Bogdan," "Nicolai" and "Vlad" are recorded as they appeared in the survey; full identification should be confirmed against the source thread before wider use.
+**The full thread, read 2026-09-25, gives the context but not the outcome.** It opens on 19 April 2017 with Dan relaying the acquirer's plan: reduce the Ukrainian development team — three developers in May (Ihor, Bogdan, Nikolai), one or two more in July — develop the cloud product "with another team (plus Vlad) to make the project move faster", and build a new UI with a different team after SPM 8.2. The owner's answer is a product argument, not a plea: the developers are needed to maintain SPM 8.2 and build SPM 9.0, and CloudSML is "the framework on top of APIs" for distributed data manipulation and model building, model and dataset management, and rapid "vertical" applications — "we could build promotion optimization system based on C4 data" — closing with *"I don't see how to solve the challenges CloudSML solves in a simpler manner and/or with better technology."* When Dan replied that the decision seemed made, the owner offered a trade: dial down the web app, keep a minimal UI, and protect the API server and computational backend, which "MUST be developed". "Steve O" is **Steve Orlich** of the acquirer (he appears in a July 2017 SPM 9.0 discussion invitation).
 
-**More detail could be mined from Gmail via the Gmail connector available to Claude** — the full thread to establish the outcome of the staffing case and confirm names. Deferred to a later session (this desktop or a Claude web chat), not performed here.
+**Whether the case changed anything is not in the mail.** Weekly check-ins with the Mirabit team and Vlad continued into June 2017, and one developer still listed Mirabit as his employer in July; no message records who was retained. Tell it as a case made, not a case won.
+
+**Name collision to watch:** the Mirabit developer "Bogdan" (Bohdan Khorolets) is not the owner's son Bogdan, who appears in the same mailbox; a name search returns both.
+
+**The vendor-identity question above is still the owner's.**
 
 ## Related
 
 - [2016-11-01 Minitab acquisition technical diligence](2016-11-01-salford-minitab-acquisition-technical-diligence.md) — leadership trust exercised in the same pre-acquisition window.
+- [2016-09-01 hybrid container cluster under Rancher](2016-09-01-sparky-hybrid-container-cluster-rancher-aws.md) — the platform the Ukrainian team ran; its mail also shows the team moving to its own @mirabit.com.ua addresses in March 2017, which corroborates *Mirabit is Ukrainian* above.
 
 ## Record history
 
 - 2026-09-16: created, ingested from inbox note "gmail-brag-file-candidates.md" (candidate 9).
 - 2026-09-16: marked **grounding needed** at the owner's request, then grounded from Gmail: Mirabit is Ukrainian and the staffing thread is dated April 2017; the Polish vendor that built SPM-Qt was Milo Solutions. Full names recorded; the 2015 start date flagged as unsupported.
 - 2026-09-16 (later): recorded the owner's second statement that Mirabit may be unrelated to Salford and connected instead to Akvelon and possible Microsoft contract work, alongside the mailbox evidence that contradicts it. Vendor identity left open.
+- 2026-09-24: reciprocal *Related* link to an entry created the same day.
+- 2026-09-25: full "Re: Mirabit" thread read — the acquirer's reduction plan, the owner's product argument and trade, "Steve O" identified; outcome still unrecorded; *Evidence limitations* rewritten.

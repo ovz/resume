@@ -130,6 +130,14 @@ Three cases, distinguished by what the new input adds:
 
 In all three cases append a `## Record history` line for the day, saying what changed and briefly why. If an updated entry is already in the ledger and the change alters its headline, domains, or `resume-worthy` value, re-run Part 2 for it and note the re-ingest in the ledger's *Ingested* column.
 
+### Part 1c — When the owner's memory and the email record disagree
+
+Where the owner's recollection of an episode (dates, order of events, who did what) disagrees with the mailbox, **the email record is authoritative**, and his original account is kept verbatim alongside it. Ruled by the owner on 2026-09-25 ("Use the information grounded in emails as authoritative"), after the Intel compiler episodes turned out to be in the opposite order from his memory; the same pass found several survey-level entries overstated or misdated once the full threads were read.
+
+- **Ground entries in full threads, not snippets.**
+- Record the settled version in *What was blocked, cut short, or wrong* or *Evidence limitations*, keep his account verbatim next to it, and add a *Record history* line.
+- Anything that touches the public resume is an **owner item** in the tracker, not an edit: promotion is a separate pass ([Part 3](#part-3--promote-to-the-resume)).
+
 ## Part 2 — Ingest (periodic)
 
 Run when the owner asks, or when un-ingested entries accumulate — a handful is a good trigger.

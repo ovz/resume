@@ -42,6 +42,7 @@ Everything between the beats is **detail**, and detail is droppable *by design*.
 
 ### Writing the narrative
 
+- **Build the lines from the owner's own words.** Where he has dictated the episode, lift his sentences and fix their grammar rather than paraphrasing them — [spoken drafts](spoken-drafts.md) carries this and the rest of the rehearsal craft (his own sayings, one metaphor, one cue, the ending).
 - **Pick the era register before the first line.** The 1997 cryptographer and the 2026 architecture owner do not sound alike, and should not — [voice and prominence](voice-and-prominence.md) § *The registers, era by era*.
 - **Say every line out loud as you write it.** If it cannot be said in one breath, it is two lines or it is cut.
 - **Every phrase earns its place**: it moves the story forward, or it sets up something that does. A line that only informs is detail — mark it optional or delete it. **This is not a licence to write punchlines.** Earning a place means being a step in what happened, not being quotable; see [voice and prominence](voice-and-prominence.md) § *Sentences that sound like him, and sentences that do not*, which governs sentence shape and overrides any drafting instinct here.
@@ -162,19 +163,20 @@ A reading list is the three to seven stories worth rereading before one conversa
 
 **Asking an agent.** Name the target — an employer, an event, a role description. The agent:
 
-1. **Establishes the target.** Employer research lives at `wiki/analysis/employers/<employer>/YYYY-MM-DD-<subject>.md` — dated, because research goes stale. If none exists and the target matters beyond one conversation, it writes one.
+1. **Establishes the target.** Research on a prospective employer lives in job-search-infra, dated because research goes stale; this repository holds employer research only for past employers (`wiki/analysis/employers/<employer>/YYYY-MM-DD-<subject>.md`). If none exists and the target matters beyond one conversation, it writes one in the repository that owns it.
 2. **Lists what the target screens for** — three to six needs, in the target's own words where it can find them.
 3. **Matches needs to stories** by `fits` and by cluster, preferring `status: ready`.
 4. **Orders them**: strongest evidence first, then recency.
 5. **Writes, for each:** the story link, its one-breath line, and the angle for this listener.
 6. **Adds the context the conversation will need** — the employer-context page if "why are you leaving?" is likely, and the resume block the listener has probably read.
-7. **Keeps the list in the session scratch scope.** A reading list is for one conversation and goes stale with it; only durable employer research belongs in `wiki/analysis/employers/`.
+7. **Keeps the list in the session scratch scope.** A reading list is for one conversation and goes stale with it; durable research on a past employer belongs in `wiki/analysis/employers/`, on a prospective one in job-search-infra.
 
 **Doing it yourself.** Open the story map, or `stories.base`, and filter by `fits`. Or search `[fits:<need>]` and open each hit's local graph.
 
 ## Related
 
 - [Voice and prominence](voice-and-prominence.md) — the register to tell it in, the prominence it earns, and how to answer what happened to work that stopped.
+- [Spoken drafts](spoken-drafts.md) — turning the structure into lines the owner can rehearse and recover from.
 - [Brag file workflow](brag-file.md) — capture and ingest, the stages before this.
 - [Story map](../stories/story-map.md) — every cluster and its hub.
 - [Obsidian vault](obsidian-vault.md) — the graph filter, colours and properties.
