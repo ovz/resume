@@ -16,7 +16,7 @@
 
 | Domain (as in `domains:`) | Shard | Bullets (2026-09-25) |
 |---|---|---|
-| Embedded and safety-critical devices | [Devices, positioning and power](accomplishments-devices.md) | 24 |
+| Embedded and safety-critical devices | [Devices, positioning and power](accomplishments-devices.md) | 25 |
 | Positioning and location | [Devices, positioning and power](accomplishments-devices.md) | 11 |
 | Battery, power and cost of operation | [Devices, positioning and power](accomplishments-devices.md) | 6 |
 | Data engineering | [Data, machine learning and AI](accomplishments-data-ml.md) | 16 |

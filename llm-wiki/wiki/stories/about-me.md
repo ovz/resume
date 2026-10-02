@@ -24,6 +24,7 @@ He does his best work when he can see who depends on it, and he wants his stewar
 | AM2 | [I taught people to ask where the ninety-fifth percentile is](about-me/percentiles-not-averages.md) | Helping others think better about data — percentiles instead of means and standard deviations — told from humility; carries a statistics refresher for rehearsal and the honest answer on formal promotions | **draft written** (2026-09-24) |
 | AM3 | [I raised a concern about a product vision early, and it taught me to ask how a mission is defined](about-me/the-mission-lesson.md) | Raised bad news early; the decision stood; the lesson became an employer-screening question | **draft written** (2026-09-24); beat 3 needs the owner's own reading of the other side |
 | AM4–AM6 | Ownership stories bank | Short stories shaped *situation → what he took on unasked → result → what outlasted him*, in five categories below | **planned** — each needs the owner to pick the episode; candidates are pointers into the record, not claims |
+| AM7 | [I could walk into a Best Buy and see the device I write software for](about-me/on-the-shelf.md) | Two device generations sold off the retail shelf since 2019; he went to see them, watched customers and talked with the store's people — the plainest scene behind AM1's "I do my best work when I can see who depends on it" | **draft written** (2026-10-01); beats 4 and 6 wait on the owner's memory of one visit |
 
 ### Ownership bank — categories and candidate seeds
 

@@ -174,3 +174,23 @@ Where the device stops being ours: the specification handed to a contract manufa
 | `MFG-11` Got the best results from engineer-to-engineer relationships across manufacturer, silicon and firmware partners | 2026-09-11 | **in** |
 | `MFG-12` Treats the Agile Manifesto as the framework that makes engineer-to-engineer practice a transferable skill | 2026-09-11 | **in** |
 | `MFG-13` Brought the programme back to a regular hardware/software development lifecycle after the manufacturer transition | 2023-09-01 | **in** |
+
+---
+
+### SHELF — Devices sold off the retail shelf
+
+The product end of the device work: two generations of the owner's devices sold in national retail stores, the display space they earned, and what seeing them there meant to him. Opened 2026-10-01.
+
+**Entries:** [2019-04-23 Lively devices on Best Buy shelves](../../../raw/brag/2019-04-23-lively-devices-on-best-buy-shelves.md)
+
+**Thread coverage: ≈ 79%** (5.5 of 7)
+
+| Claim | Source | Status |
+|---|---|---|
+| `SHELF-1` Builds software for devices sold as retail products, across two generations (Lively Mobile+ from 2019, Lively Mobile 2 from 2024) | 2019-04-23 | **in** |
+| `SHELF-2` Lively Mobile+ was sold in Best Buy and Walmart stores from its 2019 launch (CPSC record) | 2019-04-23 | **in** |
+| `SHELF-3` Best Buy gave Lively dedicated display space: two aisle endcaps in 2020, most of a store's main prepaid display by 2021 (Wave7 Research) | 2019-04-23 | **in** |
+| `SHELF-4` Part of a service with more than 900,000 paying subscribers at the 2018 acquisition | 2019-04-23 | **in** |
+| `SHELF-5` Visited stores, watched customers try the device, and talked about the work with associates and a store general manager | 2019-04-23 | **in** |
+| `SHELF-6` The display stood on the store's front line beside Apple, Amazon and Google (owner's observation; resume says "among the major brands") | 2019-04-23 | partial |
+| `SHELF-7` Confirmed about a million active lines of service in the enterprise data warehouse (internal figure; tier decision pending) | 2019-04-23 | absent |

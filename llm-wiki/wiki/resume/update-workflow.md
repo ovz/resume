@@ -38,7 +38,7 @@ Content that must be identical across variants lives once, in `markdown/_parts/`
 <!-- include: _parts/links.md -->
 ```
 
-`_parts/` is a subdirectory, so the build never mistakes a fragment for a document. Five fragments exist:
+`_parts/` is a subdirectory, so the build never mistakes a fragment for a document. Eight fragments exist:
 
 | Fragment | Why it is shared |
 |---|---|
@@ -47,6 +47,18 @@ Content that must be identical across variants lives once, in `markdown/_parts/`
 | `side-note-links.md` | The Wayback explanation. Pure boilerplate that must read identically wherever it appears |
 | `education.md` | The two degrees. The primary appends its own earlier-schooling section *after* the include; the variant does not |
 | `bullet-operational-excellence.md` | The observability bullet — long, newly written, and therefore the most likely to be refined in one file and forgotten in the other |
+| `bullet-retail-shelf.md` | The *sold off the shelf* achievement bullet (2026-10-01), written once for both the primary and the embedded variant |
+| `experience-best-buy-health.md`, `experience-greatcall.md` | The two employment sections that are also LinkedIn Experience fields (2026-10-01). The primary and the embedded variant tell the 2018–present tenure identically, so the text LinkedIn shows is the text both resumes show |
+
+**Sharing a LinkedIn-marked section.** The `<!-- linkedin: -->` markers stay in the primary and **wrap** the include line, so the fragment itself carries no marker and the slug still appears in exactly one document:
+
+```
+<!-- linkedin: experience-greatcall limit=2000 title="Experience — GreatCall (2018-2020)" -->
+<!-- include: _parts/experience-greatcall.md -->
+<!-- linkedin: end -->
+```
+
+A variant includes the same fragment with no markers. The exporter runs on the prepared Markdown, so the budget check still counts the fragment's text. Two consequences: the 2,000-character budget now binds every variant that includes the fragment, and a nuance one variant wants that the other does not belongs in a separate section of that variant (a *Projects Overview* or *Selected Projects* entry), never in a private edit of the fragment. Minitab, Salford Systems and IIT stay inlined: the embedded variant deliberately compresses them.
 
 One thing is deliberately *not* shared: the `<!-- linkedin: -->` markers. LinkedIn is a single profile, so exactly one document may feed it — the primary. A duplicate slug across two documents is a hard build error naming both, which is the desired behaviour rather than a limitation to work around.
 

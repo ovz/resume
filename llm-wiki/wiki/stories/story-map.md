@@ -14,7 +14,7 @@
 | Stewardship, and eliminating toil | [stewardship](stewardship.md) | 5 planned, 2 drafted (ST1, ST5) | "What do you stand for?"; governance, security, compliance and data-ownership conversations; acquisitions, migrations and continuity; automation and toil |
 | Design for production, and the people who carry the pager | [production-readiness](production-readiness.md) | 4 planned (PR1–PR4), none drafted | Operations, SRE, platform and network organizations; "how do you think about monitoring?"; reliability and on-call conversations; cost of operation with an executive audience; testing philosophy |
 | Salford Systems, and machine learning before it was fashionable | [salford](salford.md) | 5 planned, 2 drafted (SF1, SF5) | Depth in someone else's discipline; data, statistics and ML-adjacent roles; pharma and clinical data; client-facing delivery; long tenure; outsourced teams |
-| About me: why I do this work, and ownership | [about-me](about-me.md) | 3 drafted (AM1–AM3), a bank of ownership stories planned | "Why this work / why now?"; mission-driven and safety-critical employers; senior ownership and stewardship conversations; the About Me and summary line |
+| About me: why I do this work, and ownership | [about-me](about-me.md) | 4 drafted (AM1–AM3, AM7), a bank of ownership stories planned | "Why this work / why now?"; mission-driven and safety-critical employers; senior ownership and stewardship conversations; the About Me and summary line |
 
 ## Clusters to come
 
