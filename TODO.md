@@ -14,26 +14,10 @@
 - `../job-search-infra/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Cowork project, employer-research home
 - `../cpp_edu/__untracked_stuff/2026-09-14-career-system-inception/tasks/assignment_tracker.md` — land commit 001, router go-ahead, Boost version
 - Mailbox message `~/mailbox/resume/inbox/2026-09-28-cpp-edu-brag-material.md` — ingest cpp_edu's finished essay series and solved-problem sets as brag entries; link the cpp-standards-for-embedded essay to the 2022 safety-critical C++ guidelines entry
-- [`__untracked_stuff/2026-09-24-notes-to-stories-voice/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-24-notes-to-stories-voice/tasks/assignment_tracker.md) — your nine notes through brag → stories → resume, plus the voice study; land 037 → 041; submit the about-me digest (waiting in the cross-repo mailbox) to Cowork; decide two public-resume date questions; pick discovery candidates to write up
+- [`__untracked_stuff/2026-09-24-notes-to-stories-voice/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-24-notes-to-stories-voice/tasks/assignment_tracker.md) — your nine notes through brag → stories → resume, plus the voice study; land 037 → 041; decide two public-resume date questions; pick discovery candidates to write up
 - [`__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md) — review the belonging/stewardship hub section and About Me story AM1; land its commit guide
 - [`__untracked_stuff/2026-09-27-github-mirror-shared-customizations/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-27-github-mirror-shared-customizations/tasks/assignment_tracker.md) — GitHub mirror is up and `gh` is logged in; land commits 003 then 004; decide on `python3` → `uv run`; then `git push` fills the mirror
-
-
-# .github/rules/about-me-and-cowork.md
-
-I think we need a better workflow for about m e. This repo can has inputs that describe me and so do other repos, claude.ai, etc. I already have weekly about me task in claude cowork. That task must produce zip file based on what claude cowork reasonably believes is new information about me. I think the ideal would be if claude cowork could also study git diffs of my bitbucket repos and harvest updated information from all sources. This makes it more a monthly activity, as inputs are more sizable and week to week might be too volatile. For now I believe it is practical to make about-me on this rig to be responsible to aggregate all the about me content on the rig when it receives about-me from claude cowork or other sources in the inbox. Make sure all the existing about-me related processes are properly consolidated in about-me repo and simplified to ingesting weekly about-me zips from claude cowork or otther cloud sources and optionally (on demand) scans of git history of other ~/bitbucket repos. optimize this repo and put ready for sonnet/medium execution information for agentic-linux and about-me. delegate about-me to look for my persona information inputs in local repos.
- 
-
-
-
-
-
-
-
-# .github/skills/brag-capture/SKILL.md
-
-prospective employers are in cpp-edu repo. job-infra is how I look for jobs and cpp-edu is how I prepare for jobs.
-
+- [`__untracked_stuff/2026-10-02-about-me-aggregation/tasks/assignment_tracker.md`](__untracked_stuff/2026-10-02-about-me-aggregation/tasks/assignment_tracker.md) — about-me now pulls instead of being sent to; prospective employers live in cpp_edu. Land 042; three Sonnet-ready mailbox messages wait in about-me, agentic_linux and job-search-infra
 
 
 # Ingest

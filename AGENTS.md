@@ -44,7 +44,7 @@ Each is a file in [`.github/rules/`](.github/rules/).
 | Writing anything to be read or said outward — **read [`voice-and-prominence.md`](llm-wiki/wiki/workflows/voice-and-prominence.md) before drafting** | [`voice-pillar.md`](.github/rules/voice-pillar.md) |
 | Building (`script/pandoc_resume.sh all`; a `NO IMAGE` line from `verify` is a build failure), LinkedIn budgets and paste workflow; artifacts are gitignored except `linkedin/`, which is generated and never hand-edited | [`building.md`](.github/rules/building.md) |
 | Loading a skill (brag-capture, resume-editing, linkedin-publish, resume-tooling, pdf-extraction, large-import; reached through the `.claude/skills` and `.agents/skills` symlinks) or planning a long assignment (`session-wiki-pattern`, shared from the agentic_linux repo) | [`skills-list.md`](.github/rules/skills-list.md) |
-| Sending material to the about-me repository or Claude Cowork | [`about-me-and-cowork.md`](.github/rules/about-me-and-cowork.md) |
+| Anything about the about-me repository or Claude Cowork (about-me pulls from here; nothing is sent) | [`about-me-and-cowork.md`](.github/rules/about-me-and-cowork.md) |
 | How Claude Code reaches this file (`CLAUDE.md` imports) | [`claude-code-bridge.md`](.github/rules/claude-code-bridge.md) |
 
 conventions: v2

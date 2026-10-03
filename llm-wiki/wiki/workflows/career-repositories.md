@@ -9,16 +9,16 @@
 | Where | Owns | Orientation | Remote |
 |---|---|---|---|
 | **resume** (this repository) | The record: brag entries, synthesis, stories, the resume and its LinkedIn rendering, and the [dream-job hub](../dream-jobs/dream-job-hub.md), which grades futures against that record | The past, and how it is told | `bitbucket.org/ovz/resume` |
-| **job-search-infra** | The search: the application pipeline and recruiting contacts (a live tracker page with its own data store, plus its source and snapshots), per-application reading lists and tailoring | The present and the next move | `bitbucket.org/ovz/job-search-infra` |
-| **cpp_edu** | The practice: C++ training — standards essays for embedded work, guides, problem sets — tailored to specific employers under `jobs/<employer>/` | The skills the next stage needs | `bitbucket.org/ovz/cpp_edu` |
-| **about-me** | Who the owner is, for any assistant: a curated profile, preferences, trends register, and dated voice reports on how he writes and speaks across email, notes and AI-assistant history — kept in sync with a Claude project | Identity and voice, not career record | `bitbucket.org/ovz/about-me` |
+| **job-search-infra** | The search, meaning how the owner looks for jobs: the application pipeline and recruiting contacts (a live tracker page with its own data store, plus its source and snapshots), per-application reading lists and tailoring | The present and the next move | `bitbucket.org/ovz/job-search-infra` |
+| **cpp_edu** | The practice, meaning how the owner prepares for jobs: C++ training (standards essays for embedded work, guides, problem sets) and the prospective employers themselves, one folder each under `jobs/<employer>/` | The skills the next stage needs | `bitbucket.org/ovz/cpp_edu` |
+| **about-me** | Who the owner is, for any assistant: a curated profile, preferences, trends register, and dated voice reports on how he writes and speaks across email, notes and AI-assistant history. It is kept in sync with a Claude project, and it is the one aggregator: it ingests Cowork's weekly zips and, on request, scans the other repositories' committed history | Identity and voice, not career record | `bitbucket.org/ovz/about-me` |
 | **Claude Cowork** | The glue: conversations and tasks that keep going with every laptop off, through connectors and published pages | Continuous | — no repository of its own; what it produces lands in one of the three |
 
-**about-me is read, not written, from here.** Its voice reports help a spoken draft rehearse better; this repository's own [voice and prominence](voice-and-prominence.md) rules win wherever the two differ ([spoken drafts](spoken-drafts.md)). A fact about the career belongs here even when about-me mentions it too.
+**about-me is read, not written, from here, and it pulls rather than being sent to.** Nothing here writes digests for it ([`about-me-and-cowork.md`](../../../.github/rules/about-me-and-cowork.md)). Its voice reports help a spoken draft rehearse better; this repository's own [voice and prominence](voice-and-prominence.md) rules win wherever the two differ ([spoken drafts](spoken-drafts.md)). A fact about the career belongs here even when about-me mentions it too.
 
 **Rule of thumb: the past here, the search and the future in the siblings.** The dream-job hub stays here because its grades are only as good as the record beside it; acting on it — applications, outreach, preparation — happens in the siblings.
 
-**Employer research follows the same line, and the owner has drawn it (2026-09-25): this repository is about actual employers — the ones the owner has worked for.** Research on a past employer that explains the record (for example the Best Buy Health public-record page) lives here under `wiki/analysis/employers/`. Research on a prospective employer belongs in job-search-infra. The owner will work in this repository while talking to employers, but it must not grow as interviews accumulate: it is about what the owner has accomplished, and resume work here focuses on that.
+**Employer research follows the same line, and the owner has drawn it (2026-09-25): this repository is about actual employers — the ones the owner has worked for.** Research on a past employer that explains the record (for example the Best Buy Health public-record page) lives here under `wiki/analysis/employers/`. Research on a prospective employer belongs in cpp_edu, under `jobs/<employer>/`, beside the preparation for that employer (owner, 2026-10-02). The owner will work in this repository while talking to employers, but it must not grow as interviews accumulate: it is about what the owner has accomplished, and resume work here focuses on that.
 
 ## Why this exists: a ten-year stage
 
@@ -40,14 +40,14 @@ The program-level tracker for the whole system is the tracker of the `career-sys
 | From | To | What |
 |---|---|---|
 | resume | job-search-infra | Stories and reading-list material, tailored resume variants, dream-job grades |
-| job-search-infra | resume | New evidence — an interview that probed a claim, feedback on a telling — as a brag inbox note; employer research on a prospective employer stays there; only new evidence about the record comes here |
+| job-search-infra | resume | New evidence — an interview that probed a claim, feedback on a telling — as a brag inbox note; only new evidence about the record comes here |
 | job-search-infra | cpp_edu | Which employers need which C++ preparation, and when |
 | resume | cpp_edu | Domain depth to study against — Boost MSM for state-machine design, embedded C++ standards behind the 2022 guidelines |
 | cpp_edu | resume | Demonstrated skill, as a brag entry when a series or a solution set is finished |
 
 ## Cloud direction
 
-Owner's decision, 2026-09-25: this repository is a **round trip** with the cloud. It has no claude.ai project of its own; the cloud side is the job-search project, tracked from `cpp_edu` and the other career repositories. Inputs arrive from brag notes and varied upstream sources (mailbox messages, Cowork output); digests such as the about-me summary go back out. The repository stays the durable copy in both directions.
+Owner's decision, 2026-09-25: this repository is a **round trip** with the cloud. It has no claude.ai project of its own; the cloud side is the job-search project, tracked from `cpp_edu` and the other career repositories. Inputs arrive from brag notes and varied upstream sources (mailbox messages, Cowork output). What goes back out is material for the job-search project; about-me takes what it needs from this repository's history itself. The repository stays the durable copy in both directions.
 
 ## Claude Cowork
 

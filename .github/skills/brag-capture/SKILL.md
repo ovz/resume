@@ -58,7 +58,7 @@ The third stage. An entry whose substance is told in a **story** graduates: a `s
 Procedure, structure and reading-list steps: [`llm-wiki/wiki/workflows/brag-stories.md`](../../../llm-wiki/wiki/workflows/brag-stories.md). **Voice, prominence and how to talk about work that was blocked: [`llm-wiki/wiki/workflows/voice-and-prominence.md`](../../../llm-wiki/wiki/workflows/voice-and-prominence.md)** — read it before writing any outward text, including a resume line or a LinkedIn block. Two rules are easy to break:
 
 - **Never add an empty `storied:`** — the graph tests for the property's presence, so an empty one hides an entry that has not graduated.
-- **A reading list belongs to one conversation.** Keep it in the session scratch scope; durable research on a past employer goes into `llm-wiki/wiki/analysis/employers/<employer>/`, and on a prospective employer into job-search-infra, so this repository does not grow with the interview pipeline.
+- **A reading list belongs to one conversation.** Keep it in the session scratch scope; durable research on a past employer goes into `llm-wiki/wiki/analysis/employers/<employer>/`, and on a prospective employer into cpp_edu's `jobs/<employer>/`, where the preparation for that employer lives (job-search-infra is how the owner looks for jobs, cpp_edu how he prepares), so this repository does not grow with the interview pipeline.
 
 ## Hand off
 
