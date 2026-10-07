@@ -3,17 +3,7 @@
 ## My Story
 
 <!-- linkedin: about limit=2600 title="About (My Story)" -->
-I build **Embedded** software that people's health and safety depends on, and I own the **Architecture** around it. Since **April 2026** I own Architecture decisions across both the **Wearables** and **Handsets** lines at [Best Buy Health][bbh] — every device of [GreatCall][greatcall] lineage still carried by [Lively][lively_products] — and I stay hands-on across all of them. I am looking for a **Sr. Principal Engineer** or **Sr. Staff Engineer** position.
-
-Professional **Software Engineer** since **1996**, most of it **C++**, with **Python** and **SQL** for the telemetry and data side and intermediate **Rust**. My domains are **Embedded Mobile Devices**, **Cellular Technologies**, **Positioning/Location (GNSS)**, **Health**, **Machine Learning/AI**, **Data Engineering** and **Security**. Under all of it sit **Concurrency** and **Network Programming**, on bare-metal **MCUs** and embedded **Linux** alike. **Stewardship** is my first principle, and I practise it by **shifting quality to the left** and **eliminating toil**.
-
-I began as a **Data Security** and **Cryptography** engineer as an undergrad, working for the University mentors who ran the company. It left me a habit I have never lost: reading every system from the standpoint of a **Security Professional**.
-
-From **2000 to 2017** at [Salford Systems][salford] — later a [Minitab][minitab] company — I was an architect and technical lead in **Machine Learning/AI** long before the mainstream caught up. The work was systems work: a cross-platform **Client-Server** engine, **Concurrency** and **Network Protocol** design, a 64-bit migration, distributed ML over **peta-scale** datasets, and the **CI/CD** to ship it all. I managed teams up to **15 people** across the U.S., Ukraine, Poland and China.
-
-Since **2018** at [GreatCall][greatcall] (presently [Best Buy Health][bbh]) I have built **Embedded** devices for Seniors at an MVNO that runs the entire pipeline from hardware manufacturing through to Care. The software gives a gift of independence, confidence and livelihood, and it has to work when someone's life depends on it. I became the company's **Subject Matter Expert on Positioning**, built the fleet **Observability** practice, and applied **Neural Networks** to *Senior Health and Safety*. I asked for, and earned, the move into **regulated medical devices** on a hospital-at-home platform: qualified into a medical-device **Quality Management System** under **FDA**, **EU** and **Australian** regulatory process, mastered **[Orcanos][orcanos]** and added **PPG** wearable to a sensor record already spanning accelerometry, **GNSS** and **BLE**.
-
-Since **2023**, **AI** changed *what I take on*, not just how fast: I build the **Multi-Agent Orchestration** and **Knowledge Systems** that make it a team capability rather than a personal shortcut. My dream job is a perfect combination of **Innovation**, **Value**, and **Impact**.
+<!-- include: _parts/my-story.md -->
 <!-- linkedin: end -->
 
 ## Most prominent achievements

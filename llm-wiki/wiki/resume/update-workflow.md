@@ -38,7 +38,7 @@ Content that must be identical across variants lives once, in `markdown/_parts/`
 <!-- include: _parts/links.md -->
 ```
 
-`_parts/` is a subdirectory, so the build never mistakes a fragment for a document. Eight fragments exist:
+`_parts/` is a subdirectory, so the build never mistakes a fragment for a document. Nine fragments exist:
 
 | Fragment | Why it is shared |
 |---|---|
@@ -47,7 +47,8 @@ Content that must be identical across variants lives once, in `markdown/_parts/`
 | `side-note-links.md` | The Wayback explanation. Pure boilerplate that must read identically wherever it appears |
 | `education.md` | The two degrees. The primary appends its own earlier-schooling section *after* the include; the variant does not |
 | `bullet-operational-excellence.md` | The observability bullet — long, newly written, and therefore the most likely to be refined in one file and forgotten in the other |
-| `bullet-retail-shelf.md` | The *sold off the shelf* achievement bullet (2026-10-01), written once for both the primary and the embedded variant |
+| `bullet-retail-shelf.md` | The *sold off the shelf* achievement bullet (2026-10-01), written once for the primary, the embedded variant and the compact variant |
+| `my-story.md` | *My Story*, which is also the LinkedIn About field (2026-10-07). The primary wraps it in its `linkedin: about` markers, and the compact variant includes it unmarked, so the short edition and the profile always say the same thing. The tailored variants keep their own *My Story*, written for their audience |
 | `experience-best-buy-health.md`, `experience-greatcall.md` | The two employment sections that are also LinkedIn Experience fields (2026-10-01). The primary and the embedded variant tell the 2018–present tenure identically, so the text LinkedIn shows is the text both resumes show |
 
 **Sharing a LinkedIn-marked section.** The `<!-- linkedin: -->` markers stay in the primary and **wrap** the include line, so the fragment itself carries no marker and the slug still appears in exactly one document:
@@ -58,7 +59,7 @@ Content that must be identical across variants lives once, in `markdown/_parts/`
 <!-- linkedin: end -->
 ```
 
-A variant includes the same fragment with no markers. The exporter runs on the prepared Markdown, so the budget check still counts the fragment's text. Two consequences: the 2,000-character budget now binds every variant that includes the fragment, and a nuance one variant wants that the other does not belongs in a separate section of that variant (a *Projects Overview* or *Selected Projects* entry), never in a private edit of the fragment. Minitab, Salford Systems and IIT stay inlined: the embedded variant deliberately compresses them.
+A variant includes the same fragment with no markers. The exporter runs on the prepared Markdown, so the budget check still counts the fragment's text. Two consequences: the LinkedIn budget (2,600 characters for *My Story*, 2,000 for an Experience section) now binds every variant that includes the fragment, and a nuance one variant wants that the other does not belongs in a separate section of that variant (a *Projects Overview* or *Selected Projects* entry), never in a private edit of the fragment. Minitab, Salford Systems and IIT stay inlined: the embedded and compact variants deliberately compress them.
 
 One thing is deliberately *not* shared: the `<!-- linkedin: -->` markers. LinkedIn is a single profile, so exactly one document may feed it — the primary. A duplicate slug across two documents is a hard build error naming both, which is the desired behaviour rather than a limitation to work around.
 
@@ -77,6 +78,8 @@ Add a fragment when content must be *identical* across variants. Divergence betw
 ### Choosing a variant to submit
 
 Read the position description for its centre of gravity. Embedded, firmware, C/C++/Rust, device, real-time, or an explicit Principal/Staff title on a systems team → the embedded variant. Mixed or data/ML-leaning, or where breadth across the whole career is the asset → the primary. When genuinely unsure, the primary is the safer default: it claims less about focus and nothing about it is wrong.
+
+A submission that caps the length, such as a page limit in an applicant-tracking system or a recruiter's rule, changes the choice only when the chosen document does not fit. The [compact variant](variants.md#compact-page-limited-submissions--live) is the primary under a 7-page budget, so it takes the primary's place under any cap of ten pages or more. A tailored variant has no page budget of its own, so measure its DOCX the same way ([method](../sources/resume-compact.md#page-budget)) before submitting it under a cap.
 
 ## Related
 

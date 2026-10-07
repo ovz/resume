@@ -20,6 +20,7 @@
 - [`__untracked_stuff/2026-10-02-about-me-aggregation/tasks/assignment_tracker.md`](__untracked_stuff/2026-10-02-about-me-aggregation/tasks/assignment_tracker.md) — about-me now pulls instead of being sent to; prospective employers live in cpp_edu. Land 042; three Sonnet-ready mailbox messages wait in about-me, agentic_linux and job-search-infra
 - [`__untracked_stuff/2026-10-02-job-search-roundtrip-intake/tasks/assignment_tracker.md`](__untracked_stuff/2026-10-02-job-search-roundtrip-intake/tasks/assignment_tracker.md) — revised bundle checked: cpp_edu already committed; job-search-infra's applied sync needs one README fix, then commit with the prepared message (043 superseded by 045, do not land it)
 - [`__untracked_stuff/2026-10-02-ownership-autonomy-lens/tasks/assignment_tracker.md`](__untracked_stuff/2026-10-02-ownership-autonomy-lens/tasks/assignment_tracker.md) — voice rule 3 (outward text shows valuable behaviour), the autonomy capability entry, About-me stories AM8–AM9 with a defence-listener map, and an ownership-wording pass over all four resumes. Land 044 → 045 → 046; LinkedIn paste due
+- [`__untracked_stuff/2026-10-07-compact-achievements-resume/tasks/assignment_tracker.md`](__untracked_stuff/2026-10-07-compact-achievements-resume/tasks/assignment_tracker.md) — compact resume for the ten-page cap (6 PDF / 7 DOCX pages), *My Story* now a shared fragment. Land 047; read the compact DOCX; two title contradictions in the embedded variant to settle
 
 
 # Ingest

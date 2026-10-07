@@ -5,6 +5,7 @@
 ## Source summaries (one per document)
 
 - [Engineering Manager resume](../wiki/sources/resume-engineering-manager.md) - *reference.* The single management variant, its claim provenance and scope boundaries. **Load when** refreshing the management document or checking variant-only promotions.
+- [Compact resume](../wiki/sources/resume-compact.md) — *reference.* The primary under a page budget: page-count method, a claim map from each compact bullet to the primary text it condenses, and what was left out. **Load when** a change to the primary may need to follow into the compact edition, or a submission caps the length.
 - [Achievements resume — PRIMARY](../wiki/sources/resume-achievements.md) — structure map with line numbers, unique claims, known defects. **Load when** planning an edit pass.
 - [Long-form resume (archived)](../wiki/sources/resume-full.md) — harvest map of ~20 project sections not yet synthesized. **Load when** you need depth on any pre-2018 project.
 - [Resume overview (archived)](../wiki/sources/resume-overview.md) — nothing left to harvest. Load only for provenance.

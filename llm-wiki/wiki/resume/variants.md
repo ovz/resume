@@ -24,17 +24,19 @@ The assessment is an input, not a source of claims: nothing on it enters a resum
 | Priority | File | Audience | Status |
 |---|---|---|---|
 | — | `Oleg.Zhylin.resume.achievements.md` | General — the primary, mirrored to LinkedIn | live |
+| — | [`Oleg.Zhylin.resume.compact.md`](../../../markdown/Oleg.Zhylin.resume.compact.md) | Any submission with a page limit — the primary under a 7-page budget, not an audience | live, 2026-10-07 |
 | — | `Oleg.Zhylin.resume.embedded.md` | Principal Engineer, C++/Rust, embedded, owning operational excellence | live (Tier 1) |
 | — | [`Oleg.Zhylin.resume.networking.md`](../../../markdown/Oleg.Zhylin.resume.networking.md) | Network software engineer — device-side transport, cellular, fleet telemetry | live (Tier 2), 2026-09-20 |
 | **1** | `Oleg.Zhylin.resume.data-ai.md` | Data Engineer for AI / ML / Data Science enablement | planned (Tier 3) |
 | Owner-requested | [`Oleg.Zhylin.resume.engineering-manager.md`](../../../markdown/Oleg.Zhylin.resume.engineering-manager.md) | Engineering Manager with hands-on technical depth and risk-informed delivery | live; one management variant |
 
-A variant that is retired leaves this table for [archive-source](../workflows/archive-source.md). The primary is always the safe default when a posting's centre of gravity is unclear ([choosing a variant](update-workflow.md#choosing-a-variant-to-submit)).
+A variant that is retired leaves this table for [archive-source](../workflows/archive-source.md). The primary is always the safe default when a posting's centre of gravity is unclear, and its compact edition when the submission caps the length ([choosing a variant](update-workflow.md#choosing-a-variant-to-submit)).
 
 ## How variants relate to each other
 
 - **The primary is the union; a variant is a re-weighting.** Every claim a variant makes is also true of the primary's subject and traces to the same brag entry. A variant may say less or reorder; it never says something the record does not support just because the audience would like it.
 - **One fact, one home.** Text that must read identically everywhere lives in `markdown/_parts/`; text a variant should be free to phrase differently is inlined. The test and the fragment list: [update workflow](update-workflow.md#keeping-variants-from-drifting).
+- **What also appears on LinkedIn is shared by default, and tailoring overrides it.** This is the owner's rule, stated 2026-10-07. The best and most effective employers take what they need from the LinkedIn profile, and a resume file is mostly a formality, the copy on record in case the profile's content ever goes away. So the LinkedIn text (*My Story* and the Experience sections) and the common plugs (the shared achievement bullets) are shared as fragments with every variant that can carry them unchanged. A better-tailored resume still matters more than a lower maintenance cost, so a variant tailored to an audience inlines its own version wherever its audience needs a different one. The [compact variant](#compact-page-limited-submissions--live) is the third case: it serves a constraint rather than an audience, so it shares everything the constraint allows. LinkedIn's own limits are not negotiable either way, because the profile generates leads and application systems such as Workday import from it.
 - **Coverage measures the primary.** A claim promoted only into a variant does **not** flip its status in the [coverage map](coverage.md); it is recorded in the variant's *draws on* list below and in the entry's ledger row. Otherwise the coverage number stops meaning "reached the public resume".
 - **No variant contradicts another.** Dates, team sizes, titles and the role of each era are the same words or the same facts in different words. A discrepancy found in one variant is fixed in the source of truth — the brag entry or the primary — and then in every variant.
 - **Adding a variant does not touch the existing ones.** The embedded variant and the primary are not rebalanced to make room for the networking one; each is judged against its own audience.
@@ -89,6 +91,16 @@ Each brief is the loading list for one variant. When drafting, open this section
 - **Draws on:** [2023 risk-practice analysis](../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md), [patch SOP](../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md), [readiness challenge](../../raw/brag/2023-12-05-operational-excellence-launch-readiness.md), [test-automation mentorship](../../raw/brag/2024-12-31-device-test-automation-robot-framework.md), [quality-work triage](../../raw/brag/2021-06-29-engineering-excellency-and-meeting-facilitation.md), [data-governance framework](../../raw/brag/2025-11-13-column-mapping-framework-alation-data-governance.md), [firmware escalation](../../raw/brag/2025-07-18-fota-vendor-escalation-lively-mobile2.md).
 - **Boundaries:** historical titles unchanged; teams up to 15 is not a claim of 15 direct reports. No invented budget, hiring volume, performance-review authority, current formal manager role or enterprise risk ownership. The report's retail experiments, data migration and recovery-plan claims stay out pending attribution. No "process wars" language outward.
 - **Career continuity:** the earlier [Staff Engineer positioning](../../raw/brag/2025-04-01-staff-engineer-behaviors-principal-positioning.md) records reservations about a management track. Preserve that historical view; the owner's newer request authorizes a management variant, not a rewrite claiming management was always the goal.
+
+### Compact (page-limited submissions) — live
+
+- **Document and provenance:** [compact resume](../../../markdown/Oleg.Zhylin.resume.compact.md), [source and claim map](../sources/resume-compact.md). The map carries the page-budget measurement and a row per bullet naming the primary text it condenses.
+- **Centre of gravity:** none of its own. It is the primary under a page budget, for any submission whose system caps the length. The first case was a recruiter's ten-page limit, most likely applied to the DOCX as their system renders it, and the primary renders at about eighteen pages.
+- **Budget:** at most **7 pages as a DOCX opened in LibreOffice**, which leaves about 30% headroom under a 10-page cap for Word, an ATS conversion or A4 paper. Re-measure after any change to its text or to a fragment it includes; the method is on the claim map.
+- **Shape:** *My Story* is the shared fragment, word for word the LinkedIn About. The achievements are condensed to sixteen bullets in three groups, and the employment history is one short paragraph per period that names the period's threads and leaves the elaboration to the achievements. *Projects Overview* is omitted, and an invitation line offers its stories and the full edition.
+- **Draws on:** the primary only. It promotes nothing, so coverage and the brag ledger do not change when it does.
+- **Maintenance:** a change lands in the primary first. The claim map then shows which compact bullet condenses the changed section, if any. *My Story* and the shared bullets arrive on their own, which is why the page count is re-measured after any fragment changes.
+- **What it must not become:** a variant with claims or a voice of its own, or the place where new material lands first. If an audience-specific short resume is ever needed, that is a tailored variant with its own brief.
 
 ## Maintenance
 
