@@ -10,6 +10,7 @@ domains:
 context: "Best Buy Health, R5 / Lively Mobile+ wearable, QA automation"
 sensitivity: private-repo
 resume-worthy: maybe
+storied: [about-me/the-assignment-i-spent-on-people]
 ---
 
 # Turned a top-down test-automation mandate into a mentorship practice, and unblocked the automation nobody could get to pass
@@ -89,3 +90,4 @@ Trello device-programme board, *R5.5 Automation* list (15 cards), 2024-07 throug
 
 - 2026-09-10: created from the Trello device-programme board during the full board ingest.
 - 2026-09-13: reframed at the owner's direction. The headline now leads with the mentorship practice rather than the framework; added *What this was really about* (weak development goal, top-down mandate, the unit-test-coverage metric pushback, the build-versus-guide tradeoff, pull-request discipline, the two kinds of unready mentee, and prompt engineering versus software judgement), plus *What was blocked* and *Evidence limitations*. Domains gained leadership. Re-ingested the same day.
+- 2026-10-02: graduated into the story [about-me/the-assignment-i-spent-on-people]; body unchanged.

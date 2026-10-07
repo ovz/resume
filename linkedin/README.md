@@ -20,9 +20,9 @@ to leave alone. Nothing else in the pipeline can answer that question.
 
 | File | LinkedIn field | Characters | Limit | Headroom | Source |
 |---|---|---:|---:|---:|---|
-| [`about.txt`](about.txt) | About (My Story) | 2,587 | 2,600 | 13 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
-| [`experience-best-buy-health.txt`](experience-best-buy-health.txt) | Experience — Best Buy Health (2020-present) | 1,997 | 2,000 | 3 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
-| [`experience-greatcall.txt`](experience-greatcall.txt) | Experience — GreatCall (2018-2020) | 1,969 | 2,000 | 31 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`about.txt`](about.txt) | About (My Story) | 2,589 | 2,600 | 11 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`experience-best-buy-health.txt`](experience-best-buy-health.txt) | Experience — Best Buy Health (2020-present) | 1,984 | 2,000 | 16 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
+| [`experience-greatcall.txt`](experience-greatcall.txt) | Experience — GreatCall (2018-2020) | 1,920 | 2,000 | 80 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-minitab.txt`](experience-minitab.txt) | Experience — Minitab | 1,872 | 2,000 | 128 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-salford-systems.txt`](experience-salford-systems.txt) | Experience — Salford Systems | 1,983 | 2,000 | 17 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
 | [`experience-iit.txt`](experience-iit.txt) | Experience — Institute of Information Technology | 1,122 | 2,000 | 878 | [`Oleg.Zhylin.resume.achievements.md`](../markdown/Oleg.Zhylin.resume.achievements.md) |
@@ -41,7 +41,7 @@ reads as one document.
 
 ### About (My Story)
 
-`about.txt` · 2,587 of 2,600 characters
+`about.txt` · 2,589 of 2,600 characters
 
 ````text
 I build Embedded software that people’s health and safety depends on, and I own the Architecture around it. Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines at Best Buy Health — every device of GreatCall lineage still carried by Lively — and I stay hands-on across all of them. I am looking for a Sr. Principal Engineer or Sr. Staff Engineer position.
@@ -52,39 +52,39 @@ I began as a Data Security and Cryptography engineer as an undergrad, working fo
 
 From 2000 to 2017 at Salford Systems — later a Minitab company — I was an architect and technical lead in Machine Learning/AI long before the mainstream caught up. The work was systems work: a cross-platform Client-Server engine, Concurrency and Network Protocol design, a 64-bit migration, distributed ML over peta-scale datasets, and the CI/CD to ship it all. I managed teams up to 15 people across the U.S., Ukraine, Poland and China.
 
-Since 2018 at GreatCall (presently Best Buy Health) I have built Embedded devices for Seniors at an MVNO that runs the entire pipeline from hardware manufacturing through to Care. The software gives a gift of independence, confidence and livelihood, and it has to work when someone’s life depends on it. I became the company’s Subject Matter Expert on Positioning, built the fleet Observability practice, and applied Neural Networks to Senior Health and Safety. I then earned the trust to move into regulated medical devices on a hospital-at-home platform: qualified into a medical-device Quality Management System under FDA, EU and Australian regulatory process, mastered Orcanos and added PPG wearable to a sensor record already spanning accelerometry, GNSS and BLE.
+Since 2018 at GreatCall (presently Best Buy Health) I have built Embedded devices for Seniors at an MVNO that runs the entire pipeline from hardware manufacturing through to Care. The software gives a gift of independence, confidence and livelihood, and it has to work when someone’s life depends on it. I became the company’s Subject Matter Expert on Positioning, built the fleet Observability practice, and applied Neural Networks to Senior Health and Safety. I asked for, and earned, the move into regulated medical devices on a hospital-at-home platform: qualified into a medical-device Quality Management System under FDA, EU and Australian regulatory process, mastered Orcanos and added PPG wearable to a sensor record already spanning accelerometry, GNSS and BLE.
 
 Since 2023, AI changed what I take on, not just how fast: I build the Multi-Agent Orchestration and Knowledge Systems that make it a team capability rather than a personal shortcut. My dream job is a perfect combination of Innovation, Value, and Impact.
 ````
 
 ### Experience — Best Buy Health (2020-present)
 
-`experience-best-buy-health.txt` · 1,997 of 2,000 characters
+`experience-best-buy-health.txt` · 1,984 of 2,000 characters
 
 ````text
 Since April 2026 I own Architecture decisions across both the Wearables and Handsets lines, while staying hands-on. Fall detection is Lively Mobile’s killer feature, and I am driving its next innovation for active seniors.
 
-I built the fleet Observability practice: an agentless device-health architecture, chosen when no monitoring agent fit the memory budget, the production Monitors on it, and Anomaly Detection tuned from ARIMA/SARIMA first principles. It drastically reduced Cost of Operation and caught defects before customers did. When Lively Mobile 2 moved to a new contract manufacturer mid-programme, that evidence was already in place, so whether the new build behaved was answerable with data, not argument. I was instrumental in making that transition succeed and in bringing the programme back to a regular hardware/software development lifecycle, playing it safe and serving customers at the same time.
+I built the fleet Observability practice: an agentless device-health architecture, chosen when no monitoring agent fit the memory budget, the production Monitors on it, and Anomaly Detection tuned from ARIMA/SARIMA first principles. It drastically reduced Cost of Operation and caught defects before customers did, and I took it to the other engineering teams. When Lively Mobile 2 moved to a new contract manufacturer mid-programme, that evidence was already in place, so whether the new build behaved was answerable with data, not argument. I worked the transition through to a regular hardware/software development lifecycle, playing it safe and serving customers at the same time.
 
 We launched Lively Mobile 2 in 2024. I upgraded Positioning via Qualcomm Skyhook on Qualcomm Linux Enablement, then architected the Location Engine unifying GNSS, Wi-Fi and BLE beacons with arbitration and fallback.
 
-Having earned the organization’s trust, I was given Current Health’s Hospital at Home work in regulated medical devices: I qualified into its medical-device Quality Management System — Design Control, CAPA, supplier quality — under FDA, EU and Australian regulation, mastered Orcanos and a PPG wearable in record time, traced a firmware defect that made the platform conclude a patient was unmonitored, and relished the integration it demanded, across devices, technologies, company cultures and people.
+I asked for Current Health’s Hospital at Home work in regulated medical devices a year before it came, and earned it: I qualified into its medical-device Quality Management System — Design Control, CAPA, supplier quality — under FDA, EU and Australian regulation, mastered Orcanos and a PPG wearable in record time, traced a firmware defect that made the platform conclude a patient was unmonitored, and relished the integration it demanded, across devices, technologies, company cultures and people.
 
 I bring Concurrency and Network Programming to bare-metal MCUs and embedded Linux. I own the platform foundations — a component framework in embedded C, safety-critical C++ guidelines, Conan packaging on JFrog Artifactory with ARM cross-compilation — and since 2023 build the Multi-Agent Orchestration and Knowledge Systems that make AI a team capability.
 ````
 
 ### Experience — GreatCall (2018-2020)
 
-`experience-greatcall.txt` · 1,969 of 2,000 characters
+`experience-greatcall.txt` · 1,920 of 2,000 characters
 
 ````text
 I joined a brilliant team building the Lively Mobile+ Emergency Response device — technology that helps many seniors live a long, independent life. Radio waves and technology stacks are deprived of a sense of urgency to save a human life, so the engineering has to supply it. Embedded constraints made the work creative rather than limiting: latest C++, robust architecture, advanced Concurrency.
 
 I built Fully Automated Fall Detection: the infrastructure to filter MCU signals and coordinate device subsystems to place a phone call by themselves when a Customer falls, tracked even across a reboot. I also became the company’s Subject Matter Expert on Positioning (GNSS — GPS, GLONASS, Galileo — ECID, Wi-Fi, BLE beacons), diagnosing and fixing implementation issues and executing a major upgrade of the Positioning infrastructure. Accurate Location is not a feature on an Emergency Response device; it is the product.
 
-2019 was the hard year, and the formative one. I was instrumental in getting us through the August 2019 CPSC recall of the device and the relaunch that followed. Existing tooling could not say, at fleet scale, which devices were affected or whether a fix had taken; my Data Engineering work on device and server telemetry is what turned that from argument into measurement. The analysis outlived the crisis and changed how the product was maintained. I also watched an entire company — engineering, quality, operations, supply chain, care and executives — coordinate under a hard deadline with customer safety at stake, with unusually transparent leadership — a template I have drawn on ever since.
+2019 was the hard year, and the formative one. Through the August 2019 CPSC recall of the device and the relaunch that followed, existing tooling could not say, at fleet scale, which devices were affected or whether a fix had taken; my Data Engineering on device and server telemetry turned that from argument into measurement. The analysis outlived the crisis and changed how the product was maintained. I also watched an entire company — engineering, quality, operations, supply chain, care and executives — coordinate under a hard deadline with customer safety at stake, with unusually transparent leadership — a template I have drawn on ever since.
 
-I took charge of the architecture for automated tests that run on the device, cutting test time and raising quality by orders of magnitude, then onboarded QA engineers so the gains outlived my attention — which is what made contractor spending productive. I contributed Technical Interview challenges and brought prepared, two-way feedback upward.
+I took charge of the architecture for automated tests that run on the device, cutting test time and raising quality by orders of magnitude, then onboarded QA engineers so the gains outlived my attention — which is what made contractor spending productive. I designed Technical Interview challenges and brought prepared, two-way feedback upward.
 ````
 
 ### Experience — Minitab
@@ -92,13 +92,13 @@ I took charge of the architecture for automated tests that run on the device, cu
 `experience-minitab.txt` · 1,872 of 2,000 characters
 
 ````text
-At the end of an almost two-decades-long journey with Salford Systems, I helped it become a Minitab company. I was instrumental in making the entire Intellectual Property of Salford Systems available to Minitab and getting it under proper Governance — detailed records I had kept for years are what made that pace possible.
+At the end of an almost two-decades-long journey with Salford Systems, I led engineering’s side of Minitab’s technical visits before it acquired the company, then carried the engineering integration. I transferred the entire Intellectual Property of Salford Systems to Minitab under proper Governance — detailed records I had kept for years are what made that pace possible.
 
-I completed the migration of Codebase, Issue Tracking and CI/CD onto Visual Studio Team Services in less than a year, while maintaining the legacy CI/CD the platform team had no resources to move. I provided a comprehensive review of every Software Development project in progress, and implemented Top Management’s decisions to freeze some of them properly, so that all of them can be resurrected effectively.
+I completed the migration of Codebase, Issue Tracking and CI/CD onto Visual Studio Team Services in less than a year, while maintaining the legacy CI/CD the platform team had no resources to move. I gave leadership a comprehensive review of every Software Development project in progress, and froze the ones they chose to pause so that every one of them can be resurrected effectively.
 
-Per a mandate from Top Management I built the process to scale up the development team, cutting onboarding from 2-3 months to less than a week. I established a stable baseline of Salford Predictive Modeler (SPM), identifying and addressing instabilities to create a solid foundation for the incremental SPM v8.3 release, and improved the coverage and quality of Automated Tests with the Quality Engineers, promoting Test-Driven Development.
+Asked to scale up the development team, I built the process that cut onboarding from 2-3 months to less than a week. I established a stable baseline of Salford Predictive Modeler (SPM), identifying and addressing instabilities to create a solid foundation for the incremental SPM v8.3 release, and improved the coverage and quality of Automated Tests with the Quality Engineers, promoting Test-Driven Development.
 
-I brought the Codebase in line with Source Code Style guidelines, using my knowledge of C++ to get the company’s other Tech Leads on board for significant improvements. This was a short tenure and a formative one: the bar rose in some places and not others, and learning to read which is which — rather than assume — is what I took into the next role. I learned the Nalpeiron license manager, introduced it into the product, and spearheaded making the License Management package reusable across all Minitab projects. I advocated a company-wide repository of reusable code based on NuGet, and participated in architecting the next version of the Machine Learning APIs and Cloud offerings on AWS.
+I brought the Codebase in line with Source Code Style guidelines, using my knowledge of C++ to get the company’s other Tech Leads on board for significant improvements. This was a short tenure and a formative one: the bar rose in some places and not others, and learning to read which is which — rather than assume — is what I took into the next role. I learned the Nalpeiron license manager, introduced it into the product, and spearheaded making the License Management package reusable across all Minitab projects. I advocated a company-wide repository of reusable code based on NuGet, and was one of the architects of the next version of the Machine Learning APIs and Cloud offerings on AWS.
 ````
 
 ### Experience — Salford Systems

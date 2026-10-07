@@ -58,16 +58,18 @@ A breadth-first Gmail survey pass (2026-09-16) surfaced eight distinct Salford S
 
 **Entries:** [2009-06-01 SPM release engineering and Japanese localization](../../../raw/brag/2009-06-01-spm-release-engineering-japanese-localization.md) · [2012-01-01 Git/GitHub/RedMine modernization](../../../raw/brag/2012-01-01-salford-git-github-redmine-modernization.md) · [2012-09-01 SPM workspace storage architecture](../../../raw/brag/2012-09-01-spm-workspace-storage-architecture-sqlite-json.md) · [2016-11-01 Minitab acquisition technical diligence](../../../raw/brag/2016-11-01-salford-minitab-acquisition-technical-diligence.md) · [2015-01-01 Mirabit outsourcing vendor staffing](../../../raw/brag/2015-01-01-mirabit-outsourcing-vendor-staffing-management.md) · [2009-02-01 SPM_protected / Wibu-Systems CodeMeter](../../../raw/brag/2009-02-01-spm-protected-wibu-codemeter-license-integration.md)
 
-**Thread coverage: 0%** (0 of 6)
+**Thread coverage: ≈ 8%** (0.5 of 6)
 
 | Claim | Source | Status |
 |---|---|---|
 | `SALF-1` Directed release engineering across three parallel build tracks (English, Japanese, license-protected) for a commercial statistical modeling product, triaging cross-cutting bug reports as central reviewer, and ran a full literal-string-to-resource-table Japanese localization | 2009-06-01 | absent |
 | `SALF-2` Led a team's migration from SVN to Git — access-controlled server, timing argument, scheduled cut-over, wiki runbooks — including hands-on git-workflow mentorship of a colleague senior in tenure | 2012-01-01 | absent |
 | `SALF-3` Argued for four years a document-store model repository and separate columnar data storage for SPM, with consistency and denormalisation trade-offs made explicit (never shipped) | 2012-09-01 | absent |
-| `SALF-4` Led engineering's side of an acquirer's pre-acquisition technical visits — integration pitch, technical deep dive and code review with their architect, written follow-up from source history, a second codebase visit | 2016-11-01 | absent |
+| `SALF-4` Led engineering's side of an acquirer's pre-acquisition technical visits — integration pitch, technical deep dive and code review with their architect, written follow-up from source history, a second codebase visit | 2016-11-01 | partial |
 | `SALF-5` Made and defended staffing recommendations for an outsourced development team across three concurrent products, escalating the case to leadership | 2015-01-01 | absent |
 | `SALF-6` Owned commercial licence protection from 2009 to 2017 — planned and ran the CodeMeter migration (2015), protected builds on Windows, Linux and macOS, licence-server and customer licensing support in production | 2009-02-01 | absent |
+
+> `SALF-4` became `partial` on 2026-10-02: the Minitab employment section now says he led engineering's side of the acquirer's technical visits, without the pitch, the code review or the written follow-up.
 
 > All six entries are candidates from a single-pass Gmail survey, not full-thread deep-dives — dates, named colleagues and quotes are preserved, but outcomes and full technical detail are largely unconfirmed. See *Evidence limitations* in each entry before promoting any claim.
 

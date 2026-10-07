@@ -2,14 +2,15 @@
 
 > **Doc type:** reference
 >
-> The two rules that govern every outward telling of this career: **one voice, many registers**, and **prominence follows evidence**. Plus the protocol for talking honestly about work that was blocked, frozen or never shipped. Audience: the owner rehearsing a story or preparing for a conversation; any agent writing a story, a resume line, a LinkedIn block or a reading list.
+> The three rules that govern every outward telling of this career: **one voice, many registers**, **prominence follows evidence**, and **the genre is a job search, so every telling shows valuable behaviour**. Plus the protocol for talking honestly about work that was blocked, frozen or never shipped. Audience: the owner rehearsing a story or preparing for a conversation; any agent writing a story, a resume line, a LinkedIn block or a reading list.
 >
 > This is a foundation pillar of this repository's agent instructions, not an optional style guide. A story that obeys [brag-stories.md](brag-stories.md)'s six beats and breaks the rules here is worse than no story: it will either sound like someone else, or claim more than the record can carry.
 
-## The two rules
+## The three rules
 
 1. **One voice, many registers.** Every telling should sound recognisably like the same person — so that the owner's brain drops into storytelling mode from the first line, on any story in the corpus. But thirty years cannot be told in one register. The 1996 cryptography undergraduate and the 2026 architecture owner are the same person with different information, different authority and different stakes, and a telling that flattens them into today's voice loses exactly what makes the early material worth hearing.
 2. **Prominence follows evidence.** How loudly a claim is made is set by how well it is supported *and* how much it mattered — never by stated impact alone. This cuts in both directions, and the upward direction is the one people neglect: **false humility is a defect**, as much as overclaiming is. A well-grounded, high-impact accomplishment that appears nowhere prominent is a failure of this file.
+3. **The genre is a job search, so every telling shows valuable behaviour.** The owner's standing rule, 2026-10-02: every outward piece — resume, variant, story, LinkedIn block, reading list, cover note, and any category added later — casts him in the most positive true light and leaves the reader with a strong promise of a valuable colleague who will integrate well into their organization. It is told through **behaviours shown in episodes**: judgment and ownership, autonomy taken and given, results communicated with the credit handed on, value placed in individuals and interactions, stewardship. Rule 2 bounds it — positive never means inflated — and § *Judgment over throughput* below says how to select and word for it.
 
 ## Getting into the mode: role-play, not performance
 
@@ -79,7 +80,7 @@ The register tables below still apply; this section governs sentence shape insid
 | **2017-2018** — Minitab | The person who held two decades of institutional knowledge during an acquisition | Custody and dry judgement. Short, factual, slightly wry — a register about responsibility rather than achievement | What it takes to transfer an entire company's intellectual property and freeze projects so they can actually be resurrected; reading an environment instead of assuming one | Turning a short tenure into either a triumph or a grievance. It was neither |
 | **2018-2020** — GreatCall | Hands-on embedded engineer on a device people's safety depends on, through a recall | Urgency and plainness. Short declaratives, bare numbers, no adjectives. The stakes do the work | The 2019 recall and relaunch; making a fleet answerable with telemetry when nothing could say which devices were affected; watching a whole company coordinate under a hard deadline | Dramatising it. The facts are already dramatic; adding emphasis reads as insecurity |
 | **2020-2026** — Best Buy Health | Architecture owner across two device lines, still hands-on, working through other people | Ownership and economy. Calm, specific, willing to say "I decided" and equally willing to say "that was blocked" | Choosing a C++ standard on what static analysis can enforce; agentless observability because no agent fit the RAM budget; earning the regulated medical work by asking for a year | Sounding like a manager. The authority here comes from still being in the code |
-| **All eras** | The constant | The security professional's reading of any system; raising the bar and then reading whether the room lets a raised bar compound; builder-architect close enough to implement; grit without patience for toil | — | Dropping the thread, so the career reads as five jobs instead of one arc |
+| **All eras** | The constant | The security professional's reading of any system; raising the bar and then reading whether the room lets a raised bar compound; builder-architect close enough to implement; grit without patience for toil; autonomy, with every result made known and its recipients left free to own it | — | Dropping the thread, so the career reads as five jobs instead of one arc |
 
 ## Prominence follows evidence
 
@@ -97,6 +98,16 @@ The register tables below still apply; this section governs sentence shape insid
 **Against false humility.** "Instrumental in", "helped with", "participated in" and "was involved in" are the house style of a career that undersells itself. Where the owner decided, designed, root-caused, argued, or owned, the verb says so. Where he observed, supported or watched from an adjacent seat, the verb says *that* — and the record already does exactly this in places, which is why the strong claims are believable.
 
 **Numbers land bare or not at all.** A quantified claim with no evidence behind it is the worst of both worlds: it invites the one question you cannot answer. The corpus already contains a retired productivity multiplier for exactly this reason.
+
+## Judgment over throughput — selecting and wording for rule 3
+
+Rule 3 in practice. It comes from the owner's positioning note of 2026-09-24 and his words of 2026-10-02: *"I was always good at autonomy and quickly learned that results not communicated don't exist. So my outcomes are always eagerly advertised and I make sure to maximize impact by giving recipients the autonomy credit. I see great fundamental value in individuals and interactions."* The evidence for each behaviour is indexed in the capability entry [2026-10-02 autonomy and communicated outcomes](../../raw/brag/2026-10-02-autonomy-and-communicated-outcomes.md).
+
+- **Select for judgment, not volume.** Prefer the episode where he decided, owned something end to end, retired a risk or stopped the line over counts of features, releases, tickets or hours. A number earns its place when it is the outcome of a decision (onboarding cut from months to under a week), never as the claim itself.
+- **Ownership verbs, where the record carries them.** "Responsible for", "tasked with", "supported", "per a mandate" and "implemented the decision" describe a passive executor. With the false-humility list above, they give way to the verb the evidence supports — *decided, owned, designed, root-caused, argued, froze, handed over, presented*. Where the record says only "instrumental", name the part that is evidenced rather than strengthening the adjective.
+- **A result is told with who received it and what they did with it.** Presented to a community of practice; handed to QA engineers who then owned it; documented so other teams extend it. The recipients get credit, by role, for what they made of it — the credit rule in § *Humility, respect and trust*, applied to outcomes.
+- **Every piece shows how he works with people**, not only what he built: a peer who persuaded him, a partner treated engineer to engineer, a manager given prepared feedback. That is the "well integrated" half of the promise, and a solo-hero telling loses it.
+- **Show it; never argue it.** The lens behind this rule is the owner's private way of reading employers and postings, and it stays private: no outward text says "not a cog" or "anti-factory", or criticises process, metrics or another organization as a thesis. A refusal is told as what he protected (unit tests kept as an engineering instrument), not as what he resisted. [About me](../stories/about-me.md) § *Ownership and autonomy* maps the behaviours to stories, including for a defence listener.
 
 ## Blocked, frozen, and never shipped
 
@@ -133,7 +144,8 @@ In a telling:
 |---|---|
 | Writing a story ([brag-stories.md](brag-stories.md)) | Pick the era register before writing the narrative; write *Why I still care* first; put blocked work in *If they follow up* with its lesson; build the spoken lines from the owner's own dictation per [spoken drafts](spoken-drafts.md) |
 | Building a reading list | Order by support × impact, not by recency alone; include at least one blocked-work answer, because it will be asked |
-| A resume pass ([update-workflow.md](../resume/update-workflow.md)) | Prominence table above decides placement before wording is drafted; check the claim's coverage status first |
+| A resume pass ([update-workflow.md](../resume/update-workflow.md)) | Prominence table above decides placement before wording is drafted; check the claim's coverage status first; sweep the touched text for the passive-executor verbs in § *Judgment over throughput* |
+| Any new kind of outward material | Rule 3 applies from its first draft: it shows behaviours in episodes, and it is checked against this page before it leaves the repository |
 | A LinkedIn pass ([linkedin-publish.md](linkedin-publish.md)) | The About section is the highest-prominence surface in the corpus. Only well-grounded, high-impact claims belong in its first paragraph |
 | Ingesting a brag entry ([brag-file.md](brag-file.md)) | Write `## Evidence limitations` and `## What was blocked, cut short, or wrong` while the detail is fresh. They are what makes later prominence decisions possible |
 | Considering a dream job ([dream-job hub](../dream-jobs/dream-job-hub.md)) | Same rule: a candidate's stated fit is worth nothing without the record behind it, which is why each candidate page carries an evidence grade |

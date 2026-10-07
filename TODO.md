@@ -18,6 +18,8 @@
 - [`__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-23-belonging-stewardship-theme/tasks/assignment_tracker.md) — review the belonging/stewardship hub section and About Me story AM1; land its commit guide
 - [`__untracked_stuff/2026-09-27-github-mirror-shared-customizations/tasks/assignment_tracker.md`](__untracked_stuff/2026-09-27-github-mirror-shared-customizations/tasks/assignment_tracker.md) — GitHub mirror is up and `gh` is logged in; land commits 003 then 004; decide on `python3` → `uv run`; then `git push` fills the mirror
 - [`__untracked_stuff/2026-10-02-about-me-aggregation/tasks/assignment_tracker.md`](__untracked_stuff/2026-10-02-about-me-aggregation/tasks/assignment_tracker.md) — about-me now pulls instead of being sent to; prospective employers live in cpp_edu. Land 042; three Sonnet-ready mailbox messages wait in about-me, agentic_linux and job-search-infra
+- [`__untracked_stuff/2026-10-02-job-search-roundtrip-intake/tasks/assignment_tracker.md`](__untracked_stuff/2026-10-02-job-search-roundtrip-intake/tasks/assignment_tracker.md) — revised bundle checked: cpp_edu already committed; job-search-infra's applied sync needs one README fix, then commit with the prepared message (043 superseded by 045, do not land it)
+- [`__untracked_stuff/2026-10-02-ownership-autonomy-lens/tasks/assignment_tracker.md`](__untracked_stuff/2026-10-02-ownership-autonomy-lens/tasks/assignment_tracker.md) — voice rule 3 (outward text shows valuable behaviour), the autonomy capability entry, About-me stories AM8–AM9 with a defence-listener map, and an ownership-wording pass over all four resumes. Land 044 → 045 → 046; LinkedIn paste due
 
 
 # Ingest

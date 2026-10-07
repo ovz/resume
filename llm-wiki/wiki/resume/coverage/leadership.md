@@ -109,9 +109,9 @@
 
 The disposition that connects `RSK`, `DATA` governance, `OBS` portfolio care and the Minitab IP transfer: ownership of what is held in trust, practised by eliminating toil. A capability thread — its entry indexes evidence that lives in other threads, so its claims are about the principle and its outward telling, never duplicates of theirs.
 
-**Entries:** [2026-09-16 stewardship as a first principle](../../../raw/brag/2026-09-16-stewardship-first-principle.md) · cross-listed: [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) (claims under `DATA`), [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) and [2023-08-03 risk management](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) (claims under `RSK`) · [2023-01-30 freeze counterexample](../../../raw/brag/2023-01-30-system-monitor-freeze-counterexample.md)
+**Entries:** [2026-09-16 stewardship as a first principle](../../../raw/brag/2026-09-16-stewardship-first-principle.md) · [2026-10-02 autonomy and communicated outcomes](../../../raw/brag/2026-10-02-autonomy-and-communicated-outcomes.md) · cross-listed: [2025-01-01 Data Steward](../../../raw/brag/2025-01-01-data-steward-enterprise-data-catalog.md) (claims under `DATA`), [2023-09-30 patch management SOP](../../../raw/brag/2023-09-30-security-patch-management-sop-and-vendor-engagement.md) and [2023-08-03 risk management](../../../raw/brag/2023-08-03-risk-management-practice-early-analysis.md) (claims under `RSK`) · [2023-01-30 freeze counterexample](../../../raw/brag/2023-01-30-system-monitor-freeze-counterexample.md)
 
-**Thread coverage: 60%** (3 of 5)
+**Thread coverage: 70%** (7 of 10)
 
 | Claim | Source | Status |
 |---|---|---|
@@ -120,6 +120,11 @@ The disposition that connects `RSK`, `DATA` governance, `OBS` portfolio care and
 | `STEW-3` Treats eliminating toil as how stewardship is practised: a steward is judged by what is handed on, and hand work is where drift and single points of knowledge live | 2026-09-16 | **in** |
 | `STEW-4` Extends stewardship to the employer's information, describing internal systems by function and keeping internal names off public material | 2026-09-16 | absent |
 | `STEW-5` Holds that a frozen project must still build and its tests still run on the day it stops, from a counterexample observed first-hand | 2023-01-30 | absent |
+| `STEW-6` Works with autonomy taken: owns an outcome end to end, including the unowned part and the part beyond the remit | 2026-10-02 | **in** |
+| `STEW-7` Selects for judgment over throughput — decided, retired a risk, stopped the line — rather than counting output | 2026-10-02 | absent |
+| `STEW-8` Makes every result known, on the lesson that a result nobody hears about does not exist | 2026-10-02 | **in** |
+| `STEW-9` Hands results on so the people who receive them can own them, with the credit for what they make of them | 2026-10-02 | **in** |
+| `STEW-10` Puts individuals and interactions first, in the Agile Manifesto's terms | 2026-10-02 | **in** |
 
-> Promoted the day it was captured: a *My Story* sentence, a C2 achievement in both resumes, and a data-stewardship paragraph in the 2023-2026 security and risk project section. `STEW-4` is deliberately left off the resume — it is practised by the resume rather than claimed on it, and it is a follow-up answer in a story.
+> Promoted the day it was captured: a *My Story* sentence, a C2 achievement in both resumes, and a data-stewardship paragraph in the 2023-2026 security and risk project section. `STEW-4` is deliberately left off the resume — it is practised by the resume rather than claimed on it, and it is a follow-up answer in a story. `STEW-6` to `STEW-10` arrived on 2026-10-02 with four already `in`, through the primary's rewritten Agile bullet and the ownership wording swept through it the same day; `STEW-7` is left off for the same reason as `STEW-4` — it is how the resume is selected and worded ([voice and prominence](../../workflows/voice-and-prominence.md) § *Judgment over throughput*), not a line on it.
 

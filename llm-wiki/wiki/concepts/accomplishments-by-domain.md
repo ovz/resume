@@ -31,6 +31,6 @@
 | Build, release, CI/CD | [Build, quality and operations](accomplishments-engineering-practice.md) | 12 |
 | Quality and test automation | [Build, quality and operations](accomplishments-engineering-practice.md) | 12 |
 | Operational excellence and observability | [Build, quality and operations](accomplishments-engineering-practice.md) | 15 |
-| Leadership, management, hiring | [Leadership, risk and security](accomplishments-leadership-risk-security.md) | 19 |
+| Leadership, management, hiring | [Leadership, risk and security](accomplishments-leadership-risk-security.md) | 20 |
 | Risk management and compliance | [Leadership, risk and security](accomplishments-leadership-risk-security.md) | 4 |
 | Security, cryptography, licensing | [Leadership, risk and security](accomplishments-leadership-risk-security.md) | 4 |

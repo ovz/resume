@@ -37,6 +37,7 @@ The register that makes it concrete for a listener is the one where custody was 
 - **Security-minded roles** — ST5 first (it is told and short), then ST3, then the cryptography roots from the IIT era.
 - **"Tell me about eliminating toil" or a conversation about automation and process** — ST1's toil follow-up, then the on-device test automation handed to QA.
 - **An acquisition, a wind-down, a migration, or any role where somebody must hold continuity** — ST1 is the whole point.
+- **Defence and government employers** — ST1 and ST5 answer "custody of something that must not fail"; the full map from mission-command vocabulary to stories, across clusters, is [About me](about-me.md) § *Telling it to a defence listener*.
 
 ## Related, not conflated
 

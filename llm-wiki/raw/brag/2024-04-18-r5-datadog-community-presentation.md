@@ -8,6 +8,7 @@ domains:
 context: "Best Buy Health, cross-team engineering community-of-practice presentation on the device observability program"
 sensitivity: private-repo
 resume-worthy: yes
+storied: [about-me/showing-the-monitors]
 ---
 
 # Presented Datadog observability program to engineering community, caught a live issue on stage
@@ -31,3 +32,4 @@ Recorded presentation and internal Confluence narrative for the community-of-pra
 ## Record history
 
 - 2026-09-07: created
+- 2026-10-02: graduated into the story [about-me/showing-the-monitors]; body unchanged.
